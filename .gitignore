@@ -34,3 +34,8 @@ eagle.epf
 *.info
 
 *.eps
+
+# Eagle brd, sch, and lbr autosaves
+*.b#*
+*.s#*
+*.l#*
