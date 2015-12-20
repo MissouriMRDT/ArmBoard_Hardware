@@ -1501,6 +1501,12 @@ WARNING: The mounting holes on this board are only for reference. They will not 
 <text x="59.3725" y="13.0175" size="1.27" layer="21">1</text>
 <text x="122.8725" y="13.0175" size="1.27" layer="21">1</text>
 <text x="122.8725" y="49.2125" size="1.27" layer="21">1</text>
+<text x="6.35" y="40.64" size="1.27" layer="49" align="bottom-center">WARNING:
+DO NOT PLACE 
+BOARD ABOVE 
+RJ45 JACK. JACK
+TALLER THAN 
+HEADER PINS!!</text>
 </package>
 <package name="MLX-3-PIN-SOCKET">
 <pad name="P$1" x="0" y="0" drill="2"/>
@@ -5818,7 +5824,7 @@ D = Direct mounting &lt;p&gt;
 <part name="LED_PWR" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="EE" library="transistor-power" deviceset="IRF7910PBF" device=""/>
+<part name="FET_EE" library="transistor-power" deviceset="IRF7910PBF" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="ENC_J4" library="con-molex" deviceset="53?-03" device="047"/>
@@ -5831,7 +5837,6 @@ D = Direct mounting &lt;p&gt;
 <part name="P+3" library="supply1" deviceset="+12V" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
-<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
@@ -5861,6 +5866,7 @@ D = Direct mounting &lt;p&gt;
 <part name="ENC_J1" library="con-molex" deviceset="53?-03" device="047"/>
 <part name="ENC_J2" library="con-molex" deviceset="53?-03" device="047"/>
 <part name="ENC_J3" library="con-molex" deviceset="53?-03" device="047"/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5916,7 +5922,7 @@ D = Direct mounting &lt;p&gt;
 <instance part="P+3" gate="1" x="15.24" y="73.66"/>
 <instance part="GND13" gate="1" x="15.24" y="58.42"/>
 <instance part="P+4" gate="1" x="22.86" y="48.26"/>
-<instance part="+3V2" gate="G$1" x="10.16" y="48.26"/>
+<instance part="P+13" gate="1" x="10.16" y="48.26"/>
 </instances>
 <busses>
 </busses>
@@ -5940,6 +5946,11 @@ D = Direct mounting &lt;p&gt;
 <wire x1="17.78" y1="66.04" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="10.16" y1="66.04" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<wire x1="10.16" y1="43.18" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5965,12 +5976,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="10.16" y1="30.48" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="LED_PWR" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="+3V3" class="0">
-<segment>
-<wire x1="10.16" y1="45.72" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -6527,8 +6532,8 @@ D = Direct mounting &lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="EE" gate="G$1" x="20.32" y="35.56"/>
-<instance part="EE" gate="G$2" x="66.04" y="35.56"/>
+<instance part="FET_EE" gate="G$1" x="20.32" y="35.56"/>
+<instance part="FET_EE" gate="G$2" x="66.04" y="35.56"/>
 <instance part="GND9" gate="1" x="22.86" y="25.4"/>
 <instance part="GND11" gate="1" x="68.58" y="25.4"/>
 <instance part="CON_PWR_SOL" gate="G$1" x="33.02" y="58.42"/>
@@ -6539,36 +6544,23 @@ D = Direct mounting &lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="FROM_EE_GND" class="0">
-<segment>
-<pinref part="EE" gate="G$2" pin="D"/>
-<wire x1="68.58" y1="40.64" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
-<pinref part="EE" gate="G$1" pin="S"/>
+<pinref part="FET_EE" gate="G$1" pin="S"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="22.86" y1="30.48" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="EE" gate="G$2" pin="S"/>
+<pinref part="FET_EE" gate="G$2" pin="S"/>
 <wire x1="68.58" y1="30.48" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="GATE_PWR_SOL" class="0">
 <segment>
-<pinref part="EE" gate="G$1" pin="G"/>
+<pinref part="FET_EE" gate="G$1" pin="G"/>
 <wire x1="17.78" y1="33.02" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
 <label x="15.24" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="GATE_PWR_EE" class="0">
-<segment>
-<pinref part="EE" gate="G$2" pin="G"/>
-<wire x1="63.5" y1="33.02" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
-<label x="60.96" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -6589,15 +6581,16 @@ D = Direct mounting &lt;p&gt;
 <segment>
 <pinref part="CON_PWR_SOL" gate="G$1" pin="GND"/>
 <wire x1="25.4" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="EE" gate="G$1" pin="D"/>
+<pinref part="FET_EE" gate="G$1" pin="D"/>
 <wire x1="22.86" y1="55.88" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EEPWR_GND" class="0">
 <segment>
+<pinref part="FET_EE" gate="G$2" pin="D"/>
+<wire x1="68.58" y1="40.64" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="CON_PWR_EE" gate="G$1" pin="GND"/>
-<wire x1="71.12" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="55.88" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -6682,4 +6675,10 @@ D = Direct mounting &lt;p&gt;
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
