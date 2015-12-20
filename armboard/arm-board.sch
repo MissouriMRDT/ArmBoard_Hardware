@@ -5799,7 +5799,7 @@ D = Direct mounting &lt;p&gt;
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="E" value="330uF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED_XB_RX" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
-<part name="LED_XB_TX" library="SparkFun-LED" deviceset="LED-GREEN" device="1206-BOTTOM" value="GREEN"/>
+<part name="LED_XB_TX" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="XB" library="SparkFun" deviceset="XBEE-1" device="B3"/>
