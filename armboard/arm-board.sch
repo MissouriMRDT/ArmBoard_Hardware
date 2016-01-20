@@ -5390,17 +5390,17 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED_XB_RX" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
 <part name="LED_XB_TX" library="SparkFun-LED" deviceset="LED-GREEN" device="1206" value="GREEN"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="RES_LEDXBRX" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="RES_LEDXBTX" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="XB" library="SparkFun" deviceset="XBEE-1" device="B3"/>
 <part name="DYNA1" library="MRDT-2015-Arm" deviceset="DYNAMIXEL-1X03" device="HORIZ"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1k"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
-<part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
+<part name="RES_LEDDYNASWD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="LED_DYNASWD" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
+<part name="ZENER_DYNA1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
 <part name="TRISTATEBUFFER" library="74LS241" deviceset="SN74LS241DW" device=""/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="RES_LEDPWR" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="LED_PWR" library="SparkFun-LED" deviceset="LED" device="1206" value="RED"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5426,14 +5426,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="ENC_J2" library="con-molex" deviceset="53?-03" device="261" value="53261-03"/>
 <part name="ENC_EI" library="con-molex" deviceset="53?-03" device="261" value="53261-03"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="100UF-25V-20%(PTH)" device=""/>
+<part name="DECAP" library="SparkFun-Capacitors" deviceset="100UF-25V-20%(PTH)" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="MRDT-LIB2014" deviceset="MAX3232" device=""/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.1uF"/>
+<part name="MAX232" library="MRDT-LIB2014" deviceset="MAX3232" device=""/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value=".047uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -5442,36 +5442,36 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="+12V" device=""/>
 <part name="P+15" library="supply1" deviceset="+12V" device=""/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEPWRSOLPD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
 <part name="CON_PWR_MAIN_J2" library="MRDT-2015-General" deviceset="MLX-2X3-PIN" device=""/>
 <part name="CON_PWR_SOL_EE" library="MRDT-2015-General" deviceset="MLX-2X3-PIN" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEPWRSOL" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10k"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1k"/>
+<part name="RES_GATEPWREEPD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEPWREE" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEDYNA1PD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="10k"/>
+<part name="RES_GATEDYNA1" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1k"/>
 <part name="DYNA2" library="MRDT-2015-Arm" deviceset="DYNAMIXEL-1X03" device="HORIZ"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
+<part name="ZENER_DYNA2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
 <part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEDYNA2PD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEDYNA2" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
 <part name="DYNA3" library="MRDT-2015-Arm" deviceset="DYNAMIXEL-1X03" device="HORIZ"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
+<part name="ZENER_DYNA3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="SMAJ5920"/>
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
-<part name="U$2" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
-<part name="U$3" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
-<part name="U$5" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
-<part name="U$6" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
-<part name="U$7" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
+<part name="RES_GATEDYNA3PD" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="RES_GATEDYNA3" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="5k"/>
+<part name="FET_PWRSOL" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
+<part name="FET_PWREE" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
+<part name="FET_DYNA1" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
+<part name="FET_DYNA2" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
+<part name="FET_DYNA3" library="MRDT-2015-General" deviceset="BUK9Y4R4-40E" device="POWER-SO8"/>
 <part name="X1" library="con-molex" deviceset="53?-06" device="261"/>
 </parts>
 <sheets>
@@ -5646,7 +5646,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </plain>
 <instances>
 <instance part="GND3" gate="1" x="22.86" y="25.4"/>
-<instance part="R1" gate="G$1" x="10.16" y="38.1" rot="R90"/>
+<instance part="RES_LEDPWR" gate="G$1" x="10.16" y="38.1" rot="R90"/>
 <instance part="LED_PWR" gate="G$1" x="10.16" y="27.94"/>
 <instance part="GND2" gate="1" x="10.16" y="17.78"/>
 <instance part="P+2" gate="1" x="53.34" y="48.26"/>
@@ -5654,23 +5654,23 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instance part="GND13" gate="1" x="58.42" y="30.48"/>
 <instance part="P+4" gate="1" x="22.86" y="48.26"/>
 <instance part="P+13" gate="1" x="10.16" y="48.26"/>
-<instance part="C1" gate="G$1" x="22.86" y="38.1"/>
+<instance part="DECAP" gate="G$1" x="22.86" y="38.1"/>
 <instance part="H1" gate="G$1" x="-25.4" y="38.1"/>
 <instance part="H2" gate="G$1" x="-25.4" y="30.48"/>
 <instance part="GND7" gate="1" x="58.42" y="-43.18"/>
 <instance part="P+14" gate="1" x="58.42" y="5.08"/>
 <instance part="P+15" gate="1" x="88.9" y="5.08"/>
-<instance part="R10" gate="G$1" x="50.8" y="-33.02" rot="R90"/>
+<instance part="RES_GATEPWRSOLPD" gate="G$1" x="50.8" y="-33.02" rot="R90"/>
 <instance part="CON_PWR_MAIN_J2" gate="G$1" x="66.04" y="33.02"/>
 <instance part="CON_PWR_SOL_EE" gate="G$1" x="66.04" y="-15.24"/>
 <instance part="P+10" gate="1" x="88.9" y="50.8"/>
 <instance part="GND9" gate="1" x="88.9" y="30.48"/>
-<instance part="R5" gate="G$1" x="43.18" y="-25.4" rot="R180"/>
+<instance part="RES_GATEPWRSOL" gate="G$1" x="43.18" y="-25.4" rot="R180"/>
 <instance part="GND11" gate="1" x="88.9" y="-43.18" rot="MR0"/>
-<instance part="R6" gate="G$1" x="96.52" y="-33.02" rot="MR90"/>
-<instance part="R12" gate="G$1" x="104.14" y="-25.4" rot="MR180"/>
-<instance part="U$2" gate="G$1" x="55.88" y="-22.86"/>
-<instance part="U$3" gate="G$1" x="91.44" y="-22.86" rot="MR0"/>
+<instance part="RES_GATEPWREEPD" gate="G$1" x="96.52" y="-33.02" rot="MR90"/>
+<instance part="RES_GATEPWREE" gate="G$1" x="104.14" y="-25.4" rot="MR180"/>
+<instance part="FET_PWRSOL" gate="G$1" x="55.88" y="-22.86"/>
+<instance part="FET_PWREE" gate="G$1" x="91.44" y="-22.86" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -5685,7 +5685,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<pinref part="C1" gate="G$1" pin="+"/>
+<pinref part="DECAP" gate="G$1" pin="+"/>
 </segment>
 <segment>
 <pinref part="P+14" gate="1" pin="+12V"/>
@@ -5712,7 +5712,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="CON_PWR_MAIN_J2" gate="G$1" pin="5V_1"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="RES_LEDPWR" gate="G$1" pin="2"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <wire x1="10.16" y1="43.18" x2="10.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -5721,7 +5721,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <wire x1="22.86" y1="33.02" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="-"/>
+<pinref part="DECAP" gate="G$1" pin="-"/>
 </segment>
 <segment>
 <wire x1="10.16" y1="22.86" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
@@ -5736,12 +5736,12 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="RES_GATEPWRSOLPD" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="-38.1" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-38.1" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-38.1" x2="58.42" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="58.42" y="-38.1"/>
-<pinref part="U$2" gate="G$1" pin="S"/>
+<pinref part="FET_PWRSOL" gate="G$1" pin="S"/>
 <wire x1="58.42" y1="-30.48" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5752,11 +5752,11 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="RES_GATEPWREEPD" gate="G$1" pin="1"/>
 <wire x1="88.9" y1="-38.1" x2="88.9" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-38.1" x2="96.52" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="88.9" y="-38.1"/>
-<pinref part="U$3" gate="G$1" pin="S"/>
+<pinref part="FET_PWREE" gate="G$1" pin="S"/>
 <wire x1="88.9" y1="-30.48" x2="88.9" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-30.48" x2="88.9" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
@@ -5764,7 +5764,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <net name="N$4" class="0">
 <segment>
 <wire x1="10.16" y1="30.48" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="RES_LEDPWR" gate="G$1" pin="1"/>
 <pinref part="LED_PWR" gate="G$1" pin="A"/>
 </segment>
 </net>
@@ -5772,7 +5772,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <wire x1="60.96" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="CON_PWR_SOL_EE" gate="G$1" pin="GND_1"/>
-<pinref part="U$2" gate="G$1" pin="D"/>
+<pinref part="FET_PWRSOL" gate="G$1" pin="D"/>
 <wire x1="58.42" y1="-15.24" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-15.24" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
@@ -5781,7 +5781,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="CON_PWR_SOL_EE" gate="G$1" pin="GND_2"/>
 <wire x1="86.36" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="D"/>
+<pinref part="FET_PWREE" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="-15.24" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-15.24" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
@@ -5794,37 +5794,37 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="GATE_PWR_SOL" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="RES_GATEPWRSOL" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="-25.4" x2="35.56" y2="-25.4" width="0.1524" layer="91"/>
 <label x="35.56" y="-25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="RES_GATEPWRSOL" gate="G$1" pin="1"/>
+<pinref part="RES_GATEPWRSOLPD" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="-25.4" x2="50.8" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-25.4" x2="50.8" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="50.8" y="-25.4"/>
-<pinref part="U$2" gate="G$1" pin="G"/>
+<pinref part="FET_PWRSOL" gate="G$1" pin="G"/>
 <wire x1="50.8" y1="-25.4" x2="53.34" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GATE_PWR_EE" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="RES_GATEPWREE" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="-25.4" x2="111.76" y2="-25.4" width="0.1524" layer="91"/>
 <label x="111.76" y="-25.4" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="RES_GATEPWREE" gate="G$1" pin="1"/>
+<pinref part="RES_GATEPWREEPD" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="-25.4" x2="96.52" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-25.4" x2="96.52" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="96.52" y="-25.4"/>
-<pinref part="U$3" gate="G$1" pin="G"/>
+<pinref part="FET_PWREE" gate="G$1" pin="G"/>
 <wire x1="96.52" y1="-25.4" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5837,8 +5837,8 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instances>
 <instance part="LED_XB_RX" gate="G$1" x="12.7" y="27.94"/>
 <instance part="LED_XB_TX" gate="G$1" x="22.86" y="27.94"/>
-<instance part="R2" gate="G$1" x="12.7" y="38.1" rot="R270"/>
-<instance part="R3" gate="G$1" x="22.86" y="38.1" rot="R270"/>
+<instance part="RES_LEDXBRX" gate="G$1" x="12.7" y="38.1" rot="R270"/>
+<instance part="RES_LEDXBTX" gate="G$1" x="22.86" y="38.1" rot="R270"/>
 <instance part="XB" gate="G$1" x="68.58" y="33.02"/>
 <instance part="+3V3" gate="G$1" x="12.7" y="48.26"/>
 <instance part="+3V4" gate="G$1" x="22.86" y="48.26"/>
@@ -5860,14 +5860,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <wire x1="12.7" y1="33.02" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LED_XB_RX" gate="G$1" pin="A"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="RES_LEDXBRX" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="22.86" y1="33.02" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="LED_XB_TX" gate="G$1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="RES_LEDXBTX" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="XB_DIO4" class="0">
@@ -5984,12 +5984,12 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="RES_LEDXBRX" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="45.72" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="RES_LEDXBTX" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="45.72" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6034,33 +6034,33 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <instances>
 <instance part="DYNA1" gate="G$1" x="200.66" y="45.72"/>
 <instance part="GND6" gate="1" x="210.82" y="15.24"/>
-<instance part="R4" gate="G$1" x="119.38" y="33.02" rot="R90"/>
-<instance part="D2" gate="G$1" x="119.38" y="25.4"/>
-<instance part="D10" gate="G$1" x="218.44" y="43.18" rot="R90"/>
+<instance part="RES_LEDDYNASWD" gate="G$1" x="119.38" y="33.02" rot="R90"/>
+<instance part="LED_DYNASWD" gate="G$1" x="119.38" y="25.4"/>
+<instance part="ZENER_DYNA1" gate="G$1" x="218.44" y="43.18" rot="R90"/>
 <instance part="TRISTATEBUFFER" gate="A" x="101.6" y="-33.02"/>
 <instance part="GND1" gate="1" x="81.28" y="-60.96"/>
 <instance part="P+5" gate="1" x="81.28" y="-12.7"/>
 <instance part="P+7" gate="1" x="210.82" y="53.34"/>
 <instance part="GND10" gate="1" x="218.44" y="35.56"/>
-<instance part="R7" gate="G$1" x="203.2" y="25.4" rot="R90"/>
-<instance part="R11" gate="G$1" x="195.58" y="33.02" rot="R180"/>
+<instance part="RES_GATEDYNA1PD" gate="G$1" x="203.2" y="25.4" rot="R90"/>
+<instance part="RES_GATEDYNA1" gate="G$1" x="195.58" y="33.02" rot="R180"/>
 <instance part="DYNA2" gate="G$1" x="200.66" y="-12.7"/>
 <instance part="GND4" gate="1" x="210.82" y="-43.18"/>
-<instance part="D1" gate="G$1" x="218.44" y="-15.24" rot="R90"/>
+<instance part="ZENER_DYNA2" gate="G$1" x="218.44" y="-15.24" rot="R90"/>
 <instance part="P+8" gate="1" x="210.82" y="-5.08"/>
 <instance part="GND5" gate="1" x="218.44" y="-22.86"/>
-<instance part="R8" gate="G$1" x="203.2" y="-33.02" rot="R90"/>
-<instance part="R9" gate="G$1" x="195.58" y="-25.4" rot="R180"/>
+<instance part="RES_GATEDYNA2PD" gate="G$1" x="203.2" y="-33.02" rot="R90"/>
+<instance part="RES_GATEDYNA2" gate="G$1" x="195.58" y="-25.4" rot="R180"/>
 <instance part="DYNA3" gate="G$1" x="200.66" y="-66.04"/>
 <instance part="GND16" gate="1" x="210.82" y="-96.52"/>
-<instance part="D3" gate="G$1" x="218.44" y="-68.58" rot="R90"/>
+<instance part="ZENER_DYNA3" gate="G$1" x="218.44" y="-68.58" rot="R90"/>
 <instance part="P+9" gate="1" x="210.82" y="-58.42"/>
 <instance part="GND17" gate="1" x="218.44" y="-76.2"/>
-<instance part="R13" gate="G$1" x="203.2" y="-86.36" rot="R90"/>
-<instance part="R14" gate="G$1" x="195.58" y="-78.74" rot="R180"/>
-<instance part="U$5" gate="G$1" x="208.28" y="35.56"/>
-<instance part="U$6" gate="G$1" x="208.28" y="-22.86"/>
-<instance part="U$7" gate="G$1" x="208.28" y="-76.2"/>
+<instance part="RES_GATEDYNA3PD" gate="G$1" x="203.2" y="-86.36" rot="R90"/>
+<instance part="RES_GATEDYNA3" gate="G$1" x="195.58" y="-78.74" rot="R180"/>
+<instance part="FET_DYNA1" gate="G$1" x="208.28" y="35.56"/>
+<instance part="FET_DYNA2" gate="G$1" x="208.28" y="-22.86"/>
+<instance part="FET_DYNA3" gate="G$1" x="208.28" y="-76.2"/>
 </instances>
 <busses>
 </busses>
@@ -6075,43 +6075,43 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="210.82" y1="17.78" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA1PD" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
 <junction x="210.82" y="20.32"/>
-<pinref part="U$5" gate="G$1" pin="S"/>
+<pinref part="FET_DYNA1" gate="G$1" pin="S"/>
 <wire x1="210.82" y1="20.32" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="D10" gate="G$1" pin="A"/>
+<pinref part="ZENER_DYNA1" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="38.1" x2="218.44" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="210.82" y1="-40.64" x2="210.82" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA2PD" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-38.1" x2="210.82" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-38.1" x2="203.2" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="210.82" y="-38.1"/>
-<pinref part="U$6" gate="G$1" pin="S"/>
+<pinref part="FET_DYNA2" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="ZENER_DYNA2" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="-20.32" x2="218.44" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="210.82" y1="-93.98" x2="210.82" y2="-91.44" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA3PD" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="-91.44" x2="210.82" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-91.44" x2="203.2" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="210.82" y="-91.44"/>
-<pinref part="U$7" gate="G$1" pin="S"/>
+<pinref part="FET_DYNA3" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="ZENER_DYNA3" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="-73.66" x2="218.44" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6140,14 +6140,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="DYNA1" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <label x="226.06" y="48.26" size="1.016" layer="95" xref="yes"/>
-<pinref part="D10" gate="G$1" pin="C"/>
+<pinref part="ZENER_DYNA1" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="48.26" x2="226.06" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="45.72" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 <junction x="218.44" y="48.26"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="20.32" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="LED_DYNASWD" gate="G$1" pin="C"/>
 <label x="119.38" y="17.78" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
@@ -6164,7 +6164,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="DYNA2" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-10.16" x2="218.44" y2="-10.16" width="0.1524" layer="91"/>
 <label x="226.06" y="-10.16" size="1.016" layer="95" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="ZENER_DYNA2" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="-10.16" x2="226.06" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="-12.7" x2="218.44" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="218.44" y="-10.16"/>
@@ -6173,7 +6173,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="DYNA3" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="-63.5" x2="218.44" y2="-63.5" width="0.1524" layer="91"/>
 <label x="226.06" y="-63.5" size="1.016" layer="95" xref="yes"/>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="ZENER_DYNA3" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="-63.5" x2="226.06" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="-66.04" x2="218.44" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="218.44" y="-63.5"/>
@@ -6181,13 +6181,13 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="RES_LEDDYNASWD" gate="G$1" pin="1"/>
+<pinref part="LED_DYNASWD" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="RES_LEDDYNASWD" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 <label x="119.38" y="40.64" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -6228,7 +6228,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <pinref part="DYNA1" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="D"/>
+<pinref part="FET_DYNA1" gate="G$1" pin="D"/>
 <wire x1="210.82" y1="40.64" x2="210.82" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6236,17 +6236,17 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <label x="187.96" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="190.5" y1="33.02" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA1" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA1PD" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="33.02" x2="203.2" y2="30.48" width="0.1524" layer="91"/>
 <junction x="203.2" y="33.02"/>
-<pinref part="U$5" gate="G$1" pin="G"/>
+<pinref part="FET_DYNA1" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6255,13 +6255,13 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="DYNA2" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-15.24" x2="210.82" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-17.78" x2="210.82" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="D"/>
+<pinref part="FET_DYNA2" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA2" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA2PD" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-25.4" x2="203.2" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-25.4" x2="203.2" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="203.2" y="-25.4"/>
@@ -6273,17 +6273,17 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="DYNA3" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="-68.58" x2="210.82" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="-71.12" x2="210.82" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="D"/>
+<pinref part="FET_DYNA3" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA3" gate="G$1" pin="1"/>
+<pinref part="RES_GATEDYNA3PD" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-78.74" x2="203.2" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="-78.74" x2="203.2" y2="-81.28" width="0.1524" layer="91"/>
 <junction x="203.2" y="-78.74"/>
-<pinref part="U$7" gate="G$1" pin="G"/>
+<pinref part="FET_DYNA3" gate="G$1" pin="G"/>
 <wire x1="203.2" y1="-78.74" x2="205.74" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6291,14 +6291,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <segment>
 <label x="187.96" y="-25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="190.5" y1="-25.4" x2="187.96" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GATE_DYNA3" class="0">
 <segment>
 <label x="187.96" y="-78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="190.5" y1="-78.74" x2="187.96" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="RES_GATEDYNA3" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -6438,7 +6438,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </plain>
 <instances>
 <instance part="GND15" gate="1" x="162.56" y="7.62"/>
-<instance part="U$4" gate="G$1" x="106.68" y="25.4"/>
+<instance part="MAX232" gate="G$1" x="106.68" y="25.4"/>
 <instance part="C7" gate="G$1" x="76.2" y="33.02" rot="R270"/>
 <instance part="C8" gate="G$1" x="76.2" y="25.4" rot="R270"/>
 <instance part="C9" gate="G$1" x="83.82" y="7.62"/>
@@ -6459,7 +6459,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <nets>
 <net name="R_OUT1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="R_OUT1"/>
+<pinref part="MAX232" gate="G$1" pin="R_OUT1"/>
 <wire x1="121.92" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="S"/>
 </segment>
@@ -6480,7 +6480,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="MAX232" gate="G$1" pin="GND"/>
 <wire x1="132.08" y1="30.48" x2="121.92" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="30.48" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
@@ -6512,7 +6512,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="C1-"/>
+<pinref part="MAX232" gate="G$1" pin="C1-"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="27.94" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
@@ -6520,21 +6520,21 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="C1+"/>
+<pinref part="MAX232" gate="G$1" pin="C1+"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="C2+"/>
+<pinref part="MAX232" gate="G$1" pin="C2+"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="25.4" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="C2-"/>
+<pinref part="MAX232" gate="G$1" pin="C2-"/>
 <wire x1="91.44" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="22.86" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
@@ -6542,7 +6542,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="V-"/>
+<pinref part="MAX232" gate="G$1" pin="V-"/>
 <wire x1="91.44" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="20.32" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -6550,7 +6550,7 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="V+"/>
+<pinref part="MAX232" gate="G$1" pin="V+"/>
 <wire x1="91.44" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="30.48" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
@@ -6558,14 +6558,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="VCC1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
+<pinref part="MAX232" gate="G$1" pin="VCC"/>
 <wire x1="121.92" y1="33.02" x2="124.46" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="T_OUT1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="T_OUT1"/>
+<pinref part="MAX232" gate="G$1" pin="T_OUT1"/>
 <wire x1="165.1" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="27.94" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="27.94" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
@@ -6574,14 +6574,14 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </net>
 <net name="J2_RS232TX" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="T_IN1"/>
+<pinref part="MAX232" gate="G$1" pin="T_IN1"/>
 <wire x1="121.92" y1="20.32" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
 <label x="124.46" y="20.32" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="J2_RS232RX" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="R_IN1"/>
+<pinref part="MAX232" gate="G$1" pin="R_IN1"/>
 <wire x1="121.92" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.016" layer="95" xref="yes"/>
 </segment>
