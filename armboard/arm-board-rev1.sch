@@ -5326,7 +5326,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="X1" library="con-molex" deviceset="53?-06" device="261"/>
+<part name="DATA_J2" library="con-molex" deviceset="53?-06" device="261"/>
 <part name="MAX232_1" library="MRDT-Digital-ICs" deviceset="MAX3232" device="SO16"/>
 <part name="MAX232_C1_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value=".047uF"/>
 <part name="MAX232_C2_1" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="0.33uF"/>
@@ -5517,6 +5517,20 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="U$1" gate="G$1" pin="PM3"/>
 <wire x1="12.7" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
 <label x="7.62" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="XB_DIO12" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM4"/>
+<wire x1="12.7" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="7.62" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="XB_DIO11" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM5"/>
+<wire x1="12.7" y1="27.94" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="7.62" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -6097,12 +6111,12 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 </plain>
 <instances>
 <instance part="GND15" gate="1" x="132.08" y="7.62"/>
-<instance part="X1" gate="-1" x="137.16" y="25.4"/>
-<instance part="X1" gate="-2" x="137.16" y="22.86"/>
-<instance part="X1" gate="-3" x="137.16" y="20.32"/>
-<instance part="X1" gate="-4" x="137.16" y="17.78"/>
-<instance part="X1" gate="-5" x="137.16" y="15.24"/>
-<instance part="X1" gate="-6" x="137.16" y="12.7"/>
+<instance part="DATA_J2" gate="-1" x="137.16" y="25.4"/>
+<instance part="DATA_J2" gate="-2" x="137.16" y="22.86"/>
+<instance part="DATA_J2" gate="-3" x="137.16" y="20.32"/>
+<instance part="DATA_J2" gate="-4" x="137.16" y="17.78"/>
+<instance part="DATA_J2" gate="-5" x="137.16" y="15.24"/>
+<instance part="DATA_J2" gate="-6" x="137.16" y="12.7"/>
 <instance part="MAX232_1" gate="G$1" x="78.74" y="15.24"/>
 <instance part="MAX232_C1_1" gate="G$1" x="111.76" y="35.56" rot="R270"/>
 <instance part="MAX232_C2_1" gate="G$1" x="111.76" y="30.48" rot="R270"/>
@@ -6120,7 +6134,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="134.62" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="17.78" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-4" pin="S"/>
+<pinref part="DATA_J2" gate="-4" pin="S"/>
 </segment>
 <segment>
 <pinref part="MAX232_VNCAP_1" gate="G$1" pin="2"/>
@@ -6144,26 +6158,26 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <wire x1="134.62" y1="20.32" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
 <label x="129.54" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="X1" gate="-3" pin="S"/>
+<pinref part="DATA_J2" gate="-3" pin="S"/>
 </segment>
 </net>
 <net name="J2_TTLTX" class="0">
 <segment>
 <wire x1="134.62" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <label x="129.54" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="X1" gate="-5" pin="S"/>
+<pinref part="DATA_J2" gate="-5" pin="S"/>
 </segment>
 </net>
 <net name="J2_TTLRX" class="0">
 <segment>
 <wire x1="134.62" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <label x="129.54" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="X1" gate="-6" pin="S"/>
+<pinref part="DATA_J2" gate="-6" pin="S"/>
 </segment>
 </net>
 <net name="T1OUT" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="DATA_J2" gate="-1" pin="S"/>
 <pinref part="MAX232_1" gate="G$1" pin="T1OUT"/>
 <wire x1="106.68" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.016" layer="95"/>
@@ -6230,7 +6244,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <net name="R1IN" class="0">
 <segment>
 <pinref part="MAX232_1" gate="G$1" pin="R1IN"/>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="DATA_J2" gate="-2" pin="S"/>
 <label x="124.46" y="22.86" size="1.016" layer="95"/>
 <wire x1="134.62" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 </segment>
