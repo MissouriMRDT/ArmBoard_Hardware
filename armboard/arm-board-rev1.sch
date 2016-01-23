@@ -5320,8 +5320,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <part name="ENC_J1" library="con-molex" deviceset="53?-03" device="261" value="53261-03"/>
 <part name="ENC_J2" library="con-molex" deviceset="53?-03" device="261" value="53261-03"/>
 <part name="ENC_EI" library="con-molex" deviceset="53?-03" device="261" value="53261-03"/>
-<part name="DECAP" library="SparkFun-Capacitors" deviceset="100UF-25V-20%(PTH)" device=""/>
-<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
+<part name="DECAP" library="SparkFun-Capacitors" deviceset="100UF-25V-20%(PTH)" device="" value="1uF"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
@@ -5478,6 +5477,48 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <label x="7.62" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="ENC_J2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM1"/>
+<wire x1="12.7" y1="38.1" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="7.62" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENC_J1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM2"/>
+<wire x1="12.7" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
+<label x="7.62" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENC_EO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD0"/>
+<wire x1="48.26" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="53.34" y="88.9" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENC_EI" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PD1"/>
+<wire x1="48.26" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<label x="53.34" y="86.36" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENC_WO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PL4"/>
+<wire x1="48.26" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="53.34" y="33.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENC_WI" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PM3"/>
+<wire x1="12.7" y1="33.02" x2="7.62" y2="33.02" width="0.1524" layer="91"/>
+<label x="7.62" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -5516,7 +5557,6 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <instance part="GND13" gate="1" x="58.42" y="30.48"/>
 <instance part="P+4" gate="1" x="22.86" y="48.26"/>
 <instance part="DECAP" gate="G$1" x="22.86" y="38.1"/>
-<instance part="H1" gate="G$1" x="-25.4" y="38.1"/>
 <instance part="H2" gate="G$1" x="-25.4" y="30.48"/>
 <instance part="GND7" gate="1" x="58.42" y="-7.62"/>
 <instance part="P+10" gate="1" x="88.9" y="50.8"/>
@@ -6018,8 +6058,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <segment>
 <pinref part="ENC_EI" gate="-2" pin="S"/>
 <label x="33.02" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="35.56" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6030,7 +6069,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <wire x1="38.1" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ENC_EI" gate="-3" pin="S"/>
 <pinref part="ENC_EO" gate="-3" pin="S"/>
-<wire x1="35.56" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="60.96" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
@@ -6047,7 +6086,7 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <junction x="22.86" y="73.66"/>
 <wire x1="22.86" y1="99.06" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <junction x="22.86" y="86.36"/>
-<wire x1="35.56" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>
@@ -6124,13 +6163,10 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 </net>
 <net name="T1OUT" class="0">
 <segment>
-<wire x1="134.62" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="S"/>
 <pinref part="MAX232_1" gate="G$1" pin="T1OUT"/>
-<wire x1="106.68" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.016" layer="95"/>
-<wire x1="121.92" y1="25.4" x2="124.46" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="J2_RS232TX" class="0">
@@ -6194,22 +6230,19 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <net name="R1IN" class="0">
 <segment>
 <pinref part="MAX232_1" gate="G$1" pin="R1IN"/>
-<wire x1="106.68" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="S"/>
 <label x="124.46" y="22.86" size="1.016" layer="95"/>
-<wire x1="109.22" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="+3V3" class="0">
 <segment>
 <pinref part="MAX232_1" gate="G$1" pin="VCC"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="MAX232_DECAP_1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
 <junction x="76.2" y="38.1"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 </nets>
