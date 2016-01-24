@@ -5442,13 +5442,6 @@ http://pdfserv.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf</description>
 <junction x="-15.24" y="96.52"/>
 </segment>
 </net>
-<net name="TRI_EN" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PB2"/>
-<wire x1="48.26" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
-<label x="53.34" y="101.6" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="XB_RX" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PC6"/>
