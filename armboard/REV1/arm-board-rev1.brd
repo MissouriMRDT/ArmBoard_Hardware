@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -1575,6 +1575,9 @@ Mike Miles | 2016</text>
 <text x="122.8725" y="49.2125" size="1.27" layer="21">1</text>
 <dimension x1="124.46" y1="0" x2="0" y2="0" x3="62.23" y3="-7.62" textsize="1.27" layer="47" unit="inch" visible="yes"/>
 <dimension x1="0" y1="0" x2="0" y2="55.88" x3="-5.08" y3="27.94" textsize="1.27" layer="47" dtype="vertical" unit="inch" visible="yes"/>
+<text x="86.995" y="50.927" size="0.8128" layer="47">DIA. HOLE</text>
+<text x="82.55" y="44.45" size="0.8128" layer="47" align="bottom-center">DIA. SCREW
+HEAD</text>
 </package>
 <package name="MRDT_LOGO">
 <rectangle x1="2.491740625" y1="0.83946875" x2="2.506978125" y2="0.84455" layer="21"/>
@@ -7324,26 +7327,6 @@ right angle</description>
 </package>
 </packages>
 </library>
-<library name="holes">
-<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="3,2">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
-<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
-<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
-<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
-<hole x="0" y="0" drill="3.2"/>
-</package>
-</packages>
-</library>
 <library name="MRDT-Digital-ICs">
 <packages>
 <package name="SO16">
@@ -7517,6 +7500,23 @@ right angle</description>
 <wire x1="4" y1="1" x2="4" y2="-1" width="0.127" layer="49" style="shortdash"/>
 <wire x1="4" y1="-1" x2="0" y2="-1" width="0.127" layer="49" style="shortdash"/>
 <wire x1="0" y1="-1" x2="0" y2="1" width="0.127" layer="49" style="shortdash"/>
+</package>
+</packages>
+</library>
+<library name="MRDT-Hardware">
+<packages>
+<package name="M6_SCREW">
+<description>BOLT DIA.: .136"
+HOLE DIA.: .14"
+HEAD DIA.: .22"</description>
+<circle x="0" y="0" radius="1.778" width="0.0254" layer="20"/>
+<dimension x1="1.257234375" y1="1.257234375" x2="-1.257234375" y2="-1.257234375" x3="-1.257234375" y3="-1.257234375" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="51"/>
+<dimension x1="2.634715625" y1="0.9299" x2="-2.634715625" y2="-0.9299" x3="-2.634715625" y3="-0.9299" textsize="1.27" layer="47" dtype="diameter" unit="inch" precision="6" visible="yes"/>
+<wire x1="0" y1="-1.778" x2="-1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="-1.778" y1="0" x2="0" y2="1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.127" layer="49" style="shortdash" curve="-90"/>
+<wire x1="1.778" y1="0" x2="0" y2="-1.778" width="0.127" layer="49" style="shortdash" curve="-90"/>
 </package>
 </packages>
 </library>
@@ -7720,9 +7720,9 @@ design rules under a new name.</description>
 <attribute name="ORIENT" value="Horiz" x="6.35" y="2.54" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RES_LEDDYNASWD" library="SparkFun-Resistors" package="1206" value="470" x="111.125" y="44.831" rot="MR90"/>
-<element name="LED_DYNASWD" library="SparkFun-LED" package="LED-1206" value="RED" x="111.125" y="42.672" rot="R270"/>
+<element name="LED_DYNASWD" library="SparkFun-LED" package="LED-1206" value="ORANGE" x="111.125" y="42.672" rot="R270"/>
 <element name="RES_LEDPWR" library="SparkFun-Passives" package="1206" value="1k" x="21.463" y="19.939" rot="MR0"/>
-<element name="LED_PWR" library="SparkFun-LED" package="LED-1206" value="RED" x="21.59" y="19.939" rot="R180"/>
+<element name="LED_PWR" library="SparkFun-LED" package="LED-1206" value="WHITE" x="21.59" y="19.939" rot="R180"/>
 <element name="ENC_EO" library="con-molex" package="53261-03" value="53261-03" x="88.265" y="2.667" rot="R180">
 <attribute name="OC_NEWARK" value="57H5006" x="88.265" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="53261-0390" x="88.265" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7762,7 +7762,7 @@ design rules under a new name.</description>
 <element name="DECAP" library="SparkFun-Capacitors" package="CPOL-RADIAL-100UF-25V" value="1uF" x="29.21" y="24.638" rot="R270">
 <attribute name="PROD_ID" value="CAP-08439" x="29.21" y="24.638" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="H2" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="82.55" y="52.07"/>
+<element name="H2" library="MRDT-Hardware" package="M6_SCREW" value="MOUNTING_HOLEM6" x="82.55" y="52.07"/>
 <element name="DATA_J2" library="con-molex" package="53261-06" value="53261-06" x="22.225" y="2.667" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="22.225" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="22.225" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
