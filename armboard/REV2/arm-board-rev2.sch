@@ -9173,6 +9173,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <part name="LT1910CAP-DYNA3" library="resistor" deviceset="C-US" device="C1206" value=".1µF"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+12V" device=""/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9321,24 +9322,24 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <sheet>
 <description>Power</description>
 <plain>
-<wire x1="71.12" y1="55.88" x2="71.12" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="71.12" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="101.6" y1="55.88" x2="101.6" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="101.6" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="25.4" x2="48.26" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="55.88" x2="76.2" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="93.98" y1="25.4" x2="93.98" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="93.98" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
-<text x="53.34" y="55.88" size="1.778" layer="97">MAIN POWER</text>
-<text x="81.28" y="55.88" size="1.778" layer="97">J2 POWER</text>
+<wire x1="48.26" y1="55.88" x2="101.6" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-25.4" y1="-5.08" x2="-25.4" y2="-35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-25.4" y1="-35.56" x2="-7.62" y2="-35.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-7.62" y1="-35.56" x2="-7.62" y2="-5.08" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="-7.62" y1="-5.08" x2="-25.4" y2="-5.08" width="0.1524" layer="97" style="shortdash"/>
+<text x="83.82" y="55.88" size="1.778" layer="97">MAIN POWER</text>
+<text x="-20.32" y="-5.08" size="1.778" layer="97">J2 POWER</text>
 <wire x1="71.12" y1="7.62" x2="71.12" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="71.12" y1="-48.26" x2="-5.08" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-5.08" y1="-48.26" x2="-5.08" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="-5.08" y1="7.62" x2="71.12" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="76.2" y1="7.62" x2="76.2" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="76.2" y1="-48.26" x2="132.08" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="132.08" y1="-48.26" x2="132.08" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="132.08" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="76.2" y1="-48.26" x2="149.86" y2="-48.26" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="149.86" y1="-48.26" x2="149.86" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="149.86" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="97" style="shortdash"/>
 <text x="35.56" y="7.62" size="1.778" layer="97">SOLENOID POWER</text>
 <text x="99.06" y="7.62" size="1.778" layer="97">END EFFECTOR POWER</text>
 <text x="5.08" y="20.32" size="1.778" layer="97" rot="R90">POWER INDICATOR</text>
@@ -9350,8 +9351,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <instance part="LED_PWR" gate="G$1" x="10.16" y="27.94"/>
 <instance part="GND2" gate="1" x="10.16" y="17.78"/>
 <instance part="P+2" gate="1" x="53.34" y="48.26"/>
-<instance part="P+3" gate="1" x="58.42" y="50.8"/>
-<instance part="GND13" gate="1" x="58.42" y="30.48"/>
+<instance part="P+3" gate="1" x="88.9" y="50.8"/>
+<instance part="GND13" gate="1" x="88.9" y="30.48"/>
 <instance part="P+4" gate="1" x="22.86" y="48.26"/>
 <instance part="DECAP" gate="G$1" x="22.86" y="38.1"/>
 <instance part="H1" gate="G$1" x="-25.4" y="38.1"/>
@@ -9359,8 +9360,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <instance part="GND7" gate="1" x="58.42" y="-43.18"/>
 <instance part="P+14" gate="1" x="58.42" y="2.54"/>
 <instance part="P+15" gate="1" x="88.9" y="2.54"/>
-<instance part="P+10" gate="1" x="88.9" y="50.8"/>
-<instance part="GND9" gate="1" x="88.9" y="30.48"/>
+<instance part="P+10" gate="1" x="-12.7" y="-10.16"/>
+<instance part="GND9" gate="1" x="-12.7" y="-30.48"/>
 <instance part="GND11" gate="1" x="88.9" y="-43.18" rot="MR0"/>
 <instance part="FET_PWRSOL" gate="G$1" x="55.88" y="-20.32"/>
 <instance part="FET_PWREE" gate="G$1" x="91.44" y="-20.32" rot="MR0"/>
@@ -9376,11 +9377,11 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <instance part="EE-GND" gate="G$1" x="78.74" y="-38.1" rot="R180"/>
 <instance part="SOL-12V" gate="G$1" x="68.58" y="-27.94"/>
 <instance part="EE-12V" gate="G$1" x="78.74" y="-27.94" rot="R180"/>
-<instance part="J2_GND" gate="G$1" x="78.74" y="35.56" rot="R180"/>
-<instance part="J2_12V" gate="G$1" x="78.74" y="45.72" rot="R180"/>
-<instance part="PWR_MAIN" gate="GND" x="68.58" y="35.56"/>
-<instance part="PWR_MAIN" gate="5V" x="68.58" y="40.64"/>
-<instance part="PWR_MAIN" gate="12V" x="68.58" y="45.72"/>
+<instance part="J2_GND" gate="G$1" x="-22.86" y="-25.4" rot="R180"/>
+<instance part="J2_12V" gate="G$1" x="-22.86" y="-15.24" rot="R180"/>
+<instance part="PWR_MAIN" gate="GND" x="99.06" y="35.56"/>
+<instance part="PWR_MAIN" gate="5V" x="99.06" y="40.64"/>
+<instance part="PWR_MAIN" gate="12V" x="99.06" y="45.72"/>
 <instance part="P+12" gate="1" x="10.16" y="48.26"/>
 </instances>
 <busses>
@@ -9388,9 +9389,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <nets>
 <net name="+12V" class="0">
 <segment>
-<wire x1="60.96" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="58.42" y1="45.72" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="45.72" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="PWR_MAIN" gate="12V" pin="P$1"/>
 </segment>
 <segment>
@@ -9399,9 +9400,9 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pinref part="DECAP" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="86.36" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="-15.24" x2="-12.7" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="88.9" y1="45.72" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="J2_12V" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -9445,10 +9446,8 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="60.96" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="PWR_MAIN" gate="5V" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9464,14 +9463,14 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="58.42" y1="33.02" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="33.02" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="PWR_MAIN" gate="GND" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="88.9" y1="33.02" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-27.94" x2="-12.7" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="-25.4" x2="-15.24" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="J2_GND" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -9794,6 +9793,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <instance part="GND27" gate="1" x="193.04" y="-86.36"/>
 <instance part="LT1910CAP-DYNA3" gate="G$1" x="213.36" y="-55.88"/>
 <instance part="GND28" gate="1" x="213.36" y="-48.26" rot="R180"/>
+<instance part="P+13" gate="1" x="119.38" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -9970,7 +9970,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <segment>
 <pinref part="RES_LEDDYNASWD" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
-<label x="119.38" y="40.64" size="1.016" layer="95" rot="R90" xref="yes"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="TRISTATEBUFFER" gate="A" pin="VCC"/>
