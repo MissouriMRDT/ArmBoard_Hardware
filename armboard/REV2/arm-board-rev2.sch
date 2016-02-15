@@ -4192,6 +4192,59 @@ Most frame-mounted PCB's - M8</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="MRDT-Electromechanical">
+<packages>
+<package name="C&amp;K-SS12D07VG4NSGAPA">
+<hole x="-2.1" y="0" drill="1.25"/>
+<pad name="P$1" x="0" y="0" drill="0.8"/>
+<pad name="P$2" x="2" y="0" drill="0.8"/>
+<pad name="P$3" x="4" y="0" drill="0.8"/>
+<hole x="6.1" y="0" drill="1.25"/>
+<wire x1="-2.3" y1="2.15" x2="6.3" y2="2.15" width="0.127" layer="51"/>
+<wire x1="6.3" y1="2.15" x2="6.3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="6.3" y1="-2.15" x2="-2.3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="-2.15" x2="-2.3" y2="2.15" width="0.127" layer="51"/>
+<wire x1="0" y1="1" x2="4" y2="1" width="0.127" layer="49" style="shortdash"/>
+<wire x1="4" y1="1" x2="4" y2="-1" width="0.127" layer="49" style="shortdash"/>
+<wire x1="4" y1="-1" x2="0" y2="-1" width="0.127" layer="49" style="shortdash"/>
+<wire x1="0" y1="-1" x2="0" y2="1" width="0.127" layer="49" style="shortdash"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SWITCH-SPDT">
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
+<circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
+<text x="-1.905" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SWITCH_SPDT_VERT">
+<gates>
+<gate name="G$1" symbol="SWITCH-SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SS12D07VG4NSGAPA" package="C&amp;K-SS12D07VG4NSGAPA">
+<connects>
+<connect gate="G$1" pin="O" pad="P$1"/>
+<connect gate="G$1" pin="P" pad="P$2"/>
+<connect gate="G$1" pin="S" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4318,6 +4371,11 @@ Most frame-mounted PCB's - M8</description>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
+<part name="RES_LEDPWR3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="390"/>
+<part name="LED_5V1" library="SparkFun-LED" deviceset="LED" device="1206" value="white"/>
+<part name="GND26" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" deviceset="+5V" device=""/>
+<part name="U$7" library="MRDT-Electromechanical" deviceset="SWITCH_SPDT_VERT" device="SS12D07VG4NSGAPA"/>
 </parts>
 <sheets>
 <sheet>
@@ -4710,6 +4768,11 @@ Most frame-mounted PCB's - M8</description>
 <instance part="U$5" gate="G$1" x="127" y="-116.84"/>
 <instance part="GND10" gate="1" x="149.86" y="-119.38"/>
 <instance part="+3V7" gate="G$1" x="149.86" y="-93.98"/>
+<instance part="RES_LEDPWR3" gate="G$1" x="-76.2" y="38.1" rot="R90"/>
+<instance part="LED_5V1" gate="G$1" x="-76.2" y="27.94"/>
+<instance part="GND26" gate="1" x="-76.2" y="17.78"/>
+<instance part="P+12" gate="1" x="-78.74" y="58.42"/>
+<instance part="U$7" gate="G$1" x="-76.2" y="48.26" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4885,6 +4948,11 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="149.86" y1="-109.22" x2="149.86" y2="-114.3" width="0.1524" layer="91"/>
 <junction x="149.86" y="-114.3"/>
 </segment>
+<segment>
+<wire x1="-76.2" y1="22.86" x2="-76.2" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="LED_5V1" gate="G$1" pin="C"/>
+<pinref part="GND26" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -5015,6 +5083,11 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="O"/>
+<pinref part="P+12" gate="1" pin="+5V"/>
+<wire x1="-78.74" y1="53.34" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -5064,6 +5137,20 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="U$5" gate="G$1" pin="VIOUT"/>
 <wire x1="147.32" y1="-104.14" x2="149.86" y2="-104.14" width="0.1524" layer="91"/>
 <label x="149.86" y="-104.14" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<wire x1="-76.2" y1="30.48" x2="-76.2" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="RES_LEDPWR3" gate="G$1" pin="1"/>
+<pinref part="LED_5V1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="RES_LEDPWR3" gate="G$1" pin="2"/>
+<pinref part="U$7" gate="G$1" pin="P"/>
+<wire x1="-76.2" y1="45.72" x2="-76.2" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
