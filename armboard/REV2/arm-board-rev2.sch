@@ -4194,48 +4194,43 @@ Most frame-mounted PCB's - M8</description>
 </library>
 <library name="MRDT-Electromechanical">
 <packages>
-<package name="C&amp;K-SS12D07VG4NSGAPA">
-<hole x="-2.1" y="0" drill="1.25"/>
-<pad name="P$1" x="0" y="0" drill="0.8"/>
-<pad name="P$2" x="2" y="0" drill="0.8"/>
-<pad name="P$3" x="4" y="0" drill="0.8"/>
-<hole x="6.1" y="0" drill="1.25"/>
-<wire x1="-2.3" y1="2.15" x2="6.3" y2="2.15" width="0.127" layer="51"/>
-<wire x1="6.3" y1="2.15" x2="6.3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="6.3" y1="-2.15" x2="-2.3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-2.3" y1="-2.15" x2="-2.3" y2="2.15" width="0.127" layer="51"/>
-<wire x1="0" y1="1" x2="4" y2="1" width="0.127" layer="49" style="shortdash"/>
-<wire x1="4" y1="1" x2="4" y2="-1" width="0.127" layer="49" style="shortdash"/>
-<wire x1="4" y1="-1" x2="0" y2="-1" width="0.127" layer="49" style="shortdash"/>
-<wire x1="0" y1="-1" x2="0" y2="1" width="0.127" layer="49" style="shortdash"/>
+<package name="CW-GPTS203212BR2">
+<description>SPST mom pushbutton, right angle, thru hole</description>
+<wire x1="0" y1="0" x2="0" y2="12" width="0.127" layer="51"/>
+<wire x1="0" y1="12" x2="6.5" y2="12" width="0.127" layer="51"/>
+<wire x1="6.5" y1="12" x2="6.5" y2="8.65" width="0.127" layer="51"/>
+<wire x1="6.5" y1="8.65" x2="6.5" y2="3.35" width="0.127" layer="51"/>
+<wire x1="6.5" y1="3.35" x2="6.5" y2="0" width="0.127" layer="51"/>
+<wire x1="6.5" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="6.5" y1="3.35" x2="9.1" y2="3.35" width="0.127" layer="51"/>
+<wire x1="9.1" y1="3.35" x2="9.1" y2="8.65" width="0.127" layer="51"/>
+<wire x1="9.1" y1="8.65" x2="6.5" y2="8.65" width="0.127" layer="51"/>
+<pad name="P$1" x="3.4" y="3.35" drill="1.3"/>
+<pad name="P$2" x="3.4" y="8.65" drill="1.3"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SWITCH-SPDT">
+<symbol name="SWITCH-SPST">
 <wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.127" layer="94"/>
+<circle x="2.54" y="0" radius="0.3592" width="0.2032" layer="94"/>
 <circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
 <text x="-1.905" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SWITCH_SPDT_VERT">
+<deviceset name="SWITCH-SPST-HORIZ">
 <gates>
-<gate name="G$1" symbol="SWITCH-SPDT" x="0" y="0"/>
+<gate name="G$1" symbol="SWITCH-SPST" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SS12D07VG4NSGAPA" package="C&amp;K-SS12D07VG4NSGAPA">
+<device name="" package="CW-GPTS203212BR2">
 <connects>
-<connect gate="G$1" pin="O" pad="P$1"/>
-<connect gate="G$1" pin="P" pad="P$2"/>
-<connect gate="G$1" pin="S" pad="P$3"/>
+<connect gate="G$1" pin="P" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -4375,7 +4370,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="LED_5V1" library="SparkFun-LED" deviceset="LED" device="1206" value="white"/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="U$7" library="MRDT-Electromechanical" deviceset="SWITCH_SPDT_VERT" device="SS12D07VG4NSGAPA"/>
+<part name="U$7" library="MRDT-Electromechanical" deviceset="SWITCH-SPST-HORIZ" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4771,7 +4766,7 @@ Most frame-mounted PCB's - M8</description>
 <instance part="RES_LEDPWR3" gate="G$1" x="-76.2" y="38.1" rot="R90"/>
 <instance part="LED_5V1" gate="G$1" x="-76.2" y="27.94"/>
 <instance part="GND26" gate="1" x="-76.2" y="17.78"/>
-<instance part="P+12" gate="1" x="-78.74" y="58.42"/>
+<instance part="P+12" gate="1" x="-76.2" y="58.42"/>
 <instance part="U$7" gate="G$1" x="-76.2" y="48.26" rot="R90"/>
 </instances>
 <busses>
@@ -5084,9 +5079,9 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="P+2" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="O"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
-<wire x1="-78.74" y1="53.34" x2="-78.74" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="S"/>
+<wire x1="-76.2" y1="55.88" x2="-76.2" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -5096,7 +5091,7 @@ Most frame-mounted PCB's - M8</description>
 <pinref part="LED_12V" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="SOURCE-MAIN" class="0">
 <segment>
 <pinref part="FET_PWRMAIN" gate="G$1" pin="S"/>
 <wire x1="116.84" y1="22.86" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
@@ -5149,8 +5144,8 @@ Most frame-mounted PCB's - M8</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="RES_LEDPWR3" gate="G$1" pin="2"/>
-<pinref part="U$7" gate="G$1" pin="P"/>
 <wire x1="-76.2" y1="45.72" x2="-76.2" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="P"/>
 </segment>
 </net>
 </nets>
@@ -5692,7 +5687,7 @@ Most frame-mounted PCB's - M8</description>
 <plain>
 </plain>
 <instances>
-<instance part="GND15" gate="1" x="132.08" y="7.62"/>
+<instance part="GND15" gate="1" x="149.86" y="7.62"/>
 <instance part="MAX232_1" gate="G$1" x="78.74" y="15.24"/>
 <instance part="MAX232_C1_1" gate="G$1" x="111.76" y="35.56" rot="R270"/>
 <instance part="MAX232_C2_1" gate="G$1" x="111.76" y="30.48" rot="R270"/>
@@ -5709,8 +5704,8 @@ Most frame-mounted PCB's - M8</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="134.62" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="17.78" x2="132.08" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="17.78" x2="149.86" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="17.78" x2="149.86" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="J2_DATA" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -5741,24 +5736,27 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="TX_TO_J2_TTL" class="0">
 <segment>
-<wire x1="134.62" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
-<label x="129.54" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J2_DATA" gate="G$1" pin="5"/>
+<label x="129.54" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2_DATA" gate="G$1" pin="6"/>
+<wire x1="132.08" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="12.7" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX_FROM_J2_TTL" class="0">
 <segment>
-<wire x1="134.62" y1="12.7" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
-<label x="129.54" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J2_DATA" gate="G$1" pin="6"/>
+<label x="129.54" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="J2_DATA" gate="G$1" pin="5"/>
+<wire x1="132.08" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="15.24" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="T1OUT" class="0">
 <segment>
 <pinref part="MAX232_1" gate="G$1" pin="T1OUT"/>
-<wire x1="106.68" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.016" layer="95"/>
-<pinref part="J2_DATA" gate="G$1" pin="1"/>
+<pinref part="J2_DATA" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="25.4" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_TO_J2_RS232" class="0">
@@ -5824,10 +5822,9 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="MAX232_1" gate="G$1" pin="R1IN"/>
 <label x="124.46" y="22.86" size="1.016" layer="95"/>
-<wire x1="106.68" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="22.86" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="22.86" x2="134.62" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J2_DATA" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="22.86" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="J2_DATA" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="22.86" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
