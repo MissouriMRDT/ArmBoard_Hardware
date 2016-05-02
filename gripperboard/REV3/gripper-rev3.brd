@@ -6281,8 +6281,8 @@ design rules under a new name.</description>
 <element name="CBOOT" library="SparkFun-Passives" package="0603-CAP" value="1u" x="14.097" y="14.097" rot="R180"/>
 <element name="U$9" library="MRDT-Passives" package="NR8040T3R6N" value="3.6u" x="15.494" y="20.066" rot="R90"/>
 <element name="QQ1" library="MRDT-PowerICs" package="SO-08" value="IRF7821TRPBF" x="21.59" y="10.795" rot="R90"/>
-<element name="RR1" library="SparkFun-Resistors" package="0603-RES" value="100k" x="18.923" y="5.715" rot="MR270"/>
-<element name="RR2" library="SparkFun-Resistors" package="0603-RES" value="15k" x="17.272" y="5.715" rot="MR90"/>
+<element name="RR1_1%" library="SparkFun-Resistors" package="0603-RES" value="120k" x="18.923" y="5.715" rot="MR270"/>
+<element name="RR2_1%" library="SparkFun-Resistors" package="0603-RES" value="15k" x="17.272" y="5.715" rot="MR90"/>
 <element name="COUT1" library="SparkFun-Capacitors" package="1206" value="47u" x="10.033" y="21.59" rot="R90"/>
 <element name="COUT2" library="SparkFun-Capacitors" package="1206" value="47u" x="20.955" y="21.59" rot="R90"/>
 <element name="CIN1" library="SparkFun-Capacitors" package="1206" value="10u" x="19.685" y="7.112" rot="R270"/>
@@ -6331,7 +6331,7 @@ design rules under a new name.</description>
 <contactref element="QQ1" pad="1"/>
 <contactref element="QQ1" pad="3"/>
 <contactref element="QQ1" pad="2"/>
-<contactref element="RR2" pad="2"/>
+<contactref element="RR2_1%" pad="2"/>
 <contactref element="COUT1" pad="1"/>
 <contactref element="COUT2" pad="1"/>
 <contactref element="CIN1" pad="1"/>
@@ -6869,7 +6869,7 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="U$3" pad="P$2"/>
 <contactref element="U$9" pad="P$2"/>
-<contactref element="RR1" pad="1"/>
+<contactref element="RR1_1%" pad="1"/>
 <contactref element="COUT1" pad="2"/>
 <contactref element="COUT2" pad="2"/>
 <polygon width="0.6096" layer="1">
@@ -6952,8 +6952,8 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="N$16">
-<contactref element="RR1" pad="2"/>
-<contactref element="RR2" pad="1"/>
+<contactref element="RR1_1%" pad="2"/>
+<contactref element="RR2_1%" pad="1"/>
 <contactref element="RT7258" pad="6"/>
 <wire x1="18.923" y1="4.865" x2="17.272" y2="4.865" width="0.254" layer="16"/>
 <wire x1="11.6805" y1="5.969" x2="11.6805" y2="5.0835" width="0.254" layer="1"/>
