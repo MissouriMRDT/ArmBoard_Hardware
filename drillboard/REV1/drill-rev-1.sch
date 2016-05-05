@@ -2897,13 +2897,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="142.24" y="-35.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MOIST_3" class="0">
-<segment>
-<pinref part="U$13" gate="G$1" pin="PC3"/>
-<wire x1="137.16" y1="-40.64" x2="142.24" y2="-40.64" width="0.1524" layer="91"/>
-<label x="142.24" y="-40.64" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="MOIST_4" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="PC4"/>
