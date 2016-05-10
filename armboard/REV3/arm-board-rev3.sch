@@ -5275,7 +5275,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="RES_LEDPWR7" gate="G$1" x="-53.34" y="27.94" rot="R90"/>
 <instance part="LED_12V4" gate="G$1" x="-53.34" y="40.64"/>
 <instance part="GND22" gate="1" x="-53.34" y="17.78"/>
-<instance part="P+25" gate="VCC" x="-53.34" y="48.26"/>
+<instance part="P+25" gate="VCC" x="-53.34" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -5676,7 +5676,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="LED_12V4" gate="G$1" pin="A"/>
 <pinref part="P+25" gate="VCC" pin="VCC"/>
-<wire x1="-53.34" y1="45.72" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="48.26" x2="-53.34" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
