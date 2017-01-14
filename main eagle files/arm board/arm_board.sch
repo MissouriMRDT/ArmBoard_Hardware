@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3358,7 +3358,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND62" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C55" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND63" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="12-3.3-LDO1" library="lin reg" deviceset="MIC5219-3.3YM5" device=""/>
+<part name="U$2" library="lin reg" deviceset="MIC5219-3.3YM5" device=""/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="2.2uF"/>
@@ -3369,7 +3369,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U1" library="MRDT-Microcontrollers" deviceset="TIVA-1294" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="PWR_GRD" library="MRDT-2015-PowerBoard" deviceset="LT1910" device=""/>
+<part name="U$0" library="MRDT-2015-PowerBoard" deviceset="LT1910" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
@@ -4774,14 +4774,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <plain>
 </plain>
 <instances>
-<instance part="12-3.3-LDO1" gate="G$1" x="17.78" y="27.94"/>
+<instance part="U$2" gate="G$1" x="17.78" y="27.94"/>
 <instance part="GND19" gate="1" x="-2.54" y="22.86"/>
 <instance part="C6" gate="G$1" x="-2.54" y="30.48"/>
 <instance part="C7" gate="G$1" x="38.1" y="22.86"/>
 <instance part="C8" gate="G$1" x="30.48" y="10.16"/>
 <instance part="GND20" gate="1" x="38.1" y="15.24"/>
 <instance part="GND21" gate="1" x="30.48" y="5.08"/>
-<instance part="PWR_GRD" gate="G$1" x="-2.54" y="-73.66"/>
+<instance part="U$0" gate="G$1" x="-2.54" y="-73.66"/>
 <instance part="C3" gate="G$1" x="-22.86" y="-81.28"/>
 <instance part="GND14" gate="1" x="-2.54" y="-93.98"/>
 <instance part="Q1" gate="G$1" x="30.48" y="-73.66"/>
@@ -4804,7 +4804,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="12-3.3-LDO1" gate="G$1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="5.08" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="27.94" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -4823,7 +4823,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-22.86" y1="-83.82" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="PWR_GRD" gate="G$1" pin="GND"/>
+<pinref part="U$0" gate="G$1" pin="GND"/>
 <wire x1="-22.86" y1="-86.36" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-86.36" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-86.36" x2="-2.54" y2="-91.44" width="0.1524" layer="91"/>
@@ -4859,11 +4859,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="LOG_PWR_12V" class="0">
 <segment>
 <wire x1="-2.54" y1="35.56" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="12-3.3-LDO1" gate="G$1" pin="VIN"/>
+<pinref part="U$2" gate="G$1" pin="VIN"/>
 <wire x1="5.08" y1="30.48" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <label x="-2.54" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="12-3.3-LDO1" gate="G$1" pin="EN"/>
+<pinref part="U$2" gate="G$1" pin="EN"/>
 <wire x1="5.08" y1="25.4" x2="5.08" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
@@ -4876,7 +4876,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <label x="40.64" y="30.48" size="1.778" layer="95" xref="yes"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="12-3.3-LDO1" gate="G$1" pin="VOUT"/>
+<pinref part="U$2" gate="G$1" pin="VOUT"/>
 <wire x1="30.48" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="30.48" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
@@ -4906,14 +4906,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="12-3.3-LDO1" gate="G$1" pin="BYP"/>
+<pinref part="U$2" gate="G$1" pin="BYP"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAIN_PWR_SWITCH_CTL" class="0">
 <segment>
-<pinref part="PWR_GRD" gate="G$1" pin="IN"/>
+<pinref part="U$0" gate="G$1" pin="IN"/>
 <wire x1="-20.32" y1="-66.04" x2="-35.56" y2="-66.04" width="0.1524" layer="91"/>
 <label x="-43.18" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -4923,7 +4923,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="PWR_GRD" gate="G$1" pin="TIMER"/>
+<pinref part="U$0" gate="G$1" pin="TIMER"/>
 <wire x1="-22.86" y1="-71.12" x2="-20.32" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-71.12" x2="-22.86" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -4977,7 +4977,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="$N3" class="0">
 <segment>
-<pinref part="PWR_GRD" gate="G$1" pin="V+"/>
+<pinref part="U$0" gate="G$1" pin="V+"/>
 <pinref part="U$1" gate="G$1" pin="IP-"/>
 <wire x1="-12.7" y1="-25.4" x2="-12.7" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -4985,7 +4985,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="33.02" y1="-38.1" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="-60.96" x2="33.02" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-60.96" x2="20.32" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="PWR_GRD" gate="G$1" pin="SENSE"/>
+<pinref part="U$0" gate="G$1" pin="SENSE"/>
 <wire x1="20.32" y1="-60.96" x2="33.02" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-66.04" x2="20.32" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-66.04" x2="20.32" y2="-60.96" width="0.1524" layer="91"/>
@@ -4996,7 +4996,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="N$3" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<pinref part="PWR_GRD" gate="G$1" pin="GATE"/>
+<pinref part="U$0" gate="G$1" pin="GATE"/>
 <wire x1="22.86" y1="-71.12" x2="15.24" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
