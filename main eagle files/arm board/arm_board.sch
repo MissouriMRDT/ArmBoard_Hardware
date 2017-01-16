@@ -8889,6 +8889,7 @@ Most frame-mounted PCB's - M8</description>
 <part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="LOGO1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
+<part name="H3" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 </parts>
 <sheets>
 <sheet>
@@ -8940,6 +8941,7 @@ to gripper</text>
 <instance part="H1" gate="G$1" x="-101.6" y="63.5"/>
 <instance part="H2" gate="G$1" x="-101.6" y="53.34"/>
 <instance part="LOGO1" gate="G$1" x="-101.6" y="43.18"/>
+<instance part="H3" gate="G$1" x="-101.6" y="71.12"/>
 </instances>
 <busses>
 </busses>

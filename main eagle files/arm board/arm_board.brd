@@ -7756,9 +7756,10 @@ design rules under a new name.</description>
 <element name="J16" library="MRDT-Connectors" package="APP45_PCB_HORIZ_RIGHT" value="APPPP45_PCB_HORIZ_RIGHT" x="64.389" y="137.287" rot="R270">
 <attribute name="COLOR1" value="" x="64.389" y="137.287" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="93.98" y="124.46"/>
+<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="93.98" y="125.095"/>
 <element name="H2" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="6.35" y="5.715"/>
 <element name="LOGO1" library="MRDT-Hardware" package="MRDT_LOGO" value="MRDT_LOGO" x="87.63" y="0.635"/>
+<element name="H3" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="41.275" y="125.095"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -8587,18 +8588,10 @@ design rules under a new name.</description>
 <wire x1="39.243" y1="76.327" x2="39.37" y2="76.2" width="0.8128" layer="1"/>
 <wire x1="39.37" y1="76.2" x2="41.275" y2="76.2" width="0.8128" layer="1"/>
 <wire x1="31.203" y1="92.114" x2="31.154" y2="92.114" width="0.6096" layer="1"/>
-<wire x1="41.275" y1="110.49" x2="41.275" y2="121.92" width="6.4516" layer="1"/>
-<wire x1="41.275" y1="121.92" x2="41.275" y2="123.19" width="6.4516" layer="1"/>
-<wire x1="41.275" y1="123.19" x2="41.275" y2="124.46" width="6.4516" layer="1"/>
-<wire x1="41.275" y1="123.317" x2="41.275" y2="123.19" width="0.8128" layer="1"/>
+<wire x1="41.275" y1="110.49" x2="41.275" y2="118.745" width="6.4516" layer="1"/>
 <wire x1="30.822" y1="127.127" x2="30.822" y2="126.277" width="0.8128" layer="1"/>
 <wire x1="30.822" y1="126.277" x2="30.9245" y2="126.1745" width="0.8128" layer="1"/>
 <wire x1="30.9245" y1="126.1745" x2="31.242" y2="125.857" width="0.8128" layer="1"/>
-<wire x1="41.148" y1="122.047" x2="41.275" y2="121.92" width="0.8128" layer="1"/>
-<wire x1="33.997" y1="127.127" x2="38.608" y2="127.127" width="0.8128" layer="1"/>
-<wire x1="38.608" y1="127.127" x2="39.878" y2="125.857" width="0.8128" layer="1"/>
-<wire x1="39.878" y1="125.857" x2="41.275" y2="124.46" width="0.8128" layer="1"/>
-<wire x1="31.242" y1="125.857" x2="39.878" y2="125.857" width="0.8128" layer="1"/>
 <wire x1="41.275" y1="110.49" x2="41.275" y2="111.125" width="0.8128" layer="1"/>
 <wire x1="41.275" y1="111.125" x2="38.862" y2="113.538" width="0.8128" layer="1"/>
 <wire x1="38.862" y1="113.538" x2="38.735" y2="113.665" width="0.8128" layer="1"/>
@@ -8708,6 +8701,17 @@ design rules under a new name.</description>
 <wire x1="28.5952" y1="45.9538" x2="28.194" y2="45.9538" width="0.508" layer="1"/>
 <wire x1="29.083" y1="45.593" x2="28.7222" y2="45.9538" width="0.508" layer="1"/>
 <wire x1="28.7222" y1="45.9538" x2="28.194" y2="45.9538" width="0.508" layer="1"/>
+<wire x1="33.997" y1="127.127" x2="35.433" y2="127.127" width="0.8128" layer="1"/>
+<wire x1="35.433" y1="127.127" x2="37.465" y2="125.095" width="0.8128" layer="1"/>
+<wire x1="37.465" y1="125.095" x2="37.465" y2="123.19" width="0.8128" layer="1"/>
+<wire x1="37.465" y1="123.19" x2="41.275" y2="119.38" width="0.8128" layer="1"/>
+<wire x1="41.275" y1="119.38" x2="41.275" y2="118.745" width="0.8128" layer="1"/>
+<wire x1="31.242" y1="125.857" x2="34.798" y2="125.857" width="0.8128" layer="1"/>
+<wire x1="34.798" y1="125.857" x2="36.195" y2="124.46" width="0.8128" layer="1"/>
+<wire x1="36.195" y1="124.46" x2="36.195" y2="122.809" width="0.8128" layer="1"/>
+<wire x1="36.195" y1="122.809" x2="39.624" y2="119.38" width="0.8128" layer="1"/>
+<wire x1="39.624" y1="119.38" x2="40.64" y2="119.38" width="0.8128" layer="1"/>
+<wire x1="40.64" y1="119.38" x2="41.275" y2="118.745" width="0.8128" layer="1"/>
 </signal>
 <signal name="MOT1_NSLEEP">
 <contactref element="MOT1_HB1" pad="17"/>
