@@ -8273,6 +8273,15 @@ design rules under a new name.</description>
 <via x="72.263" y="96.52" extent="1-16" drill="0.6" shape="square"/>
 <via x="73.533" y="96.52" extent="1-16" drill="0.6" shape="square"/>
 <via x="74.803" y="96.52" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="102.87" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="101.6" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="100.33" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="99.06" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="97.79" extent="1-16" drill="0.6" shape="square"/>
+<via x="89.408" y="96.52" extent="1-16" drill="0.6" shape="square"/>
+<via x="88.138" y="102.87" extent="1-16" drill="0.6" shape="square"/>
+<via x="86.868" y="102.87" extent="1-16" drill="0.6" shape="square"/>
+<via x="88.138" y="101.6" extent="1-16" drill="0.6" shape="square"/>
 </signal>
 <signal name="LOG_PWR_12V">
 <contactref element="J2" pad="P$1"/>
