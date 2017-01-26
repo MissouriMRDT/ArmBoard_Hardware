@@ -11038,7 +11038,7 @@ to gripper</text>
 <instance part="C7" gate="G$1" x="-5.08" y="33.02"/>
 <instance part="C8" gate="G$1" x="-12.7" y="20.32"/>
 <instance part="GND20" gate="1" x="-5.08" y="25.4"/>
-<instance part="GND21" gate="1" x="-12.7" y="15.24"/>
+<instance part="GND21" gate="1" x="-12.7" y="12.7"/>
 <instance part="U$0" gate="G$1" x="-2.54" y="-73.66"/>
 <instance part="C3" gate="G$1" x="-22.86" y="-81.28"/>
 <instance part="GND14" gate="1" x="-2.54" y="-93.98"/>
@@ -11087,6 +11087,7 @@ to gripper</text>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -11223,10 +11224,11 @@ to gripper</text>
 <wire x1="-149.86" y1="12.7" x2="-152.4" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="12.7" x2="-172.72" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="12.7" x2="-172.72" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="-5.08" x2="-152.4" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-152.4" y="12.7"/>
 <label x="-172.72" y="20.32" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="MTR_PWR" class="0">
