@@ -9964,7 +9964,7 @@ design rules under a new name.</description>
 <wire x1="54.356" y1="10.287" x2="53.721" y2="9.144" width="0.6096" layer="16"/>
 <wire x1="51.181" y1="9.144" x2="51.181" y2="9.652" width="0.6096" layer="16"/>
 <wire x1="49.5" y1="4.003" x2="50.8" y2="4.003" width="0.6096" layer="1"/>
-<wire x1="52.324" y1="10.414" x2="52.324" y2="20.955" width="10" layer="16"/>
+<wire x1="52.324" y1="10.414" x2="52.324" y2="20.955" width="10.668" layer="16"/>
 <wire x1="52.324" y1="20.955" x2="52.451" y2="21.082" width="10" layer="16"/>
 <via x="52.451" y="21.082" extent="1-16" drill="0.6"/>
 <polygon width="0.254" layer="1">
