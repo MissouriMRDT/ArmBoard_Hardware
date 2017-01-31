@@ -9678,7 +9678,7 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <part name="C19" library="SparkFun-Capacitors" deviceset="2.2UF-25V-+80/-20(0805)" device="" value=".1uF"/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D_OUT" library="MRDT-Connectors" deviceset="SL03" device=""/>
+<part name="RS232_IO" library="MRDT-Connectors" deviceset="SL03" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -10896,7 +10896,7 @@ to gripper</text>
 <instance part="C19" gate="G$1" x="152.4" y="86.36" rot="R90"/>
 <instance part="GND38" gate="1" x="160.02" y="78.74"/>
 <instance part="GND13" gate="1" x="127" y="40.64"/>
-<instance part="D_OUT" gate="G$1" x="177.8" y="63.5"/>
+<instance part="RS232_IO" gate="G$1" x="177.8" y="63.5"/>
 <instance part="GND15" gate="1" x="170.18" y="53.34"/>
 </instances>
 <busses>
@@ -10931,7 +10931,7 @@ to gripper</text>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="D_OUT" gate="G$1" pin="1"/>
+<pinref part="RS232_IO" gate="G$1" pin="1"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="170.18" y1="60.96" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -11225,13 +11225,13 @@ to gripper</text>
 <pinref part="U3" gate="G$1" pin="T2OUT"/>
 <wire x1="139.7" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="71.12" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="D_OUT" gate="G$1" pin="3"/>
+<pinref part="RS232_IO" gate="G$1" pin="3"/>
 <wire x1="167.64" y1="66.04" x2="170.18" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="D_OUT" gate="G$1" pin="2"/>
+<pinref part="RS232_IO" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="63.5" x2="144.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="R2IN"/>

@@ -196,6 +196,36 @@ Rove so hard you won't even believe it</text>
 <text x="1.397" y="74.676" size="1.778" layer="25" rot="SR270">Enc4</text>
 <text x="1.397" y="64.516" size="1.778" layer="25" rot="SR270">Enc5</text>
 <text x="74.93" y="55.88" size="1.778" layer="25" rot="R90">&gt;To gripper</text>
+<text x="59.69" y="29.845" size="1.778" layer="26" rot="MR0">PM_6  ENC1_READ
+PM_2  ENC2_READ
+PM_0  ENC3_READ
+PM_4  ENC4_READ
+PA_6  ENC5_READ
+PF_3  MOT1_PWM
+PK_5  MOT2_PWM
+PK_4  MOT3_PWM
+PG_0  MOT4_PWM
+PG_1  MOT5_PWM
+PP_0  RX
+PP_1  TX
+PL_1  MOT1_NFAULT
+PL_2  MOT1_NSLEEP
+PL_3  MOT1_PHASE
+PH_0  MOT2_NFAULT
+PH_1  MOT2_NSLEEP
+PK_6  MOT2_PHASE
+PP_4  MOT3_NFAULT
+PD_5  MOT3_NSLEEP
+PA_5  MOT3_PHASE
+PK_2  MOT4_NFAULT
+PK_3  MOT4_NSLEEP
+PQ_0  MOT4_PHASE
+PM_7  MOT5_NFAULT
+PA_7  MOT5_NSLEEP
+PP_5  MOT5_PHASE
+PE_4  POW ENABLE
+PE_5  POW NFAULT
+PD_3  CURR SENSE</text>
 </plain>
 <libraries>
 <library name="lin reg">
@@ -7953,8 +7983,8 @@ design rules under a new name.</description>
 <element name="C19" library="SparkFun-Capacitors" package="0805" value=".1uF" x="69.342" y="64.897" rot="R90">
 <attribute name="PROD_ID" value="CAP-11624" x="69.342" y="64.897" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D_OUT" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="72.39" y="50.165" smashed="yes" rot="R270">
-<attribute name="NAME" x="70.485" y="47.625" size="1.27" layer="21" rot="R90"/>
+<element name="RS232_IO" library="MRDT-Connectors" package="MOLEX-70543-0002" value="SL03" x="72.39" y="50.165" smashed="yes" rot="R270">
+<attribute name="NAME" x="70.485" y="45.72" size="1.27" layer="21" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -8301,7 +8331,7 @@ design rules under a new name.</description>
 <contactref element="C16" pad="2"/>
 <contactref element="C19" pad="2"/>
 <contactref element="U3" pad="15"/>
-<contactref element="D_OUT" pad="1"/>
+<contactref element="RS232_IO" pad="1"/>
 <wire x1="69.342" y1="65.797" x2="69.342" y2="66.929" width="0.6096" layer="1"/>
 <wire x1="69.215" y1="56.631" x2="69.215" y2="55.499" width="0.6096" layer="1"/>
 <via x="69.342" y="66.929" extent="1-16" drill="0.6" shape="square"/>
@@ -9981,7 +10011,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$14">
 <contactref element="U3" pad="7"/>
-<contactref element="D_OUT" pad="3"/>
+<contactref element="RS232_IO" pad="3"/>
 <wire x1="72.39" y1="52.705" x2="72.39" y2="67.31" width="0.6096" layer="1"/>
 <wire x1="72.39" y1="67.31" x2="70.866" y2="68.834" width="0.6096" layer="1"/>
 <wire x1="70.866" y1="68.834" x2="67.437" y2="68.834" width="0.6096" layer="1"/>
@@ -9991,7 +10021,7 @@ design rules under a new name.</description>
 <wire x1="65.405" y1="65.405" x2="65.405" y2="66.802" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="D_OUT" pad="2"/>
+<contactref element="RS232_IO" pad="2"/>
 <contactref element="U3" pad="8"/>
 <wire x1="66.835" y1="66.04" x2="66.835" y2="66.835" width="0.6096" layer="1"/>
 <wire x1="66.835" y1="66.835" x2="67.945" y2="67.945" width="0.6096" layer="1"/>
