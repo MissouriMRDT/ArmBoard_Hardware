@@ -9516,6 +9516,94 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A3L-LOC">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
+<symbol name="A3P-LOC">
+<wire x1="256.54" y1="24.13" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="3.81" x2="246.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="3.81" x2="161.29" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="387.35" columns="8" rows="5" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A3, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A3L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3P-LOC" prefix="FRAME" uservalue="yes">
+<description>A3 Portrait Location</description>
+<gates>
+<gate name="G$1" symbol="A3P-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9675,6 +9763,10 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="RS232_IO" library="MRDT-Connectors" deviceset="SL03" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
+<part name="FRAME2" library="frames" deviceset="A3P-LOC" device=""/>
+<part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
+<part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9727,6 +9819,7 @@ to gripper</text>
 <instance part="U$10" gate="G$1" x="50.8" y="43.18"/>
 <instance part="U$11" gate="G$1" x="50.8" y="27.94"/>
 <instance part="H4" gate="G$1" x="-91.44" y="53.34"/>
+<instance part="FRAME1" gate="G$1" x="-170.18" y="-91.44"/>
 </instances>
 <busses>
 </busses>
@@ -9782,11 +9875,12 @@ to gripper</text>
 <segment>
 <pinref part="J17" gate="G$1" pin="P$1"/>
 <wire x1="96.52" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="99.06" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="93.98" y1="99.06" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="96.52" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<junction x="93.98" y="96.52"/>
 </segment>
 </net>
 <net name="LOG_PWR_12V" class="0">
@@ -10064,6 +10158,7 @@ to gripper</text>
 <instance part="R12" gate="G$1" x="-45.72" y="15.24" rot="MR90"/>
 <instance part="R13" gate="G$1" x="63.5" y="15.24" rot="MR90"/>
 <instance part="R14" gate="G$1" x="-5.08" y="-53.34" rot="MR90"/>
+<instance part="FRAME2" gate="G$1" x="-91.44" y="-167.64"/>
 </instances>
 <busses>
 </busses>
@@ -10435,16 +10530,6 @@ to gripper</text>
 </net>
 <net name="HB_3.3_OUTPUT5" class="0">
 <segment>
-<pinref part="MOT1_HB1" gate="G$1" pin="VREF"/>
-<wire x1="-30.48" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="73.66" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="MOT1_HB1" gate="G$1" pin="V3P3OUT"/>
-<wire x1="-30.48" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="73.66" x2="-33.02" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="71.12" x2="-33.02" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="72.39" x2="-54.61" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="-54.61" y1="72.39" x2="-54.61" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="MOT1_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-54.61" y1="81.28" x2="-54.61" y2="83.82" width="0.1524" layer="91"/>
@@ -10455,6 +10540,17 @@ to gripper</text>
 <wire x1="-71.12" y1="99.06" x2="-71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="81.28" x2="-54.61" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-54.61" y="81.28"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="V3P3OUT"/>
+<wire x1="-30.48" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="VREF"/>
+<wire x1="-30.48" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="73.66" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="71.12" x2="-33.02" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="72.39" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-54.61" y1="72.39" x2="-33.02" y2="72.39" width="0.1524" layer="91"/>
+<junction x="-33.02" y="72.39"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -10499,16 +10595,6 @@ to gripper</text>
 </net>
 <net name="HB_3.3_OUTPUT6" class="0">
 <segment>
-<pinref part="MOT3_HB1" gate="G$1" pin="VREF"/>
-<wire x1="-30.48" y1="0" x2="-35.56" y2="0" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-2.54" x2="-35.56" y2="0" width="0.1524" layer="91"/>
-<pinref part="MOT3_HB1" gate="G$1" pin="V3P3OUT"/>
-<wire x1="-30.48" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-5.08" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="-3.81" x2="-54.61" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="-54.61" y1="-3.81" x2="-54.61" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="MOT3_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-54.61" y1="5.08" x2="-54.61" y2="7.62" width="0.1524" layer="91"/>
@@ -10519,6 +10605,17 @@ to gripper</text>
 <wire x1="-76.2" y1="22.86" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="5.08" x2="-54.61" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-54.61" y="5.08"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="V3P3OUT"/>
+<wire x1="-30.48" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<wire x1="-33.02" y1="-5.08" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="-3.81" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-2.54" x2="-35.56" y2="0" width="0.1524" layer="91"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="VREF"/>
+<wire x1="-30.48" y1="0" x2="-35.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="-54.61" y1="-3.81" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-3.81"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -10549,16 +10646,6 @@ to gripper</text>
 </net>
 <net name="HB_3.3_OUTPUT7" class="0">
 <segment>
-<pinref part="MOT2_HB1" gate="G$1" pin="VREF"/>
-<wire x1="76.2" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="MOT2_HB1" gate="G$1" pin="V3P3OUT"/>
-<wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="73.66" x2="73.66" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="71.12" x2="73.66" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="72.39" x2="52.07" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="72.39" x2="52.07" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="MOT2_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="52.07" y1="81.28" x2="52.07" y2="83.82" width="0.1524" layer="91"/>
@@ -10569,6 +10656,17 @@ to gripper</text>
 <wire x1="33.02" y1="99.06" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="81.28" x2="52.07" y2="81.28" width="0.1524" layer="91"/>
 <junction x="52.07" y="81.28"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="V3P3OUT"/>
+<wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="VREF"/>
+<wire x1="76.2" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="71.12" x2="73.66" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="72.39" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="72.39" x2="73.66" y2="72.39" width="0.1524" layer="91"/>
+<junction x="73.66" y="72.39"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -10599,16 +10697,6 @@ to gripper</text>
 </net>
 <net name="HB_3.3_OUTPUT8" class="0">
 <segment>
-<pinref part="MOT4_HB1" gate="G$1" pin="VREF"/>
-<wire x1="76.2" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-2.54" x2="71.12" y2="0" width="0.1524" layer="91"/>
-<pinref part="MOT4_HB1" gate="G$1" pin="V3P3OUT"/>
-<wire x1="76.2" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-2.54" x2="73.66" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-5.08" x2="73.66" y2="-3.81" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-3.81" x2="52.07" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="-3.81" x2="52.07" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="MOT4_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="52.07" y1="5.08" x2="52.07" y2="7.62" width="0.1524" layer="91"/>
@@ -10619,6 +10707,17 @@ to gripper</text>
 <wire x1="38.1" y1="22.86" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="5.08" x2="52.07" y2="5.08" width="0.1524" layer="91"/>
 <junction x="52.07" y="5.08"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="V3P3OUT"/>
+<wire x1="76.2" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="VREF"/>
+<wire x1="76.2" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-2.54" x2="71.12" y2="0" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-5.08" x2="73.66" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-3.81" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="52.07" y1="-3.81" x2="73.66" y2="-3.81" width="0.1524" layer="91"/>
+<junction x="73.66" y="-3.81"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -10649,16 +10748,6 @@ to gripper</text>
 </net>
 <net name="HB_3.3_OUTPUT9" class="0">
 <segment>
-<pinref part="MOT5_HB1" gate="G$1" pin="VREF"/>
-<wire x1="7.62" y1="-68.58" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-71.12" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="MOT5_HB1" gate="G$1" pin="V3P3OUT"/>
-<wire x1="7.62" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="C51" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-71.12" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-73.66" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="-72.39" x2="-19.05" y2="-72.39" width="0.1524" layer="91"/>
 <wire x1="-19.05" y1="-72.39" x2="-19.05" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="MOT5_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-19.05" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
@@ -10668,6 +10757,17 @@ to gripper</text>
 <wire x1="-33.02" y1="-43.18" x2="-33.02" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-60.96" x2="-19.05" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-19.05" y="-60.96"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="V3P3OUT"/>
+<wire x1="7.62" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
+<pinref part="C51" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="-73.66" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-72.39" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-71.12" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="VREF"/>
+<wire x1="7.62" y1="-68.58" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-19.05" y1="-72.39" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
+<junction x="5.08" y="-72.39"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -10897,6 +10997,7 @@ to gripper</text>
 <instance part="GND13" gate="1" x="127" y="40.64"/>
 <instance part="RS232_IO" gate="G$1" x="177.8" y="63.5"/>
 <instance part="GND15" gate="1" x="170.18" y="53.34"/>
+<instance part="FRAME3" gate="G$1" x="-99.06" y="-20.32"/>
 </instances>
 <busses>
 </busses>
@@ -10910,6 +11011,7 @@ to gripper</text>
 <wire x1="50.8" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="127" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
+<junction x="50.8" y="116.84"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -10940,10 +11042,11 @@ to gripper</text>
 <label x="35.56" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="+3V3"/>
 <wire x1="22.86" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="134.62" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="134.62" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<junction x="35.56" y="127"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC"/>
@@ -11278,6 +11381,7 @@ to gripper</text>
 <instance part="GND28" gate="1" x="-55.88" y="-17.78"/>
 <instance part="GND29" gate="1" x="-129.54" y="-10.16" rot="R270"/>
 <instance part="GND30" gate="1" x="-129.54" y="-50.8" rot="R270"/>
+<instance part="FRAME4" gate="G$1" x="-210.82" y="-157.48"/>
 </instances>
 <busses>
 </busses>
@@ -11302,13 +11406,14 @@ to gripper</text>
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="-83.82" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="U$0" gate="G$1" pin="GND"/>
-<wire x1="-22.86" y1="-86.36" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-86.36" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="-86.36" x2="-2.54" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="-91.44" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-2.54" y1="-86.36" x2="-2.54" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-83.82" x2="-22.86" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-86.36" x2="-2.54" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="-2.54" y="-86.36"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -11330,6 +11435,7 @@ to gripper</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="-40.64" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-40.64" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="50.8" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -11383,26 +11489,28 @@ to gripper</text>
 <wire x1="-5.08" y1="40.64" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="17.78" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-20.32" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
 <label x="27.94" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="SEL"/>
 <wire x1="27.94" y1="-15.24" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-7.62" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-25.4" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-25.4" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-27.94" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <junction x="27.94" y="-15.24"/>
 <pinref part="IC1" gate="A" pin="V+"/>
+<wire x1="27.94" y1="-25.4" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-17.78" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-25.4" x2="27.94" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-27.94" x2="30.48" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="-10.16" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-7.62" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="17.78" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="27.94" y="-20.32"/>
+<pinref part="U$1" gate="G$1" pin="SEL"/>
+<wire x1="17.78" y1="-25.4" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="27.94" y="-25.4"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11454,15 +11562,13 @@ to gripper</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIOUT"/>
 <wire x1="17.78" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-22.86" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-22.86" x2="26.67" y2="-21.59" width="0.1524" layer="91" curve="-90"/>
-<wire x1="26.67" y1="-21.59" x2="28.702" y2="-21.59" width="0.1524" layer="91"/>
-<wire x1="28.702" y1="-21.59" x2="29.972" y2="-22.86" width="0.1524" layer="91" curve="-90"/>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<wire x1="29.972" y1="-22.86" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-22.86" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="20.32" y="-22.86"/>
 <label x="20.32" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC1" gate="A" pin="-IN"/>
+<wire x1="29.972" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-22.86" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-22.86" x2="29.972" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11483,6 +11589,7 @@ to gripper</text>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="-25.4" x2="81.28" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-20.32" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="76.2" y="-25.4"/>
 </segment>
 </net>
 <net name="$N3" class="0">
