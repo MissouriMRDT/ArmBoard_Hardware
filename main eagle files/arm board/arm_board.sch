@@ -9627,7 +9627,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="mot2_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT2_HB1" library="lin reg" deviceset="DRV8829" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9639,7 +9639,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="mot4_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT4_HB1" library="lin reg" deviceset="DRV8829" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9651,7 +9651,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND47" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C40" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND48" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="mot3_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT3_HB1" library="lin reg" deviceset="DRV8829" device=""/>
 <part name="GND49" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C41" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND50" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9663,7 +9663,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND52" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C45" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND53" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="mot5_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT5_HB1" library="lin reg" deviceset="DRV8829" device=""/>
 <part name="GND54" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C46" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND55" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9675,7 +9675,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND57" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C50" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND58" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="mot1_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT1_HB1" library="lin reg" deviceset="DRV8829" device=""/>
 <part name="GND59" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C51" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND60" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -9721,7 +9721,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="LOGO1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
-<part name="H3" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="U$3" library="mine" deviceset="SUD15N15" device=""/>
 <part name="U$4" library="mine" deviceset="SUD15N15" device=""/>
 <part name="U$5" library="mine" deviceset="LM5050" device=""/>
@@ -9803,7 +9802,6 @@ to gripper</text>
 <instance part="H1" gate="G$1" x="-101.6" y="58.42"/>
 <instance part="H2" gate="G$1" x="-101.6" y="53.34"/>
 <instance part="LOGO1" gate="G$1" x="-101.6" y="43.18"/>
-<instance part="H3" gate="G$1" x="-91.44" y="58.42"/>
 <instance part="J17" gate="G$1" x="104.14" y="99.06"/>
 <instance part="J18" gate="G$1" x="104.14" y="104.14"/>
 <instance part="GND31" gate="1" x="93.98" y="88.9"/>
@@ -9969,70 +9967,70 @@ to gripper</text>
 <pinref part="J22" gate="G$1" pin="SIG"/>
 </segment>
 </net>
-<net name="mot2_1" class="0">
+<net name="MOT2_1" class="0">
 <segment>
 <wire x1="-30.48" y1="58.42" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="-40.64" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$8" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="mot2_2" class="0">
+<net name="MOT2_2" class="0">
 <segment>
 <wire x1="-30.48" y1="53.34" x2="-40.64" y2="53.34" width="0.1524" layer="91"/>
 <label x="-40.64" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$8" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="mot3_1" class="0">
+<net name="MOT3_1" class="0">
 <segment>
 <wire x1="43.18" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="33.02" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="mot3_2" class="0">
+<net name="MOT3_2" class="0">
 <segment>
 <wire x1="43.18" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="33.02" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="mot4_1" class="0">
+<net name="MOT4_1" class="0">
 <segment>
 <wire x1="-30.48" y1="40.64" x2="-40.64" y2="40.64" width="0.1524" layer="91"/>
 <label x="-40.64" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="mot4_2" class="0">
+<net name="MOT4_2" class="0">
 <segment>
 <wire x1="-30.48" y1="35.56" x2="-40.64" y2="35.56" width="0.1524" layer="91"/>
 <label x="-40.64" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$7" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="mot5_1" class="0">
+<net name="MOT5_1" class="0">
 <segment>
 <wire x1="43.18" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <label x="33.02" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="mot5_2" class="0">
+<net name="MOT5_2" class="0">
 <segment>
 <wire x1="43.18" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <label x="33.02" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$10" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="mot1_1" class="0">
+<net name="MOT1_1" class="0">
 <segment>
 <wire x1="43.18" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 <label x="33.02" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="mot1_2" class="0">
+<net name="MOT1_2" class="0">
 <segment>
 <wire x1="43.18" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
 <label x="33.02" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -10078,7 +10076,7 @@ to gripper</text>
 <text x="-35.56" y="160.02" size="5.08" layer="97">H BRIDGES</text>
 </plain>
 <instances>
-<instance part="mot2_HB1" gate="G$1" x="-12.7" y="83.82"/>
+<instance part="MOT2_HB1" gate="G$1" x="-12.7" y="83.82"/>
 <instance part="GND5" gate="1" x="-33.02" y="111.76" rot="R180"/>
 <instance part="C31" gate="G$1" x="-33.02" y="66.04"/>
 <instance part="GND6" gate="1" x="-33.02" y="58.42"/>
@@ -10093,7 +10091,7 @@ to gripper</text>
 <attribute name="VALUE" x="15.621" y="92.456" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND9" gate="1" x="12.7" y="76.2" rot="R90"/>
-<instance part="mot4_HB1" gate="G$1" x="-12.7" y="7.62"/>
+<instance part="MOT4_HB1" gate="G$1" x="-12.7" y="7.62"/>
 <instance part="GND44" gate="1" x="-33.02" y="35.56" rot="R180"/>
 <instance part="C36" gate="G$1" x="-33.02" y="-10.16"/>
 <instance part="GND45" gate="1" x="-33.02" y="-17.78"/>
@@ -10108,7 +10106,7 @@ to gripper</text>
 <attribute name="VALUE" x="15.621" y="16.256" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND48" gate="1" x="12.7" y="0" rot="R90"/>
-<instance part="mot3_HB1" gate="G$1" x="93.98" y="83.82"/>
+<instance part="MOT3_HB1" gate="G$1" x="93.98" y="83.82"/>
 <instance part="GND49" gate="1" x="73.66" y="111.76" rot="R180"/>
 <instance part="C41" gate="G$1" x="73.66" y="66.04"/>
 <instance part="GND50" gate="1" x="73.66" y="58.42"/>
@@ -10123,7 +10121,7 @@ to gripper</text>
 <attribute name="VALUE" x="122.301" y="92.456" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND53" gate="1" x="119.38" y="76.2" rot="R90"/>
-<instance part="mot5_HB1" gate="G$1" x="93.98" y="7.62"/>
+<instance part="MOT5_HB1" gate="G$1" x="93.98" y="7.62"/>
 <instance part="GND54" gate="1" x="73.66" y="35.56" rot="R180"/>
 <instance part="C46" gate="G$1" x="73.66" y="-10.16"/>
 <instance part="GND55" gate="1" x="73.66" y="-17.78"/>
@@ -10138,7 +10136,7 @@ to gripper</text>
 <attribute name="VALUE" x="122.301" y="16.256" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND58" gate="1" x="119.38" y="0" rot="R90"/>
-<instance part="mot1_HB1" gate="G$1" x="25.4" y="-60.96"/>
+<instance part="MOT1_HB1" gate="G$1" x="25.4" y="-60.96"/>
 <instance part="GND59" gate="1" x="5.08" y="-33.02" rot="R180"/>
 <instance part="C51" gate="G$1" x="5.08" y="-78.74"/>
 <instance part="GND60" gate="1" x="5.08" y="-86.36"/>
@@ -10167,22 +10165,22 @@ to gripper</text>
 <segment>
 <wire x1="-33.02" y1="91.44" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="mot2_HB1" gate="G$1" pin="I4"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="I4"/>
 <wire x1="-33.02" y1="93.98" x2="-33.02" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="96.52" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="99.06" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="101.6" x2="-33.02" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="91.44" x2="-30.48" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="mot2_HB1" gate="G$1" pin="I0"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="I0"/>
 <wire x1="-30.48" y1="101.6" x2="-33.02" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-33.02" y="101.6"/>
-<pinref part="mot2_HB1" gate="G$1" pin="I1"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="I1"/>
 <wire x1="-30.48" y1="99.06" x2="-33.02" y2="99.06" width="0.1524" layer="91"/>
 <junction x="-33.02" y="99.06"/>
-<pinref part="mot2_HB1" gate="G$1" pin="I2"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="I2"/>
 <wire x1="-30.48" y1="96.52" x2="-33.02" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-33.02" y="96.52"/>
-<pinref part="mot2_HB1" gate="G$1" pin="I3"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="I3"/>
 <wire x1="-30.48" y1="93.98" x2="-33.02" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-33.02" y="93.98"/>
 </segment>
@@ -10201,34 +10199,34 @@ to gripper</text>
 <wire x1="-2.54" y1="106.68" x2="-2.54" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="GND"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="GND"/>
 <wire x1="5.08" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="ISENSE"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="ISENSE"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="5.08" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-33.02" y1="15.24" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<pinref part="mot4_HB1" gate="G$1" pin="I4"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="I4"/>
 <wire x1="-33.02" y1="17.78" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="20.32" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="22.86" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="25.4" x2="-33.02" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="15.24" x2="-30.48" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="mot4_HB1" gate="G$1" pin="I0"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="I0"/>
 <wire x1="-30.48" y1="25.4" x2="-33.02" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-33.02" y="25.4"/>
-<pinref part="mot4_HB1" gate="G$1" pin="I1"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="I1"/>
 <wire x1="-30.48" y1="22.86" x2="-33.02" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-33.02" y="22.86"/>
-<pinref part="mot4_HB1" gate="G$1" pin="I2"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="I2"/>
 <wire x1="-30.48" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-33.02" y="20.32"/>
-<pinref part="mot4_HB1" gate="G$1" pin="I3"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="I3"/>
 <wire x1="-30.48" y1="17.78" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-33.02" y="17.78"/>
 </segment>
@@ -10247,34 +10245,34 @@ to gripper</text>
 <wire x1="-2.54" y1="30.48" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="GND"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="GND"/>
 <wire x1="5.08" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="ISENSE"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="ISENSE"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 <wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND49" gate="1" pin="GND"/>
-<pinref part="mot3_HB1" gate="G$1" pin="I4"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="I4"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="96.52" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="99.06" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="mot3_HB1" gate="G$1" pin="I0"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="I0"/>
 <wire x1="76.2" y1="101.6" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <junction x="73.66" y="101.6"/>
-<pinref part="mot3_HB1" gate="G$1" pin="I1"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="I1"/>
 <wire x1="76.2" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
 <junction x="73.66" y="99.06"/>
-<pinref part="mot3_HB1" gate="G$1" pin="I2"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="I2"/>
 <wire x1="76.2" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <junction x="73.66" y="96.52"/>
-<pinref part="mot3_HB1" gate="G$1" pin="I3"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="I3"/>
 <wire x1="76.2" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <junction x="73.66" y="93.98"/>
 </segment>
@@ -10293,34 +10291,34 @@ to gripper</text>
 <wire x1="104.14" y1="106.68" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="GND"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="ISENSE"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="ISENSE"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="111.76" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="15.24" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
-<pinref part="mot5_HB1" gate="G$1" pin="I4"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="I4"/>
 <wire x1="73.66" y1="17.78" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="20.32" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="22.86" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="25.4" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="mot5_HB1" gate="G$1" pin="I0"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="I0"/>
 <wire x1="76.2" y1="25.4" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
 <junction x="73.66" y="25.4"/>
-<pinref part="mot5_HB1" gate="G$1" pin="I1"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="I1"/>
 <wire x1="76.2" y1="22.86" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <junction x="73.66" y="22.86"/>
-<pinref part="mot5_HB1" gate="G$1" pin="I2"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="I2"/>
 <wire x1="76.2" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 <junction x="73.66" y="20.32"/>
-<pinref part="mot5_HB1" gate="G$1" pin="I3"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="I3"/>
 <wire x1="76.2" y1="17.78" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
 <junction x="73.66" y="17.78"/>
 </segment>
@@ -10339,12 +10337,12 @@ to gripper</text>
 <wire x1="104.14" y1="30.48" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="GND"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="GND"/>
 <wire x1="111.76" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="ISENSE"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="ISENSE"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 <wire x1="111.76" y1="0" x2="116.84" y2="0" width="0.1524" layer="91"/>
 </segment>
@@ -10363,41 +10361,41 @@ to gripper</text>
 <wire x1="35.56" y1="-38.1" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="GND"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="-48.26" x2="50.8" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="ISENSE"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="ISENSE"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 <wire x1="43.18" y1="-68.58" x2="48.26" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND59" gate="1" pin="GND"/>
 <wire x1="5.08" y1="-35.56" x2="5.08" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="mot1_HB1" gate="G$1" pin="I0"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="I0"/>
 <wire x1="5.08" y1="-43.18" x2="7.62" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="mot1_HB1" gate="G$1" pin="I4"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="I4"/>
 <wire x1="7.62" y1="-53.34" x2="5.08" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-53.34" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="5.08" y="-43.18"/>
-<pinref part="mot1_HB1" gate="G$1" pin="I1"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="I1"/>
 <wire x1="5.08" y1="-50.8" x2="5.08" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-48.26" x2="5.08" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-45.72" x2="5.08" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-45.72" x2="5.08" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="5.08" y="-45.72"/>
-<pinref part="mot1_HB1" gate="G$1" pin="I2"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="I2"/>
 <wire x1="7.62" y1="-48.26" x2="5.08" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="5.08" y="-48.26"/>
-<pinref part="mot1_HB1" gate="G$1" pin="I3"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="I3"/>
 <wire x1="7.62" y1="-50.8" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="5.08" y="-50.8"/>
 </segment>
 </net>
 <net name="MTR_PWR" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="VM"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="VM"/>
 <wire x1="5.08" y1="101.6" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="101.6" x2="7.62" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C32" gate="G$1" pin="2"/>
@@ -10417,7 +10415,7 @@ to gripper</text>
 <wire x1="25.4" y1="116.84" x2="12.7" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="VM"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="VM"/>
 <wire x1="5.08" y1="25.4" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="25.4" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C37" gate="G$1" pin="2"/>
@@ -10437,7 +10435,7 @@ to gripper</text>
 <wire x1="25.4" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="VM"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="VM"/>
 <wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="101.6" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C42" gate="G$1" pin="2"/>
@@ -10457,7 +10455,7 @@ to gripper</text>
 <wire x1="132.08" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="VM"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="VM"/>
 <wire x1="111.76" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="25.4" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="2"/>
@@ -10477,7 +10475,7 @@ to gripper</text>
 <wire x1="132.08" y1="40.64" x2="119.38" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="VM"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="VM"/>
 <wire x1="43.18" y1="-43.18" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-43.18" x2="45.72" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="C52" gate="G$1" pin="2"/>
@@ -10497,16 +10495,16 @@ to gripper</text>
 <wire x1="63.5" y1="-27.94" x2="50.8" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="mot2_NSLEEP" class="0">
+<net name="MOT2_NSLEEP" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="NSLEEP"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="NSLEEP"/>
 <wire x1="-30.48" y1="88.9" x2="-38.1" y2="88.9" width="0.1524" layer="91"/>
 <label x="-38.1" y="88.9" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_NFAULT" class="0">
+<net name="MOT2_NFAULT" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="NFAULT"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="NFAULT"/>
 <wire x1="-30.48" y1="86.36" x2="-45.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="-50.8" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -10514,16 +10512,16 @@ to gripper</text>
 <junction x="-45.72" y="86.36"/>
 </segment>
 </net>
-<net name="mot2_PHASE" class="0">
+<net name="MOT2_PHASE" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="PHASE"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="PHASE"/>
 <wire x1="-30.48" y1="81.28" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
 <label x="-35.56" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_PWM" class="0">
+<net name="MOT2_PWM" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="ENABLE"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="ENABLE"/>
 <wire x1="-30.48" y1="78.74" x2="-35.56" y2="78.74" width="0.1524" layer="91"/>
 <label x="-35.814" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10531,7 +10529,7 @@ to gripper</text>
 <net name="HB_3.3_OUTPUT5" class="0">
 <segment>
 <wire x1="-54.61" y1="72.39" x2="-54.61" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="mot2_HB1" gate="G$1" pin="NRESET"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-54.61" y1="81.28" x2="-54.61" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-54.61" y1="83.82" x2="-30.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -10540,9 +10538,9 @@ to gripper</text>
 <wire x1="-71.12" y1="99.06" x2="-71.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="81.28" x2="-54.61" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-54.61" y="81.28"/>
-<pinref part="mot2_HB1" gate="G$1" pin="V3P3OUT"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="-30.48" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="mot2_HB1" gate="G$1" pin="VREF"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="VREF"/>
 <wire x1="-30.48" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="73.66" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="73.66" x2="-33.02" y2="73.66" width="0.1524" layer="91"/>
@@ -10555,7 +10553,7 @@ to gripper</text>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="VCP"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="VCP"/>
 <wire x1="5.08" y1="99.06" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="99.06" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -10567,28 +10565,28 @@ to gripper</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="C35" gate="G$1" pin="2"/>
-<pinref part="mot2_HB1" gate="G$1" pin="CP1"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="CP1"/>
 <wire x1="7.62" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="CP2"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="CP2"/>
 <pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="88.9" x2="15.24" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="88.9" x2="15.24" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="mot2_1" class="0">
+<net name="MOT2_1" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="OUT1"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="OUT1"/>
 <wire x1="5.08" y1="83.82" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
 <label x="12.7" y="83.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_2" class="0">
+<net name="MOT2_2" class="0">
 <segment>
-<pinref part="mot2_HB1" gate="G$1" pin="OUT2"/>
+<pinref part="MOT2_HB1" gate="G$1" pin="OUT2"/>
 <wire x1="5.08" y1="81.28" x2="12.7" y2="81.28" width="0.1524" layer="91"/>
 <label x="12.7" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -10596,7 +10594,7 @@ to gripper</text>
 <net name="HB_3.3_OUTPUT6" class="0">
 <segment>
 <wire x1="-54.61" y1="-3.81" x2="-54.61" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="mot4_HB1" gate="G$1" pin="NRESET"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-54.61" y1="5.08" x2="-54.61" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-54.61" y1="7.62" x2="-30.48" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -10605,14 +10603,14 @@ to gripper</text>
 <wire x1="-76.2" y1="22.86" x2="-76.2" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="5.08" x2="-54.61" y2="5.08" width="0.1524" layer="91"/>
 <junction x="-54.61" y="5.08"/>
-<pinref part="mot4_HB1" gate="G$1" pin="V3P3OUT"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="-30.48" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C36" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="-5.08" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-3.81" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="-2.54" x2="-35.56" y2="0" width="0.1524" layer="91"/>
-<pinref part="mot4_HB1" gate="G$1" pin="VREF"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="VREF"/>
 <wire x1="-30.48" y1="0" x2="-35.56" y2="0" width="0.1524" layer="91"/>
 <wire x1="-54.61" y1="-3.81" x2="-33.02" y2="-3.81" width="0.1524" layer="91"/>
 <junction x="-33.02" y="-3.81"/>
@@ -10620,7 +10618,7 @@ to gripper</text>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="VCP"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="VCP"/>
 <wire x1="5.08" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -10632,13 +10630,13 @@ to gripper</text>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C40" gate="G$1" pin="2"/>
-<pinref part="mot4_HB1" gate="G$1" pin="CP1"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="CP1"/>
 <wire x1="7.62" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="CP2"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="CP2"/>
 <pinref part="C40" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="12.7" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
@@ -10647,7 +10645,7 @@ to gripper</text>
 <net name="HB_3.3_OUTPUT7" class="0">
 <segment>
 <wire x1="52.07" y1="72.39" x2="52.07" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="mot3_HB1" gate="G$1" pin="NRESET"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="52.07" y1="81.28" x2="52.07" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -10656,9 +10654,9 @@ to gripper</text>
 <wire x1="33.02" y1="99.06" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="81.28" x2="52.07" y2="81.28" width="0.1524" layer="91"/>
 <junction x="52.07" y="81.28"/>
-<pinref part="mot3_HB1" gate="G$1" pin="V3P3OUT"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="mot3_HB1" gate="G$1" pin="VREF"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="VREF"/>
 <wire x1="76.2" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
@@ -10671,7 +10669,7 @@ to gripper</text>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="VCP"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="VCP"/>
 <wire x1="111.76" y1="99.06" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="99.06" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
@@ -10683,13 +10681,13 @@ to gripper</text>
 <net name="N$24" class="0">
 <segment>
 <pinref part="C45" gate="G$1" pin="2"/>
-<pinref part="mot3_HB1" gate="G$1" pin="CP1"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="CP1"/>
 <wire x1="114.3" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="CP2"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="CP2"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="88.9" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
@@ -10698,7 +10696,7 @@ to gripper</text>
 <net name="HB_3.3_OUTPUT8" class="0">
 <segment>
 <wire x1="52.07" y1="-3.81" x2="52.07" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="mot5_HB1" gate="G$1" pin="NRESET"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="52.07" y1="5.08" x2="52.07" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -10707,9 +10705,9 @@ to gripper</text>
 <wire x1="38.1" y1="22.86" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="5.08" x2="52.07" y2="5.08" width="0.1524" layer="91"/>
 <junction x="52.07" y="5.08"/>
-<pinref part="mot5_HB1" gate="G$1" pin="V3P3OUT"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="76.2" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="mot5_HB1" gate="G$1" pin="VREF"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="VREF"/>
 <wire x1="76.2" y1="0" x2="71.12" y2="0" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-2.54" x2="71.12" y2="0" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
@@ -10722,7 +10720,7 @@ to gripper</text>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="VCP"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="VCP"/>
 <wire x1="111.76" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="22.86" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -10734,13 +10732,13 @@ to gripper</text>
 <net name="N$27" class="0">
 <segment>
 <pinref part="C50" gate="G$1" pin="2"/>
-<pinref part="mot5_HB1" gate="G$1" pin="CP1"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="CP1"/>
 <wire x1="114.3" y1="15.24" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="CP2"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="CP2"/>
 <pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="12.7" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="12.7" x2="121.92" y2="15.24" width="0.1524" layer="91"/>
@@ -10749,7 +10747,7 @@ to gripper</text>
 <net name="HB_3.3_OUTPUT9" class="0">
 <segment>
 <wire x1="-19.05" y1="-72.39" x2="-19.05" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="mot1_HB1" gate="G$1" pin="NRESET"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="NRESET"/>
 <wire x1="-19.05" y1="-60.96" x2="7.62" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="-5.08" y1="-43.18" x2="-5.08" y2="-48.26" width="0.1524" layer="91"/>
@@ -10757,14 +10755,14 @@ to gripper</text>
 <wire x1="-33.02" y1="-43.18" x2="-33.02" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-60.96" x2="-19.05" y2="-60.96" width="0.1524" layer="91"/>
 <junction x="-19.05" y="-60.96"/>
-<pinref part="mot1_HB1" gate="G$1" pin="V3P3OUT"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="V3P3OUT"/>
 <wire x1="7.62" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="C51" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="-73.66" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-72.39" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-71.12" x2="5.08" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-71.12" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="mot1_HB1" gate="G$1" pin="VREF"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="VREF"/>
 <wire x1="7.62" y1="-68.58" x2="2.54" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-19.05" y1="-72.39" x2="5.08" y2="-72.39" width="0.1524" layer="91"/>
 <junction x="5.08" y="-72.39"/>
@@ -10772,7 +10770,7 @@ to gripper</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="VCP"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="VCP"/>
 <wire x1="43.18" y1="-45.72" x2="50.8" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="-45.72" x2="50.8" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
@@ -10784,28 +10782,28 @@ to gripper</text>
 <net name="N$30" class="0">
 <segment>
 <pinref part="C55" gate="G$1" pin="2"/>
-<pinref part="mot1_HB1" gate="G$1" pin="CP1"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="CP1"/>
 <wire x1="45.72" y1="-53.34" x2="43.18" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="CP2"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="CP2"/>
 <pinref part="C55" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="-55.88" x2="53.34" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="-55.88" x2="53.34" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="mot3_NSLEEP" class="0">
+<net name="MOT3_NSLEEP" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="NSLEEP"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="NSLEEP"/>
 <wire x1="76.2" y1="88.9" x2="71.12" y2="88.9" width="0.1524" layer="91"/>
 <label x="71.12" y="88.9" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_NFAULT" class="0">
+<net name="MOT3_NFAULT" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="NFAULT"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="NFAULT"/>
 <wire x1="76.2" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="53.34" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -10813,44 +10811,44 @@ to gripper</text>
 <junction x="58.42" y="86.36"/>
 </segment>
 </net>
-<net name="mot3_PHASE" class="0">
+<net name="MOT3_PHASE" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="PHASE"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="PHASE"/>
 <wire x1="76.2" y1="81.28" x2="71.12" y2="81.28" width="0.1524" layer="91"/>
 <label x="71.12" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_PWM" class="0">
+<net name="MOT3_PWM" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="ENABLE"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="ENABLE"/>
 <wire x1="76.2" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_1" class="0">
+<net name="MOT3_1" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="OUT1"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="OUT1"/>
 <wire x1="111.76" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 <label x="119.38" y="83.82" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_2" class="0">
+<net name="MOT3_2" class="0">
 <segment>
-<pinref part="mot3_HB1" gate="G$1" pin="OUT2"/>
+<pinref part="MOT3_HB1" gate="G$1" pin="OUT2"/>
 <wire x1="111.76" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <label x="119.38" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_NSLEEP" class="0">
+<net name="MOT4_NSLEEP" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="NSLEEP"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="NSLEEP"/>
 <wire x1="-30.48" y1="12.7" x2="-35.56" y2="12.7" width="0.1524" layer="91"/>
 <label x="-35.56" y="12.7" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_NFAULT" class="0">
+<net name="MOT4_NFAULT" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="NFAULT"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="NFAULT"/>
 <wire x1="-30.48" y1="10.16" x2="-45.72" y2="10.16" width="0.1524" layer="91"/>
 <label x="-55.88" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -10858,44 +10856,44 @@ to gripper</text>
 <junction x="-45.72" y="10.16"/>
 </segment>
 </net>
-<net name="mot4_PHASE" class="0">
+<net name="MOT4_PHASE" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="PHASE"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="PHASE"/>
 <wire x1="-30.48" y1="5.08" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
 <label x="-35.56" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_PWM" class="0">
+<net name="MOT4_PWM" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="ENABLE"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="ENABLE"/>
 <wire x1="-30.48" y1="2.54" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
 <label x="-35.56" y="2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_1" class="0">
+<net name="MOT4_1" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="OUT1"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="OUT1"/>
 <wire x1="5.08" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
 <label x="12.7" y="7.62" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_2" class="0">
+<net name="MOT4_2" class="0">
 <segment>
-<pinref part="mot4_HB1" gate="G$1" pin="OUT2"/>
+<pinref part="MOT4_HB1" gate="G$1" pin="OUT2"/>
 <wire x1="5.08" y1="5.08" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
 <label x="12.7" y="5.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_NSLEEP" class="0">
+<net name="MOT5_NSLEEP" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="NSLEEP"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="NSLEEP"/>
 <wire x1="76.2" y1="12.7" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="12.7" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_NFAULT" class="0">
+<net name="MOT5_NFAULT" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="NFAULT"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="NFAULT"/>
 <wire x1="76.2" y1="10.16" x2="63.5" y2="10.16" width="0.1524" layer="91"/>
 <label x="58.42" y="10.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -10903,44 +10901,44 @@ to gripper</text>
 <junction x="63.5" y="10.16"/>
 </segment>
 </net>
-<net name="mot5_PHASE" class="0">
+<net name="MOT5_PHASE" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="PHASE"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="PHASE"/>
 <wire x1="76.2" y1="5.08" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
 <label x="71.12" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_PWM" class="0">
+<net name="MOT5_PWM" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="ENABLE"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="ENABLE"/>
 <wire x1="76.2" y1="2.54" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
 <label x="71.12" y="2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_1" class="0">
+<net name="MOT5_1" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="OUT1"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="OUT1"/>
 <wire x1="111.76" y1="7.62" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
 <label x="119.38" y="7.62" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_2" class="0">
+<net name="MOT5_2" class="0">
 <segment>
-<pinref part="mot5_HB1" gate="G$1" pin="OUT2"/>
+<pinref part="MOT5_HB1" gate="G$1" pin="OUT2"/>
 <wire x1="111.76" y1="5.08" x2="119.38" y2="5.08" width="0.1524" layer="91"/>
 <label x="119.38" y="5.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_NSLEEP" class="0">
+<net name="MOT1_NSLEEP" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="NSLEEP"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="NSLEEP"/>
 <wire x1="7.62" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
 <label x="2.54" y="-55.88" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_NFAULT" class="0">
+<net name="MOT1_NFAULT" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="NFAULT"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="NFAULT"/>
 <wire x1="7.62" y1="-58.42" x2="-5.08" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-12.7" y="-58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -10948,30 +10946,30 @@ to gripper</text>
 <junction x="-5.08" y="-58.42"/>
 </segment>
 </net>
-<net name="mot1_PHASE" class="0">
+<net name="MOT1_PHASE" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="PHASE"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="PHASE"/>
 <wire x1="7.62" y1="-63.5" x2="2.54" y2="-63.5" width="0.1524" layer="91"/>
 <label x="2.54" y="-63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_PWM" class="0">
+<net name="MOT1_PWM" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="ENABLE"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="ENABLE"/>
 <wire x1="7.62" y1="-66.04" x2="2.54" y2="-66.04" width="0.1524" layer="91"/>
 <label x="2.54" y="-66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_1" class="0">
+<net name="MOT1_1" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="OUT1"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="OUT1"/>
 <wire x1="43.18" y1="-60.96" x2="50.8" y2="-60.96" width="0.1524" layer="91"/>
 <label x="50.8" y="-60.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_2" class="0">
+<net name="MOT1_2" class="0">
 <segment>
-<pinref part="mot1_HB1" gate="G$1" pin="OUT2"/>
+<pinref part="MOT1_HB1" gate="G$1" pin="OUT2"/>
 <wire x1="43.18" y1="-63.5" x2="50.8" y2="-63.5" width="0.1524" layer="91"/>
 <label x="50.8" y="-63.5" size="1.016" layer="95" xref="yes"/>
 </segment>
@@ -11117,91 +11115,91 @@ to gripper</text>
 <label x="-17.78" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_PWM" class="0">
+<net name="MOT2_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PF3"/>
 <wire x1="-12.7" y1="86.36" x2="-17.78" y2="86.36" width="0.1524" layer="91"/>
 <label x="-17.78" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_PWM" class="0">
+<net name="MOT3_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PK5"/>
 <wire x1="-12.7" y1="55.88" x2="-17.78" y2="55.88" width="0.1524" layer="91"/>
 <label x="-17.78" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_PWM" class="0">
+<net name="MOT4_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PK4"/>
 <wire x1="-12.7" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="-17.78" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_PWM" class="0">
+<net name="MOT5_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PG0"/>
 <wire x1="22.86" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <label x="27.94" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_NFAULT" class="0">
+<net name="MOT2_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PL1"/>
 <wire x1="22.86" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_NSLEEP" class="0">
+<net name="MOT2_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PL2"/>
 <wire x1="22.86" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="27.94" y="43.18" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot2_PHASE" class="0">
+<net name="MOT2_PHASE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PL3"/>
 <wire x1="22.86" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <label x="27.94" y="40.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_NFAULT" class="0">
+<net name="MOT3_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PH0"/>
 <wire x1="-12.7" y1="81.28" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
 <label x="-17.78" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_NSLEEP" class="0">
+<net name="MOT3_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PH1"/>
 <wire x1="-12.7" y1="78.74" x2="-17.78" y2="78.74" width="0.1524" layer="91"/>
 <label x="-17.78" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot3_PHASE" class="0">
+<net name="MOT3_PHASE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PK6"/>
 <wire x1="-12.7" y1="53.34" x2="-17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="-17.78" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_NFAULT" class="0">
+<net name="MOT5_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PK2"/>
 <wire x1="-12.7" y1="63.5" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <label x="-17.78" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_NSLEEP" class="0">
+<net name="MOT5_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PK3"/>
 <wire x1="-12.7" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
 <label x="-17.78" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot5_PHASE" class="0">
+<net name="MOT5_PHASE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PQ0"/>
 <wire x1="22.86" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
@@ -11229,49 +11227,49 @@ to gripper</text>
 <label x="27.94" y="86.36" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_NFAULT" class="0">
+<net name="MOT4_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PP4"/>
 <wire x1="-12.7" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
 <label x="-17.78" y="12.7" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_NSLEEP" class="0">
+<net name="MOT4_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD5"/>
 <wire x1="22.86" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot4_PHASE" class="0">
+<net name="MOT4_PHASE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA5"/>
 <wire x1="-12.7" y1="114.3" x2="-17.78" y2="114.3" width="0.1524" layer="91"/>
 <label x="-17.78" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_PWM" class="0">
+<net name="MOT1_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PG1"/>
 <wire x1="22.86" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
 <label x="27.94" y="53.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_NFAULT" class="0">
+<net name="MOT1_NFAULT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PM7"/>
 <wire x1="-12.7" y1="27.94" x2="-17.78" y2="27.94" width="0.1524" layer="91"/>
 <label x="-17.78" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_NSLEEP" class="0">
+<net name="MOT1_NSLEEP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA7"/>
 <wire x1="-12.7" y1="109.22" x2="-17.78" y2="109.22" width="0.1524" layer="91"/>
 <label x="-17.78" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="mot1_PHASE" class="0">
+<net name="MOT1_PHASE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PP5"/>
 <wire x1="-12.7" y1="10.16" x2="-17.78" y2="10.16" width="0.1524" layer="91"/>
