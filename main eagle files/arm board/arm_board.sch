@@ -11082,33 +11082,12 @@ to gripper</text>
 </net>
 <net name="ENC1_PWM_OUT" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PM6"/>
-<wire x1="-12.7" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
-<label x="-17.78" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ENC2_PWM_OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PM2"/>
-<wire x1="-12.7" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
-<label x="-17.78" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ENC3_PWM_OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PM0"/>
-<wire x1="-12.7" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
-<label x="-17.78" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ENC4_PWM_OUT" class="0">
-<segment>
 <pinref part="U1" gate="G$1" pin="PM4"/>
 <wire x1="-12.7" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="91"/>
 <label x="-17.78" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ENC5_PWM_OUT" class="0">
+<net name="ENC2_PWM_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA6"/>
 <wire x1="-12.7" y1="111.76" x2="-17.78" y2="111.76" width="0.1524" layer="91"/>
@@ -11336,6 +11315,27 @@ to gripper</text>
 <wire x1="144.78" y1="63.5" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="R2IN"/>
 <wire x1="144.78" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ENC5_PWM_OUT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM0"/>
+<wire x1="-12.7" y1="45.72" x2="-17.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="-17.78" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENC4_PWM_OUT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM2"/>
+<wire x1="-12.7" y1="40.64" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
+<label x="-17.78" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENC3_PWM_OUT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM6"/>
+<wire x1="-12.7" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
+<label x="-17.78" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
