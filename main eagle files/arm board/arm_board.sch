@@ -9263,6 +9263,54 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.127" layer="21"/>
 <text x="6.35" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="TSSOP28-GROUNDPAD">
+<wire x1="-2.2762" y1="-4.8854" x2="2.2762" y2="-4.8854" width="0.127" layer="51"/>
+<wire x1="2.2762" y1="-4.8854" x2="2.2762" y2="4.8958" width="0.127" layer="51"/>
+<wire x1="2.2762" y1="4.8958" x2="-2.2762" y2="4.8958" width="0.127" layer="51"/>
+<wire x1="-2.2762" y1="4.8958" x2="-2.2762" y2="-4.8854" width="0.127" layer="51"/>
+<wire x1="-2.2762" y1="4.8958" x2="2.2762" y2="4.8958" width="0.127" layer="21"/>
+<wire x1="2.2762" y1="4.8958" x2="2.2762" y2="-4.8854" width="0.127" layer="21"/>
+<wire x1="2.2762" y1="-4.8854" x2="-2.2762" y2="-4.8854" width="0.127" layer="21"/>
+<wire x1="-2.2762" y1="-4.8854" x2="-2.2762" y2="4.8958" width="0.127" layer="21"/>
+<circle x="-1.7" y="4.3958" radius="0.1414" width="0.05" layer="21"/>
+<smd name="14" x="-2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
+<smd name="13" x="-2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
+<smd name="12" x="-2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
+<smd name="11" x="-2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
+<smd name="10" x="-2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
+<smd name="9" x="-2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
+<smd name="8" x="-2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
+<smd name="7" x="-2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
+<smd name="6" x="-2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
+<smd name="5" x="-2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
+<smd name="4" x="-2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
+<smd name="3" x="-2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
+<smd name="2" x="-2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
+<smd name="1" x="-2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
+<smd name="28" x="2.921" y="4.2978" dx="0.8" dy="0.25" layer="1"/>
+<smd name="27" x="2.921" y="3.6374" dx="0.8" dy="0.25" layer="1"/>
+<smd name="26" x="2.921" y="2.977" dx="0.8" dy="0.25" layer="1"/>
+<smd name="25" x="2.921" y="2.3166" dx="0.8" dy="0.25" layer="1"/>
+<smd name="24" x="2.921" y="1.6562" dx="0.8" dy="0.25" layer="1"/>
+<smd name="23" x="2.921" y="0.9958" dx="0.8" dy="0.25" layer="1"/>
+<smd name="22" x="2.921" y="0.3354" dx="0.8" dy="0.25" layer="1"/>
+<smd name="21" x="2.927" y="-0.325" dx="0.8" dy="0.25" layer="1"/>
+<smd name="20" x="2.921" y="-0.9854" dx="0.8" dy="0.25" layer="1"/>
+<smd name="19" x="2.921" y="-1.6458" dx="0.8" dy="0.25" layer="1"/>
+<smd name="18" x="2.921" y="-2.3062" dx="0.8" dy="0.25" layer="1"/>
+<smd name="17" x="2.921" y="-2.9666" dx="0.8" dy="0.25" layer="1"/>
+<smd name="16" x="2.921" y="-3.627" dx="0.8" dy="0.25" layer="1"/>
+<smd name="15" x="2.921" y="-4.2874" dx="0.8" dy="0.25" layer="1"/>
+<smd name="29" x="0" y="0.005" dx="6.6" dy="3.2" layer="1" rot="R90" cream="no"/>
+<text x="-2.1" y="5.0958" size="0.254" layer="25">&gt;Name</text>
+<text x="-2.1" y="-5.3346" size="0.254" layer="27">&gt;Value</text>
+<polygon width="0.127" layer="31">
+<vertex x="-0.75" y="-0.75"/>
+<vertex x="-0.75" y="0.75"/>
+<vertex x="0.75" y="0.75"/>
+<vertex x="0.75" y="-0.75"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -9346,6 +9394,35 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <text x="1.27" y="10.922" size="1.778" layer="94">&gt;Name</text>
 <text x="1.524" y="-2.54" size="1.778" layer="94">&gt;Value</text>
 </symbol>
+<symbol name="DRV8829">
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="I0" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="I1" x="-17.78" y="15.24" visible="pin" length="middle"/>
+<pin name="I2" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="I3" x="-17.78" y="10.16" visible="pin" length="middle"/>
+<pin name="I4" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="NSLEEP" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="NFAULT" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="NRESET" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="PHASE" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="ENABLE" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="VREF" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="VM" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VCP" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="CP1" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="CP2" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="ISENSE" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="OUT1" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<pin name="V3P3OUT" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="OUT2" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="DECAY" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<text x="-2.54" y="21.336" size="1.27" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-15.24" size="1.27" layer="94">&gt;VALUE</text>
+<pin name="GND" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SUD15N15">
@@ -9414,6 +9491,42 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SIG" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV8829">
+<description>5A 45V H bridge, OC protection</description>
+<gates>
+<gate name="G$1" symbol="DRV8829" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TSSOP28-GROUNDPAD">
+<connects>
+<connect gate="G$1" pin="CP1" pad="1"/>
+<connect gate="G$1" pin="CP2" pad="2"/>
+<connect gate="G$1" pin="DECAY" pad="19"/>
+<connect gate="G$1" pin="ENABLE" pad="21"/>
+<connect gate="G$1" pin="GND" pad="14 28 29"/>
+<connect gate="G$1" pin="I0" pad="23"/>
+<connect gate="G$1" pin="I1" pad="24"/>
+<connect gate="G$1" pin="I2" pad="25"/>
+<connect gate="G$1" pin="I3" pad="26"/>
+<connect gate="G$1" pin="I4" pad="27"/>
+<connect gate="G$1" pin="ISENSE" pad="6 9"/>
+<connect gate="G$1" pin="NFAULT" pad="18"/>
+<connect gate="G$1" pin="NRESET" pad="16"/>
+<connect gate="G$1" pin="NSLEEP" pad="17"/>
+<connect gate="G$1" pin="OUT1" pad="5 10"/>
+<connect gate="G$1" pin="OUT2" pad="7 8"/>
+<connect gate="G$1" pin="PHASE" pad="20"/>
+<connect gate="G$1" pin="V3P3OUT" pad="15"/>
+<connect gate="G$1" pin="VCP" pad="3"/>
+<connect gate="G$1" pin="VM" pad="4 11"/>
+<connect gate="G$1" pin="VREF" pad="12 13"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9639,7 +9752,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".01uF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="MOT4_HB1" library="lin reg" deviceset="DRV8829" device=""/>
+<part name="MOT4_HB1" library="mine" deviceset="DRV8829" device=""/>
 <part name="GND44" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value=".47uF"/>
 <part name="GND45" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
