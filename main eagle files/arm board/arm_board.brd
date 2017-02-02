@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -185,11 +185,11 @@ Rove so duckling hard you won't even believe it</text>
 <text x="59.563" y="1.016" size="1.778" layer="26" rot="MR0">power INPUT</text>
 <text x="73.533" y="5.461" size="1.778" layer="26" rot="MR0">extra</text>
 <text x="64.643" y="5.461" size="1.778" layer="26" rot="MR0">Gnd</text>
-<text x="16.764" y="10.668" size="1.778" layer="26" rot="MR270">mtr1</text>
-<text x="8.509" y="10.668" size="1.778" layer="26" font="vector" rot="MR270">mtr5</text>
-<text x="40.894" y="134.493" size="1.778" layer="26" rot="MR270">mtr3</text>
-<text x="32.004" y="134.493" size="1.778" layer="26" rot="MR270">mtr2</text>
-<text x="72.644" y="133.858" size="1.778" layer="26" rot="MR270">mtr4</text>
+<text x="7.874" y="10.033" size="1.778" layer="26" rot="MR270">mtr1</text>
+<text x="72.644" y="133.223" size="1.778" layer="26" font="vector" rot="MR270">mtr5</text>
+<text x="32.004" y="133.858" size="1.778" layer="26" rot="MR270">mtr3</text>
+<text x="16.764" y="10.033" size="1.778" layer="26" rot="MR270">mtr2</text>
+<text x="40.894" y="133.858" size="1.778" layer="26" rot="MR270">mtr4</text>
 <text x="1.397" y="105.156" size="1.778" layer="25" rot="SR270">Enc1</text>
 <text x="1.397" y="94.996" size="1.778" layer="25" rot="SR270">Enc2</text>
 <text x="1.397" y="84.836" size="1.778" layer="25" rot="SR270">Enc3</text>
@@ -201,28 +201,28 @@ PM_2  ENC2_READ
 PM_0  ENC3_READ
 PM_4  ENC4_READ
 PA_6  ENC5_READ
-PF_3  MOT1_PWM
-PK_5  MOT2_PWM
-PK_4  MOT3_PWM
-PG_0  MOT4_PWM
-PG_1  MOT5_PWM
+PF_3  mot2_PWM
+PK_5  mot3_PWM
+PK_4  mot4_PWM
+PG_0  mot5_PWM
+PG_1  mot1_PWM
 PP_0  RX
 PP_1  TX
-PL_1  MOT1_NFAULT
-PL_2  MOT1_NSLEEP
-PL_3  MOT1_PHASE
-PH_0  MOT2_NFAULT
-PH_1  MOT2_NSLEEP
-PK_6  MOT2_PHASE
-PP_4  MOT3_NFAULT
-PD_5  MOT3_NSLEEP
-PA_5  MOT3_PHASE
-PK_2  MOT4_NFAULT
-PK_3  MOT4_NSLEEP
-PQ_0  MOT4_PHASE
-PM_7  MOT5_NFAULT
-PA_7  MOT5_NSLEEP
-PP_5  MOT5_PHASE
+PL_1  mot2_NFAULT
+PL_2  mot2_NSLEEP
+PL_3  mot2_PHASE
+PH_0  mot3_NFAULT
+PH_1  mot3_NSLEEP
+PK_6  mot3_PHASE
+PP_4  mot4_NFAULT
+PD_5  mot4_NSLEEP
+PA_5  mot4_PHASE
+PK_2  mot5_NFAULT
+PK_3  mot5_NSLEEP
+PQ_0  mot5_PHASE
+PM_7  mot1_NFAULT
+PA_7  mot1_NSLEEP
+PP_5  mot1_PHASE
 PE_4  POW ENABLE
 PE_5  POW NFAULT
 PD_3  CURR SENSE</text>
@@ -7828,17 +7828,17 @@ design rules under a new name.</description>
 <element name="J3" library="MRDT-Connectors" package="APP45_PCB_HORIZ_RIGHT" value="APPPP45_PCB_HORIZ_RIGHT" x="44.5135" y="-9.525" rot="R90">
 <attribute name="COLOR1" value="" x="44.5135" y="-9.525" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="MOT1_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="32.258" y="57.023"/>
-<element name="MOT2_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="31.369" y="98.298" smashed="yes" rot="R180">
+<element name="MOT2_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="32.258" y="57.023"/>
+<element name="MOT3_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="31.369" y="98.298" smashed="yes" rot="R180">
 <attribute name="NAME" x="32.199" y="93.8372" size="0.254" layer="25" rot="R180"/>
 <attribute name="VALUE" x="33.469" y="103.6326" size="0.254" layer="27" rot="R180"/>
 </element>
-<element name="MOT3_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="50.546" y="115.316" smashed="yes">
+<element name="MOT4_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="50.546" y="115.316" smashed="yes">
 <attribute name="NAME" x="48.446" y="120.4118" size="0.254" layer="25"/>
 <attribute name="VALUE" x="48.446" y="109.9814" size="0.254" layer="27"/>
 </element>
-<element name="MOT4_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="63.881" y="78.867" rot="R180"/>
-<element name="MOT5_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="27.559" y="75.946"/>
+<element name="MOT5_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="63.881" y="78.867" rot="R180"/>
+<element name="MOT1_HB1" library="lin reg" package="TSSOP28-GROUNDPAD" value="DRV8829" x="27.559" y="75.946"/>
 <element name="U$0" library="MRDT-2015-PowerBoard" package="SO8" value="LT1910" x="34.798" y="36.83" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.068" y="32.385" size="1.27" layer="25"/>
 </element>
@@ -8002,50 +8002,50 @@ design rules under a new name.</description>
 <contactref element="J1" pad="P$1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="C1" pad="2"/>
-<contactref element="MOT1_HB1" pad="27"/>
+<contactref element="MOT2_HB1" pad="27"/>
 <contactref element="C31" pad="2"/>
 <contactref element="C32" pad="1"/>
 <contactref element="C33" pad="1"/>
-<contactref element="MOT1_HB1" pad="14"/>
-<contactref element="MOT1_HB1" pad="28"/>
-<contactref element="MOT1_HB1" pad="29"/>
-<contactref element="MOT1_HB1" pad="6"/>
-<contactref element="MOT1_HB1" pad="9"/>
-<contactref element="MOT3_HB1" pad="27"/>
-<contactref element="C36" pad="2"/>
-<contactref element="C37" pad="1"/>
-<contactref element="C38" pad="1"/>
-<contactref element="MOT3_HB1" pad="14"/>
-<contactref element="MOT3_HB1" pad="28"/>
-<contactref element="MOT3_HB1" pad="29"/>
-<contactref element="MOT3_HB1" pad="6"/>
-<contactref element="MOT3_HB1" pad="9"/>
-<contactref element="MOT2_HB1" pad="27"/>
-<contactref element="C41" pad="2"/>
-<contactref element="C42" pad="1"/>
-<contactref element="C43" pad="1"/>
 <contactref element="MOT2_HB1" pad="14"/>
 <contactref element="MOT2_HB1" pad="28"/>
 <contactref element="MOT2_HB1" pad="29"/>
 <contactref element="MOT2_HB1" pad="6"/>
 <contactref element="MOT2_HB1" pad="9"/>
 <contactref element="MOT4_HB1" pad="27"/>
-<contactref element="C46" pad="2"/>
-<contactref element="C47" pad="1"/>
-<contactref element="C48" pad="1"/>
+<contactref element="C36" pad="2"/>
+<contactref element="C37" pad="1"/>
+<contactref element="C38" pad="1"/>
 <contactref element="MOT4_HB1" pad="14"/>
 <contactref element="MOT4_HB1" pad="28"/>
 <contactref element="MOT4_HB1" pad="29"/>
 <contactref element="MOT4_HB1" pad="6"/>
 <contactref element="MOT4_HB1" pad="9"/>
-<contactref element="C51" pad="2"/>
-<contactref element="C52" pad="1"/>
-<contactref element="C53" pad="1"/>
+<contactref element="MOT3_HB1" pad="27"/>
+<contactref element="C41" pad="2"/>
+<contactref element="C42" pad="1"/>
+<contactref element="C43" pad="1"/>
+<contactref element="MOT3_HB1" pad="14"/>
+<contactref element="MOT3_HB1" pad="28"/>
+<contactref element="MOT3_HB1" pad="29"/>
+<contactref element="MOT3_HB1" pad="6"/>
+<contactref element="MOT3_HB1" pad="9"/>
+<contactref element="MOT5_HB1" pad="27"/>
+<contactref element="C46" pad="2"/>
+<contactref element="C47" pad="1"/>
+<contactref element="C48" pad="1"/>
 <contactref element="MOT5_HB1" pad="14"/>
 <contactref element="MOT5_HB1" pad="28"/>
 <contactref element="MOT5_HB1" pad="29"/>
 <contactref element="MOT5_HB1" pad="6"/>
 <contactref element="MOT5_HB1" pad="9"/>
+<contactref element="C51" pad="2"/>
+<contactref element="C52" pad="1"/>
+<contactref element="C53" pad="1"/>
+<contactref element="MOT1_HB1" pad="14"/>
+<contactref element="MOT1_HB1" pad="28"/>
+<contactref element="MOT1_HB1" pad="29"/>
+<contactref element="MOT1_HB1" pad="6"/>
+<contactref element="MOT1_HB1" pad="9"/>
 <contactref element="U1" pad="GND_1" route="any" routetag="G$1.GND"/>
 <contactref element="U1" pad="GND_2" route="any" routetag="G$1.GND"/>
 <contactref element="U1" pad="GND_3" route="any" routetag="G$1.GND"/>
@@ -8158,8 +8158,16 @@ design rules under a new name.</description>
 <wire x1="26.4489" y1="74.9606" x2="26.6065" y2="74.803" width="0.254" layer="1"/>
 <wire x1="26.6065" y1="76.073" x2="27.437" y2="76.073" width="0.6096" layer="1"/>
 <wire x1="27.437" y1="76.073" x2="27.559" y2="75.951" width="0.6096" layer="1"/>
+<contactref element="MOT1_HB1" pad="23"/>
+<contactref element="MOT1_HB1" pad="27"/>
+<contactref element="MOT1_HB1" pad="24"/>
+<contactref element="MOT1_HB1" pad="25"/>
+<contactref element="MOT1_HB1" pad="26"/>
+<contactref element="MOT4_HB1" pad="23"/>
+<contactref element="MOT4_HB1" pad="24"/>
+<contactref element="MOT4_HB1" pad="25"/>
+<contactref element="MOT4_HB1" pad="26"/>
 <contactref element="MOT5_HB1" pad="23"/>
-<contactref element="MOT5_HB1" pad="27"/>
 <contactref element="MOT5_HB1" pad="24"/>
 <contactref element="MOT5_HB1" pad="25"/>
 <contactref element="MOT5_HB1" pad="26"/>
@@ -8167,18 +8175,10 @@ design rules under a new name.</description>
 <contactref element="MOT3_HB1" pad="24"/>
 <contactref element="MOT3_HB1" pad="25"/>
 <contactref element="MOT3_HB1" pad="26"/>
-<contactref element="MOT4_HB1" pad="23"/>
-<contactref element="MOT4_HB1" pad="24"/>
-<contactref element="MOT4_HB1" pad="25"/>
-<contactref element="MOT4_HB1" pad="26"/>
 <contactref element="MOT2_HB1" pad="23"/>
 <contactref element="MOT2_HB1" pad="24"/>
 <contactref element="MOT2_HB1" pad="25"/>
 <contactref element="MOT2_HB1" pad="26"/>
-<contactref element="MOT1_HB1" pad="23"/>
-<contactref element="MOT1_HB1" pad="24"/>
-<contactref element="MOT1_HB1" pad="25"/>
-<contactref element="MOT1_HB1" pad="26"/>
 <via x="62.9285" y="77.47" extent="1-16" drill="0.6" shape="square"/>
 <via x="33.2105" y="58.293" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="33.4339" y1="59.3396" x2="33.2105" y2="59.563" width="0.3048" layer="1"/>
@@ -8583,9 +8583,9 @@ design rules under a new name.</description>
 <wire x1="38.989" y1="39.751" x2="38.989" y2="38.989" width="0.4064" layer="1"/>
 <wire x1="38.989" y1="38.989" x2="39.878" y2="38.1" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOT1_1">
-<contactref element="MOT1_HB1" pad="5"/>
-<contactref element="MOT1_HB1" pad="10"/>
+<signal name="MOT2_1">
+<contactref element="MOT2_HB1" pad="5"/>
+<contactref element="MOT2_HB1" pad="10"/>
 <wire x1="29.337" y1="58.6792" x2="27.178" y2="58.6792" width="0.508" layer="1"/>
 <wire x1="27.178" y1="58.6792" x2="27.178" y2="58.674" width="0.508" layer="1"/>
 <wire x1="29.337" y1="55.3772" x2="27.178" y2="55.3772" width="0.508" layer="1"/>
@@ -8603,9 +8603,9 @@ design rules under a new name.</description>
 <wire x1="18.923" y1="28.321" x2="18.923" y2="21.844" width="0.508" layer="1"/>
 <wire x1="18.923" y1="21.844" x2="15.748" y2="18.669" width="0.508" layer="1"/>
 </signal>
-<signal name="MOT1_2">
-<contactref element="MOT1_HB1" pad="7"/>
-<contactref element="MOT1_HB1" pad="8"/>
+<signal name="MOT2_2">
+<contactref element="MOT2_HB1" pad="7"/>
+<contactref element="MOT2_HB1" pad="8"/>
 <contactref element="U$8" pad="C2"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="29.718" y="56.642"/>
@@ -8617,9 +8617,9 @@ design rules under a new name.</description>
 <wire x1="20.193" y1="57.023" x2="28.702" y2="57.023" width="1.016" layer="1"/>
 <wire x1="15.748" y1="26.543" x2="15.748" y2="52.578" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT2_1">
-<contactref element="MOT2_HB1" pad="5"/>
-<contactref element="MOT2_HB1" pad="10"/>
+<signal name="MOT3_1">
+<contactref element="MOT3_HB1" pad="5"/>
+<contactref element="MOT3_HB1" pad="10"/>
 <via x="35.687" y="96.647" extent="1-16" drill="0.6"/>
 <wire x1="35.687" y1="96.647" x2="35.687" y2="99.949" width="0.6096" layer="16"/>
 <via x="35.687" y="99.949" extent="1-16" drill="0.6"/>
@@ -8637,9 +8637,9 @@ design rules under a new name.</description>
 <wire x1="37.211" y1="106.807" x2="36.068" y2="107.95" width="1.016" layer="1"/>
 <wire x1="36.068" y1="107.95" x2="30.48" y2="107.95" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT2_2">
-<contactref element="MOT2_HB1" pad="7"/>
-<contactref element="MOT2_HB1" pad="8"/>
+<signal name="MOT3_2">
+<contactref element="MOT3_HB1" pad="7"/>
+<contactref element="MOT3_HB1" pad="8"/>
 <contactref element="U$9" pad="C2"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="35.814" y="97.917"/>
@@ -8655,9 +8655,9 @@ design rules under a new name.</description>
 <wire x1="33.782" y1="109.22" x2="31.115" y2="111.887" width="1.016" layer="1"/>
 <wire x1="31.115" y1="111.887" x2="31.115" y2="112.141" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT3_1">
-<contactref element="MOT3_HB1" pad="5"/>
-<contactref element="MOT3_HB1" pad="10"/>
+<signal name="MOT4_1">
+<contactref element="MOT4_HB1" pad="5"/>
+<contactref element="MOT4_HB1" pad="10"/>
 <via x="43.942" y="116.967" extent="1-16" drill="0.6"/>
 <wire x1="43.942" y1="116.967" x2="43.942" y2="113.665" width="0.6096" layer="16"/>
 <via x="43.942" y="113.665" extent="1-16" drill="0.6"/>
@@ -8669,9 +8669,9 @@ design rules under a new name.</description>
 <wire x1="43.942" y1="116.967" x2="42.672" y2="116.967" width="1.016" layer="1"/>
 <wire x1="42.672" y1="116.967" x2="39.624" y2="120.015" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT3_2">
-<contactref element="MOT3_HB1" pad="7"/>
-<contactref element="MOT3_HB1" pad="8"/>
+<signal name="MOT4_2">
+<contactref element="MOT4_HB1" pad="7"/>
+<contactref element="MOT4_HB1" pad="8"/>
 <contactref element="U$7" pad="C2"/>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="48.006" y="114.935"/>
@@ -8688,9 +8688,9 @@ design rules under a new name.</description>
 <wire x1="46.736" y1="115.316" x2="42.799" y2="115.316" width="1.016" layer="1"/>
 <wire x1="42.799" y1="115.316" x2="39.624" y2="112.141" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT4_1">
-<contactref element="MOT4_HB1" pad="5"/>
-<contactref element="MOT4_HB1" pad="10"/>
+<signal name="MOT5_1">
+<contactref element="MOT5_HB1" pad="5"/>
+<contactref element="MOT5_HB1" pad="10"/>
 <via x="68.834" y="77.216" extent="1-16" drill="0.6"/>
 <wire x1="68.834" y1="77.216" x2="68.834" y2="80.518" width="0.6096" layer="16"/>
 <via x="68.834" y="80.518" extent="1-16" drill="0.6"/>
@@ -8708,9 +8708,9 @@ design rules under a new name.</description>
 <wire x1="68.072" y1="110.617" x2="68.072" y2="116.713" width="1.016" layer="1"/>
 <wire x1="68.072" y1="116.713" x2="71.374" y2="120.015" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT4_2">
-<contactref element="MOT4_HB1" pad="7"/>
-<contactref element="MOT4_HB1" pad="8"/>
+<signal name="MOT5_2">
+<contactref element="MOT5_HB1" pad="7"/>
+<contactref element="MOT5_HB1" pad="8"/>
 <wire x1="66.802" y1="79.186" x2="66.808" y2="79.192" width="0.254" layer="1"/>
 <contactref element="U$10" pad="C2"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -8725,9 +8725,9 @@ design rules under a new name.</description>
 <wire x1="72.517" y1="81.661" x2="69.723" y2="78.867" width="1.016" layer="1"/>
 <wire x1="69.723" y1="78.867" x2="67.818" y2="78.867" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT5_1">
-<contactref element="MOT5_HB1" pad="5"/>
-<contactref element="MOT5_HB1" pad="10"/>
+<signal name="MOT1_1">
+<contactref element="MOT1_HB1" pad="5"/>
+<contactref element="MOT1_HB1" pad="10"/>
 <via x="23.495" y="77.597" extent="1-16" drill="0.6"/>
 <wire x1="23.495" y1="77.597" x2="23.495" y2="74.295" width="0.6096" layer="16"/>
 <via x="23.495" y="74.295" extent="1-16" drill="0.6"/>
@@ -8744,9 +8744,9 @@ design rules under a new name.</description>
 <wire x1="10.541" y1="27.813" x2="12.065" y2="29.337" width="1.016" layer="1"/>
 <wire x1="12.065" y1="29.337" x2="12.065" y2="53.34" width="1.016" layer="1"/>
 </signal>
-<signal name="MOT5_2">
-<contactref element="MOT5_HB1" pad="7"/>
-<contactref element="MOT5_HB1" pad="8"/>
+<signal name="MOT1_2">
+<contactref element="MOT1_HB1" pad="7"/>
+<contactref element="MOT1_HB1" pad="8"/>
 <wire x1="24.632" y1="76.2754" x2="24.638" y2="76.2814" width="0.254" layer="1"/>
 <contactref element="U$11" pad="C2"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -8797,32 +8797,32 @@ design rules under a new name.</description>
 <wire x1="41.275" y1="14.579" x2="41.301" y2="14.605" width="0.3048" layer="16"/>
 </signal>
 <signal name="MTR_PWR">
-<contactref element="MOT1_HB1" pad="4"/>
-<contactref element="MOT1_HB1" pad="11"/>
+<contactref element="MOT2_HB1" pad="4"/>
+<contactref element="MOT2_HB1" pad="11"/>
 <contactref element="C32" pad="2"/>
 <contactref element="C33" pad="2"/>
 <contactref element="R6" pad="2"/>
 <contactref element="C34" pad="2"/>
-<contactref element="MOT3_HB1" pad="4"/>
-<contactref element="MOT3_HB1" pad="11"/>
+<contactref element="MOT4_HB1" pad="4"/>
+<contactref element="MOT4_HB1" pad="11"/>
 <contactref element="C37" pad="2"/>
 <contactref element="C38" pad="2"/>
 <contactref element="R7" pad="2"/>
 <contactref element="C39" pad="2"/>
-<contactref element="MOT2_HB1" pad="4"/>
-<contactref element="MOT2_HB1" pad="11"/>
+<contactref element="MOT3_HB1" pad="4"/>
+<contactref element="MOT3_HB1" pad="11"/>
 <contactref element="C42" pad="2"/>
 <contactref element="C43" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="C44" pad="2"/>
-<contactref element="MOT4_HB1" pad="4"/>
-<contactref element="MOT4_HB1" pad="11"/>
+<contactref element="MOT5_HB1" pad="4"/>
+<contactref element="MOT5_HB1" pad="11"/>
 <contactref element="C47" pad="2"/>
 <contactref element="C48" pad="2"/>
 <contactref element="R9" pad="2"/>
 <contactref element="C49" pad="2"/>
-<contactref element="MOT5_HB1" pad="4"/>
-<contactref element="MOT5_HB1" pad="11"/>
+<contactref element="MOT1_HB1" pad="4"/>
+<contactref element="MOT1_HB1" pad="11"/>
 <contactref element="C52" pad="2"/>
 <contactref element="C53" pad="2"/>
 <contactref element="R10" pad="2"/>
@@ -8970,8 +8970,8 @@ design rules under a new name.</description>
 <wire x1="47.625" y1="106.045" x2="43.815" y2="102.235" width="0.508" layer="1"/>
 <wire x1="43.815" y1="102.235" x2="43.815" y2="100.33" width="0.508" layer="1"/>
 </signal>
-<signal name="MOT1_NSLEEP">
-<contactref element="MOT1_HB1" pad="17"/>
+<signal name="MOT2_NSLEEP">
+<contactref element="MOT2_HB1" pad="17"/>
 <contactref element="U1" pad="PL2"/>
 <wire x1="35.179" y1="54.0564" x2="35.6056" y2="54.0564" width="0.254" layer="1"/>
 <wire x1="35.6056" y1="54.0564" x2="36.195" y2="53.467" width="0.254" layer="1"/>
@@ -8986,8 +8986,8 @@ design rules under a new name.</description>
 <wire x1="33.655" y1="46.99" x2="34.925" y2="48.26" width="0.254" layer="1"/>
 <wire x1="34.925" y1="48.26" x2="34.925" y2="48.768" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT1_NFAULT">
-<contactref element="MOT1_HB1" pad="18"/>
+<signal name="MOT2_NFAULT">
+<contactref element="MOT2_HB1" pad="18"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U1" pad="PL1"/>
 <wire x1="36.9368" y1="54.7168" x2="36.8502" y2="54.7168" width="0.254" layer="1"/>
@@ -9006,8 +9006,8 @@ design rules under a new name.</description>
 <wire x1="36.195" y1="52.0296" x2="36.8502" y2="52.6848" width="0.254" layer="1"/>
 <wire x1="37.211" y1="59.094" x2="37.123" y2="59.182" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT1_PHASE">
-<contactref element="MOT1_HB1" pad="20"/>
+<signal name="MOT2_PHASE">
+<contactref element="MOT2_HB1" pad="20"/>
 <contactref element="U1" pad="PL3"/>
 <via x="36.322" y="55.753" extent="1-16" drill="0.6"/>
 <wire x1="35.179" y1="56.0376" x2="36.0374" y2="56.0376" width="0.254" layer="1"/>
@@ -9022,8 +9022,8 @@ design rules under a new name.</description>
 <wire x1="37.465" y1="46.609" x2="37.465" y2="48.768" width="0.254" layer="1"/>
 <wire x1="37.465" y1="48.768" x2="37.465" y2="54.61" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT1_PWM">
-<contactref element="MOT1_HB1" pad="21"/>
+<signal name="MOT2_PWM">
+<contactref element="MOT2_HB1" pad="21"/>
 <contactref element="U1" pad="PF3"/>
 <via x="36.322" y="57.277" extent="1-16" drill="0.6"/>
 <wire x1="35.185" y1="56.698" x2="35.743" y2="56.698" width="0.254" layer="1"/>
@@ -9043,7 +9043,7 @@ design rules under a new name.</description>
 <wire x1="23.241" y1="32.766" x2="23.241" y2="32.512" width="0.254" layer="1"/>
 </signal>
 <signal name="HB_3.3_OUTPUT5">
-<contactref element="MOT1_HB1" pad="16"/>
+<contactref element="MOT2_HB1" pad="16"/>
 <contactref element="R3" pad="2"/>
 <wire x1="38.823" y1="59.182" x2="38.823" y2="61.38" width="0.254" layer="1"/>
 <wire x1="38.823" y1="61.38" x2="38.481" y2="61.722" width="0.254" layer="1"/>
@@ -9052,9 +9052,9 @@ design rules under a new name.</description>
 <wire x1="34.29" y1="61.468" x2="34.29" y2="53.848" width="0.254" layer="1"/>
 <wire x1="34.29" y1="53.848" x2="34.742" y2="53.396" width="0.254" layer="1"/>
 <wire x1="34.742" y1="53.396" x2="35.179" y2="53.396" width="0.254" layer="1"/>
-<contactref element="MOT1_HB1" pad="12"/>
-<contactref element="MOT1_HB1" pad="13"/>
-<contactref element="MOT1_HB1" pad="15"/>
+<contactref element="MOT2_HB1" pad="12"/>
+<contactref element="MOT2_HB1" pad="13"/>
+<contactref element="MOT2_HB1" pad="15"/>
 <contactref element="C31" pad="1"/>
 <wire x1="35.179" y1="53.396" x2="35.179" y2="52.7356" width="0.4064" layer="1"/>
 <wire x1="29.337" y1="54.0564" x2="29.337" y2="53.396" width="0.4064" layer="1"/>
@@ -9077,7 +9077,7 @@ design rules under a new name.</description>
 <wire x1="35.179" y1="52.705" x2="35.179" y2="52.7356" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="MOT1_HB1" pad="3"/>
+<contactref element="MOT2_HB1" pad="3"/>
 <contactref element="R6" pad="1"/>
 <contactref element="C34" pad="1"/>
 <wire x1="29.337" y1="60" x2="27.249" y2="60" width="0.254" layer="1"/>
@@ -9092,19 +9092,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="C35" pad="2"/>
-<contactref element="MOT1_HB1" pad="1"/>
+<contactref element="MOT2_HB1" pad="1"/>
 <wire x1="29.337" y1="61.3208" x2="29.337" y2="61.849" width="0.4064" layer="1"/>
 <wire x1="29.337" y1="61.849" x2="28.614" y2="62.572" width="0.4064" layer="1"/>
 <wire x1="28.614" y1="62.572" x2="27.813" y2="62.572" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="MOT1_HB1" pad="2"/>
+<contactref element="MOT2_HB1" pad="2"/>
 <contactref element="C35" pad="1"/>
 <wire x1="29.337" y1="60.6604" x2="28.0246" y2="60.6604" width="0.4064" layer="1"/>
 <wire x1="28.0246" y1="60.6604" x2="27.813" y2="60.872" width="0.4064" layer="1"/>
 </signal>
 <signal name="HB_3.3_OUTPUT6">
-<contactref element="MOT3_HB1" pad="16"/>
+<contactref element="MOT4_HB1" pad="16"/>
 <contactref element="R12" pad="2"/>
 <wire x1="55.499" y1="118.325" x2="55.499" y2="118.618" width="0.254" layer="1"/>
 <wire x1="55.499" y1="118.618" x2="55.88" y2="118.999" width="0.254" layer="1"/>
@@ -9118,9 +9118,9 @@ design rules under a new name.</description>
 <wire x1="52.578" y1="112.014" x2="52.903" y2="111.689" width="0.254" layer="1"/>
 <wire x1="52.903" y1="111.689" x2="53.467" y2="111.689" width="0.254" layer="1"/>
 <contactref element="C36" pad="1"/>
-<contactref element="MOT3_HB1" pad="15"/>
-<contactref element="MOT3_HB1" pad="12"/>
-<contactref element="MOT3_HB1" pad="13"/>
+<contactref element="MOT4_HB1" pad="15"/>
+<contactref element="MOT4_HB1" pad="12"/>
+<contactref element="MOT4_HB1" pad="13"/>
 <wire x1="47.625" y1="112.3494" x2="47.625" y2="111.689" width="0.254" layer="1"/>
 <wire x1="47.625" y1="111.689" x2="46.157" y2="111.689" width="0.4064" layer="1"/>
 <wire x1="46.157" y1="111.689" x2="45.593" y2="111.125" width="0.4064" layer="1"/>
@@ -9141,7 +9141,7 @@ design rules under a new name.</description>
 <wire x1="45.378" y1="109.093" x2="45.593" y2="109.308" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$20">
-<contactref element="MOT3_HB1" pad="3"/>
+<contactref element="MOT4_HB1" pad="3"/>
 <contactref element="R7" pad="1"/>
 <contactref element="C39" pad="1"/>
 <wire x1="47.625" y1="118.293" x2="46.919" y2="118.293" width="0.254" layer="1"/>
@@ -9162,18 +9162,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="C40" pad="2"/>
-<contactref element="MOT3_HB1" pad="1"/>
+<contactref element="MOT4_HB1" pad="1"/>
 <wire x1="47.625" y1="119.6138" x2="46.0822" y2="119.6138" width="0.4064" layer="1"/>
 <wire x1="46.0822" y1="119.6138" x2="45.466" y2="120.23" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="MOT3_HB1" pad="2"/>
+<contactref element="MOT4_HB1" pad="2"/>
 <contactref element="C40" pad="1"/>
 <wire x1="47.625" y1="118.9534" x2="45.8894" y2="118.9534" width="0.4064" layer="1"/>
 <wire x1="45.8894" y1="118.9534" x2="45.466" y2="118.53" width="0.4064" layer="1"/>
 </signal>
 <signal name="HB_3.3_OUTPUT7">
-<contactref element="MOT2_HB1" pad="16"/>
+<contactref element="MOT3_HB1" pad="16"/>
 <contactref element="R4" pad="2"/>
 <wire x1="27.305" y1="93.345" x2="28.956" y2="93.345" width="0.254" layer="1"/>
 <wire x1="28.956" y1="93.345" x2="29.337" y2="93.726" width="0.254" layer="1"/>
@@ -9182,9 +9182,9 @@ design rules under a new name.</description>
 <wire x1="28.885" y1="101.925" x2="28.448" y2="101.925" width="0.254" layer="1"/>
 <wire x1="27.305" y1="93.345" x2="26.123" y2="94.527" width="0.254" layer="1"/>
 <wire x1="26.123" y1="94.527" x2="25.781" y2="94.527" width="0.254" layer="1"/>
-<contactref element="MOT2_HB1" pad="15"/>
-<contactref element="MOT2_HB1" pad="12"/>
-<contactref element="MOT2_HB1" pad="13"/>
+<contactref element="MOT3_HB1" pad="15"/>
+<contactref element="MOT3_HB1" pad="12"/>
+<contactref element="MOT3_HB1" pad="13"/>
 <contactref element="C41" pad="1"/>
 <wire x1="28.448" y1="102.5854" x2="28.448" y2="101.925" width="0.254" layer="1"/>
 <wire x1="34.29" y1="101.2646" x2="34.29" y2="101.925" width="0.254" layer="1"/>
@@ -9207,7 +9207,7 @@ design rules under a new name.</description>
 <wire x1="29.464" y1="106.934" x2="29.083" y2="106.553" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$23">
-<contactref element="MOT2_HB1" pad="3"/>
+<contactref element="MOT3_HB1" pad="3"/>
 <contactref element="R8" pad="1"/>
 <contactref element="C44" pad="1"/>
 <wire x1="34.29" y1="95.321" x2="35.743" y2="95.321" width="0.254" layer="1"/>
@@ -9224,19 +9224,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$24">
 <contactref element="C45" pad="2"/>
-<contactref element="MOT2_HB1" pad="1"/>
+<contactref element="MOT3_HB1" pad="1"/>
 <wire x1="34.29" y1="94.0002" x2="34.29" y2="93.638" width="0.4064" layer="1"/>
 <wire x1="34.29" y1="93.638" x2="35.179" y2="92.749" width="0.4064" layer="1"/>
 <wire x1="35.179" y1="92.749" x2="35.814" y2="92.749" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$25">
-<contactref element="MOT2_HB1" pad="2"/>
+<contactref element="MOT3_HB1" pad="2"/>
 <contactref element="C45" pad="1"/>
 <wire x1="35.6024" y1="94.6606" x2="34.29" y2="94.6606" width="0.4064" layer="1"/>
 <wire x1="35.6024" y1="94.6606" x2="35.814" y2="94.449" width="0.4064" layer="1"/>
 </signal>
 <signal name="HB_3.3_OUTPUT8">
-<contactref element="MOT4_HB1" pad="16"/>
+<contactref element="MOT5_HB1" pad="16"/>
 <contactref element="R13" pad="2"/>
 <wire x1="57.785" y1="74.041" x2="61.341" y2="74.041" width="0.254" layer="1"/>
 <wire x1="61.341" y1="74.041" x2="61.849" y2="74.549" width="0.254" layer="1"/>
@@ -9246,9 +9246,9 @@ design rules under a new name.</description>
 <wire x1="57.785" y1="74.041" x2="56.427" y2="75.399" width="0.254" layer="1"/>
 <wire x1="56.427" y1="75.399" x2="56.427" y2="75.819" width="0.254" layer="1"/>
 <contactref element="C46" pad="1"/>
-<contactref element="MOT4_HB1" pad="15"/>
-<contactref element="MOT4_HB1" pad="12"/>
-<contactref element="MOT4_HB1" pad="13"/>
+<contactref element="MOT5_HB1" pad="15"/>
+<contactref element="MOT5_HB1" pad="12"/>
+<contactref element="MOT5_HB1" pad="13"/>
 <wire x1="60.96" y1="83.1544" x2="60.96" y2="82.494" width="0.254" layer="1"/>
 <wire x1="66.802" y1="82.494" x2="66.802" y2="81.8336" width="0.254" layer="1"/>
 <wire x1="66.802" y1="82.494" x2="67.889" y2="82.494" width="0.4064" layer="1"/>
@@ -9269,7 +9269,7 @@ design rules under a new name.</description>
 <wire x1="60.96" y1="83.185" x2="60.96" y2="83.1544" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$26">
-<contactref element="MOT4_HB1" pad="3"/>
+<contactref element="MOT5_HB1" pad="3"/>
 <contactref element="R9" pad="1"/>
 <contactref element="C49" pad="1"/>
 <wire x1="66.802" y1="75.89" x2="69.017" y2="75.89" width="0.254" layer="1"/>
@@ -9287,18 +9287,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$27">
 <contactref element="C50" pad="2"/>
-<contactref element="MOT4_HB1" pad="1"/>
+<contactref element="MOT5_HB1" pad="1"/>
 <wire x1="66.802" y1="74.5692" x2="67.0748" y2="74.5692" width="0.4064" layer="1"/>
 <wire x1="67.0748" y1="74.5692" x2="68.326" y2="73.318" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$28">
-<contactref element="MOT4_HB1" pad="2"/>
+<contactref element="MOT5_HB1" pad="2"/>
 <contactref element="C50" pad="1"/>
 <wire x1="66.802" y1="75.2296" x2="68.1144" y2="75.2296" width="0.4064" layer="1"/>
 <wire x1="68.1144" y1="75.2296" x2="68.326" y2="75.018" width="0.4064" layer="1"/>
 </signal>
 <signal name="HB_3.3_OUTPUT9">
-<contactref element="MOT5_HB1" pad="16"/>
+<contactref element="MOT1_HB1" pad="16"/>
 <contactref element="R14" pad="2"/>
 <wire x1="33.274" y1="77.05" x2="33.401" y2="77.177" width="0.254" layer="1"/>
 <wire x1="33.401" y1="77.177" x2="33.401" y2="79.375" width="0.254" layer="1"/>
@@ -9317,10 +9317,10 @@ design rules under a new name.</description>
 <wire x1="28.702" y1="81.28" x2="31.75" y2="81.28" width="0.254" layer="1"/>
 <wire x1="31.75" y1="81.28" x2="32.131" y2="81.661" width="0.254" layer="1"/>
 <wire x1="32.131" y1="81.661" x2="33.147" y2="81.661" width="0.254" layer="1"/>
-<contactref element="MOT5_HB1" pad="12"/>
-<contactref element="MOT5_HB1" pad="13"/>
+<contactref element="MOT1_HB1" pad="12"/>
+<contactref element="MOT1_HB1" pad="13"/>
 <contactref element="C51" pad="1"/>
-<contactref element="MOT5_HB1" pad="15"/>
+<contactref element="MOT1_HB1" pad="15"/>
 <wire x1="30.48" y1="72.319" x2="30.48" y2="71.6586" width="0.4064" layer="1"/>
 <wire x1="24.638" y1="72.9794" x2="24.638" y2="72.319" width="0.254" layer="1"/>
 <wire x1="24.511" y1="69.811" x2="24.169" y2="69.811" width="0.4064" layer="1"/>
@@ -9338,7 +9338,7 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="69.977" x2="30.48" y2="71.6586" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$29">
-<contactref element="MOT5_HB1" pad="3"/>
+<contactref element="MOT1_HB1" pad="3"/>
 <contactref element="R10" pad="1"/>
 <contactref element="C54" pad="1"/>
 <wire x1="24.638" y1="78.923" x2="23.932" y2="78.923" width="0.254" layer="1"/>
@@ -9356,18 +9356,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$30">
 <contactref element="C55" pad="2"/>
-<contactref element="MOT5_HB1" pad="1"/>
+<contactref element="MOT1_HB1" pad="1"/>
 <wire x1="24.638" y1="80.2438" x2="23.5138" y2="81.368" width="0.4064" layer="1"/>
 <wire x1="23.5138" y1="81.368" x2="23.114" y2="81.368" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="MOT5_HB1" pad="2"/>
+<contactref element="MOT1_HB1" pad="2"/>
 <contactref element="C55" pad="1"/>
 <wire x1="23.114" y1="79.668" x2="23.1986" y2="79.5834" width="0.4064" layer="1"/>
 <wire x1="23.1986" y1="79.5834" x2="24.638" y2="79.5834" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOT2_NSLEEP">
-<contactref element="MOT2_HB1" pad="17"/>
+<signal name="MOT3_NSLEEP">
+<contactref element="MOT3_HB1" pad="17"/>
 <contactref element="U1" pad="PH1"/>
 <wire x1="28.448" y1="101.2646" x2="27.6404" y2="101.2646" width="0.254" layer="1"/>
 <via x="27.813" y="104.013" extent="1-16" drill="0.6"/>
@@ -9380,8 +9380,8 @@ design rules under a new name.</description>
 <wire x1="27.813" y1="104.013" x2="27.813" y2="106.553" width="0.254" layer="16"/>
 <wire x1="27.813" y1="106.553" x2="27.813" y2="106.807" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT2_NFAULT">
-<contactref element="MOT2_HB1" pad="18"/>
+<signal name="MOT3_NFAULT">
+<contactref element="MOT3_HB1" pad="18"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U1" pad="PH0"/>
 <wire x1="26.6498" y1="100.6042" x2="28.448" y2="100.6042" width="0.254" layer="1"/>
@@ -9397,8 +9397,8 @@ design rules under a new name.</description>
 <wire x1="25.781" y1="96.227" x2="26.543" y2="96.989" width="0.254" layer="1"/>
 <wire x1="26.543" y1="96.989" x2="26.543" y2="100.4974" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT2_PHASE">
-<contactref element="MOT2_HB1" pad="20"/>
+<signal name="MOT3_PHASE">
+<contactref element="MOT3_HB1" pad="20"/>
 <contactref element="U1" pad="PK6"/>
 <wire x1="28.448" y1="99.2834" x2="27.5896" y2="99.2834" width="0.254" layer="1"/>
 <via x="27.305" y="99.568" extent="1-16" drill="0.6"/>
@@ -9415,8 +9415,8 @@ design rules under a new name.</description>
 <wire x1="25.527" y1="99.822" x2="25.527" y2="104.013" width="0.254" layer="1"/>
 <wire x1="25.527" y1="104.013" x2="25.273" y2="104.267" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT2_PWM">
-<contactref element="MOT2_HB1" pad="21"/>
+<signal name="MOT3_PWM">
+<contactref element="MOT3_HB1" pad="21"/>
 <contactref element="U1" pad="PK5"/>
 <wire x1="28.442" y1="98.623" x2="27.884" y2="98.623" width="0.254" layer="1"/>
 <via x="27.305" y="98.044" extent="1-16" drill="0.6"/>
@@ -9424,8 +9424,8 @@ design rules under a new name.</description>
 <wire x1="25.273" y1="98.044" x2="23.241" y2="96.012" width="0.254" layer="16"/>
 <wire x1="27.884" y1="98.623" x2="27.305" y2="98.044" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT3_NSLEEP">
-<contactref element="MOT3_HB1" pad="17"/>
+<signal name="MOT4_NSLEEP">
+<contactref element="MOT4_HB1" pad="17"/>
 <contactref element="U1" pad="PD5"/>
 <wire x1="53.467" y1="112.3494" x2="54.6556" y2="112.3494" width="0.254" layer="1"/>
 <wire x1="54.6556" y1="112.3494" x2="55.245" y2="111.76" width="0.254" layer="1"/>
@@ -9437,8 +9437,8 @@ design rules under a new name.</description>
 <wire x1="65.151" y1="107.061" x2="65.151" y2="104.902" width="0.254" layer="16"/>
 <wire x1="65.151" y1="104.902" x2="66.421" y2="103.632" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT3_NFAULT">
-<contactref element="MOT3_HB1" pad="18"/>
+<signal name="MOT4_NFAULT">
+<contactref element="MOT4_HB1" pad="18"/>
 <contactref element="R12" pad="1"/>
 <wire x1="53.467" y1="113.0098" x2="55.2248" y2="113.0098" width="0.254" layer="1"/>
 <wire x1="55.2248" y1="113.0098" x2="55.245" y2="113.03" width="0.254" layer="1"/>
@@ -9454,8 +9454,8 @@ design rules under a new name.</description>
 <wire x1="56.388" y1="113.03" x2="55.245" y2="113.03" width="0.254" layer="1"/>
 <wire x1="56.642" y1="112.776" x2="56.388" y2="113.03" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT3_PHASE">
-<contactref element="MOT3_HB1" pad="20"/>
+<signal name="MOT4_PHASE">
+<contactref element="MOT4_HB1" pad="20"/>
 <wire x1="53.467" y1="114.3306" x2="54.1984" y2="114.3306" width="0.254" layer="1"/>
 <wire x1="54.1984" y1="114.3306" x2="54.61" y2="113.919" width="0.254" layer="1"/>
 <via x="54.61" y="113.919" extent="1-16" drill="0.6"/>
@@ -9463,8 +9463,8 @@ design rules under a new name.</description>
 <wire x1="54.61" y1="113.919" x2="63.754" y2="113.919" width="0.254" layer="16"/>
 <wire x1="63.754" y1="113.919" x2="63.881" y2="113.792" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT3_PWM">
-<contactref element="MOT3_HB1" pad="21"/>
+<signal name="MOT4_PWM">
+<contactref element="MOT4_HB1" pad="21"/>
 <contactref element="U1" pad="PK4"/>
 <via x="54.61" y="115.316" extent="1-16" drill="0.6"/>
 <wire x1="54.61" y1="115.316" x2="57.658" y2="115.316" width="0.254" layer="16"/>
@@ -9499,8 +9499,8 @@ design rules under a new name.</description>
 <wire x1="43.688" y1="103.632" x2="40.767" y2="103.632" width="0.254" layer="1"/>
 <wire x1="40.767" y1="103.632" x2="39.37" y2="102.235" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT4_NSLEEP">
-<contactref element="MOT4_HB1" pad="17"/>
+<signal name="MOT5_NSLEEP">
+<contactref element="MOT5_HB1" pad="17"/>
 <contactref element="U1" pad="PK3"/>
 <wire x1="60.96" y1="81.8336" x2="59.1364" y2="81.8336" width="0.254" layer="1"/>
 <wire x1="57.15" y1="101.981" x2="63.881" y2="108.712" width="0.254" layer="1"/>
@@ -9513,8 +9513,8 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="88.773" x2="58.42" y2="89.535" width="0.254" layer="1"/>
 <wire x1="58.42" y1="89.535" x2="57.15" y2="90.805" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT4_NFAULT">
-<contactref element="MOT4_HB1" pad="18"/>
+<signal name="MOT5_NFAULT">
+<contactref element="MOT5_HB1" pad="18"/>
 <contactref element="R13" pad="1"/>
 <contactref element="U1" pad="PK2"/>
 <wire x1="58.928" y1="76.62" x2="58.928" y2="78.867" width="0.254" layer="1"/>
@@ -9538,8 +9538,8 @@ design rules under a new name.</description>
 <wire x1="57.404" y1="78.867" x2="58.928" y2="78.867" width="0.254" layer="1"/>
 <wire x1="57.404" y1="78.867" x2="55.88" y2="80.391" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT4_PHASE">
-<contactref element="MOT4_HB1" pad="20"/>
+<signal name="MOT5_PHASE">
+<contactref element="MOT5_HB1" pad="20"/>
 <contactref element="U1" pad="PQ0"/>
 <wire x1="60.96" y1="79.8524" x2="60.0404" y2="79.8524" width="0.254" layer="1"/>
 <via x="59.817" y="79.883" extent="1-16" drill="0.6"/>
@@ -9570,8 +9570,8 @@ design rules under a new name.</description>
 <wire x1="57.5945" y1="87.8205" x2="57.15" y2="88.265" width="0.254" layer="1"/>
 <wire x1="57.15" y1="88.265" x2="57.15" y2="88.773" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT4_PWM">
-<contactref element="MOT4_HB1" pad="21"/>
+<signal name="MOT5_PWM">
+<contactref element="MOT5_HB1" pad="21"/>
 <contactref element="U1" pad="PG0"/>
 <via x="59.817" y="77.47" extent="1-16" drill="0.6"/>
 <wire x1="59.817" y1="77.47" x2="58.039" y2="77.47" width="0.254" layer="16"/>
@@ -9598,8 +9598,8 @@ design rules under a new name.</description>
 <wire x1="26.924" y1="35.433" x2="26.543" y2="35.052" width="0.254" layer="1"/>
 <wire x1="26.543" y1="35.052" x2="23.241" y2="35.052" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT5_NSLEEP">
-<contactref element="MOT5_HB1" pad="17"/>
+<signal name="MOT1_NSLEEP">
+<contactref element="MOT1_HB1" pad="17"/>
 <wire x1="30.48" y1="72.9794" x2="33.6094" y2="72.9794" width="0.254" layer="1"/>
 <wire x1="33.6094" y1="72.9794" x2="34.798" y2="74.168" width="0.254" layer="1"/>
 <wire x1="34.798" y1="74.168" x2="34.798" y2="77.978" width="0.254" layer="1"/>
@@ -9618,8 +9618,8 @@ design rules under a new name.</description>
 <wire x1="38.227" y1="82.169" x2="38.227" y2="84.201" width="0.254" layer="16"/>
 <wire x1="38.227" y1="84.201" x2="38.227" y2="85.598" width="0.254" layer="1"/>
 </signal>
-<signal name="MOT5_NFAULT">
-<contactref element="MOT5_HB1" pad="18"/>
+<signal name="MOT1_NFAULT">
+<contactref element="MOT1_HB1" pad="18"/>
 <contactref element="R14" pad="1"/>
 <wire x1="32.1108" y1="73.6398" x2="30.48" y2="73.6398" width="0.254" layer="1"/>
 <contactref element="U1" pad="PM7"/>
@@ -9642,8 +9642,8 @@ design rules under a new name.</description>
 <wire x1="36.957" y1="80.137" x2="36.957" y2="82.169" width="0.254" layer="1"/>
 <wire x1="36.957" y1="82.169" x2="36.957" y2="84.201" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT5_PHASE">
-<contactref element="MOT5_HB1" pad="20"/>
+<signal name="MOT1_PHASE">
+<contactref element="MOT1_HB1" pad="20"/>
 <wire x1="30.48" y1="74.9606" x2="31.3384" y2="74.9606" width="0.254" layer="1"/>
 <wire x1="31.3384" y1="74.9606" x2="32.385" y2="76.0072" width="0.254" layer="1"/>
 <wire x1="32.385" y1="76.0072" x2="32.385" y2="79.883" width="0.254" layer="1"/>
@@ -9662,8 +9662,8 @@ design rules under a new name.</description>
 <wire x1="35.687" y1="81.026" x2="35.687" y2="82.169" width="0.254" layer="1"/>
 <wire x1="35.687" y1="82.169" x2="35.687" y2="84.201" width="0.254" layer="16"/>
 </signal>
-<signal name="MOT5_PWM">
-<contactref element="MOT5_HB1" pad="21"/>
+<signal name="MOT1_PWM">
+<contactref element="MOT1_HB1" pad="21"/>
 <wire x1="30.486" y1="75.621" x2="31.171" y2="75.621" width="0.254" layer="1"/>
 <wire x1="31.171" y1="75.621" x2="31.877" y2="76.327" width="0.254" layer="1"/>
 <contactref element="U1" pad="PG1"/>
