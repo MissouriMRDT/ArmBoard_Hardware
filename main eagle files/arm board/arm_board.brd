@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7954,7 +7954,7 @@ design rules under a new name.</description>
 <element name="J16" library="MRDT-Connectors" package="APP45_PCB_HORIZ_RIGHT" value="APPPP45_PCB_HORIZ_RIGHT" x="17.145" y="148.209" rot="R270">
 <attribute name="COLOR1" value="" x="17.145" y="148.209" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="5.334" y="111.125"/>
+<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="5.334" y="112.395"/>
 <element name="H2" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.81" y="36.83"/>
 <element name="LOGO1" library="MRDT-Hardware" package="MRDT_LOGO" value="MRDT_LOGO" x="53.34" y="125.095"/>
 <element name="U$3" library="mine" package="TO252" value="SUD15N15" x="46.101" y="9.652" rot="MR90"/>
