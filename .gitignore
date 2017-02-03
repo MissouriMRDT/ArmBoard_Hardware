@@ -40,3 +40,5 @@ eagle.epf
 *.s#*
 *.l#*
 *.lck
+*.job
+*.pro
