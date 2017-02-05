@@ -1835,7 +1835,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SANC8050">
+<deviceset name="SI-8050Y">
 <gates>
 <gate name="G$1" symbol="SANC" x="2.54" y="-5.08"/>
 </gates>
@@ -8784,7 +8784,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="U$7" library="opamps" deviceset="SANC8050" device=""/>
+<part name="U$7" library="opamps" deviceset="SI-8050Y" device=""/>
 <part name="C11" library="MRDT-2014-All" deviceset="C_108CKH050M" device="" value="2200uF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="100UF-ELECT" device="" value="470uF"/>
 <part name="C5" library="MRDT-EAGLE-Training" deviceset="1.0UF50V10%(1206)" device="" value=".22uF"/>
