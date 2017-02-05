@@ -9938,7 +9938,7 @@ TO-252 DPAK</description>
 <part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="Yellow"/>
-<part name="R15" library="SparkFun-Resistors" deviceset="8.2K-5%" device="" value="3.3k"/>
+<part name="R15" library="SparkFun-Resistors" deviceset="8.2K-5%" device="" value="330"/>
 <part name="U$12" library="MRDT-Semiconductors" deviceset="OPAMP" device=""/>
 </parts>
 <sheets>
@@ -11170,7 +11170,7 @@ to gripper</text>
 <instance part="RS232_IO" gate="G$1" x="177.8" y="63.5"/>
 <instance part="GND15" gate="1" x="170.18" y="53.34"/>
 <instance part="FRAME3" gate="G$1" x="-99.06" y="-20.32"/>
-<instance part="D1" gate="G$1" x="53.34" y="137.16" rot="R270"/>
+<instance part="D1" gate="G$1" x="50.8" y="137.16" rot="R90"/>
 <instance part="R15" gate="G$1" x="40.64" y="137.16"/>
 </instances>
 <busses>
@@ -11187,10 +11187,10 @@ to gripper</text>
 <wire x1="45.72" y1="127" x2="50.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="127" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <junction x="50.8" y="116.84"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="137.16" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="60.96" y="116.84"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="55.88" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -11525,7 +11525,7 @@ to gripper</text>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="45.72" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
