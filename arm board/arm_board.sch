@@ -10670,6 +10670,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP_POL" device="E" value="330uF"/>
 <part name="U$13" library="MRDT-ICs" deviceset="AZ1117E" device="AZ1117EH-3.3"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.01uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11880,15 +11881,18 @@ to gripper</text>
 <sheet>
 <description>Computers</description>
 <plain>
+<text x="-15.24" y="134.62" size="1.778" layer="97">Note these two caps go to two differnet pins,
+the tiva has 2 3.3V pins and each need one</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-7.62" y="7.62"/>
 <instance part="GND12" gate="1" x="66.04" y="116.84" rot="R90"/>
-<instance part="C4" gate="G$1" x="50.8" y="129.54" rot="R180"/>
+<instance part="C4" gate="G$1" x="53.34" y="129.54" rot="R180"/>
 <instance part="FRAME3" gate="G$1" x="-99.06" y="-20.32"/>
 <instance part="D1" gate="G$1" x="60.96" y="129.54"/>
 <instance part="R15" gate="G$1" x="60.96" y="139.7" rot="R270"/>
 <instance part="J4" gate="G$1" x="60.96" y="157.48" rot="R270"/>
+<instance part="C8" gate="G$1" x="43.18" y="129.54" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -11896,16 +11900,20 @@ to gripper</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="22.86" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="124.46" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
-<junction x="50.8" y="116.84"/>
+<wire x1="53.34" y1="124.46" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
+<junction x="53.34" y="116.84"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="60.96" y="116.84"/>
 <pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="124.46" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<junction x="43.18" y="116.84"/>
 </segment>
 </net>
 <net name="LOG_PWR_3.3V" class="0">
@@ -12135,17 +12143,21 @@ to gripper</text>
 <net name="N$32" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="+3V3"/>
-<wire x1="40.64" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="149.86" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="149.86" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="144.78" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <junction x="60.96" y="149.86"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="132.08" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<junction x="50.8" y="149.86"/>
+<wire x1="53.34" y1="132.08" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<junction x="53.34" y="149.86"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="132.08" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<junction x="43.18" y="149.86"/>
 </segment>
 </net>
 </nets>
