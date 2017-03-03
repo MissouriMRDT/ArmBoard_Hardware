@@ -12502,7 +12502,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="134.62" y="-50.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5VMTR" class="0">
+<net name="5VMTR_PWR" class="0">
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="-38.1" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
