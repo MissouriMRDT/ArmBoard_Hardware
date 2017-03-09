@@ -235,7 +235,6 @@ PD_3  CURR SENSE</text>
 Motor</text>
 <text x="53.975" y="123.19" size="1.778" layer="25">Gripper
 Servo</text>
-<dimension x1="78.74" y1="159.385" x2="78.74" y2="135.255" x3="80.01" y3="147.32" textsize="0.8128" layer="1" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -8155,7 +8154,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.527" y="27.686" size="0.8128" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="26.416" y="26.924" size="0.4064" layer="27" font="vector"/>
 </element>
-<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="5.334" y="112.395"/>
+<element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.81" y="112.395"/>
 <element name="H2" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.81" y="36.83"/>
 <element name="LOGO1" library="MRDT-Hardware" package="MRDT_LOGO" value="MRDT_LOGO" x="10.16" y="70.485"/>
 <element name="U$3" library="mine" package="TO252" value="SUD15N15" x="46.101" y="9.652" rot="MR90"/>
@@ -9709,11 +9708,10 @@ design rules under a new name.</description>
 <contactref element="MOT3_HB1" pad="20"/>
 <contactref element="U1" pad="PK6"/>
 <via x="25.527" y="98.044" extent="1-16" drill="0.6"/>
-<via x="25.4" y="110.363" extent="1-16" drill="0.6"/>
-<wire x1="25.4" y1="110.363" x2="24.13" y2="110.363" width="0.254" layer="1"/>
+<via x="25.527" y="110.363" extent="1-16" drill="0.6"/>
+<wire x1="25.527" y1="110.363" x2="24.13" y2="110.363" width="0.254" layer="1"/>
 <wire x1="24.13" y1="110.363" x2="23.241" y2="111.252" width="0.254" layer="1"/>
-<wire x1="25.527" y1="98.044" x2="25.527" y2="110.236" width="0.254" layer="16"/>
-<wire x1="25.527" y1="110.236" x2="25.4" y2="110.363" width="0.254" layer="16"/>
+<wire x1="25.527" y1="98.044" x2="25.527" y2="110.363" width="0.254" layer="16"/>
 <wire x1="28.448" y1="99.2834" x2="27.4014" y2="99.2834" width="0.254" layer="1"/>
 <wire x1="27.4014" y1="99.2834" x2="26.162" y2="98.044" width="0.254" layer="1"/>
 <wire x1="26.162" y1="98.044" x2="25.527" y2="98.044" width="0.254" layer="1"/>
@@ -9774,7 +9772,6 @@ design rules under a new name.</description>
 <contactref element="U1" pad="PK4"/>
 <wire x1="56.648" y1="113.086" x2="57.968" y2="113.086" width="0.254" layer="1"/>
 <via x="59.563" y="117.856" extent="1-16" drill="0.6"/>
-<wire x1="24.511" y1="112.903" x2="24.511" y2="98.044" width="0.254" layer="16"/>
 <wire x1="24.511" y1="98.044" x2="23.749" y2="97.282" width="0.254" layer="16"/>
 <wire x1="23.749" y1="97.282" x2="22.86" y2="97.282" width="0.254" layer="16"/>
 <wire x1="21.971" y1="94.742" x2="23.241" y2="93.472" width="0.254" layer="16"/>
@@ -9785,10 +9782,16 @@ design rules under a new name.</description>
 <wire x1="58.674" y1="118.745" x2="59.563" y2="117.856" width="0.254" layer="16"/>
 <wire x1="21.971" y1="94.742" x2="21.971" y2="96.393" width="0.254" layer="16"/>
 <wire x1="21.971" y1="96.393" x2="22.86" y2="97.282" width="0.254" layer="16"/>
-<wire x1="24.511" y1="112.903" x2="26.543" y2="114.935" width="0.254" layer="16"/>
-<wire x1="26.543" y1="114.935" x2="45.085" y2="114.935" width="0.254" layer="16"/>
-<wire x1="45.085" y1="114.935" x2="47.625" y2="117.475" width="0.254" layer="16"/>
 <wire x1="47.625" y1="117.475" x2="55.88" y2="117.475" width="0.254" layer="16"/>
+<via x="25.908" y="114.554" extent="1-16" drill="0.6"/>
+<via x="32.385" y="116.459" extent="1-16" drill="0.6"/>
+<wire x1="32.385" y1="116.459" x2="46.609" y2="116.459" width="0.254" layer="16"/>
+<wire x1="46.609" y1="116.459" x2="47.625" y2="117.475" width="0.254" layer="16"/>
+<wire x1="25.908" y1="114.554" x2="30.48" y2="114.554" width="0.254" layer="1"/>
+<wire x1="30.48" y1="114.554" x2="32.385" y2="116.459" width="0.254" layer="1"/>
+<wire x1="25.908" y1="114.554" x2="25.019" y2="114.554" width="0.254" layer="16"/>
+<wire x1="25.019" y1="114.554" x2="24.511" y2="114.046" width="0.254" layer="16"/>
+<wire x1="24.511" y1="114.046" x2="24.511" y2="98.044" width="0.254" layer="16"/>
 </signal>
 <signal name="MOT5_NSLEEP">
 <contactref element="MOT5_HB1" pad="17"/>
@@ -10436,7 +10439,7 @@ design rules under a new name.</description>
 <contactref element="GRIPMTR_HB" pad="7"/>
 <wire x1="20.701" y1="103.632" x2="20.701" y2="104.394" width="0.4064" layer="1"/>
 <wire x1="20.701" y1="104.394" x2="21.971" y2="105.664" width="0.4064" layer="1"/>
-<wire x1="21.971" y1="105.664" x2="21.971" y2="115.316" width="0.4064" layer="1"/>
+<wire x1="21.971" y1="105.664" x2="21.971" y2="116.078" width="0.4064" layer="1"/>
 <via x="20.955" y="135.89" extent="1-16" drill="0.6"/>
 <wire x1="20.955" y1="135.89" x2="17.653" y2="135.89" width="0.4064" layer="16"/>
 <via x="17.653" y="135.89" extent="1-16" drill="0.6"/>
@@ -10446,12 +10449,7 @@ design rules under a new name.</description>
 <wire x1="17.145" y1="133.35" x2="14.605" y2="133.35" width="0.4064" layer="1"/>
 <wire x1="14.605" y1="133.35" x2="13.69" y2="134.265" width="0.4064" layer="1"/>
 <wire x1="13.69" y1="134.265" x2="13.69" y2="136.165" width="0.4064" layer="1"/>
-<wire x1="21.971" y1="115.316" x2="23.495" y2="116.84" width="0.4064" layer="1"/>
-<wire x1="23.495" y1="116.84" x2="29.845" y2="116.84" width="0.4064" layer="1"/>
-<wire x1="29.845" y1="116.84" x2="30.48" y2="117.475" width="0.4064" layer="1"/>
 <via x="30.48" y="117.475" extent="1-16" drill="0.6"/>
-<wire x1="30.48" y1="117.475" x2="29.21" y2="118.745" width="0.4064" layer="16"/>
-<wire x1="29.21" y1="118.745" x2="29.21" y2="120.65" width="0.4064" layer="16"/>
 <via x="29.21" y="120.65" extent="1-16" drill="0.6"/>
 <wire x1="29.21" y1="120.65" x2="19.685" y2="120.65" width="0.4064" layer="1"/>
 <wire x1="19.685" y1="120.65" x2="19.05" y2="121.285" width="0.4064" layer="1"/>
@@ -10459,6 +10457,11 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="125.095" x2="22.225" y2="128.27" width="0.4064" layer="1"/>
 <wire x1="22.225" y1="128.27" x2="22.225" y2="134.62" width="0.4064" layer="1"/>
 <wire x1="22.225" y1="134.62" x2="20.955" y2="135.89" width="0.4064" layer="1"/>
+<wire x1="21.971" y1="116.078" x2="23.368" y2="117.475" width="0.4064" layer="1"/>
+<wire x1="23.368" y1="117.475" x2="30.48" y2="117.475" width="0.4064" layer="1"/>
+<wire x1="30.48" y1="117.475" x2="30.48" y2="120.015" width="0.4064" layer="16"/>
+<wire x1="30.48" y1="120.015" x2="29.845" y2="120.65" width="0.4064" layer="16"/>
+<wire x1="29.845" y1="120.65" x2="29.21" y2="120.65" width="0.4064" layer="16"/>
 </signal>
 <signal name="GRIPMTR_NENABLE">
 <contactref element="U1" pad="PP3"/>
