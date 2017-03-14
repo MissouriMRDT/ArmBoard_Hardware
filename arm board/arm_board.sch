@@ -1136,20 +1136,6 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="IND">
-<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<wire x1="-5.08" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-90"/>
-<wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-90"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94" curve="-90"/>
-<wire x1="5.08" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94" curve="-90"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.27" layer="94">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="94">&gt;VALUE</text>
-<pin name="P$1" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="P$2" x="-15.24" y="0" length="middle"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="2.2UF-CER" prefix="C">
@@ -1593,22 +1579,6 @@ CAP-08362- 63V 20%</description>
 <attribute name="PROD_ID" value="CAP-08362"/>
 <attribute name="VALUE" value="100uF" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="56UH">
-<gates>
-<gate name="G$1" symbol="IND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1210">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11084,6 +11054,55 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="MRDT-Passives">
+<description>MRDT Passives: Resistors, Capacitors, Inductors, Crystals...</description>
+<packages>
+<package name=".5*.5_SMD">
+<smd name="P$1" x="0" y="1.27" dx="7" dy="4" layer="1" rot="R90"/>
+<smd name="P$2" x="8" y="1.27" dx="7" dy="4" layer="1" rot="R90"/>
+<wire x1="-3" y1="-4" x2="11" y2="-4" width="0.127" layer="51"/>
+<wire x1="-3" y1="-4" x2="-3" y2="6" width="0.127" layer="51"/>
+<wire x1="-3" y1="6" x2="11" y2="6" width="0.127" layer="51"/>
+<wire x1="11" y1="6" x2="11" y2="-4" width="0.127" layer="51"/>
+<text x="1" y="7" size="0.8128" layer="25">&gt;NAME</text>
+<text x="1" y="-6" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="INDUCTOR">
+<pin name="P$1" x="-7.62" y="0" length="point"/>
+<pin name="P$2" x="5.08" y="0" length="point" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-3.81" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="-5.08" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
+<wire x1="1.27" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94" curve="-90"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-7.62" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="INDUCTOR">
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package=".5*.5_SMD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11238,7 +11257,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C32" library="MRDT-EAGLE-Training" deviceset="1.0UF50V10%(1206)" device="" value="4.7uF"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="5100 ohm"/>
-<part name="U$16" library="SparkFun-Capacitors" deviceset="56UH" device=""/>
+<part name="U$16" library="MRDT-Passives" deviceset="INDUCTOR" device="" value="56UH"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="_"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GRIPMTR_HB" library="tssopep" deviceset="MAX14871" device=""/>
@@ -12905,7 +12924,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <instance part="C32" gate="G$1" x="-86.36" y="-99.06"/>
 <instance part="GND13" gate="1" x="-152.4" y="-96.52"/>
 <instance part="R17" gate="G$1" x="-137.16" y="-142.24"/>
-<instance part="U$16" gate="G$1" x="-167.64" y="-119.38"/>
+<instance part="U$16" gate="G$1" x="-170.18" y="-119.38" rot="R180"/>
 <instance part="D3" gate="G$1" x="-149.86" y="-111.76" rot="R270"/>
 </instances>
 <busses>
@@ -13288,7 +13307,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="U$16" gate="G$1" pin="P$2"/>
 <wire x1="-185.42" y1="-114.3" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-185.42" y1="-119.38" x2="-185.42" y2="-127" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="-119.38" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="-119.38" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="-185.42" y="-119.38"/>
 <label x="-185.42" y="-127" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="FB"/>
@@ -13304,7 +13323,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <wire x1="-132.08" y1="-119.38" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 <wire x1="-148.336" y1="-119.38" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-119.38" x2="-152.4" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-119.38" x2="-162.56" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-127" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="-149.86" y="-119.38"/>
 <wire x1="-149.86" y1="-114.3" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
