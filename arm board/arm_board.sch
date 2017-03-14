@@ -11248,6 +11248,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="J5" library="MRDT-Connectors" deviceset="SERVO" device="MOLEX_SL_VERT_TH"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11651,6 +11652,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="C14" gate="G$1" x="71.12" y="-38.1" rot="R90"/>
 <instance part="GND15" gate="1" x="137.16" y="-55.88"/>
 <instance part="R16" gate="G$1" x="132.08" y="-76.2" rot="MR0"/>
+<instance part="GND21" gate="1" x="121.92" y="-71.12"/>
 </instances>
 <busses>
 </busses>
@@ -11795,6 +11797,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="C14" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="-38.1" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GRIPMTR_HB" gate="G$1" pin="TCOFF"/>
+<wire x1="121.92" y1="-60.96" x2="121.92" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="12VMTR_PWR" class="0">
@@ -13277,12 +13284,16 @@ the tiva has 2 3.3V pins and each need one</text>
 <segment>
 <pinref part="C26" gate="G$1" pin="+"/>
 <wire x1="-172.72" y1="-106.68" x2="-185.42" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="-185.42" y1="-106.68" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-185.42" y1="-106.68" x2="-185.42" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="P$2"/>
+<wire x1="-185.42" y1="-114.3" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-185.42" y1="-119.38" x2="-185.42" y2="-127" width="0.1524" layer="91"/>
 <wire x1="-182.88" y1="-119.38" x2="-185.42" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="-185.42" y="-119.38"/>
 <label x="-185.42" y="-127" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$15" gate="G$1" pin="FB"/>
+<wire x1="-132.08" y1="-114.3" x2="-185.42" y2="-114.3" width="0.1524" layer="91"/>
+<junction x="-185.42" y="-114.3"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -13291,8 +13302,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <wire x1="-127" y1="-127" x2="-149.86" y2="-127" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="SW"/>
 <wire x1="-132.08" y1="-119.38" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="FB"/>
-<wire x1="-132.08" y1="-114.3" x2="-149.86" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 <wire x1="-148.336" y1="-119.38" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-119.38" x2="-152.4" y2="-119.38" width="0.1524" layer="91"/>
@@ -13300,7 +13309,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <junction x="-149.86" y="-119.38"/>
 <wire x1="-149.86" y1="-114.3" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<junction x="-149.86" y="-114.3"/>
 </segment>
 </net>
 </nets>
