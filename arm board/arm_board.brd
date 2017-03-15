@@ -177,7 +177,7 @@
 <text x="34.798" y="3.556" size="1.778" layer="26" rot="MR0">logic</text>
 <text x="42.418" y="3.556" size="1.778" layer="26" rot="MR0">act</text>
 <text x="9.144" y="55.118" size="1.778" layer="26" font="vector" rot="SMR90">MRDT
-16-17 Arm board V1
+Gryphon Arm board V2
 Drue Satterfield
 Rove so hard you won't even believe it</text>
 <text x="44.45" y="0.254" size="1.778" layer="25" font="vector">power INPUT</text>
@@ -10338,11 +10338,11 @@ design rules under a new name.</description>
 <wire x1="16.89" y1="125.475" x2="19.05" y2="127.635" width="1.27" layer="1"/>
 <wire x1="19.05" y1="127.635" x2="19.05" y2="131.825" width="1.27" layer="1"/>
 <wire x1="19.05" y1="131.825" x2="20.065" y2="132.08" width="1.27" layer="1"/>
-<wire x1="21.59" y1="119.38" x2="19.05" y2="119.38" width="1.27" layer="1"/>
 <wire x1="19.05" y1="119.38" x2="13.335" y2="125.095" width="1.27" layer="1"/>
 <wire x1="13.335" y1="125.095" x2="13.335" y2="125.475" width="1.27" layer="1"/>
 <wire x1="19.685" y1="146.05" x2="21.59" y2="147.955" width="0.6096" layer="1"/>
 <wire x1="21.59" y1="147.955" x2="34.29" y2="147.955" width="0.6096" layer="1"/>
+<wire x1="21.59" y1="119.38" x2="19.05" y2="119.38" width="1.27" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$15" pad="7"/>
