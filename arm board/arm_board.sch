@@ -359,6 +359,47 @@
 <wire x1="0.635" y1="6.35" x2="0.635" y2="8.89" width="0.127" layer="21"/>
 <text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="MOLEX-70543-0001">
+<pad name="1" x="1.27" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="-1.27" y="0" drill="1.1"/>
+<wire x1="-3.556" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="3.556" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.556" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.556" y1="-1.27" x2="-3.556" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="1.27" y2="1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<text x="4.445" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-70551-0001">
+<text x="7.62" y="1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="1" x="-1.27" y="0" drill="1.0922" diameter="1.778" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.0922" diameter="1.778"/>
+<hole x="-2.54" y="8.636" drill="3.4544"/>
+<hole x="2.54" y="8.636" drill="3.4544"/>
+<wire x1="-4.445" y1="13.208" x2="-1.905" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="13.208" x2="1.905" y2="13.208" width="0.127" layer="21"/>
+<wire x1="1.905" y1="13.208" x2="4.445" y2="13.208" width="0.127" layer="21"/>
+<wire x1="4.445" y1="13.208" x2="4.445" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-4.445" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-4.445" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="13.208" x2="-1.905" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="11.43" x2="-0.635" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="11.43" x2="0.635" y2="11.43" width="0.127" layer="21"/>
+<wire x1="0.635" y1="11.43" x2="1.905" y2="11.43" width="0.127" layer="21"/>
+<wire x1="1.905" y1="11.43" x2="1.905" y2="13.208" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="11.43" x2="-0.635" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="6.35" x2="0.635" y2="6.35" width="0.127" layer="21"/>
+<wire x1="0.635" y1="6.35" x2="0.635" y2="11.43" width="0.127" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="APP">
@@ -390,6 +431,16 @@
 <pin name="GND" x="-5.08" y="2.54" length="middle"/>
 <pin name="SIG" x="-5.08" y="5.08" length="middle"/>
 <pin name="VCC" x="-5.08" y="7.62" length="middle"/>
+</symbol>
+<symbol name="SL02">
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="2" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<text x="-1.016" y="1.016" size="1.778" layer="94">&gt;NAME</text>
+<text x="-1.016" y="-10.16" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -504,6 +555,31 @@
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="SIG" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SL02" prefix="J">
+<gates>
+<gate name="G$1" symbol="SL02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-70543-0001">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-HORIZ" package="MOLEX-70551-0001">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11268,6 +11344,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="J5" library="MRDT-Connectors" deviceset="SERVO" device="MOLEX_SL_VERT_TH"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="J6" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11280,7 +11358,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="58.42" y="88.9" size="3.81" layer="97" rot="R180">power input</text>
 <text x="76.2" y="22.86" size="3.81" layer="97">motor I/O</text>
 <text x="-66.04" y="-27.94" size="3.81" layer="97">encoder I/O</text>
-<text x="-55.88" y="116.84" size="3.81" layer="97">Servo I/O</text>
+<text x="-76.2" y="116.84" size="3.81" layer="97">Servo I/O</text>
+<text x="7.62" y="119.38" size="3.81" layer="97" rot="R180">Fan output</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="78.74" y="121.92"/>
@@ -11318,6 +11397,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$14" gate="G$1" x="-22.86" y="27.94"/>
 <instance part="J5" gate="G$1" x="-38.1" y="101.6" rot="R90"/>
 <instance part="GND4" gate="1" x="-33.02" y="91.44" rot="R90"/>
+<instance part="J6" gate="G$1" x="-10.16" y="104.14"/>
+<instance part="GND27" gate="1" x="7.62" y="88.9"/>
 </instances>
 <busses>
 </busses>
@@ -11380,6 +11461,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="99.06" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="LOG_PWR_12V" class="0">
@@ -11573,6 +11660,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-45.72" y1="96.52" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-45.72" y1="91.44" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
 <label x="-50.8" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="101.6" x2="2.54" y2="109.22" width="0.1524" layer="91"/>
+<label x="2.54" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GRIPSERVO_CTL" class="0">
