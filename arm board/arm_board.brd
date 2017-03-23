@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -176,10 +176,11 @@
 <text x="26.4668" y="3.556" size="1.778" layer="26" rot="MR0">Gnd</text>
 <text x="34.7218" y="3.556" size="1.778" layer="26" rot="MR0">logic</text>
 <text x="42.3418" y="3.556" size="1.778" layer="26" rot="MR0">act</text>
-<text x="9.0678" y="55.118" size="1.778" layer="26" font="vector" rot="SMR90">MRDT
-Gryphon Arm board V2
-Drue Satterfield
-Rove so hard you won't even believe it</text>
+<text x="13.5636" y="78.5114" size="1.778" layer="25" font="vector" rot="SR270" align="center">Missouri S&amp;T
+Mars Rover Design Team
+Arm Board
+2017 | Gryphon | Rev 2
+Drue Satterfield</text>
 <text x="44.3738" y="0.254" size="1.778" layer="25" font="vector">power INPUT</text>
 <text x="73.4568" y="5.461" size="1.778" layer="26" rot="MR0">extra</text>
 <text x="64.5668" y="5.461" size="1.778" layer="26" rot="MR0">Gnd</text>
@@ -11004,7 +11005,7 @@ design rules under a new name.</description>
 </element>
 <element name="H1" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.7338" y="112.395"/>
 <element name="H2" library="MRDT-Hardware" package="#4_SCREW" value="MOUNTING_HOLE#4" x="3.7338" y="36.83"/>
-<element name="LOGO1" library="MRDT-Hardware" package="MRDT_LOGO" value="MRDT_LOGO" x="10.0838" y="70.485"/>
+<element name="LOGO1" library="MRDT-Hardware" package="MRDT_LOGO" value="MRDT_LOGO" x="6.985" y="106.8578" rot="R270"/>
 <element name="U$3" library="mine" package="TO252" value="SUD15N15" x="46.0248" y="9.652" rot="MR90"/>
 <element name="U$4" library="MRDT-Semiconductors" package="TO252" value="SUD15N15" x="58.0898" y="9.652" rot="MR270"/>
 <element name="U$5" library="MRDT-ICs" package="TSOT23-6" value="LM5050" x="50.7238" y="4.953" smashed="yes" rot="R90">
