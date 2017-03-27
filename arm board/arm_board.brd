@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="14" fill="1" visible="no" active="no"/>
@@ -232,7 +232,7 @@ PD_3  CURR SENSE</text>
 <text x="1.8288" y="39.37" size="0.508" layer="25" font="vector" rot="R90">He's lumpy, but he has a big heart</text>
 <circle x="51.2318" y="3.81" radius="0.127" width="0.6096" layer="25"/>
 <circle x="55.5498" y="6.096" radius="0.127" width="0.6096" layer="25"/>
-<text x="0.5588" y="115.57" size="1.778" layer="25">Grip
+<text x="1.3208" y="115.062" size="1.778" layer="25">Grip
 Mtr</text>
 <text x="48.1838" y="132.08" size="1.778" layer="25">Gripper Servo</text>
 <text x="62.7888" y="123.825" size="1.778" layer="25">Fan</text>
@@ -11159,7 +11159,7 @@ design rules under a new name.</description>
 </element>
 <element name="C14" library="MRDT-EAGLE-Training" package="1206" value="4.7uF" x="8.1788" y="139.065" smashed="yes" rot="MR90">
 <attribute name="PROD_ID" value="CAP-09822" x="17.7038" y="132.08" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="6.1468" y="138.43" size="0.8128" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="6.1468" y="137.16" size="0.8128" layer="26" font="vector" rot="MR90"/>
 <attribute name="VALUE" x="6.6548" y="137.668" size="0.4064" layer="28" rot="MR90"/>
 </element>
 <element name="U$14" library="mine" package="APP45_HORIZ_CONFIG" value="APP45_HORIZ" x="-0.0762" y="159.004" rot="R270"/>
@@ -13158,9 +13158,7 @@ design rules under a new name.</description>
 <wire x1="17.5768" y1="143.764" x2="18.5928" y2="142.748" width="0.4064" layer="1"/>
 <wire x1="18.5928" y1="142.748" x2="18.5928" y2="132.206" width="0.4064" layer="1"/>
 <wire x1="18.5928" y1="132.206" x2="19.3538" y2="132.08" width="0.4064" layer="1"/>
-<wire x1="19.3538" y1="132.08" x2="14.0208" y2="132.08" width="0.4064" layer="1"/>
-<wire x1="14.0208" y1="132.08" x2="11.6638" y2="134.437" width="0.4064" layer="1"/>
-<wire x1="11.6638" y1="134.437" x2="11.6638" y2="136.165" width="0.4064" layer="1"/>
+<wire x1="19.3538" y1="132.08" x2="12.319" y2="132.08" width="0.4064" layer="1"/>
 <wire x1="57.7088" y1="129.54" x2="57.7088" y2="130.81" width="0.6096" layer="1"/>
 <wire x1="57.7088" y1="130.81" x2="56.4388" y2="132.08" width="0.6096" layer="1"/>
 <wire x1="56.4388" y1="132.08" x2="48.6918" y2="132.08" width="0.6096" layer="1"/>
@@ -13186,6 +13184,8 @@ design rules under a new name.</description>
 <wire x1="48.6918" y1="132.08" x2="32.8168" y2="147.955" width="0.6096" layer="1"/>
 <wire x1="57.7088" y1="129.54" x2="56.4388" y2="128.27" width="0.6096" layer="1"/>
 <wire x1="56.4388" y1="128.27" x2="56.4388" y2="125.095" width="0.6096" layer="1"/>
+<wire x1="12.319" y1="132.08" x2="11.6638" y2="132.7352" width="0.4064" layer="1"/>
+<wire x1="11.6638" y1="132.7352" x2="11.6638" y2="136.165" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="U$15" pad="7"/>
@@ -13263,6 +13263,34 @@ design rules under a new name.</description>
 </signal>
 <signal name="GRIPMTR_PWM">
 <contactref element="GRIPMTR_HB" pad="6"/>
+<contactref element="U1" pad="PF2"/>
+<wire x1="23.1648" y1="29.972" x2="23.1648" y2="30.0482" width="0.4064" layer="16"/>
+<wire x1="23.1648" y1="30.0482" x2="21.971" y2="31.242" width="0.4064" layer="16"/>
+<wire x1="21.971" y1="31.242" x2="4.191" y2="31.242" width="0.4064" layer="16"/>
+<wire x1="4.191" y1="31.242" x2="2.921" y2="32.512" width="0.4064" layer="16"/>
+<via x="2.921" y="32.512" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="2.921" y1="32.512" x2="4.191" y2="32.512" width="0.4064" layer="1"/>
+<wire x1="4.191" y1="32.512" x2="7.239" y2="35.56" width="0.4064" layer="1"/>
+<wire x1="7.239" y1="35.56" x2="7.239" y2="49.657" width="0.4064" layer="1"/>
+<wire x1="7.239" y1="49.657" x2="3.175" y2="53.721" width="0.4064" layer="1"/>
+<wire x1="4.445" y1="118.745" x2="6.985" y2="121.285" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="121.285" x2="6.985" y2="124.46" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="124.46" x2="5.715" y2="125.73" width="0.4064" layer="16"/>
+<wire x1="5.715" y1="125.73" x2="5.715" y2="128.27" width="0.4064" layer="16"/>
+<wire x1="5.715" y1="128.27" x2="6.985" y2="129.54" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="129.54" x2="6.985" y2="132.08" width="0.4064" layer="16"/>
+<via x="12.954" y="133.604" extent="1-16" drill="0.6"/>
+<wire x1="12.954" y1="133.604" x2="12.9638" y2="133.6138" width="0.4064" layer="1"/>
+<wire x1="12.9638" y1="133.6138" x2="12.9638" y2="136.165" width="0.4064" layer="1"/>
+<wire x1="6.985" y1="132.08" x2="8.509" y2="133.604" width="0.4064" layer="16"/>
+<wire x1="8.509" y1="133.604" x2="12.954" y2="133.604" width="0.4064" layer="16"/>
+<wire x1="3.175" y1="53.721" x2="3.175" y2="108.585" width="0.4064" layer="1"/>
+<via x="3.175" y="108.585" extent="1-16" drill="0.6"/>
+<wire x1="3.175" y1="108.585" x2="5.08" y2="108.585" width="0.4064" layer="16"/>
+<wire x1="5.08" y1="108.585" x2="6.985" y2="110.49" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="110.49" x2="6.985" y2="113.665" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="113.665" x2="4.445" y2="116.205" width="0.4064" layer="16"/>
+<wire x1="4.445" y1="116.205" x2="4.445" y2="118.745" width="0.4064" layer="16"/>
 </signal>
 <signal name="GRIPMTR_NFAULT">
 <contactref element="GRIPMTR_HB" pad="10"/>
@@ -13308,8 +13336,6 @@ design rules under a new name.</description>
 <wire x1="17.7038" y1="135.763" x2="17.7038" y2="133.985" width="0.4064" layer="1"/>
 <wire x1="17.7038" y1="133.985" x2="17.0688" y2="133.35" width="0.4064" layer="1"/>
 <wire x1="17.0688" y1="133.35" x2="14.5288" y2="133.35" width="0.4064" layer="1"/>
-<wire x1="14.5288" y1="133.35" x2="13.6138" y2="134.265" width="0.4064" layer="1"/>
-<wire x1="13.6138" y1="134.265" x2="13.6138" y2="136.165" width="0.4064" layer="1"/>
 <wire x1="21.8948" y1="114.681" x2="22.2758" y2="115.062" width="0.4064" layer="1"/>
 <wire x1="22.2758" y1="115.062" x2="24.8158" y2="115.062" width="0.4064" layer="1"/>
 <wire x1="24.8158" y1="115.062" x2="25.8318" y2="116.078" width="0.4064" layer="1"/>
@@ -13321,6 +13347,8 @@ design rules under a new name.</description>
 <wire x1="29.1338" y1="120.015" x2="27.2288" y2="121.92" width="0.4064" layer="1"/>
 <wire x1="27.2288" y1="121.92" x2="24.6888" y2="121.92" width="0.4064" layer="1"/>
 <wire x1="24.6888" y1="121.92" x2="24.0538" y2="122.555" width="0.4064" layer="1"/>
+<wire x1="14.5288" y1="133.35" x2="13.6138" y2="134.265" width="0.4064" layer="1"/>
+<wire x1="13.6138" y1="134.265" x2="13.6138" y2="136.165" width="0.4064" layer="1"/>
 </signal>
 <signal name="GRIPMTR_NENABLE">
 <contactref element="U1" pad="PP3"/>
