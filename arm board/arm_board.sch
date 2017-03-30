@@ -12943,7 +12943,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PP3"/>
 <wire x1="-12.7" y1="15.24" x2="-17.78" y2="15.24" width="0.1524" layer="91"/>
-<label x="-17.78" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-17.78" y="15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GRIPSERVO_CTL" class="0">
@@ -12957,7 +12957,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PF2"/>
 <wire x1="-12.7" y1="88.9" x2="-17.78" y2="88.9" width="0.1524" layer="91"/>
-<label x="-17.78" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-17.78" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
