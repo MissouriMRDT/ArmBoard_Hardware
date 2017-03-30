@@ -12702,20 +12702,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RX6_MAX_OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PP0"/>
-<wire x1="-12.7" y1="22.86" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
-<label x="-17.78" y="22.86" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TX6_MAX_IN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PP1"/>
-<wire x1="-12.7" y1="20.32" x2="-17.78" y2="20.32" width="0.1524" layer="91"/>
-<label x="-17.78" y="20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="ENC1_PWM_OUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PM4"/>
