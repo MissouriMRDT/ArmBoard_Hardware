@@ -11409,6 +11409,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP_POL" device="G" value="680uF"/>
+<part name="J12" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11480,6 +11483,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND36" gate="1" x="-121.92" y="-35.56"/>
 <instance part="GND37" gate="1" x="-109.22" y="-35.56"/>
 <instance part="GND38" gate="1" x="-96.52" y="-35.56"/>
+<instance part="J12" gate="G$1" x="-76.2" y="10.16" rot="R270"/>
+<instance part="R23" gate="G$1" x="-83.82" y="-25.4" rot="MR270"/>
+<instance part="GND33" gate="1" x="-83.82" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -11579,6 +11585,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="-96.52" y1="-30.48" x2="-96.52" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="-83.82" y1="-30.48" x2="-83.82" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="LOG_PWR_12V" class="0">
 <segment>
@@ -11676,6 +11687,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-99.06" y1="12.7" x2="-111.76" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-111.76" y="12.7"/>
 <label x="-139.7" y="17.78" size="1.778" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-2.54" x2="-81.28" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="-10.16" x2="-86.36" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-10.16" x2="-86.36" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="12.7" x2="-99.06" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-99.06" y="12.7"/>
 </segment>
 </net>
 <net name="ENC3_PWM_OUT" class="0">
@@ -11903,6 +11920,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="-96.52" y1="-15.24" x2="-96.52" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 <label x="-91.44" y="-20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="LS6_SIG" class="0">
+<segment>
+<pinref part="J12" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="-2.54" x2="-78.74" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="-15.24" x2="-78.74" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-20.32" x2="-83.82" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-15.24" x2="-78.74" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="-78.74" y="-15.24"/>
+<label x="-78.74" y="-20.32" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -13191,13 +13220,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="-17.78" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LS2_SIG" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PM5"/>
-<wire x1="-12.7" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
-<label x="-17.78" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="LS5_SIG" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC7"/>
@@ -13207,23 +13229,37 @@ the tiva has 2 3.3V pins and each need one</text>
 </net>
 <net name="LS4_SIG" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB2"/>
-<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="LS3_SIG" class="0">
-<segment>
 <pinref part="U1" gate="G$1" pin="PB3"/>
 <wire x1="22.86" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="27.94" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LS1_SIG" class="0">
+<net name="LS3_SIG" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD7"/>
 <wire x1="22.86" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="78.74" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LS2_SIG" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM5"/>
+<wire x1="-12.7" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="-17.78" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LS1_SIG" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE3"/>
+<wire x1="22.86" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<label x="27.94" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LS6_SIG" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="27.94" y="106.68" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
