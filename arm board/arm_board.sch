@@ -9541,6 +9541,21 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <text x="-0.8255" y="4.5085" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.0795" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="TSOP-6">
+<smd name="6" x="1.1938" y="0.9398" dx="0.9906" dy="0.7112" layer="1"/>
+<smd name="5" x="1.1938" y="0" dx="0.9906" dy="0.7112" layer="1"/>
+<smd name="4" x="1.1938" y="-0.9398" dx="0.9906" dy="0.7112" layer="1"/>
+<smd name="3" x="-1.1938" y="-0.9398" dx="0.9906" dy="0.7112" layer="1"/>
+<smd name="2" x="-1.1938" y="0" dx="0.9906" dy="0.7112" layer="1"/>
+<smd name="1" x="-1.1938" y="0.9398" dx="0.9906" dy="0.7112" layer="1"/>
+<wire x1="-0.7493" y1="1.4986" x2="-0.7493" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="-0.7493" y1="-1.4986" x2="0.7493" y2="-1.4986" width="0.127" layer="21"/>
+<wire x1="0.7493" y1="-1.4986" x2="0.7493" y2="1.4986" width="0.127" layer="21"/>
+<wire x1="0.7493" y1="1.4986" x2="-0.7493" y2="1.4986" width="0.127" layer="21"/>
+<circle x="-0.381" y="1.016" radius="0.127" width="0.127" layer="21"/>
+<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="0.8128" layer="25">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ACS722LL">
@@ -9610,6 +9625,20 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <pin name="ADJ/GND" x="-12.7" y="2.54" length="middle"/>
 <text x="-2.54" y="12.7" size="1.27" layer="94">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="74LVC1T45">
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VCA" x="-12.7" y="5.08" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="A" x="-12.7" y="-5.08" length="middle"/>
+<pin name="B" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="DIR" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VCB" x="12.7" y="5.08" length="middle" rot="R180"/>
+<text x="-2.54" y="10.16" size="1.27" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9707,6 +9736,27 @@ Source: http://cds.linear.com/docs/Datasheet/623012fb.pdf</description>
 <technology name="">
 <attribute name="VOUT" value="3.3v"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74LVC1T45">
+<description>1-5V level shifter</description>
+<gates>
+<gate name="G$1" symbol="74LVC1T45" x="0" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="TSOP-6">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="B" pad="4"/>
+<connect gate="G$1" pin="DIR" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCA" pad="1"/>
+<connect gate="G$1" pin="VCB" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11345,21 +11395,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J6" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="U$2" library="MRDT-ICs" deviceset="74LVC1T45" device=""/>
+<part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>I/O</description>
 <plain>
-<wire x1="-78.74" y1="127" x2="119.38" y2="127" width="0.1524" layer="97"/>
+<wire x1="-154.94" y1="127" x2="119.38" y2="127" width="0.1524" layer="97"/>
 <wire x1="119.38" y1="127" x2="119.38" y2="-43.18" width="0.1524" layer="97"/>
-<wire x1="119.38" y1="-43.18" x2="-78.74" y2="-43.18" width="0.1524" layer="97"/>
-<wire x1="-78.74" y1="-43.18" x2="-78.74" y2="127" width="0.1524" layer="97"/>
+<wire x1="119.38" y1="-43.18" x2="-154.94" y2="-43.18" width="0.1524" layer="97"/>
+<wire x1="-154.94" y1="-43.18" x2="-154.94" y2="127" width="0.1524" layer="97"/>
 <text x="58.42" y="88.9" size="3.81" layer="97" rot="R180">power input</text>
 <text x="76.2" y="22.86" size="3.81" layer="97">motor I/O</text>
 <text x="-66.04" y="-27.94" size="3.81" layer="97">encoder I/O</text>
-<text x="-76.2" y="116.84" size="3.81" layer="97">Servo I/O</text>
-<text x="7.62" y="119.38" size="3.81" layer="97" rot="R180">Fan output</text>
+<text x="-139.7" y="116.84" size="3.81" layer="97">Servo I/O</text>
+<text x="-30.48" y="114.3" size="3.81" layer="97" rot="R180">Fan output</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="78.74" y="121.92"/>
@@ -11375,9 +11427,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND16" gate="1" x="7.62" y="-35.56"/>
 <instance part="GND17" gate="1" x="73.66" y="-35.56"/>
 <instance part="GND18" gate="1" x="88.9" y="-12.7"/>
-<instance part="H1" gate="G$1" x="-101.6" y="58.42"/>
-<instance part="H2" gate="G$1" x="-101.6" y="53.34"/>
-<instance part="LOGO1" gate="G$1" x="-91.44" y="58.42"/>
+<instance part="H1" gate="G$1" x="-111.76" y="-30.48"/>
+<instance part="H2" gate="G$1" x="-111.76" y="-35.56"/>
+<instance part="LOGO1" gate="G$1" x="-101.6" y="-30.48"/>
 <instance part="J17" gate="G$1" x="104.14" y="99.06"/>
 <instance part="J18" gate="G$1" x="104.14" y="104.14"/>
 <instance part="GND31" gate="1" x="93.98" y="88.9"/>
@@ -11392,13 +11444,15 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$9" gate="G$1" x="50.8" y="58.42"/>
 <instance part="U$10" gate="G$1" x="50.8" y="43.18"/>
 <instance part="U$11" gate="G$1" x="50.8" y="27.94"/>
-<instance part="H4" gate="G$1" x="-91.44" y="53.34"/>
+<instance part="H4" gate="G$1" x="-101.6" y="-35.56"/>
 <instance part="FRAME1" gate="G$1" x="-170.18" y="-91.44"/>
 <instance part="U$14" gate="G$1" x="-22.86" y="27.94"/>
-<instance part="J5" gate="G$1" x="-38.1" y="101.6" rot="R90"/>
-<instance part="GND4" gate="1" x="-33.02" y="91.44" rot="R90"/>
-<instance part="J6" gate="G$1" x="-10.16" y="104.14"/>
-<instance part="GND27" gate="1" x="7.62" y="88.9"/>
+<instance part="J5" gate="G$1" x="-101.6" y="101.6" rot="R90"/>
+<instance part="GND4" gate="1" x="-96.52" y="91.44" rot="R90"/>
+<instance part="J6" gate="G$1" x="-48.26" y="99.06"/>
+<instance part="U$2" gate="G$1" x="-104.14" y="48.26"/>
+<instance part="GND34" gate="1" x="-124.46" y="48.26" rot="R270"/>
+<instance part="GND27" gate="1" x="-27.94" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -11458,14 +11512,19 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="GND"/>
-<wire x1="-40.64" y1="96.52" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="96.52" x2="-104.14" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-104.14" y1="91.44" x2="-99.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="2.54" y1="99.06" x2="7.62" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="99.06" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="-116.84" y1="48.26" x2="-121.92" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="96.52" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="96.52" x2="-27.94" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -11527,6 +11586,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="27.94" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="J24" gate="G$1" pin="VCC"/>
 <junction x="30.48" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="VCA"/>
+<wire x1="-116.84" y1="53.34" x2="-121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="-121.92" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENC3_PWM_OUT" class="0">
@@ -11657,21 +11721,43 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="5VMTR_PWR" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="VCC"/>
-<wire x1="-45.72" y1="96.52" x2="-45.72" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="91.44" x2="-50.8" y2="91.44" width="0.1524" layer="91"/>
-<label x="-50.8" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-109.22" y1="96.52" x2="-109.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="91.44" x2="-114.3" y2="91.44" width="0.1524" layer="91"/>
+<label x="-114.3" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="101.6" x2="2.54" y2="109.22" width="0.1524" layer="91"/>
-<label x="2.54" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="VCB"/>
+<wire x1="-91.44" y1="53.34" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="DIR"/>
+<wire x1="-91.44" y1="48.26" x2="-88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="48.26" x2="-88.9" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-88.9" y="53.34"/>
+<wire x1="-88.9" y1="53.34" x2="-88.9" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="58.42" x2="-121.92" y2="58.42" width="0.1524" layer="91"/>
+<label x="-121.92" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="93.98" x2="-35.56" y2="83.82" width="0.1524" layer="91"/>
+<label x="-35.56" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GRIPSERVO_CTL" class="0">
 <segment>
+<pinref part="U$2" gate="G$1" pin="A"/>
+<wire x1="-116.84" y1="43.18" x2="-121.92" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="43.18" x2="-121.92" y2="38.1" width="0.1524" layer="91"/>
+<label x="-121.92" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="B"/>
+<wire x1="-91.44" y1="43.18" x2="-81.28" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="43.18" x2="-81.28" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="63.5" x2="-106.68" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="J5" gate="G$1" pin="SIG"/>
-<wire x1="-43.18" y1="96.52" x2="-43.18" y2="86.36" width="0.1524" layer="91"/>
-<label x="-43.18" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-106.68" y1="63.5" x2="-106.68" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -13011,7 +13097,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <instance part="GND13" gate="1" x="-152.4" y="-96.52"/>
 <instance part="R17" gate="G$1" x="-137.16" y="-142.24"/>
 <instance part="U$16" gate="G$1" x="-170.18" y="-119.38" rot="R180"/>
-<instance part="D3" gate="G$1" x="-149.86" y="-111.76" rot="R270"/>
+<instance part="D3" gate="G$1" x="-149.86" y="-109.22" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13116,7 +13202,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <junction x="-144.78" y="-134.62"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="-142.24" x2="-142.24" y2="-142.24" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-109.22" x2="-149.86" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-106.68" x2="-144.78" y2="-106.68" width="0.1524" layer="91"/>
 <junction x="-144.78" y="-106.68"/>
 <pinref part="C26" gate="G$1" pin="-"/>
@@ -13412,7 +13497,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <wire x1="-149.86" y1="-119.38" x2="-162.56" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="-149.86" y1="-127" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="-149.86" y="-119.38"/>
-<wire x1="-149.86" y1="-114.3" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="-149.86" y1="-111.76" x2="-149.86" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
