@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12969,13 +12969,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="-17.78" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ENC2_PWM_OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA6"/>
-<wire x1="-12.7" y1="111.76" x2="-17.78" y2="111.76" width="0.1524" layer="91"/>
-<label x="-17.78" y="111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="MOT2_PWM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PF3"/>
@@ -13260,6 +13253,13 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="U1" gate="G$1" pin="PB2"/>
 <wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="27.94" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENC2_PWM_OUT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD2"/>
+<wire x1="22.86" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="27.94" y="88.9" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
