@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12582,8 +12582,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="86.36" y1="-53.34" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="66.04" y="-53.34"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="-38.1" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-38.1" x2="66.04" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="GRIPMTR_HB" gate="G$1" pin="COM"/>
+<wire x1="66.04" y1="-48.26" x2="66.04" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-48.26" x2="66.04" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="66.04" y="-48.26"/>
 </segment>
 <segment>
 <pinref part="GRIPMTR_HB" gate="G$1" pin="TCOFF"/>
