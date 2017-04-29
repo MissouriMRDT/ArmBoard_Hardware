@@ -16860,6 +16860,15 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="-60.96" y="-116.84" size="1.778" layer="95" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="VIN"/>
 </segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="VIN"/>
+<wire x1="2.54" y1="76.2" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="76.2" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
+<label x="-5.08" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="-5.08" y1="73.66" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
+<junction x="-5.08" y="76.2"/>
+</segment>
 </net>
 <net name="AMP_RD" class="0">
 <segment>
@@ -17036,15 +17045,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-182.88" y1="-111.76" x2="-185.42" y2="-111.76" width="0.1524" layer="91"/>
 <junction x="-185.42" y="-111.76"/>
-</segment>
-<segment>
-<pinref part="U$18" gate="G$1" pin="VIN"/>
-<wire x1="2.54" y1="76.2" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="76.2" x2="-5.08" y2="86.36" width="0.1524" layer="91"/>
-<label x="-5.08" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="73.66" x2="-5.08" y2="76.2" width="0.1524" layer="91"/>
-<junction x="-5.08" y="76.2"/>
 </segment>
 </net>
 <net name="N$33" class="0">
