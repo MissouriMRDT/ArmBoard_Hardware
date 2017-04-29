@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14515,7 +14515,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$0" library="MRDT-2015-PowerBoard" deviceset="LT1910" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF-16V-10%(0603)" device="" value="1.0uF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF-25V-5%(0603)" device="" value="0.01uF"/>
 <part name="Q1" library="MRDT-2015-PowerBoard" deviceset="Q_IRF*7437" device="SMD"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="1UF-25V-10%(0805)" device="" value="10uF"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -16162,7 +16161,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <instances>
 <instance part="U1" gate="G$1" x="-7.62" y="7.62"/>
 <instance part="GND12" gate="1" x="66.04" y="116.84" rot="R90"/>
-<instance part="C4" gate="G$1" x="53.34" y="129.54" rot="R180"/>
 <instance part="FRAME3" gate="G$1" x="-99.06" y="-20.32"/>
 <instance part="D1" gate="G$1" x="60.96" y="129.54"/>
 <instance part="R15" gate="G$1" x="60.96" y="139.7" rot="R270"/>
@@ -16177,12 +16175,8 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="22.86" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="124.46" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
-<junction x="53.34" y="116.84"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <junction x="60.96" y="116.84"/>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -16399,16 +16393,12 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="U1" gate="G$1" pin="+3V3"/>
 <wire x1="33.02" y1="119.38" x2="22.86" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="149.86" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="144.78" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <junction x="60.96" y="149.86"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="132.08" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<junction x="53.34" y="149.86"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="132.08" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <junction x="43.18" y="149.86"/>
