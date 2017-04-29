@@ -14689,8 +14689,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value=".22"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value=".22"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$15" library="MRDT-ICs" deviceset="SI-8010Y" device=""/>
 <part name="GND41" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -14702,6 +14700,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND42" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="1uF"/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="2512" value=".22"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="2512" value=".22"/>
 </parts>
 <sheets>
 <sheet>
@@ -15317,9 +15317,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R16" gate="G$1" x="132.08" y="-76.2" rot="MR0"/>
 <instance part="GND21" gate="1" x="121.92" y="-71.12"/>
 <instance part="GND39" gate="1" x="25.4" y="0" rot="R90"/>
-<instance part="R24" gate="G$1" x="15.24" y="0"/>
-<instance part="R25" gate="G$1" x="121.92" y="0"/>
 <instance part="GND40" gate="1" x="132.08" y="0" rot="R90"/>
+<instance part="R28" gate="G$1" x="121.92" y="0"/>
+<instance part="R24" gate="G$1" x="15.24" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -15470,9 +15470,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R24" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="127" y1="0" x2="129.54" y2="0" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="12VMTR_PWR" class="0">
@@ -16226,7 +16226,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="MOT5_HB1" gate="G$1" pin="ISENSE"/>
 <wire x1="111.76" y1="0" x2="116.84" y2="0" width="0.1524" layer="91"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R28" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
