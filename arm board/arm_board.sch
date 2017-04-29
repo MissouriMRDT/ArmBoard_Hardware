@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10547,38 +10547,6 @@ TO-252 DPAK</description>
 </polygon>
 <wire x1="3" y1="5.72" x2="-3" y2="5.72" width="0.127" layer="21"/>
 </package>
-<package name="MSOP8">
-<description>&lt;b&gt;8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package&lt;/b&gt;&lt;p&gt;
-MSOP&lt;br&gt;
-8M-Package doc1097.pdf</description>
-<wire x1="-1.48" y1="1.23" x2="-1.23" y2="1.48" width="0.1524" layer="21" curve="-90" cap="flat"/>
-<wire x1="1.23" y1="1.48" x2="1.48" y2="1.23" width="0.1524" layer="21" curve="-90"/>
-<wire x1="1.23" y1="-1.49" x2="1.48" y2="-1.24" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.48" y1="-1.24" x2="-1.23" y2="-1.49" width="0.1524" layer="21" curve="90" cap="flat"/>
-<wire x1="1.24" y1="-1.49" x2="-1.22" y2="-1.49" width="0.1524" layer="21"/>
-<wire x1="-1.22" y1="1.48" x2="1.24" y2="1.48" width="0.1524" layer="21"/>
-<wire x1="-1.48" y1="1.23" x2="-1.48" y2="-1.23" width="0.1524" layer="21"/>
-<wire x1="1.48" y1="-1.24" x2="1.48" y2="1.23" width="0.1524" layer="21"/>
-<smd name="1" x="-0.975" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="2" x="-0.325" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="3" x="0.325" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="4" x="0.975" y="-2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="5" x="0.975" y="2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="6" x="0.325" y="2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="7" x="-0.325" y="2.25" dx="0.4" dy="1.1" layer="1"/>
-<smd name="8" x="-0.975" y="2.25" dx="0.4" dy="1.1" layer="1"/>
-<text x="-2.54" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.175" y1="-2.45" x2="-0.775" y2="-1.55" layer="51"/>
-<rectangle x1="-0.525" y1="-2.45" x2="-0.125" y2="-1.55" layer="51"/>
-<rectangle x1="0.125" y1="-2.45" x2="0.525" y2="-1.55" layer="51"/>
-<rectangle x1="0.775" y1="-2.45" x2="1.175" y2="-1.55" layer="51"/>
-<rectangle x1="0.775" y1="1.55" x2="1.175" y2="2.45" layer="51"/>
-<rectangle x1="0.125" y1="1.55" x2="0.525" y2="2.45" layer="51"/>
-<rectangle x1="-0.525" y1="1.55" x2="-0.125" y2="2.45" layer="51"/>
-<rectangle x1="-1.175" y1="1.55" x2="-0.775" y2="2.45" layer="51"/>
-<circle x="-1.6256" y="-2.0574" radius="0.091578125" width="0.4064" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -10617,25 +10585,6 @@ MSOP&lt;br&gt;
 <text x="1.27" y="11.43" size="1.4224" layer="95" align="center">D</text>
 <text x="1.27" y="3.556" size="1.4224" layer="95" align="center">S</text>
 </symbol>
-<symbol name="OP-AMP+-">
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-3.8862" width="0.1524" layer="94"/>
-<wire x1="0" y1="3.9116" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="0" x2="-2.54" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="7.62" y2="0" width="0.4064" layer="94"/>
-<text x="5.08" y="-5.715" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
-<text x="5.08" y="5.08" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
-<text x="1.27" y="5.715" size="0.8128" layer="93" rot="MR270">V+</text>
-<text x="1.27" y="-4.445" size="0.8128" layer="93" rot="MR270">V-</text>
-<pin name="+IN" x="-5.08" y="-2.54" visible="pad" length="short" direction="in"/>
-<pin name="-IN" x="-5.08" y="2.54" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<pin name="V+" x="0" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SUD15N15">
@@ -10649,26 +10598,6 @@ MSOP&lt;br&gt;
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OPA140">
-<description>single OPAMP package</description>
-<gates>
-<gate name="G$1" symbol="OP-AMP+-" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MSOP8">
-<connects>
-<connect gate="G$1" pin="+IN" pad="3"/>
-<connect gate="G$1" pin="-IN" pad="2"/>
-<connect gate="G$1" pin="OUT" pad="6"/>
-<connect gate="G$1" pin="V+" pad="7"/>
-<connect gate="G$1" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14592,14 +14521,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$1" library="MRDT-ICs" deviceset="ACS722LL" device="" value="ACS722LLCTR-40AU"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="2.2uF"/>
-<part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND25" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.2k"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#4"/>
 <part name="LOGO1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
@@ -14635,7 +14558,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-YELLOW" device="LILYPAD" value="Yellow"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="8.2K-5%" device="" value="330"/>
-<part name="U$12" library="MRDT-Semiconductors" deviceset="OPA140" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
@@ -16388,7 +16310,7 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="27.94" y="60.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AMP_RD" class="0">
+<net name="CURRENT_INPUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD3"/>
 <wire x1="22.86" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
@@ -16595,14 +16517,8 @@ the tiva has 2 3.3V pins and each need one</text>
 <instance part="GND22" gate="1" x="20.32" y="-43.18" rot="R180"/>
 <instance part="U$1" gate="G$1" x="2.54" y="-22.86"/>
 <instance part="GND23" gate="1" x="2.54" y="-35.56"/>
-<instance part="C9" gate="G$1" x="33.02" y="-15.24" rot="R90"/>
-<instance part="GND24" gate="1" x="38.1" y="-15.24" rot="R90"/>
-<instance part="GND25" gate="1" x="50.8" y="-45.72"/>
-<instance part="R1" gate="G$1" x="43.18" y="-35.56" rot="R270"/>
-<instance part="R2" gate="G$1" x="35.56" y="-27.94"/>
 <instance part="R5" gate="G$1" x="-35.56" y="-71.12" rot="R270"/>
 <instance part="GND26" gate="1" x="-35.56" y="-81.28"/>
-<instance part="R11" gate="G$1" x="76.2" y="-15.24" rot="R90"/>
 <instance part="U$3" gate="G$1" x="-149.86" y="12.7" rot="MR90"/>
 <instance part="U$4" gate="G$1" x="-149.86" y="-25.4" rot="MR90"/>
 <instance part="U$5" gate="G$1" x="-109.22" y="-5.08"/>
@@ -16610,7 +16526,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <instance part="GND29" gate="1" x="-129.54" y="-10.16" rot="R270"/>
 <instance part="GND30" gate="1" x="-129.54" y="-50.8" rot="R270"/>
 <instance part="FRAME4" gate="G$1" x="-210.82" y="-157.48"/>
-<instance part="U$12" gate="G$1" x="50.8" y="-25.4"/>
 <instance part="GND32" gate="1" x="-53.34" y="-17.78"/>
 <instance part="U$13" gate="G$1" x="-25.4" y="33.02"/>
 <instance part="C25" gate="G$1" x="-71.12" y="-96.52" rot="R180"/>
@@ -16674,19 +16589,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="GND23" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="GND24" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="50.8" y1="-43.18" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="-40.64" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-40.64" x2="50.8" y2="-40.64" width="0.1524" layer="91"/>
-<junction x="50.8" y="-40.64"/>
-<pinref part="U$12" gate="G$1" pin="V-"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -16787,27 +16689,13 @@ the tiva has 2 3.3V pins and each need one</text>
 </segment>
 <segment>
 <label x="27.94" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="27.94" y1="-15.24" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-7.62" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-27.94" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<junction x="27.94" y="-15.24"/>
+<wire x1="27.94" y1="-20.32" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-25.4" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-20.32" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-17.78" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="-7.62" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="-27.94" x2="30.48" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="-10.16" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-7.62" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="17.78" y1="-20.32" x2="27.94" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="-20.32"/>
 <pinref part="U$1" gate="G$1" pin="SEL"/>
 <wire x1="17.78" y1="-25.4" x2="27.94" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="27.94" y="-25.4"/>
-<pinref part="U$12" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="MAIN_PWR_SWITCH_CTL" class="0">
@@ -16870,36 +16758,12 @@ the tiva has 2 3.3V pins and each need one</text>
 <junction x="-5.08" y="76.2"/>
 </segment>
 </net>
-<net name="AMP_RD" class="0">
+<net name="CURRENT_INPUT" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIOUT"/>
 <wire x1="17.78" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-22.86" x2="20.32" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="20.32" y="-22.86"/>
 <label x="20.32" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="20.32" y1="-22.86" x2="45.72" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="-IN"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="-27.94" x2="43.18" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="-27.94" x2="45.72" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-30.48" x2="43.18" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$12" gate="G$1" pin="+IN"/>
-</segment>
-</net>
-<net name="MAIN_PWR_SWITCH_NFAULT" class="0">
-<segment>
-<wire x1="60.96" y1="-25.4" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
-<label x="81.28" y="-25.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="-25.4" x2="81.28" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="-20.32" x2="76.2" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="76.2" y="-25.4"/>
-<pinref part="U$12" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="$N3" class="0">
