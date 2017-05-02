@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="8.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16297,13 +16297,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="27.94" y="63.5" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN_PWR_SWITCH_NFAULT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PE5"/>
-<wire x1="22.86" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="27.94" y="60.96" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="CURRENT_INPUT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD3"/>
@@ -16439,20 +16432,6 @@ the tiva has 2 3.3V pins and each need one</text>
 <label x="-17.78" y="88.9" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="LS5_SIG" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC7"/>
-<wire x1="-12.7" y1="96.52" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
-<label x="-17.78" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="LS4_SIG" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB3"/>
-<wire x1="22.86" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="27.94" y="104.14" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="LS3_SIG" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD7"/>
@@ -16462,9 +16441,9 @@ the tiva has 2 3.3V pins and each need one</text>
 </net>
 <net name="LS2_SIG" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PM5"/>
-<wire x1="-12.7" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
-<label x="-17.78" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB3"/>
+<wire x1="22.86" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
+<label x="27.94" y="104.14" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LS1_SIG" class="0">
@@ -16476,9 +16455,9 @@ the tiva has 2 3.3V pins and each need one</text>
 </net>
 <net name="LS6_SIG" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB2"/>
-<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC7"/>
+<wire x1="-12.7" y1="96.52" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
+<label x="-17.78" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENC2_PWM_OUT" class="0">
@@ -16486,6 +16465,20 @@ the tiva has 2 3.3V pins and each need one</text>
 <pinref part="U1" gate="G$1" pin="PD2"/>
 <wire x1="22.86" y1="88.9" x2="27.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="27.94" y="88.9" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LS5_SIG" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="22.86" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="27.94" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LS4_SIG" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM5"/>
+<wire x1="-12.7" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
+<label x="-17.78" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
