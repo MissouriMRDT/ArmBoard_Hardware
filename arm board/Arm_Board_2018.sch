@@ -22974,7 +22974,7 @@ Signals</text>
 <wire x1="393.7" y1="116.84" x2="401.32" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="LOGIC_3.3V" class="0">
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <wire x1="187.96" y1="266.7" x2="187.96" y2="261.62" width="0.1524" layer="91"/>
