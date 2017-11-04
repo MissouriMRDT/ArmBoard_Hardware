@@ -20214,14 +20214,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$10" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="J4" library="MRDT-Connectors" deviceset="SL02" device=""/>
-<part name="J5" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J6" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J7" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J9" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J10" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J11" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J12" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="J13" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR2" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR3" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR4" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR7" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR6" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR5" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR8" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
+<part name="MOTOR1" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
 <part name="J14" library="MRDT-Connectors" deviceset="SL02" device=""/>
 <part name="J15" library="MRDT-Connectors" deviceset="SL02" device=""/>
 <part name="J16" library="MRDT-Connectors" deviceset="SL02" device=""/>
@@ -21600,22 +21600,22 @@ Signals</text>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="173.99" y="0"/>
 <instance part="J4" gate="G$1" x="33.02" y="200.66" rot="R270"/>
-<instance part="J5" gate="GND" x="124.46" y="137.16" smashed="yes"/>
-<instance part="J5" gate="VCC" x="124.46" y="132.08" smashed="yes"/>
-<instance part="J6" gate="GND" x="124.46" y="121.92" smashed="yes"/>
-<instance part="J6" gate="VCC" x="124.46" y="116.84" smashed="yes"/>
-<instance part="J7" gate="GND" x="124.46" y="106.68" smashed="yes"/>
-<instance part="J7" gate="VCC" x="124.46" y="101.6" smashed="yes"/>
-<instance part="J9" gate="GND" x="172.72" y="137.16" smashed="yes"/>
-<instance part="J9" gate="VCC" x="172.72" y="132.08" smashed="yes"/>
-<instance part="J10" gate="GND" x="172.72" y="121.92" smashed="yes"/>
-<instance part="J10" gate="VCC" x="172.72" y="116.84" smashed="yes"/>
-<instance part="J11" gate="GND" x="172.72" y="106.68" smashed="yes"/>
-<instance part="J11" gate="VCC" x="172.72" y="101.6" smashed="yes"/>
-<instance part="J12" gate="GND" x="172.72" y="152.4" smashed="yes"/>
-<instance part="J12" gate="VCC" x="172.72" y="147.32" smashed="yes"/>
-<instance part="J13" gate="GND" x="124.46" y="152.4" smashed="yes"/>
-<instance part="J13" gate="VCC" x="124.46" y="147.32" smashed="yes"/>
+<instance part="MOTOR2" gate="GND" x="124.46" y="137.16" smashed="yes"/>
+<instance part="MOTOR2" gate="VCC" x="124.46" y="132.08" smashed="yes"/>
+<instance part="MOTOR3" gate="GND" x="124.46" y="121.92" smashed="yes"/>
+<instance part="MOTOR3" gate="VCC" x="124.46" y="116.84" smashed="yes"/>
+<instance part="MOTOR4" gate="GND" x="124.46" y="106.68" smashed="yes"/>
+<instance part="MOTOR4" gate="VCC" x="124.46" y="101.6" smashed="yes"/>
+<instance part="MOTOR7" gate="GND" x="172.72" y="137.16" smashed="yes"/>
+<instance part="MOTOR7" gate="VCC" x="172.72" y="132.08" smashed="yes"/>
+<instance part="MOTOR6" gate="GND" x="172.72" y="121.92" smashed="yes"/>
+<instance part="MOTOR6" gate="VCC" x="172.72" y="116.84" smashed="yes"/>
+<instance part="MOTOR5" gate="GND" x="172.72" y="106.68" smashed="yes"/>
+<instance part="MOTOR5" gate="VCC" x="172.72" y="101.6" smashed="yes"/>
+<instance part="MOTOR8" gate="GND" x="172.72" y="152.4" smashed="yes"/>
+<instance part="MOTOR8" gate="VCC" x="172.72" y="147.32" smashed="yes"/>
+<instance part="MOTOR1" gate="GND" x="124.46" y="152.4" smashed="yes"/>
+<instance part="MOTOR1" gate="VCC" x="124.46" y="147.32" smashed="yes"/>
 <instance part="J14" gate="G$1" x="30.48" y="139.7" rot="R270"/>
 <instance part="J15" gate="G$1" x="48.26" y="139.7" rot="R270"/>
 <instance part="J16" gate="G$1" x="66.04" y="139.7" rot="R270"/>
@@ -21871,56 +21871,56 @@ Signals</text>
 </net>
 <net name="MOTOR1_2" class="0">
 <segment>
-<pinref part="J13" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR1" gate="VCC" pin="P$1"/>
 <wire x1="116.84" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
 <label x="114.3" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR2_2" class="0">
 <segment>
-<pinref part="J5" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR2" gate="VCC" pin="P$1"/>
 <wire x1="116.84" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="114.3" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR3_2" class="0">
 <segment>
-<pinref part="J6" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR3" gate="VCC" pin="P$1"/>
 <wire x1="116.84" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 <label x="114.3" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR4_2" class="0">
 <segment>
-<pinref part="J7" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR4" gate="VCC" pin="P$1"/>
 <wire x1="116.84" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="114.3" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR5_2" class="0">
 <segment>
-<pinref part="J11" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR5" gate="VCC" pin="P$1"/>
 <wire x1="165.1" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <label x="162.56" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR6_2" class="0">
 <segment>
-<pinref part="J10" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR6" gate="VCC" pin="P$1"/>
 <wire x1="165.1" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
 <label x="162.56" y="116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR7_2" class="0">
 <segment>
-<pinref part="J9" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR7" gate="VCC" pin="P$1"/>
 <wire x1="165.1" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <label x="162.56" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR8_2" class="0">
 <segment>
-<pinref part="J12" gate="VCC" pin="P$1"/>
+<pinref part="MOTOR8" gate="VCC" pin="P$1"/>
 <wire x1="165.1" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
 <label x="162.56" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -21951,56 +21951,56 @@ Signals</text>
 </net>
 <net name="MOTOR1_1" class="0">
 <segment>
-<pinref part="J13" gate="GND" pin="P$1"/>
+<pinref part="MOTOR1" gate="GND" pin="P$1"/>
 <wire x1="116.84" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <label x="114.3" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR2_1" class="0">
 <segment>
-<pinref part="J5" gate="GND" pin="P$1"/>
+<pinref part="MOTOR2" gate="GND" pin="P$1"/>
 <wire x1="116.84" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="114.3" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR3_1" class="0">
 <segment>
-<pinref part="J6" gate="GND" pin="P$1"/>
+<pinref part="MOTOR3" gate="GND" pin="P$1"/>
 <wire x1="116.84" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <label x="114.3" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR4_1" class="0">
 <segment>
-<pinref part="J7" gate="GND" pin="P$1"/>
+<pinref part="MOTOR4" gate="GND" pin="P$1"/>
 <wire x1="116.84" y1="106.68" x2="114.3" y2="106.68" width="0.1524" layer="91"/>
 <label x="114.3" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR5_1" class="0">
 <segment>
-<pinref part="J11" gate="GND" pin="P$1"/>
+<pinref part="MOTOR5" gate="GND" pin="P$1"/>
 <wire x1="165.1" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
 <label x="162.56" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR6_1" class="0">
 <segment>
-<pinref part="J10" gate="GND" pin="P$1"/>
+<pinref part="MOTOR6" gate="GND" pin="P$1"/>
 <wire x1="165.1" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
 <label x="162.56" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR7_1" class="0">
 <segment>
-<pinref part="J9" gate="GND" pin="P$1"/>
+<pinref part="MOTOR7" gate="GND" pin="P$1"/>
 <wire x1="165.1" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="162.56" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR8_1" class="0">
 <segment>
-<pinref part="J12" gate="GND" pin="P$1"/>
+<pinref part="MOTOR8" gate="GND" pin="P$1"/>
 <wire x1="165.1" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
 <label x="162.56" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
