@@ -10935,11 +10935,12 @@ design rules under a new name.</description>
 <wire x1="151.638" y1="23.114" x2="151.384" y2="23.114" width="1.8288" layer="1"/>
 <wire x1="151.638" y1="23.114" x2="152.654" y2="22.098" width="1.8288" layer="2"/>
 <wire x1="142.494" y1="21.37" x2="142.46" y2="21.336" width="1.8288" layer="1"/>
-<wire x1="142.494" y1="22.352" x2="142.46" y2="22.318" width="1.8288" layer="1"/>
+<wire x1="142.46" y1="22.318" x2="142.494" y2="22.352" width="1.8288" layer="1"/>
 <wire x1="142.46" y1="22.318" x2="142.46" y2="20.686" width="1.8288" layer="1"/>
 <wire x1="151.384" y1="23.114" x2="143.002" y2="23.114" width="1.8288" layer="2"/>
 <wire x1="151.384" y1="23.114" x2="151.638" y2="23.114" width="1.8288" layer="2"/>
-<wire x1="142.494" y1="22.352" x2="142.46" y2="22.572" width="0" layer="19" extent="1-1"/>
+<wire x1="142.494" y1="22.352" x2="142.494" y2="22.538" width="0.2032" layer="1"/>
+<wire x1="142.494" y1="22.538" x2="142.46" y2="22.572" width="0.2032" layer="1"/>
 </signal>
 <signal name="MOTOR8_2">
 <contactref element="MOTOR8" pad="C1"/>
@@ -11048,22 +11049,6 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="5.08" y1="70.104" x2="5.08" y2="24.384" width="1.8288" layer="1"/>
 <wire x1="5.08" y1="24.384" x2="6.604" y2="22.86" width="1.8288" layer="1"/>
-<polygon width="0.2032" layer="16">
-<vertex x="1.016" y="26.416"/>
-<vertex x="31.496" y="26.416"/>
-<vertex x="31.496" y="23.114"/>
-<vertex x="36.83" y="23.114"/>
-<vertex x="36.83" y="1.016"/>
-<vertex x="1.016" y="1.016"/>
-</polygon>
-<polygon width="0.2032" layer="15">
-<vertex x="1.016" y="26.416"/>
-<vertex x="31.496" y="26.416"/>
-<vertex x="31.496" y="23.114"/>
-<vertex x="36.83" y="23.114"/>
-<vertex x="36.83" y="1.016"/>
-<vertex x="1.016" y="1.016"/>
-</polygon>
 </signal>
 <signal name="MOTOR1_1">
 <contactref element="MOTOR1" pad="C2"/>
@@ -11584,22 +11569,6 @@ design rules under a new name.</description>
 <wire x1="60.392" y1="31.115" x2="57.91451875" y2="31.115" width="0.6096" layer="1"/>
 <wire x1="54.102" y1="28.575" x2="54.102" y2="23.114" width="0.6096" layer="1"/>
 <wire x1="54.102" y1="23.114" x2="53.34" y2="22.352" width="0.6096" layer="1"/>
-<polygon width="0.2032" layer="15">
-<vertex x="37.846" y="23.114"/>
-<vertex x="46.482" y="23.114"/>
-<vertex x="46.482" y="26.924"/>
-<vertex x="57.658" y="26.924"/>
-<vertex x="57.658" y="1.016"/>
-<vertex x="37.846" y="1.016"/>
-</polygon>
-<polygon width="0.2032" layer="16">
-<vertex x="37.846" y="23.114"/>
-<vertex x="46.482" y="23.114"/>
-<vertex x="46.482" y="26.924"/>
-<vertex x="57.658" y="26.924"/>
-<vertex x="57.658" y="1.016"/>
-<vertex x="37.846" y="1.016"/>
-</polygon>
 </signal>
 <signal name="12VMOTOR_POWER">
 <contactref element="Q1" pad="2"/>
@@ -11854,16 +11823,6 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="163.79349375" y1="11.2125" x2="165.35399375" y2="9.652" width="1.8288" layer="2"/>
 <wire x1="163.79349375" y1="17.71541875" x2="163.79349375" y2="11.2125" width="1.8288" layer="2"/>
-<polygon width="0.2032" layer="15">
-<vertex x="59.944" y="26.416"/>
-<vertex x="59.944" y="21.59"/>
-<vertex x="66.802" y="21.59"/>
-<vertex x="66.802" y="16.764"/>
-<vertex x="58.928" y="16.764"/>
-<vertex x="58.928" y="1.016"/>
-<vertex x="135.382" y="1.016"/>
-<vertex x="135.382" y="26.416"/>
-</polygon>
 </signal>
 <signal name="MOTOR1_POWER">
 <contactref element="MOTOR1_CURRENT" pad="3"/>
