@@ -8811,8 +8811,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="53.467" y="97.9805" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="53.7845" y="95.4405" size="1.27" layer="27"/>
 </element>
-<element name="LED3" library="led" package="CHIP-LED0603" value="ORANGE" x="54.4195" y="99.568" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.467" y="100.203" size="0.8128" layer="25"/>
+<element name="3.3V" library="led" package="CHIP-LED0603" value="ORANGE" x="54.4195" y="99.568" smashed="yes" rot="R270">
+<attribute name="NAME" x="53.213" y="100.203" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="53.7845" y="97.663" size="1.27" layer="27"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="49.9" x="38.5445" y="88.773" smashed="yes">
@@ -9302,6 +9302,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.336" y="43.688" size="1.27" layer="25"/>
 <attribute name="VALUE" x="35.56" y="35.56" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="U$5" library="MRDT-Hardware" package="#6_SCREW" value="MOUNTING_HOLE#6" x="19.05" y="4.572" smashed="yes"/>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -9656,8 +9657,8 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="43.7134" y="34.29"/>
 <vertex x="43.7134" y="31.6738"/>
-<vertex x="41.402" y="31.6738"/>
-<vertex x="41.402" y="34.29"/>
+<vertex x="41.4274" y="31.6738"/>
+<vertex x="41.4274" y="34.29"/>
 </polygon>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="47.5742" y="45.0596"/>
@@ -10391,7 +10392,7 @@ design rules under a new name.</description>
 <wire x1="38.442" y1="75.878" x2="37.592" y2="76.728" width="0.2032" layer="1"/>
 </signal>
 <signal name="N_$26">
-<contactref element="LED3" pad="C"/>
+<contactref element="3.3V" pad="C"/>
 <contactref element="R19" pad="1"/>
 <wire x1="55.1695" y1="99.568" x2="57.062" y2="99.568" width="0.2032" layer="1"/>
 </signal>
@@ -10631,7 +10632,7 @@ design rules under a new name.</description>
 <wire x1="66.968" y1="94.234" x2="64.516" y2="94.234" width="0.2032" layer="1"/>
 <wire x1="64.516" y1="94.234" x2="64.262" y2="93.98" width="0.2032" layer="1"/>
 <contactref element="R17" pad="1"/>
-<contactref element="LED3" pad="A"/>
+<contactref element="3.3V" pad="A"/>
 <contactref element="J2" pad="P1"/>
 <contactref element="U2" pad="P$2"/>
 <contactref element="C1" pad="1"/>
@@ -11280,8 +11281,8 @@ design rules under a new name.</description>
 <contactref element="MOTOR1_HB" pad="3"/>
 <contactref element="MOTOR1_HB" pad="35"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="41.1226" y="34.29"/>
-<vertex x="41.1226" y="32.6898"/>
+<vertex x="41.0972" y="34.29"/>
+<vertex x="41.0972" y="32.6898"/>
 <vertex x="38.8112" y="32.6898"/>
 <vertex x="38.8112" y="34.29"/>
 </polygon>
@@ -12110,8 +12111,8 @@ design rules under a new name.</description>
 <polygon width="0.1524" layer="1" thermals="no">
 <vertex x="43.7642" y="44.0182"/>
 <vertex x="43.7642" y="42.418"/>
-<vertex x="41.4528" y="42.418"/>
-<vertex x="41.4528" y="44.0182"/>
+<vertex x="41.4782" y="42.418"/>
+<vertex x="41.4782" y="44.0182"/>
 </polygon>
 <via x="78.172" y="29.15" extent="1-2" drill="0.35"/>
 <wire x1="62.23" y1="40.489840625" x2="62.23" y2="41.148" width="1.2192" layer="1"/>

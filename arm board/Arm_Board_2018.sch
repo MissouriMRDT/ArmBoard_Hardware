@@ -20220,7 +20220,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
 <part name="J2" library="MRDT-Connectors" deviceset="JTAG_ARM_10PIN" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0603" value="ORANGE"/>
+<part name="3.3V" library="led" deviceset="LED" device="CHIP-LED0603" value="ORANGE"/>
 <part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="330"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6"/>
@@ -20508,7 +20508,7 @@ Signals</text>
 <instance part="U$1" gate="G$1" x="393.7" y="63.5"/>
 <instance part="J2" gate="G$1" x="360.68" y="121.92"/>
 <instance part="GND18" gate="1" x="345.44" y="104.14"/>
-<instance part="LED3" gate="G$1" x="276.86" y="60.96" rot="R90"/>
+<instance part="3.3V" gate="G$1" x="276.86" y="60.96" rot="R90"/>
 <instance part="R19" gate="G$1" x="297.18" y="60.96"/>
 <instance part="GND19" gate="1" x="307.34" y="53.34"/>
 <instance part="U$2" gate="G$1" x="347.98" y="63.5"/>
@@ -21130,7 +21130,7 @@ Signals</text>
 </net>
 <net name="N_$26" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="3.3V" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="60.96" x2="292.1" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -21565,7 +21565,7 @@ Signals</text>
 <segment>
 <wire x1="274.32" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="60.96" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="3.3V" gate="G$1" pin="A"/>
 <label x="266.7" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
