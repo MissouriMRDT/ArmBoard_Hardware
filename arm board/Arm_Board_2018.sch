@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20151,7 +20151,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="2" name="Ethernet" width="0.22" drill="0">
 <clearance class="2" value="0.1524"/>
 </class>
-<class number="3" name="Power Trace" width="2.286" drill="0">
+<class number="3" name="Power Trace" width="1.8288" drill="0">
 <clearance class="3" value="0.4064"/>
 </class>
 </classes>
