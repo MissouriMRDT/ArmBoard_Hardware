@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
@@ -5459,7 +5460,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="PWM_DRIVER" library="adafruit" deviceset="PCA9685" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="GND26" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="OE_PULLUP" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10K"/>
 <part name="SDA_PULLUP" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1K"/>
 <part name="SCL_PULLUP" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="1K"/>
 <part name="U8" library="MRDT-ICs" deviceset="ACS722" device=""/>
@@ -5586,6 +5586,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5595,10 +5597,341 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="G$1" x="182.88" y="114.3"/>
+<instance part="GND18" gate="1" x="223.52" y="223.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="MAINLINE_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK3"/>
+<wire x1="177.8" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
+<label x="172.72" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR1_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK2"/>
+<wire x1="177.8" y1="170.18" x2="172.72" y2="170.18" width="0.1524" layer="91"/>
+<label x="172.72" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR3_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK0"/>
+<wire x1="177.8" y1="175.26" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
+<label x="172.72" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR2_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK1"/>
+<wire x1="177.8" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
+<label x="172.72" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR6_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE0"/>
+<wire x1="213.36" y1="180.34" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
+<label x="218.44" y="180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR5_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE1"/>
+<wire x1="213.36" y1="177.8" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
+<label x="218.44" y="177.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR4_CURRENT_SENSOR" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE2"/>
+<wire x1="213.36" y1="175.26" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
+<label x="218.44" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MASTER_POWER_ENABLE" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PQ1"/>
+<wire x1="213.36" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<label x="218.44" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR1_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PQ2/PA3"/>
+<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<label x="218.44" y="119.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR1_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PQ3/PA2"/>
+<wire x1="213.36" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
+<label x="218.44" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR2_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK4"/>
+<wire x1="177.8" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
+<label x="172.72" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR2_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PK5"/>
+<wire x1="177.8" y1="162.56" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
+<label x="172.72" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_DRIVER_SDA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PN4"/>
+<wire x1="213.36" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="218.44" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PWM_DRIVER_SCL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PN5"/>
+<wire x1="213.36" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
+<label x="218.44" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR6_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PF1"/>
+<wire x1="177.8" y1="198.12" x2="172.72" y2="198.12" width="0.1524" layer="91"/>
+<label x="172.72" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR6_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PF2"/>
+<wire x1="177.8" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
+<label x="172.72" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR7_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PH2"/>
+<wire x1="177.8" y1="182.88" x2="172.72" y2="182.88" width="0.1524" layer="91"/>
+<label x="172.72" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR7_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PH3"/>
+<wire x1="177.8" y1="180.34" x2="172.72" y2="180.34" width="0.1524" layer="91"/>
+<label x="172.72" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR8_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD1"/>
+<wire x1="213.36" y1="198.12" x2="218.44" y2="198.12" width="0.1524" layer="91"/>
+<label x="218.44" y="198.12" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR3_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC4"/>
+<wire x1="177.8" y1="210.82" x2="172.72" y2="210.82" width="0.1524" layer="91"/>
+<label x="172.72" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR3_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC5"/>
+<wire x1="177.8" y1="208.28" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
+<label x="172.72" y="208.28" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR4_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC6"/>
+<wire x1="177.8" y1="205.74" x2="172.72" y2="205.74" width="0.1524" layer="91"/>
+<label x="172.72" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR5_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM5"/>
+<wire x1="177.8" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<label x="172.72" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="213.36" y1="223.52" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LOGIC_3.3V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="+3V3"/>
+<wire x1="213.36" y1="226.06" x2="223.52" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="226.06" x2="223.52" y2="231.14" width="0.1524" layer="91"/>
+<label x="223.52" y="231.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_6" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="213.36" y1="213.36" x2="218.44" y2="213.36" width="0.1524" layer="91"/>
+<label x="218.44" y="213.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_5" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM4"/>
+<wire x1="177.8" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="172.72" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA6"/>
+<wire x1="177.8" y1="218.44" x2="172.72" y2="218.44" width="0.1524" layer="91"/>
+<label x="172.72" y="218.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA4"/>
+<wire x1="177.8" y1="223.52" x2="172.72" y2="223.52" width="0.1524" layer="91"/>
+<label x="172.72" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD2"/>
+<wire x1="213.36" y1="195.58" x2="218.44" y2="195.58" width="0.1524" layer="91"/>
+<label x="218.44" y="195.58" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENCODER_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PL4"/>
+<wire x1="213.36" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
+<label x="218.44" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIMIT_SWITCH_3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD3"/>
+<wire x1="213.36" y1="193.04" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
+<label x="218.44" y="193.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIMIT_SWITCH_1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB3"/>
+<wire x1="218.44" y1="210.82" x2="213.36" y2="210.82" width="0.1524" layer="91"/>
+<label x="218.44" y="210.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED6" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PP4"/>
+<wire x1="177.8" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LED5" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PQ0"/>
+<wire x1="213.36" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<label x="218.44" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED4" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD5"/>
+<wire x1="213.36" y1="187.96" x2="218.44" y2="187.96" width="0.1524" layer="91"/>
+<label x="218.44" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD4"/>
+<wire x1="213.36" y1="190.5" x2="218.44" y2="190.5" width="0.1524" layer="91"/>
+<label x="218.44" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB4"/>
+<wire x1="213.36" y1="208.28" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
+<label x="218.44" y="208.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB5"/>
+<wire x1="213.36" y1="205.74" x2="218.44" y2="205.74" width="0.1524" layer="91"/>
+<label x="218.44" y="205.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BUTTON2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM1"/>
+<wire x1="177.8" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
+<label x="172.72" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BUTTON3" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM0"/>
+<wire x1="177.8" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
+<label x="172.72" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SWITCH" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PH0"/>
+<wire x1="177.8" y1="187.96" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
+<label x="172.72" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR4_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE5"/>
+<wire x1="213.36" y1="167.64" x2="218.44" y2="167.64" width="0.1524" layer="91"/>
+<label x="218.44" y="167.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR5_INA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PE3"/>
+<wire x1="213.36" y1="172.72" x2="218.44" y2="172.72" width="0.1524" layer="91"/>
+<label x="218.44" y="172.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIMIT_SWITCH_2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC7"/>
+<wire x1="177.8" y1="203.2" x2="172.72" y2="203.2" width="0.1524" layer="91"/>
+<label x="172.72" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR8_INB" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PD0"/>
+<wire x1="213.36" y1="200.66" x2="218.44" y2="200.66" width="0.1524" layer="91"/>
+<label x="218.44" y="200.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BUTTON1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PM2"/>
+<wire x1="177.8" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<label x="172.72" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6258,7 +6591,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="PWM_DRIVER" gate="G$1" x="86.36" y="78.74"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="GND26" gate="1" x="63.5" y="53.34"/>
-<instance part="OE_PULLUP" gate="G$1" x="53.34" y="78.74"/>
 <instance part="SDA_PULLUP" gate="G$1" x="48.26" y="91.44"/>
 <instance part="SCL_PULLUP" gate="G$1" x="48.26" y="83.82"/>
 <instance part="MOT1_HB" gate="G$1" x="50.8" y="228.6"/>
@@ -6461,6 +6793,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="GND14" gate="1" x="154.94" y="246.38" rot="R90"/>
 <instance part="GND15" gate="1" x="60.96" y="246.38" rot="R90"/>
 <instance part="GND16" gate="1" x="60.96" y="180.34" rot="R90"/>
+<instance part="GND17" gate="1" x="45.72" y="78.74" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6664,6 +6997,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="PWM_DRIVER" gate="G$1" pin="#OE"/>
+<wire x1="66.04" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="81.28" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="58.42" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MOTOR5_PWM" class="0">
 <segment>
@@ -6711,11 +7051,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="SCL_PULLUP" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="83.82" x2="33.02" y2="83.82" width="0.1524" layer="91"/>
 <label x="33.02" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="OE_PULLUP" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<label x="33.02" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SDA_PULLUP" gate="G$1" pin="1"/>
@@ -6878,17 +7213,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="R68" gate="G$1" pin="2"/>
 <wire x1="299.72" y1="163.83" x2="302.26" y2="163.83" width="0.1524" layer="91"/>
 <label x="299.72" y="163.83" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PWM_OUTPUT_ENABLE" class="0">
-<segment>
-<pinref part="PWM_DRIVER" gate="G$1" pin="#OE"/>
-<pinref part="OE_PULLUP" gate="G$1" pin="2"/>
-<label x="33.02" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="33.02" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="81.28" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-<junction x="58.42" y="81.28"/>
 </segment>
 </net>
 <net name="MOTOR1_2" class="3">
@@ -7585,23 +7909,21 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="144.78" y="180.34"/>
 </segment>
 </net>
-<net name="MOTOR7_POWER" class="0">
+<net name="MOTOR3_1" class="3">
 <segment>
-<pinref part="MOT7_HB" gate="G$1" pin="VCC"/>
-<wire x1="233.68" y1="177.8" x2="233.68" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="MOT7_HB" gate="G$1" pin="VBAT"/>
-<wire x1="233.68" y1="182.88" x2="234.95" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="182.88" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
-<label x="234.95" y="186.69" size="1.27" layer="95" xref="yes"/>
-<wire x1="236.22" y1="180.34" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="182.88" x2="234.95" y2="186.69" width="0.1524" layer="91"/>
-<junction x="234.95" y="182.88"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<junction x="236.22" y="180.34"/>
+<pinref part="MOT3_HB" gate="G$1" pin="OUTB"/>
+<wire x1="254" y1="233.68" x2="259.08" y2="233.68" width="0.1524" layer="91"/>
+<label x="259.08" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MOTOR8_POWER" class="0">
+<net name="MOTOR5_1" class="3">
+<segment>
+<pinref part="MOT5_HB" gate="G$1" pin="OUTB"/>
+<wire x1="68.58" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<label x="73.66" y="167.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="12VMOTOR_POWER" class="3">
 <segment>
 <pinref part="MOT8_HB" gate="G$1" pin="VCC"/>
 <wire x1="330.2" y1="177.8" x2="330.2" y2="182.88" width="0.1524" layer="91"/>
@@ -7616,19 +7938,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 <junction x="332.74" y="180.34"/>
 </segment>
-</net>
-<net name="MOTOR3_1" class="3">
 <segment>
-<pinref part="MOT3_HB" gate="G$1" pin="OUTB"/>
-<wire x1="254" y1="233.68" x2="259.08" y2="233.68" width="0.1524" layer="91"/>
-<label x="259.08" y="233.68" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR5_1" class="3">
-<segment>
-<pinref part="MOT5_HB" gate="G$1" pin="OUTB"/>
-<wire x1="68.58" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
-<label x="73.66" y="167.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="MOT7_HB" gate="G$1" pin="VCC"/>
+<wire x1="233.68" y1="177.8" x2="233.68" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="MOT7_HB" gate="G$1" pin="VBAT"/>
+<wire x1="233.68" y1="182.88" x2="234.95" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="182.88" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
+<label x="234.95" y="186.69" size="1.27" layer="95" xref="yes"/>
+<wire x1="236.22" y1="180.34" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="182.88" x2="234.95" y2="186.69" width="0.1524" layer="91"/>
+<junction x="234.95" y="182.88"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<junction x="236.22" y="180.34"/>
 </segment>
 </net>
 </nets>
@@ -8217,7 +8539,7 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, Eagle supports online libraries. The ids
+Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
