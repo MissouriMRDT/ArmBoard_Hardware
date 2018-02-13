@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5052,40 +5051,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.2" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
 <rectangle x1="1.1" y1="-1.6" x2="2.2" y2="1.6" layer="51"/>
 </package>
-<package name="0603-CAP">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.027940625" x2="0" y2="-0.027940625" width="0.381" layer="21"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="0402-CAP">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
-<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="CAP-PTH-5MM">
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="-2.5" y="0" drill="0.7" diameter="1.651"/>
@@ -5209,6 +5174,40 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <circle x="2.54" y="0" radius="0.915809375" width="0" layer="30"/>
 <circle x="0" y="0" radius="0.40160625" width="0" layer="29"/>
 <circle x="2.54" y="0" radius="0.40160625" width="0" layer="29"/>
+</package>
+<package name="0603-CAP">
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402-CAP">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -10874,12 +10873,12 @@ Most frame-mounted PCB's - M8</description>
 <part name="S3" library="MRDT-UserInput" deviceset="PUSHBUTTON" device="VERT"/>
 <part name="S4" library="MRDT-UserInput" deviceset="PUSHBUTTON" device="VERT"/>
 <part name="S5" library="MRDT-UserInput" deviceset="SWITCH-SPDT" device="VERT"/>
-<part name="ENCODER4" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
-<part name="ENCODER1" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
-<part name="ENCODER2" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
-<part name="ENCODER5" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
-<part name="ENCODER6" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
-<part name="ENCODER3" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC4" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC1" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC2" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC5" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC6" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
+<part name="ENC3" library="MRDT-Connectors" deviceset="ENCODER" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FAN" library="MRDT-Connectors" deviceset="SL02" device=""/>
 <part name="MOTOR2" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
@@ -10890,9 +10889,9 @@ Most frame-mounted PCB's - M8</description>
 <part name="MOTOR5" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
 <part name="MOTOR8" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
 <part name="MOTOR1" library="MRDT-Connectors" deviceset="APP_2POS_CONFIG" device="GENERAL_CONFIG"/>
-<part name="LIMIT_SWITCH_1" library="MRDT-Connectors" deviceset="SL02" device=""/>
-<part name="LIMIT_SWITCH_2" library="MRDT-Connectors" deviceset="SL02" device=""/>
-<part name="LIMIT_SWITCH_3" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="LIMIT_1" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="LIMIT_2" library="MRDT-Connectors" deviceset="SL02" device=""/>
+<part name="LIMIT_3" library="MRDT-Connectors" deviceset="SL02" device=""/>
 <part name="TRANSISTOR_DRIVER" library="MRDT-2015-PowerBoard" deviceset="LT1910" device=""/>
 <part name="D1" library="MRDT-EAGLE-Training" deviceset="LED" device="0603" value="J1"/>
 <part name="D2" library="MRDT-EAGLE-Training" deviceset="LED" device="0603" value="J2"/>
@@ -10943,7 +10942,6 @@ Most frame-mounted PCB's - M8</description>
 <part name="R54" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="GND69" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C61" library="SparkFun-Passives" deviceset="CAP" device="1206" value="2.2uF"/>
-<part name="C62" library="SparkFun-Passives" deviceset="CAP" device="1206" value="2.2uF"/>
 <part name="GND89" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="MAINLINE_CURRENT" library="MRDT-ICs" deviceset="ACS781" device=""/>
 <part name="C74" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -11062,14 +11060,14 @@ Most frame-mounted PCB's - M8</description>
 <part name="R68" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="R69" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
 <part name="R70" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="1K"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="1210"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11082,10 +11080,13 @@ Most frame-mounted PCB's - M8</description>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="H1" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6"/>
 <part name="LOGO1" library="MRDT-Hardware" deviceset="MRDT_LOGO" device=""/>
+<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100uF"/>
+<part name="H2" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6"/>
+<part name="H3" library="MRDT-Hardware" deviceset="MOUNTING_HOLE" device="#6"/>
 </parts>
 <sheets>
 <sheet>
-<description>Tiva C TM4C1294NCPDT</description>
+<description>Tiva C + Misc</description>
 <plain>
 </plain>
 <instances>
@@ -11094,6 +11095,8 @@ Most frame-mounted PCB's - M8</description>
 <instance part="GND18" gate="1" x="223.52" y="223.52" rot="R90"/>
 <instance part="H1" gate="G$1" x="167.64" y="83.82"/>
 <instance part="LOGO1" gate="G$1" x="187.96" y="83.82"/>
+<instance part="H2" gate="G$1" x="167.64" y="88.9"/>
+<instance part="H3" gate="G$1" x="167.64" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -11458,12 +11461,12 @@ Most frame-mounted PCB's - M8</description>
 <instance part="S3" gate="G$1" x="45.72" y="48.26"/>
 <instance part="S4" gate="G$1" x="45.72" y="33.02"/>
 <instance part="S5" gate="G$1" x="45.72" y="15.24"/>
-<instance part="ENCODER4" gate="G$1" x="134.62" y="48.26"/>
-<instance part="ENCODER1" gate="G$1" x="134.62" y="68.58"/>
-<instance part="ENCODER2" gate="G$1" x="187.96" y="68.58"/>
-<instance part="ENCODER5" gate="G$1" x="187.96" y="48.26"/>
-<instance part="ENCODER6" gate="G$1" x="241.3" y="48.26"/>
-<instance part="ENCODER3" gate="G$1" x="241.3" y="68.58"/>
+<instance part="ENC4" gate="G$1" x="134.62" y="48.26"/>
+<instance part="ENC1" gate="G$1" x="134.62" y="68.58"/>
+<instance part="ENC2" gate="G$1" x="187.96" y="68.58"/>
+<instance part="ENC5" gate="G$1" x="187.96" y="48.26"/>
+<instance part="ENC6" gate="G$1" x="241.3" y="48.26"/>
+<instance part="ENC3" gate="G$1" x="241.3" y="68.58"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="173.99" y="0"/>
 <instance part="FAN" gate="G$1" x="33.02" y="200.66" rot="R270"/>
@@ -11483,9 +11486,9 @@ Most frame-mounted PCB's - M8</description>
 <instance part="MOTOR8" gate="VCC" x="172.72" y="147.32" smashed="yes"/>
 <instance part="MOTOR1" gate="GND" x="124.46" y="152.4" smashed="yes"/>
 <instance part="MOTOR1" gate="VCC" x="124.46" y="147.32" smashed="yes"/>
-<instance part="LIMIT_SWITCH_1" gate="G$1" x="30.48" y="139.7" rot="R270"/>
-<instance part="LIMIT_SWITCH_2" gate="G$1" x="48.26" y="139.7" rot="R270"/>
-<instance part="LIMIT_SWITCH_3" gate="G$1" x="66.04" y="139.7" rot="R270"/>
+<instance part="LIMIT_1" gate="G$1" x="30.48" y="139.7" rot="R270"/>
+<instance part="LIMIT_2" gate="G$1" x="48.26" y="139.7" rot="R270"/>
+<instance part="LIMIT_3" gate="G$1" x="66.04" y="139.7" rot="R270"/>
 <instance part="D1" gate="G$1" x="198.12" y="152.4"/>
 <instance part="D2" gate="G$1" x="210.82" y="152.4"/>
 <instance part="D3" gate="G$1" x="223.52" y="152.4"/>
@@ -11527,9 +11530,9 @@ Most frame-mounted PCB's - M8</description>
 <instance part="R54" gate="G$1" x="58.42" y="27.94"/>
 <instance part="GND69" gate="1" x="66.04" y="25.4"/>
 <instance part="C61" gate="G$1" x="116.84" y="195.58"/>
-<instance part="C62" gate="G$1" x="111.76" y="195.58" rot="R90"/>
 <instance part="GND89" gate="1" x="116.84" y="205.74" rot="R180"/>
 <instance part="3.3V_DCDC_OKI" gate="G$1" x="104.14" y="172.72" rot="R180"/>
+<instance part="C9" gate="G$1" x="111.76" y="195.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -11543,7 +11546,7 @@ Most frame-mounted PCB's - M8</description>
 <segment>
 <pinref part="GND57" gate="1" pin="GND"/>
 <wire x1="104.14" y1="195.58" x2="106.68" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="C62" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND56" gate="1" pin="GND"/>
@@ -11566,37 +11569,37 @@ Most frame-mounted PCB's - M8</description>
 <wire x1="58.42" y1="109.22" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ENCODER1" gate="G$1" pin="GND"/>
+<pinref part="ENC1" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="71.12" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND59" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ENCODER2" gate="G$1" pin="GND"/>
+<pinref part="ENC2" gate="G$1" pin="GND"/>
 <wire x1="182.88" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND60" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ENCODER3" gate="G$1" pin="GND"/>
+<pinref part="ENC3" gate="G$1" pin="GND"/>
 <wire x1="236.22" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="71.12" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND61" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ENCODER6" gate="G$1" pin="GND"/>
+<pinref part="ENC6" gate="G$1" pin="GND"/>
 <wire x1="236.22" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="50.8" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ENCODER5" gate="G$1" pin="GND"/>
+<pinref part="ENC5" gate="G$1" pin="GND"/>
 <wire x1="182.88" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="50.8" x2="177.8" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="ENCODER4" gate="G$1" pin="GND"/>
+<pinref part="ENC4" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="50.8" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND67" gate="1" pin="GND"/>
@@ -11656,16 +11659,16 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="LOGIC_3.3V" class="0">
 <segment>
-<pinref part="LIMIT_SWITCH_1" gate="G$1" pin="2"/>
+<pinref part="LIMIT_1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="127" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="LIMIT_SWITCH_2" gate="G$1" pin="2"/>
+<pinref part="LIMIT_2" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="144.78" x2="53.34" y2="127" width="0.1524" layer="91"/>
-<pinref part="LIMIT_SWITCH_3" gate="G$1" pin="2"/>
+<pinref part="LIMIT_3" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="144.78" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <label x="35.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -11692,32 +11695,32 @@ Most frame-mounted PCB's - M8</description>
 <label x="40.64" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER1" gate="G$1" pin="VCC"/>
+<pinref part="ENC1" gate="G$1" pin="VCC"/>
 <wire x1="129.54" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <label x="127" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER2" gate="G$1" pin="VCC"/>
+<pinref part="ENC2" gate="G$1" pin="VCC"/>
 <wire x1="182.88" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 <label x="180.34" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER3" gate="G$1" pin="VCC"/>
+<pinref part="ENC3" gate="G$1" pin="VCC"/>
 <wire x1="236.22" y1="76.2" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
 <label x="233.68" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER6" gate="G$1" pin="VCC"/>
+<pinref part="ENC6" gate="G$1" pin="VCC"/>
 <wire x1="236.22" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 <label x="233.68" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER5" gate="G$1" pin="VCC"/>
+<pinref part="ENC5" gate="G$1" pin="VCC"/>
 <wire x1="182.88" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
 <label x="180.34" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ENCODER4" gate="G$1" pin="VCC"/>
+<pinref part="ENC4" gate="G$1" pin="VCC"/>
 <wire x1="129.54" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
 <label x="127" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11800,8 +11803,8 @@ Most frame-mounted PCB's - M8</description>
 <junction x="114.3" y="187.96"/>
 <wire x1="116.84" y1="193.04" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="C61" gate="G$1" pin="2"/>
-<pinref part="C62" gate="G$1" pin="2"/>
 <junction x="116.84" y="187.96"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MOTOR1_1" class="3">
@@ -11904,7 +11907,7 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="LIMIT_SWITCH_3" class="0">
 <segment>
-<pinref part="LIMIT_SWITCH_3" gate="G$1" pin="1"/>
+<pinref part="LIMIT_3" gate="G$1" pin="1"/>
 <pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="127" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
@@ -11915,7 +11918,7 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="LIMIT_SWITCH_2" class="0">
 <segment>
-<pinref part="LIMIT_SWITCH_2" gate="G$1" pin="1"/>
+<pinref part="LIMIT_2" gate="G$1" pin="1"/>
 <pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="127" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
@@ -11926,7 +11929,7 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="LIMIT_SWITCH_1" class="0">
 <segment>
-<pinref part="LIMIT_SWITCH_1" gate="G$1" pin="1"/>
+<pinref part="LIMIT_1" gate="G$1" pin="1"/>
 <pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="127" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="121.92" x2="22.86" y2="121.92" width="0.1524" layer="91"/>
@@ -11937,35 +11940,35 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="ENCODER_2" class="0">
 <segment>
-<pinref part="ENCODER2" gate="G$1" pin="SIG"/>
+<pinref part="ENC2" gate="G$1" pin="SIG"/>
 <wire x1="182.88" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <label x="172.72" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_5" class="0">
 <segment>
-<pinref part="ENCODER5" gate="G$1" pin="SIG"/>
+<pinref part="ENC5" gate="G$1" pin="SIG"/>
 <wire x1="182.88" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 <label x="172.72" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_6" class="0">
 <segment>
-<pinref part="ENCODER6" gate="G$1" pin="SIG"/>
+<pinref part="ENC6" gate="G$1" pin="SIG"/>
 <wire x1="236.22" y1="53.34" x2="226.06" y2="53.34" width="0.1524" layer="91"/>
 <label x="226.06" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_3" class="0">
 <segment>
-<pinref part="ENCODER3" gate="G$1" pin="SIG"/>
+<pinref part="ENC3" gate="G$1" pin="SIG"/>
 <wire x1="236.22" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <label x="226.06" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ENCODER_4" class="0">
 <segment>
-<pinref part="ENCODER4" gate="G$1" pin="SIG"/>
+<pinref part="ENC4" gate="G$1" pin="SIG"/>
 <wire x1="129.54" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <label x="119.38" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12038,7 +12041,7 @@ Most frame-mounted PCB's - M8</description>
 </net>
 <net name="ENCODER_1" class="0">
 <segment>
-<pinref part="ENCODER1" gate="G$1" pin="SIG"/>
+<pinref part="ENC1" gate="G$1" pin="SIG"/>
 <wire x1="129.54" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <label x="119.38" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12273,14 +12276,38 @@ Most frame-mounted PCB's - M8</description>
 <attribute name="NAME" x="307.5686" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="307.848" y="148.59" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C1" gate="G$1" x="55.88" y="246.38" rot="R90"/>
-<instance part="C2" gate="G$1" x="149.86" y="246.38" rot="R90"/>
-<instance part="C3" gate="G$1" x="241.3" y="246.38" rot="R90"/>
-<instance part="C4" gate="G$1" x="337.82" y="246.38" rot="R90"/>
-<instance part="C5" gate="G$1" x="337.82" y="180.34" rot="R90"/>
-<instance part="C6" gate="G$1" x="241.3" y="180.34" rot="R90"/>
-<instance part="C7" gate="G$1" x="149.86" y="180.34" rot="R90"/>
-<instance part="C8" gate="G$1" x="55.88" y="180.34" rot="R90"/>
+<instance part="C1" gate="G$1" x="55.88" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="52.959" y="247.904" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="64.516" y="251.079" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C2" gate="G$1" x="149.86" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.939" y="247.904" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.496" y="251.079" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C3" gate="G$1" x="241.3" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.379" y="247.904" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.936" y="251.079" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C4" gate="G$1" x="337.82" y="246.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="334.899" y="247.904" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="348.996" y="251.079" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C5" gate="G$1" x="337.82" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="334.899" y="181.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="346.456" y="185.039" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C6" gate="G$1" x="241.3" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.379" y="181.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.936" y="185.039" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C7" gate="G$1" x="149.86" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.939" y="181.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="161.036" y="185.039" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C8" gate="G$1" x="55.88" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="52.959" y="181.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="64.516" y="185.039" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="GND9" gate="1" x="157.48" y="180.34" rot="R90"/>
 <instance part="GND10" gate="1" x="246.38" y="180.34" rot="R90"/>
 <instance part="GND11" gate="1" x="342.9" y="180.34" rot="R90"/>
@@ -14035,7 +14062,7 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
+Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
 </note>
