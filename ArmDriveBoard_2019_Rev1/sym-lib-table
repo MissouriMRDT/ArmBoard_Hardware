@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name ArmBoardMC_2019_Rev1-cache)(type Legacy)(uri D:/GitHub/2019_ArmTrain_Hardware/ArmBoard_Hardware/ArmBoard_2019_Rev1/ArmBoardMC_2019_Rev1/ArmBoardMC_2019_Rev1-cache.lib)(options "")(descr ""))
   (lib (name MRDT_Actives)(type Legacy)(uri D:/MRDT_KiCAD_Libraries-2019R1/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Actives.lib)(options "")(descr ""))
   (lib (name MRDT_Connectors)(type Legacy)(uri D:/MRDT_KiCAD_Libraries-2019R1/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Connectors.lib)(options "")(descr ""))
   (lib (name MRDT_Devices)(type Legacy)(uri D:/MRDT_KiCAD_Libraries-2019R1/MRDT_KiCAD_Libraries-2019R1/Device/MRDT_Devices.lib)(options "")(descr ""))
