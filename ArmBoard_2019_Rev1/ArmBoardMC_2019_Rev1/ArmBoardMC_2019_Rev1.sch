@@ -540,11 +540,11 @@ Wire Wire Line
 Text GLabel 15550 3225 0    31   Input ~ 0
 Encoder1_PWM
 Text GLabel 15550 3700 0    31   Input ~ 0
-analogRead()
+Encoder2_PWM
 Text GLabel 15550 4225 0    31   Input ~ 0
-analogRead()
+Encoder3_PWM
 Text GLabel 15550 4725 0    31   Input ~ 0
-analogRead()
+Encoder3_PWM
 Text GLabel 15550 3350 3    31   UnSpc ~ 0
 GND
 Text GLabel 15550 3825 3    31   UnSpc ~ 0
@@ -564,56 +564,42 @@ GND
 $Comp
 L MRDT_Connectors:Molex_SL_05 Conn?
 U 1 1 5BCC4D12
-P 10275 1625
-F 0 "Conn?" H 10250 2250 60  0000 L CNN
-F 1 "Molex_SL_05" H 10100 2175 60  0000 L CNN
-F 2 "" H 10275 1625 60  0001 C CNN
-F 3 "" H 10275 1625 60  0001 C CNN
-	1    10275 1625
+P 9425 1575
+F 0 "Conn?" H 9400 2200 60  0000 L CNN
+F 1 "Molex_SL_05" H 9250 2125 60  0000 L CNN
+F 2 "" H 9425 1575 60  0001 C CNN
+F 3 "" H 9425 1575 60  0001 C CNN
+	1    9425 1575
 	1    0    0    -1  
 $EndComp
-Text Notes 10375 775  0    118  ~ 24
+Text Notes 8700 875  0    118  ~ 24
 Connectors\n
-Text Notes 10350 1525 1    50   ~ 10
+Text Notes 9500 1475 1    50   ~ 10
 Motor 1
 Wire Wire Line
 	4850 2550 4750 2550
 Wire Wire Line
 	4850 2650 4750 2650
-Wire Wire Line
-	7600 2450 7725 2450
-Wire Wire Line
-	6600 2750 6700 2750
 Text GLabel 4750 2550 0    31   Output ~ 6
 MOTOR1_PWM
 Text GLabel 4750 2650 0    31   Output ~ 6
 MOTOR2_PWM
-Text GLabel 6600 2750 0    31   Output ~ 6
+Text GLabel 4750 2450 0    31   Output ~ 6
 MOTOR3_PWM
-Text GLabel 7725 2450 2    31   Output ~ 6
+Text GLabel 4750 2750 0    31   Output ~ 6
 MOTOR4_PWM
 Wire Wire Line
-	1575 1825 1400 1825
+	1575 3800 1500 3800
 Wire Wire Line
-	1575 3800 1400 3800
-Wire Wire Line
-	1550 5800 1375 5800
-Wire Wire Line
-	1550 7800 1375 7800
-Text GLabel 1400 1825 0    31   Input ~ 6
+	1550 5800 1475 5800
+Text GLabel 1250 1825 0    31   Input ~ 6
 MOTOR1_PWM
-Text GLabel 1400 3800 0    31   Input ~ 6
+Text GLabel 1200 3800 0    31   Input ~ 6
 MOTO2_PWM
-Text GLabel 1375 5800 0    31   Input ~ 6
+Text GLabel 1200 5800 0    31   Input ~ 6
 MOTOR3_PWM
-Text GLabel 1375 7800 0    31   Input ~ 6
+Text GLabel 1150 7800 0    31   Input ~ 6
 MOTOR4_PWM
-Wire Wire Line
-	3175 1875 3300 1875
-Wire Wire Line
-	3175 1775 3300 1775
-Wire Wire Line
-	3175 1975 3300 1975
 Wire Wire Line
 	3175 3750 3275 3750
 Wire Wire Line
@@ -621,11 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	3175 3950 3275 3950
 Wire Wire Line
-	3150 5750 3300 5750
-Wire Wire Line
-	3150 5850 3300 5850
-Wire Wire Line
-	3150 5950 3300 5950
+	3150 5750 3250 5750
 Wire Wire Line
 	3150 7750 3250 7750
 Wire Wire Line
@@ -635,12 +617,224 @@ Wire Wire Line
 $Comp
 L MRDT_ICs:MAX_3232 U?
 U 1 1 5BD438E6
-P 10000 2975
-F 0 "U?" H 10350 4312 60  0000 C CNN
-F 1 "MAX_3232" H 10350 4206 60  0000 C CNN
-F 2 "" H 10000 2375 60  0001 C CNN
-F 3 "" H 10000 2375 60  0001 C CNN
-	1    10000 2975
+P 10700 2225
+F 0 "U?" H 11050 3562 60  0000 C CNN
+F 1 "MAX_3232" H 11050 3456 60  0000 C CNN
+F 2 "" H 10700 1625 60  0001 C CNN
+F 3 "" H 10700 1625 60  0001 C CNN
+	1    10700 2225
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9225 1425 9125 1425
+Wire Wire Line
+	9225 1525 9125 1525
+Text GLabel 9125 1425 0    31   Input ~ 0
+RX_1_SL
+Text GLabel 9125 1525 0    31   Input ~ 0
+TX_1_SL
+Wire Wire Line
+	9225 1325 8750 1325
+Wire Wire Line
+	8750 1325 8750 1450
+Text GLabel 8750 1450 3    31   UnSpc ~ 0
+GND
+Text Notes 11700 800  2    118  ~ 24
+Level Shifter
+Wire Wire Line
+	11600 1825 11725 1825
+Wire Wire Line
+	10500 1925 10325 1925
+Text GLabel 11725 1825 2    31   Input ~ 0
+RX_1_SL
+Text GLabel 10325 1925 0    31   Input ~ 0
+TX_1_SL
+Wire Wire Line
+	3175 1675 3250 1675
+Wire Wire Line
+	3250 1675 3250 1775
+Wire Wire Line
+	3250 1775 3175 1775
+Wire Wire Line
+	3250 1775 3250 1875
+Wire Wire Line
+	3175 1875 3250 1875
+Connection ~ 3250 1775
+Wire Wire Line
+	3250 1875 3250 1975
+Wire Wire Line
+	3250 1975 3175 1975
+Connection ~ 3250 1875
+Wire Wire Line
+	3250 1975 3250 2075
+Wire Wire Line
+	3250 2075 3175 2075
+Connection ~ 3250 1975
+Wire Wire Line
+	3250 1775 3375 1775
+Text GLabel 3375 1775 2    31   Input ~ 0
+VCC_12V
+Wire Wire Line
+	3175 3650 3275 3650
+Wire Wire Line
+	3275 3650 3275 3750
+Wire Wire Line
+	3275 4050 3175 4050
+Connection ~ 3275 3750
+Wire Wire Line
+	3275 3750 3275 3850
+Connection ~ 3275 3850
+Wire Wire Line
+	3275 3850 3275 3950
+Connection ~ 3275 3950
+Wire Wire Line
+	3275 3950 3275 4050
+Wire Wire Line
+	3275 3750 3375 3750
+Text GLabel 3375 3750 2    31   Input ~ 0
+VCC_12V
+Wire Wire Line
+	3150 6050 3250 6050
+Wire Wire Line
+	3250 6050 3250 5950
+Wire Wire Line
+	3150 5850 3250 5850
+Connection ~ 3250 5850
+Wire Wire Line
+	3250 5850 3250 5750
+Wire Wire Line
+	3150 5950 3250 5950
+Connection ~ 3250 5950
+Wire Wire Line
+	3250 5950 3250 5850
+Wire Wire Line
+	3150 5650 3250 5650
+Wire Wire Line
+	3250 5650 3250 5750
+Connection ~ 3250 5750
+Wire Wire Line
+	3250 5750 3350 5750
+Text GLabel 3350 5750 2    31   Input ~ 0
+VCC_12V
+Wire Wire Line
+	3150 8050 3250 8050
+Wire Wire Line
+	3250 8050 3250 7950
+Connection ~ 3250 7850
+Wire Wire Line
+	3250 7850 3250 7750
+Connection ~ 3250 7950
+Wire Wire Line
+	3250 7950 3250 7850
+Wire Wire Line
+	3250 7650 3250 7750
+Connection ~ 3250 7750
+Wire Wire Line
+	3150 7650 3250 7650
+Wire Wire Line
+	3250 7750 3350 7750
+Text GLabel 3350 7750 2    31   Input ~ 0
+VCC_12V
+Wire Wire Line
+	1550 7800 1425 7800
+$Comp
+L Device:R_Small R?
+U 1 1 5BD4DECC
+P 1325 7800
+F 0 "R?" V 1129 7800 50  0000 C CNN
+F 1 "R_Small" V 1220 7800 50  0000 C CNN
+F 2 "" H 1325 7800 50  0001 C CNN
+F 3 "~" H 1325 7800 50  0001 C CNN
+	1    1325 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1225 7800 1150 7800
+Text Notes 1350 7825 2    31   ~ 0
+1K
+$Comp
+L Device:R_Small R?
+U 1 1 5BD58E4F
+P 1375 5800
+F 0 "R?" V 1179 5800 50  0000 C CNN
+F 1 "R_Small" V 1270 5800 50  0000 C CNN
+F 2 "" H 1375 5800 50  0001 C CNN
+F 3 "~" H 1375 5800 50  0001 C CNN
+	1    1375 5800
+	0    1    1    0   
+$EndComp
+Text Notes 1400 5825 2    31   ~ 0
+1K
+Wire Wire Line
+	1275 5800 1200 5800
+$Comp
+L Device:R_Small R?
+U 1 1 5BD69D5D
+P 1400 3800
+F 0 "R?" V 1204 3800 50  0000 C CNN
+F 1 "R_Small" V 1295 3800 50  0000 C CNN
+F 2 "" H 1400 3800 50  0001 C CNN
+F 3 "~" H 1400 3800 50  0001 C CNN
+	1    1400 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 3800 1200 3800
+Text Notes 1425 3825 2    31   ~ 0
+1K
+Wire Wire Line
+	1575 1825 1500 1825
+$Comp
+L Device:R_Small R?
+U 1 1 5BD7B4EE
+P 1400 1825
+F 0 "R?" V 1204 1825 50  0000 C CNN
+F 1 "R_Small" V 1295 1825 50  0000 C CNN
+F 2 "" H 1400 1825 50  0001 C CNN
+F 3 "~" H 1400 1825 50  0001 C CNN
+	1    1400 1825
+	0    1    1    0   
+$EndComp
+Text Notes 1425 1850 2    31   ~ 0
+1K
+Wire Wire Line
+	1300 1825 1250 1825
+Wire Wire Line
+	1575 4000 1475 4000
+Text GLabel 1475 4000 0    31   Input ~ 0
+Logic_3.3V
+Text GLabel 1475 2025 0    31   Input ~ 0
+Logic_3.3V
+Text GLabel 1450 6100 0    31   Input ~ 0
+Logic_3.3V
+Text GLabel 1475 8100 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	1550 8100 1475 8100
+Wire Wire Line
+	1550 6100 1450 6100
+Wire Wire Line
+	1575 2025 1475 2025
+Wire Wire Line
+	4850 2750 4750 2750
+Wire Wire Line
+	4850 2450 4750 2450
+Wire Wire Line
+	4850 2850 4750 2850
+Wire Wire Line
+	4850 2950 4750 2950
+Wire Wire Line
+	6700 1450 6575 1450
+Wire Wire Line
+	6700 1550 6575 1550
+Text GLabel 4750 2850 0    31   Input ~ 0
+Encoder1_PWM
+Text GLabel 4750 2950 0    31   Input ~ 0
+Encoder2_PWM
+Text GLabel 6575 1450 0    31   Input ~ 0
+Encoder3_PWM
+Text GLabel 6575 1550 0    31   Input ~ 0
+Encoder4_PWM
+Text Notes 4775 4025 0    118  ~ 24
+Limit Switch\n
 $EndSCHEMATC
