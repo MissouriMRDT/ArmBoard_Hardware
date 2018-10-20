@@ -837,4 +837,344 @@ Text GLabel 6575 1550 0    31   Input ~ 0
 Encoder4_PWM
 Text Notes 4775 4025 0    118  ~ 24
 Limit Switch\n
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE078EE
+P 4550 4300
+F 0 "U?" H 4550 4475 31  0000 L CNN
+F 1 "Limit_Switch" H 4425 4425 31  0000 L CNN
+F 2 "" H 4400 4600 118 0001 C CNN
+F 3 "" H 4400 4600 118 0001 C CNN
+	1    4550 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4250 4425 4250
+Wire Wire Line
+	4425 4325 4375 4325
+$Comp
+L Device:R_Small R?
+U 1 1 5BE680DF
+P 4175 4325
+F 0 "R?" V 4250 4325 31  0000 C CNN
+F 1 "R_Small" V 4275 4275 50  0001 C CNN
+F 2 "" H 4175 4325 50  0001 C CNN
+F 3 "~" H 4175 4325 50  0001 C CNN
+	1    4175 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4075 4325 4025 4325
+Text Notes 4125 4350 0    31   ~ 0
+10K
+Text GLabel 4025 4325 0    31   UnSpc ~ 0
+GND
+Text GLabel 4350 4250 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	4375 4325 4375 4450
+Wire Wire Line
+	4375 4450 4450 4450
+Connection ~ 4375 4325
+Wire Wire Line
+	4375 4325 4275 4325
+Text GLabel 4450 4450 2    31   Output ~ 0
+LS_1
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE7F19A
+P 5850 4300
+F 0 "U?" H 5850 4475 31  0000 L CNN
+F 1 "Limit_Switch" H 5725 4425 31  0000 L CNN
+F 2 "" H 5700 4600 118 0001 C CNN
+F 3 "" H 5700 4600 118 0001 C CNN
+	1    5850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4250 5725 4250
+Wire Wire Line
+	5725 4325 5675 4325
+$Comp
+L Device:R_Small R?
+U 1 1 5BE7F1A2
+P 5475 4325
+F 0 "R?" V 5550 4325 31  0000 C CNN
+F 1 "R_Small" V 5575 4275 50  0001 C CNN
+F 2 "" H 5475 4325 50  0001 C CNN
+F 3 "~" H 5475 4325 50  0001 C CNN
+	1    5475 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 4325 5325 4325
+Text Notes 5425 4350 0    31   ~ 0
+10K
+Text GLabel 5325 4325 0    31   UnSpc ~ 0
+GND
+Text GLabel 5650 4250 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	5675 4325 5675 4450
+Wire Wire Line
+	5675 4450 5750 4450
+Connection ~ 5675 4325
+Wire Wire Line
+	5675 4325 5575 4325
+Text GLabel 5750 4450 2    31   Output ~ 0
+LS_2
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE870EA
+P 4550 4750
+F 0 "U?" H 4550 4925 31  0000 L CNN
+F 1 "Limit_Switch" H 4425 4875 31  0000 L CNN
+F 2 "" H 4400 5050 118 0001 C CNN
+F 3 "" H 4400 5050 118 0001 C CNN
+	1    4550 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 4775 4375 4775
+$Comp
+L Device:R_Small R?
+U 1 1 5BE870F1
+P 4175 4775
+F 0 "R?" V 4250 4775 31  0000 C CNN
+F 1 "R_Small" V 4275 4725 50  0001 C CNN
+F 2 "" H 4175 4775 50  0001 C CNN
+F 3 "~" H 4175 4775 50  0001 C CNN
+	1    4175 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4075 4775 4025 4775
+Text Notes 4125 4800 0    31   ~ 0
+10K
+Text GLabel 4025 4775 0    31   UnSpc ~ 0
+GND
+Text GLabel 4350 4700 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	4375 4775 4375 4900
+Wire Wire Line
+	4375 4900 4450 4900
+Connection ~ 4375 4775
+Wire Wire Line
+	4375 4775 4275 4775
+Text GLabel 4450 4900 2    31   Output ~ 0
+LS_3
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE87100
+P 5850 4750
+F 0 "U?" H 5850 4925 31  0000 L CNN
+F 1 "Limit_Switch" H 5725 4875 31  0000 L CNN
+F 2 "" H 5700 5050 118 0001 C CNN
+F 3 "" H 5700 5050 118 0001 C CNN
+	1    5850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5725 4775 5675 4775
+$Comp
+L Device:R_Small R?
+U 1 1 5BE87107
+P 5475 4775
+F 0 "R?" V 5550 4775 31  0000 C CNN
+F 1 "R_Small" V 5575 4725 50  0001 C CNN
+F 2 "" H 5475 4775 50  0001 C CNN
+F 3 "~" H 5475 4775 50  0001 C CNN
+	1    5475 4775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 4775 5325 4775
+Text Notes 5425 4800 0    31   ~ 0
+10K
+Text GLabel 5325 4775 0    31   UnSpc ~ 0
+GND
+Wire Wire Line
+	5675 4775 5675 4900
+Wire Wire Line
+	5675 4900 5750 4900
+Connection ~ 5675 4775
+Wire Wire Line
+	5675 4775 5575 4775
+Text GLabel 5750 4900 2    31   Output ~ 0
+LS_4
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE90062
+P 4575 5175
+F 0 "U?" H 4575 5350 31  0000 L CNN
+F 1 "Limit_Switch" H 4450 5300 31  0000 L CNN
+F 2 "" H 4425 5475 118 0001 C CNN
+F 3 "" H 4425 5475 118 0001 C CNN
+	1    4575 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5200 4400 5200
+$Comp
+L Device:R_Small R?
+U 1 1 5BE90069
+P 4200 5200
+F 0 "R?" V 4275 5200 31  0000 C CNN
+F 1 "R_Small" V 4300 5150 50  0001 C CNN
+F 2 "" H 4200 5200 50  0001 C CNN
+F 3 "~" H 4200 5200 50  0001 C CNN
+	1    4200 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 5200 4050 5200
+Text Notes 4150 5225 0    31   ~ 0
+10K
+Text GLabel 4050 5200 0    31   UnSpc ~ 0
+GND
+Wire Wire Line
+	4400 5200 4400 5325
+Wire Wire Line
+	4400 5325 4475 5325
+Connection ~ 4400 5200
+Wire Wire Line
+	4400 5200 4300 5200
+Text GLabel 4475 5325 2    31   Output ~ 0
+LS_5
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE90077
+P 5875 5175
+F 0 "U?" H 5875 5350 31  0000 L CNN
+F 1 "Limit_Switch" H 5750 5300 31  0000 L CNN
+F 2 "" H 5725 5475 118 0001 C CNN
+F 3 "" H 5725 5475 118 0001 C CNN
+	1    5875 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5200 5700 5200
+$Comp
+L Device:R_Small R?
+U 1 1 5BE9007E
+P 5500 5200
+F 0 "R?" V 5575 5200 31  0000 C CNN
+F 1 "R_Small" V 5600 5150 50  0001 C CNN
+F 2 "" H 5500 5200 50  0001 C CNN
+F 3 "~" H 5500 5200 50  0001 C CNN
+	1    5500 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5200 5350 5200
+Text Notes 5450 5225 0    31   ~ 0
+10K
+Text GLabel 5350 5200 0    31   UnSpc ~ 0
+GND
+Wire Wire Line
+	5700 5200 5700 5325
+Wire Wire Line
+	5700 5325 5775 5325
+Connection ~ 5700 5200
+Wire Wire Line
+	5700 5200 5600 5200
+Text GLabel 5775 5325 2    31   Output ~ 0
+LS_6
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE9008C
+P 4575 5625
+F 0 "U?" H 4575 5800 31  0000 L CNN
+F 1 "Limit_Switch" H 4450 5750 31  0000 L CNN
+F 2 "" H 4425 5925 118 0001 C CNN
+F 3 "" H 4425 5925 118 0001 C CNN
+	1    4575 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5650 4400 5650
+$Comp
+L Device:R_Small R?
+U 1 1 5BE90093
+P 4200 5650
+F 0 "R?" V 4275 5650 31  0000 C CNN
+F 1 "R_Small" V 4300 5600 50  0001 C CNN
+F 2 "" H 4200 5650 50  0001 C CNN
+F 3 "~" H 4200 5650 50  0001 C CNN
+	1    4200 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 5650 4050 5650
+Text Notes 4150 5675 0    31   ~ 0
+10K
+Text GLabel 4050 5650 0    31   UnSpc ~ 0
+GND
+Text GLabel 4375 5575 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	4400 5650 4400 5775
+Wire Wire Line
+	4400 5775 4475 5775
+Connection ~ 4400 5650
+Wire Wire Line
+	4400 5650 4300 5650
+Text GLabel 4475 5775 2    31   Output ~ 0
+LS_7
+$Comp
+L MRDT_Switches:Limit_Switch U?
+U 1 1 5BE900A2
+P 5875 5625
+F 0 "U?" H 5875 5800 31  0000 L CNN
+F 1 "Limit_Switch" H 5750 5750 31  0000 L CNN
+F 2 "" H 5725 5925 118 0001 C CNN
+F 3 "" H 5725 5925 118 0001 C CNN
+	1    5875 5625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5650 5700 5650
+$Comp
+L Device:R_Small R?
+U 1 1 5BE900A9
+P 5500 5650
+F 0 "R?" V 5575 5650 31  0000 C CNN
+F 1 "R_Small" V 5600 5600 50  0001 C CNN
+F 2 "" H 5500 5650 50  0001 C CNN
+F 3 "~" H 5500 5650 50  0001 C CNN
+	1    5500 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5650 5350 5650
+Text Notes 5450 5675 0    31   ~ 0
+10K
+Text GLabel 5350 5650 0    31   UnSpc ~ 0
+GND
+Wire Wire Line
+	5700 5650 5700 5775
+Wire Wire Line
+	5700 5775 5775 5775
+Connection ~ 5700 5650
+Wire Wire Line
+	5700 5650 5600 5650
+Text GLabel 5775 5775 2    31   Output ~ 0
+LS_8
+Wire Wire Line
+	5725 4700 5650 4700
+Wire Wire Line
+	5750 5125 5675 5125
+Text GLabel 5650 4700 0    31   Input ~ 0
+Logic_3.3V
+Text GLabel 5675 5125 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	4425 4700 4350 4700
+Wire Wire Line
+	4450 5575 4375 5575
+Wire Wire Line
+	5750 5575 5675 5575
+Text GLabel 5675 5575 0    31   Input ~ 0
+Logic_3.3V
 $EndSCHEMATC

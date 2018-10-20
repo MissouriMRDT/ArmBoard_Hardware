@@ -647,7 +647,7 @@ Wire Wire Line
 	10500 1925 10325 1925
 Text GLabel 11725 1825 2    31   Input ~ 0
 RX_1_SL
-Text GLabel 10325 1925 0    31   Input ~ 0
+Text GLabel 11725 1925 2    31   Output ~ 0
 TX_1_SL
 Wire Wire Line
 	3175 1675 3250 1675
@@ -1177,4 +1177,22 @@ Wire Wire Line
 	5750 5575 5675 5575
 Text GLabel 5675 5575 0    31   Input ~ 0
 Logic_3.3V
+Wire Wire Line
+	11600 1925 11725 1925
+Text GLabel 10325 1925 0    31   Input ~ 0
+TX_1_Tiva
+Text GLabel 10350 1825 0    31   Output ~ 0
+RX_1_Tiva
+Wire Wire Line
+	10350 1825 10500 1825
+Wire Wire Line
+	4850 1250 4750 1250
+Wire Wire Line
+	4850 1350 4750 1350
+Text GLabel 4750 1250 0    31   Input ~ 0
+RX_1_Tiva
+Text GLabel 4750 1350 0    31   Output ~ 0
+TX_1_Tiva
+Text Notes 4250 1325 0    31   ~ 0
+Serial 7
 $EndSCHEMATC
