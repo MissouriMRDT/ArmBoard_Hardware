@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DriveBoard_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -131,18 +132,6 @@ Text Notes 6200 1900 0    98   ~ 20
 Power Filtering
 Text Notes 7800 2800 0    98   ~ 20
 Conectors
-Wire Notes Line
-	5000 2650 8800 2650
-Wire Notes Line
-	8800 4350 8800 1550
-Wire Notes Line
-	7450 4350 7450 2650
-Wire Notes Line
-	5000 1550 5000 4350
-Wire Notes Line
-	3150 1550 3150 4350
-Wire Notes Line
-	3150 4350 8800 4350
 Wire Wire Line
 	5350 3500 5450 3500
 Wire Wire Line
@@ -175,8 +164,6 @@ Wire Wire Line
 	7350 2100 7600 2100
 Wire Wire Line
 	6250 2100 5900 2100
-Wire Notes Line
-	3150 1550 8800 1550
 $Comp
 L power:+5V #PWR0101
 U 1 1 5BA18FD6
@@ -410,7 +397,7 @@ L MRDT_Connectors:Molex_SL_05 Conn2
 U 1 1 5BC6E438
 P 8350 3450
 F 0 "Conn2" H 8477 3758 60  0000 L CNN
-F 1 "Molex_SL_05" H 8477 3652 60  0000 L CNN
+F 1 "MoCo 1" H 8477 3652 60  0000 L CNN
 F 2 "" H 8350 3450 60  0001 C CNN
 F 3 "" H 8350 3450 60  0001 C CNN
 	1    8350 3450
@@ -427,4 +414,100 @@ F 3 "" H 8350 4150 60  0001 C CNN
 	1    8350 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCAB0BE
+P 8350 5150
+F 0 "Conn?" H 8478 5358 60  0000 L CNN
+F 1 "Servo 2" H 8478 5252 60  0000 L CNN
+F 2 "" H 8350 5150 60  0001 C CNN
+F 3 "" H 8350 5150 60  0001 C CNN
+	1    8350 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 4900 0    50   UnSpc ~ 0
+GND
+Text GLabel 8150 5000 0    50   Input ~ 0
++5V
+Text GLabel 8150 5100 0    50   Input ~ 0
+Servo2_PWM
+Text GLabel 3600 3600 0    50   Input ~ 0
+Servo1_PWM
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCAC1D7
+P 8350 4650
+F 0 "Conn?" H 8478 4858 60  0000 L CNN
+F 1 "Servo 1" H 8478 4752 60  0000 L CNN
+F 2 "" H 8350 4650 60  0001 C CNN
+F 3 "" H 8350 4650 60  0001 C CNN
+	1    8350 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 4400 0    50   UnSpc ~ 0
+GND
+Text GLabel 8150 4500 0    50   Input ~ 0
++5V
+Text GLabel 8150 4600 0    50   Input ~ 0
+Servo1_PWM
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5BCAC820
+P 8350 5550
+F 0 "Conn?" H 8478 5758 60  0000 L CNN
+F 1 "Servo 3" H 8478 5652 60  0000 L CNN
+F 2 "" H 8350 5550 60  0001 C CNN
+F 3 "" H 8350 5550 60  0001 C CNN
+	1    8350 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 5300 0    50   UnSpc ~ 0
+GND
+Text GLabel 8150 5400 0    50   Input ~ 0
++5V
+Text GLabel 8150 5500 0    50   Input ~ 0
+Servo3_PWM
+Text GLabel 3600 3700 0    50   Input ~ 0
+Servo2_PWM
+Text GLabel 3600 3800 0    50   Input ~ 0
+Servo3_PWM
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 5BCADF34
+P 6350 4600
+F 0 "Conn?" H 6478 4758 60  0000 L CNN
+F 1 "Laser 1" H 6478 4652 60  0000 L CNN
+F 2 "" H 6350 4500 60  0001 C CNN
+F 3 "" H 6350 4500 60  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 5BCADFB6
+P 6350 5000
+F 0 "Conn?" H 6478 5158 60  0000 L CNN
+F 1 "Laser 2" H 6478 5052 60  0000 L CNN
+F 2 "" H 6350 4900 60  0001 C CNN
+F 3 "" H 6350 4900 60  0001 C CNN
+	1    6350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 5BCAE57B
+P 6350 5350
+F 0 "Conn?" H 6477 5508 60  0000 L CNN
+F 1 "Solenoid" H 6477 5402 60  0000 L CNN
+F 2 "" H 6350 5250 60  0001 C CNN
+F 3 "" H 6350 5250 60  0001 C CNN
+	1    6350 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 4550 0    50   UnSpc ~ 0
+GND
+Text GLabel 6150 4950 0    50   UnSpc ~ 0
+GND
+Text GLabel 6150 5300 0    50   UnSpc ~ 0
+GND
 $EndSCHEMATC

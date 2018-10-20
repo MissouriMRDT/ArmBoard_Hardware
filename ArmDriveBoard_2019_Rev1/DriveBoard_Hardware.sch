@@ -37,7 +37,7 @@ F 3 "" H 7350 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5950 2100 0    60   ~ 0
-+12V
++12V_log
 Text Notes 8450 3350 1    60   ~ 0
 Motor 1
 $Comp
@@ -128,7 +128,7 @@ Text Notes 5800 2800 0    98   ~ 20
 Level Shifter
 Text Notes 3900 1750 0    98   ~ 20
 TIVA
-Text Notes 6200 1900 0    98   ~ 20
+Text Notes 5950 1500 0    98   ~ 20
 Power Filtering
 Text Notes 7800 2800 0    98   ~ 20
 Conectors
@@ -368,10 +368,10 @@ F 3 "" H 5350 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:OKI U?
+L MRDT_Devices:OKI U3
 U 1 1 5BC6E00E
 P 6600 2200
-F 0 "U?" H 6650 2150 60  0001 C CNN
+F 0 "U3" H 6650 2150 60  0001 C CNN
 F 1 "OKI" H 6800 2481 60  0000 C CNN
 F 2 "" H 6400 2100 60  0001 C CNN
 F 3 "" H 6400 2100 60  0001 C CNN
@@ -415,10 +415,10 @@ F 3 "" H 8350 4150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L MRDT_Connectors:Molex_SL_03 Conn8
 U 1 1 5BCAB0BE
 P 8350 5150
-F 0 "Conn?" H 8478 5358 60  0000 L CNN
+F 0 "Conn8" H 8478 5358 60  0000 L CNN
 F 1 "Servo 2" H 8478 5252 60  0000 L CNN
 F 2 "" H 8350 5150 60  0001 C CNN
 F 3 "" H 8350 5150 60  0001 C CNN
@@ -434,10 +434,10 @@ Servo2_PWM
 Text GLabel 3600 3600 0    50   Input ~ 0
 Servo1_PWM
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L MRDT_Connectors:Molex_SL_03 Conn7
 U 1 1 5BCAC1D7
 P 8350 4650
-F 0 "Conn?" H 8478 4858 60  0000 L CNN
+F 0 "Conn7" H 8478 4858 60  0000 L CNN
 F 1 "Servo 1" H 8478 4752 60  0000 L CNN
 F 2 "" H 8350 4650 60  0001 C CNN
 F 3 "" H 8350 4650 60  0001 C CNN
@@ -451,10 +451,10 @@ Text GLabel 8150 4500 0    50   Input ~ 0
 Text GLabel 8150 4600 0    50   Input ~ 0
 Servo1_PWM
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 5BCAC820
 P 8350 5550
-F 0 "Conn?" H 8478 5758 60  0000 L CNN
+F 0 "Conn9" H 8478 5758 60  0000 L CNN
 F 1 "Servo 3" H 8478 5652 60  0000 L CNN
 F 2 "" H 8350 5550 60  0001 C CNN
 F 3 "" H 8350 5550 60  0001 C CNN
@@ -472,10 +472,10 @@ Servo2_PWM
 Text GLabel 3600 3800 0    50   Input ~ 0
 Servo3_PWM
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L MRDT_Connectors:Molex_SL_02 Conn4
 U 1 1 5BCADF34
 P 6350 4600
-F 0 "Conn?" H 6478 4758 60  0000 L CNN
+F 0 "Conn4" H 6478 4758 60  0000 L CNN
 F 1 "Laser 1" H 6478 4652 60  0000 L CNN
 F 2 "" H 6350 4500 60  0001 C CNN
 F 3 "" H 6350 4500 60  0001 C CNN
@@ -483,10 +483,10 @@ F 3 "" H 6350 4500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L MRDT_Connectors:Molex_SL_02 Conn5
 U 1 1 5BCADFB6
 P 6350 5000
-F 0 "Conn?" H 6478 5158 60  0000 L CNN
+F 0 "Conn5" H 6478 5158 60  0000 L CNN
 F 1 "Laser 2" H 6478 5052 60  0000 L CNN
 F 2 "" H 6350 4900 60  0001 C CNN
 F 3 "" H 6350 4900 60  0001 C CNN
@@ -494,10 +494,10 @@ F 3 "" H 6350 4900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L MRDT_Connectors:Molex_SL_02 Conn6
 U 1 1 5BCAE57B
 P 6350 5350
-F 0 "Conn?" H 6477 5508 60  0000 L CNN
+F 0 "Conn6" H 6477 5508 60  0000 L CNN
 F 1 "Solenoid" H 6477 5402 60  0000 L CNN
 F 2 "" H 6350 5250 60  0001 C CNN
 F 3 "" H 6350 5250 60  0001 C CNN
@@ -510,4 +510,75 @@ Text GLabel 6150 4950 0    50   UnSpc ~ 0
 GND
 Text GLabel 6150 5300 0    50   UnSpc ~ 0
 GND
+Wire Wire Line
+	6150 4450 5900 4450
+Wire Wire Line
+	6150 5200 5900 5200
+Wire Wire Line
+	5900 4850 6150 4850
+Wire Wire Line
+	5900 4450 5900 4850
+Wire Wire Line
+	5250 4400 5250 4600
+Wire Wire Line
+	5250 4600 5400 4600
+$Comp
+L Device:Q_NMOS_DGS Q1
+U 1 1 5BCAC99A
+P 5300 4800
+F 0 "Q1" H 5505 4846 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5505 4755 50  0000 L CNN
+F 2 "" H 5500 4900 50  0001 C CNN
+F 3 "~" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5000 5900 4850
+Connection ~ 5900 4850
+$Comp
+L Device:Q_NMOS_DGS Q2
+U 1 1 5BCADB61
+P 5300 5350
+F 0 "Q2" H 5505 5396 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 5505 5305 50  0000 L CNN
+F 2 "" H 5500 5450 50  0001 C CNN
+F 3 "~" H 5300 5350 50  0001 C CNN
+	1    5300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5000 5900 5000
+Wire Wire Line
+	5250 4600 5250 5150
+Wire Wire Line
+	5250 5150 5400 5150
+Connection ~ 5250 4600
+Wire Wire Line
+	5400 5550 5900 5550
+Wire Wire Line
+	5900 5550 5900 5200
+$Comp
+L MRDT_Connectors:AndersonPP Conn10
+U 3 1 5BCB1124
+P 5500 1850
+F 0 "Conn10" H 5550 2100 60  0000 C CNN
+F 1 "AndersonPP" H 5750 2250 60  0001 C CNN
+F 2 "" H 5350 1300 60  0001 C CNN
+F 3 "" H 5350 1300 60  0001 C CNN
+	3    5500 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5900 1750 2    50   Input ~ 0
++12V_Act
+Text GLabel 5250 4400 2    50   Input ~ 0
++12V_Act
+Text GLabel 3600 2500 0    50   Input ~ 0
+Laser_control
+Text GLabel 5100 4800 0    50   Input ~ 0
+Laser_control
+Text GLabel 3600 2600 0    50   Input ~ 0
+Solenoial_Control
+Text GLabel 5100 5350 0    50   Input ~ 0
+Solenoial_Control
 $EndSCHEMATC
