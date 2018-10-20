@@ -325,12 +325,8 @@ Wire Wire Line
 	14525 2375 14525 2175
 Text Notes 14775 700  2    79   ~ 0
 POWER
-Wire Notes Line
-	8250 3200 11200 3200
 Text Notes 15275 2950 0    79   ~ 0
 Encoders
-Wire Notes Line
-	8250 450  8250 6550
 $Comp
 L MRDT_ICs:VNH5019A_E U?
 U 1 1 5BCBE512
