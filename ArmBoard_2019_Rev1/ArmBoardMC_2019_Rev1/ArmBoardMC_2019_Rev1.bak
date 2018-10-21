@@ -91,17 +91,6 @@ F 3 "" H 3650 7600 60  0001 C CNN
 	7    3650 7600
 	1    0    0    -1  
 $EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U4
-U 7 1 5BC25775
-P 5225 7250
-F 0 "U4" H 5375 7200 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 5257 8421 60  0001 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL" H 5225 7250 60  0001 C CNN
-F 3 "" H 5225 7250 60  0001 C CNN
-	7    5225 7250
-	-1   0    0    -1  
-$EndComp
 Text Notes 2575 5150 0    118  ~ 24
 TIVA
 $Comp
@@ -1782,4 +1771,12 @@ F 3 "" H 4150 7600 60  0001 C CNN
 	8    4150 7600
 	-1   0    0    -1  
 $EndComp
+Text GLabel 4425 6650 2    31   UnSpc ~ 0
+GND
+Text GLabel 2600 6650 2    31   UnSpc ~ 0
+GND
+Wire Wire Line
+	4350 6650 4425 6650
+Wire Wire Line
+	2500 6650 2600 6650
 $EndSCHEMATC
