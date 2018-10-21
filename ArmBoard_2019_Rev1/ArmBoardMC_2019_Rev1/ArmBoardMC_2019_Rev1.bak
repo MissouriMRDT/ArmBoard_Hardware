@@ -647,7 +647,7 @@ Wire Wire Line
 	10500 1925 10325 1925
 Text GLabel 11725 1825 2    31   Input ~ 0
 RX_1_SL
-Text GLabel 10325 1925 0    31   Input ~ 0
+Text GLabel 11725 1925 2    31   Output ~ 0
 TX_1_SL
 Wire Wire Line
 	3175 1675 3250 1675
@@ -741,8 +741,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5BD4DECC
 P 1325 7800
-F 0 "R?" V 1129 7800 50  0000 C CNN
-F 1 "R_Small" V 1220 7800 50  0000 C CNN
+F 0 "R?" V 1250 7800 31  0000 C CNN
+F 1 "R_Small" V 1220 7800 50  0001 C CNN
 F 2 "" H 1325 7800 50  0001 C CNN
 F 3 "~" H 1325 7800 50  0001 C CNN
 	1    1325 7800
@@ -756,8 +756,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5BD58E4F
 P 1375 5800
-F 0 "R?" V 1179 5800 50  0000 C CNN
-F 1 "R_Small" V 1270 5800 50  0000 C CNN
+F 0 "R?" V 1300 5800 31  0000 C CNN
+F 1 "R_Small" V 1270 5800 50  0001 C CNN
 F 2 "" H 1375 5800 50  0001 C CNN
 F 3 "~" H 1375 5800 50  0001 C CNN
 	1    1375 5800
@@ -771,8 +771,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5BD69D5D
 P 1400 3800
-F 0 "R?" V 1204 3800 50  0000 C CNN
-F 1 "R_Small" V 1295 3800 50  0000 C CNN
+F 0 "R?" V 1325 3800 31  0000 C CNN
+F 1 "R_Small" V 1295 3800 50  0001 C CNN
 F 2 "" H 1400 3800 50  0001 C CNN
 F 3 "~" H 1400 3800 50  0001 C CNN
 	1    1400 3800
@@ -788,8 +788,8 @@ $Comp
 L Device:R_Small R?
 U 1 1 5BD7B4EE
 P 1400 1825
-F 0 "R?" V 1204 1825 50  0000 C CNN
-F 1 "R_Small" V 1295 1825 50  0000 C CNN
+F 0 "R?" V 1325 1825 31  0000 C CNN
+F 1 "R_Small" V 1295 1825 50  0001 C CNN
 F 2 "" H 1400 1825 50  0001 C CNN
 F 3 "~" H 1400 1825 50  0001 C CNN
 	1    1400 1825
@@ -805,14 +805,10 @@ Text GLabel 1475 4000 0    31   Input ~ 0
 Logic_3.3V
 Text GLabel 1475 2025 0    31   Input ~ 0
 Logic_3.3V
-Text GLabel 1450 6100 0    31   Input ~ 0
-Logic_3.3V
-Text GLabel 1475 8100 0    31   Input ~ 0
+Text GLabel 1425 6000 0    31   Input ~ 0
 Logic_3.3V
 Wire Wire Line
 	1550 8100 1475 8100
-Wire Wire Line
-	1550 6100 1450 6100
 Wire Wire Line
 	1575 2025 1475 2025
 Wire Wire Line
@@ -823,17 +819,13 @@ Wire Wire Line
 	4850 2850 4750 2850
 Wire Wire Line
 	4850 2950 4750 2950
-Wire Wire Line
-	6700 1450 6575 1450
-Wire Wire Line
-	6700 1550 6575 1550
 Text GLabel 4750 2850 0    31   Input ~ 0
 Encoder1_PWM
 Text GLabel 4750 2950 0    31   Input ~ 0
 Encoder2_PWM
-Text GLabel 6575 1450 0    31   Input ~ 0
+Text GLabel 6650 1450 0    31   Input ~ 0
 Encoder3_PWM
-Text GLabel 6575 1550 0    31   Input ~ 0
+Text GLabel 6650 1550 0    31   Input ~ 0
 Encoder4_PWM
 Text Notes 4775 4025 0    118  ~ 24
 Limit Switch\n
@@ -1177,4 +1169,297 @@ Wire Wire Line
 	5750 5575 5675 5575
 Text GLabel 5675 5575 0    31   Input ~ 0
 Logic_3.3V
+Wire Wire Line
+	11600 1925 11725 1925
+Text GLabel 10325 1925 0    31   Input ~ 0
+TX_1_Tiva
+Text GLabel 10350 1825 0    31   Output ~ 0
+RX_1_Tiva
+Wire Wire Line
+	10350 1825 10500 1825
+Wire Wire Line
+	4850 1250 4750 1250
+Wire Wire Line
+	4850 1350 4750 1350
+Text GLabel 4750 1250 0    31   Input ~ 0
+RX_1_Tiva
+Text GLabel 4750 1350 0    31   Output ~ 0
+TX_1_Tiva
+Text Notes 4250 1325 0    31   ~ 0
+Serial 7
+Wire Wire Line
+	6700 1450 6650 1450
+Wire Wire Line
+	6700 1550 6650 1550
+Wire Wire Line
+	5750 1350 5800 1350
+Wire Wire Line
+	5750 1250 5800 1250
+Wire Wire Line
+	5750 1450 5800 1450
+Wire Wire Line
+	5750 1550 5800 1550
+Wire Wire Line
+	7600 1250 7650 1250
+Wire Wire Line
+	7600 1350 7650 1350
+Wire Wire Line
+	7600 1450 7650 1450
+Wire Wire Line
+	7600 1550 7650 1550
+Wire Wire Line
+	4850 1150 4775 1150
+Wire Wire Line
+	4850 1450 4775 1450
+Wire Wire Line
+	4850 1550 4775 1550
+Wire Wire Line
+	4850 1750 4775 1750
+Text GLabel 4775 1150 0    31   Input ~ 0
+LS_1
+Text GLabel 4775 1450 0    31   Input ~ 0
+LS_2
+Text GLabel 4775 1550 0    31   Input ~ 0
+LS_3
+Text GLabel 4775 1750 0    31   Input ~ 0
+LS_4
+Text GLabel 5800 1250 2    31   Input ~ 0
+LS_5
+Text GLabel 5800 1350 2    31   Input ~ 0
+LS_6
+Text GLabel 5800 1450 2    31   Input ~ 0
+LS_7
+Text GLabel 5800 1550 2    31   Input ~ 0
+LS_8
+Wire Wire Line
+	1575 2125 1500 2125
+$Comp
+L Device:R_Small R?
+U 1 1 5BDE1FC2
+P 1400 2125
+F 0 "R?" V 1475 2125 31  0000 C CNN
+F 1 "R_Small" V 1475 2125 50  0001 C CNN
+F 2 "" H 1400 2125 50  0001 C CNN
+F 3 "~" H 1400 2125 50  0001 C CNN
+	1    1400 2125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 2125 1250 2125
+Text GLabel 1250 2125 0    31   Input ~ 0
+IN_B1
+Wire Wire Line
+	1575 1525 1525 1525
+$Comp
+L Device:R_Small R?
+U 1 1 5BE1D2C0
+P 1425 1525
+F 0 "R?" V 1350 1525 31  0000 C CNN
+F 1 "R_Small" V 1320 1525 50  0001 C CNN
+F 2 "" H 1425 1525 50  0001 C CNN
+F 3 "~" H 1425 1525 50  0001 C CNN
+	1    1425 1525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 1525 1275 1525
+Text GLabel 1275 1525 0    31   Input ~ 0
+IN_A1
+Wire Wire Line
+	1500 3500 1575 3500
+$Comp
+L Device:R_Small R?
+U 1 1 5BE3C431
+P 1400 3500
+F 0 "R?" V 1325 3500 31  0000 C CNN
+F 1 "R_Small" V 1295 3500 50  0001 C CNN
+F 2 "" H 1400 3500 50  0001 C CNN
+F 3 "~" H 1400 3500 50  0001 C CNN
+	1    1400 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 3500 1225 3500
+Text GLabel 1225 3500 0    31   Input ~ 0
+IN_A2
+Wire Wire Line
+	1575 4100 1525 4100
+$Comp
+L Device:R_Small R?
+U 1 1 5BE5B77C
+P 1425 4100
+F 0 "R?" V 1475 4100 31  0000 C CNN
+F 1 "R_Small" V 1320 4100 50  0001 C CNN
+F 2 "" H 1425 4100 50  0001 C CNN
+F 3 "~" H 1425 4100 50  0001 C CNN
+	1    1425 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 4100 1275 4100
+Text GLabel 1275 4100 0    31   Input ~ 0
+IN_B2
+Wire Wire Line
+	1550 5500 1500 5500
+$Comp
+L Device:R_Small R?
+U 1 1 5BE7FD26
+P 1400 5500
+F 0 "R?" V 1325 5500 31  0000 C CNN
+F 1 "R_Small" V 1295 5500 50  0001 C CNN
+F 2 "" H 1400 5500 50  0001 C CNN
+F 3 "~" H 1400 5500 50  0001 C CNN
+	1    1400 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5500 1250 5500
+Text GLabel 1250 5500 0    31   Input ~ 0
+IN_A3
+Wire Wire Line
+	1550 6000 1425 6000
+Wire Wire Line
+	1550 6100 1475 6100
+$Comp
+L Device:R_Small R?
+U 1 1 5BEC1C9D
+P 1375 6100
+F 0 "R?" V 1450 6100 31  0000 C CNN
+F 1 "R_Small" V 1270 6100 50  0001 C CNN
+F 2 "" H 1375 6100 50  0001 C CNN
+F 3 "~" H 1375 6100 50  0001 C CNN
+	1    1375 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 6100 1225 6100
+Text GLabel 1225 6100 0    31   Input ~ 0
+IN_B3
+Wire Wire Line
+	1550 7500 1500 7500
+$Comp
+L Device:R_Small R?
+U 1 1 5BEE4968
+P 1400 7500
+F 0 "R?" V 1325 7525 31  0000 C CNN
+F 1 "R_Small" V 1295 7500 50  0001 C CNN
+F 2 "" H 1400 7500 50  0001 C CNN
+F 3 "~" H 1400 7500 50  0001 C CNN
+	1    1400 7500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 7500 1250 7500
+Text GLabel 1250 7500 0    31   Input ~ 0
+IN_A4
+Text GLabel 1475 8000 0    31   Input ~ 0
+Logic_3.3V
+Wire Wire Line
+	1550 8000 1475 8000
+$Comp
+L Device:R_Small R?
+U 1 1 5BF19838
+P 1375 8100
+F 0 "R?" V 1450 8100 31  0000 C CNN
+F 1 "R_Small" V 1270 8100 50  0001 C CNN
+F 2 "" H 1375 8100 50  0001 C CNN
+F 3 "~" H 1375 8100 50  0001 C CNN
+	1    1375 8100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 8100 1225 8100
+Text GLabel 1225 8100 0    31   Input ~ 0
+IN_A4
+$Comp
+L Device:R_Small R?
+U 1 1 5BF2B87C
+P 1325 7800
+F 0 "R?" V 1400 7800 50  0001 C CNN
+F 1 "R_Small" V 1220 7800 50  0001 C CNN
+F 2 "" H 1325 7800 50  0001 C CNN
+F 3 "~" H 1325 7800 50  0001 C CNN
+	1    1325 7800
+	0    1    1    0   
+$EndComp
+Connection ~ 1425 7800
+Connection ~ 1225 7800
+Text Notes 1400 8125 2    31   ~ 0
+1K
+Text Notes 1425 7525 2    31   ~ 0
+1K
+Text Notes 1400 6125 2    31   ~ 0
+1K
+Text Notes 1425 5525 2    31   ~ 0
+1K
+Text Notes 1450 4125 2    31   ~ 0
+1K
+Text Notes 1425 3525 2    31   ~ 0
+1K
+Text Notes 1425 2150 2    31   ~ 0
+1K
+Text Notes 1450 1550 2    31   ~ 0
+1K
+Wire Wire Line
+	3150 6850 3200 6850
+Wire Wire Line
+	3200 6850 3200 6950
+Wire Wire Line
+	3200 7150 3150 7150
+Wire Wire Line
+	3150 7050 3200 7050
+Connection ~ 3200 7050
+Wire Wire Line
+	3200 7050 3200 7150
+Wire Wire Line
+	3150 6950 3200 6950
+Connection ~ 3200 6950
+Wire Wire Line
+	3200 6950 3200 7050
+Wire Wire Line
+	3150 7250 3200 7250
+Wire Wire Line
+	3200 7550 3150 7550
+Wire Wire Line
+	3150 7450 3200 7450
+Wire Wire Line
+	3200 7250 3200 7350
+Connection ~ 3200 7450
+Wire Wire Line
+	3200 7450 3200 7550
+Wire Wire Line
+	3150 7350 3200 7350
+Connection ~ 3200 7350
+Wire Wire Line
+	3200 7350 3200 7450
+Text Notes 3175 6800 0    31   ~ 0
+Out_A4
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5C0054EB
+P 3875 7250
+F 0 "Conn?" H 4075 7500 39  0000 R CNN
+F 1 "AndersonPP" V 3800 7350 60  0001 R CNN
+F 2 "" H 3725 6700 60  0001 C CNN
+F 3 "" H 3725 6700 60  0001 C CNN
+	1    3875 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5C0430E0
+P 3875 6850
+F 0 "Conn?" H 4075 7100 39  0000 R CNN
+F 1 "AndersonPP" H 4175 6800 51  0000 R CNN
+F 2 "" H 3725 6300 60  0001 C CNN
+F 3 "" H 3725 6300 60  0001 C CNN
+	2    3875 6850
+	-1   0    0    1   
+$EndComp
+Text Notes 3500 6700 0    51   ~ 0
+Motor 4\n
+Wire Wire Line
+	3200 6950 3475 6950
+Wire Wire Line
+	3200 7350 3475 7350
 $EndSCHEMATC
