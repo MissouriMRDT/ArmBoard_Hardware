@@ -1409,18 +1409,7 @@ F 3 "" H 3650 4700 60  0001 C CNN
 	1    3800 5250
 	-1   0    0    1   
 $EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5C0430E0
-P 3800 4850
-F 0 "Conn?" H 4000 5100 39  0000 R CNN
-F 1 "AndersonPP" H 4100 4800 51  0000 R CNN
-F 2 "" H 3650 4300 60  0001 C CNN
-F 3 "" H 3650 4300 60  0001 C CNN
-	2    3800 4850
-	-1   0    0    1   
-$EndComp
-Text Notes 3500 6700 0    51   ~ 0
+Text Notes 3650 6750 0    51   ~ 0
 Motor 4\n
 Wire Wire Line
 	3200 6950 3475 6950
@@ -1577,28 +1566,6 @@ F 3 "" H 3725 6700 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5C47ADB7
-P 3875 6850
-F 0 "Conn?" H 4075 7100 39  0000 R CNN
-F 1 "AndersonPP" H 4175 6800 51  0000 R CNN
-F 2 "" H 3725 6300 60  0001 C CNN
-F 3 "" H 3725 6300 60  0001 C CNN
-	2    3875 6850
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5C47B3CD
-P 3875 2850
-F 0 "Conn?" H 4075 3100 39  0000 R CNN
-F 1 "AndersonPP" H 4175 2800 51  0000 R CNN
-F 2 "" H 3725 2300 60  0001 C CNN
-F 3 "" H 3725 2300 60  0001 C CNN
-	2    3875 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5C47B742
 P 3875 3250
 F 0 "Conn?" H 4075 3500 39  0000 R CNN
@@ -1606,17 +1573,6 @@ F 1 "AndersonPP" V 3800 3350 60  0001 R CNN
 F 2 "" H 3725 2700 60  0001 C CNN
 F 3 "" H 3725 2700 60  0001 C CNN
 	1    3875 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5C47BB30
-P 3825 875
-F 0 "Conn?" H 4025 1125 39  0000 R CNN
-F 1 "AndersonPP" H 4125 825 51  0000 R CNN
-F 2 "" H 3675 325 60  0001 C CNN
-F 3 "" H 3675 325 60  0001 C CNN
-	2    3825 875 
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1821,5 +1777,49 @@ F 2 "" H 10025 1400 50  0001 C CNN
 F 3 "" H 10025 1400 50  0001 C CNN
 	1    10025 1400
 	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5CC350B6
+P 3875 6850
+F 0 "Conn?" H 4075 7100 39  0000 R CNN
+F 1 "AndersonPP" H 4150 6825 39  0000 R CNN
+F 2 "" H 3725 6300 60  0001 C CNN
+F 3 "" H 3725 6300 60  0001 C CNN
+	3    3875 6850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5CC35253
+P 3800 4850
+F 0 "Conn?" H 4000 5100 39  0000 R CNN
+F 1 "AndersonPP" H 4075 4800 39  0000 R CNN
+F 2 "" H 3650 4300 60  0001 C CNN
+F 3 "" H 3650 4300 60  0001 C CNN
+	3    3800 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5CC35627
+P 3875 2850
+F 0 "Conn?" H 4075 3100 39  0000 R CNN
+F 1 "AndersonPP" H 4150 2800 39  0000 R CNN
+F 2 "" H 3725 2300 60  0001 C CNN
+F 3 "" H 3725 2300 60  0001 C CNN
+	3    3875 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5CC35999
+P 3825 875
+F 0 "Conn?" H 4025 1125 39  0000 R CNN
+F 1 "AndersonPP" H 4075 850 39  0000 R CNN
+F 2 "" H 3675 325 60  0001 C CNN
+F 3 "" H 3675 325 60  0001 C CNN
+	3    3825 875 
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

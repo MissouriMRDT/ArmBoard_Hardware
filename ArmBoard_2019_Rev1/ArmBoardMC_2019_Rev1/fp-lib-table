@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Device)(type KiCad)(uri "C:/Users/zbroo/Desktop/MRDT EPCB/MRDT_KiCAD_Libraries-2019R1/MRDT_KiCAD_Libraries-2019R1/Device")(options "")(descr ""))
+  (lib (name Package)(type KiCad)(uri "C:/Users/zbroo/Desktop/MRDT EPCB/MRDT_KiCAD_Libraries-2019R1/MRDT_KiCAD_Libraries-2019R1/Package")(options "")(descr ""))
+)
