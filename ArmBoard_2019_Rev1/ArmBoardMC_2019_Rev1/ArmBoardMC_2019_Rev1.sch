@@ -1549,7 +1549,7 @@ IN_B2
 Text GLabel 2600 7350 2    31   Output ~ 0
 IN_B3
 Text GLabel 2600 7450 2    31   Output ~ 0
-IN_A4
+IN_B4
 $Comp
 L Device:C_Small C10
 U 1 1 5C9225CC

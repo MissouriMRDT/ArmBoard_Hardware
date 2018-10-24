@@ -1,0 +1,41 @@
+TM4C129E_Launchpad
+-----X9:A1-----
+LS_1		PE4:A1_2:
+Rx_1_Tiva	PC4:A1_3:
+TX_1_Tiva	PC5:A1_4:
+LS_2		PC6:A1_5:
+LS_3		PE5:A1_6:
+LS_4		PC7:A1_8:
+
+-----X9:B1-----
+I_Sense_1	PE0:B1_3:
+I_Sense_2	PE1:B1_4:
+I_Sense_3	PE2:B1_5:
+I_Sense_4	PE3:B1_6:
+LS_5		PD7:B1_7:
+LS_6		PA6:B1_8:
+LS_7		PM4:B1_9:
+LS_8		PM5:B1_10:
+
+-----X9:C1-----
+Motor3_PWM	PF1:C1_1:
+Motor1_PWM	PF2:C1_2:
+Motor2_PWM	PF3:C1_3:
+Motor4_PWM	PG0:C1_4:
+Encoder1_PWM	PL4:C1_5:
+Encoder2_PWM	PL5:C1_6:
+IN_A1		PL0:C1_7:
+IN_A2		PL1:C1_8:
+IN_A3		PL2:C1_9:
+IN_A4		PL3:C1_10:
+
+-----X9:D1------
+IN_B1		PH2:D1_3:
+IN_B2		PH3:D1_4:
+IN_B3		PN2:D1_8:
+IN_B4		PN3:D1_9:
+
+-----X7:A2-----
+Encoder3_PWM		PD4:A2_5
+Encoder4_PWM		PD5:A2_6
+	
