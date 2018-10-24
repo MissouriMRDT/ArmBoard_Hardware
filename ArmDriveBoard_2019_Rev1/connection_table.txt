@@ -1,0 +1,52 @@
+Connections table
+//////////////////////////////
+MoCo 1
+Molex_s5
+input:5V / 3.3V
+
+pin_1:GND
+Pin_2:TX_1_SL
+Pin_3:RX_1_SL
+
+MoCo 2
+Molex_S5
+input:5V / 3.3V
+
+pin_1:GND
+Pin_2:TX_2_SL
+Pin_3:RX_2_SL
+
+Servo 1
+Molex_S3
+pin_1:GND
+Pin_2:+5V
+Pin_3:Servo1_PWM
+
+Servo 2
+Molex_S3
+pin_1:GND
+Pin_2:+5V
+Pin_3:Servo2_PWM
+
+Servo 3
+Molex_S3
+pin_1:GND
+Pin_2:+5V
+Pin_3:Servo3_PWM
+
+Laser 1
+Molex_S2
+Pin_1:+12V
+Pin_2:GND
+
+Laser 2
+Molex_S2
+Pin_1:+12V
+Pin_2:GND
+
+Solenoid
+Molex_S2
+Pin_1:+12V
+Pin_2:GND
+
+Power (GND,Log,Act) - Anderson3_horizontal
