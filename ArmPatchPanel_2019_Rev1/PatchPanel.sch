@@ -178,4 +178,87 @@ Text Notes 5150 2200 0    79   ~ 0
 MC1
 Text Notes 6100 2200 0    79   ~ 0
 MC2
+$Comp
+L Device:C C1
+U 1 1 5BD391BD
+P 6700 2450
+F 0 "C1" H 6815 2496 50  0000 L CNN
+F 1 "10uF" H 6815 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 2300 50  0001 C CNN
+F 3 "~" H 6700 2450 50  0001 C CNN
+	1    6700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BD39264
+P 7800 2450
+F 0 "C2" H 7915 2496 50  0000 L CNN
+F 1 "10uF" H 7915 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 2300 50  0001 C CNN
+F 3 "~" H 7800 2450 50  0001 C CNN
+	1    7800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn5
+U 1 1 5BD39375
+P 8550 2500
+F 0 "Conn5" H 8677 2658 60  0000 L CNN
+F 1 "Molex_SL_02" H 8677 2552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 8550 2400 60  0001 C CNN
+F 3 "" H 8550 2400 60  0001 C CNN
+	1    8550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2600 6700 2600
+Connection ~ 6500 2600
+Connection ~ 6700 2600
+Wire Wire Line
+	6500 2400 6500 2300
+Wire Wire Line
+	6500 2300 6700 2300
+Connection ~ 6500 2400
+Wire Wire Line
+	6700 2600 7150 2600
+$Comp
+L MRDT_Devices:OKI U1
+U 1 1 5BD39164
+P 7250 2400
+F 0 "U1" H 7300 2350 60  0001 C CNN
+F 1 "OKI" H 7450 2680 60  0000 C CNN
+F 2 "MRDT_Devices:OKI_Horizontal" H 7050 2300 60  0001 C CNN
+F 3 "" H 7050 2300 60  0001 C CNN
+	1    7250 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2300 7450 2300
+Wire Wire Line
+	7450 2300 7450 2200
+Connection ~ 6700 2300
+Wire Wire Line
+	7450 2300 7450 2600
+Wire Wire Line
+	7450 2600 7800 2600
+Connection ~ 7450 2300
+Wire Wire Line
+	7150 1800 7800 1800
+Wire Wire Line
+	7800 1800 7800 2300
+Wire Wire Line
+	7800 2300 8350 2300
+Wire Wire Line
+	8350 2300 8350 2350
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2600 8350 2600
+Wire Wire Line
+	8350 2600 8350 2450
+Connection ~ 7800 2600
+Text Label 8250 2300 0    50   ~ 0
++5V
+Text Label 8350 2550 0    50   ~ 0
+GND
 $EndSCHEMATC

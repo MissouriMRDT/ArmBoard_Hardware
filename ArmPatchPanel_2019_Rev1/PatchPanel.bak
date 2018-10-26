@@ -53,7 +53,7 @@ U 1 1 5BCA6C87
 P 4200 2500
 F 0 "Conn2" H 3950 2650 60  0000 C CNN
 F 1 "AndersonPP" H 4406 2781 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 4050 1950 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 4050 1950 60  0001 C CNN
 F 3 "" H 4050 1950 60  0001 C CNN
 	1    4200 2500
 	1    0    0    -1  
@@ -64,7 +64,7 @@ U 2 1 5BCA6C8E
 P 4200 2700
 F 0 "Conn2" H 3950 2850 60  0000 C CNN
 F 1 "AndersonPP" H 4406 2981 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 4050 2150 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 4050 2150 60  0001 C CNN
 F 3 "" H 4050 2150 60  0001 C CNN
 	2    4200 2700
 	1    0    0    -1  
@@ -75,7 +75,7 @@ U 3 1 5BCA6C95
 P 4200 2900
 F 0 "Conn2" H 3950 3050 60  0000 C CNN
 F 1 "AndersonPP" H 4406 3181 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 4050 2350 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 4050 2350 60  0001 C CNN
 F 3 "" H 4050 2350 60  0001 C CNN
 	3    4200 2900
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5BCA6F40
 P 5150 2500
 F 0 "Conn3" H 4900 2650 60  0000 C CNN
 F 1 "AndersonPP" H 5356 2781 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5000 1950 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5000 1950 60  0001 C CNN
 F 3 "" H 5000 1950 60  0001 C CNN
 	1    5150 2500
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 2 1 5BCA6F47
 P 5150 2700
 F 0 "Conn3" H 4900 2850 60  0000 C CNN
 F 1 "AndersonPP" H 5356 2981 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5000 2150 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5000 2150 60  0001 C CNN
 F 3 "" H 5000 2150 60  0001 C CNN
 	2    5150 2700
 	1    0    0    -1  
@@ -108,7 +108,7 @@ U 3 1 5BCA6F4E
 P 5150 2900
 F 0 "Conn3" H 4900 3050 60  0000 C CNN
 F 1 "AndersonPP" H 5356 3181 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5000 2350 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5000 2350 60  0001 C CNN
 F 3 "" H 5000 2350 60  0001 C CNN
 	3    5150 2900
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 5BCA6F55
 P 6100 2500
 F 0 "Conn4" H 5850 2650 60  0000 C CNN
 F 1 "AndersonPP" H 6306 2781 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5950 1950 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5950 1950 60  0001 C CNN
 F 3 "" H 5950 1950 60  0001 C CNN
 	1    6100 2500
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 2 1 5BCA6F5C
 P 6100 2700
 F 0 "Conn4" H 5850 2850 60  0000 C CNN
 F 1 "AndersonPP" H 6306 2981 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5950 2150 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5950 2150 60  0001 C CNN
 F 3 "" H 5950 2150 60  0001 C CNN
 	2    6100 2700
 	1    0    0    -1  
@@ -141,7 +141,7 @@ U 3 1 5BCA6F63
 P 6100 2900
 F 0 "Conn4" H 5850 3050 60  0000 C CNN
 F 1 "AndersonPP" H 6306 3181 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 5950 2350 60  0001 C CNN
+F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 5950 2350 60  0001 C CNN
 F 3 "" H 5950 2350 60  0001 C CNN
 	3    6100 2900
 	1    0    0    -1  
