@@ -526,7 +526,7 @@ U 1 1 5BCC4D12
 P 8100 1575
 F 0 "Conn5" H 8075 2200 60  0000 L CNN
 F 1 "Molex_SL_05" H 7925 2125 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 8100 1575 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 8100 1575 60  0001 C CNN
 F 3 "" H 8100 1575 60  0001 C CNN
 	1    8100 1575
 	1    0    0    -1  
@@ -1124,13 +1124,13 @@ Text GLabel 1525 5925 0    31   Input ~ 0
 LS_3
 Text GLabel 1525 6125 0    31   Input ~ 0
 LS_4
-Text GLabel 2550 5625 2    31   Input ~ 0
+Text GLabel 2500 6025 2    31   Input ~ 0
 LS_5
-Text GLabel 2550 5725 2    31   Input ~ 0
+Text GLabel 2500 6125 2    31   Input ~ 0
 LS_6
-Text GLabel 2550 5825 2    31   Input ~ 0
+Text GLabel 2500 6225 2    31   Input ~ 0
 LS_7
-Text GLabel 2550 5925 2    31   Input ~ 0
+Text GLabel 2500 6325 2    31   Input ~ 0
 LS_8
 Wire Wire Line
 	1375 2250 1300 2250
@@ -1370,8 +1370,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 3550 3300 3550
 Wire Wire Line
-	3100 3150 3275 3150
-Wire Wire Line
 	3050 1300 2975 1300
 Wire Wire Line
 	2975 1200 3050 1200
@@ -1549,7 +1547,7 @@ IN_B2
 Text GLabel 2600 7350 2    31   Output ~ 0
 IN_B3
 Text GLabel 2600 7450 2    31   Output ~ 0
-IN_A4
+IN_B4
 $Comp
 L Device:C_Small C10
 U 1 1 5C9225CC
@@ -1769,15 +1767,12 @@ F 3 "" H 6575 2925 60  0001 C CNN
 $EndComp
 Text GLabel 7275 5575 0    31   Input ~ 0
 Logic_3.3V
-Connection ~ 3275 3150
-Wire Wire Line
-	3275 3150 3300 3150
 Text Label 3050 1100 0    39   ~ 0
 Out_A1
 Text Label 3050 1500 0    39   ~ 0
 Out_B1
 Text Label 3100 3150 0    39   ~ 0
-Out_B2
+Out_A2
 Text Label 3100 3550 0    39   ~ 0
 Out_B2
 Text Label 6125 1025 0    39   ~ 0
@@ -1788,4 +1783,32 @@ Text Label 6050 3175 0    39   ~ 0
 Out_A4
 Text Label 6050 3575 0    39   ~ 0
 Out_B4
+Text GLabel 1375 2050 0    39   Output ~ 0
+I_Sense_1
+Text GLabel 1400 4100 0    39   Output ~ 0
+I_Sense_2
+Text GLabel 4450 1975 0    39   Output ~ 0
+I_Sense_3
+Text GLabel 2550 5925 2    39   Input ~ 0
+I_Sense_4
+Text GLabel 2550 5625 2    39   Input ~ 0
+I_Sense_1
+Text GLabel 2550 5725 2    39   Input ~ 0
+I_Sense_2
+Text GLabel 2550 5825 2    39   Input ~ 0
+I_Sense_3
+Text GLabel 4400 4125 0    39   Output ~ 0
+I_Sense_4
+Text Notes 2900 5650 0    39   ~ 0
+A3
+Text Notes 2900 5750 0    39   ~ 0
+A2
+Text Notes 2900 5850 0    39   ~ 0
+A1
+Text Notes 2900 5950 0    39   ~ 0
+A0
+Wire Wire Line
+	3275 3150 3100 3150
+Text Label 9225 3200 0    50   ~ 0
+V+Log
 $EndSCHEMATC

@@ -82,7 +82,7 @@ F 3 "" H 5550 3500 50  0001 C CNN
 	1    5550 3500
 	0    1    1    0   
 $EndComp
-Text Notes 2900 2150 0    60   ~ 0
+Text Notes 2900 2250 0    60   ~ 0
 Serial 6
 Text Notes 4250 2450 0    60   ~ 0
 Serial 4
@@ -106,9 +106,9 @@ Text GLabel 8150 3300 0    60   Input ~ 0
 TX_1_SL
 Text GLabel 8150 3400 0    60   Output ~ 0
 RX_1_SL
-Text GLabel 3300 2300 0    60   Output ~ 0
+Text GLabel 3300 2400 0    60   Output ~ 0
 TX_1_IC
-Text GLabel 3300 2200 0    60   Input ~ 0
+Text GLabel 3300 2300 0    60   Input ~ 0
 RX_1_IC
 Text GLabel 5700 4000 0    60   Input ~ 0
 TX_2_IC
@@ -540,11 +540,11 @@ Text GLabel 5900 1400 2    50   Input ~ 0
 +12V_Act
 Text GLabel 5200 4750 2    50   Input ~ 0
 +12V_Act
-Text GLabel 3300 2500 0    50   Input ~ 0
+Text GLabel 3300 2700 0    50   Input ~ 0
 Laser_control
 Text GLabel 5050 5150 0    50   Input ~ 0
 Laser_control
-Text GLabel 3300 2600 0    50   Input ~ 0
+Text GLabel 3300 2800 0    50   Input ~ 0
 Solenoial_Control
 Text GLabel 5050 5700 0    50   Input ~ 0
 Solenoid_Control

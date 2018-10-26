@@ -38,8 +38,6 @@ F 3 "" H 7350 1900 50  0001 C CNN
 $EndComp
 Text Label 5950 1750 0    60   ~ 0
 +12V_log
-Text Notes 8450 3350 1    60   ~ 0
-Motor 1
 $Comp
 L Device:C_Small C4
 U 1 1 5B9D8B05
@@ -92,10 +90,6 @@ Text GLabel 4200 2500 2    60   Input ~ 0
 RX_2_IC
 Text GLabel 4200 2600 2    60   Output ~ 0
 TX_2_IC
-NoConn ~ 8150 3000
-NoConn ~ 8150 3100
-NoConn ~ 8150 3700
-NoConn ~ 8150 3800
 Text GLabel 6800 4000 2    60   Output ~ 0
 TX_2_SL
 Text GLabel 6800 3900 2    60   Input ~ 0
@@ -393,23 +387,12 @@ F 3 "" H 5900 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn2
-U 1 1 5BC6E438
-P 8350 3450
-F 0 "Conn2" H 8477 3758 60  0000 L CNN
-F 1 "MoCo 1" H 8477 3652 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 8350 3450 60  0001 C CNN
-F 3 "" H 8350 3450 60  0001 C CNN
-	1    8350 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:Molex_SL_05 Conn3
+L MRDT_Connectors:Molex_SL_03 Conn3
 U 1 1 5BC6E491
 P 8350 4150
 F 0 "Conn3" H 8477 4458 60  0000 L CNN
 F 1 "MoCo 2" H 8477 4352 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 8350 4150 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 8350 4150 60  0001 C CNN
 F 3 "" H 8350 4150 60  0001 C CNN
 	1    8350 4150
 	1    0    0    -1  
@@ -420,7 +403,7 @@ U 1 1 5BCAB0BE
 P 8350 5150
 F 0 "Conn8" H 8478 5358 60  0000 L CNN
 F 1 "Servo 2" H 8478 5252 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 8350 5150 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 8350 5150 60  0001 C CNN
 F 3 "" H 8350 5150 60  0001 C CNN
 	1    8350 5150
 	1    0    0    -1  
@@ -439,7 +422,7 @@ U 1 1 5BCAC1D7
 P 8350 4650
 F 0 "Conn7" H 8478 4858 60  0000 L CNN
 F 1 "Servo 1" H 8478 4752 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 8350 4650 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 8350 4650 60  0001 C CNN
 F 3 "" H 8350 4650 60  0001 C CNN
 	1    8350 4650
 	1    0    0    -1  
@@ -456,7 +439,7 @@ U 1 1 5BCAC820
 P 8350 5550
 F 0 "Conn9" H 8478 5758 60  0000 L CNN
 F 1 "Servo 3" H 8478 5652 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 8350 5550 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 8350 5550 60  0001 C CNN
 F 3 "" H 8350 5550 60  0001 C CNN
 	1    8350 5550
 	1    0    0    -1  
@@ -477,7 +460,7 @@ U 1 1 5BCADF34
 P 6300 4950
 F 0 "Conn4" H 6428 5108 60  0000 L CNN
 F 1 "Laser 1" H 6428 5002 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6300 4850 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 6300 4850 60  0001 C CNN
 F 3 "" H 6300 4850 60  0001 C CNN
 	1    6300 4950
 	1    0    0    -1  
@@ -488,7 +471,7 @@ U 1 1 5BCADFB6
 P 6300 5350
 F 0 "Conn5" H 6428 5508 60  0000 L CNN
 F 1 "Laser 2" H 6428 5402 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6300 5250 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 6300 5250 60  0001 C CNN
 F 3 "" H 6300 5250 60  0001 C CNN
 	1    6300 5350
 	1    0    0    -1  
@@ -499,7 +482,7 @@ U 1 1 5BCAE57B
 P 6300 5700
 F 0 "Conn6" H 6427 5858 60  0000 L CNN
 F 1 "Solenoid" H 6427 5752 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6300 5600 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 6300 5600 60  0001 C CNN
 F 3 "" H 6300 5600 60  0001 C CNN
 	1    6300 5700
 	1    0    0    -1  
@@ -581,6 +564,17 @@ F 1 "Q_NMOS_DGS" H 5455 5105 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 5250 50  0001 C CNN
 F 3 "~" H 5250 5150 50  0001 C CNN
 	1    5250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn2
+U 1 1 5BC6E438
+P 8350 3450
+F 0 "Conn2" H 8477 3758 60  0000 L CNN
+F 1 "MoCo 1" H 8477 3652 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 8350 3450 60  0001 C CNN
+F 3 "" H 8350 3450 60  0001 C CNN
+	1    8350 3450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
