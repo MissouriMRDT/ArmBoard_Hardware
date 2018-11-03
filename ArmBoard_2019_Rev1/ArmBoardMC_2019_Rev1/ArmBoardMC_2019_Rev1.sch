@@ -543,9 +543,9 @@ Text GLabel 1500 6750 0    31   Output ~ 6
 MOTOR1_PWM
 Text GLabel 1500 6850 0    31   Output ~ 6
 MOTOR2_PWM
-Text GLabel 1500 6650 0    31   Output ~ 6
+Text GLabel 4400 5625 2    31   Output ~ 6
 MOTOR3_PWM
-Text GLabel 1500 6950 0    31   Output ~ 6
+Text GLabel 4400 5725 2    31   Output ~ 6
 MOTOR4_PWM
 Wire Wire Line
 	1400 4000 1325 4000
@@ -747,10 +747,6 @@ Wire Wire Line
 	4400 4325 4325 4325
 Wire Wire Line
 	1375 2150 1275 2150
-Wire Wire Line
-	1600 6950 1500 6950
-Wire Wire Line
-	1600 6650 1500 6650
 Text GLabel 4400 6025 2    31   Input ~ 0
 Encoder1_PWM
 Text GLabel 4400 6125 2    31   Input ~ 0
@@ -1773,13 +1769,13 @@ Text GLabel 1400 4100 0    39   Output ~ 0
 I_Sense_2
 Text GLabel 4450 1975 0    39   Output ~ 0
 I_Sense_3
-Text GLabel 2550 5925 2    39   Input ~ 0
+Text GLabel 4425 5925 2    39   Input ~ 0
 I_Sense_4
 Text GLabel 2550 5625 2    39   Input ~ 0
 I_Sense_1
 Text GLabel 2550 5725 2    39   Input ~ 0
 I_Sense_2
-Text GLabel 2550 5825 2    39   Input ~ 0
+Text GLabel 4425 5825 2    39   Input ~ 0
 I_Sense_3
 Text GLabel 4400 4125 0    39   Output ~ 0
 I_Sense_4
@@ -1787,9 +1783,9 @@ Text Notes 2900 5650 0    39   ~ 0
 A3
 Text Notes 2900 5750 0    39   ~ 0
 A2
-Text Notes 2900 5850 0    39   ~ 0
+Text Notes 4775 5850 0    39   ~ 0
 A1
-Text Notes 2900 5950 0    39   ~ 0
+Text Notes 4775 5950 0    39   ~ 0
 A0
 Wire Wire Line
 	3275 3150 3100 3150
@@ -1819,4 +1815,12 @@ Wire Wire Line
 	4350 6025 4400 6025
 Wire Wire Line
 	4350 6125 4400 6125
+Wire Wire Line
+	4350 5625 4400 5625
+Wire Wire Line
+	4350 5725 4400 5725
+Wire Wire Line
+	4350 5825 4425 5825
+Wire Wire Line
+	4350 5925 4425 5925
 $EndSCHEMATC

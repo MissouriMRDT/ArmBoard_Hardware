@@ -543,9 +543,9 @@ Text GLabel 1500 6750 0    31   Output ~ 6
 MOTOR1_PWM
 Text GLabel 1500 6850 0    31   Output ~ 6
 MOTOR2_PWM
-Text GLabel 1500 6650 0    31   Output ~ 6
+Text GLabel 4400 5625 2    31   Output ~ 6
 MOTOR3_PWM
-Text GLabel 1500 6950 0    31   Output ~ 6
+Text GLabel 4400 5725 2    31   Output ~ 6
 MOTOR4_PWM
 Wire Wire Line
 	1400 4000 1325 4000
@@ -747,17 +747,9 @@ Wire Wire Line
 	4400 4325 4325 4325
 Wire Wire Line
 	1375 2150 1275 2150
-Wire Wire Line
-	1600 6950 1500 6950
-Wire Wire Line
-	1600 6650 1500 6650
-Wire Wire Line
-	1600 7050 1500 7050
-Wire Wire Line
-	1600 7150 1500 7150
-Text GLabel 1500 7050 0    31   Input ~ 0
+Text GLabel 4400 6025 2    31   Input ~ 0
 Encoder1_PWM
-Text GLabel 1500 7150 0    31   Input ~ 0
+Text GLabel 4400 6125 2    31   Input ~ 0
 Encoder2_PWM
 Text GLabel 3400 5825 0    31   Input ~ 0
 Encoder3_PWM
@@ -1086,16 +1078,12 @@ Text GLabel 9325 1900 0    31   Output ~ 0
 RX_1_Tiva
 Wire Wire Line
 	9325 1900 9475 1900
-Wire Wire Line
-	1600 5625 1500 5625
-Wire Wire Line
-	1600 5725 1500 5725
-Text GLabel 1500 5625 0    31   Input ~ 0
+Text GLabel 3400 5625 0    31   Input ~ 0
 RX_1_Tiva
-Text GLabel 1500 5725 0    31   Output ~ 0
+Text GLabel 3400 5725 0    31   Output ~ 0
 TX_1_Tiva
-Text Notes 1000 5700 0    31   ~ 0
-Serial 7
+Text Notes 3175 5575 0    31   ~ 0
+Serial 6\n
 Wire Wire Line
 	3450 5825 3400 5825
 Wire Wire Line
@@ -1249,7 +1237,7 @@ $EndComp
 Wire Wire Line
 	4125 4325 4075 4325
 Text GLabel 4075 4325 0    31   Input ~ 0
-IN_A4
+IN_B4
 Wire Wire Line
 	6000 3075 6050 3075
 Wire Wire Line
@@ -1521,32 +1509,24 @@ Wire Wire Line
 Wire Wire Line
 	1600 7350 1500 7350
 Wire Wire Line
-	1600 7450 1500 7450
-Wire Wire Line
-	1600 7550 1500 7550
-Wire Wire Line
 	2500 6850 2600 6850
 Wire Wire Line
 	2500 6950 2600 6950
-Wire Wire Line
-	2500 7350 2600 7350
-Wire Wire Line
-	2500 7450 2600 7450
 Text GLabel 1500 7250 0    31   Output ~ 0
 IN_A1
 Text GLabel 1500 7350 0    31   Output ~ 0
 IN_A2
-Text GLabel 1500 7450 0    31   Output ~ 0
+Text GLabel 3400 7250 0    31   Output ~ 0
 IN_A3
-Text GLabel 1500 7550 0    31   Output ~ 0
+Text GLabel 3400 7350 0    31   Output ~ 0
 IN_A4
 Text GLabel 2600 6850 2    31   Output ~ 0
 IN_B1
 Text GLabel 2600 6950 2    31   Output ~ 0
 IN_B2
-Text GLabel 2600 7350 2    31   Output ~ 0
+Text GLabel 3400 7450 0    31   Output ~ 0
 IN_B3
-Text GLabel 2600 7450 2    31   Output ~ 0
+Text GLabel 3400 7550 0    31   Output ~ 0
 IN_B4
 $Comp
 L Device:C_Small C10
@@ -1811,4 +1791,32 @@ Wire Wire Line
 	3275 3150 3100 3150
 Text Label 9225 3200 0    50   ~ 0
 V+Log
+Wire Wire Line
+	3450 5625 3400 5625
+Wire Wire Line
+	3450 5725 3400 5725
+Wire Wire Line
+	3400 7250 3450 7250
+Wire Wire Line
+	3400 7350 3450 7350
+Wire Wire Line
+	3450 7450 3400 7450
+Wire Wire Line
+	3450 7550 3400 7550
+Wire Wire Line
+	7900 1225 7800 1225
+Wire Wire Line
+	7900 1125 7800 1125
+Text GLabel 7800 1125 0    31   Input ~ 0
+RX_2_SL
+Text GLabel 7800 1225 0    31   Input ~ 0
+TX_2_SL
+Wire Wire Line
+	4350 6025 4400 6025
+Wire Wire Line
+	4350 6125 4400 6125
+Wire Wire Line
+	4350 5625 4400 5625
+Wire Wire Line
+	4350 5725 4400 5725
 $EndSCHEMATC
