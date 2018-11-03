@@ -539,13 +539,13 @@ Wire Wire Line
 	1600 6750 1500 6750
 Wire Wire Line
 	1600 6850 1500 6850
-Text GLabel 1500 6750 0    31   Output ~ 6
+Text GLabel 1500 6750 0    31   Output ~ 0
 MOTOR1_PWM
-Text GLabel 1500 6850 0    31   Output ~ 6
+Text GLabel 1500 6850 0    31   Output ~ 0
 MOTOR2_PWM
-Text GLabel 4400 5625 2    31   Output ~ 6
+Text GLabel 4400 5625 2    31   Output ~ 0
 MOTOR3_PWM
-Text GLabel 4400 5725 2    31   Output ~ 6
+Text GLabel 4400 5725 2    31   Output ~ 0
 MOTOR4_PWM
 Wire Wire Line
 	1400 4000 1325 4000
@@ -596,13 +596,9 @@ Text GLabel 7500 1400 3    31   UnSpc ~ 0
 GND
 Text Notes 10675 875  2    118  ~ 24
 Level Shifter
-Wire Wire Line
-	10575 1900 10700 1900
-Wire Wire Line
-	9475 2000 9300 2000
-Text GLabel 10700 1900 2    31   Input ~ 0
+Text GLabel 10650 1900 2    31   Input ~ 0
 RX_1_SL
-Text GLabel 10700 2000 2    31   Output ~ 0
+Text GLabel 10650 2000 2    31   Output ~ 0
 TX_1_SL
 Wire Wire Line
 	2975 1800 3050 1800
@@ -1070,14 +1066,10 @@ Wire Wire Line
 	8250 6025 8175 6025
 Text GLabel 8175 6025 0    31   Input ~ 0
 Logic_3.3V
-Wire Wire Line
-	10575 2000 10700 2000
-Text GLabel 9300 2000 0    31   Input ~ 0
+Text GLabel 9400 2000 0    31   Input ~ 0
 TX_1_Tiva
-Text GLabel 9325 1900 0    31   Output ~ 0
+Text GLabel 9400 1900 0    31   Output ~ 0
 RX_1_Tiva
-Wire Wire Line
-	9325 1900 9475 1900
 Text GLabel 3400 5625 0    31   Input ~ 0
 RX_1_Tiva
 Text GLabel 3400 5725 0    31   Output ~ 0
@@ -1705,8 +1697,8 @@ $Comp
 L MRDT_Connectors:AndersonPP Conn2
 U 2 1 5BDBDE04
 P 3700 3450
-F 0 "Conn2" H 3673 3497 60  0000 R CNN
-F 1 "AndersonPP" H 3673 3603 60  0000 R CNN
+F 0 "Conn2" H 3675 3075 60  0000 R CNN
+F 1 "Anderson-2" H 3675 3150 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 3550 2900 60  0001 C CNN
 F 3 "" H 3550 2900 60  0001 C CNN
 	2    3700 3450
@@ -1716,8 +1708,8 @@ $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 2 1 5BDBE507
 P 3625 1400
-F 0 "Conn1" H 3598 1447 60  0000 R CNN
-F 1 "AndersonPP" H 3598 1553 60  0000 R CNN
+F 0 "Conn1" H 3600 1025 60  0000 R CNN
+F 1 "Anderson-2" H 3600 1100 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 3475 850 60  0001 C CNN
 F 3 "" H 3475 850 60  0001 C CNN
 	2    3625 1400
@@ -1727,8 +1719,8 @@ $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5BDBE5AD
 P 6700 1325
-F 0 "Conn3" H 6673 1372 60  0000 R CNN
-F 1 "AndersonPP" H 6673 1478 60  0000 R CNN
+F 0 "Conn3" H 6650 925 60  0000 R CNN
+F 1 "Anderson-2" H 6650 1025 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6550 775 60  0001 C CNN
 F 3 "" H 6550 775 60  0001 C CNN
 	2    6700 1325
@@ -1738,8 +1730,8 @@ $Comp
 L MRDT_Connectors:AndersonPP Conn4
 U 2 1 5BDBE659
 P 6725 3475
-F 0 "Conn4" H 6698 3522 60  0000 R CNN
-F 1 "AndersonPP" H 6698 3628 60  0000 R CNN
+F 0 "Conn4" H 6675 3100 60  0000 R CNN
+F 1 "Anderson-2" H 6675 3175 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6575 2925 60  0001 C CNN
 F 3 "" H 6575 2925 60  0001 C CNN
 	2    6725 3475
@@ -1769,13 +1761,13 @@ Text GLabel 1400 4100 0    39   Output ~ 0
 I_Sense_2
 Text GLabel 4450 1975 0    39   Output ~ 0
 I_Sense_3
-Text GLabel 4425 5925 2    39   Input ~ 0
+Text GLabel 4425 5925 2    31   Input ~ 0
 I_Sense_4
 Text GLabel 2550 5625 2    39   Input ~ 0
 I_Sense_1
 Text GLabel 2550 5725 2    39   Input ~ 0
 I_Sense_2
-Text GLabel 4425 5825 2    39   Input ~ 0
+Text GLabel 4425 5825 2    31   Input ~ 0
 I_Sense_3
 Text GLabel 4400 4125 0    39   Output ~ 0
 I_Sense_4
@@ -1823,4 +1815,36 @@ Wire Wire Line
 	4350 5825 4425 5825
 Wire Wire Line
 	4350 5925 4425 5925
+Wire Wire Line
+	9475 2150 9400 2150
+Wire Wire Line
+	9475 2250 9400 2250
+Wire Wire Line
+	10575 2150 10650 2150
+Wire Wire Line
+	10575 2250 10650 2250
+Text GLabel 9400 2150 0    31   Output ~ 0
+RX_2_Tiva
+Text GLabel 9400 2250 0    31   Input ~ 0
+TX_2_Tiva
+Text GLabel 10650 2150 2    31   Input ~ 0
+RX_2_SL
+Text GLabel 10650 2250 2    31   Output ~ 0
+TX_2_SL
+Wire Wire Line
+	10575 1900 10650 1900
+Wire Wire Line
+	10575 2000 10650 2000
+Wire Wire Line
+	9475 1900 9400 1900
+Wire Wire Line
+	9475 2000 9400 2000
+Wire Wire Line
+	4350 6225 4400 6225
+Wire Wire Line
+	4350 6325 4400 6325
+Text GLabel 4400 6225 2    31   Input ~ 0
+RX_2_Tiva
+Text GLabel 4400 6325 2    31   Output ~ 0
+TX_2_Tiva
 $EndSCHEMATC
