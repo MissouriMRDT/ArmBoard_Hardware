@@ -1698,7 +1698,7 @@ L MRDT_Connectors:AndersonPP Conn2
 U 2 1 5BDBDE04
 P 3700 3450
 F 0 "Conn2" H 3675 3075 60  0000 R CNN
-F 1 "Anderson-2" H 3675 3150 60  0000 R CNN
+F 1 "AndersonPP" H 3675 3150 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 3550 2900 60  0001 C CNN
 F 3 "" H 3550 2900 60  0001 C CNN
 	2    3700 3450
@@ -1709,7 +1709,7 @@ L MRDT_Connectors:AndersonPP Conn1
 U 2 1 5BDBE507
 P 3625 1400
 F 0 "Conn1" H 3600 1025 60  0000 R CNN
-F 1 "Anderson-2" H 3600 1100 60  0000 R CNN
+F 1 "AndersonPP" H 3600 1100 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 3475 850 60  0001 C CNN
 F 3 "" H 3475 850 60  0001 C CNN
 	2    3625 1400
@@ -1720,7 +1720,7 @@ L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5BDBE5AD
 P 6700 1325
 F 0 "Conn3" H 6650 925 60  0000 R CNN
-F 1 "Anderson-2" H 6650 1025 60  0000 R CNN
+F 1 "AndersonPP" H 6650 1025 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6550 775 60  0001 C CNN
 F 3 "" H 6550 775 60  0001 C CNN
 	2    6700 1325
@@ -1731,7 +1731,7 @@ L MRDT_Connectors:AndersonPP Conn4
 U 2 1 5BDBE659
 P 6725 3475
 F 0 "Conn4" H 6675 3100 60  0000 R CNN
-F 1 "Anderson-2" H 6675 3175 60  0000 R CNN
+F 1 "AndersonPP" H 6675 3175 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6575 2925 60  0001 C CNN
 F 3 "" H 6575 2925 60  0001 C CNN
 	2    6725 3475
