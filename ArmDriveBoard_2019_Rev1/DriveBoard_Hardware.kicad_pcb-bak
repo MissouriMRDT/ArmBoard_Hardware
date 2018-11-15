@@ -59,7 +59,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -256,12 +256,12 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5B784736) (tstamp 5BEECC82)
-    (at 226.1235 63.881)
+    (at 238.633 64.008)
     (path /5BC6E491)
     (fp_text reference Conn3 (at -1.27 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "MoCo 2" (at 0.635 2.032) (layer F.Fab)
+    (fp_text value "MoCo 2" (at -0.254 -3.81) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.81 1.27) (end -3.81 -1.27) (layer F.SilkS) (width 0.15))
@@ -560,7 +560,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5B784736) (tstamp 5BE27BFD)
-    (at 238.5695 63.9445)
+    (at 226.949 64.008)
     (path /5BC6E438)
     (fp_text reference Conn2 (at -1.27 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
