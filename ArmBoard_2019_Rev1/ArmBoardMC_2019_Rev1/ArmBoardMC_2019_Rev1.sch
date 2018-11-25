@@ -251,6 +251,8 @@ F 3 "~" H 9475 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9125 3650 9325 3650
+Text GLabel 9025 3900 0    50   UnSpc ~ 0
+GND
 Wire Wire Line
 	9325 3400 9325 3650
 Connection ~ 9325 3650
@@ -304,6 +306,7 @@ Wire Wire Line
 	10025 4550 9925 4550
 Wire Wire Line
 	9925 4550 9925 4250
+Connection ~ 9925 4050
 Wire Wire Line
 	10075 4250 9925 4250
 Connection ~ 9925 4250
@@ -748,7 +751,7 @@ Text GLabel 3400 5825 0    31   Input ~ 0
 Encoder3_PWM
 Text GLabel 3400 5925 0    31   Input ~ 0
 Encoder4_PWM
-Text Notes 7275 4350 0    118  ~ 24
+Text Notes 7225 4525 0    118  ~ 24
 Limit Switch\n
 $Comp
 L MRDT_Switches:Limit_Switch U7
@@ -763,20 +766,33 @@ F 3 "" H 7225 5050 118 0001 C CNN
 $EndComp
 Wire Wire Line
 	7175 4700 7250 4700
+Wire Wire Line
+	7250 4775 7200 4775
 $Comp
 L Device:R_Small R14
 U 1 1 5BE680DF
-P 7175 4875
-F 0 "R14" V 7250 4875 31  0000 C CNN
-F 1 "10K" V 7175 4875 31  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7175 4875 50  0001 C CNN
-F 3 "~" H 7175 4875 50  0001 C CNN
-	1    7175 4875
-	-1   0    0    1   
+P 7000 4775
+F 0 "R14" V 7075 4775 31  0000 C CNN
+F 1 "10K" V 7000 4775 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 4775 50  0001 C CNN
+F 3 "~" H 7000 4775 50  0001 C CNN
+	1    7000 4775
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	6900 4775 6850 4775
+Text GLabel 6850 4775 0    31   UnSpc ~ 0
+GND
 Text GLabel 7175 4700 0    31   Input ~ 0
 Logic_3.3V
-Text GLabel 7100 4775 0    31   Output ~ 0
+Wire Wire Line
+	7200 4775 7200 4900
+Wire Wire Line
+	7200 4900 7275 4900
+Connection ~ 7200 4775
+Wire Wire Line
+	7200 4775 7100 4775
+Text GLabel 7275 4900 2    31   Output ~ 0
 LS_1
 $Comp
 L MRDT_Switches:Limit_Switch U11
@@ -1831,46 +1847,4 @@ Text GLabel 4400 6225 2    31   Input ~ 0
 RX_2_Tiva
 Text GLabel 4400 6325 2    31   Output ~ 0
 TX_2_Tiva
-Connection ~ 9925 4050
-Wire Wire Line
-	7100 4775 7175 4775
-Connection ~ 7175 4775
-Wire Wire Line
-	7175 4775 7250 4775
-$Comp
-L power:GND #PWR?
-U 1 1 5BF3154A
-P 9325 4050
-F 0 "#PWR?" H 9325 3800 50  0001 C CNN
-F 1 "GND" H 9330 3877 50  0000 C CNN
-F 2 "" H 9325 4050 50  0001 C CNN
-F 3 "" H 9325 4050 50  0001 C CNN
-	1    9325 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7175 4975 7175 5025
-Connection ~ 9325 4050
-$Comp
-L power:GND #PWR?
-U 1 1 5BF58C6F
-P 7175 5025
-F 0 "#PWR?" H 7175 4775 50  0001 C CNN
-F 1 "GND" H 7180 4852 50  0000 C CNN
-F 2 "" H 7175 5025 50  0001 C CNN
-F 3 "" H 7175 5025 50  0001 C CNN
-	1    7175 5025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5BF5918B
-P 8125 4650
-F 0 "#PWR?" H 8125 4500 50  0001 C CNN
-F 1 "+3V3" H 8140 4823 50  0000 C CNN
-F 2 "" H 8125 4650 50  0001 C CNN
-F 3 "" H 8125 4650 50  0001 C CNN
-	1    8125 4650
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
