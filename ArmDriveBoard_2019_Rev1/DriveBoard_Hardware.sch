@@ -190,11 +190,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2850 2600 2850
 Wire Wire Line
-	2600 2850 2600 2900
-Wire Wire Line
 	2400 1750 2600 1750
-Wire Wire Line
-	2600 1750 2600 1800
 $Comp
 L power:GND #PWR0105
 U 1 1 5BA1C6E0
@@ -215,28 +211,6 @@ F 1 "GND" H 6005 1927 50  0000 C CNN
 F 2 "" H 6000 2100 50  0001 C CNN
 F 3 "" H 6000 2100 50  0001 C CNN
 	1    6000 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5BA1C882
-P 2600 2900
-F 0 "#PWR0107" H 2600 2650 50  0001 C CNN
-F 1 "GND" H 2600 2750 50  0000 C CNN
-F 2 "" H 2600 2900 50  0001 C CNN
-F 3 "" H 2600 2900 50  0001 C CNN
-	1    2600 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5BA1C93C
-P 2600 1800
-F 0 "#PWR0108" H 2600 1550 50  0001 C CNN
-F 1 "GND" H 2700 1800 50  0000 C CNN
-F 2 "" H 2600 1800 50  0001 C CNN
-F 3 "" H 2600 1800 50  0001 C CNN
-	1    2600 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -360,7 +334,7 @@ L MRDT_Connectors:Molex_SL_03 Conn3
 U 1 1 5BC6E491
 P 6700 2300
 F 0 "Conn3" H 6827 2608 60  0000 L CNN
-F 1 "MoCo 2" H 6827 2502 60  0000 L CNN
+F 1 "MoCo 2" H 6800 2500 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6700 2300 60  0001 C CNN
 F 3 "" H 6700 2300 60  0001 C CNN
 	1    6700 2300
@@ -405,19 +379,19 @@ Servo1_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 5BCAC820
-P 6700 3700
-F 0 "Conn9" H 6828 3908 60  0000 L CNN
-F 1 "Servo 3" H 6828 3802 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6700 3700 60  0001 C CNN
-F 3 "" H 6700 3700 60  0001 C CNN
-	1    6700 3700
+P 6700 3900
+F 0 "Conn9" H 6828 4108 60  0000 L CNN
+F 1 "Servo 3" H 6828 4002 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6700 3900 60  0001 C CNN
+F 3 "" H 6700 3900 60  0001 C CNN
+	1    6700 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 6500 3450 0    50   UnSpc ~ 0
+Text GLabel 6500 3650 0    50   UnSpc ~ 0
 GND
-Text GLabel 6500 3550 0    50   Input ~ 0
+Text GLabel 6500 3750 0    50   Input ~ 0
 +5V
-Text GLabel 6500 3650 0    50   Input ~ 0
+Text GLabel 6500 3850 0    50   Input ~ 0
 Servo3_PWM
 Text GLabel 1500 3250 0    50   Input ~ 0
 Servo2_PWM
@@ -456,20 +430,16 @@ F 3 "" H 5100 1750 60  0001 C CNN
 	1    5100 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 1050 0    50   UnSpc ~ 0
+Text GLabel 4900 1050 3    50   UnSpc ~ 0
 GND
 Text GLabel 4900 1450 0    50   UnSpc ~ 0
 GND
 Text GLabel 4900 1800 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	4900 950  4650 950 
-Wire Wire Line
 	4900 1700 4650 1700
 Wire Wire Line
 	4650 1350 4900 1350
-Wire Wire Line
-	4650 950  4650 1350
 Wire Wire Line
 	4000 1100 4150 1100
 Wire Wire Line
@@ -517,7 +487,7 @@ Text GLabel 1500 2350 0    50   Input ~ 0
 Solenoial_Control
 Text GLabel 3850 1850 0    50   Input ~ 0
 Solenoid_Control
-Text Notes 3750 750  0    98   ~ 20
+Text Notes 3500 500  0    98   ~ 20
 Laser & Solenoid Control
 Connection ~ 4000 1100
 Wire Wire Line
@@ -539,8 +509,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_03 Conn2
 U 1 1 5BC6E438
 P 6700 1600
-F 0 "Conn2" H 6827 1908 60  0000 L CNN
-F 1 "MoCo 1" H 6827 1802 60  0000 L CNN
+F 0 "Conn2" H 6200 1950 60  0000 L CNN
+F 1 "MoCo 1" H 6850 1750 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 6700 1600 60  0001 C CNN
 F 3 "" H 6700 1600 60  0001 C CNN
 	1    6700 1600
@@ -704,5 +674,276 @@ Wire Wire Line
 Text Label 5100 5350 0    79   ~ 0
 +5V
 Text Label 5150 5650 2    79   ~ 0
+GND
+Wire Wire Line
+	4650 950  4650 1350
+$Comp
+L Device:R R1
+U 1 1 5BEE07F8
+P 5150 850
+F 0 "R1" V 4943 850 50  0000 C CNN
+F 1 "1.5k" V 5034 850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5080 850 50  0001 C CNN
+F 3 "~" H 5150 850 50  0001 C CNN
+	1    5150 850 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 950  4900 950 
+$Comp
+L Device:R R3
+U 1 1 5BEE1CA8
+P 5150 1600
+F 0 "R3" V 4943 1600 50  0000 C CNN
+F 1 "1.5k" V 5034 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5080 1600 50  0001 C CNN
+F 3 "~" H 5150 1600 50  0001 C CNN
+	1    5150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BEE2D1B
+P 6750 1250
+F 0 "R4" V 6650 1250 50  0000 C CNN
+F 1 "500" V 6750 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 1250 50  0001 C CNN
+F 3 "~" H 6750 1250 50  0001 C CNN
+	1    6750 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BEE3D8B
+P 6750 1650
+F 0 "R5" V 6750 1650 50  0000 C CNN
+F 1 "500" V 6850 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 1650 50  0001 C CNN
+F 3 "~" H 6750 1650 50  0001 C CNN
+	1    6750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BEE4F80
+P 6750 1950
+F 0 "R6" V 6650 1950 50  0000 C CNN
+F 1 "500" V 6750 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 1950 50  0001 C CNN
+F 3 "~" H 6750 1950 50  0001 C CNN
+	1    6750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BEE5FF8
+P 6750 2350
+F 0 "R7" V 6750 2350 50  0000 C CNN
+F 1 "500" V 6850 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5BEE7144
+P 6750 2850
+F 0 "R8" V 6750 2850 50  0000 C CNN
+F 1 "500" V 6850 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 2850 50  0001 C CNN
+F 3 "~" H 6750 2850 50  0001 C CNN
+	1    6750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5BEE838C
+P 6750 3350
+F 0 "R9" V 6750 3350 50  0000 C CNN
+F 1 "500" V 6850 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5BEE9403
+P 6750 3950
+F 0 "R10" V 6750 3950 50  0000 C CNN
+F 1 "500" V 6850 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 3950 50  0001 C CNN
+F 3 "~" H 6750 3950 50  0001 C CNN
+	1    6750 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 950  4900 850 
+Wire Wire Line
+	4900 850  5000 850 
+Connection ~ 4900 950 
+Wire Wire Line
+	4900 1700 4900 1600
+Wire Wire Line
+	4900 1600 5000 1600
+Connection ~ 4900 1700
+Wire Wire Line
+	6500 1450 6500 1400
+Wire Wire Line
+	6500 1400 6550 1400
+Wire Wire Line
+	6550 1400 6550 1250
+Wire Wire Line
+	6550 1250 6600 1250
+Wire Wire Line
+	6500 1550 6500 1650
+Wire Wire Line
+	6500 1650 6600 1650
+Wire Wire Line
+	6600 1950 6600 2150
+Wire Wire Line
+	6600 2150 6500 2150
+Wire Wire Line
+	6600 2350 6600 2250
+Wire Wire Line
+	6600 2250 6500 2250
+Wire Wire Line
+	6600 2850 6600 2750
+Wire Wire Line
+	6600 2750 6500 2750
+Wire Wire Line
+	6600 3350 6600 3250
+Wire Wire Line
+	6600 3250 6500 3250
+Wire Wire Line
+	6600 3950 6600 3850
+Wire Wire Line
+	6600 3850 6500 3850
+$Comp
+L Device:LED D1
+U 1 1 5BEFB52D
+P 5450 850
+F 0 "D1" H 5450 650 50  0000 C CNN
+F 1 "LED" H 5450 750 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 850 50  0001 C CNN
+F 3 "~" H 5450 850 50  0001 C CNN
+	1    5450 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5BEFD26C
+P 5450 1600
+F 0 "D3" H 5200 1550 50  0000 C CNN
+F 1 "LED" H 5300 1650 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 1600 50  0001 C CNN
+F 3 "~" H 5450 1600 50  0001 C CNN
+	1    5450 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5BEFED9B
+P 7050 1250
+F 0 "D4" H 7042 995 50  0000 C CNN
+F 1 "LED" H 7042 1086 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 1250 50  0001 C CNN
+F 3 "~" H 7050 1250 50  0001 C CNN
+	1    7050 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5BF006F3
+P 7050 1650
+F 0 "D5" H 6750 1550 50  0000 C CNN
+F 1 "LED" H 6750 1650 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 1650 50  0001 C CNN
+F 3 "~" H 7050 1650 50  0001 C CNN
+	1    7050 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5BF022E3
+P 7050 1950
+F 0 "D6" H 7042 1695 50  0000 C CNN
+F 1 "LED" H 7042 1786 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 1950 50  0001 C CNN
+F 3 "~" H 7050 1950 50  0001 C CNN
+	1    7050 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 5BF03C3B
+P 7050 2350
+F 0 "D7" H 6800 2300 50  0000 C CNN
+F 1 "LED" H 6800 2400 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 2350 50  0001 C CNN
+F 3 "~" H 7050 2350 50  0001 C CNN
+	1    7050 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 5BF05701
+P 7050 2850
+F 0 "D8" H 6800 2650 50  0000 C CNN
+F 1 "LED" H 6800 2750 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 2850 50  0001 C CNN
+F 3 "~" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5BF0705B
+P 7050 3350
+F 0 "D9" H 6800 3200 50  0000 C CNN
+F 1 "LED" H 6800 3300 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3350 50  0001 C CNN
+F 3 "~" H 7050 3350 50  0001 C CNN
+	1    7050 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5BF08B29
+P 7050 3950
+F 0 "D10" H 6800 3800 50  0000 C CNN
+F 1 "LED" H 6800 3900 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7050 3950 50  0001 C CNN
+F 3 "~" H 7050 3950 50  0001 C CNN
+	1    7050 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 1250 7200 1650
+Connection ~ 7200 1650
+Wire Wire Line
+	7200 1650 7200 1950
+Connection ~ 7200 1950
+Wire Wire Line
+	7200 1950 7200 2350
+Connection ~ 7200 2350
+Wire Wire Line
+	7200 2350 7200 2850
+Connection ~ 7200 2850
+Wire Wire Line
+	7200 2850 7200 3350
+Connection ~ 7200 3350
+Text GLabel 7200 2850 2    50   UnSpc ~ 0
+GND
+Text GLabel 2600 1750 2    50   UnSpc ~ 0
+GND
+Text GLabel 2600 2850 2    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	7200 3350 7200 3950
+Wire Wire Line
+	5600 850  5600 1600
+Text GLabel 5600 1250 2    50   UnSpc ~ 0
 GND
 $EndSCHEMATC
