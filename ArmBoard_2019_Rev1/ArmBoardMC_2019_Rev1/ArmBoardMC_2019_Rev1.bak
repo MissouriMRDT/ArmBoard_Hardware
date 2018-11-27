@@ -1183,12 +1183,12 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5C0054EB
-P 6700 925
-F 0 "Conn3" H 6900 1175 39  0000 R CNN
-F 1 "AndersonPP" V 6625 1025 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6550 375 60  0001 C CNN
-F 3 "" H 6550 375 60  0001 C CNN
-	1    6700 925 
+P 7200 925
+F 0 "Conn3" H 7400 1175 39  0000 R CNN
+F 1 "AndersonPP" V 7125 1025 60  0001 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 7050 375 60  0001 C CNN
+F 3 "" H 7050 375 60  0001 C CNN
+	1    7200 925 
 	-1   0    0    1   
 $EndComp
 Text Notes 6500 2975 0    51   ~ 0
@@ -1608,12 +1608,12 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5BDBE5AD
-P 6700 1325
-F 0 "Conn3" H 6650 925 60  0000 R CNN
-F 1 "AndersonPP" H 6650 1025 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 6550 775 60  0001 C CNN
-F 3 "" H 6550 775 60  0001 C CNN
-	2    6700 1325
+P 7200 1325
+F 0 "Conn3" H 7425 1575 39  0000 R CNN
+F 1 "AndersonPP" H 7575 1250 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 7050 775 60  0001 C CNN
+F 3 "" H 7050 775 60  0001 C CNN
+	2    7200 1325
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2348,4 +2348,48 @@ Text Notes 4425 6425 0    31   ~ 0
 Serial 3
 Wire Wire Line
 	1400 4100 1375 4100
+$Comp
+L Device:LED D?
+U 1 1 5C1B2BF3
+P 6650 1025
+F 0 "D?" H 6625 1100 31  0000 C CNN
+F 1 "LED" H 6642 876 31  0000 C CNN
+F 2 "" H 6650 1025 50  0001 C CNN
+F 3 "~" H 6650 1025 50  0001 C CNN
+	1    6650 1025
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C1B2FE9
+P 6400 1025
+F 0 "R?" V 6325 1025 31  0000 C CNN
+F 1 "330" V 6400 1025 31  0000 C CNN
+F 2 "" H 6400 1025 50  0001 C CNN
+F 3 "~" H 6400 1025 50  0001 C CNN
+	1    6400 1025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C1DE290
+P 6400 1425
+F 0 "R?" V 6325 1425 31  0000 C CNN
+F 1 "330" V 6400 1425 31  0000 C CNN
+F 2 "" H 6400 1425 50  0001 C CNN
+F 3 "~" H 6400 1425 50  0001 C CNN
+	1    6400 1425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C1DE340
+P 6650 1425
+F 0 "D?" H 6675 1550 31  0000 C CNN
+F 1 "LED" H 6675 1325 31  0000 C CNN
+F 2 "" H 6650 1425 50  0001 C CNN
+F 3 "~" H 6650 1425 50  0001 C CNN
+	1    6650 1425
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
