@@ -606,7 +606,7 @@ F 3 "" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	1    0    0    -1  
 $EndComp
-Text Notes 9400 650  0    118  ~ 24
+Text Notes 9400 700  0    118  ~ 24
 H-Bridges
 $Comp
 L Device:R_Small R7
