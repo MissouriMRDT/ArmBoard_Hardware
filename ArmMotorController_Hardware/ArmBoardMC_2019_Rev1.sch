@@ -2570,8 +2570,6 @@ Wire Notes Line
 	3800 8350 3800 4500
 Wire Notes Line
 	450  8350 9200 8350
-Wire Notes Line
-	9200 4950 9200 8350
 Connection ~ 2250 2950
 Wire Wire Line
 	2250 2950 2650 2950
@@ -2624,4 +2622,8 @@ Wire Wire Line
 Connection ~ 2450 1450
 Wire Wire Line
 	8050 6950 8100 6950
+Wire Notes Line
+	9200 4950 9200 11250
+Text Notes 4250 8650 0    118  ~ 24
+Indicators
 $EndSCHEMATC
