@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ArmBoardMC_2019_Rev1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -254,13 +253,13 @@ F 3 "" H 3750 1500 60  0001 C CNN
 $EndComp
 Text Notes 3200 750  0    118  ~ 24
 Connectors\n
-Text GLabel 4650 7050 0    50   Output ~ 0
+Text GLabel 4650 6950 0    50   Output ~ 0
 MOTOR1_PWM
-Text GLabel 4650 7150 0    50   Output ~ 0
+Text GLabel 4650 7050 0    50   Output ~ 0
 MOTOR2_PWM
-Text GLabel 8100 5950 2    50   Output ~ 0
+Text GLabel 7100 6950 0    50   Output ~ 0
 MOTOR3_PWM
-Text GLabel 8100 6050 2    50   Output ~ 0
+Text GLabel 7100 7050 0    50   Output ~ 0
 MOTOR4_PWM
 Text GLabel 7150 2000 0    50   Input ~ 0
 MOTOR1_PWM
@@ -324,9 +323,9 @@ F 3 "~" H 7300 2000 50  0001 C CNN
 	1    7300 2000
 	0    1    1    0   
 $EndComp
-Text GLabel 8100 6350 2    50   Input ~ 0
+Text GLabel 7100 7250 0    50   Input ~ 0
 ENC1
-Text GLabel 8100 6450 2    50   Input ~ 0
+Text GLabel 7100 7350 0    50   Input ~ 0
 ENC2
 Text GLabel 7100 6150 0    50   Input ~ 0
 ENC3
@@ -369,7 +368,7 @@ Text GLabel 7100 5950 0    50   Input ~ 0
 RX_1_Tiva
 Text GLabel 7100 6050 0    50   Output ~ 0
 TX_1_Tiva
-Text Notes 6350 6050 0    50   ~ 0
+Text Notes 6350 6050 0    39   ~ 0
 Serial 6\n
 Text GLabel 4650 5850 0    50   Input ~ 0
 LS_1
@@ -713,9 +712,9 @@ Text GLabel 8100 6150 2    50   Input ~ 0
 I_Sense_3
 Text GLabel 10450 4300 0    50   Output ~ 0
 I_Sense_4
-Text Notes 6100 6000 0    50   ~ 0
+Text Notes 6100 6000 0    39   ~ 0
 A3
-Text Notes 6100 6100 0    50   ~ 0
+Text Notes 6100 6100 0    39   ~ 0
 A2
 Text Notes 8550 6200 0    39   ~ 0
 A1
@@ -1108,7 +1107,7 @@ F 3 "" H 10450 2200 50  0001 C CNN
 	1    10450 2200
 	0    -1   -1   0   
 $EndComp
-Text Notes 8550 6650 0    50   ~ 0
+Text Notes 8550 6650 0    39   ~ 0
 Serial 3
 Wire Wire Line
 	7450 4200 7425 4200
@@ -1177,7 +1176,7 @@ $Comp
 L MRDT_ICs:AP1059 U?
 U 1 1 5CB27D5C
 P 1850 2550
-F 0 "U?" H 2350 2500 60  0000 C CNN
+F 0 "U?" H 2300 2500 60  0000 C CNN
 F 1 "AP1059" H 2050 3000 60  0000 C CNN
 F 2 "" H 1600 2450 60  0001 C CNN
 F 3 "" H 1600 2450 60  0001 C CNN
@@ -1250,8 +1249,8 @@ $Comp
 L pspice:INDUCTOR L?
 U 1 1 5CF6F0C0
 P 1750 2950
-F 0 "L?" H 1750 3050 50  0000 C CNN
-F 1 "47uH" H 1750 2900 50  0000 C CNN
+F 0 "L?" H 1950 2900 50  0000 C CNN
+F 1 "47uH" H 1750 3050 50  0000 C CNN
 F 2 "" H 1750 2950 50  0001 C CNN
 F 3 "" H 1750 2950 50  0001 C CNN
 	1    1750 2950
@@ -1326,7 +1325,7 @@ $Comp
 L MRDT_ICs:AP1059 U?
 U 1 1 5D1DB16E
 P 1850 3950
-F 0 "U?" H 2350 3900 60  0000 C CNN
+F 0 "U?" H 2300 3900 60  0000 C CNN
 F 1 "AP1059" H 2050 4400 60  0000 C CNN
 F 2 "" H 1600 3850 60  0001 C CNN
 F 3 "" H 1600 3850 60  0001 C CNN
@@ -1982,10 +1981,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 6450 4650 6450
 Wire Wire Line
-	8050 5950 8100 5950
-Wire Wire Line
-	8050 6050 8100 6050
-Wire Wire Line
 	8050 6150 8100 6150
 Wire Wire Line
 	8050 6250 8100 6250
@@ -2022,8 +2017,6 @@ Wire Wire Line
 	7100 5750 7150 5750
 Wire Wire Line
 	4650 7050 4700 7050
-Wire Wire Line
-	4650 7150 4700 7150
 Wire Wire Line
 	4650 7550 4700 7550
 Wire Wire Line
@@ -2626,4 +2619,30 @@ Wire Notes Line
 	9200 4950 9200 11250
 Text Notes 4250 8650 0    118  ~ 24
 Indicators
+Wire Wire Line
+	7100 6950 7150 6950
+Wire Wire Line
+	7150 7050 7100 7050
+Wire Wire Line
+	4650 6950 4700 6950
+Text Notes 3850 7000 0    39   ~ 0
+M0PWM1\n
+Text Notes 3850 7100 0    39   ~ 0
+M0PWM2\n
+Text Notes 6300 7000 0    39   ~ 0
+M0PWM5
+Text Notes 6300 7100 0    39   ~ 0
+M0PWM6
+Text Notes 6750 6200 0    39   ~ 0
+T7A
+Text Notes 6750 6300 0    39   ~ 0
+T8A
+Wire Wire Line
+	7100 7250 7150 7250
+Wire Wire Line
+	7100 7350 7150 7350
+Text Notes 6750 7300 0    39   ~ 0
+T5C
+Text Notes 6750 7400 0    39   ~ 0
+T6C
 $EndSCHEMATC

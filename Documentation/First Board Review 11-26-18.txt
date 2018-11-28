@@ -13,33 +13,32 @@ Make sure everything is consistent for each folder
  -Actual Board Reviews
 
 Motor Controller:
--Power Flags should be pointed up, if you can, and GND should be pointed down.
--Move Power input of the board to the upper left hand and move the H-Bridges over
--Seperate each section with graphic lines
--Rearrage OKI to make it easier to read
+-Power Flags should be pointed up, if you can, and GND should be pointed down.  --DONE
+-Move Power input of the board to the upper left hand and move the H-Bridges over  --DONE
+-Seperate each section with graphic lines  --DONE
+-Rearrage OKI to make it easier to read  --DONE (And replaced with new buck)
 
--Change grid back to default of 50 mils and re-allign everything
+-Change grid back to default of 50 mils and re-allign everything  --DONE
 
-- all LEDs will go into a different section for "indicators" so make sure you remove all of the ones you have placed
-- make sure we go through everything and make sure references and values are all consistently placed
-
-- leds should be wired in parallel rather than in series
-- VCC should be 5v instead of the 12v we have (level shifter runs off 5v not 12)
-- We need to change OKI to AP1509,
+- all LEDs will go into a different section for "indicators" so make sure you remove all of the ones you have placed --Made section
+- make sure we go through everything and make sure references and values are all consistently placed --Done
+rm- leds should be wired in parallel rather than in series
+- VCC should be 5v instead of the 12v we have (level shifter runs off 5v not 12)  --DONE
+- We need to change OKI to AP1509,  --DONE
 	-- Look up on digikey for footprints and diagrams
 	-- When assigning package for it just use the 0603 like usual
 
-- RX on connector should be output not input
-- 2 Encoder 3 _PWM on the encoders, make sure to change it
-	-- ENC1 , ENC2 etc. for flags
+- RX on connector should be output not input  --DONE
+- 2 Encoder 3 _PWM on the encoders, make sure to change it  --DONE
+	-- ENC1 , ENC2 etc. for flags  --DONE
 
--Enlarge the graphic text on the H-Bridges "Motor #" 
+-Enlarge the graphic text on the H-Bridges "Motor #" --DONE
 
--Move references to the bottom left or right
+-Move references to the bottom left or right  --DONE
 
--Make sure you have the wire leading to flags, noticed on LS 4-6
+-Make sure you have the wire leading to flags, noticed on LS 4-6  --DONE
 
-- Change flag sizes back to the default one of ~ 1.2 (google if you can do it globally"
+- Change flag sizes back to the default one of ~ 1.2 (google if you can do it globally" --DONE
 
 - Change pinouts on schematics such as INA and INB so that it is a bit less chaotic
 
@@ -48,7 +47,7 @@ Motor Controller:
 -Add text next to the MotorPWM of which pin i.e (M0PWM3)
 -Add text next to EncPwm i.e (T3A, - Timer 3a)
 
--Move "serial 3" to side so that its a bit more consistent
+-Move "serial 3" to side so that its a bit more consistent  --DONE
 
 -When we add the 5v OKI dont power it into the TIVA
 
@@ -160,7 +159,7 @@ Schematic:
 
 -PWMs need to be outputs
 
--You need just one AP1509
+-You need just one APe
 
 
 BOARD LAYOUT:
