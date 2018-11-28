@@ -40,7 +40,7 @@ rm- leds should be wired in parallel rather than in series
 
 - Change flag sizes back to the default one of ~ 1.2 (google if you can do it globally" --DONE
 
-- Change pinouts on schematics such as INA and INB so that it is a bit less chaotic
+- Change pinouts on schematics such as INA and INB so that it is a bit less chaotic  --Done? 
 
 -MOTORPWM are on AnalogRead and they need to be on PWMWrite (M0PWM#), given by data sheet  --DONE
 -ENCODERPWN are on AnalogRead and need to be routed to any nonconflicting pins on the "rove_hal pin conflicts"  --DONE
@@ -49,15 +49,15 @@ rm- leds should be wired in parallel rather than in series
 
 -Move "serial 3" to side so that its a bit more consistent  --DONE
 
--When we add the 5v OKI dont power it into the TIVA
+-When we add the 5v OKI dont power it into the TIVA  
 
 INDICATION Schematic:
-	- 1 LED on output of each Encoder
+	- 1 LED on output of each Encoder  --DONE
 	- Put LED on limit switch if we have the space (lower priority) 
-	- 1 Led on output of each motor (either outA or outB just be consistent) 
-	- 3 Led running to any digital pins on the tiva
-	- 1 Led for 12vact, and 1 LED for 12v Log
--Make all resistors 500
+	- 1 Led on output of each motor (either outA or outB just be consistent) --DONE
+	- 3 Led running to any digital pins on the tiva  --DONE
+	- 1 Led for 12vact, and 1 LED for 12v Log  --DONE
+-Make all resistors 500  --DONE
 
 
 PCB LAYOUT:
