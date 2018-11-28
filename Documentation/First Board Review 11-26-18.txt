@@ -42,10 +42,10 @@ rm- leds should be wired in parallel rather than in series
 
 - Change pinouts on schematics such as INA and INB so that it is a bit less chaotic
 
--MOTORPWM are on AnalogRead and they need to be on PWMWrite (M0PWM#), given by data sheet 
--ENCODERPWN are on AnalogRead and need to be routed to any nonconflicting pins on the "rove_hal pin conflicts"
--Add text next to the MotorPWM of which pin i.e (M0PWM3)
--Add text next to EncPwm i.e (T3A, - Timer 3a)
+-MOTORPWM are on AnalogRead and they need to be on PWMWrite (M0PWM#), given by data sheet  --DONE
+-ENCODERPWN are on AnalogRead and need to be routed to any nonconflicting pins on the "rove_hal pin conflicts"  --DONE
+-Add text next to the MotorPWM of which pin i.e (M0PWM3)  --DONE
+-Add text next to EncPwm i.e (T3A, - Timer 3a)  --DONE
 
 -Move "serial 3" to side so that its a bit more consistent  --DONE
 

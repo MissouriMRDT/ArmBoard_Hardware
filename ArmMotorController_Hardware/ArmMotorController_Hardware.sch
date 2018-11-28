@@ -368,15 +368,15 @@ Text GLabel 7100 5950 0    50   Input ~ 0
 RX_1_Tiva
 Text GLabel 7100 6050 0    50   Output ~ 0
 TX_1_Tiva
-Text Notes 6350 6050 0    39   ~ 0
+Text Notes 6400 6050 0    39   ~ 0
 Serial 6\n
 Text GLabel 4650 5850 0    50   Input ~ 0
 LS_1
-Text GLabel 4650 6150 0    50   Input ~ 0
+Text GLabel 4650 5950 0    50   Input ~ 0
 LS_2
-Text GLabel 4650 6250 0    50   Input ~ 0
+Text GLabel 4650 6050 0    50   Input ~ 0
 LS_3
-Text GLabel 4650 6450 0    50   Input ~ 0
+Text GLabel 4650 6150 0    50   Input ~ 0
 LS_4
 Text GLabel 5650 6350 2    50   Input ~ 0
 LS_5
@@ -537,19 +537,19 @@ Text Notes 8050 800  0    79   ~ 0
 Motor 1
 Text GLabel 4650 7550 0    50   Output ~ 0
 IN_A1
-Text GLabel 4650 7650 0    50   Output ~ 0
+Text GLabel 4650 7750 0    50   Output ~ 0
 IN_A2
-Text GLabel 7100 7550 0    50   Output ~ 0
+Text GLabel 8100 7450 2    50   Output ~ 0
 IN_A3
-Text GLabel 7100 7650 0    50   Output ~ 0
+Text GLabel 8100 7650 2    50   Output ~ 0
 IN_A4
-Text GLabel 5650 7150 2    50   Output ~ 0
+Text GLabel 4650 7650 0    50   Output ~ 0
 IN_B1
-Text GLabel 5650 7250 2    50   Output ~ 0
+Text GLabel 4650 7850 0    50   Output ~ 0
 IN_B2
-Text GLabel 7100 7750 0    50   Output ~ 0
+Text GLabel 8100 7550 2    50   Output ~ 0
 IN_B3
-Text GLabel 7100 7850 0    50   Output ~ 0
+Text GLabel 8100 7750 2    50   Output ~ 0
 IN_B4
 $Comp
 L Device:C_Small C10
@@ -704,30 +704,22 @@ Text GLabel 10450 2100 0    50   Output ~ 0
 I_Sense_3
 Text GLabel 8100 6250 2    50   Input ~ 0
 I_Sense_4
-Text GLabel 5650 5950 2    50   Input ~ 0
+Text GLabel 5650 7450 2    50   Input ~ 0
 I_Sense_1
-Text GLabel 5650 6050 2    50   Input ~ 0
+Text GLabel 5650 7550 2    50   Input ~ 0
 I_Sense_2
 Text GLabel 8100 6150 2    50   Input ~ 0
 I_Sense_3
 Text GLabel 10450 4300 0    50   Output ~ 0
 I_Sense_4
-Text Notes 6100 6000 0    39   ~ 0
-A3
-Text Notes 6100 6100 0    39   ~ 0
-A2
+Text Notes 6100 7500 0    39   ~ 0
+A14\n
+Text Notes 6100 7600 0    39   ~ 0
+A15
 Text Notes 8550 6200 0    39   ~ 0
-A1
+A16
 Text Notes 8550 6300 0    39   ~ 0
-A0
-Wire Wire Line
-	7100 7550 7150 7550
-Wire Wire Line
-	7100 7650 7150 7650
-Wire Wire Line
-	7150 7750 7100 7750
-Wire Wire Line
-	7150 7850 7100 7850
+A17
 Text GLabel 3500 1050 0    50   Output ~ 0
 RX_2_SL
 Text GLabel 3500 1150 0    50   Input ~ 0
@@ -870,7 +862,7 @@ L power:GND #PWR0123
 U 1 1 5BFE4810
 P 8100 6950
 F 0 "#PWR0123" H 8100 6700 50  0001 C CNN
-F 1 "GND" H 8175 6950 39  0000 C CNN
+F 1 "GND" H 8200 6950 39  0000 C CNN
 F 2 "" H 8100 6950 50  0001 C CNN
 F 3 "" H 8100 6950 50  0001 C CNN
 	1    8100 6950
@@ -892,22 +884,22 @@ L power:GND #PWR0125
 U 1 1 5BFE501E
 P 5650 5850
 F 0 "#PWR0125" H 5650 5600 50  0001 C CNN
-F 1 "GND" H 5650 5700 39  0000 C CNN
+F 1 "GND" H 5750 5850 39  0000 C CNN
 F 2 "" H 5650 5850 50  0001 C CNN
 F 3 "" H 5650 5850 50  0001 C CNN
 	1    5650 5850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0126
 U 1 1 5BFE50B5
 P 8100 5850
 F 0 "#PWR0126" H 8100 5600 50  0001 C CNN
-F 1 "GND" H 8100 5700 39  0000 C CNN
+F 1 "GND" H 8200 5850 39  0000 C CNN
 F 2 "" H 8100 5850 50  0001 C CNN
 F 3 "" H 8100 5850 50  0001 C CNN
 	1    8100 5850
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0127
@@ -1959,10 +1951,6 @@ Wire Notes Line
 Wire Wire Line
 	5600 5850 5650 5850
 Wire Wire Line
-	5600 5950 5650 5950
-Wire Wire Line
-	5600 6050 5650 6050
-Wire Wire Line
 	5600 6350 5650 6350
 Wire Wire Line
 	5600 6450 5650 6450
@@ -1976,10 +1964,6 @@ Wire Wire Line
 	4700 5850 4650 5850
 Wire Wire Line
 	4700 6150 4650 6150
-Wire Wire Line
-	4700 6250 4650 6250
-Wire Wire Line
-	4700 6450 4650 6450
 Wire Wire Line
 	8050 6150 8100 6150
 Wire Wire Line
@@ -2012,8 +1996,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 6250 7150 6250
 Wire Wire Line
-	8050 5850 8100 5850
-Wire Wire Line
 	7100 5750 7150 5750
 Wire Wire Line
 	4650 7050 4700 7050
@@ -2021,12 +2003,6 @@ Wire Wire Line
 	4650 7550 4700 7550
 Wire Wire Line
 	4650 7650 4700 7650
-Wire Wire Line
-	5600 7250 5650 7250
-Wire Wire Line
-	5600 7150 5650 7150
-Wire Wire Line
-	5600 6950 5650 6950
 $Comp
 L power:+5V #PWR0114
 U 1 1 5FD8CE23
@@ -2613,8 +2589,6 @@ Connection ~ 2450 1150
 Wire Wire Line
 	2450 1450 2450 1500
 Connection ~ 2450 1450
-Wire Wire Line
-	8050 6950 8100 6950
 Wire Notes Line
 	9200 4950 9200 11250
 Text Notes 4250 8650 0    118  ~ 24
@@ -2645,4 +2619,30 @@ Text Notes 6750 7300 0    39   ~ 0
 T5C
 Text Notes 6750 7400 0    39   ~ 0
 T6C
+Wire Wire Line
+	5600 7550 5650 7550
+Wire Wire Line
+	5600 6950 5650 6950
+Wire Wire Line
+	8050 6950 8100 6950
+Wire Wire Line
+	8050 5850 8100 5850
+Wire Wire Line
+	4650 5950 4700 5950
+Wire Wire Line
+	4650 6050 4700 6050
+Wire Wire Line
+	4650 7750 4700 7750
+Wire Wire Line
+	4650 7850 4700 7850
+Wire Wire Line
+	8050 7450 8100 7450
+Wire Wire Line
+	8050 7550 8100 7550
+Wire Wire Line
+	8050 7650 8100 7650
+Wire Wire Line
+	8050 7750 8100 7750
+Wire Wire Line
+	5600 7450 5650 7450
 $EndSCHEMATC
