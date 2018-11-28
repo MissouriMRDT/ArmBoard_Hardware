@@ -2387,4 +2387,322 @@ Wire Wire Line
 	7800 1300 7800 1350
 Wire Wire Line
 	7800 1300 8250 1300
+$Comp
+L MRDT_ICs:AP1059 U?
+U 1 1 5CB27D5C
+P 2900 3650
+F 0 "U?" H 3125 4247 60  0000 C CNN
+F 1 "AP1059" H 3125 4141 60  0000 C CNN
+F 2 "" H 2650 3550 60  0001 C CNN
+F 3 "" H 2650 3550 60  0001 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5CB28B54
+P 1800 3400
+F 0 "Conn?" H 1850 3650 60  0000 C CNN
+F 1 "Anderson-3" H 2006 3681 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 2850 60  0001 C CNN
+F 3 "" H 1650 2850 60  0001 C CNN
+	2    1800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5CC518D2
+P 2400 3900
+F 0 "D?" V 2300 4050 50  0000 C CNN
+F 1 "D_Schottky" V 2400 4150 50  0000 C CNN
+F 2 "" H 2400 3900 50  0001 C CNN
+F 3 "~" H 2400 3900 50  0001 C CNN
+	1    2400 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CCD2350
+P 2400 3450
+F 0 "C?" H 2350 3350 50  0000 C CNN
+F 1 "10u" H 2300 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2438 3300 50  0001 C CNN
+F 3 "~" H 2400 3450 50  0001 C CNN
+	1    2400 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3300 3550 3400
+Connection ~ 3550 3400
+Wire Wire Line
+	3550 3400 3550 3500
+Connection ~ 3550 3500
+Wire Wire Line
+	3550 3500 3550 3600
+Connection ~ 3550 3600
+Wire Wire Line
+	3550 3600 3550 3750
+Wire Wire Line
+	2700 3600 2700 3750
+Wire Wire Line
+	2700 3750 3250 3750
+Wire Wire Line
+	2200 3300 2400 3300
+Connection ~ 2400 3300
+Wire Wire Line
+	2400 3300 2700 3300
+Wire Wire Line
+	2400 3600 2400 3750
+Wire Wire Line
+	2400 3750 2700 3750
+Connection ~ 2700 3750
+Wire Wire Line
+	2400 4050 2550 4050
+Wire Wire Line
+	2550 4050 2550 3400
+Wire Wire Line
+	2550 3400 2700 3400
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5CF6F0C0
+P 2800 4050
+F 0 "L?" H 2800 4150 50  0000 C CNN
+F 1 "47uH" H 2800 4000 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2550 4050
+Wire Wire Line
+	2700 3500 2650 3500
+Wire Wire Line
+	2650 3500 2650 3850
+Wire Wire Line
+	2650 3850 3050 3850
+Wire Wire Line
+	3050 3850 3050 4050
+$Comp
+L Device:C C?
+U 1 1 5CF9D7A2
+P 3250 3900
+F 0 "C?" H 3200 3800 50  0000 C CNN
+F 1 "10u" H 3150 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 3750 50  0001 C CNN
+F 3 "~" H 3250 3900 50  0001 C CNN
+	1    3250 3900
+	-1   0    0    1   
+$EndComp
+Connection ~ 3250 3750
+Wire Wire Line
+	3250 3750 3550 3750
+Wire Wire Line
+	3050 4050 3250 4050
+Connection ~ 3050 4050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CFFE006
+P 3700 4050
+F 0 "#PWR?" H 3700 3900 50  0001 C CNN
+F 1 "+3.3V" H 3650 4200 50  0000 L CNN
+F 2 "" H 3700 4050 50  0001 C CNN
+F 3 "" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3550 3300
+$Comp
+L power:GND #PWR?
+U 1 1 5D05E895
+P 3700 3050
+F 0 "#PWR?" H 3700 2800 50  0001 C CNN
+F 1 "GND" H 3700 2900 50  0000 C CNN
+F 2 "" H 3700 3050 50  0001 C CNN
+F 3 "" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4050 3700 4050
+Connection ~ 3250 4050
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5D0EB83F
+P 1800 3100
+F 0 "Conn?" H 1850 3350 60  0000 C CNN
+F 1 "Anderson-3" H 2006 3381 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1650 2550 60  0001 C CNN
+F 3 "" H 1650 2550 60  0001 C CNN
+	1    1800 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3000 3550 3000
+Wire Wire Line
+	3550 3000 3550 3300
+Wire Wire Line
+	3550 3000 3700 3000
+Wire Wire Line
+	3700 3000 3700 3050
+Connection ~ 3550 3000
+Connection ~ 2400 3750
+$Comp
+L MRDT_ICs:AP1059 U?
+U 1 1 5D1DB16E
+P 2850 5050
+F 0 "U?" H 3075 5647 60  0000 C CNN
+F 1 "AP1059" H 3075 5541 60  0000 C CNN
+F 2 "" H 2600 4950 60  0001 C CNN
+F 3 "" H 2600 4950 60  0001 C CNN
+	1    2850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5D1DB175
+P 1750 4800
+F 0 "Conn?" H 1800 5050 60  0000 C CNN
+F 1 "Anderson-3" H 1956 5081 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1600 4250 60  0001 C CNN
+F 3 "" H 1600 4250 60  0001 C CNN
+	2    1750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5D1DB17C
+P 2350 5300
+F 0 "D?" V 2250 5450 50  0000 C CNN
+F 1 "D_Schottky" V 2350 5550 50  0000 C CNN
+F 2 "" H 2350 5300 50  0001 C CNN
+F 3 "~" H 2350 5300 50  0001 C CNN
+	1    2350 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D1DB183
+P 2350 4850
+F 0 "C?" H 2300 4750 50  0000 C CNN
+F 1 "10u" H 2250 4950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2388 4700 50  0001 C CNN
+F 3 "~" H 2350 4850 50  0001 C CNN
+	1    2350 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 4700 3500 4800
+Connection ~ 3500 4800
+Wire Wire Line
+	3500 4800 3500 4900
+Connection ~ 3500 4900
+Wire Wire Line
+	3500 4900 3500 5000
+Connection ~ 3500 5000
+Wire Wire Line
+	3500 5000 3500 5150
+Wire Wire Line
+	2650 5000 2650 5150
+Wire Wire Line
+	2650 5150 3200 5150
+Wire Wire Line
+	2150 4700 2350 4700
+Connection ~ 2350 4700
+Wire Wire Line
+	2350 4700 2650 4700
+Wire Wire Line
+	2350 5000 2350 5150
+Wire Wire Line
+	2350 5150 2650 5150
+Connection ~ 2650 5150
+Wire Wire Line
+	2350 5450 2500 5450
+Wire Wire Line
+	2500 5450 2500 4800
+Wire Wire Line
+	2500 4800 2650 4800
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5D1DB19C
+P 2750 5450
+F 0 "L?" H 2750 5550 50  0000 C CNN
+F 1 "47uH" H 2750 5400 50  0000 C CNN
+F 2 "" H 2750 5450 50  0001 C CNN
+F 3 "" H 2750 5450 50  0001 C CNN
+	1    2750 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 5450
+Wire Wire Line
+	2650 4900 2600 4900
+Wire Wire Line
+	2600 4900 2600 5250
+Wire Wire Line
+	2600 5250 3000 5250
+Wire Wire Line
+	3000 5250 3000 5450
+$Comp
+L Device:C C?
+U 1 1 5D1DB1A8
+P 3200 5300
+F 0 "C?" H 3150 5200 50  0000 C CNN
+F 1 "10u" H 3100 5400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3238 5150 50  0001 C CNN
+F 3 "~" H 3200 5300 50  0001 C CNN
+	1    3200 5300
+	-1   0    0    1   
+$EndComp
+Connection ~ 3200 5150
+Wire Wire Line
+	3200 5150 3500 5150
+Wire Wire Line
+	3000 5450 3200 5450
+Connection ~ 3000 5450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D1DB1B3
+P 3650 5450
+F 0 "#PWR?" H 3650 5300 50  0001 C CNN
+F 1 "+3.3V" H 3600 5600 50  0000 L CNN
+F 2 "" H 3650 5450 50  0001 C CNN
+F 3 "" H 3650 5450 50  0001 C CNN
+	1    3650 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3500 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5D1DB1BA
+P 3650 4450
+F 0 "#PWR?" H 3650 4200 50  0001 C CNN
+F 1 "GND" H 3650 4300 50  0000 C CNN
+F 2 "" H 3650 4450 50  0001 C CNN
+F 3 "" H 3650 4450 50  0001 C CNN
+	1    3650 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5450 3650 5450
+Connection ~ 3200 5450
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5D1DB1C2
+P 1750 4500
+F 0 "Conn?" H 1800 4750 60  0000 C CNN
+F 1 "Anderson-3" H 1956 4781 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1600 3950 60  0001 C CNN
+F 3 "" H 1600 3950 60  0001 C CNN
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4400 3500 4400
+Wire Wire Line
+	3500 4400 3500 4700
+Wire Wire Line
+	3500 4400 3650 4400
+Wire Wire Line
+	3650 4400 3650 4450
+Connection ~ 3500 4400
+Connection ~ 2350 5150
 $EndSCHEMATC
