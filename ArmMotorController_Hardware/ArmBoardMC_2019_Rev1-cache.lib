@@ -59,29 +59,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
-#
-DEF Device:LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device:R_Small
 #
 DEF Device:R_Small R 0 10 N N 1 F N
@@ -118,6 +95,20 @@ X PV+ 4 400 100 200 L 50 39 4 1 I
 ENDDRAW
 ENDDEF
 #
+# MRDT_Connectors:Molex_SL_02
+#
+DEF MRDT_Connectors:Molex_SL_02 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors:Molex_SL_02" 50 250 60 H V C CNN
+F2 "" 0 -100 60 H I C CNN
+F3 "" 0 -100 60 H I C CNN
+DRAW
+S 0 200 100 0 0 1 0 N
+X ~ 1 -200 150 200 R 50 50 1 1 I
+X ~ 2 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # MRDT_Connectors:Molex_SL_05
 #
 DEF MRDT_Connectors:Molex_SL_05 Conn 0 40 Y Y 1 F N
@@ -132,6 +123,21 @@ X ~ 2 -200 350 200 R 50 50 1 1 I
 X ~ 3 -200 250 200 R 50 50 1 1 I
 X ~ 4 -200 150 200 R 50 50 1 1 I
 X ~ 5 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors:Picoblade_3
+#
+DEF MRDT_Connectors:Picoblade_3 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors:Picoblade_3" 50 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -246,21 +252,6 @@ X EN_B/DIAG_B 9 -200 250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Sensors:AbsoluteEncoder
-#
-DEF MRDT_Sensors:AbsoluteEncoder U 0 40 Y Y 1 F N
-F0 "U" 10 280 50 H V C CNN
-F1 "MRDT_Sensors:AbsoluteEncoder" 0 210 50 H V C CNN
-F2 "" -300 300 50 H I C CNN
-F3 "" -300 300 50 H I C CNN
-DRAW
-S -50 150 90 -100 0 0 0 N
-X VCC 1 -150 100 100 R 28 28 1 1 I
-X SIG 2 -150 25 100 R 28 28 1 1 I
-X GND 3 -150 -50 100 R 28 28 1 1 I
-ENDDRAW
-ENDDEF
-#
 # MRDT_Shields:TM4C129E_Launchpad
 #
 DEF MRDT_Shields:TM4C129E_Launchpad U 0 20 Y Y 8 L N
@@ -361,20 +352,6 @@ X D2_5 Rese -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# MRDT_Switches:Limit_Switch
-#
-DEF MRDT_Switches:Limit_Switch U 0 40 Y Y 1 F N
-F0 "U" 0 200 31 H V C CNN
-F1 "MRDT_Switches:Limit_Switch" 0 150 31 H V C CNN
-F2 "" -150 300 118 H I C CNN
-F3 "" -150 300 118 H I C CNN
-DRAW
-S 50 100 -25 -75 0 1 0 N
-X ~ 1 -125 50 100 R 31 50 1 1 I
-X ~ 2 -125 -25 100 R 31 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # power:+12V
 #
 DEF power:+12V #PWR 0 0 Y Y 1 F P
@@ -403,6 +380,21 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:+5V
+#
+DEF power:+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
