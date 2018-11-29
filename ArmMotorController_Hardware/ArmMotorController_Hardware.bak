@@ -178,13 +178,13 @@ F 3 "" H 7650 5850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3750 3100 0    50   Input ~ 0
-ENC1
+ENC_1
 Text GLabel 3750 3700 0    50   Input ~ 0
-ENC2
+ENC_2
 Text GLabel 5000 3100 0    50   Input ~ 0
-ENC3
+ENC_3
 Text GLabel 5000 3700 0    50   Input ~ 0
-ENC4
+ENC_4
 $Comp
 L MRDT_Connectors:Molex_SL_05 Conn16
 U 1 1 5BCC4D12
@@ -199,21 +199,21 @@ $EndComp
 Text Notes 3200 750  0    118  ~ 24
 Connectors\n
 Text GLabel 4650 6950 0    50   Output ~ 0
-MOTOR1_PWM
+Mo1_PWM
 Text GLabel 4650 7050 0    50   Output ~ 0
-MOTOR2_PWM
+Mo2_PWM
 Text GLabel 7100 6950 0    50   Output ~ 0
-MOTOR3_PWM
+Mo3_PWM
 Text GLabel 7100 7050 0    50   Output ~ 0
-MOTOR4_PWM
+Mo4_PWM
 Text GLabel 7150 2000 0    50   Input ~ 0
-MOTOR1_PWM
+Mo1_PWM
 Text GLabel 7150 4100 0    50   Input ~ 0
-MOTOR2_PWM
+Mo2_PWM
 Text GLabel 10200 2000 0    50   Input ~ 0
-MOTOR3_PWM
+Mo3_PWM
 Text GLabel 10200 4100 0    50   Input ~ 0
-MOTOR4_PWM
+Mo4_PWM
 $Comp
 L MRDT_ICs:MAX_3232 U4
 U 1 1 5BD438E6
@@ -269,13 +269,13 @@ F 3 "~" H 7300 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 7100 7250 0    50   Input ~ 0
-ENC1
+ENC_1
 Text GLabel 7100 7350 0    50   Input ~ 0
-ENC2
+ENC_2
 Text GLabel 7100 6150 0    50   Input ~ 0
-ENC3
+ENC_3
 Text GLabel 7100 6250 0    50   Input ~ 0
-ENC4
+ENC_4
 Text Notes 1550 4850 0    118  ~ 24
 Limit Switch\n
 $Comp
@@ -2487,17 +2487,17 @@ Text Notes 6300 7000 0    39   ~ 0
 M0PWM5
 Text Notes 6300 7100 0    39   ~ 0
 M0PWM6
-Text Notes 6750 6200 0    39   ~ 0
+Text Notes 6700 6200 0    39   ~ 0
 T7A
-Text Notes 6750 6300 0    39   ~ 0
+Text Notes 6700 6300 0    39   ~ 0
 T8A
 Wire Wire Line
 	7100 7250 7150 7250
 Wire Wire Line
 	7100 7350 7150 7350
-Text Notes 6750 7300 0    39   ~ 0
+Text Notes 6700 7300 0    39   ~ 0
 T5C
-Text Notes 6750 7400 0    39   ~ 0
+Text Notes 6700 7400 0    39   ~ 0
 T6C
 Wire Wire Line
 	5600 7550 5650 7550
