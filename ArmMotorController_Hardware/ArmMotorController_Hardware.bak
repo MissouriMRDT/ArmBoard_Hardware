@@ -96,12 +96,12 @@ TIVA
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 3 1 5BCA68B5
-P 750 1250
-F 0 "Conn1" H 875 1525 60  0000 C CNN
-F 1 "Anderson-3" H 975 1625 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 600 700 60  0001 C CNN
-F 3 "" H 600 700 60  0001 C CNN
-	3    750  1250
+P 700 1250
+F 0 "Conn1" H 825 1525 60  0000 C CNN
+F 1 "Anderson-3" H 925 1625 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 700 60  0001 C CNN
+F 3 "" H 550 700 60  0001 C CNN
+	3    700  1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1025,8 +1025,6 @@ F 3 "" H 10450 2200 50  0001 C CNN
 $EndComp
 Text Notes 8550 6650 0    39   ~ 0
 Serial 3
-Wire Wire Line
-	1150 1150 1250 1150
 Connection ~ 1250 1150
 Wire Wire Line
 	1250 1150 1550 1150
@@ -1081,12 +1079,12 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 2 1 5CB28B54
-P 750 2300
-F 0 "Conn1" H 800 2550 60  0000 C CNN
-F 1 "Anderson-3" H 956 2581 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 600 1750 60  0001 C CNN
-F 3 "" H 600 1750 60  0001 C CNN
-	2    750  2300
+P 700 2300
+F 0 "Conn1" H 750 2550 60  0000 C CNN
+F 1 "Anderson-3" H 906 2581 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 1750 60  0001 C CNN
+F 3 "" H 550 1750 60  0001 C CNN
+	2    700  2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1124,8 +1122,6 @@ Wire Wire Line
 	2500 2500 2500 2650
 Wire Wire Line
 	1650 2500 1650 2650
-Wire Wire Line
-	1150 2200 1350 2200
 Connection ~ 1350 2200
 Wire Wire Line
 	1350 2200 1650 2200
@@ -1198,16 +1194,14 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5D0EB83F
-P 750 2000
-F 0 "Conn1" H 800 2250 60  0000 C CNN
-F 1 "Anderson-3" H 956 2281 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 600 1450 60  0001 C CNN
-F 3 "" H 600 1450 60  0001 C CNN
-	1    750  2000
+P 700 2000
+F 0 "Conn1" H 750 2250 60  0000 C CNN
+F 1 "Anderson-3" H 906 2281 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 1450 60  0001 C CNN
+F 3 "" H 550 1450 60  0001 C CNN
+	1    700  2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 1900 2500 1900
 Wire Wire Line
 	2500 1900 2500 2200
 Wire Wire Line
@@ -1228,12 +1222,12 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn2
 U 2 1 5D1DB175
-P 750 3700
-F 0 "Conn2" H 800 3950 60  0000 C CNN
-F 1 "Anderson-3" H 956 3981 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 600 3150 60  0001 C CNN
-F 3 "" H 600 3150 60  0001 C CNN
-	2    750  3700
+P 700 3700
+F 0 "Conn2" H 750 3950 60  0000 C CNN
+F 1 "Anderson-3" H 906 3981 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 3150 60  0001 C CNN
+F 3 "" H 550 3150 60  0001 C CNN
+	2    700  3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1271,8 +1265,6 @@ Wire Wire Line
 	2500 3900 2500 4050
 Wire Wire Line
 	1650 3900 1650 4050
-Wire Wire Line
-	1150 3600 1350 3600
 Connection ~ 1350 3600
 Wire Wire Line
 	1350 3600 1650 3600
@@ -1334,16 +1326,14 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn2
 U 1 1 5D1DB1C2
-P 750 3400
-F 0 "Conn2" H 800 3650 60  0000 C CNN
-F 1 "Anderson-3" H 956 3681 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 600 2850 60  0001 C CNN
-F 3 "" H 600 2850 60  0001 C CNN
-	1    750  3400
+P 700 3400
+F 0 "Conn2" H 750 3650 60  0000 C CNN
+F 1 "Anderson-3" H 906 3681 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 2850 60  0001 C CNN
+F 3 "" H 550 2850 60  0001 C CNN
+	1    700  3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1150 3300 2500 3300
 Wire Wire Line
 	2500 3300 2500 3600
 Wire Wire Line
@@ -1847,50 +1837,6 @@ Wire Wire Line
 	4650 7550 4700 7550
 Wire Wire Line
 	4650 7650 4700 7650
-$Comp
-L power:+5V #PWR063
-U 1 1 5FD8CE23
-P 9200 2050
-F 0 "#PWR063" H 9200 1900 50  0001 C CNN
-F 1 "+5V" H 9215 2223 50  0000 C CNN
-F 2 "" H 9200 2050 50  0001 C CNN
-F 3 "" H 9200 2050 50  0001 C CNN
-	1    9200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR073
-U 1 1 5FD8CF86
-P 12250 2050
-F 0 "#PWR073" H 12250 1900 50  0001 C CNN
-F 1 "+5V" H 12265 2223 50  0000 C CNN
-F 2 "" H 12250 2050 50  0001 C CNN
-F 3 "" H 12250 2050 50  0001 C CNN
-	1    12250 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR074
-U 1 1 5FD8D03D
-P 12250 4150
-F 0 "#PWR074" H 12250 4000 50  0001 C CNN
-F 1 "+5V" H 12265 4323 50  0000 C CNN
-F 2 "" H 12250 4150 50  0001 C CNN
-F 3 "" H 12250 4150 50  0001 C CNN
-	1    12250 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR064
-U 1 1 5FD8D24C
-P 9200 4150
-F 0 "#PWR064" H 9200 4000 50  0001 C CNN
-F 1 "+5V" H 9215 4323 50  0000 C CNN
-F 2 "" H 9200 4150 50  0001 C CNN
-F 3 "" H 9200 4150 50  0001 C CNN
-	1    9200 4150
-	1    0    0    -1  
-$EndComp
 $Comp
 L MRDT_Connectors:Picoblade_3 Conn19
 U 1 1 60070283
@@ -2884,50 +2830,6 @@ Wire Wire Line
 	3650 9750 3650 9800
 Text Notes 3700 9650 0    39   ~ 0
 Orange\n
-$Comp
-L MRDT_Connectors:AndersonPP Conn28
-U 1 1 5CB8FDFD
-P 2050 8750
-F 0 "Conn28" V 2300 8750 60  0000 R CNN
-F 1 "AndersonPP" V 1975 8850 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 1900 8200 60  0001 C CNN
-F 3 "" H 1900 8200 60  0001 C CNN
-	1    2050 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn25
-U 1 1 5CBEE6D8
-P 2550 8750
-F 0 "Conn25" V 2800 8750 60  0000 R CNN
-F 1 "AndersonPP" V 2475 8850 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 2400 8200 60  0001 C CNN
-F 3 "" H 2400 8200 60  0001 C CNN
-	1    2550 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn26
-U 1 1 5CBEEFAE
-P 3050 8750
-F 0 "Conn26" V 3300 8750 60  0000 R CNN
-F 1 "AndersonPP" V 2975 8850 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 2900 8200 60  0001 C CNN
-F 3 "" H 2900 8200 60  0001 C CNN
-	1    3050 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn27
-U 1 1 5CBEF09A
-P 3550 8750
-F 0 "Conn27" V 3800 8800 60  0000 R CNN
-F 1 "AndersonPP" V 3475 8850 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 3400 8200 60  0001 C CNN
-F 3 "" H 3400 8200 60  0001 C CNN
-	1    3550 8750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3650 9150 3650 9200
 Wire Wire Line
@@ -2936,18 +2838,12 @@ Wire Wire Line
 	2650 9150 2650 9200
 Wire Wire Line
 	2150 9150 2150 9200
-Text GLabel 5650 6150 2    50   Output ~ 0
+Text GLabel 7150 7550 0    50   Output ~ 0
 LED_1
-Wire Wire Line
-	5600 6150 5650 6150
-Text GLabel 4650 7250 0    50   Output ~ 0
+Text GLabel 7150 7650 0    50   Output ~ 0
 LED_2
-Wire Wire Line
-	7100 6450 7150 6450
-Text GLabel 7100 6450 0    50   Output ~ 0
+Text GLabel 7150 7750 0    50   Output ~ 0
 LED_3
-Wire Wire Line
-	4650 7250 4700 7250
 Text GLabel 8400 9050 1    50   Input ~ 0
 LED_3
 Text GLabel 7700 9050 1    50   Input ~ 0
@@ -3086,111 +2982,89 @@ Wire Wire Line
 $Comp
 L Device:R_Small R5
 U 1 1 5D1DFACC
-P 1150 9300
-F 0 "R5" V 1200 9300 50  0000 C TNN
-F 1 "500" V 1150 9300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1150 9300 50  0001 C CNN
-F 3 "~" H 1150 9300 50  0001 C CNN
-	1    1150 9300
+P 1150 9200
+F 0 "R5" V 1200 9200 50  0000 C TNN
+F 1 "500" V 1150 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1150 9200 50  0001 C CNN
+F 3 "~" H 1150 9200 50  0001 C CNN
+	1    1150 9200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D1
 U 1 1 5D1DFAD3
-P 1150 9600
-F 0 "D1" V 1050 9700 50  0000 R CNN
-F 1 "LED" V 1250 9750 50  0000 R CNN
-F 2 "" H 1150 9600 50  0001 C CNN
-F 3 "~" H 1150 9600 50  0001 C CNN
-	1    1150 9600
+P 1150 9500
+F 0 "D1" V 1050 9600 50  0000 R CNN
+F 1 "LED" V 1250 9650 50  0000 R CNN
+F 2 "" H 1150 9500 50  0001 C CNN
+F 3 "~" H 1150 9500 50  0001 C CNN
+	1    1150 9500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 5D1DFADA
-P 1150 9800
-F 0 "#PWR09" H 1150 9550 50  0001 C CNN
-F 1 "GND" H 1150 9650 39  0000 C CNN
-F 2 "" H 1150 9800 50  0001 C CNN
-F 3 "" H 1150 9800 50  0001 C CNN
-	1    1150 9800
+P 1150 9700
+F 0 "#PWR09" H 1150 9450 50  0001 C CNN
+F 1 "GND" H 1150 9550 39  0000 C CNN
+F 2 "" H 1150 9700 50  0001 C CNN
+F 3 "" H 1150 9700 50  0001 C CNN
+	1    1150 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 9400 1150 9450
+	1150 9300 1150 9350
 Wire Wire Line
-	1150 9750 1150 9800
-Text Notes 1200 9650 0    39   ~ 0
-Orange\n
+	1150 9650 1150 9700
+Text Notes 1200 9550 0    39   ~ 0
+Green\n
 $Comp
 L Device:R_Small R6
 U 1 1 5D243A0D
-P 1650 9300
-F 0 "R6" V 1700 9300 50  0000 C TNN
-F 1 "500" V 1650 9300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 9300 50  0001 C CNN
-F 3 "~" H 1650 9300 50  0001 C CNN
-	1    1650 9300
+P 1650 9200
+F 0 "R6" V 1700 9200 50  0000 C TNN
+F 1 "500" V 1650 9200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1650 9200 50  0001 C CNN
+F 3 "~" H 1650 9200 50  0001 C CNN
+	1    1650 9200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D4
 U 1 1 5D243A14
-P 1650 9600
-F 0 "D4" V 1550 9700 50  0000 R CNN
-F 1 "LED" V 1750 9750 50  0000 R CNN
-F 2 "" H 1650 9600 50  0001 C CNN
-F 3 "~" H 1650 9600 50  0001 C CNN
-	1    1650 9600
+P 1650 9500
+F 0 "D4" V 1550 9600 50  0000 R CNN
+F 1 "LED" V 1750 9650 50  0000 R CNN
+F 2 "" H 1650 9500 50  0001 C CNN
+F 3 "~" H 1650 9500 50  0001 C CNN
+	1    1650 9500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5D243A1B
-P 1650 9800
-F 0 "#PWR010" H 1650 9550 50  0001 C CNN
-F 1 "GND" H 1650 9650 39  0000 C CNN
-F 2 "" H 1650 9800 50  0001 C CNN
-F 3 "" H 1650 9800 50  0001 C CNN
-	1    1650 9800
+P 1650 9700
+F 0 "#PWR010" H 1650 9450 50  0001 C CNN
+F 1 "GND" H 1650 9550 39  0000 C CNN
+F 2 "" H 1650 9700 50  0001 C CNN
+F 3 "" H 1650 9700 50  0001 C CNN
+	1    1650 9700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 9400 1650 9450
+	1650 9300 1650 9350
 Wire Wire Line
-	1650 9750 1650 9800
-Text Notes 1700 9650 0    39   ~ 0
-Orange\n
-$Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 3 1 5D2DBA91
-P 1050 8750
-F 0 "Conn2" V 1300 8600 60  0000 C CNN
-F 1 "Anderson-3" V 1000 8850 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 900 8200 60  0001 C CNN
-F 3 "" H 900 8200 60  0001 C CNN
-	3    1050 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn7
-U 2 1 5D30F640
-P 1550 8750
-F 0 "Conn7" V 1800 8600 60  0000 C CNN
-F 1 "Anderson-3" H 1756 9031 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 1400 8200 60  0001 C CNN
-F 3 "" H 1400 8200 60  0001 C CNN
-	2    1550 8750
-	0    1    1    0   
-$EndComp
+	1650 9650 1650 9700
+Text Notes 1700 9550 0    39   ~ 0
+Green
 Wire Wire Line
-	1650 9150 1650 9200
+	1650 9050 1650 9100
 Wire Wire Line
-	1150 9150 1150 9200
+	1150 9050 1150 9100
 Text Notes 950  8700 0    50   ~ 0
-+12vAct
+12vAct
 Text Notes 1450 8700 0    50   ~ 0
-+12vLog
+12vLog
 Text Notes 2000 8700 0    50   ~ 0
 Out_A1
 Text Notes 2500 8700 0    50   ~ 0
@@ -3246,9 +3120,6 @@ NoConn ~ 8050 6350
 NoConn ~ 8050 6450
 NoConn ~ 7150 7150
 NoConn ~ 7150 7450
-NoConn ~ 7150 7550
-NoConn ~ 7150 7650
-NoConn ~ 7150 7750
 NoConn ~ 7150 7850
 NoConn ~ 8050 7850
 NoConn ~ 8050 7350
@@ -3301,14 +3172,91 @@ Wire Wire Line
 	4350 1300 4250 1300
 Connection ~ 4350 1300
 Wire Wire Line
-	2450 1150 2450 1100
-Connection ~ 2450 1150
-Wire Wire Line
 	7100 9650 7100 9700
 NoConn ~ 5600 5750
 NoConn ~ 6650 4200
 Text Label 9200 1150 1    50   ~ 0
 Out_A1M1
-Text GLabel 2300 8900 1    50   Input ~ 0
+Text GLabel 2150 9150 1    50   Input ~ 0
 Out_A1M1
+Text GLabel 2650 9150 1    50   Input ~ 0
+Out_A1M2
+Text GLabel 3150 9150 1    50   Input ~ 0
+Out_A1M3
+Text GLabel 3650 9150 1    50   Input ~ 0
+Out_A1M4
+Text GLabel 1650 9050 1    50   Input ~ 0
+12vLog
+Text GLabel 1150 9050 1    50   Input ~ 0
+12vAct
+Wire Wire Line
+	1100 1150 1250 1150
+Wire Wire Line
+	1100 1900 2500 1900
+Wire Wire Line
+	1100 2200 1350 2200
+Wire Wire Line
+	1100 3300 2500 3300
+Wire Wire Line
+	1100 3600 1350 3600
+Text Label 1100 2200 0    39   ~ 0
+12vLog
+Text Label 1100 3600 0    39   ~ 0
+12vLog
+Text Label 9200 3250 1    50   ~ 0
+Out_A2M2
+Text Label 12250 1150 1    50   ~ 0
+Out_A3M3
+Text Label 12250 3250 1    50   ~ 0
+Out_A4M4
+$Comp
+L power:+12V #PWR?
+U 1 1 5C26122A
+P 9200 2050
+F 0 "#PWR?" H 9200 1900 50  0001 C CNN
+F 1 "+12V" H 9200 2200 50  0000 C CNN
+F 2 "" H 9200 2050 50  0001 C CNN
+F 3 "" H 9200 2050 50  0001 C CNN
+	1    9200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C261AB3
+P 12250 2050
+F 0 "#PWR?" H 12250 1900 50  0001 C CNN
+F 1 "+12V" H 12250 2200 50  0000 C CNN
+F 2 "" H 12250 2050 50  0001 C CNN
+F 3 "" H 12250 2050 50  0001 C CNN
+	1    12250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C261B96
+P 12250 4150
+F 0 "#PWR?" H 12250 4000 50  0001 C CNN
+F 1 "+12V" H 12250 4300 50  0000 C CNN
+F 2 "" H 12250 4150 50  0001 C CNN
+F 3 "" H 12250 4150 50  0001 C CNN
+	1    12250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C261C79
+P 9200 4150
+F 0 "#PWR?" H 9200 4000 50  0001 C CNN
+F 1 "+12V" H 9200 4300 50  0000 C CNN
+F 2 "" H 9200 4150 50  0001 C CNN
+F 3 "" H 9200 4150 50  0001 C CNN
+	1    9200 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 7250
+NoConn ~ 5600 6150
+NoConn ~ 7150 6450
+Connection ~ 2450 1150
+Wire Wire Line
+	2450 1150 2450 1100
 $EndSCHEMATC

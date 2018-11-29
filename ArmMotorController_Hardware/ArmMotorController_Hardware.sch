@@ -187,10 +187,10 @@ ENC_3
 Text GLabel 5000 3700 0    50   Input ~ 0
 ENC_4
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn16
+L MRDT_Connectors:Molex_SL_05 Conn11
 U 1 1 5BCC4D12
 P 3750 1500
-F 0 "Conn16" H 3550 1450 60  0000 L CNN
+F 0 "Conn11" H 3550 1450 60  0000 L CNN
 F 1 "Molex_SL_05" H 3250 2100 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 3750 1500 60  0001 C CNN
 F 3 "" H 3750 1500 60  0001 C CNN
@@ -419,10 +419,10 @@ $EndComp
 Text GLabel 10200 4400 0    50   Input ~ 0
 IN_B4
 $Comp
-L MRDT_Connectors:AndersonPP Conn23
+L MRDT_Connectors:AndersonPP Conn18
 U 1 1 5C0054EB
 P 12650 1050
-F 0 "Conn23" H 12850 1300 60  0000 R CNN
+F 0 "Conn18" H 12850 1300 60  0000 R CNN
 F 1 "AndersonPP" V 12575 1150 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 12500 500 60  0001 C CNN
 F 3 "" H 12500 500 60  0001 C CNN
@@ -443,10 +443,10 @@ F 3 "" H 7650 3750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn24
+L MRDT_Connectors:AndersonPP Conn19
 U 1 1 5C47ACED
 P 12650 3150
-F 0 "Conn24" H 12850 3400 60  0000 R CNN
+F 0 "Conn19" H 12850 3400 60  0000 R CNN
 F 1 "AndersonPP" V 12575 3250 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 12500 2600 60  0001 C CNN
 F 3 "" H 12500 2600 60  0001 C CNN
@@ -454,10 +454,10 @@ F 3 "" H 12500 2600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn22
+L MRDT_Connectors:AndersonPP Conn17
 U 1 1 5C47B742
 P 9600 3150
-F 0 "Conn22" H 9800 3400 60  0000 R CNN
+F 0 "Conn17" H 9800 3400 60  0000 R CNN
 F 1 "AndersonPP" V 9525 3250 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 9450 2600 60  0001 C CNN
 F 3 "" H 9450 2600 60  0001 C CNN
@@ -465,10 +465,10 @@ F 3 "" H 9450 2600 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn21
+L MRDT_Connectors:AndersonPP Conn16
 U 1 1 5C47BBD6
 P 9600 1050
-F 0 "Conn21" H 9800 1300 60  0000 R CNN
+F 0 "Conn16" H 9800 1300 60  0000 R CNN
 F 1 "AndersonPP" V 9525 1150 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 9450 500 60  0001 C CNN
 F 3 "" H 9450 500 60  0001 C CNN
@@ -599,10 +599,10 @@ F 3 "" H 7850 7900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn9
+L MRDT_Connectors:AndersonPP Conn17
 U 2 1 5BDBDE04
 P 9600 3550
-F 0 "Conn9" H 9800 3800 60  0000 R CNN
+F 0 "Conn17" H 9800 3800 60  0000 R CNN
 F 1 "AndersonPP" H 9800 3100 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 9450 3000 60  0001 C CNN
 F 3 "" H 9450 3000 60  0001 C CNN
@@ -610,10 +610,10 @@ F 3 "" H 9450 3000 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn8
+L MRDT_Connectors:AndersonPP Conn16
 U 2 1 5BDBE507
 P 9600 1450
-F 0 "Conn8" H 9800 1700 60  0000 R CNN
+F 0 "Conn16" H 9800 1700 60  0000 R CNN
 F 1 "AndersonPP" H 9800 1000 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 9450 900 60  0001 C CNN
 F 3 "" H 9450 900 60  0001 C CNN
@@ -621,10 +621,10 @@ F 3 "" H 9450 900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn14
+L MRDT_Connectors:AndersonPP Conn18
 U 2 1 5BDBE5AD
 P 12650 1450
-F 0 "Conn14" H 12875 1700 60  0000 R CNN
+F 0 "Conn18" H 12875 1700 60  0000 R CNN
 F 1 "AndersonPP" H 12850 1000 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 12500 900 60  0001 C CNN
 F 3 "" H 12500 900 60  0001 C CNN
@@ -632,10 +632,10 @@ F 3 "" H 12500 900 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn15
+L MRDT_Connectors:AndersonPP Conn19
 U 2 1 5BDBE659
 P 12650 3550
-F 0 "Conn15" H 12850 3800 60  0000 R CNN
+F 0 "Conn19" H 12850 3800 60  0000 R CNN
 F 1 "AndersonPP" H 12850 3100 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 12500 3000 60  0001 C CNN
 F 3 "" H 12500 3000 60  0001 C CNN
@@ -1838,10 +1838,10 @@ Wire Wire Line
 Wire Wire Line
 	4650 7650 4700 7650
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn19
+L MRDT_Connectors:Picoblade_3 Conn14
 U 1 1 60070283
 P 5250 3250
-F 0 "Conn19" H 5377 3458 60  0000 L CNN
+F 0 "Conn14" H 5377 3458 60  0000 L CNN
 F 1 "Encoder_3" H 5377 3352 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 5250 3250 60  0001 C CNN
 F 3 "" H 5250 3250 60  0001 C CNN
@@ -1849,10 +1849,10 @@ F 3 "" H 5250 3250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn20
+L MRDT_Connectors:Picoblade_3 Conn15
 U 1 1 60070DF7
 P 5250 3850
-F 0 "Conn20" H 5377 4058 60  0000 L CNN
+F 0 "Conn15" H 5377 4058 60  0000 L CNN
 F 1 "Encoder_4" H 5377 3952 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 5250 3850 60  0001 C CNN
 F 3 "" H 5250 3850 60  0001 C CNN
@@ -1860,10 +1860,10 @@ F 3 "" H 5250 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn18
+L MRDT_Connectors:Picoblade_3 Conn13
 U 1 1 60070EAF
 P 4000 3850
-F 0 "Conn18" H 4127 4058 60  0000 L CNN
+F 0 "Conn13" H 4127 4058 60  0000 L CNN
 F 1 "Encoder_2" H 4127 3952 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 4000 3850 60  0001 C CNN
 F 3 "" H 4000 3850 60  0001 C CNN
@@ -1871,10 +1871,10 @@ F 3 "" H 4000 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn17
+L MRDT_Connectors:Picoblade_3 Conn12
 U 1 1 60070F7B
 P 4000 3250
-F 0 "Conn17" H 4127 3458 60  0000 L CNN
+F 0 "Conn12" H 4127 3458 60  0000 L CNN
 F 1 "Encoder_1" H 4127 3352 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 4000 3250 60  0001 C CNN
 F 3 "" H 4000 3250 60  0001 C CNN
@@ -2139,10 +2139,10 @@ F 3 "" H 2650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn10
+L MRDT_Connectors:Molex_SL_02 Conn7
 U 1 1 6083F7FD
 P 2900 5250
-F 0 "Conn10" H 3028 5408 60  0000 L CNN
+F 0 "Conn7" H 3028 5408 60  0000 L CNN
 F 1 "Limit_Switch_5" H 3028 5302 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2900 5150 60  0001 C CNN
 F 3 "" H 2900 5150 60  0001 C CNN
@@ -2194,10 +2194,10 @@ F 3 "" H 2650 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn11
+L MRDT_Connectors:Molex_SL_02 Conn8
 U 1 1 609040C6
 P 2900 6100
-F 0 "Conn11" H 3028 6258 60  0000 L CNN
+F 0 "Conn8" H 3028 6258 60  0000 L CNN
 F 1 "Limit_Switch_6" H 3028 6152 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2900 6000 60  0001 C CNN
 F 3 "" H 2900 6000 60  0001 C CNN
@@ -2249,10 +2249,10 @@ F 3 "" H 2650 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn12
+L MRDT_Connectors:Molex_SL_02 Conn9
 U 1 1 6093691A
 P 2900 6950
-F 0 "Conn12" H 3028 7108 60  0000 L CNN
+F 0 "Conn9" H 3028 7108 60  0000 L CNN
 F 1 "Limit_Switch_7" H 3028 7002 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2900 6850 60  0001 C CNN
 F 3 "" H 2900 6850 60  0001 C CNN
@@ -2304,10 +2304,10 @@ F 3 "" H 2650 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn13
+L MRDT_Connectors:Molex_SL_02 Conn10
 U 1 1 6096A7DF
 P 2900 7800
-F 0 "Conn13" H 3028 7958 60  0000 L CNN
+F 0 "Conn10" H 3028 7958 60  0000 L CNN
 F 1 "Limit_Switch_8" H 3028 7852 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 2900 7700 60  0001 C CNN
 F 3 "" H 2900 7700 60  0001 C CNN
@@ -3210,10 +3210,10 @@ Out_A3M3
 Text Label 12250 3250 1    50   ~ 0
 Out_A4M4
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR063
 U 1 1 5C26122A
 P 9200 2050
-F 0 "#PWR?" H 9200 1900 50  0001 C CNN
+F 0 "#PWR063" H 9200 1900 50  0001 C CNN
 F 1 "+12V" H 9200 2200 50  0000 C CNN
 F 2 "" H 9200 2050 50  0001 C CNN
 F 3 "" H 9200 2050 50  0001 C CNN
@@ -3221,10 +3221,10 @@ F 3 "" H 9200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR073
 U 1 1 5C261AB3
 P 12250 2050
-F 0 "#PWR?" H 12250 1900 50  0001 C CNN
+F 0 "#PWR073" H 12250 1900 50  0001 C CNN
 F 1 "+12V" H 12250 2200 50  0000 C CNN
 F 2 "" H 12250 2050 50  0001 C CNN
 F 3 "" H 12250 2050 50  0001 C CNN
@@ -3232,10 +3232,10 @@ F 3 "" H 12250 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR074
 U 1 1 5C261B96
 P 12250 4150
-F 0 "#PWR?" H 12250 4000 50  0001 C CNN
+F 0 "#PWR074" H 12250 4000 50  0001 C CNN
 F 1 "+12V" H 12250 4300 50  0000 C CNN
 F 2 "" H 12250 4150 50  0001 C CNN
 F 3 "" H 12250 4150 50  0001 C CNN
@@ -3243,10 +3243,10 @@ F 3 "" H 12250 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR064
 U 1 1 5C261C79
 P 9200 4150
-F 0 "#PWR?" H 9200 4000 50  0001 C CNN
+F 0 "#PWR064" H 9200 4000 50  0001 C CNN
 F 1 "+12V" H 9200 4300 50  0000 C CNN
 F 2 "" H 9200 4150 50  0001 C CNN
 F 3 "" H 9200 4150 50  0001 C CNN
