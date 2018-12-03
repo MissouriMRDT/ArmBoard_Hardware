@@ -16,17 +16,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U3
-U 1 1 5BC24BBD
-P 4900 6700
-F 0 "U3" H 4950 6650 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 4500 6550 60  0001 L CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_Bottom_SMD" H 4900 6700 60  0001 C CNN
-F 3 "" H 4900 6700 60  0001 C CNN
-	1    4900 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U3
 U 2 1 5BC24C85
 P 5400 6700
 F 0 "U3" H 5500 6650 60  0000 C CNN
@@ -3089,13 +3078,6 @@ Wire Notes Line
 	8750 8350 8750 11250
 Wire Notes Line
 	8900 4950 8900 8350
-Wire Notes Line
-	8900 8350 450  8350
-NoConn ~ 4700 6250
-NoConn ~ 4700 6350
-NoConn ~ 4700 6450
-NoConn ~ 4700 6550
-NoConn ~ 4700 6650
 NoConn ~ 5600 5950
 NoConn ~ 5600 6050
 NoConn ~ 5600 6250
@@ -3259,4 +3241,207 @@ NoConn ~ 7150 6450
 Connection ~ 2450 1150
 Wire Wire Line
 	2450 1150 2450 1100
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U3
+U 1 1 5BC24BBD
+P 4900 6700
+F 0 "U3" H 4950 6650 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4500 6550 60  0001 L CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_Bottom_SMD" H 4900 6700 60  0001 C CNN
+F 3 "" H 4900 6700 60  0001 C CNN
+	1    4900 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 6250 0    50   Input ~ 0
+DIRECTION_SW
+Text GLabel 4650 6350 0    50   Input ~ 0
+Mo1_SW
+Text GLabel 4650 6450 0    50   Input ~ 0
+Mo2_SW
+Text GLabel 4650 6550 0    50   Input ~ 0
+Mo3_SW
+Text GLabel 4650 6650 0    50   Input ~ 0
+Mo4_SW
+Wire Wire Line
+	4650 6250 4700 6250
+Wire Wire Line
+	4650 6350 4700 6350
+Wire Wire Line
+	4650 6450 4700 6450
+Wire Wire Line
+	4650 6550 4700 6550
+Wire Wire Line
+	4650 6650 4700 6650
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C1696D6
+P 9800 5800
+F 0 "SW?" H 9800 6085 50  0000 C CNN
+F 1 "SW_Push" H 9800 5994 50  0000 C CNN
+F 2 "" H 9800 6000 50  0001 C CNN
+F 3 "" H 9800 6000 50  0001 C CNN
+	1    9800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C16981B
+P 9800 7800
+F 0 "SW?" H 9800 8085 50  0000 C CNN
+F 1 "SW_SPDT" H 9800 7994 50  0000 C CNN
+F 2 "" H 9800 7800 50  0001 C CNN
+F 3 "" H 9800 7800 50  0001 C CNN
+	1    9800 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C169A11
+P 9800 6250
+F 0 "SW?" H 9800 6535 50  0000 C CNN
+F 1 "SW_Push" H 9800 6444 50  0000 C CNN
+F 2 "" H 9800 6450 50  0001 C CNN
+F 3 "" H 9800 6450 50  0001 C CNN
+	1    9800 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C169B11
+P 9800 6700
+F 0 "SW?" H 9800 6985 50  0000 C CNN
+F 1 "SW_Push" H 9800 6894 50  0000 C CNN
+F 2 "" H 9800 6900 50  0001 C CNN
+F 3 "" H 9800 6900 50  0001 C CNN
+	1    9800 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5C16A095
+P 9800 7150
+F 0 "SW?" H 9800 7435 50  0000 C CNN
+F 1 "SW_Push" H 9800 7344 50  0000 C CNN
+F 2 "" H 9800 7350 50  0001 C CNN
+F 3 "" H 9800 7350 50  0001 C CNN
+	1    9800 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C16A68A
+P 9400 5750
+F 0 "#PWR?" H 9400 5600 50  0001 C CNN
+F 1 "+3.3V" H 9350 5900 50  0000 L CNN
+F 2 "" H 9400 5750 50  0001 C CNN
+F 3 "" H 9400 5750 50  0001 C CNN
+	1    9400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5800 9450 5800
+Wire Wire Line
+	9450 5800 9450 5750
+Wire Wire Line
+	9600 6250 9450 6250
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C25FFEE
+P 9400 6200
+F 0 "#PWR?" H 9400 6050 50  0001 C CNN
+F 1 "+3.3V" H 9350 6350 50  0000 L CNN
+F 2 "" H 9400 6200 50  0001 C CNN
+F 3 "" H 9400 6200 50  0001 C CNN
+	1    9400 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6250 9450 6200
+Wire Wire Line
+	9600 6700 9450 6700
+Wire Wire Line
+	9450 6700 9450 6650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C2C30FB
+P 9400 6650
+F 0 "#PWR?" H 9400 6500 50  0001 C CNN
+F 1 "+3.3V" H 9350 6800 50  0000 L CNN
+F 2 "" H 9400 6650 50  0001 C CNN
+F 3 "" H 9400 6650 50  0001 C CNN
+	1    9400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7150 9450 7150
+Wire Wire Line
+	9450 7150 9450 7100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C2F5806
+P 9400 7100
+F 0 "#PWR?" H 9400 6950 50  0001 C CNN
+F 1 "+3.3V" H 9350 7250 50  0000 L CNN
+F 2 "" H 9400 7100 50  0001 C CNN
+F 3 "" H 9400 7100 50  0001 C CNN
+	1    9400 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7800 9450 7800
+Wire Wire Line
+	9450 7800 9450 7750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C327EF8
+P 9400 7750
+F 0 "#PWR?" H 9400 7600 50  0001 C CNN
+F 1 "+3.3V" H 9350 7900 50  0000 L CNN
+F 2 "" H 9400 7750 50  0001 C CNN
+F 3 "" H 9400 7750 50  0001 C CNN
+	1    9400 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 7700 10050 7700
+Text GLabel 10050 7700 2    50   Output ~ 0
+DIRECTION_SW
+Text GLabel 10100 5800 2    50   Output ~ 0
+Mo1_SW
+Text GLabel 10100 6250 2    50   Output ~ 0
+Mo2_SW
+Text GLabel 10100 6700 2    50   Output ~ 0
+Mo3_SW
+Text GLabel 10100 7150 2    50   Output ~ 0
+Mo4_SW
+Wire Wire Line
+	10000 5800 10100 5800
+Wire Wire Line
+	10000 6250 10100 6250
+Wire Wire Line
+	10000 6700 10100 6700
+Wire Wire Line
+	10000 7150 10100 7150
+NoConn ~ 10000 7900
+Text Notes 9500 5250 0    118  ~ 24
+Interface
+Wire Notes Line
+	10900 8350 10900 4950
+Wire Notes Line
+	450  8350 10900 8350
+Connection ~ 9450 5800
+Wire Wire Line
+	9450 5800 9600 5800
+Connection ~ 9450 6250
+Wire Wire Line
+	9450 6250 9400 6250
+Connection ~ 9450 6700
+Wire Wire Line
+	9450 6700 9400 6700
+Connection ~ 9450 7150
+Wire Wire Line
+	9450 7150 9400 7150
+Connection ~ 9450 7800
+Wire Wire Line
+	9450 7800 9400 7800
 $EndSCHEMATC
