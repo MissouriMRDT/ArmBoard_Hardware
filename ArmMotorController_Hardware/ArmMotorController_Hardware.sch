@@ -3404,20 +3404,14 @@ Wire Wire Line
 	10000 7700 10050 7700
 Text GLabel 10050 7700 2    50   Output ~ 0
 DIRECTION_SW
-Text GLabel 10100 5800 2    50   Output ~ 0
+Text GLabel 10050 5800 2    50   Output ~ 0
 Mo1_SW
-Text GLabel 10100 6250 2    50   Output ~ 0
+Text GLabel 10050 6250 2    50   Output ~ 0
 Mo2_SW
-Text GLabel 10100 6700 2    50   Output ~ 0
+Text GLabel 10050 6700 2    50   Output ~ 0
 Mo3_SW
 Text GLabel 10100 7150 2    50   Output ~ 0
 Mo4_SW
-Wire Wire Line
-	10000 5800 10100 5800
-Wire Wire Line
-	10000 6250 10100 6250
-Wire Wire Line
-	10000 6700 10100 6700
 Wire Wire Line
 	10000 7150 10100 7150
 NoConn ~ 10000 7900
@@ -3429,4 +3423,10 @@ Wire Notes Line
 	450  8350 10900 8350
 Wire Wire Line
 	9450 5800 9600 5800
+Wire Wire Line
+	10000 5800 10050 5800
+Wire Wire Line
+	10000 6250 10050 6250
+Wire Wire Line
+	10000 6700 10050 6700
 $EndSCHEMATC
