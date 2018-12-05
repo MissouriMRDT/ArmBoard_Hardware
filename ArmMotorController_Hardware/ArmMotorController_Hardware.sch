@@ -305,13 +305,13 @@ Text GLabel 7100 6050 0    50   Output ~ 0
 TX_1_Tiva
 Text Notes 6400 6050 0    39   ~ 0
 Serial 6\n
-Text GLabel 4650 5850 0    50   Input ~ 0
-LS_1
-Text GLabel 4650 5950 0    50   Input ~ 0
-LS_2
-Text GLabel 4650 6050 0    50   Input ~ 0
-LS_3
 Text GLabel 4650 6150 0    50   Input ~ 0
+LS_1
+Text GLabel 4650 6250 0    50   Input ~ 0
+LS_2
+Text GLabel 4650 6350 0    50   Input ~ 0
+LS_3
+Text GLabel 4650 6450 0    50   Input ~ 0
 LS_4
 Text GLabel 5650 6350 2    50   Input ~ 0
 LS_5
@@ -1771,8 +1771,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 6650 5650 6650
 Wire Wire Line
-	4700 5850 4650 5850
-Wire Wire Line
 	4700 6150 4650 6150
 Wire Wire Line
 	8050 6550 8100 6550
@@ -2363,10 +2361,6 @@ Text Notes 6700 7300 0    39   ~ 0
 T5C
 Text Notes 6700 7400 0    39   ~ 0
 T6C
-Wire Wire Line
-	4650 5950 4700 5950
-Wire Wire Line
-	4650 6050 4700 6050
 Wire Wire Line
 	4650 7750 4700 7750
 Wire Wire Line
@@ -3396,10 +3390,13 @@ Wire Wire Line
 	4650 7250 4700 7250
 Wire Wire Line
 	4650 7350 4700 7350
-NoConn ~ 4700 6350
-NoConn ~ 4700 6450
 NoConn ~ 4700 6550
 Wire Wire Line
 	4650 6650 4700 6650
-NoConn ~ 4700 6250
+Wire Wire Line
+	4650 6250 4700 6250
+Wire Wire Line
+	4650 6350 4700 6350
+Wire Wire Line
+	4650 6450 4700 6450
 $EndSCHEMATC

@@ -215,9 +215,9 @@ F 3 "" H 4950 1550 60  0001 C CNN
 	1    4950 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3500 1350 0    50   Output ~ 0
+Text GLabel 3500 1450 0    50   Output ~ 0
 RX_1_SL
-Text GLabel 3500 1450 0    50   Input ~ 0
+Text GLabel 3500 1350 0    50   Input ~ 0
 TX_1_SL
 Text Notes 5900 750  2    118  ~ 24
 Level Shifter
