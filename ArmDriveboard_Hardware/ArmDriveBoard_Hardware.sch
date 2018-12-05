@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:DriveBoard_Hardware-cache
+LIBS:ArmDriveBoard_Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -504,7 +504,7 @@ U 2 1 5BE31EAB
 P 650 2000
 F 0 "Conn10" H 700 2250 60  0000 C CNN
 F 1 "AndersonPP" H 400 2100 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 500 1450 60  0001 C CNN
 F 3 "" H 500 1450 60  0001 C CNN
 	2    650  2000
 	1    0    0    -1  
@@ -515,7 +515,7 @@ U 1 1 5BE31EB2
 P 650 2300
 F 0 "Conn10" H 700 2250 60  0000 C CNN
 F 1 "AndersonPP" H 400 2400 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 500 1750 60  0001 C CNN
 F 3 "" H 500 1750 60  0001 C CNN
 	1    650  2300
 	1    0    0    -1  
@@ -526,7 +526,7 @@ U 3 1 5BE31EB9
 P 650 1650
 F 0 "Conn10" H 700 1900 60  0000 C CNN
 F 1 "AndersonPP" H 900 2050 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 500 1100 60  0001 C CNN
 F 3 "" H 500 1100 60  0001 C CNN
 	3    650  1650
 	1    0    0    -1  
@@ -816,7 +816,7 @@ U 1 1 5BFE9A6B
 P 3150 1850
 F 0 "U3" H 3375 1663 60  0000 C CNN
 F 1 "AP1059" H 3375 1769 60  0000 C CNN
-F 2 "MRDT_ICs:ESP8266_12E_SMD" H 2900 1750 60  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 1750 60  0001 C CNN
 F 3 "" H 2900 1750 60  0001 C CNN
 	1    3150 1850
 	-1   0    0    1   
