@@ -3415,17 +3415,6 @@ Text GLabel -1650 3650 0    50   Input ~ 0
 12vLog
 $Comp
 L MRDT_Connectors:AndersonPP Conn2
-U 1 1 5D1DB1C2
-P 700 3400
-F 0 "Conn2" H 750 3650 60  0000 C CNN
-F 1 "Anderson-3" H 906 3681 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 550 2850 60  0001 C CNN
-F 3 "" H 550 2850 60  0001 C CNN
-	1    700  3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn2
 U 2 1 5D1DB175
 P 700 3700
 F 0 "Conn2" H 750 3950 60  0000 C CNN
@@ -3433,6 +3422,17 @@ F 1 "Anderson-3" H 906 3981 60  0001 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 550 3150 60  0001 C CNN
 F 3 "" H 550 3150 60  0001 C CNN
 	2    700  3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 1 1 5D1DB1C2
+P 700 3400
+F 0 "Conn2" H 750 3650 60  0000 C CNN
+F 1 "Anderson-3" H 906 3681 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 550 2850 60  0001 C CNN
+F 3 "" H 550 2850 60  0001 C CNN
+	1    700  3400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
