@@ -3408,9 +3408,9 @@ Wire Wire Line
 Wire Wire Line
 	10000 6700 10050 6700
 Text Label 1100 1900 0    39   ~ 0
-AP5v_GND
+GND
 Text GLabel 1100 3300 0    50   Input ~ 0
-AP5v_GND
+GND
 Text GLabel 1100 3600 0    50   Input ~ 0
 12vLog
 $Comp
