@@ -3120,7 +3120,6 @@ Connection ~ 4350 1300
 Wire Wire Line
 	7100 9650 7100 9700
 NoConn ~ 5600 5750
-NoConn ~ 6650 4200
 Text Label 9200 1150 1    50   ~ 0
 Out_A1M1
 Text GLabel 2150 9150 1    50   Input ~ 0
@@ -3399,4 +3398,7 @@ Wire Wire Line
 	4650 6350 4700 6350
 Wire Wire Line
 	4650 6450 4700 6450
+NoConn ~ 4700 5850
+NoConn ~ 4700 5950
+NoConn ~ 4700 6050
 $EndSCHEMATC
