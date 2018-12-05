@@ -3401,4 +3401,6 @@ Wire Wire Line
 NoConn ~ 4700 5850
 NoConn ~ 4700 5950
 NoConn ~ 4700 6050
+Text Label 1100 1150 0    39   ~ 0
+12vAct
 $EndSCHEMATC
