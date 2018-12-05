@@ -3217,7 +3217,7 @@ F 3 "" H 4900 6700 60  0001 C CNN
 	1    4900 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 6250 0    50   Input ~ 0
+Text GLabel 4650 6650 0    50   Input ~ 0
 DIRECTION_SW
 Text GLabel 4650 7250 0    50   Input ~ 0
 Mo1_SW
@@ -3227,12 +3227,6 @@ Text GLabel 5600 6150 2    50   Input ~ 0
 Mo3_SW
 Text GLabel 5600 6050 2    50   Input ~ 0
 Mo4_SW
-Wire Wire Line
-	4650 6250 4700 6250
-Wire Wire Line
-	4650 6550 4700 6550
-Wire Wire Line
-	4650 6650 4700 6650
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5C1696D6
@@ -3404,4 +3398,8 @@ Wire Wire Line
 	4650 7350 4700 7350
 NoConn ~ 4700 6350
 NoConn ~ 4700 6450
+NoConn ~ 4700 6550
+Wire Wire Line
+	4650 6650 4700 6650
+NoConn ~ 4700 6250
 $EndSCHEMATC
