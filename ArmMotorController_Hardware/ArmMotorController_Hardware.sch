@@ -3410,31 +3410,7 @@ Wire Wire Line
 Text Label 1100 1900 0    39   ~ 0
 GND
 Text GLabel 1100 3300 0    50   Input ~ 0
-GND
+AP5v_GND
 Text GLabel 1100 3600 0    50   Input ~ 0
 12vLog
-$Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 2 1 5D1DB175
-P -600 3100
-F 0 "Conn2" H -550 3350 60  0000 C CNN
-F 1 "Anderson-3" H -394 3381 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H -750 2550 60  0001 C CNN
-F 3 "" H -750 2550 60  0001 C CNN
-	2    -600 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn2
-U 1 1 5D1DB1C2
-P -600 2800
-F 0 "Conn2" H -550 3050 60  0000 C CNN
-F 1 "Anderson-3" H -394 3081 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H -750 2250 60  0001 C CNN
-F 3 "" H -750 2250 60  0001 C CNN
-	1    -600 2800
-	1    0    0    -1  
-$EndComp
-NoConn ~ -200 2700
-NoConn ~ -200 3000
 $EndSCHEMATC
