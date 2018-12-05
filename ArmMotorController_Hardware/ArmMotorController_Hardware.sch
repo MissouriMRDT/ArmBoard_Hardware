@@ -2335,9 +2335,6 @@ F 3 "" H 2450 1100 50  0001 C CNN
 	1    2450 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 1450 2450 1500
-Connection ~ 2450 1450
 Text Notes 3950 8600 0    118  ~ 24
 Indicators
 Wire Wire Line
@@ -3054,10 +3051,8 @@ Wire Notes Line
 Wire Notes Line
 	8900 4950 8900 8350
 NoConn ~ 5600 5950
-NoConn ~ 5600 6050
 NoConn ~ 5600 6250
 NoConn ~ 4700 7150
-NoConn ~ 4700 7350
 NoConn ~ 4700 7450
 NoConn ~ 5600 7050
 NoConn ~ 5600 7150
@@ -3210,12 +3205,7 @@ F 3 "" H 9200 4150 50  0001 C CNN
 	1    9200 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4700 7250
-NoConn ~ 5600 6150
 NoConn ~ 7150 6450
-Connection ~ 2450 1150
-Wire Wire Line
-	2450 1150 2450 1100
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U3
 U 1 1 5BC24BBD
@@ -3227,26 +3217,16 @@ F 3 "" H 4900 6700 60  0001 C CNN
 	1    4900 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 6250 0    50   Input ~ 0
-DIRECTION_SW
-Text GLabel 4650 6350 0    50   Input ~ 0
-Mo1_SW
-Text GLabel 4650 6450 0    50   Input ~ 0
-Mo2_SW
-Text GLabel 4650 6550 0    50   Input ~ 0
-Mo3_SW
 Text GLabel 4650 6650 0    50   Input ~ 0
+DIRECTION_SW
+Text GLabel 4650 7250 0    50   Input ~ 0
+Mo1_SW
+Text GLabel 4650 7350 0    50   Input ~ 0
+Mo2_SW
+Text GLabel 5600 6150 2    50   Input ~ 0
+Mo3_SW
+Text GLabel 5600 6050 2    50   Input ~ 0
 Mo4_SW
-Wire Wire Line
-	4650 6250 4700 6250
-Wire Wire Line
-	4650 6350 4700 6350
-Wire Wire Line
-	4650 6450 4700 6450
-Wire Wire Line
-	4650 6550 4700 6550
-Wire Wire Line
-	4650 6650 4700 6650
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5C1696D6
@@ -3406,4 +3386,20 @@ Wire Wire Line
 	10000 6700 10050 6700
 Text GLabel 1100 3600 0    50   Input ~ 0
 12vLog
+Connection ~ 2450 1450
+Wire Wire Line
+	2450 1450 2450 1500
+Connection ~ 2450 1150
+Wire Wire Line
+	2450 1150 2450 1100
+Wire Wire Line
+	4650 7250 4700 7250
+Wire Wire Line
+	4650 7350 4700 7350
+NoConn ~ 4700 6350
+NoConn ~ 4700 6450
+NoConn ~ 4700 6550
+Wire Wire Line
+	4650 6650 4700 6650
+NoConn ~ 4700 6250
 $EndSCHEMATC

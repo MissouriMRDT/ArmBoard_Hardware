@@ -1293,19 +1293,16 @@ Connection ~ 2500 3600
 $Comp
 L power:GND #PWR016
 U 1 1 5D1DB1BA
-P 2650 3300
-F 0 "#PWR016" H 2650 3050 50  0001 C CNN
-F 1 "GND" H 2650 3150 39  0000 C CNN
-F 2 "" H 2650 3300 50  0001 C CNN
-F 3 "" H 2650 3300 50  0001 C CNN
-	1    2650 3300
+P 1100 3300
+F 0 "#PWR016" H 1100 3050 50  0001 C CNN
+F 1 "GND" H 1100 3150 39  0000 C CNN
+F 2 "" H 1100 3300 50  0001 C CNN
+F 3 "" H 1100 3300 50  0001 C CNN
+	1    1100 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 3300 2500 3600
-Wire Wire Line
-	2500 3300 2650 3300
-Connection ~ 2500 3300
 Connection ~ 1350 4050
 $Comp
 L power:+5V #PWR017
@@ -2338,9 +2335,6 @@ F 3 "" H 2450 1100 50  0001 C CNN
 	1    2450 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 1450 2450 1500
-Connection ~ 2450 1450
 Text Notes 3950 8600 0    118  ~ 24
 Indicators
 Wire Wire Line
@@ -3057,10 +3051,8 @@ Wire Notes Line
 Wire Notes Line
 	8900 4950 8900 8350
 NoConn ~ 5600 5950
-NoConn ~ 5600 6050
 NoConn ~ 5600 6250
 NoConn ~ 4700 7150
-NoConn ~ 4700 7350
 NoConn ~ 4700 7450
 NoConn ~ 5600 7050
 NoConn ~ 5600 7150
@@ -3213,12 +3205,7 @@ F 3 "" H 9200 4150 50  0001 C CNN
 	1    9200 4150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4700 7250
-NoConn ~ 5600 6150
 NoConn ~ 7150 6450
-Connection ~ 2450 1150
-Wire Wire Line
-	2450 1150 2450 1100
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U3
 U 1 1 5BC24BBD
@@ -3232,20 +3219,16 @@ F 3 "" H 4900 6700 60  0001 C CNN
 $EndComp
 Text GLabel 4650 6250 0    50   Input ~ 0
 DIRECTION_SW
-Text GLabel 4650 6350 0    50   Input ~ 0
+Text GLabel 4650 7250 0    50   Input ~ 0
 Mo1_SW
-Text GLabel 4650 6450 0    50   Input ~ 0
+Text GLabel 4650 7350 0    50   Input ~ 0
 Mo2_SW
-Text GLabel 4650 6550 0    50   Input ~ 0
+Text GLabel 5600 6150 2    50   Input ~ 0
 Mo3_SW
-Text GLabel 4650 6650 0    50   Input ~ 0
+Text GLabel 5600 6050 2    50   Input ~ 0
 Mo4_SW
 Wire Wire Line
 	4650 6250 4700 6250
-Wire Wire Line
-	4650 6350 4700 6350
-Wire Wire Line
-	4650 6450 4700 6450
 Wire Wire Line
 	4650 6550 4700 6550
 Wire Wire Line
@@ -3407,10 +3390,18 @@ Wire Wire Line
 	10000 6250 10050 6250
 Wire Wire Line
 	10000 6700 10050 6700
-Text Label 1100 1900 0    39   ~ 0
-GND
-Text GLabel 1100 3300 0    50   Input ~ 0
-AP5v_GND
 Text GLabel 1100 3600 0    50   Input ~ 0
 12vLog
+Connection ~ 2450 1450
+Wire Wire Line
+	2450 1450 2450 1500
+Connection ~ 2450 1150
+Wire Wire Line
+	2450 1150 2450 1100
+Wire Wire Line
+	4650 7250 4700 7250
+Wire Wire Line
+	4650 7350 4700 7350
+NoConn ~ 4700 6350
+NoConn ~ 4700 6450
 $EndSCHEMATC
