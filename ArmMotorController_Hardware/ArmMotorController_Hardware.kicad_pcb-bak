@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -5001,12 +5001,12 @@
       (net 131 /Out_A4M4))
   )
 
-  (module MRDT_Silkscreens:Zak_Brooks_Sig2_15mm (layer F.Cu) (tedit 0) (tstamp 5C08C5E3)
-    (at 89.154 159.766)
-    (fp_text reference G*** (at 5.588 2.286) (layer F.SilkS) hide
+  (module MRDT_Silkscreens:Zak_Brooks_Sig_15mm (layer F.Cu) (tedit 0) (tstamp 5C08C945)
+    (at 90.424 159.512)
+    (fp_text reference G*** (at 5.842 2.286) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at -0.508 -2.794) (layer F.SilkS) hide
+    (fp_text value LOGO (at -5.08 -3.048) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -4.054588 -1.762848) (xy -4.00295 -1.689829) (xy -3.949623 -1.577186) (xy -3.870068 -1.329097)
