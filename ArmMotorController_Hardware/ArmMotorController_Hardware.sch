@@ -3227,8 +3227,6 @@ F 3 "" H 7750 7900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 8750 7700 8750
-Wire Wire Line
-	7700 8850 7700 8800
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 5C327EF8
@@ -3564,7 +3562,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 5700 6850 5650
 Text GLabel 6900 2250 0    50   Output ~ 0
-I_SENSE_SW_1
+I_SENSE_VNH_1
 Wire Wire Line
 	6950 2250 6900 2250
 Text GLabel 6750 5800 2    50   Input ~ 0
@@ -3812,11 +3810,11 @@ Wire Wire Line
 Wire Wire Line
 	6950 4350 6900 4350
 Text GLabel 6900 4350 0    50   Output ~ 0
-I_SENSE_SW_2
+I_SENSE_VNH_2
 Text GLabel 10750 4350 0    50   Output ~ 0
-I_SENSE_SW_4
+I_SENSE_VNH_4
 Text GLabel 10750 2250 0    50   Output ~ 0
-I_SENSE_SW_3
+I_SENSE_VNH_3
 $Comp
 L power:+3.3V #PWR0123
 U 1 1 5D19AAEB
@@ -4003,4 +4001,8 @@ Wire Notes Line
 	450  7500 5800 7500
 Wire Notes Line
 	450  9500 8700 9500
+Wire Wire Line
+	8350 8900 8350 8950
+Wire Wire Line
+	7700 8750 7700 8700
 $EndSCHEMATC
