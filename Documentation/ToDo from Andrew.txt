@@ -1,2 +1,0 @@
-remove +3V3 on CS_DIS pin
-For CS, we need to add a current divider and voltage protection circuit. I'll send you a picture on slack

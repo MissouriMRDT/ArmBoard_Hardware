@@ -1,0 +1,42 @@
+--Schematic--
+You need to put a ground flag on the Ground net connected to the andersons so that is connected to the rest of the grounds. 
+You need to put a +5V    flag on the +5V    net connected to the AP1509    so that is connected to the rest of the +5V.
+AP 1509 wiring is messy and confusing. Consider placing the PowerOut andersons somewhere else
+Replace +12V_Act label with +12VA power flag
+Rename label "Laser_control" to "Laser_Control"
+Rename label "Solenoial_Control" to "Solenoid_Control"
+on TIVA,       move all labels out by one grid space and connect to symbol via a short wire
+On connectors, move all labels out by one grid space and connect to symbol via a short wire
+Replace GND and +5V labels with GND and +5V power flags
+On indicators, move all labels and symbols apart by one grid space and connect with a short wire
+Indicator label flags have diferent sizes. Make them consistent with the rest of the labels
+in indicators, Laser and Solenoid flags need to be "Laser_Control" and "Solenoid_Control"
+Add another indicator connected to a +5V power flag
+Add text next to each LED to indicate it's color
+	Green-Power
+	Orange-Actuation (Laser, Solenoid)
+	Yellow-Digital Actuation (Serial, Servo PWM)
+	Blue-Software Flags
+	Red-Software Error Flags
+Add the following indicators:
+	SW_IND_1 connected to any DIO pin on the tiva
+	SW_IND_2 connected to any DIO pin on the tiva
+	SW_IND_2 connected to any DIO pin on the tiva
+	SW_ERR	 connected to any DIO pin on the tiva
+	
+--Layout--
+Move top and bottom polygons to the edge of the PCB
+Add silkscreen to all connectors to indicate what pkugs into them, and what each pins function is. 
+Replace AP1509 inductor with the new one (see #arch_electrical)
+You have a lot of diagonal traces on your boardmaking a poor use of space. 
+	Exibit A- your trace connecting the reset pins has weave between 3 pins to make the trace
+Also, you dont need to connect the reset pins of the tiva
++12V_Act trace going to Q1 shuould be a bit thicker. say 20 mil
+Throughout your board,you have silkscreen overlapping pads, vias, and other silscreen. Make sure all the references are visible
+Your layout is lacking symmetry and consistency overall
+AP 1509 culd we wired cleaner. 
+Your board needs edge cuts
+You have a couple long traces cutting up your ground planes. 
+MAX 3232 looks good. 
+There are still a few finishing touches we need to do on the silkscreen, but I think you need to fix up some more of the stuff I mentioned here before going on to that. 
+Much of these comments would be better explained in person. have another go at layout. Try to focus on keeping everything consistent and symmetrical. 
