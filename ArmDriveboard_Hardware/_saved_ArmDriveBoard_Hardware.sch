@@ -153,8 +153,6 @@ Wire Wire Line
 Wire Wire Line
 	5300 1800 5800 1800
 Wire Wire Line
-	2700 4650 2900 4650
-Wire Wire Line
 	2700 3550 2900 3550
 $Comp
 L power:GND #PWR0105
@@ -280,7 +278,7 @@ F 3 "" H 7350 2050 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2100 0    60   Input ~ 0
 Servo2_PWM
-Text GLabel 1750 4950 0    60   Output ~ 0
+Text GLabel 2700 5550 2    60   Output ~ 0
 Servo1_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn7
@@ -308,9 +306,9 @@ F 3 "" H 7350 2550 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2600 0    60   Input ~ 0
 Servo3_PWM
-Text GLabel 1750 5050 0    60   Output ~ 0
+Text GLabel 2700 4950 2    60   Output ~ 0
 Servo2_PWM
-Text GLabel 1750 5150 0    60   Output ~ 0
+Text GLabel 2700 4750 2    60   Output ~ 0
 Servo3_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn4
@@ -377,11 +375,11 @@ Text GLabel 2300 1550 2    60   Input ~ 0
 +12VA
 Text GLabel 9450 1200 2    50   Input ~ 0
 +12VA
-Text GLabel 1750 4050 0    60   Output ~ 0
+Text GLabel 1800 6750 0    60   Output ~ 0
 Laser_Control
 Text GLabel 9050 3200 0    50   Input ~ 0
 Laser_Control
-Text GLabel 1750 4150 0    60   Output ~ 0
+Text GLabel 1800 6850 0    60   Output ~ 0
 Solenoial_Control
 Text GLabel 9050 3500 0    60   Input ~ 0
 Solenoial_Control
@@ -743,12 +741,12 @@ $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 5BFD5F26
-P 2900 4650
-F 0 "#PWR02" H 2900 4400 50  0001 C CNN
-F 1 "GND" H 2905 4477 50  0000 C CNN
-F 2 "" H 2900 4650 50  0001 C CNN
-F 3 "" H 2900 4650 50  0001 C CNN
-	1    2900 4650
+P 2800 4550
+F 0 "#PWR02" H 2800 4300 50  0001 C CNN
+F 1 "GND" H 2950 4500 50  0000 C CNN
+F 2 "" H 2800 4550 50  0001 C CNN
+F 3 "" H 2800 4550 50  0001 C CNN
+	1    2800 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1334,14 +1332,29 @@ SW_IND_3
 Text GLabel 1800 5550 0    60   Input ~ 0
 SW_IND_ERR
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C0F3199
 P 2300 2200
-F 0 "#PWR?" H 2300 1950 50  0001 C CNN
+F 0 "#PWR0104" H 2300 1950 50  0001 C CNN
 F 1 "GND" H 2305 2027 50  0000 C CNN
 F 2 "" H 2300 2200 50  0001 C CNN
 F 3 "" H 2300 2200 50  0001 C CNN
 	1    2300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4550 2800 4550
+Wire Wire Line
+	2700 4650 2700 4550
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 4 1 5C102E8A
+P 2000 6900
+F 0 "U1" H 2050 6850 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2305 7392 60  0001 L CNN
+F 2 "" H 2000 6900 60  0001 C CNN
+F 3 "" H 2000 6900 60  0001 C CNN
+	4    2000 6900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
