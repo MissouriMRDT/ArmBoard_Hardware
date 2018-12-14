@@ -4005,4 +4005,6 @@ Wire Wire Line
 	8350 8900 8350 8950
 Wire Wire Line
 	7700 8750 7700 8700
+Text Notes 4800 10750 0    39   ~ 0
+Yellow\n
 $EndSCHEMATC
