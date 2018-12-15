@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
@@ -8025,7 +8025,7 @@
   )
 
   (module "Project Library:SanfanLiu_sig21.8mmx12.3mm1" (layer F.Cu) (tedit 0) (tstamp 5C205FC8)
-    (at 131.826 143.764)
+    (at 134.112 143.51)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -9477,7 +9477,7 @@
   (gr_text "Power Out" (at 128.524 74.168) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "Arm Train Drive Board. Rev 1\nMars Rover Design Team\nMissouri S&T 2019\nSanfan Liu   Zak Brooks   David Theodorou" (at 123.952 131.826) (layer F.SilkS)
+  (gr_text "Armtrain Drive Board. Rev 1\nMars Rover Design Team\nMissouri S&T 2019\nSanfan Liu   Zak Brooks   David Theodorou" (at 123.952 131.826) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.3)) (justify left))
   )
   (gr_text "- TX RX" (at 228.092 65.532) (layer F.SilkS) (tstamp 5C2078F7)
