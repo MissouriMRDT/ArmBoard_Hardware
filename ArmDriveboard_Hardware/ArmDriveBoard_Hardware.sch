@@ -58,13 +58,13 @@ F 3 "" H 5900 3950 50  0001 C CNN
 	1    5900 3950
 	0    1    1    0   
 $EndComp
-Text Notes 1000 3750 0    60   ~ 0
+Text Notes 750  5350 0    60   ~ 0
 Serial 6
-Text Notes 3150 3950 0    60   ~ 0
+Text Notes 1100 5510 2    60   ~ 0
 Serial 4
-Text GLabel 2750 3850 2    60   Input ~ 0
+Text GLabel 1750 5550 0    60   Input ~ 0
 RX_2_IC
-Text GLabel 2750 3950 2    60   Output ~ 0
+Text GLabel 1750 5450 0    60   Output ~ 0
 TX_2_IC
 Text GLabel 7200 4450 2    60   Output ~ 0
 TX_2_SL
@@ -80,9 +80,9 @@ Text GLabel 9050 3800 0    60   Input ~ 0
 TX_1_SL
 Text GLabel 9050 4100 0    60   Input ~ 0
 RX_1_SL
-Text GLabel 1750 3750 0    60   Output ~ 0
+Text GLabel 1750 5350 0    60   Output ~ 0
 TX_1_IC
-Text GLabel 1750 3650 0    60   Input ~ 0
+Text GLabel 1750 5250 0    60   Input ~ 0
 RX_1_IC
 Text GLabel 6000 4450 0    60   Input ~ 0
 TX_2_IC
@@ -278,7 +278,7 @@ F 3 "" H 7350 2050 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2100 0    60   Input ~ 0
 Servo2_PWM
-Text GLabel 2700 5550 2    60   Output ~ 0
+Text GLabel 2750 5550 2    60   Output ~ 0
 Servo1_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn7
@@ -306,30 +306,30 @@ F 3 "" H 7350 2550 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2600 0    60   Input ~ 0
 Servo3_PWM
-Text GLabel 2700 4950 2    60   Output ~ 0
+Text GLabel 2750 4950 2    60   Output ~ 0
 Servo2_PWM
-Text GLabel 2700 4750 2    60   Output ~ 0
+Text GLabel 2750 4750 2    60   Output ~ 0
 Servo3_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn4
 U 1 1 5BCADF34
-P 10550 1400
-F 0 "Conn4" H 10678 1558 60  0000 L CNN
-F 1 "Laser 1" H 10678 1452 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 10550 1300 60  0001 C CNN
-F 3 "" H 10550 1300 60  0001 C CNN
-	1    10550 1400
+P 10550 1100
+F 0 "Conn4" H 10678 1258 60  0000 L CNN
+F 1 "Laser 1" H 10678 1152 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 10550 1000 60  0001 C CNN
+F 3 "" H 10550 1000 60  0001 C CNN
+	1    10550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn5
 U 1 1 5BCADFB6
-P 10550 1800
-F 0 "Conn5" H 10678 1958 60  0000 L CNN
-F 1 "Laser 2" H 10678 1852 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 10550 1700 60  0001 C CNN
-F 3 "" H 10550 1700 60  0001 C CNN
-	1    10550 1800
+P 10550 1500
+F 0 "Conn5" H 10678 1658 60  0000 L CNN
+F 1 "Laser 2" H 10678 1552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 10550 1400 60  0001 C CNN
+F 3 "" H 10550 1400 60  0001 C CNN
+	1    10550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,12 +346,12 @@ $EndComp
 Wire Wire Line
 	10350 2000 10100 2000
 Wire Wire Line
-	10100 1650 10350 1650
+	10100 1350 10350 1350
 Wire Wire Line
-	9450 1400 9600 1400
+	9450 1100 9600 1100
 Wire Wire Line
-	10100 1800 10100 1650
-Connection ~ 10100 1650
+	10100 1500 10100 1350
+Connection ~ 10100 1350
 $Comp
 L Device:Q_NMOS_GSD Q2
 U 1 1 5BCADB61
@@ -364,41 +364,33 @@ F 3 "~" H 9500 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 1800 10100 1800
+	9600 1500 10100 1500
 Wire Wire Line
 	9450 1950 9600 1950
 Wire Wire Line
 	9600 2350 10100 2350
 Wire Wire Line
 	10100 2350 10100 2000
-Text GLabel 2300 1550 2    60   Input ~ 0
-+12VA
-Text GLabel 9450 1200 2    50   Input ~ 0
-+12VA
-Text GLabel 1800 6750 0    60   Output ~ 0
+Text GLabel 1750 6750 0    60   Output ~ 0
 Laser_Control
 Text GLabel 9050 3200 0    50   Input ~ 0
 Laser_Control
-Text GLabel 1800 6850 0    60   Output ~ 0
-Solenoial_Control
+Text GLabel 1750 6850 0    60   Output ~ 0
+Solenoid_Control
 Text GLabel 9050 3500 0    60   Input ~ 0
-Solenoial_Control
+Solenoid_Control
 Text Notes 8450 800  0    98   ~ 20
 Laser & Solenoid Control
-Connection ~ 9450 1400
-Wire Wire Line
-	9450 1400 9450 1950
-Wire Wire Line
-	9450 1200 9450 1400
+Connection ~ 9450 1100
 $Comp
 L Device:Q_NMOS_GSD Q1
 U 1 1 5BD01A10
-P 9500 1600
-F 0 "Q1" H 9705 1646 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 9705 1555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 1700 50  0001 C CNN
-F 3 "~" H 9500 1600 50  0001 C CNN
-	1    9500 1600
+P 9500 1300
+F 0 "Q1" H 9705 1346 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 9705 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9700 1400 50  0001 C CNN
+F 3 "~" H 9500 1300 50  0001 C CNN
+	1    9500 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -533,7 +525,7 @@ MC2
 Text Notes 650  1300 0    79   ~ 0
 Vin
 Wire Wire Line
-	10100 1250 10100 1650
+	10100 950  10100 1350
 $Comp
 L Device:R R1
 U 1 1 5BEE07F8
@@ -546,7 +538,7 @@ F 3 "~" H 9300 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10100 1250 10350 1250
+	10100 950  10350 950 
 $Comp
 L Device:R R3
 U 1 1 5BEE1CA8
@@ -966,10 +958,6 @@ Wire Notes Line
 	8000 450  8000 6550
 Wire Notes Line
 	4950 450  4950 7850
-Text Label 2300 2200 0    50   ~ 0
-GND
-Text Label 2300 1900 0    50   ~ 0
-V+Log
 Text Label 3700 1350 0    50   ~ 0
 +5V
 $Comp
@@ -984,20 +972,6 @@ F 3 "" H 3250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3250 1350
-Wire Wire Line
-	1800 3650 1750 3650
-Wire Wire Line
-	1750 3750 1800 3750
-Wire Wire Line
-	1800 4050 1750 4050
-Wire Wire Line
-	1750 4150 1800 4150
-Wire Wire Line
-	1800 4950 1750 4950
-Wire Wire Line
-	1800 5050 1750 5050
-Wire Wire Line
-	1800 5150 1750 5150
 Wire Wire Line
 	2700 3850 2750 3850
 Wire Wire Line
@@ -1051,29 +1025,29 @@ Wire Wire Line
 $Comp
 L power:GND #PWR012
 U 1 1 5C16547B
-P 10300 1350
-F 0 "#PWR012" H 10300 1100 50  0001 C CNN
-F 1 "GND" H 10305 1177 50  0000 C CNN
-F 2 "" H 10300 1350 50  0001 C CNN
-F 3 "" H 10300 1350 50  0001 C CNN
-	1    10300 1350
+P 10300 1050
+F 0 "#PWR012" H 10300 800 50  0001 C CNN
+F 1 "GND" H 10305 877 50  0000 C CNN
+F 2 "" H 10300 1050 50  0001 C CNN
+F 3 "" H 10300 1050 50  0001 C CNN
+	1    10300 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 1350 10350 1350
+	10300 1050 10350 1050
 $Comp
 L power:GND #PWR013
 U 1 1 5C16948B
-P 10300 1750
-F 0 "#PWR013" H 10300 1500 50  0001 C CNN
-F 1 "GND" H 10305 1577 50  0000 C CNN
-F 2 "" H 10300 1750 50  0001 C CNN
-F 3 "" H 10300 1750 50  0001 C CNN
-	1    10300 1750
+P 10300 1450
+F 0 "#PWR013" H 10300 1200 50  0001 C CNN
+F 1 "GND" H 10305 1277 50  0000 C CNN
+F 2 "" H 10300 1450 50  0001 C CNN
+F 3 "" H 10300 1450 50  0001 C CNN
+	1    10300 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 1750 10350 1750
+	10300 1450 10350 1450
 $Comp
 L power:GND #PWR014
 U 1 1 5C16D4E3
@@ -1159,14 +1133,14 @@ Wire Wire Line
 	7150 2000 7150 2100
 Wire Wire Line
 	7150 2500 7150 2600
-Text GLabel 9250 1600 0    50   Input ~ 0
+Text GLabel 9250 1300 0    50   Input ~ 0
 Laser_Control
 Wire Wire Line
-	9250 1600 9300 1600
+	9250 1300 9300 1300
 Wire Wire Line
 	9250 2150 9300 2150
 Text GLabel 9250 2150 0    60   Input ~ 0
-Solenoial_Control
+Solenoid_Control
 $Comp
 L power:+5V #PWR011
 U 1 1 5C1B1B22
@@ -1323,13 +1297,13 @@ Text GLabel 9050 6800 0    60   Input ~ 0
 SW_IND_3
 Text GLabel 9050 7100 0    60   Input ~ 0
 SW_IND_ERR
-Text GLabel 1800 5250 0    60   Input ~ 0
+Text GLabel 2750 4150 2    60   Input ~ 0
 SW_IND_1
-Text GLabel 1800 5350 0    60   Input ~ 0
+Text GLabel 2750 4050 2    60   Input ~ 0
 SW_IND_2
-Text GLabel 1800 5450 0    60   Input ~ 0
+Text GLabel 2750 3950 2    60   Input ~ 0
 SW_IND_3
-Text GLabel 1800 5550 0    60   Input ~ 0
+Text GLabel 2750 3850 2    60   Input ~ 0
 SW_IND_ERR
 $Comp
 L power:GND #PWR0104
@@ -1357,4 +1331,64 @@ F 3 "" H 2000 6900 60  0001 C CNN
 	4    2000 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 5250 1800 5250
+Wire Wire Line
+	1800 5350 1750 5350
+Wire Wire Line
+	1750 5450 1800 5450
+Wire Wire Line
+	1800 5550 1750 5550
+Wire Wire Line
+	2700 4050 2750 4050
+Wire Wire Line
+	2750 4150 2700 4150
+Wire Wire Line
+	2700 4750 2750 4750
+Wire Wire Line
+	2700 4950 2750 4950
+Wire Wire Line
+	2700 5550 2750 5550
+Wire Wire Line
+	9450 1100 9450 1950
+Wire Wire Line
+	1750 6750 1800 6750
+Wire Wire Line
+	1800 6850 1750 6850
+$Comp
+L power:+12V #PWR0107
+U 1 1 5C14BC75
+P 2300 1550
+F 0 "#PWR0107" H 2300 1400 50  0001 C CNN
+F 1 "+12V" H 2315 1723 50  0000 C CNN
+F 2 "" H 2300 1550 50  0001 C CNN
+F 3 "" H 2300 1550 50  0001 C CNN
+	1    2300 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1550
+$Comp
+L power:+12V #PWR0108
+U 1 1 5C14C097
+P 9450 1100
+F 0 "#PWR0108" H 9450 950 50  0001 C CNN
+F 1 "+12V" H 9465 1273 50  0000 C CNN
+F 2 "" H 9450 1100 50  0001 C CNN
+F 3 "" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5C14CB11
+P 1650 5950
+F 0 "#PWR0110" H 1650 5700 50  0001 C CNN
+F 1 "GND" H 1655 5777 50  0000 C CNN
+F 2 "" H 1650 5950 50  0001 C CNN
+F 3 "" H 1650 5950 50  0001 C CNN
+	1    1650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5950 1650 5950
 $EndSCHEMATC
