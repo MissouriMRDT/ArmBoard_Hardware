@@ -278,7 +278,7 @@ F 3 "" H 7350 2050 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2100 0    60   Input ~ 0
 Servo2_PWM
-Text GLabel 2700 5550 2    60   Output ~ 0
+Text GLabel 2700 4950 2    60   Output ~ 0
 Servo1_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_03 Conn7
@@ -306,9 +306,9 @@ F 3 "" H 7350 2550 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2600 0    60   Input ~ 0
 Servo3_PWM
-Text GLabel 2700 4950 2    60   Output ~ 0
-Servo2_PWM
 Text GLabel 2700 4750 2    60   Output ~ 0
+Servo2_PWM
+Text GLabel 2700 5550 2    60   Output ~ 0
 Servo3_PWM
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn4
@@ -1347,10 +1347,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 4650 2700 4550
 $Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 4 1 5C102E8A
 P 2000 6900
-F 0 "U1" H 2050 6850 60  0000 L CNN
+F 0 "U?" H 2050 6850 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 2305 7392 60  0001 L CNN
 F 2 "" H 2000 6900 60  0001 C CNN
 F 3 "" H 2000 6900 60  0001 C CNN
