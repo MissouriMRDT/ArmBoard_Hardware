@@ -86,7 +86,7 @@ $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 3 1 5BCA68B5
 P 700 1250
-F 0 "Conn1" H 825 1525 60  0000 C CNN
+F 0 "Conn1" H 750 1500 60  0000 C CNN
 F 1 "Anderson-3" H 925 1625 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 700 60  0001 C CNN
 F 3 "" H 550 700 60  0001 C CNN
@@ -1001,264 +1001,102 @@ Wire Wire Line
 Wire Wire Line
 	13850 7750 13800 7750
 $Comp
-L MRDT_ICs:AP1059 U1
-U 1 1 5CB27D5C
-P 1850 2550
-F 0 "U1" H 2300 2500 60  0000 C CNN
-F 1 "AP1059" H 2050 3000 60  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm" H 1600 2450 60  0001 C CNN
-F 3 "" H 1600 2450 60  0001 C CNN
-	1    1850 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 2 1 5CB28B54
-P 700 2300
-F 0 "Conn1" H 750 2550 60  0000 C CNN
-F 1 "Anderson-3" H 906 2581 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 1750 60  0001 C CNN
-F 3 "" H 550 1750 60  0001 C CNN
-	2    700  2300
+P 700 2350
+F 0 "Conn1" H 750 2600 60  0000 C CNN
+F 1 "Anderson-3" H 906 2631 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 1800 60  0001 C CNN
+F 3 "" H 550 1800 60  0001 C CNN
+	2    700  2350
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D2
-U 1 1 5CC518D2
-P 1350 2800
-F 0 "D2" V 1250 2900 50  0000 C CNN
-F 1 "D_Schottky" V 1400 3050 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1350 2800 50  0001 C CNN
-F 3 "~" H 1350 2800 50  0001 C CNN
-	1    1350 2800
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 5CCD2350
-P 1350 2350
-F 0 "C2" H 1300 2450 50  0000 C CNN
-F 1 "10u" H 1500 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 2200 50  0001 C CNN
-F 3 "~" H 1350 2350 50  0001 C CNN
-	1    1350 2350
+P 1450 2400
+F 0 "C2" H 1400 2500 50  0000 C CNN
+F 1 "10u" H 1600 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 2250 50  0001 C CNN
+F 3 "~" H 1450 2400 50  0001 C CNN
+	1    1450 2400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 2200 2500 2300
-Connection ~ 2500 2300
-Wire Wire Line
-	2500 2300 2500 2400
-Connection ~ 2500 2400
-Wire Wire Line
-	2500 2400 2500 2500
-Connection ~ 2500 2500
-Wire Wire Line
-	2500 2500 2500 2650
-Wire Wire Line
-	1650 2500 1650 2650
-Connection ~ 1350 2200
-Wire Wire Line
-	1350 2200 1650 2200
-Wire Wire Line
-	1350 2500 1350 2650
-Wire Wire Line
-	1350 2650 1650 2650
-Connection ~ 1650 2650
-Wire Wire Line
-	1350 2950 1500 2950
-Wire Wire Line
-	1500 2950 1500 2300
-Wire Wire Line
-	1500 2300 1650 2300
-$Comp
-L pspice:INDUCTOR L1
-U 1 1 5CF6F0C0
-P 1750 2950
-F 0 "L1" H 1950 2900 50  0000 C CNN
-F 1 "47uH" H 1750 3050 50  0000 C CNN
-F 2 "MRDT_Actives:ETQ-P4M470YFN_Inductor" H 1750 2950 50  0001 C CNN
-F 3 "" H 1750 2950 50  0001 C CNN
-	1    1750 2950
-	1    0    0    -1  
-$EndComp
-Connection ~ 1500 2950
-Wire Wire Line
-	1650 2400 1600 2400
-Wire Wire Line
-	1600 2400 1600 2750
-Wire Wire Line
-	1600 2750 2000 2750
-Wire Wire Line
-	2000 2750 2000 2950
 $Comp
 L Device:C C7
 U 1 1 5CF9D7A2
-P 2250 2800
-F 0 "C7" H 2200 2900 50  0000 C CNN
-F 1 "10u" H 2400 2800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 2650 50  0001 C CNN
-F 3 "~" H 2250 2800 50  0001 C CNN
-	1    2250 2800
+P 2450 2400
+F 0 "C7" H 2400 2500 50  0000 C CNN
+F 1 "10u" H 2600 2400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2488 2250 50  0001 C CNN
+F 3 "~" H 2450 2400 50  0001 C CNN
+	1    2450 2400
 	-1   0    0    1   
 $EndComp
-Connection ~ 2000 2950
 $Comp
 L power:+3.3V #PWR015
 U 1 1 5CFFE006
-P 2650 2950
-F 0 "#PWR015" H 2650 2800 50  0001 C CNN
-F 1 "+3.3V" H 2550 3100 39  0000 L CNN
-F 2 "" H 2650 2950 50  0001 C CNN
-F 3 "" H 2650 2950 50  0001 C CNN
-	1    2650 2950
+P 2450 2250
+F 0 "#PWR015" H 2450 2100 50  0001 C CNN
+F 1 "+3.3V" H 2350 2400 39  0000 L CNN
+F 2 "" H 2450 2250 50  0001 C CNN
+F 3 "" H 2450 2250 50  0001 C CNN
+	1    2450 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2500 2200
 $Comp
 L power:GND #PWR014
 U 1 1 5D05E895
-P 2650 1900
-F 0 "#PWR014" H 2650 1650 50  0001 C CNN
-F 1 "GND" H 2650 1750 50  0000 C CNN
-F 2 "" H 2650 1900 50  0001 C CNN
-F 3 "" H 2650 1900 50  0001 C CNN
-	1    2650 1900
+P 1350 2550
+F 0 "#PWR014" H 1350 2300 50  0001 C CNN
+F 1 "GND" H 1350 2400 50  0000 C CNN
+F 2 "" H 1350 2550 50  0001 C CNN
+F 3 "" H 1350 2550 50  0001 C CNN
+	1    1350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn1
 U 1 1 5D0EB83F
-P 700 2000
-F 0 "Conn1" H 750 2250 60  0000 C CNN
-F 1 "Anderson-3" H 906 2281 60  0001 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 1450 60  0001 C CNN
-F 3 "" H 550 1450 60  0001 C CNN
-	1    700  2000
+P 700 2650
+F 0 "Conn1" H 750 2900 60  0000 C CNN
+F 1 "Anderson-3" H 906 2931 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horisontal_Side_by_Side" H 550 2100 60  0001 C CNN
+F 3 "" H 550 2100 60  0001 C CNN
+	1    700  2650
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 1900 2500 2200
-Wire Wire Line
-	2500 1900 2650 1900
-Connection ~ 2500 1900
-Connection ~ 1350 2650
-$Comp
-L MRDT_ICs:AP1059 U2
-U 1 1 5D1DB16E
-P 1850 3950
-F 0 "U2" H 2300 3900 60  0000 C CNN
-F 1 "AP1059" H 2050 4400 60  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm" H 1600 3850 60  0001 C CNN
-F 3 "" H 1600 3850 60  0001 C CNN
-	1    1850 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D3
-U 1 1 5D1DB17C
-P 1350 4200
-F 0 "D3" V 1250 4300 50  0000 C CNN
-F 1 "D_Schottky" V 1400 4450 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1350 4200 50  0001 C CNN
-F 3 "~" H 1350 4200 50  0001 C CNN
-	1    1350 4200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C3
 U 1 1 5D1DB183
-P 1350 3750
-F 0 "C3" H 1300 3850 50  0000 C CNN
-F 1 "10u" H 1500 3750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 3600 50  0001 C CNN
-F 3 "~" H 1350 3750 50  0001 C CNN
-	1    1350 3750
+P 1450 3350
+F 0 "C3" H 1400 3450 50  0000 C CNN
+F 1 "10u" H 1600 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1488 3200 50  0001 C CNN
+F 3 "~" H 1450 3350 50  0001 C CNN
+	1    1450 3350
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 3600 2500 3700
-Connection ~ 2500 3700
-Wire Wire Line
-	2500 3700 2500 3800
-Connection ~ 2500 3800
-Wire Wire Line
-	2500 3800 2500 3900
-Connection ~ 2500 3900
-Wire Wire Line
-	2500 3900 2500 4050
-Wire Wire Line
-	1650 3900 1650 4050
-Connection ~ 1350 3600
-Wire Wire Line
-	1350 3600 1650 3600
-Wire Wire Line
-	1350 3900 1350 4050
-Wire Wire Line
-	1350 4050 1650 4050
-Connection ~ 1650 4050
-Wire Wire Line
-	1350 4350 1500 4350
-Wire Wire Line
-	1500 4350 1500 3700
-Wire Wire Line
-	1500 3700 1650 3700
-$Comp
-L pspice:INDUCTOR L2
-U 1 1 5D1DB19C
-P 1750 4350
-F 0 "L2" H 1900 4300 50  0000 C CNN
-F 1 "47uH" H 1750 4450 50  0000 C CNN
-F 2 "MRDT_Actives:ETQ-P4M470YFN_Inductor" H 1750 4350 50  0001 C CNN
-F 3 "" H 1750 4350 50  0001 C CNN
-	1    1750 4350
-	1    0    0    -1  
-$EndComp
-Connection ~ 1500 4350
-Wire Wire Line
-	1650 3800 1600 3800
-Wire Wire Line
-	1600 3800 1600 4150
-Wire Wire Line
-	1600 4150 2000 4150
-Wire Wire Line
-	2000 4150 2000 4350
 $Comp
 L Device:C C8
 U 1 1 5D1DB1A8
-P 2250 4200
-F 0 "C8" H 2200 4300 50  0000 C CNN
-F 1 "10u" H 2400 4200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2288 4050 50  0001 C CNN
-F 3 "~" H 2250 4200 50  0001 C CNN
-	1    2250 4200
+P 2450 3350
+F 0 "C8" H 2400 3450 50  0000 C CNN
+F 1 "10u" H 2600 3350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2488 3200 50  0001 C CNN
+F 3 "~" H 2450 3350 50  0001 C CNN
+	1    2450 3350
 	-1   0    0    1   
 $EndComp
-Connection ~ 2000 4350
-Connection ~ 2500 3600
-$Comp
-L power:GND #PWR016
-U 1 1 5D1DB1BA
-P 1100 3300
-F 0 "#PWR016" H 1100 3050 50  0001 C CNN
-F 1 "GND" H 1100 3150 39  0000 C CNN
-F 2 "" H 1100 3300 50  0001 C CNN
-F 3 "" H 1100 3300 50  0001 C CNN
-	1    1100 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2500 3300 2500 3600
-Connection ~ 1350 4050
 $Comp
 L power:+5V #PWR017
 U 1 1 5D2E67FC
-P 2650 4350
-F 0 "#PWR017" H 2650 4200 50  0001 C CNN
-F 1 "+5V" H 2665 4523 39  0000 C CNN
-F 2 "" H 2650 4350 50  0001 C CNN
-F 3 "" H 2650 4350 50  0001 C CNN
-	1    2650 4350
+P 2450 3200
+F 0 "#PWR017" H 2450 3050 50  0001 C CNN
+F 1 "+5V" H 2465 3373 39  0000 C CNN
+F 2 "" H 2450 3200 50  0001 C CNN
+F 3 "" H 2450 3200 50  0001 C CNN
+	1    2450 3200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2193,26 +2031,6 @@ Wire Wire Line
 Wire Wire Line
 	11150 8550 11050 8550
 Connection ~ 11150 8550
-Connection ~ 2250 2950
-Wire Wire Line
-	2250 2950 2650 2950
-Connection ~ 2250 2650
-Wire Wire Line
-	2250 2650 2500 2650
-Wire Wire Line
-	1650 2650 2250 2650
-Wire Wire Line
-	2000 2950 2250 2950
-Connection ~ 2250 4350
-Wire Wire Line
-	2250 4350 2650 4350
-Connection ~ 2250 4050
-Wire Wire Line
-	2250 4050 2500 4050
-Wire Wire Line
-	1650 4050 2250 4050
-Wire Wire Line
-	2000 4350 2250 4350
 Wire Wire Line
 	2150 1450 2450 1450
 $Comp
@@ -3028,18 +2846,6 @@ Text GLabel 3700 10250 1    50   Input ~ 0
 Out_A1M4
 Wire Wire Line
 	1100 1150 1250 1150
-Wire Wire Line
-	1100 1900 2500 1900
-Wire Wire Line
-	1100 2200 1350 2200
-Wire Wire Line
-	1100 3300 2500 3300
-Wire Wire Line
-	1100 3600 1350 3600
-Text Label 1100 2200 0    39   ~ 0
-12vLog
-Text Label 1100 3600 0    39   ~ 0
-12vLog
 Text Label 8600 3400 0    50   ~ 0
 Out_A2M2
 Text Label 12450 1300 0    50   ~ 0
@@ -3255,8 +3061,6 @@ Wire Wire Line
 	7750 5700 7900 5700
 Wire Wire Line
 	8300 7200 8350 7200
-Text GLabel 1100 3600 0    50   Input ~ 0
-12vLog
 Connection ~ 2450 1450
 Wire Wire Line
 	2450 1450 2450 1500
@@ -4007,4 +3811,104 @@ Wire Wire Line
 	7700 8750 7700 8700
 Text Notes 4800 10750 0    39   ~ 0
 Yellow\n
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5C208612
+P 1700 2350
+F 0 "U?" H 1750 2300 60  0001 C CNN
+F 1 "OKI" H 1900 2631 60  0000 C CNN
+F 2 "" H 1500 2250 60  0001 C CNN
+F 3 "" H 1500 2250 60  0001 C CNN
+	1    1700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C2CE0CC
+P 1350 2250
+F 0 "#PWR?" H 1350 2100 50  0001 C CNN
+F 1 "+12V" H 1365 2423 50  0000 C CNN
+F 2 "" H 1350 2250 50  0001 C CNN
+F 3 "" H 1350 2250 50  0001 C CNN
+	1    1350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2250 1500 2250
+Wire Wire Line
+	1350 2250 1450 2250
+Connection ~ 1450 2250
+Wire Wire Line
+	1350 2550 1450 2550
+Connection ~ 1450 2550
+Connection ~ 1900 2550
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5C4EF1D6
+P 1700 3300
+F 0 "U?" H 1750 3250 60  0001 C CNN
+F 1 "OKI" H 1900 3581 60  0000 C CNN
+F 2 "" H 1500 3200 60  0001 C CNN
+F 3 "" H 1500 3200 60  0001 C CNN
+	1    1700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C4EF1DC
+P 1350 3200
+F 0 "#PWR?" H 1350 3050 50  0001 C CNN
+F 1 "+12V" H 1365 3373 50  0000 C CNN
+F 2 "" H 1350 3200 50  0001 C CNN
+F 3 "" H 1350 3200 50  0001 C CNN
+	1    1350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3200 1500 3200
+Wire Wire Line
+	1350 3200 1450 3200
+Connection ~ 1350 3200
+Connection ~ 1450 3200
+Wire Wire Line
+	1450 3500 1900 3500
+Connection ~ 1450 3500
+Connection ~ 1900 3500
+Text Label 1100 2250 0    39   ~ 0
+12vLog
+Connection ~ 1350 2250
+Wire Wire Line
+	1100 2550 1350 2550
+Connection ~ 1350 2550
+Text GLabel 1000 3200 0    50   Input ~ 0
+12vLog
+Wire Wire Line
+	1000 3200 1350 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5C4EF1C9
+P 1000 3500
+F 0 "#PWR?" H 1000 3250 50  0001 C CNN
+F 1 "GND" H 1000 3350 50  0000 C CNN
+F 2 "" H 1000 3500 50  0001 C CNN
+F 3 "" H 1000 3500 50  0001 C CNN
+	1    1000 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3500 1450 3500
+Wire Wire Line
+	1450 2550 1900 2550
+Wire Wire Line
+	2300 3200 2450 3200
+Wire Wire Line
+	1100 2250 1350 2250
+Connection ~ 2450 3200
+Wire Wire Line
+	1900 3500 2450 3500
+Wire Wire Line
+	2300 2250 2450 2250
+Connection ~ 2450 2250
+Wire Wire Line
+	1900 2550 2450 2550
 $EndSCHEMATC
