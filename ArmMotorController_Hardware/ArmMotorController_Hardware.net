@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\zbroo\Documents\GitHub\ArmBoard_Hardware\ArmMotorController_Hardware\ArmMotorController_Hardware.sch)
-    (date "12/17/2018 8:51:50 PM")
+    (date "12/17/2018 8:54:43 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -779,11 +779,13 @@
       (tstamp 5DD5F868))
     (comp (ref U1)
       (value OKI)
+      (footprint MRDT_Devices:OKI_Horizontal)
       (libsource (lib MRDT_Devices) (part OKI) (description "DC/DC Buck Converter"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C208612))
     (comp (ref U2)
       (value OKI)
+      (footprint MRDT_Devices:OKI_Horizontal)
       (libsource (lib MRDT_Devices) (part OKI) (description "DC/DC Buck Converter"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C4EF1D6)))
