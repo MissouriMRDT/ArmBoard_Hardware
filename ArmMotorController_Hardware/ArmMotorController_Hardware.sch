@@ -769,7 +769,7 @@ F 1 "GND" H 5000 6350 39  0000 C CNN
 F 2 "" H 4900 6350 50  0001 C CNN
 F 3 "" H 4900 6350 50  0001 C CNN
 	1    4900 6350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR044
@@ -2515,11 +2515,11 @@ Wire Wire Line
 	2700 10250 2700 10300
 Wire Wire Line
 	2200 10250 2200 10300
-Text GLabel 3900 6950 0    50   Output ~ 0
+Text GLabel 4850 6450 2    50   Output ~ 0
 LED_IND_SW_1
-Text GLabel 3900 7050 0    50   Output ~ 0
+Text GLabel 4850 6550 2    50   Output ~ 0
 LED_IND_SW_2
-Text GLabel 3900 7150 0    50   Output ~ 0
+Text GLabel 4850 6650 2    50   Output ~ 0
 LED_IND_SW_3
 Text GLabel 8450 10250 1    50   Input ~ 0
 LED_IND_SW_3
@@ -2787,9 +2787,6 @@ NoConn ~ 3900 6850
 NoConn ~ 3900 7250
 NoConn ~ 4800 7250
 NoConn ~ 4800 6750
-NoConn ~ 4800 6650
-NoConn ~ 4800 6550
-NoConn ~ 4800 6450
 NoConn ~ 6950 2550
 NoConn ~ 10800 2550
 NoConn ~ 6950 4650
@@ -3911,4 +3908,13 @@ Wire Wire Line
 Connection ~ 2450 2250
 Wire Wire Line
 	1900 2550 2450 2550
+Wire Wire Line
+	4800 6450 4850 6450
+Wire Wire Line
+	4800 6550 4850 6550
+Wire Wire Line
+	4800 6650 4850 6650
+NoConn ~ 3900 6950
+NoConn ~ 3900 7050
+NoConn ~ 3900 7150
 $EndSCHEMATC
