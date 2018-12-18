@@ -28,8 +28,8 @@ I_Sense_2	:PD0:D1_7: Analog In
 -----X7:A2-----
 Rx_1_Tiva	:PP0:A2_3: U6RX
 TX_1_Tiva	:PP1:A2_4: U6TX
-ENC_3		:PD4:A2_5: T7A
-ENC_4		:PD5:A2_6: T8A
+ENC_3		:PD4:A2_5: T7:T3_A
+ENC_4		:PD5:A2_6: T8:T3_B
 
 -----X7:B2-----
 I_Sense_3	:PK0:B2_5: Analog In
@@ -39,8 +39,8 @@ TX_2_Tiva	:PA5:B2_10:U3TX
 -----X7:C2-----
 Mo3_PWM		:PG1:C2_1: M0PWM5
 Mo4_PWM		:PK4:C2_2: M0PWM6
-ENC_1		:PM0:C2_4: T5C
-ENC_2		:PM1:C2_5: T6C
+ENC_1		:PM0:C2_4: T5:T2_A
+ENC_2		:PM1:C2_5: T6:T2_B
 
 -----X7:D2-----
 IN_A3		:PH2:D1_3: Digital Write
