@@ -2819,23 +2819,23 @@ Wire Wire Line
 	7150 10850 7150 10900
 NoConn ~ 2350 5150
 Text Label 8600 1300 0    50   ~ 0
-Out_A1M1
+Out_A_M1
 Text GLabel 2200 10250 1    50   Input ~ 0
-Out_A1M1
+Out_A_M1
 Text GLabel 2700 10250 1    50   Input ~ 0
-Out_A1M2
+Out_A_M2
 Text GLabel 3200 10250 1    50   Input ~ 0
-Out_A1M3
+Out_A_M3
 Text GLabel 3700 10250 1    50   Input ~ 0
-Out_A1M4
+Out_A_M4
 Wire Wire Line
 	1100 1150 1250 1150
 Text Label 8600 3400 0    50   ~ 0
-Out_A2M2
+Out_A_M2
 Text Label 12450 1300 0    50   ~ 0
-Out_A3M3
+Out_A_M3
 Text Label 12450 3400 0    50   ~ 0
-Out_A4M4
+Out_A_M4
 $Comp
 L power:+12V #PWR063
 U 1 1 5C26122A
@@ -3268,13 +3268,13 @@ $EndComp
 Wire Wire Line
 	8350 5950 8350 6000
 Text Label 8600 1700 0    50   ~ 0
-Out_B1M1
+Out_B_M1
 Text Label 12450 1700 0    50   ~ 0
-Out_B3M3
+Out_B_M3
 Text Label 12450 3800 0    50   ~ 0
-Out_B4M4
+Out_B_M4
 Text Label 8600 3800 0    50   ~ 0
-Out_B2M2
+Out_B_M2
 Text GLabel 6400 5800 0    50   Output ~ 0
 I_SENSE_1
 $Comp
