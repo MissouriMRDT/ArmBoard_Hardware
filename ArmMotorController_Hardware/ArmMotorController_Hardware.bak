@@ -769,7 +769,7 @@ F 1 "GND" H 5000 6350 39  0000 C CNN
 F 2 "" H 4900 6350 50  0001 C CNN
 F 3 "" H 4900 6350 50  0001 C CNN
 	1    4900 6350
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR044
@@ -2044,17 +2044,6 @@ F 3 "~" H 2450 1300 50  0001 C CNN
 	1    2450 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+12V #PWR012
-U 1 1 5BFE2A95
-P 2450 1100
-F 0 "#PWR012" H 2450 950 50  0001 C CNN
-F 1 "+12V" H 2450 1250 50  0000 C CNN
-F 2 "" H 2450 1100 50  0001 C CNN
-F 3 "" H 2450 1100 50  0001 C CNN
-	1    2450 1100
-	1    0    0    -1  
-$EndComp
 Text Notes 4000 9450 0    118  ~ 24
 Indicators
 Wire Wire Line
@@ -2515,11 +2504,11 @@ Wire Wire Line
 	2700 10250 2700 10300
 Wire Wire Line
 	2200 10250 2200 10300
-Text GLabel 3900 6950 0    50   Output ~ 0
+Text GLabel 4850 6450 2    50   Output ~ 0
 LED_IND_SW_1
-Text GLabel 3900 7050 0    50   Output ~ 0
+Text GLabel 4850 6550 2    50   Output ~ 0
 LED_IND_SW_2
-Text GLabel 3900 7150 0    50   Output ~ 0
+Text GLabel 4850 6650 2    50   Output ~ 0
 LED_IND_SW_3
 Text GLabel 8450 10250 1    50   Input ~ 0
 LED_IND_SW_3
@@ -2787,9 +2776,6 @@ NoConn ~ 3900 6850
 NoConn ~ 3900 7250
 NoConn ~ 4800 7250
 NoConn ~ 4800 6750
-NoConn ~ 4800 6650
-NoConn ~ 4800 6550
-NoConn ~ 4800 6450
 NoConn ~ 6950 2550
 NoConn ~ 10800 2550
 NoConn ~ 6950 4650
@@ -3868,7 +3854,6 @@ Wire Wire Line
 	1450 3200 1500 3200
 Wire Wire Line
 	1350 3200 1450 3200
-Connection ~ 1350 3200
 Connection ~ 1450 3200
 Wire Wire Line
 	1450 3500 1900 3500
@@ -3880,10 +3865,6 @@ Connection ~ 1350 2250
 Wire Wire Line
 	1100 2550 1350 2550
 Connection ~ 1350 2550
-Text GLabel 1000 3200 0    50   Input ~ 0
-12vLog
-Wire Wire Line
-	1000 3200 1350 3200
 $Comp
 L power:GND #PWR0130
 U 1 1 5C4EF1C9
@@ -3911,4 +3892,24 @@ Wire Wire Line
 Connection ~ 2450 2250
 Wire Wire Line
 	1900 2550 2450 2550
+Wire Wire Line
+	4800 6450 4850 6450
+Wire Wire Line
+	4800 6550 4850 6550
+Wire Wire Line
+	4800 6650 4850 6650
+NoConn ~ 3900 6950
+NoConn ~ 3900 7050
+NoConn ~ 3900 7150
+$Comp
+L power:+12VA #PWR?
+U 1 1 5C21C8BE
+P 2450 1100
+F 0 "#PWR?" H 2450 950 50  0001 C CNN
+F 1 "+12VA" H 2465 1273 50  0000 C CNN
+F 2 "" H 2450 1100 50  0001 C CNN
+F 3 "" H 2450 1100 50  0001 C CNN
+	1    2450 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
