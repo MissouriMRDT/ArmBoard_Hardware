@@ -1,0 +1,10 @@
+-Make boards shorter
+-1 board with andersons pointed in (soldering)
+-4 buttons, but possibly ignore 2
+-New diodes
+-vertical conectors, moved below headers (sanfan's board)
+-andersons can go closer to edge (sanfan's board)
+-remove power out andersons (sanfan's board)
+-clean up layouts and traces
+-another LED from motor to ground
+-
