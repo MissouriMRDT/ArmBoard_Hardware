@@ -2635,13 +2635,13 @@ Connection ~ 3400 1300
 Wire Wire Line
 	4650 10850 4650 10900
 NoConn ~ 2350 5150
-Text Label 10050 1150 0    50   ~ 0
+Text Label 10050 1850 0    50   ~ 0
 Out_A_M1
 Wire Wire Line
 	1100 1150 1250 1150
-Text Label 10000 3300 0    50   ~ 0
+Text Label 10000 4000 0    50   ~ 0
 Out_A_M2
-Text Label 15000 3300 0    50   ~ 0
+Text Label 15000 4000 0    50   ~ 0
 Out_A_M4
 $Comp
 L power:+12V #PWR056
@@ -3022,13 +3022,13 @@ F 3 "" H 8350 8250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 5950 8350 6000
-Text Label 10050 1850 0    50   ~ 0
+Text Label 10050 1150 0    50   ~ 0
 Out_B_M1
-Text Label 15000 1850 0    50   ~ 0
+Text Label 15000 1150 0    50   ~ 0
 Out_B_M3
-Text Label 15000 4000 0    50   ~ 0
+Text Label 15000 3300 0    50   ~ 0
 Out_B_M4
-Text Label 10000 4000 0    50   ~ 0
+Text Label 10000 3300 0    50   ~ 0
 Out_B_M2
 Text GLabel 6400 5800 0    50   Output ~ 0
 I_SENSE_1
@@ -3599,7 +3599,7 @@ Wire Wire Line
 Connection ~ 14850 1550
 Wire Wire Line
 	14850 1550 14950 1550
-Text Label 15000 1150 0    50   ~ 0
+Text Label 15000 1850 0    50   ~ 0
 Out_A_M3
 $Comp
 L Device:LED D23
