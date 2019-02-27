@@ -159,8 +159,8 @@ L MRDT_ICs:VNH5019A_E U?
 U 1 1 5BCBE520
 P 7950 4700
 AR Path="/5BCB8B13/5BCBE520" Ref="U?"  Part="1" 
-AR Path="/5BCBE520" Ref="U5"  Part="1" 
-F 0 "U5" H 9100 4650 60  0000 C CNN
+AR Path="/5BCBE520" Ref="U6"  Part="1" 
+F 0 "U6" H 9100 4650 60  0000 C CNN
 F 1 "VNH5019A_E" H 8550 6281 60  0000 C CNN
 F 2 "MRDT_ICs:MultiPowerSO_30" H 7950 6000 60  0001 C CNN
 F 3 "" H 7950 6000 60  0001 C CNN
@@ -176,10 +176,10 @@ ENC_3_PWM
 Text GLabel 14300 6600 0    50   Output ~ 0
 ENC_4_PWM
 $Comp
-L MRDT_Connectors:Molex_SL_05 Conn14
+L MRDT_Connectors:Molex_SL_05 Conn11
 U 1 1 5BCC4D12
 P 14050 8100
-F 0 "Conn14" H 13850 8050 60  0000 L CNN
+F 0 "Conn11" H 13850 8050 60  0000 L CNN
 F 1 "Molex_SL_05" H 13550 8700 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 14050 8100 60  0001 C CNN
 F 3 "" H 14050 8100 60  0001 C CNN
@@ -406,10 +406,10 @@ $EndComp
 Text GLabel 12450 4550 0    50   Input ~ 0
 IN_B4
 $Comp
-L MRDT_Connectors:AndersonPP Conn17
+L MRDT_Connectors:AndersonPP Conn18
 U 1 1 5C0054EB
 P 15750 1050
-F 0 "Conn17" H 15950 1300 60  0000 R CNN
+F 0 "Conn18" H 15950 1300 60  0000 R CNN
 F 1 "AndersonPP" V 15675 1150 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 500 60  0001 C CNN
 F 3 "" H 15600 500 60  0001 C CNN
@@ -419,10 +419,10 @@ $EndComp
 Text Notes 13350 3050 0    79   ~ 0
 Motor 4\n
 $Comp
-L MRDT_ICs:VNH5019A_E U6
+L MRDT_ICs:VNH5019A_E U5
 U 1 1 5BCBE527
 P 8000 2550
-F 0 "U6" H 9150 2500 60  0000 C CNN
+F 0 "U5" H 9150 2500 60  0000 C CNN
 F 1 "VNH5019A_E" H 8600 4131 60  0000 C CNN
 F 2 "MRDT_ICs:MultiPowerSO_30" H 8000 3850 60  0001 C CNN
 F 3 "" H 8000 3850 60  0001 C CNN
@@ -430,10 +430,10 @@ F 3 "" H 8000 3850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn18
+L MRDT_Connectors:AndersonPP Conn19
 U 1 1 5C47ACED
 P 15750 3200
-F 0 "Conn18" H 15950 3450 60  0000 R CNN
+F 0 "Conn19" H 15950 3450 60  0000 R CNN
 F 1 "AndersonPP" V 15675 3300 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 2650 60  0001 C CNN
 F 3 "" H 15600 2650 60  0001 C CNN
@@ -441,10 +441,10 @@ F 3 "" H 15600 2650 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn6
+L MRDT_Connectors:AndersonPP Conn17
 U 1 1 5C47B742
 P 10750 3200
-F 0 "Conn6" H 10950 3450 60  0000 R CNN
+F 0 "Conn17" H 10950 3450 60  0000 R CNN
 F 1 "AndersonPP" V 10675 3300 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 2650 60  0001 C CNN
 F 3 "" H 10600 2650 60  0001 C CNN
@@ -452,10 +452,10 @@ F 3 "" H 10600 2650 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L MRDT_Connectors:AndersonPP Conn16
 U 1 1 5C47BBD6
 P 10800 1050
-F 0 "Conn7" H 11000 1300 60  0000 R CNN
+F 0 "Conn16" H 11000 1300 60  0000 R CNN
 F 1 "AndersonPP" V 10725 1150 60  0001 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 500 60  0001 C CNN
 F 3 "" H 10650 500 60  0001 C CNN
@@ -586,10 +586,10 @@ F 3 "" H 4600 7300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn6
+L MRDT_Connectors:AndersonPP Conn17
 U 2 1 5BDBDE04
 P 10750 3900
-F 0 "Conn6" H 10950 4150 60  0000 R CNN
+F 0 "Conn17" H 10950 4150 60  0000 R CNN
 F 1 "AndersonPP" H 10950 3150 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 3350 60  0001 C CNN
 F 3 "" H 10600 3350 60  0001 C CNN
@@ -597,10 +597,10 @@ F 3 "" H 10600 3350 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn17
+L MRDT_Connectors:AndersonPP Conn18
 U 2 1 5BDBE5AD
 P 15750 1750
-F 0 "Conn17" H 15975 2000 60  0000 R CNN
+F 0 "Conn18" H 15975 2000 60  0000 R CNN
 F 1 "AndersonPP" H 15950 1000 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 1200 60  0001 C CNN
 F 3 "" H 15600 1200 60  0001 C CNN
@@ -608,10 +608,10 @@ F 3 "" H 15600 1200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn18
+L MRDT_Connectors:AndersonPP Conn19
 U 2 1 5BDBE659
 P 15750 3900
-F 0 "Conn18" H 15950 4150 60  0000 R CNN
+F 0 "Conn19" H 15950 4150 60  0000 R CNN
 F 1 "AndersonPP" H 15950 3150 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 3350 60  0001 C CNN
 F 3 "" H 15600 3350 60  0001 C CNN
@@ -1533,10 +1533,10 @@ Wire Wire Line
 Wire Wire Line
 	1400 7050 1450 7050
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn15
+L MRDT_Connectors:Picoblade_3 Conn14
 U 1 1 60070283
 P 14550 6150
-F 0 "Conn15" H 14677 6358 60  0000 L CNN
+F 0 "Conn14" H 14677 6358 60  0000 L CNN
 F 1 "Encoder_3" H 14677 6252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 14550 6150 60  0001 C CNN
 F 3 "" H 14550 6150 60  0001 C CNN
@@ -1544,10 +1544,10 @@ F 3 "" H 14550 6150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Picoblade_3 Conn16
+L MRDT_Connectors:Picoblade_3 Conn15
 U 1 1 60070DF7
 P 14550 6750
-F 0 "Conn16" H 14677 6958 60  0000 L CNN
+F 0 "Conn15" H 14677 6958 60  0000 L CNN
 F 1 "Encoder_4" H 14677 6852 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 14550 6750 60  0001 C CNN
 F 3 "" H 14550 6750 60  0001 C CNN
@@ -1612,10 +1612,10 @@ Wire Wire Line
 Wire Wire Line
 	12950 6500 13000 6500
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn2
+L MRDT_Connectors:Molex_SL_02 Conn3
 U 1 1 6052E2D2
 P 9800 6050
-F 0 "Conn2" H 9928 6208 60  0000 L CNN
+F 0 "Conn3" H 9928 6208 60  0000 L CNN
 F 1 "Limit_Switch_1" H 9928 6102 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9800 5950 60  0001 C CNN
 F 3 "" H 9800 5950 60  0001 C CNN
@@ -1667,10 +1667,10 @@ F 3 "" H 9550 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn3
+L MRDT_Connectors:Molex_SL_02 Conn4
 U 1 1 607B489F
 P 9800 6900
-F 0 "Conn3" H 9928 7058 60  0000 L CNN
+F 0 "Conn4" H 9928 7058 60  0000 L CNN
 F 1 "Limit_Switch_2" H 9928 6952 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9800 6800 60  0001 C CNN
 F 3 "" H 9800 6800 60  0001 C CNN
@@ -1722,10 +1722,10 @@ F 3 "" H 9550 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn4
+L MRDT_Connectors:Molex_SL_02 Conn5
 U 1 1 607E176B
 P 9800 7750
-F 0 "Conn4" H 9928 7908 60  0000 L CNN
+F 0 "Conn5" H 9928 7908 60  0000 L CNN
 F 1 "Limit_Switch_3" H 9928 7802 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9800 7650 60  0001 C CNN
 F 3 "" H 9800 7650 60  0001 C CNN
@@ -1777,10 +1777,10 @@ F 3 "" H 9550 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn5
+L MRDT_Connectors:Molex_SL_02 Conn6
 U 1 1 6080FC34
 P 9800 8600
-F 0 "Conn5" H 9928 8758 60  0000 L CNN
+F 0 "Conn6" H 9928 8758 60  0000 L CNN
 F 1 "Limit_Switch_4" H 9928 8652 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9800 8500 60  0001 C CNN
 F 3 "" H 9800 8500 60  0001 C CNN
@@ -1832,10 +1832,10 @@ F 3 "" H 11150 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn8
+L MRDT_Connectors:Molex_SL_02 Conn7
 U 1 1 6083F7FD
 P 11400 6050
-F 0 "Conn8" H 11528 6208 60  0000 L CNN
+F 0 "Conn7" H 11528 6208 60  0000 L CNN
 F 1 "Limit_Switch_5" H 11528 6102 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 11400 5950 60  0001 C CNN
 F 3 "" H 11400 5950 60  0001 C CNN
@@ -1887,10 +1887,10 @@ F 3 "" H 11150 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn9
+L MRDT_Connectors:Molex_SL_02 Conn8
 U 1 1 609040C6
 P 11400 6900
-F 0 "Conn9" H 11528 7058 60  0000 L CNN
+F 0 "Conn8" H 11528 7058 60  0000 L CNN
 F 1 "Limit_Switch_6" H 11528 6952 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 11400 6800 60  0001 C CNN
 F 3 "" H 11400 6800 60  0001 C CNN
@@ -1942,10 +1942,10 @@ F 3 "" H 11150 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn10
+L MRDT_Connectors:Molex_SL_02 Conn9
 U 1 1 6093691A
 P 11400 7750
-F 0 "Conn10" H 11528 7908 60  0000 L CNN
+F 0 "Conn9" H 11528 7908 60  0000 L CNN
 F 1 "Limit_Switch_7" H 11528 7802 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 11400 7650 60  0001 C CNN
 F 3 "" H 11400 7650 60  0001 C CNN
@@ -1997,10 +1997,10 @@ F 3 "" H 11150 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn11
+L MRDT_Connectors:Molex_SL_02 Conn10
 U 1 1 6096A7DF
 P 11400 8600
-F 0 "Conn11" H 11528 8758 60  0000 L CNN
+F 0 "Conn10" H 11528 8758 60  0000 L CNN
 F 1 "Limit_Switch_8" H 11528 8652 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 11400 8500 60  0001 C CNN
 F 3 "" H 11400 8500 60  0001 C CNN
@@ -3425,10 +3425,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 6150 6500 6200
 $Comp
-L MRDT_Connectors:AndersonPP Conn7
+L MRDT_Connectors:AndersonPP Conn16
 U 2 1 5BDBE507
 P 10800 1750
-F 0 "Conn7" H 11000 2000 60  0000 R CNN
+F 0 "Conn16" H 11000 2000 60  0000 R CNN
 F 1 "AndersonPP" H 11000 1000 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 1200 60  0001 C CNN
 F 3 "" H 10650 1200 60  0001 C CNN
