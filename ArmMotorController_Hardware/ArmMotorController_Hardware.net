@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\zbroo\Documents\GitHub\ArmBoard_Hardware\ArmMotorController_Hardware\ArmMotorController_Hardware.sch)
-    (date "2/26/2019 9:03:23 PM")
+    (date "2/27/2019 5:39:09 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1521,7 +1521,7 @@
       (node (ref R13) (pin 2))
       (node (ref U3) (pin PL2)))
     (net (code 66) (name M4_PWM)
-      (node (ref U3) (pin PK4))
+      (node (ref U3) (pin PG1))
       (node (ref R55) (pin 2)))
     (net (code 67) (name "Net-(D10-Pad2)")
       (node (ref D10) (pin 2))
@@ -1742,7 +1742,7 @@
       (node (ref R23) (pin 2)))
     (net (code 134) (name M3_PWM)
       (node (ref R48) (pin 2))
-      (node (ref U3) (pin PG1)))
+      (node (ref U3) (pin PK4)))
     (net (code 135) (name "Net-(R48-Pad1)")
       (node (ref R48) (pin 1))
       (node (ref U7) (pin 7)))
