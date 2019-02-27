@@ -1,4 +1,4 @@
-update=2/26/2019 6:36:44 PM
+update=2/26/2019 5:54:15 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ArmMotorController_Hardware.net
+LastNetListRead=ArmMotorController_HardwareRev2.net
 PadDrill=0
 PadDrillOvalY=0
 PadSizeH=1.05
