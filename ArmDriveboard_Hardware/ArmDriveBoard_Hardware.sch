@@ -134,16 +134,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0103
 U 1 1 5BA19514
-P 2900 3400
-F 0 "#PWR0103" H 2900 3250 50  0001 C CNN
-F 1 "+5V" H 2915 3573 50  0000 C CNN
-F 2 "" H 2900 3400 50  0001 C CNN
-F 3 "" H 2900 3400 50  0001 C CNN
-	1    2900 3400
+P 4850 6050
+F 0 "#PWR0103" H 4850 5900 50  0001 C CNN
+F 1 "+5V" H 4865 6223 50  0000 C CNN
+F 2 "" H 4850 6050 50  0001 C CNN
+F 3 "" H 4850 6050 50  0001 C CNN
+	1    4850 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 3450 2900 3400
+	4850 6100 4850 6050
 Wire Wire Line
 	5250 2500 5250 2550
 Wire Wire Line
@@ -192,14 +192,14 @@ Wire Wire Line
 	5700 3650 5500 3650
 Connection ~ 5700 3650
 Wire Wire Line
-	2700 3450 2900 3450
+	4650 6100 4850 6100
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 5 1 5BC68DCB
 P 2000 4400
 F 0 "U1" H 1800 4350 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1750 5600 60  0001 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2000 4400 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2000 4400 60  0001 C CNN
 F 3 "" H 2000 4400 60  0001 C CNN
 	5    2000 4400
 	1    0    0    -1  
@@ -210,7 +210,7 @@ U 6 1 5BC6AA65
 P 2500 4400
 F 0 "U1" H 2550 4350 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 2250 5600 60  0000 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2500 4400 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2500 4400 60  0001 C CNN
 F 3 "" H 2500 4400 60  0001 C CNN
 	6    2500 4400
 	-1   0    0    -1  
@@ -221,7 +221,7 @@ U 7 1 5BC6C1C9
 P 2000 5600
 F 0 "U1" H 2000 5550 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1250 5400 60  0001 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2000 5600 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2000 5600 60  0001 C CNN
 F 3 "" H 2000 5600 60  0001 C CNN
 	7    2000 5600
 	1    0    0    -1  
@@ -232,7 +232,7 @@ U 8 1 5BC6C95C
 P 2500 5600
 F 0 "U1" H 2550 5550 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 1750 5400 60  0001 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2500 5600 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2500 5600 60  0001 C CNN
 F 3 "" H 2500 5600 60  0001 C CNN
 	8    2500 5600
 	-1   0    0    -1  
@@ -404,7 +404,7 @@ U 2 1 5BE308EF
 P 1900 2000
 F 0 "Conn12" H 1950 2250 60  0000 C CNN
 F 1 "AndersonPP" H 1650 2100 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1750 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1750 1450 60  0001 C CNN
 F 3 "" H 1750 1450 60  0001 C CNN
 	2    1900 2000
 	1    0    0    -1  
@@ -415,7 +415,7 @@ U 1 1 5BE308F6
 P 1900 2300
 F 0 "Conn12" H 1950 2250 60  0000 C CNN
 F 1 "AndersonPP" H 1650 2400 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1750 1750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1750 1750 60  0001 C CNN
 F 3 "" H 1750 1750 60  0001 C CNN
 	1    1900 2300
 	1    0    0    -1  
@@ -426,7 +426,7 @@ U 3 1 5BE308FD
 P 1900 1650
 F 0 "Conn12" H 1950 1900 60  0000 C CNN
 F 1 "AndersonPP" H 2150 2050 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1750 1100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1750 1100 60  0001 C CNN
 F 3 "" H 1750 1100 60  0001 C CNN
 	3    1900 1650
 	1    0    0    -1  
@@ -437,7 +437,7 @@ U 2 1 5BE31499
 P 1250 2000
 F 0 "Conn11" H 1300 2250 60  0000 C CNN
 F 1 "AndersonPP" H 1000 2100 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1100 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1100 1450 60  0001 C CNN
 F 3 "" H 1100 1450 60  0001 C CNN
 	2    1250 2000
 	1    0    0    -1  
@@ -448,7 +448,7 @@ U 1 1 5BE314A0
 P 1250 2300
 F 0 "Conn11" H 1300 2250 60  0000 C CNN
 F 1 "AndersonPP" H 1000 2400 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1100 1750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1100 1750 60  0001 C CNN
 F 3 "" H 1100 1750 60  0001 C CNN
 	1    1250 2300
 	1    0    0    -1  
@@ -459,7 +459,7 @@ U 3 1 5BE314A7
 P 1250 1650
 F 0 "Conn11" H 1300 1900 60  0000 C CNN
 F 1 "AndersonPP" H 1500 2050 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 1100 1100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 1100 1100 60  0001 C CNN
 F 3 "" H 1100 1100 60  0001 C CNN
 	3    1250 1650
 	1    0    0    -1  
@@ -470,7 +470,7 @@ U 2 1 5BE31EAB
 P 650 2000
 F 0 "Conn10" H 700 2250 60  0000 C CNN
 F 1 "AndersonPP" H 400 2100 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 500 1450 60  0001 C CNN
 F 3 "" H 500 1450 60  0001 C CNN
 	2    650  2000
 	1    0    0    -1  
@@ -481,7 +481,7 @@ U 1 1 5BE31EB2
 P 650 2300
 F 0 "Conn10" H 700 2250 60  0000 C CNN
 F 1 "AndersonPP" H 400 2400 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 500 1750 60  0001 C CNN
 F 3 "" H 500 1750 60  0001 C CNN
 	1    650  2300
 	1    0    0    -1  
@@ -492,7 +492,7 @@ U 3 1 5BE31EB9
 P 650 1650
 F 0 "Conn10" H 700 1900 60  0000 C CNN
 F 1 "AndersonPP" H 900 2050 60  0001 C CNN
-F 2 "Project Library:Anderson_3_Horisontal_Side_by_Side" H 500 1100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 500 1100 60  0001 C CNN
 F 3 "" H 500 1100 60  0001 C CNN
 	3    650  1650
 	1    0    0    -1  
@@ -1163,7 +1163,7 @@ U 4 1 5C102E8A
 P 2000 6900
 F 0 "U1" H 2050 6850 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 2305 7392 60  0001 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2000 6900 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2000 6900 60  0001 C CNN
 F 3 "" H 2000 6900 60  0001 C CNN
 	4    2000 6900
 	1    0    0    -1  
@@ -1300,7 +1300,7 @@ U 1 1 5C1B191A
 P 3950 7050
 F 0 "U1" H 4050 7000 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 4750 6850 60  0001 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 3950 7050 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 3950 7050 60  0001 C CNN
 F 3 "" H 3950 7050 60  0001 C CNN
 	1    3950 7050
 	1    0    0    -1  
@@ -1311,7 +1311,7 @@ U 2 1 5C1B1C55
 P 4450 7050
 F 0 "U1" H 4550 7000 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 4550 6850 60  0001 C CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 4450 7050 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 4450 7050 60  0001 C CNN
 F 3 "" H 4450 7050 60  0001 C CNN
 	2    4450 7050
 	-1   0    0    -1  
@@ -1322,7 +1322,7 @@ U 3 1 5C1B2330
 P 2500 6900
 F 0 "U1" H 2600 6850 60  0000 C CNN
 F 1 "TM4C129E_Launchpad" H 2600 6150 60  0001 C CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_ext" H 2500 6900 60  0001 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM" H 2500 6900 60  0001 C CNN
 F 3 "" H 2500 6900 60  0001 C CNN
 	3    2500 6900
 	-1   0    0    -1  
