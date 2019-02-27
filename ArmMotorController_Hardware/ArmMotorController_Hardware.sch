@@ -408,12 +408,12 @@ IN_B4
 $Comp
 L MRDT_Connectors:AndersonPP Conn18
 U 1 1 5C0054EB
-P 15750 1050
-F 0 "Conn18" H 15950 1300 60  0000 R CNN
-F 1 "AndersonPP" V 15675 1150 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 500 60  0001 C CNN
-F 3 "" H 15600 500 60  0001 C CNN
-	1    15750 1050
+P 15750 1750
+F 0 "Conn18" H 15950 2000 60  0000 R CNN
+F 1 "AndersonPP" V 15675 1850 60  0001 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 1200 60  0001 C CNN
+F 3 "" H 15600 1200 60  0001 C CNN
+	1    15750 1750
 	-1   0    0    1   
 $EndComp
 Text Notes 13350 3050 0    79   ~ 0
@@ -432,34 +432,34 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn19
 U 1 1 5C47ACED
-P 15750 3200
-F 0 "Conn19" H 15950 3450 60  0000 R CNN
-F 1 "AndersonPP" V 15675 3300 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 2650 60  0001 C CNN
-F 3 "" H 15600 2650 60  0001 C CNN
-	1    15750 3200
+P 15750 3900
+F 0 "Conn19" H 15950 4150 60  0000 R CNN
+F 1 "AndersonPP" V 15675 4000 60  0001 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 3350 60  0001 C CNN
+F 3 "" H 15600 3350 60  0001 C CNN
+	1    15750 3900
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn17
 U 1 1 5C47B742
-P 10750 3200
-F 0 "Conn17" H 10950 3450 60  0000 R CNN
-F 1 "AndersonPP" V 10675 3300 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 2650 60  0001 C CNN
-F 3 "" H 10600 2650 60  0001 C CNN
-	1    10750 3200
+P 10750 3900
+F 0 "Conn17" H 10950 4150 60  0000 R CNN
+F 1 "AndersonPP" V 10675 4000 60  0001 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 3350 60  0001 C CNN
+F 3 "" H 10600 3350 60  0001 C CNN
+	1    10750 3900
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn16
 U 1 1 5C47BBD6
-P 10800 1050
-F 0 "Conn16" H 11000 1300 60  0000 R CNN
-F 1 "AndersonPP" V 10725 1150 60  0001 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 500 60  0001 C CNN
-F 3 "" H 10650 500 60  0001 C CNN
-	1    10800 1050
+P 10800 1750
+F 0 "Conn16" H 11000 2000 60  0000 R CNN
+F 1 "AndersonPP" V 10725 1850 60  0001 R CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 1200 60  0001 C CNN
+F 3 "" H 10650 1200 60  0001 C CNN
+	1    10800 1750
 	-1   0    0    1   
 $EndComp
 Text Notes 13350 900  0    79   ~ 0
@@ -588,34 +588,34 @@ $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn17
 U 2 1 5BDBDE04
-P 10750 3900
-F 0 "Conn17" H 10950 4150 60  0000 R CNN
+P 10750 3200
+F 0 "Conn17" H 10950 3450 60  0000 R CNN
 F 1 "AndersonPP" H 10950 3150 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 3350 60  0001 C CNN
-F 3 "" H 10600 3350 60  0001 C CNN
-	2    10750 3900
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10600 2650 60  0001 C CNN
+F 3 "" H 10600 2650 60  0001 C CNN
+	2    10750 3200
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn18
 U 2 1 5BDBE5AD
-P 15750 1750
-F 0 "Conn18" H 15975 2000 60  0000 R CNN
+P 15750 1050
+F 0 "Conn18" H 15975 1300 60  0000 R CNN
 F 1 "AndersonPP" H 15950 1000 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 1200 60  0001 C CNN
-F 3 "" H 15600 1200 60  0001 C CNN
-	2    15750 1750
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 500 60  0001 C CNN
+F 3 "" H 15600 500 60  0001 C CNN
+	2    15750 1050
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn19
 U 2 1 5BDBE659
-P 15750 3900
-F 0 "Conn19" H 15950 4150 60  0000 R CNN
+P 15750 3200
+F 0 "Conn19" H 15950 3450 60  0000 R CNN
 F 1 "AndersonPP" H 15950 3150 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 3350 60  0001 C CNN
-F 3 "" H 15600 3350 60  0001 C CNN
-	2    15750 3900
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 15600 2650 60  0001 C CNN
+F 3 "" H 15600 2650 60  0001 C CNN
+	2    15750 3200
 	-1   0    0    1   
 $EndComp
 Text GLabel 4850 5650 2    50   Input ~ 0
@@ -2635,11 +2635,11 @@ Connection ~ 3400 1300
 Wire Wire Line
 	4650 10850 4650 10900
 NoConn ~ 2350 5150
-Text Label 10100 1150 0    50   ~ 0
+Text Label 10050 1150 0    50   ~ 0
 Out_A_M1
 Wire Wire Line
 	1100 1150 1250 1150
-Text Label 10050 3300 0    50   ~ 0
+Text Label 10000 3300 0    50   ~ 0
 Out_A_M2
 Text Label 15000 3300 0    50   ~ 0
 Out_A_M4
@@ -3427,12 +3427,12 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn16
 U 2 1 5BDBE507
-P 10800 1750
-F 0 "Conn16" H 11000 2000 60  0000 R CNN
+P 10800 1050
+F 0 "Conn16" H 11000 1300 60  0000 R CNN
 F 1 "AndersonPP" H 11000 1000 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 1200 60  0001 C CNN
-F 3 "" H 10650 1200 60  0001 C CNN
-	2    10800 1750
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 10650 500 60  0001 C CNN
+F 3 "" H 10650 500 60  0001 C CNN
+	2    10800 1050
 	-1   0    0    1   
 $EndComp
 $Comp
