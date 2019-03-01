@@ -303,21 +303,21 @@ Text GLabel 3850 5450 0    50   Output ~ 0
 TX_1_Tiva
 Text Notes 3150 5450 0    39   ~ 0
 Serial 6\n
-Text GLabel 1400 5550 0    50   Input ~ 0
-LS_1
-Text GLabel 1400 5650 0    50   Input ~ 0
-LS_2
-Text GLabel 1400 5750 0    50   Input ~ 0
-LS_3
-Text GLabel 1400 5850 0    50   Input ~ 0
-LS_4
-Text GLabel 2400 5750 2    50   Input ~ 0
-LS_5
-Text GLabel 2400 5850 2    50   Input ~ 0
-LS_6
-Text GLabel 2400 5950 2    50   Input ~ 0
-LS_7
 Text GLabel 2400 6050 2    50   Input ~ 0
+LS_1
+Text GLabel 2400 5950 2    50   Input ~ 0
+LS_2
+Text GLabel 2400 5850 2    50   Input ~ 0
+LS_3
+Text GLabel 2400 5750 2    50   Input ~ 0
+LS_4
+Text GLabel 1400 5850 0    50   Input ~ 0
+LS_5
+Text GLabel 1400 5750 0    50   Input ~ 0
+LS_6
+Text GLabel 1400 5650 0    50   Input ~ 0
+LS_7
+Text GLabel 1400 5550 0    50   Input ~ 0
 LS_8
 Text GLabel 7500 2400 0    50   Input ~ 0
 IN_B1
@@ -2616,11 +2616,11 @@ Connection ~ 3400 1300
 Wire Wire Line
 	5050 10900 5050 10950
 NoConn ~ 2350 5150
-Text Label 10050 1850 0    50   ~ 0
+Text Label 10050 1150 0    50   ~ 0
 Out_A_M1
-Text Label 10000 4000 0    50   ~ 0
+Text Label 10000 3300 0    50   ~ 0
 Out_A_M2
-Text Label 15000 4000 0    50   ~ 0
+Text Label 15000 3300 0    50   ~ 0
 Out_A_M4
 $Comp
 L power:+12V #PWR056
@@ -2995,13 +2995,13 @@ F 3 "" H 8350 8250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 5950 8350 6000
-Text Label 10050 1150 0    50   ~ 0
+Text Label 10050 1850 0    50   ~ 0
 Out_B_M1
-Text Label 15000 1150 0    50   ~ 0
+Text Label 15000 1850 0    50   ~ 0
 Out_B_M3
-Text Label 15000 3300 0    50   ~ 0
+Text Label 15000 4000 0    50   ~ 0
 Out_B_M4
-Text Label 10000 3300 0    50   ~ 0
+Text Label 10050 4000 0    50   ~ 0
 Out_B_M2
 Text GLabel 6400 5800 0    50   Output ~ 0
 I_SENSE_1
@@ -3558,7 +3558,7 @@ Wire Wire Line
 Connection ~ 14850 1550
 Wire Wire Line
 	14850 1550 14950 1550
-Text Label 15000 1850 0    50   ~ 0
+Text Label 15000 1150 0    50   ~ 0
 Out_A_M3
 $Comp
 L Device:LED D23

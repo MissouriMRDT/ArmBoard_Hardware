@@ -5,14 +5,14 @@ When building board don't populate the current sensing circuitry and put 0ohm on
 
 Next year look into a reverse polarity circuit
 
-Maybe put in electrolitic if theres room
-If there's space in layout add an LED for Tx_2 as well
-Add led in series with buttons so we can see if the limit switch is closed or not
+Maybe put in electrolitic if theres room   --- DONE
+If there's space in layout add an LED for Tx_2 as well  -- DONE
+Add led in series with LS so we can see if the limit switch is closed or not -- DONE
 Add atleast 2 electrolitic capacitors to the 12v Value: 47u, diameter: 5mm, lead spacing: anything just make sure you get the proper package on kicad
-
+	--DONE
 Change the silkscreen on slide switch to be CW or CCW 
 
-Change naming on Out_A1_M1 etc to be more consistent
+Change naming on Out_A1_M1 etc to be more consistent  -- DONE
 
 Layout:
 Spread out the capacitors on the 12vAct 
@@ -29,4 +29,6 @@ Make the LS #ing (top left is #1)
 (Schm and Layout) 
 Delete the Rx_Tiva and just copy what was done with the SL connections over the the 2_SL
 
+
+MAKE SURE BOM AND PIN LAYOUT ARE UPDATED AND CURRENT
 
