@@ -190,9 +190,9 @@ Text GLabel 1400 6350 0    50   Output ~ 0
 M1_PWM
 Text GLabel 1400 6450 0    50   Output ~ 0
 M2_PWM
-Text GLabel 3850 6350 0    50   Output ~ 0
-M3_PWM
 Text GLabel 3850 6450 0    50   Output ~ 0
+M3_PWM
+Text GLabel 3850 6350 0    50   Output ~ 0
 M4_PWM
 Text GLabel 7500 2100 0    50   Input ~ 0
 M1_PWM

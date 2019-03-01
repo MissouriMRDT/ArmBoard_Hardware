@@ -4195,4 +4195,18 @@ F 3 "~" H 12600 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12450 4450 12500 4450
+$Comp
+L Device:C_Small C?
+U 1 1 5C7D6B8C
+P 3400 1200
+F 0 "C?" H 3250 1200 50  0000 C CNN
+F 1 "10uF" H 3500 1100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 1200 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
+	-1   0    0    1   
+$EndComp
+Connection ~ 3750 1100
+Wire Wire Line
+	3400 1100 3750 1100
 $EndSCHEMATC
