@@ -1,4 +1,4 @@
-Move Zener Diode to the VNH circuitry and replace labels
+Move Zener Diode to the VNH circuitry and replace labels  --DONE
 
 
 When building board don't populate the current sensing circuitry and put 0ohm on CS_Dis
