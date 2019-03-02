@@ -1972,17 +1972,17 @@ Text Notes 3200 6400 0    39   ~ 0
 M0PWM5
 Text Notes 3200 6500 0    39   ~ 0
 M0PWM6
-Text Notes 3300 5600 0    39   ~ 0
+Text Notes 3250 5600 0    39   ~ 0
 T7
-Text Notes 3300 5700 0    39   ~ 0
+Text Notes 3250 5700 0    39   ~ 0
 T8
 Wire Wire Line
 	3850 6650 3900 6650
 Wire Wire Line
 	3850 6750 3900 6750
-Text Notes 3300 6700 0    39   ~ 0
+Text Notes 3250 6700 0    39   ~ 0
 T5
-Text Notes 3300 6800 0    39   ~ 0
+Text Notes 3250 6800 0    39   ~ 0
 T6
 Wire Wire Line
 	1400 7150 1450 7150
