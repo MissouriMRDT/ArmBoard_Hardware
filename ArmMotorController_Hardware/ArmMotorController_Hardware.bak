@@ -1608,16 +1608,9 @@ F 3 "" H 9800 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 6000 9550 6000
-Wire Wire Line
-	9550 6000 9550 6050
-Wire Wire Line
 	7050 10900 7050 10950
 Wire Wire Line
 	9550 5900 9600 5900
-Wire Wire Line
-	9550 6000 9450 6000
-Connection ~ 9550 6000
 $Comp
 L Device:R_Small R2
 U 1 1 607B488C
@@ -1663,16 +1656,9 @@ F 3 "" H 9800 6800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 6850 9550 6850
-Wire Wire Line
-	9550 6850 9550 6900
-Wire Wire Line
 	7400 10900 7400 10950
 Wire Wire Line
 	9550 6750 9600 6750
-Wire Wire Line
-	9550 6850 9450 6850
-Connection ~ 9550 6850
 $Comp
 L Device:R_Small R3
 U 1 1 607E1758
@@ -1718,14 +1704,7 @@ F 3 "" H 9800 7650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 7700 9550 7700
-Wire Wire Line
-	9550 7700 9550 7750
-Wire Wire Line
 	9550 7600 9600 7600
-Wire Wire Line
-	9550 7700 9450 7700
-Connection ~ 9550 7700
 $Comp
 L Device:R_Small R4
 U 1 1 6080FC21
@@ -1771,16 +1750,9 @@ F 3 "" H 9800 8500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 8550 9550 8550
-Wire Wire Line
-	9550 8550 9550 8600
-Wire Wire Line
 	7750 10900 7750 10950
 Wire Wire Line
 	9550 8450 9600 8450
-Wire Wire Line
-	9550 8550 9450 8550
-Connection ~ 9550 8550
 $Comp
 L Device:R_Small R8
 U 1 1 6083F7EA
@@ -1826,16 +1798,9 @@ F 3 "" H 11400 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11200 6000 11150 6000
-Wire Wire Line
-	11150 6000 11150 6050
-Wire Wire Line
 	8450 10900 8450 10950
 Wire Wire Line
 	11150 5900 11200 5900
-Wire Wire Line
-	11150 6000 11050 6000
-Connection ~ 11150 6000
 $Comp
 L Device:R_Small R9
 U 1 1 609040B3
@@ -1881,16 +1846,9 @@ F 3 "" H 11400 6800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11200 6850 11150 6850
-Wire Wire Line
-	11150 6850 11150 6900
-Wire Wire Line
 	8800 10900 8800 10950
 Wire Wire Line
 	11150 6750 11200 6750
-Wire Wire Line
-	11150 6850 11050 6850
-Connection ~ 11150 6850
 $Comp
 L Device:R_Small R10
 U 1 1 60936907
@@ -1936,16 +1894,9 @@ F 3 "" H 11400 7650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11200 7700 11150 7700
-Wire Wire Line
-	11150 7700 11150 7750
-Wire Wire Line
 	9150 10900 9150 10950
 Wire Wire Line
 	11150 7600 11200 7600
-Wire Wire Line
-	11150 7700 11050 7700
-Connection ~ 11150 7700
 $Comp
 L Device:R_Small R11
 U 1 1 6096A7CC
@@ -1991,16 +1942,9 @@ F 3 "" H 11400 8500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11200 8550 11150 8550
-Wire Wire Line
-	11150 8550 11150 8600
-Wire Wire Line
 	9500 10900 9500 10950
 Wire Wire Line
 	11150 8450 11200 8450
-Wire Wire Line
-	11150 8550 11050 8550
-Connection ~ 11150 8550
 $Comp
 L Device:C C9
 U 1 1 5BCA6EF1
@@ -4221,38 +4165,22 @@ $EndComp
 Connection ~ 1300 1450
 Connection ~ 1300 1150
 Connection ~ 1100 1150
-Text GLabel 9550 6050 3    50   Output ~ 0
-LS_IND1
-Text GLabel 9550 6900 3    50   Output ~ 0
-LS_IND2
-Text GLabel 9550 7750 3    50   Output ~ 0
-LS_IND3
-Text GLabel 9550 8600 3    50   Output ~ 0
-LS_IND4
-Text GLabel 11150 6050 3    50   Output ~ 0
-LS_IND5
-Text GLabel 11150 6900 3    50   Output ~ 0
-LS_IND6
-Text GLabel 11150 7750 3    50   Output ~ 0
-LS_IND7
-Text GLabel 11150 8600 3    50   Output ~ 0
-LS_IND8
 Text GLabel 7050 10300 1    50   Input ~ 0
-LS_IND_1
+LS_1
 Text GLabel 7400 10300 1    50   Input ~ 0
-LS_IND_2
+LS_2
 Text GLabel 7750 10300 1    50   Input ~ 0
-LS_IND_3
+LS_3
 Text GLabel 8100 10300 1    50   Input ~ 0
-LS_IND_4
+LS_4
 Text GLabel 8450 10300 1    50   Input ~ 0
-LS_IND_5
+LS_5
 Text GLabel 8800 10300 1    50   Input ~ 0
-LS_IND_6
+LS_6
 Text GLabel 9150 10300 1    50   Input ~ 0
-LS_IND_7
+LS_7
 Text GLabel 9500 10300 1    50   Input ~ 0
-LS_IND_8
+LS_8
 $Comp
 L Device:LED D27
 U 1 1 5CF15E55
@@ -4467,4 +4395,20 @@ Connection ~ 1450 2550
 Wire Wire Line
 	11600 2200 11500 2200
 Connection ~ 11600 2200
+Wire Wire Line
+	11050 7700 11200 7700
+Wire Wire Line
+	11050 8550 11200 8550
+Wire Wire Line
+	11050 6000 11200 6000
+Wire Wire Line
+	11050 6850 11200 6850
+Wire Wire Line
+	9450 6850 9600 6850
+Wire Wire Line
+	9450 6000 9600 6000
+Wire Wire Line
+	9450 7700 9600 7700
+Wire Wire Line
+	9450 8550 9600 8550
 $EndSCHEMATC

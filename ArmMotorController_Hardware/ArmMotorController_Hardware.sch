@@ -4151,17 +4151,6 @@ F 3 "~" H 2300 1300 50  0001 C CNN
 $EndComp
 Connection ~ 2300 1150
 Connection ~ 2300 1450
-$Comp
-L Device:CP1 C20
-U 1 1 5C8CE362
-P 2500 1300
-F 0 "C20" H 2500 1200 50  0000 L CNN
-F 1 "47u" H 2350 1400 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2500 1300 50  0001 C CNN
-F 3 "~" H 2500 1300 50  0001 C CNN
-	1    2500 1300
-	1    0    0    -1  
-$EndComp
 Connection ~ 1300 1450
 Connection ~ 1300 1150
 Connection ~ 1100 1150
@@ -4376,10 +4365,8 @@ Text Notes 9200 10800 0    39   ~ 0
 Yellow\n
 Text Notes 9550 10800 0    39   ~ 0
 Yellow\n
-Connection ~ 2500 1150
 Wire Wire Line
 	2300 1150 2500 1150
-Connection ~ 2500 1450
 Wire Wire Line
 	2300 1450 2500 1450
 Wire Wire Line
