@@ -238,7 +238,7 @@ F 3 "" H 2500 5600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:MAX_3232-MRDT_ICs U2
+L ArmDriveBoard_Hardware-rescue:MAX_3232-MRDT_ICs-ArmDriveBoard_Hardware-rescue U2
 U 1 1 5BC6E0BB
 P 6250 4500
 F 0 "U2" H 6300 4450 60  0000 C CNN
@@ -249,7 +249,7 @@ F 3 "" H 6250 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_05-MRDT_Connectors Conn3
+L ArmDriveBoard_Hardware-rescue:Molex_SL_05-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn3
 U 1 1 5BC6E491
 P 6000 2750
 F 0 "Conn3" H 6150 2950 60  0000 L CNN
@@ -260,7 +260,7 @@ F 3 "" H 6000 2750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn8
+L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn8
 U 1 1 5BCAB0BE
 P 7350 2050
 F 0 "Conn8" H 7478 2258 60  0000 L CNN
@@ -275,7 +275,7 @@ Servo2_PWM
 Text GLabel 2750 4750 2    60   Output ~ 0
 Servo1_PWM
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn7
+L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn7
 U 1 1 5BCAC1D7
 P 7350 1550
 F 0 "Conn7" H 7478 1758 60  0000 L CNN
@@ -288,7 +288,7 @@ $EndComp
 Text GLabel 7150 1600 0    60   Input ~ 0
 Servo1_PWM
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn9
+L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn9
 U 1 1 5BCAC820
 P 7350 2550
 F 0 "Conn9" H 7478 2758 60  0000 L CNN
@@ -305,7 +305,7 @@ Servo2_PWM
 Text GLabel 2750 5550 2    60   Output ~ 0
 Servo3_PWM
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn4
+L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn4
 U 1 1 5BCADF34
 P 10550 1100
 F 0 "Conn4" H 10678 1258 60  0000 L CNN
@@ -316,7 +316,7 @@ F 3 "" H 10550 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn5
+L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn5
 U 1 1 5BCADFB6
 P 10550 1500
 F 0 "Conn5" H 10678 1658 60  0000 L CNN
@@ -327,7 +327,7 @@ F 3 "" H 10550 1400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn6
+L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn6
 U 1 1 5BCAE57B
 P 10550 2150
 F 0 "Conn6" H 10677 2308 60  0000 L CNN
@@ -388,7 +388,7 @@ F 3 "~" H 9500 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:Molex_SL_05-MRDT_Connectors Conn2
+L ArmDriveBoard_Hardware-rescue:Molex_SL_05-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn2
 U 1 1 5BC6E438
 P 6000 2000
 F 0 "Conn2" H 6150 2200 60  0000 L CNN
@@ -399,7 +399,7 @@ F 3 "" H 6000 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn12
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn12
 U 2 1 5BE308EF
 P 1900 2000
 F 0 "Conn12" H 1950 2250 60  0000 C CNN
@@ -410,7 +410,7 @@ F 3 "" H 1750 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn12
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn12
 U 1 1 5BE308F6
 P 1900 2300
 F 0 "Conn12" H 1950 2250 60  0000 C CNN
@@ -421,7 +421,7 @@ F 3 "" H 1750 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn12
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn12
 U 3 1 5BE308FD
 P 1900 1650
 F 0 "Conn12" H 1950 1900 60  0000 C CNN
@@ -432,7 +432,7 @@ F 3 "" H 1750 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn11
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn11
 U 2 1 5BE31499
 P 1250 2000
 F 0 "Conn11" H 1300 2250 60  0000 C CNN
@@ -443,7 +443,7 @@ F 3 "" H 1100 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn11
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn11
 U 1 1 5BE314A0
 P 1250 2300
 F 0 "Conn11" H 1300 2250 60  0000 C CNN
@@ -454,7 +454,7 @@ F 3 "" H 1100 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn11
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn11
 U 3 1 5BE314A7
 P 1250 1650
 F 0 "Conn11" H 1300 1900 60  0000 C CNN
@@ -465,7 +465,7 @@ F 3 "" H 1100 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn10
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn10
 U 2 1 5BE31EAB
 P 650 2000
 F 0 "Conn10" H 700 2250 60  0000 C CNN
@@ -476,7 +476,7 @@ F 3 "" H 500 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn10
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn10
 U 1 1 5BE31EB2
 P 650 2300
 F 0 "Conn10" H 700 2250 60  0000 C CNN
@@ -487,7 +487,7 @@ F 3 "" H 500 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn10
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn10
 U 3 1 5BE31EB9
 P 650 1650
 F 0 "Conn10" H 700 1900 60  0000 C CNN
@@ -813,17 +813,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3950 2750 3950
 Wire Wire Line
-	7150 1800 7100 1800
-Wire Wire Line
-	7150 1900 7100 1900
-Wire Wire Line
-	7150 1300 7100 1300
-Wire Wire Line
 	7150 1400 7100 1400
-Wire Wire Line
-	7150 2300 7100 2300
-Wire Wire Line
-	7150 2400 7100 2400
 Wire Wire Line
 	6050 4100 6000 4100
 Wire Wire Line
@@ -900,70 +890,26 @@ Wire Wire Line
 $Comp
 L power:GND #PWR06
 U 1 1 5C17E0CE
-P 7100 1400
-F 0 "#PWR06" H 7100 1150 50  0001 C CNN
-F 1 "GND" H 6950 1350 50  0000 C CNN
-F 2 "" H 7100 1400 50  0001 C CNN
-F 3 "" H 7100 1400 50  0001 C CNN
-	1    7100 1400
-	1    0    0    -1  
+P 7100 1300
+F 0 "#PWR06" H 7100 1050 50  0001 C CNN
+F 1 "GND" V 7000 1250 50  0000 C CNN
+F 2 "" H 7100 1300 50  0001 C CNN
+F 3 "" H 7100 1300 50  0001 C CNN
+	1    7100 1300
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7150 1500 7150 1600
 $Comp
 L power:+5V #PWR05
 U 1 1 5C182654
-P 7100 1300
-F 0 "#PWR05" H 7100 1150 50  0001 C CNN
-F 1 "+5V" H 6950 1350 50  0000 C CNN
-F 2 "" H 7100 1300 50  0001 C CNN
-F 3 "" H 7100 1300 50  0001 C CNN
-	1    7100 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5C18295A
-P 7100 1900
-F 0 "#PWR08" H 7100 1650 50  0001 C CNN
-F 1 "GND" H 6950 1850 50  0000 C CNN
-F 2 "" H 7100 1900 50  0001 C CNN
-F 3 "" H 7100 1900 50  0001 C CNN
-	1    7100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR07
-U 1 1 5C182960
-P 7100 1800
-F 0 "#PWR07" H 7100 1650 50  0001 C CNN
-F 1 "+5V" H 6950 1850 50  0000 C CNN
-F 2 "" H 7100 1800 50  0001 C CNN
-F 3 "" H 7100 1800 50  0001 C CNN
-	1    7100 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5C186CA0
-P 7100 2400
-F 0 "#PWR010" H 7100 2150 50  0001 C CNN
-F 1 "GND" H 6950 2350 50  0000 C CNN
-F 2 "" H 7100 2400 50  0001 C CNN
-F 3 "" H 7100 2400 50  0001 C CNN
-	1    7100 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR09
-U 1 1 5C186CA6
-P 7100 2300
-F 0 "#PWR09" H 7100 2150 50  0001 C CNN
-F 1 "+5V" H 6950 2350 50  0000 C CNN
-F 2 "" H 7100 2300 50  0001 C CNN
-F 3 "" H 7100 2300 50  0001 C CNN
-	1    7100 2300
-	1    0    0    -1  
+P 7100 1400
+F 0 "#PWR05" H 7100 1250 50  0001 C CNN
+F 1 "+5V" V 7000 1450 50  0000 C CNN
+F 2 "" H 7100 1400 50  0001 C CNN
+F 3 "" H 7100 1400 50  0001 C CNN
+	1    7100 1400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7150 2000 7150 2100
@@ -1256,7 +1202,7 @@ F 3 "~" H 2550 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ArmDriveBoard_Hardware-rescue:OKI-MRDT_Devices U3
+L ArmDriveBoard_Hardware-rescue:OKI-MRDT_Devices-ArmDriveBoard_Hardware-rescue U3
 U 1 1 5C199F2D
 P 2850 2000
 F 0 "U3" H 2900 1950 60  0001 C CNN
@@ -1443,7 +1389,7 @@ Wire Wire Line
 	5800 5500 5600 5500
 Connection ~ 5800 5500
 $Comp
-L ArmDriveBoard_Hardware-rescue:MAX_3232-MRDT_ICs U4
+L ArmDriveBoard_Hardware-rescue:MAX_3232-MRDT_ICs-ArmDriveBoard_Hardware-rescue U4
 U 1 1 5C76037A
 P 6350 6350
 F 0 "U4" H 6400 6300 60  0000 C CNN
@@ -1672,4 +1618,58 @@ Connection ~ 10900 4700
 Connection ~ 9700 5300
 Wire Wire Line
 	9700 5300 9700 5600
+Wire Wire Line
+	7150 1300 7100 1300
+Wire Wire Line
+	7150 1900 7100 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5C856A93
+P 7100 1800
+F 0 "#PWR?" H 7100 1550 50  0001 C CNN
+F 1 "GND" V 7000 1750 50  0000 C CNN
+F 2 "" H 7100 1800 50  0001 C CNN
+F 3 "" H 7100 1800 50  0001 C CNN
+	1    7100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C856A99
+P 7100 1900
+F 0 "#PWR?" H 7100 1750 50  0001 C CNN
+F 1 "+5V" V 7000 1950 50  0000 C CNN
+F 2 "" H 7100 1900 50  0001 C CNN
+F 3 "" H 7100 1900 50  0001 C CNN
+	1    7100 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1800 7100 1800
+Wire Wire Line
+	7150 2400 7100 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5C85ECE9
+P 7100 2300
+F 0 "#PWR?" H 7100 2050 50  0001 C CNN
+F 1 "GND" V 7000 2250 50  0000 C CNN
+F 2 "" H 7100 2300 50  0001 C CNN
+F 3 "" H 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5C85ECEF
+P 7100 2400
+F 0 "#PWR?" H 7100 2250 50  0001 C CNN
+F 1 "+5V" V 7000 2450 50  0000 C CNN
+F 2 "" H 7100 2400 50  0001 C CNN
+F 3 "" H 7100 2400 50  0001 C CNN
+	1    7100 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 2300 7100 2300
 $EndSCHEMATC
