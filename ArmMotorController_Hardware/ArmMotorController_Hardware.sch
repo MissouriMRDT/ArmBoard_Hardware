@@ -217,7 +217,7 @@ Text GLabel 12400 8250 0    50   Output ~ 0
 RX_1_SL
 Text GLabel 12400 8150 0    50   Input ~ 0
 TX_1_SL
-Text Notes 4950 700  2    118  ~ 24
+Text Notes 4900 700  2    118  ~ 24
 Level Shifter
 Text GLabel 4950 1750 2    50   Input ~ 0
 RX_1_SL
@@ -264,7 +264,7 @@ Text GLabel 3850 5550 0    50   Input ~ 0
 ENC_3_PWM
 Text GLabel 3850 5650 0    50   Input ~ 0
 ENC_4_PWM
-Text Notes 8550 5600 0    79   ~ 16
+Text Notes 8750 5600 0    79   ~ 16
 Limit Switch\n
 $Comp
 L Device:R_Small R1

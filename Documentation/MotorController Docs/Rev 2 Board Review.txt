@@ -30,5 +30,5 @@ Make the LS #ing (top left is #1) --DONE
 Delete the Rx_Tiva and just copy what was done with the SL connections over the the 2_SL  --DONE
 
 
-MAKE SURE BOM AND PIN LAYOUT ARE UPDATED AND CURRENT
+MAKE SURE BOM AND PIN LAYOUT ARE UPDATED AND CURRENT  --DONE
 
