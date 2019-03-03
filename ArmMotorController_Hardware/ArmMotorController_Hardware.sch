@@ -2628,9 +2628,9 @@ Text GLabel 1400 6650 0    50   Input ~ 0
 M1_SW
 Text GLabel 1400 6750 0    50   Input ~ 0
 M2_SW
-Text GLabel 2400 5550 2    50   Input ~ 0
-M3_SW
 Text GLabel 2400 5450 2    50   Input ~ 0
+M3_SW
+Text GLabel 2400 5550 2    50   Input ~ 0
 M4_SW
 $Comp
 L Switch:SW_Push SW2
@@ -2764,9 +2764,9 @@ Text GLabel 6700 5650 2    50   Output ~ 0
 M1_SW
 Text GLabel 6700 6400 2    50   Output ~ 0
 M2_SW
-Text GLabel 6700 7150 2    50   Output ~ 0
-M3_SW
 Text GLabel 6700 7900 2    50   Output ~ 0
+M3_SW
+Text GLabel 6700 7150 2    50   Output ~ 0
 M4_SW
 NoConn ~ 6550 8800
 Text Notes 6250 5350 0    118  ~ 24
