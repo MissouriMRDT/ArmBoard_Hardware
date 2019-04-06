@@ -1,13 +1,13 @@
 TM4C129E_Launchpad
 -----X9:A1-----
-LS_8		:PE4:A1_2: Digital In
-LS_7		:PC4:A1_3: Digital In
-LS_6		:PC5:A1_4: Digital In
-LS_5		:PC6:A1_5: Digital In
+LS_8		:PC6:A1_5: Digital In
+LS_7		:PE5:A1_6: Digital In
+LS_6		:PD3:A1:7: Digital In
+LS_5		:PC7:A1_8: Digital In
 DIRECTION_SW	:PB3:A1_10:Digital In
 -----X9:B1-----
-M4_SW		:PE1:B1_4: Digital In
-M3_SW		:PE2:B1_5: Digital In
+M3_SW		:PE1:B1_4: Digital In
+M4_SW		:PE2:B1_5: Digital In
 LS_4		:PD7:B1_7: Digital In
 LS_3		:PA6:B1_8: Digital In
 LS_2		:PM4:B1_9: Digital In
@@ -48,7 +48,7 @@ ENC_2		:PM1:C2_5: T6:T2_B
 LED_IND_SW_1	:PM7:D2_2: Digital In
 LED_IND_SW_2	:PP5:D2_3: Digital In
 LED_IND_SW_ERR	:PA7:D2_4: Digital In
-IN_A3		:PH2:D1_3: Digital Write
-IN_B3		:PH3:D1_4: Digital Write
-IN_A4		:PN2:D1_8: Digital Write
-IN_B4		:PN3:D1_9: Digital Write
+IN_A3		:PQ2:D2_6: Digital Write
+IN_B3		:PQ3:D2_7: Digital Write
+IN_A4		:PP3:D2_8: Digital Write
+IN_B4		:PQ1:D2_9: Digital Write
