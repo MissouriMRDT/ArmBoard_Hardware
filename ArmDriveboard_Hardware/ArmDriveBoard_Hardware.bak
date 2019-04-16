@@ -683,13 +683,13 @@ Text GLabel 9000 5900 0    60   Input ~ 0
 SW_IND_3
 Text GLabel 9000 6200 0    60   Input ~ 0
 SW_IND_ERR
-Text GLabel 1750 5250 0    60   Output ~ 0
-SW_IND_1
-Text GLabel 1750 5350 0    60   Output ~ 0
-SW_IND_2
-Text GLabel 1750 5450 0    60   Output ~ 0
-SW_IND_3
 Text GLabel 1750 5550 0    60   Output ~ 0
+SW_IND_1
+Text GLabel 1750 5450 0    60   Output ~ 0
+SW_IND_2
+Text GLabel 1750 5350 0    60   Output ~ 0
+SW_IND_3
+Text GLabel 1750 5250 0    60   Output ~ 0
 SW_IND_ERR
 $Comp
 L power:GND #PWR0104
@@ -1004,11 +1004,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2150 9300 2050
 Wire Wire Line
-	10450 1050 10450 1000
-Wire Wire Line
 	10450 1800 10450 1850
-Wire Wire Line
-	10450 1050 10450 1300
 Wire Wire Line
 	10450 2200 10450 2150
 Wire Wire Line
@@ -1028,24 +1024,7 @@ Wire Wire Line
 	9150 1400 9100 1400
 Wire Wire Line
 	10400 2200 10350 2200
-Wire Wire Line
-	10350 2200 10350 1400
 Connection ~ 10400 2200
-Wire Wire Line
-	10200 1400 10350 1400
-Connection ~ 10350 1400
-Wire Wire Line
-	10350 1400 10350 1150
-Wire Wire Line
-	10200 1150 10350 1150
-Wire Wire Line
-	10200 1300 10450 1300
-Connection ~ 10450 1300
-Wire Wire Line
-	10450 1300 10450 1500
-Connection ~ 10450 1050
-Wire Wire Line
-	10200 1050 10450 1050
 Wire Wire Line
 	9100 1300 9300 1300
 Connection ~ 9300 1300
@@ -1108,4 +1087,25 @@ Wire Wire Line
 Wire Wire Line
 	3700 1900 3850 1900
 Connection ~ 3700 1900
+Wire Wire Line
+	10200 1150 10350 1150
+Wire Wire Line
+	10350 1400 10350 1150
+Wire Wire Line
+	10350 2200 10350 1400
+Connection ~ 10350 1400
+Wire Wire Line
+	10200 1400 10350 1400
+Wire Wire Line
+	10450 1300 10450 1500
+Connection ~ 10450 1300
+Wire Wire Line
+	10200 1300 10450 1300
+Wire Wire Line
+	10450 1050 10450 1300
+Wire Wire Line
+	10450 1050 10450 1000
+Connection ~ 10450 1050
+Wire Wire Line
+	10200 1050 10450 1050
 $EndSCHEMATC
