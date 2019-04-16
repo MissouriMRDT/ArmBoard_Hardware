@@ -106,7 +106,7 @@ F 3 "" H 7350 2050 60  0001 C CNN
 $EndComp
 Text GLabel 7150 2100 0    60   Input ~ 0
 Servo2_PWM
-Text GLabel 1750 4650 0    60   Output ~ 0
+Text GLabel 1750 4850 0    60   Output ~ 0
 Servo1_PWM
 $Comp
 L ArmDriveBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn7
@@ -136,7 +136,7 @@ Text GLabel 7150 2600 0    60   Input ~ 0
 Servo3_PWM
 Text GLabel 1750 4750 0    60   Output ~ 0
 Servo2_PWM
-Text GLabel 1750 4850 0    60   Output ~ 0
+Text GLabel 1750 4650 0    60   Output ~ 0
 Servo3_PWM
 $Comp
 L ArmDriveBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn4
