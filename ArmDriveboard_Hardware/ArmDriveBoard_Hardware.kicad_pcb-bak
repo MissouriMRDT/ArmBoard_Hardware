@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 51)
+    (drawings 53)
     (tracks 203)
     (zones 0)
     (modules 49)
@@ -4203,6 +4203,12 @@
       (xy -6.395956 -0.780515) (xy -6.39578 -0.780671) (xy -6.278558 -0.884008) (xy -6.152213 -0.877709)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_text Laser (at 197.866 103.124) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text Sol (at 196.596 100.584) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 253.238 83.82) (end 131.572 83.82) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 255.27 110.998) (end 255.27 85.852) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 237.49 113.03) (end 253.238 113.03) (layer Edge.Cuts) (width 0.1))

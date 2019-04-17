@@ -10,4 +10,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri ${MRDT2019R2LIB}/Symbols/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri ${MRDT2019R2LIB}/Symbols/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri ${MRDT2019R2LIB}/Symbols/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name ArmMotorController_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/ArmMotorController_Hardware-rescue.lib)(options "")(descr ""))
 )
