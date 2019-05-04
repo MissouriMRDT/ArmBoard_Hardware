@@ -967,17 +967,6 @@ F 3 "" H 10450 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0112
-U 1 1 5CB9F541
-P 9300 1250
-F 0 "#PWR0112" H 9300 1100 50  0001 C CNN
-F 1 "+12V" H 9315 1423 50  0000 C CNN
-F 2 "" H 9300 1250 50  0001 C CNN
-F 3 "" H 9300 1250 50  0001 C CNN
-	1    9300 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0113
 U 1 1 5CBA98E8
 P 9800 2700
@@ -1108,4 +1097,59 @@ Wire Wire Line
 Connection ~ 10450 1050
 Wire Wire Line
 	10200 1050 10450 1050
+$Comp
+L power:+24V #PWR0112
+U 1 1 5CC3F2F4
+P 9300 1250
+F 0 "#PWR0112" H 9300 1100 50  0001 C CNN
+F 1 "+24V" H 9315 1423 50  0000 C CNN
+F 2 "" H 9300 1250 50  0001 C CNN
+F 3 "" H 9300 1250 50  0001 C CNN
+	1    9300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn1
+U 2 1 5CC3F71A
+P 100 2000
+F 0 "Conn1" H 150 2250 60  0000 C CNN
+F 1 "AndersonPP" H -150 2100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H -50 1450 60  0001 C CNN
+F 3 "" H -50 1450 60  0001 C CNN
+	2    100  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn1
+U 1 1 5CC3F720
+P 100 2300
+F 0 "Conn1" H 150 2250 60  0000 C CNN
+F 1 "AndersonPP" H -150 2400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H -50 1750 60  0001 C CNN
+F 3 "" H -50 1750 60  0001 C CNN
+	1    100  2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArmDriveBoard_Hardware-rescue:AndersonPP-MRDT_Connectors-ArmDriveBoard_Hardware-rescue Conn1
+U 3 1 5CC3F726
+P 100 1650
+F 0 "Conn1" H 150 1900 60  0000 C CNN
+F 1 "AndersonPP" H 350 2050 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H -50 1100 60  0001 C CNN
+F 3 "" H -50 1100 60  0001 C CNN
+	3    100  1650
+	1    0    0    -1  
+$EndComp
+Text Notes 100  1300 0    79   ~ 0
+Vin
+Wire Wire Line
+	500  1550 1050 1550
+Connection ~ 1050 1550
+Connection ~ 1050 1900
+Connection ~ 1050 2200
+Wire Wire Line
+	500  1900 1050 1900
+Wire Wire Line
+	500  2200 1050 2200
 $EndSCHEMATC
