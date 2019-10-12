@@ -3511,7 +3511,7 @@ F 3 "" H 10500 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10100 5150 1    50   Input ~ 0
-Laser_Control
+Laser_Control_1
 Connection ~ 10500 5050
 Wire Wire Line
 	10500 5050 10400 5050
@@ -4058,13 +4058,13 @@ $EndComp
 Wire Wire Line
 	8550 4200 8550 4100
 Text GLabel 4800 7100 2    50   Input ~ 0
-LED_Solenoid_Control
+Laser_Control_2
 Wire Wire Line
 	8400 4300 8400 4950
 Wire Wire Line
 	8200 4300 8400 4300
 Text GLabel 2400 6900 2    50   Output ~ 0
-Laser_Control
+Laser_Control_1
 NoConn ~ 2350 7000
 Wire Notes Line
 	11250 3300 11250 5900
@@ -4118,4 +4118,6 @@ Wire Notes Line
 	7250 3300 7250 8900
 Wire Notes Line
 	7250 5900 11250 5900
+Wire Wire Line
+	14900 850  15000 850 
 $EndSCHEMATC
