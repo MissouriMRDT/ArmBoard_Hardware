@@ -1301,11 +1301,11 @@ Text Notes 2400 10900 1    39   ~ 0
 Yellow\n
 Text Notes 2750 10900 1    39   ~ 0
 Yellow\n
-Text GLabel 2650 6450 2    50   Output ~ 0
+Text GLabel 1400 6900 0    50   Output ~ 0
 LED_IND_SW_1
-Text GLabel 2650 6550 2    50   Output ~ 0
+Text GLabel 1400 7000 0    50   Output ~ 0
 LED_IND_SW_2
-Text GLabel 2650 6650 2    50   Output ~ 0
+Text GLabel 1400 7100 0    50   Output ~ 0
 LED_IND_SW_ERR
 Text GLabel 9300 10300 1    50   Input ~ 0
 LED_IND_SW_ERR
@@ -2315,7 +2315,7 @@ Text GLabel 4800 5900 2    50   Input ~ 0
 ENC_6_PWM
 Wire Wire Line
 	2350 6300 2400 6300
-Text Notes 2900 6350 0    39   ~ 0
+Text Notes 3100 7100 0    39   ~ 0
 T10
 Wire Wire Line
 	2500 6100 2350 6100
@@ -2994,9 +2994,8 @@ Wire Wire Line
 	8400 4300 8400 4950
 Wire Wire Line
 	8200 4300 8400 4300
-Text GLabel 1400 7100 0    50   Output ~ 0
+Text GLabel 2350 7000 2    50   Output ~ 0
 Laser_Control
-NoConn ~ 2350 7000
 Wire Notes Line
 	11250 3300 11250 5900
 Wire Notes Line
