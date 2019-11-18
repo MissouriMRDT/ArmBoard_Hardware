@@ -140,11 +140,11 @@ F 3 "~" H 7050 2250 50  0001 C CNN
 	1    7050 2250
 	0    1    1    0   
 $EndComp
-Text GLabel 3100 4300 0    50   Input ~ 0
+Text GLabel 3100 4400 0    50   Input ~ 0
 ENC_1_PWM
-Text GLabel 4100 4300 2    50   Input ~ 0
+Text GLabel 4100 4200 2    50   Input ~ 0
 ENC_2_PWM
-Text GLabel 3100 4200 0    50   Input ~ 0
+Text GLabel 3100 4300 0    50   Input ~ 0
 ENC_3_PWM
 Text Notes 11550 700  0    118  ~ 24
 Limit Switch\n
@@ -1366,11 +1366,10 @@ NoConn ~ 2150 4900
 NoConn ~ 2150 5000
 NoConn ~ 2150 5100
 NoConn ~ 3150 3600
-NoConn ~ 3150 4100
 NoConn ~ 4050 3500
 NoConn ~ 4050 3700
 NoConn ~ 4050 3800
-NoConn ~ 4050 4100
+NoConn ~ 4050 4400
 NoConn ~ 4050 5100
 NoConn ~ 7200 2650
 Wire Wire Line
@@ -2004,9 +2003,9 @@ Wire Wire Line
 	3800 7450 3850 7450
 Wire Wire Line
 	3800 7550 3850 7550
-Text GLabel 3100 4400 0    50   Input ~ 0
+Text GLabel 3100 4200 0    50   Input ~ 0
 ENC_5_PWM
-Text GLabel 4100 4400 2    50   Input ~ 0
+Text GLabel 4100 4100 2    50   Input ~ 0
 ENC_6_PWM
 $Comp
 L Device:R_Small R29
@@ -2674,7 +2673,7 @@ Wire Wire Line
 	11450 2600 11950 2600
 Text GLabel 2200 4100 2    50   Input ~ 0
 LS_1
-Text GLabel 4100 4200 2    50   Input ~ 0
+Text GLabel 3100 4100 0    50   Input ~ 0
 ENC_4_PWM
 Text GLabel 3100 4800 0    50   Input ~ 0
 TX_3_Tiva
@@ -2733,9 +2732,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 4200 4100 4200
 Wire Wire Line
-	4050 4300 4100 4300
+	3100 4100 3150 4100
 Wire Wire Line
-	4050 4400 4100 4400
+	4050 4100 4100 4100
 Text GLabel 4100 5500 2    50   Input ~ 0
 I_SENSE
 Wire Wire Line
@@ -3377,4 +3376,5 @@ F 3 "" H 8950 2300 50  0001 C CNN
 	1    8950 2300
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4050 4300
 $EndSCHEMATC
