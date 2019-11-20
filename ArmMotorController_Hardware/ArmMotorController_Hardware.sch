@@ -156,12 +156,10 @@ Text GLabel 11000 1100 0    50   Output ~ 0
 LS_1
 Text GLabel 11000 1550 0    50   Output ~ 0
 LS_2
-Text GLabel 2200 3700 2    50   Input ~ 0
+Text GLabel 1200 4300 0    50   Input ~ 0
 LS_2
-Text GLabel 2200 4200 2    50   Input ~ 0
+Text GLabel 2200 4400 2    50   Input ~ 0
 LS_3
-Text GLabel 2200 3800 2    50   Input ~ 0
-LS_4
 Text GLabel 6900 2550 0    50   Input ~ 0
 IN_B
 $Comp
@@ -1358,7 +1356,6 @@ NoConn ~ 7200 2650
 Wire Wire Line
 	10350 4800 10350 4850
 NoConn ~ 2150 3500
-NoConn ~ 1250 4300
 NoConn ~ 1250 3600
 Text GLabel 5750 2350 0    50   Output ~ 0
 I_SENSE
@@ -2637,7 +2634,7 @@ F 3 "" H 11450 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11450 2600 11950 2600
-Text GLabel 2200 4100 2    50   Input ~ 0
+Text GLabel 1200 4400 0    50   Input ~ 0
 LS_1
 Text GLabel 3100 4100 0    50   Input ~ 0
 ENC_4_PWM
@@ -2667,13 +2664,9 @@ $EndComp
 Wire Wire Line
 	2200 4700 2150 4700
 Wire Wire Line
-	2200 4100 2150 4100
+	1250 4400 1200 4400
 Wire Wire Line
-	2200 4200 2150 4200
-Wire Wire Line
-	2200 3800 2150 3800
-Wire Wire Line
-	2200 3700 2150 3700
+	2200 4300 2150 4300
 Wire Wire Line
 	2250 3600 2150 3600
 Wire Wire Line
@@ -2706,8 +2699,6 @@ Wire Wire Line
 	3100 5000 3150 5000
 NoConn ~ 2150 3900
 NoConn ~ 2150 4000
-NoConn ~ 2150 4300
-NoConn ~ 2150 4400
 NoConn ~ 1250 4200
 NoConn ~ 1250 4100
 NoConn ~ 1250 4000
@@ -3216,7 +3207,6 @@ Wire Notes Line
 Wire Notes Line
 	10600 3200 10600 400 
 NoConn ~ 1250 5000
-NoConn ~ 1250 4400
 Wire Wire Line
 	8500 6200 8500 6150
 $Comp
@@ -3330,17 +3320,6 @@ F 3 "" H 1450 4450 60  0001 C CNN
 	1    1450 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U1
-U 2 1 5BC24C85
-P 1950 4450
-F 0 "U1" H 2050 4400 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 1450 5600 60  0000 C CNN
-F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 1950 4450 60  0001 C CNN
-F 3 "" H 1950 4450 60  0001 C CNN
-	2    1950 4450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 5500 2150 5500
 $Comp
@@ -3358,15 +3337,9 @@ Wire Wire Line
 	2150 5600 2200 5600
 Text GLabel 2200 5600 2    50   Output ~ 0
 Solenoid_Control
-Wire Wire Line
-	1200 5400 1250 5400
-Text GLabel 1200 5400 0    50   Output ~ 0
-LED_IND_SW_1
-NoConn ~ 2150 5400
-Text GLabel 1200 5600 0    50   Output ~ 0
-LED_IND_SW_ERR
-Text GLabel 2200 5500 2    50   Output ~ 0
-Laser_Control
+NoConn ~ 13050 6450
+NoConn ~ 11850 6350
+NoConn ~ 11850 6450
 $Comp
 L MRDT_ICs:MAX_3232 U2
 U 1 1 5BD438E6
@@ -3378,4 +3351,34 @@ F 3 "" H 12150 4500 60  0001 C CNN
 	1    12150 5100
 	1    0    0    -1  
 $EndComp
+Text GLabel 1200 5600 0    50   Output ~ 0
+Laser_Control
+Text GLabel 2200 5500 2    50   Output ~ 0
+LED_IND_SW_ERR
+Text GLabel 2200 5400 2    50   Output ~ 0
+LED_IND_SW_1
+Wire Wire Line
+	2150 5400 2200 5400
+NoConn ~ 1250 5400
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U1
+U 2 1 5BC24C85
+P 1950 4450
+F 0 "U1" H 2050 4400 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 1450 5600 60  0000 C CNN
+F 2 "MRDT_Shields:TM4C129E_Launchpad_FULL_SMD_BOTTOM" H 1950 4450 60  0001 C CNN
+F 3 "" H 1950 4450 60  0001 C CNN
+	2    1950 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4300 1200 4300
+Text GLabel 2200 4300 2    50   Input ~ 0
+LS_4
+Wire Wire Line
+	2150 4400 2200 4400
+NoConn ~ 2150 3800
+NoConn ~ 2150 3700
+NoConn ~ 2150 4100
+NoConn ~ 2150 4200
 $EndSCHEMATC
