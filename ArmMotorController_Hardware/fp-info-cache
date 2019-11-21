@@ -1,4 +1,4 @@
--9206745645535650103
+16634261811444515
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -45345,6 +45345,13 @@ heatsink
 0
 2
 1
+IRLML6344TRPBF
+SOT95P240X112-3N
+
+
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -64875,6 +64882,34 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+Project Library
+Anderson_3_Horisontal_Side_by_Side
+
+
+0
+3
+3
+Project Library
+FUN_logo
+
+
+0
+0
+0
+Project Library
+TM4C129E_Launchpad_FULL_ext
+
+
+0
+80
+74
+Project Library
+lizard_logo
+
+
+0
+0
+0
 RF
 Skyworks_SKY65404-31
 http://www.skyworksinc.com/uploads/documents/SKY65404_31_201512K.pdf
