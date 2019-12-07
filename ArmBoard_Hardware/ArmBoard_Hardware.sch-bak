@@ -128,7 +128,7 @@ F 3 "~" H 7050 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 11900 2150 0    50   Output ~ 0
-RX_2_tiva
+RX_2_Tiva
 $Comp
 L power:GND #PWR012
 U 1 1 5BFDCCF6
