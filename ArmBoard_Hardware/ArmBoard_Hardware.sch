@@ -2315,11 +2315,11 @@ F 3 "" H 3300 6000 60  0001 C CNN
 $EndComp
 Text GLabel 4050 5950 2    50   Output ~ 0
 M_PWM
-Text GLabel 3050 4250 0    50   Input ~ 0
+Text GLabel 3050 4350 0    50   Input ~ 0
 ENC_1_PWM
-Text GLabel 4050 5150 2    50   Input ~ 0
+Text GLabel 2150 5650 2    50   Input ~ 0
 ENC_2_PWM
-Text GLabel 3050 5550 0    50   Input ~ 0
+Text GLabel 3050 4250 0    50   Input ~ 0
 ENC_3_PWM
 Text GLabel 4050 5750 2    50   Output ~ 0
 IN_A
@@ -2376,7 +2376,7 @@ Wire Wire Line
 NoConn ~ 3100 3950
 NoConn ~ 4000 3850
 NoConn ~ 4000 5450
-Text GLabel 4050 5350 2    50   Input ~ 0
+Text GLabel 4050 5150 2    50   Input ~ 0
 ENC_5_PWM
 Text GLabel 3050 5450 0    50   Input ~ 0
 ENC_6_PWM
@@ -2389,11 +2389,9 @@ RX_2_Tiva
 Text GLabel 4050 4750 2    50   Input ~ 0
 TX_2_Tiva
 Wire Wire Line
-	4000 5350 4050 5350
-Wire Wire Line
-	3100 5550 3050 5550
-Wire Wire Line
 	3100 5450 3050 5450
+Wire Wire Line
+	2100 5650 2150 5650
 Wire Wire Line
 	4000 5150 4050 5150
 Wire Wire Line
@@ -2512,13 +2510,11 @@ NoConn ~ 1200 5050
 NoConn ~ 1200 5150
 NoConn ~ 1200 5450
 NoConn ~ 1200 5650
-NoConn ~ 2100 5650
-NoConn ~ 2100 5550
 NoConn ~ 1200 4350
 NoConn ~ 1200 4450
 NoConn ~ 2100 4350
 NoConn ~ 2100 4250
-Text GLabel 3050 4350 0    50   Input ~ 0
+Text GLabel 2150 5550 2    50   Input ~ 0
 I_SENSE
 Wire Wire Line
 	2200 3950 2100 3950
@@ -3058,4 +3054,19 @@ NoConn ~ 4000 4350
 NoConn ~ 4000 4250
 NoConn ~ 4000 4150
 NoConn ~ 4000 4050
+NoConn ~ 2200 4550
+NoConn ~ 3100 5550
+NoConn ~ 3000 5550
+NoConn ~ 2500 4250
+NoConn ~ 4600 5150
+NoConn ~ 850  4750
+NoConn ~ 2150 5100
+NoConn ~ 2500 4350
+NoConn ~ 4000 5350
+NoConn ~ 4100 5350
+NoConn ~ 4500 4600
+NoConn ~ 4500 4800
+NoConn ~ 1100 5450
+Wire Wire Line
+	2100 5550 2150 5550
 $EndSCHEMATC
