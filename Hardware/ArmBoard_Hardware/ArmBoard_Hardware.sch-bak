@@ -4208,8 +4208,6 @@ $EndComp
 Wire Wire Line
 	1200 6950 1600 6950
 Wire Wire Line
-	1200 7025 1200 7150
-Wire Wire Line
 	1700 6775 1700 6950
 Wire Wire Line
 	2525 6225 2525 6325
@@ -4327,4 +4325,10 @@ Wire Notes Line
 	3250 5850 3250 9200
 Wire Notes Line
 	2100 5850 2100 7700
+Wire Wire Line
+	1200 6950 1200 7150
+Text Notes 1350 7600 0    98   ~ 20
+Laser
+Text Notes 2300 7600 0    98   ~ 20
+Solennoid
 $EndSCHEMATC
