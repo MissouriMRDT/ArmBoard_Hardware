@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn11
 U 1 1 638457EE
 P 13600 6625
-AR Path="/638457EE" Ref="Conn?"  Part="1" 
+AR Path="/638457EE" Ref="Conn11"  Part="1" 
 AR Path="/62175536/638457EE" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 13750 6625 60  0000 L CNN
+F 0 "Conn11" V 13750 6625 60  0000 L CNN
 F 1 "Molex_SL_03" V 13825 6625 60  0000 L CNN
 F 2 "" H 13600 6625 60  0001 C CNN
 F 3 "" H 13600 6625 60  0001 C CNN
@@ -27,12 +27,12 @@ F 3 "" H 13600 6625 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR081
 U 1 1 638457F4
 P 13750 6350
-AR Path="/638457F4" Ref="#PWR?"  Part="1" 
+AR Path="/638457F4" Ref="#PWR081"  Part="1" 
 AR Path="/62175536/638457F4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13750 6200 50  0001 C CNN
+F 0 "#PWR081" H 13750 6200 50  0001 C CNN
 F 1 "+3.3V" H 13600 6400 50  0000 C CNN
 F 2 "" H 13750 6350 50  0001 C CNN
 F 3 "" H 13750 6350 50  0001 C CNN
@@ -40,12 +40,12 @@ F 3 "" H 13750 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR078
 U 1 1 638457FA
 P 13500 6625
-AR Path="/638457FA" Ref="#PWR?"  Part="1" 
+AR Path="/638457FA" Ref="#PWR078"  Part="1" 
 AR Path="/62175536/638457FA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13500 6375 50  0001 C CNN
+F 0 "#PWR078" H 13500 6375 50  0001 C CNN
 F 1 "GND" H 13375 6550 50  0000 C CNN
 F 2 "" H 13500 6625 50  0001 C CNN
 F 3 "" H 13500 6625 50  0001 C CNN
@@ -67,12 +67,12 @@ Wire Wire Line
 Wire Wire Line
 	13500 6400 13650 6400
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn12
 U 1 1 63845807
 P 13600 7350
-AR Path="/63845807" Ref="Conn?"  Part="1" 
+AR Path="/63845807" Ref="Conn12"  Part="1" 
 AR Path="/62175536/63845807" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 13750 7350 60  0000 L CNN
+F 0 "Conn12" V 13750 7350 60  0000 L CNN
 F 1 "Molex_SL_03" V 13825 7350 60  0000 L CNN
 F 2 "" H 13600 7350 60  0001 C CNN
 F 3 "" H 13600 7350 60  0001 C CNN
@@ -80,12 +80,12 @@ F 3 "" H 13600 7350 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR082
 U 1 1 6384580D
 P 13750 7075
-AR Path="/6384580D" Ref="#PWR?"  Part="1" 
+AR Path="/6384580D" Ref="#PWR082"  Part="1" 
 AR Path="/62175536/6384580D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13750 6925 50  0001 C CNN
+F 0 "#PWR082" H 13750 6925 50  0001 C CNN
 F 1 "+3.3V" H 13600 7125 50  0000 C CNN
 F 2 "" H 13750 7075 50  0001 C CNN
 F 3 "" H 13750 7075 50  0001 C CNN
@@ -93,12 +93,12 @@ F 3 "" H 13750 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR079
 U 1 1 63845813
 P 13500 7350
-AR Path="/63845813" Ref="#PWR?"  Part="1" 
+AR Path="/63845813" Ref="#PWR079"  Part="1" 
 AR Path="/62175536/63845813" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13500 7100 50  0001 C CNN
+F 0 "#PWR079" H 13500 7100 50  0001 C CNN
 F 1 "GND" H 13375 7275 50  0000 C CNN
 F 2 "" H 13500 7350 50  0001 C CNN
 F 3 "" H 13500 7350 50  0001 C CNN
@@ -120,12 +120,12 @@ Wire Wire Line
 Wire Wire Line
 	13500 7125 13650 7125
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn15
 U 1 1 63845820
 P 15050 6600
-AR Path="/63845820" Ref="Conn?"  Part="1" 
+AR Path="/63845820" Ref="Conn15"  Part="1" 
 AR Path="/62175536/63845820" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 15200 6600 60  0000 L CNN
+F 0 "Conn15" V 15200 6600 60  0000 L CNN
 F 1 "Molex_SL_03" V 15275 6600 60  0000 L CNN
 F 2 "" H 15050 6600 60  0001 C CNN
 F 3 "" H 15050 6600 60  0001 C CNN
@@ -133,12 +133,12 @@ F 3 "" H 15050 6600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR090
 U 1 1 63845826
 P 15200 6325
-AR Path="/63845826" Ref="#PWR?"  Part="1" 
+AR Path="/63845826" Ref="#PWR090"  Part="1" 
 AR Path="/62175536/63845826" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15200 6175 50  0001 C CNN
+F 0 "#PWR090" H 15200 6175 50  0001 C CNN
 F 1 "+3.3V" H 15050 6375 50  0000 C CNN
 F 2 "" H 15200 6325 50  0001 C CNN
 F 3 "" H 15200 6325 50  0001 C CNN
@@ -146,12 +146,12 @@ F 3 "" H 15200 6325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR088
 U 1 1 6384582C
 P 14950 6600
-AR Path="/6384582C" Ref="#PWR?"  Part="1" 
+AR Path="/6384582C" Ref="#PWR088"  Part="1" 
 AR Path="/62175536/6384582C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14950 6350 50  0001 C CNN
+F 0 "#PWR088" H 14950 6350 50  0001 C CNN
 F 1 "GND" H 14825 6525 50  0000 C CNN
 F 2 "" H 14950 6600 50  0001 C CNN
 F 3 "" H 14950 6600 50  0001 C CNN
@@ -173,12 +173,12 @@ Wire Wire Line
 Wire Wire Line
 	14950 6375 15100 6375
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn16
 U 1 1 63845839
 P 15050 7350
-AR Path="/63845839" Ref="Conn?"  Part="1" 
+AR Path="/63845839" Ref="Conn16"  Part="1" 
 AR Path="/62175536/63845839" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 15200 7350 60  0000 L CNN
+F 0 "Conn16" V 15200 7350 60  0000 L CNN
 F 1 "Molex_SL_03" V 15275 7350 60  0000 L CNN
 F 2 "" H 15050 7350 60  0001 C CNN
 F 3 "" H 15050 7350 60  0001 C CNN
@@ -186,12 +186,12 @@ F 3 "" H 15050 7350 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR091
 U 1 1 6384583F
 P 15200 7075
-AR Path="/6384583F" Ref="#PWR?"  Part="1" 
+AR Path="/6384583F" Ref="#PWR091"  Part="1" 
 AR Path="/62175536/6384583F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15200 6925 50  0001 C CNN
+F 0 "#PWR091" H 15200 6925 50  0001 C CNN
 F 1 "+3.3V" H 15050 7125 50  0000 C CNN
 F 2 "" H 15200 7075 50  0001 C CNN
 F 3 "" H 15200 7075 50  0001 C CNN
@@ -199,12 +199,12 @@ F 3 "" H 15200 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR089
 U 1 1 63845845
 P 14950 7350
-AR Path="/63845845" Ref="#PWR?"  Part="1" 
+AR Path="/63845845" Ref="#PWR089"  Part="1" 
 AR Path="/62175536/63845845" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14950 7100 50  0001 C CNN
+F 0 "#PWR089" H 14950 7100 50  0001 C CNN
 F 1 "GND" H 14825 7275 50  0000 C CNN
 F 2 "" H 14950 7350 50  0001 C CNN
 F 3 "" H 14950 7350 50  0001 C CNN
@@ -226,12 +226,12 @@ Wire Wire Line
 Wire Wire Line
 	14950 7125 15100 7125
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn18
 U 1 1 63845852
 P 16500 6650
-AR Path="/63845852" Ref="Conn?"  Part="1" 
+AR Path="/63845852" Ref="Conn18"  Part="1" 
 AR Path="/62175536/63845852" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 16650 6650 60  0000 L CNN
+F 0 "Conn18" V 16650 6650 60  0000 L CNN
 F 1 "Molex_SL_03" V 16725 6650 60  0000 L CNN
 F 2 "" H 16500 6650 60  0001 C CNN
 F 3 "" H 16500 6650 60  0001 C CNN
@@ -239,12 +239,12 @@ F 3 "" H 16500 6650 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR097
 U 1 1 63845858
 P 16650 6375
-AR Path="/63845858" Ref="#PWR?"  Part="1" 
+AR Path="/63845858" Ref="#PWR097"  Part="1" 
 AR Path="/62175536/63845858" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16650 6225 50  0001 C CNN
+F 0 "#PWR097" H 16650 6225 50  0001 C CNN
 F 1 "+3.3V" H 16500 6425 50  0000 C CNN
 F 2 "" H 16650 6375 50  0001 C CNN
 F 3 "" H 16650 6375 50  0001 C CNN
@@ -252,12 +252,12 @@ F 3 "" H 16650 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR095
 U 1 1 6384585E
 P 16400 6650
-AR Path="/6384585E" Ref="#PWR?"  Part="1" 
+AR Path="/6384585E" Ref="#PWR095"  Part="1" 
 AR Path="/62175536/6384585E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16400 6400 50  0001 C CNN
+F 0 "#PWR095" H 16400 6400 50  0001 C CNN
 F 1 "GND" H 16275 6575 50  0000 C CNN
 F 2 "" H 16400 6650 50  0001 C CNN
 F 3 "" H 16400 6650 50  0001 C CNN
@@ -279,12 +279,12 @@ Wire Wire Line
 Wire Wire Line
 	16400 6425 16550 6425
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn19
 U 1 1 6384586B
 P 16500 7350
-AR Path="/6384586B" Ref="Conn?"  Part="1" 
+AR Path="/6384586B" Ref="Conn19"  Part="1" 
 AR Path="/62175536/6384586B" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 16650 7350 60  0000 L CNN
+F 0 "Conn19" V 16650 7350 60  0000 L CNN
 F 1 "Molex_SL_03" V 16725 7350 60  0000 L CNN
 F 2 "" H 16500 7350 60  0001 C CNN
 F 3 "" H 16500 7350 60  0001 C CNN
@@ -292,12 +292,12 @@ F 3 "" H 16500 7350 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR098
 U 1 1 63845871
 P 16650 7075
-AR Path="/63845871" Ref="#PWR?"  Part="1" 
+AR Path="/63845871" Ref="#PWR098"  Part="1" 
 AR Path="/62175536/63845871" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16650 6925 50  0001 C CNN
+F 0 "#PWR098" H 16650 6925 50  0001 C CNN
 F 1 "+3.3V" H 16500 7125 50  0000 C CNN
 F 2 "" H 16650 7075 50  0001 C CNN
 F 3 "" H 16650 7075 50  0001 C CNN
@@ -305,12 +305,12 @@ F 3 "" H 16650 7075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR096
 U 1 1 63845877
 P 16400 7350
-AR Path="/63845877" Ref="#PWR?"  Part="1" 
+AR Path="/63845877" Ref="#PWR096"  Part="1" 
 AR Path="/62175536/63845877" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16400 7100 50  0001 C CNN
+F 0 "#PWR096" H 16400 7100 50  0001 C CNN
 F 1 "GND" H 16275 7275 50  0000 C CNN
 F 2 "" H 16400 7350 50  0001 C CNN
 F 3 "" H 16400 7350 50  0001 C CNN
@@ -352,12 +352,12 @@ Wire Wire Line
 Text GLabel 5475 6375 1    50   Input ~ 0
 OUTa_7
 $Comp
-L power:GND #PWR?
+L power:GND #PWR035
 U 1 1 63845890
 P 5825 7325
-AR Path="/63845890" Ref="#PWR?"  Part="1" 
+AR Path="/63845890" Ref="#PWR035"  Part="1" 
 AR Path="/62175536/63845890" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5825 7075 50  0001 C CNN
+F 0 "#PWR035" H 5825 7075 50  0001 C CNN
 F 1 "GND" H 5825 7175 50  0000 C CNN
 F 2 "" H 5825 7325 50  0001 C CNN
 F 3 "" H 5825 7325 50  0001 C CNN
@@ -365,12 +365,12 @@ F 3 "" H 5825 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R15
 U 1 1 63845896
 P 5825 6825
-AR Path="/63845896" Ref="R?"  Part="1" 
+AR Path="/63845896" Ref="R15"  Part="1" 
 AR Path="/62175536/63845896" Ref="R?"  Part="1" 
-F 0 "R?" H 5950 6850 50  0000 C CNN
+F 0 "R15" H 5950 6850 50  0000 C CNN
 F 1 "43" H 5950 6775 50  0000 C CNN
 F 2 "" H 5825 6825 50  0001 C CNN
 F 3 "~" H 5825 6825 50  0001 C CNN
@@ -380,12 +380,12 @@ $EndComp
 Wire Wire Line
 	5825 6225 5825 6275
 $Comp
-L Device:LED D?
+L Device:LED D13
 U 1 1 6384589D
 P 5825 7125
-AR Path="/6384589D" Ref="D?"  Part="1" 
+AR Path="/6384589D" Ref="D13"  Part="1" 
 AR Path="/62175536/6384589D" Ref="D?"  Part="1" 
-F 0 "D?" V 5900 7000 50  0000 C CNN
+F 0 "D13" V 5900 7000 50  0000 C CNN
 F 1 "Blue" V 5825 6975 50  0000 C CNN
 F 2 "" H 5825 7125 50  0001 C CNN
 F 3 "~" H 5825 7125 50  0001 C CNN
@@ -405,12 +405,12 @@ Wire Wire Line
 Text GLabel 4675 6375 1    50   Input ~ 0
 OUTa_6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR030
 U 1 1 638458A9
 P 5025 7325
-AR Path="/638458A9" Ref="#PWR?"  Part="1" 
+AR Path="/638458A9" Ref="#PWR030"  Part="1" 
 AR Path="/62175536/638458A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5025 7075 50  0001 C CNN
+F 0 "#PWR030" H 5025 7075 50  0001 C CNN
 F 1 "GND" H 5025 7175 50  0000 C CNN
 F 2 "" H 5025 7325 50  0001 C CNN
 F 3 "" H 5025 7325 50  0001 C CNN
@@ -418,12 +418,12 @@ F 3 "" H 5025 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R13
 U 1 1 638458AF
 P 5025 6825
-AR Path="/638458AF" Ref="R?"  Part="1" 
+AR Path="/638458AF" Ref="R13"  Part="1" 
 AR Path="/62175536/638458AF" Ref="R?"  Part="1" 
-F 0 "R?" H 5150 6850 50  0000 C CNN
+F 0 "R13" H 5150 6850 50  0000 C CNN
 F 1 "43" H 5150 6775 50  0000 C CNN
 F 2 "" H 5025 6825 50  0001 C CNN
 F 3 "~" H 5025 6825 50  0001 C CNN
@@ -433,12 +433,12 @@ $EndComp
 Wire Wire Line
 	5025 6225 5025 6275
 $Comp
-L Device:LED D?
+L Device:LED D11
 U 1 1 638458B6
 P 5025 7125
-AR Path="/638458B6" Ref="D?"  Part="1" 
+AR Path="/638458B6" Ref="D11"  Part="1" 
 AR Path="/62175536/638458B6" Ref="D?"  Part="1" 
-F 0 "D?" V 5100 7000 50  0000 C CNN
+F 0 "D11" V 5100 7000 50  0000 C CNN
 F 1 "Blue" V 5025 6975 50  0000 C CNN
 F 2 "" H 5025 7125 50  0001 C CNN
 F 3 "~" H 5025 7125 50  0001 C CNN
@@ -446,12 +446,12 @@ F 3 "~" H 5025 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q13
 U 1 1 638458BC
 P 4925 6475
-AR Path="/638458BC" Ref="Q?"  Part="1" 
+AR Path="/638458BC" Ref="Q13"  Part="1" 
 AR Path="/62175536/638458BC" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5129 6521 50  0000 L CNN
+F 0 "Q13" H 5129 6521 50  0000 L CNN
 F 1 "BSS138" H 5129 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5125 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4925 6475 50  0001 L CNN
@@ -471,12 +471,12 @@ Wire Wire Line
 Text GLabel 3875 6375 1    50   Input ~ 0
 OUTa_5
 $Comp
-L power:GND #PWR?
+L power:GND #PWR025
 U 1 1 638458C8
 P 4225 7325
-AR Path="/638458C8" Ref="#PWR?"  Part="1" 
+AR Path="/638458C8" Ref="#PWR025"  Part="1" 
 AR Path="/62175536/638458C8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4225 7075 50  0001 C CNN
+F 0 "#PWR025" H 4225 7075 50  0001 C CNN
 F 1 "GND" H 4225 7175 50  0000 C CNN
 F 2 "" H 4225 7325 50  0001 C CNN
 F 3 "" H 4225 7325 50  0001 C CNN
@@ -484,12 +484,12 @@ F 3 "" H 4225 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R11
 U 1 1 638458CE
 P 4225 6825
-AR Path="/638458CE" Ref="R?"  Part="1" 
+AR Path="/638458CE" Ref="R11"  Part="1" 
 AR Path="/62175536/638458CE" Ref="R?"  Part="1" 
-F 0 "R?" H 4350 6850 50  0000 C CNN
+F 0 "R11" H 4350 6850 50  0000 C CNN
 F 1 "43" H 4350 6775 50  0000 C CNN
 F 2 "" H 4225 6825 50  0001 C CNN
 F 3 "~" H 4225 6825 50  0001 C CNN
@@ -499,12 +499,12 @@ $EndComp
 Wire Wire Line
 	4225 6225 4225 6275
 $Comp
-L Device:LED D?
+L Device:LED D9
 U 1 1 638458D5
 P 4225 7125
-AR Path="/638458D5" Ref="D?"  Part="1" 
+AR Path="/638458D5" Ref="D9"  Part="1" 
 AR Path="/62175536/638458D5" Ref="D?"  Part="1" 
-F 0 "D?" V 4300 7000 50  0000 C CNN
+F 0 "D9" V 4300 7000 50  0000 C CNN
 F 1 "Blue" V 4225 6975 50  0000 C CNN
 F 2 "" H 4225 7125 50  0001 C CNN
 F 3 "~" H 4225 7125 50  0001 C CNN
@@ -512,12 +512,12 @@ F 3 "~" H 4225 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q11
 U 1 1 638458DB
 P 4125 6475
-AR Path="/638458DB" Ref="Q?"  Part="1" 
+AR Path="/638458DB" Ref="Q11"  Part="1" 
 AR Path="/62175536/638458DB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4329 6521 50  0000 L CNN
+F 0 "Q11" H 4329 6521 50  0000 L CNN
 F 1 "BSS138" H 4329 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4325 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4125 6475 50  0001 L CNN
@@ -535,12 +535,12 @@ Wire Wire Line
 Wire Wire Line
 	3075 6475 3125 6475
 $Comp
-L power:GND #PWR?
+L power:GND #PWR021
 U 1 1 638458E6
 P 3425 7325
-AR Path="/638458E6" Ref="#PWR?"  Part="1" 
+AR Path="/638458E6" Ref="#PWR021"  Part="1" 
 AR Path="/62175536/638458E6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3425 7075 50  0001 C CNN
+F 0 "#PWR021" H 3425 7075 50  0001 C CNN
 F 1 "GND" H 3425 7175 50  0000 C CNN
 F 2 "" H 3425 7325 50  0001 C CNN
 F 3 "" H 3425 7325 50  0001 C CNN
@@ -548,12 +548,12 @@ F 3 "" H 3425 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R9
 U 1 1 638458EC
 P 3425 6825
-AR Path="/638458EC" Ref="R?"  Part="1" 
+AR Path="/638458EC" Ref="R9"  Part="1" 
 AR Path="/62175536/638458EC" Ref="R?"  Part="1" 
-F 0 "R?" H 3550 6850 50  0000 C CNN
+F 0 "R9" H 3550 6850 50  0000 C CNN
 F 1 "43" H 3550 6775 50  0000 C CNN
 F 2 "" H 3425 6825 50  0001 C CNN
 F 3 "~" H 3425 6825 50  0001 C CNN
@@ -563,12 +563,12 @@ $EndComp
 Wire Wire Line
 	3425 6225 3425 6275
 $Comp
-L Device:LED D?
+L Device:LED D7
 U 1 1 638458F3
 P 3425 7125
-AR Path="/638458F3" Ref="D?"  Part="1" 
+AR Path="/638458F3" Ref="D7"  Part="1" 
 AR Path="/62175536/638458F3" Ref="D?"  Part="1" 
-F 0 "D?" V 3500 7000 50  0000 C CNN
+F 0 "D7" V 3500 7000 50  0000 C CNN
 F 1 "Blue" V 3425 6975 50  0000 C CNN
 F 2 "" H 3425 7125 50  0001 C CNN
 F 3 "~" H 3425 7125 50  0001 C CNN
@@ -576,12 +576,12 @@ F 3 "~" H 3425 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q9
 U 1 1 638458F9
 P 3325 6475
-AR Path="/638458F9" Ref="Q?"  Part="1" 
+AR Path="/638458F9" Ref="Q9"  Part="1" 
 AR Path="/62175536/638458F9" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3529 6521 50  0000 L CNN
+F 0 "Q9" H 3529 6521 50  0000 L CNN
 F 1 "BSS138" H 3529 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3525 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 3325 6475 50  0001 L CNN
@@ -601,12 +601,12 @@ Wire Wire Line
 Text GLabel 2275 6375 1    50   Input ~ 0
 OUTa_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 63845905
 P 2625 7325
-AR Path="/63845905" Ref="#PWR?"  Part="1" 
+AR Path="/63845905" Ref="#PWR016"  Part="1" 
 AR Path="/62175536/63845905" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 7075 50  0001 C CNN
+F 0 "#PWR016" H 2625 7075 50  0001 C CNN
 F 1 "GND" H 2625 7175 50  0000 C CNN
 F 2 "" H 2625 7325 50  0001 C CNN
 F 3 "" H 2625 7325 50  0001 C CNN
@@ -614,12 +614,12 @@ F 3 "" H 2625 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R7
 U 1 1 6384590B
 P 2625 6825
-AR Path="/6384590B" Ref="R?"  Part="1" 
+AR Path="/6384590B" Ref="R7"  Part="1" 
 AR Path="/62175536/6384590B" Ref="R?"  Part="1" 
-F 0 "R?" H 2750 6850 50  0000 C CNN
+F 0 "R7" H 2750 6850 50  0000 C CNN
 F 1 "43" H 2750 6775 50  0000 C CNN
 F 2 "" H 2625 6825 50  0001 C CNN
 F 3 "~" H 2625 6825 50  0001 C CNN
@@ -629,12 +629,12 @@ $EndComp
 Wire Wire Line
 	2625 6225 2625 6275
 $Comp
-L Device:LED D?
+L Device:LED D5
 U 1 1 63845912
 P 2625 7125
-AR Path="/63845912" Ref="D?"  Part="1" 
+AR Path="/63845912" Ref="D5"  Part="1" 
 AR Path="/62175536/63845912" Ref="D?"  Part="1" 
-F 0 "D?" V 2700 7000 50  0000 C CNN
+F 0 "D5" V 2700 7000 50  0000 C CNN
 F 1 "Blue" V 2625 6975 50  0000 C CNN
 F 2 "" H 2625 7125 50  0001 C CNN
 F 3 "~" H 2625 7125 50  0001 C CNN
@@ -642,12 +642,12 @@ F 3 "~" H 2625 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q7
 U 1 1 63845918
 P 2525 6475
-AR Path="/63845918" Ref="Q?"  Part="1" 
+AR Path="/63845918" Ref="Q7"  Part="1" 
 AR Path="/62175536/63845918" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2729 6521 50  0000 L CNN
+F 0 "Q7" H 2729 6521 50  0000 L CNN
 F 1 "BSS138" H 2729 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2725 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2525 6475 50  0001 L CNN
@@ -667,12 +667,12 @@ Wire Wire Line
 Text GLabel 1475 6375 1    50   Input ~ 0
 OUTa_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 63845924
 P 1825 7325
-AR Path="/63845924" Ref="#PWR?"  Part="1" 
+AR Path="/63845924" Ref="#PWR09"  Part="1" 
 AR Path="/62175536/63845924" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1825 7075 50  0001 C CNN
+F 0 "#PWR09" H 1825 7075 50  0001 C CNN
 F 1 "GND" H 1825 7175 50  0000 C CNN
 F 2 "" H 1825 7325 50  0001 C CNN
 F 3 "" H 1825 7325 50  0001 C CNN
@@ -680,12 +680,12 @@ F 3 "" H 1825 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 6384592A
 P 1825 6825
-AR Path="/6384592A" Ref="R?"  Part="1" 
+AR Path="/6384592A" Ref="R4"  Part="1" 
 AR Path="/62175536/6384592A" Ref="R?"  Part="1" 
-F 0 "R?" H 1950 6850 50  0000 C CNN
+F 0 "R4" H 1950 6850 50  0000 C CNN
 F 1 "43" H 1950 6775 50  0000 C CNN
 F 2 "" H 1825 6825 50  0001 C CNN
 F 3 "~" H 1825 6825 50  0001 C CNN
@@ -695,12 +695,12 @@ $EndComp
 Wire Wire Line
 	1825 6225 1825 6275
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 63845931
 P 1825 7125
-AR Path="/63845931" Ref="D?"  Part="1" 
+AR Path="/63845931" Ref="D3"  Part="1" 
 AR Path="/62175536/63845931" Ref="D?"  Part="1" 
-F 0 "D?" V 1900 7000 50  0000 C CNN
+F 0 "D3" V 1900 7000 50  0000 C CNN
 F 1 "Blue" V 1825 6975 50  0000 C CNN
 F 2 "" H 1825 7125 50  0001 C CNN
 F 3 "~" H 1825 7125 50  0001 C CNN
@@ -708,12 +708,12 @@ F 3 "~" H 1825 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q4
 U 1 1 63845937
 P 1725 6475
-AR Path="/63845937" Ref="Q?"  Part="1" 
+AR Path="/63845937" Ref="Q4"  Part="1" 
 AR Path="/62175536/63845937" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1929 6521 50  0000 L CNN
+F 0 "Q4" H 1929 6521 50  0000 L CNN
 F 1 "BSS138" H 1929 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1925 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1725 6475 50  0001 L CNN
@@ -733,12 +733,12 @@ Wire Wire Line
 Text GLabel 625  6375 1    50   Input ~ 0
 OUTa_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 63845943
 P 975 7325
-AR Path="/63845943" Ref="#PWR?"  Part="1" 
+AR Path="/63845943" Ref="#PWR03"  Part="1" 
 AR Path="/62175536/63845943" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 975 7075 50  0001 C CNN
+F 0 "#PWR03" H 975 7075 50  0001 C CNN
 F 1 "GND" H 975 7175 50  0000 C CNN
 F 2 "" H 975 7325 50  0001 C CNN
 F 3 "" H 975 7325 50  0001 C CNN
@@ -746,12 +746,12 @@ F 3 "" H 975 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R1
 U 1 1 63845949
 P 975 6825
-AR Path="/63845949" Ref="R?"  Part="1" 
+AR Path="/63845949" Ref="R1"  Part="1" 
 AR Path="/62175536/63845949" Ref="R?"  Part="1" 
-F 0 "R?" H 1100 6850 50  0000 C CNN
+F 0 "R1" H 1100 6850 50  0000 C CNN
 F 1 "43" H 1100 6775 50  0000 C CNN
 F 2 "" H 975 6825 50  0001 C CNN
 F 3 "~" H 975 6825 50  0001 C CNN
@@ -761,12 +761,12 @@ $EndComp
 Wire Wire Line
 	975  6225 975  6275
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 63845950
 P 975 7125
-AR Path="/63845950" Ref="D?"  Part="1" 
+AR Path="/63845950" Ref="D1"  Part="1" 
 AR Path="/62175536/63845950" Ref="D?"  Part="1" 
-F 0 "D?" V 1050 7000 50  0000 C CNN
+F 0 "D1" V 1050 7000 50  0000 C CNN
 F 1 "Blue" V 975 6975 50  0000 C CNN
 F 2 "" H 975 7125 50  0001 C CNN
 F 3 "~" H 975 7125 50  0001 C CNN
@@ -774,12 +774,12 @@ F 3 "~" H 975 7125 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q1
 U 1 1 63845956
 P 875 6475
-AR Path="/63845956" Ref="Q?"  Part="1" 
+AR Path="/63845956" Ref="Q1"  Part="1" 
 AR Path="/62175536/63845956" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1079 6521 50  0000 L CNN
+F 0 "Q1" H 1079 6521 50  0000 L CNN
 F 1 "BSS138" H 1079 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1075 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 875 6475 50  0001 L CNN
@@ -801,12 +801,12 @@ Wire Wire Line
 Text GLabel 5475 7925 1    50   Input ~ 0
 OUTb_7
 $Comp
-L power:GND #PWR?
+L power:GND #PWR037
 U 1 1 63845963
 P 5825 8875
-AR Path="/63845963" Ref="#PWR?"  Part="1" 
+AR Path="/63845963" Ref="#PWR037"  Part="1" 
 AR Path="/62175536/63845963" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5825 8625 50  0001 C CNN
+F 0 "#PWR037" H 5825 8625 50  0001 C CNN
 F 1 "GND" H 5825 8725 50  0000 C CNN
 F 2 "" H 5825 8875 50  0001 C CNN
 F 3 "" H 5825 8875 50  0001 C CNN
@@ -814,12 +814,12 @@ F 3 "" H 5825 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R16
 U 1 1 63845969
 P 5825 8375
-AR Path="/63845969" Ref="R?"  Part="1" 
+AR Path="/63845969" Ref="R16"  Part="1" 
 AR Path="/62175536/63845969" Ref="R?"  Part="1" 
-F 0 "R?" H 5950 8400 50  0000 C CNN
+F 0 "R16" H 5950 8400 50  0000 C CNN
 F 1 "43" H 5950 8325 50  0000 C CNN
 F 2 "" H 5825 8375 50  0001 C CNN
 F 3 "~" H 5825 8375 50  0001 C CNN
@@ -829,12 +829,12 @@ $EndComp
 Wire Wire Line
 	5825 7775 5825 7825
 $Comp
-L Device:LED D?
+L Device:LED D14
 U 1 1 63845970
 P 5825 8675
-AR Path="/63845970" Ref="D?"  Part="1" 
+AR Path="/63845970" Ref="D14"  Part="1" 
 AR Path="/62175536/63845970" Ref="D?"  Part="1" 
-F 0 "D?" V 5900 8525 50  0000 C CNN
+F 0 "D14" V 5900 8525 50  0000 C CNN
 F 1 "Blue" V 5825 8525 50  0000 C CNN
 F 2 "" H 5825 8675 50  0001 C CNN
 F 3 "~" H 5825 8675 50  0001 C CNN
@@ -842,12 +842,12 @@ F 3 "~" H 5825 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q16
 U 1 1 63845976
 P 5725 8025
-AR Path="/63845976" Ref="Q?"  Part="1" 
+AR Path="/63845976" Ref="Q16"  Part="1" 
 AR Path="/62175536/63845976" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5929 8071 50  0000 L CNN
+F 0 "Q16" H 5929 8071 50  0000 L CNN
 F 1 "BSS138" H 5929 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5925 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5725 8025 50  0001 L CNN
@@ -867,12 +867,12 @@ Wire Wire Line
 Text GLabel 4675 7925 1    50   Input ~ 0
 OUTb_6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR032
 U 1 1 63845982
 P 5025 8875
-AR Path="/63845982" Ref="#PWR?"  Part="1" 
+AR Path="/63845982" Ref="#PWR032"  Part="1" 
 AR Path="/62175536/63845982" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5025 8625 50  0001 C CNN
+F 0 "#PWR032" H 5025 8625 50  0001 C CNN
 F 1 "GND" H 5025 8725 50  0000 C CNN
 F 2 "" H 5025 8875 50  0001 C CNN
 F 3 "" H 5025 8875 50  0001 C CNN
@@ -880,12 +880,12 @@ F 3 "" H 5025 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R14
 U 1 1 63845988
 P 5025 8375
-AR Path="/63845988" Ref="R?"  Part="1" 
+AR Path="/63845988" Ref="R14"  Part="1" 
 AR Path="/62175536/63845988" Ref="R?"  Part="1" 
-F 0 "R?" H 5150 8400 50  0000 C CNN
+F 0 "R14" H 5150 8400 50  0000 C CNN
 F 1 "43" H 5150 8325 50  0000 C CNN
 F 2 "" H 5025 8375 50  0001 C CNN
 F 3 "~" H 5025 8375 50  0001 C CNN
@@ -895,12 +895,12 @@ $EndComp
 Wire Wire Line
 	5025 7775 5025 7825
 $Comp
-L Device:LED D?
+L Device:LED D12
 U 1 1 6384598F
 P 5025 8675
-AR Path="/6384598F" Ref="D?"  Part="1" 
+AR Path="/6384598F" Ref="D12"  Part="1" 
 AR Path="/62175536/6384598F" Ref="D?"  Part="1" 
-F 0 "D?" V 5100 8525 50  0000 C CNN
+F 0 "D12" V 5100 8525 50  0000 C CNN
 F 1 "Blue" V 5025 8525 50  0000 C CNN
 F 2 "" H 5025 8675 50  0001 C CNN
 F 3 "~" H 5025 8675 50  0001 C CNN
@@ -908,12 +908,12 @@ F 3 "~" H 5025 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q14
 U 1 1 63845995
 P 4925 8025
-AR Path="/63845995" Ref="Q?"  Part="1" 
+AR Path="/63845995" Ref="Q14"  Part="1" 
 AR Path="/62175536/63845995" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5129 8071 50  0000 L CNN
+F 0 "Q14" H 5129 8071 50  0000 L CNN
 F 1 "BSS138" H 5129 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5125 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4925 8025 50  0001 L CNN
@@ -933,12 +933,12 @@ Wire Wire Line
 Text GLabel 3875 7925 1    50   Input ~ 0
 OUTb_5
 $Comp
-L power:GND #PWR?
+L power:GND #PWR027
 U 1 1 638459A1
 P 4225 8875
-AR Path="/638459A1" Ref="#PWR?"  Part="1" 
+AR Path="/638459A1" Ref="#PWR027"  Part="1" 
 AR Path="/62175536/638459A1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4225 8625 50  0001 C CNN
+F 0 "#PWR027" H 4225 8625 50  0001 C CNN
 F 1 "GND" H 4225 8725 50  0000 C CNN
 F 2 "" H 4225 8875 50  0001 C CNN
 F 3 "" H 4225 8875 50  0001 C CNN
@@ -946,12 +946,12 @@ F 3 "" H 4225 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R12
 U 1 1 638459A7
 P 4225 8375
-AR Path="/638459A7" Ref="R?"  Part="1" 
+AR Path="/638459A7" Ref="R12"  Part="1" 
 AR Path="/62175536/638459A7" Ref="R?"  Part="1" 
-F 0 "R?" H 4350 8400 50  0000 C CNN
+F 0 "R12" H 4350 8400 50  0000 C CNN
 F 1 "43" H 4350 8325 50  0000 C CNN
 F 2 "" H 4225 8375 50  0001 C CNN
 F 3 "~" H 4225 8375 50  0001 C CNN
@@ -961,12 +961,12 @@ $EndComp
 Wire Wire Line
 	4225 7775 4225 7825
 $Comp
-L Device:LED D?
+L Device:LED D10
 U 1 1 638459AE
 P 4225 8675
-AR Path="/638459AE" Ref="D?"  Part="1" 
+AR Path="/638459AE" Ref="D10"  Part="1" 
 AR Path="/62175536/638459AE" Ref="D?"  Part="1" 
-F 0 "D?" V 4300 8525 50  0000 C CNN
+F 0 "D10" V 4300 8525 50  0000 C CNN
 F 1 "Blue" V 4225 8525 50  0000 C CNN
 F 2 "" H 4225 8675 50  0001 C CNN
 F 3 "~" H 4225 8675 50  0001 C CNN
@@ -974,12 +974,12 @@ F 3 "~" H 4225 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q12
 U 1 1 638459B4
 P 4125 8025
-AR Path="/638459B4" Ref="Q?"  Part="1" 
+AR Path="/638459B4" Ref="Q12"  Part="1" 
 AR Path="/62175536/638459B4" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4329 8071 50  0000 L CNN
+F 0 "Q12" H 4329 8071 50  0000 L CNN
 F 1 "BSS138" H 4329 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4325 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4125 8025 50  0001 L CNN
@@ -997,12 +997,12 @@ Wire Wire Line
 Wire Wire Line
 	3075 8025 3125 8025
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 638459BF
 P 3425 8875
-AR Path="/638459BF" Ref="#PWR?"  Part="1" 
+AR Path="/638459BF" Ref="#PWR023"  Part="1" 
 AR Path="/62175536/638459BF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3425 8625 50  0001 C CNN
+F 0 "#PWR023" H 3425 8625 50  0001 C CNN
 F 1 "GND" H 3425 8725 50  0000 C CNN
 F 2 "" H 3425 8875 50  0001 C CNN
 F 3 "" H 3425 8875 50  0001 C CNN
@@ -1010,12 +1010,12 @@ F 3 "" H 3425 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R10
 U 1 1 638459C5
 P 3425 8375
-AR Path="/638459C5" Ref="R?"  Part="1" 
+AR Path="/638459C5" Ref="R10"  Part="1" 
 AR Path="/62175536/638459C5" Ref="R?"  Part="1" 
-F 0 "R?" H 3550 8400 50  0000 C CNN
+F 0 "R10" H 3550 8400 50  0000 C CNN
 F 1 "43" H 3550 8325 50  0000 C CNN
 F 2 "" H 3425 8375 50  0001 C CNN
 F 3 "~" H 3425 8375 50  0001 C CNN
@@ -1025,12 +1025,12 @@ $EndComp
 Wire Wire Line
 	3425 7775 3425 7825
 $Comp
-L Device:LED D?
+L Device:LED D8
 U 1 1 638459CC
 P 3425 8675
-AR Path="/638459CC" Ref="D?"  Part="1" 
+AR Path="/638459CC" Ref="D8"  Part="1" 
 AR Path="/62175536/638459CC" Ref="D?"  Part="1" 
-F 0 "D?" V 3500 8525 50  0000 C CNN
+F 0 "D8" V 3500 8525 50  0000 C CNN
 F 1 "Blue" V 3425 8525 50  0000 C CNN
 F 2 "" H 3425 8675 50  0001 C CNN
 F 3 "~" H 3425 8675 50  0001 C CNN
@@ -1038,12 +1038,12 @@ F 3 "~" H 3425 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q10
 U 1 1 638459D2
 P 3325 8025
-AR Path="/638459D2" Ref="Q?"  Part="1" 
+AR Path="/638459D2" Ref="Q10"  Part="1" 
 AR Path="/62175536/638459D2" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3529 8071 50  0000 L CNN
+F 0 "Q10" H 3529 8071 50  0000 L CNN
 F 1 "BSS138" H 3529 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3525 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 3325 8025 50  0001 L CNN
@@ -1063,12 +1063,12 @@ Wire Wire Line
 Text GLabel 2275 7925 1    50   Input ~ 0
 OUTb_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 638459DE
 P 2625 8875
-AR Path="/638459DE" Ref="#PWR?"  Part="1" 
+AR Path="/638459DE" Ref="#PWR018"  Part="1" 
 AR Path="/62175536/638459DE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 8625 50  0001 C CNN
+F 0 "#PWR018" H 2625 8625 50  0001 C CNN
 F 1 "GND" H 2625 8725 50  0000 C CNN
 F 2 "" H 2625 8875 50  0001 C CNN
 F 3 "" H 2625 8875 50  0001 C CNN
@@ -1076,12 +1076,12 @@ F 3 "" H 2625 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R8
 U 1 1 638459E4
 P 2625 8375
-AR Path="/638459E4" Ref="R?"  Part="1" 
+AR Path="/638459E4" Ref="R8"  Part="1" 
 AR Path="/62175536/638459E4" Ref="R?"  Part="1" 
-F 0 "R?" H 2750 8400 50  0000 C CNN
+F 0 "R8" H 2750 8400 50  0000 C CNN
 F 1 "43" H 2750 8325 50  0000 C CNN
 F 2 "" H 2625 8375 50  0001 C CNN
 F 3 "~" H 2625 8375 50  0001 C CNN
@@ -1091,12 +1091,12 @@ $EndComp
 Wire Wire Line
 	2625 7775 2625 7825
 $Comp
-L Device:LED D?
+L Device:LED D6
 U 1 1 638459EB
 P 2625 8675
-AR Path="/638459EB" Ref="D?"  Part="1" 
+AR Path="/638459EB" Ref="D6"  Part="1" 
 AR Path="/62175536/638459EB" Ref="D?"  Part="1" 
-F 0 "D?" V 2700 8525 50  0000 C CNN
+F 0 "D6" V 2700 8525 50  0000 C CNN
 F 1 "Blue" V 2625 8525 50  0000 C CNN
 F 2 "" H 2625 8675 50  0001 C CNN
 F 3 "~" H 2625 8675 50  0001 C CNN
@@ -1104,12 +1104,12 @@ F 3 "~" H 2625 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q8
 U 1 1 638459F1
 P 2525 8025
-AR Path="/638459F1" Ref="Q?"  Part="1" 
+AR Path="/638459F1" Ref="Q8"  Part="1" 
 AR Path="/62175536/638459F1" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2729 8071 50  0000 L CNN
+F 0 "Q8" H 2729 8071 50  0000 L CNN
 F 1 "BSS138" H 2729 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2725 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2525 8025 50  0001 L CNN
@@ -1129,12 +1129,12 @@ Wire Wire Line
 Text GLabel 1475 7925 1    50   Input ~ 0
 OUTb_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 638459FD
 P 1825 8875
-AR Path="/638459FD" Ref="#PWR?"  Part="1" 
+AR Path="/638459FD" Ref="#PWR011"  Part="1" 
 AR Path="/62175536/638459FD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1825 8625 50  0001 C CNN
+F 0 "#PWR011" H 1825 8625 50  0001 C CNN
 F 1 "GND" H 1825 8725 50  0000 C CNN
 F 2 "" H 1825 8875 50  0001 C CNN
 F 3 "" H 1825 8875 50  0001 C CNN
@@ -1142,12 +1142,12 @@ F 3 "" H 1825 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R5
 U 1 1 63845A03
 P 1825 8375
-AR Path="/63845A03" Ref="R?"  Part="1" 
+AR Path="/63845A03" Ref="R5"  Part="1" 
 AR Path="/62175536/63845A03" Ref="R?"  Part="1" 
-F 0 "R?" H 1950 8400 50  0000 C CNN
+F 0 "R5" H 1950 8400 50  0000 C CNN
 F 1 "43" H 1950 8325 50  0000 C CNN
 F 2 "" H 1825 8375 50  0001 C CNN
 F 3 "~" H 1825 8375 50  0001 C CNN
@@ -1157,12 +1157,12 @@ $EndComp
 Wire Wire Line
 	1825 7775 1825 7825
 $Comp
-L Device:LED D?
+L Device:LED D4
 U 1 1 63845A0A
 P 1825 8675
-AR Path="/63845A0A" Ref="D?"  Part="1" 
+AR Path="/63845A0A" Ref="D4"  Part="1" 
 AR Path="/62175536/63845A0A" Ref="D?"  Part="1" 
-F 0 "D?" V 1900 8550 50  0000 C CNN
+F 0 "D4" V 1900 8550 50  0000 C CNN
 F 1 "Blue" V 1825 8525 50  0000 C CNN
 F 2 "" H 1825 8675 50  0001 C CNN
 F 3 "~" H 1825 8675 50  0001 C CNN
@@ -1170,12 +1170,12 @@ F 3 "~" H 1825 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q5
 U 1 1 63845A10
 P 1725 8025
-AR Path="/63845A10" Ref="Q?"  Part="1" 
+AR Path="/63845A10" Ref="Q5"  Part="1" 
 AR Path="/62175536/63845A10" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1929 8071 50  0000 L CNN
+F 0 "Q5" H 1929 8071 50  0000 L CNN
 F 1 "BSS138" H 1929 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1925 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1725 8025 50  0001 L CNN
@@ -1195,12 +1195,12 @@ Wire Wire Line
 Text GLabel 625  7925 1    50   Input ~ 0
 OUTb_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 63845A1C
 P 975 8875
-AR Path="/63845A1C" Ref="#PWR?"  Part="1" 
+AR Path="/63845A1C" Ref="#PWR05"  Part="1" 
 AR Path="/62175536/63845A1C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 975 8625 50  0001 C CNN
+F 0 "#PWR05" H 975 8625 50  0001 C CNN
 F 1 "GND" H 975 8725 50  0000 C CNN
 F 2 "" H 975 8875 50  0001 C CNN
 F 3 "" H 975 8875 50  0001 C CNN
@@ -1208,12 +1208,12 @@ F 3 "" H 975 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R2
 U 1 1 63845A22
 P 975 8375
-AR Path="/63845A22" Ref="R?"  Part="1" 
+AR Path="/63845A22" Ref="R2"  Part="1" 
 AR Path="/62175536/63845A22" Ref="R?"  Part="1" 
-F 0 "R?" H 1100 8400 50  0000 C CNN
+F 0 "R2" H 1100 8400 50  0000 C CNN
 F 1 "43" H 1100 8325 50  0000 C CNN
 F 2 "" H 975 8375 50  0001 C CNN
 F 3 "~" H 975 8375 50  0001 C CNN
@@ -1223,12 +1223,12 @@ $EndComp
 Wire Wire Line
 	975  7775 975  7825
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 63845A29
 P 975 8675
-AR Path="/63845A29" Ref="D?"  Part="1" 
+AR Path="/63845A29" Ref="D2"  Part="1" 
 AR Path="/62175536/63845A29" Ref="D?"  Part="1" 
-F 0 "D?" V 1050 8550 50  0000 C CNN
+F 0 "D2" V 1050 8550 50  0000 C CNN
 F 1 "Blue" V 975 8525 50  0000 C CNN
 F 2 "" H 975 8675 50  0001 C CNN
 F 3 "~" H 975 8675 50  0001 C CNN
@@ -1236,12 +1236,12 @@ F 3 "~" H 975 8675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q2
 U 1 1 63845A2F
 P 875 8025
-AR Path="/63845A2F" Ref="Q?"  Part="1" 
+AR Path="/63845A2F" Ref="Q2"  Part="1" 
 AR Path="/62175536/63845A2F" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1079 8071 50  0000 L CNN
+F 0 "Q2" H 1079 8071 50  0000 L CNN
 F 1 "BSS138" H 1079 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1075 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 875 8025 50  0001 L CNN
@@ -1267,12 +1267,12 @@ Wire Wire Line
 Text GLabel 10950 6375 1    50   Input ~ 0
 ENa_7
 $Comp
-L power:GND #PWR?
+L power:GND #PWR075
 U 1 1 63845A3E
 P 11300 7325
-AR Path="/63845A3E" Ref="#PWR?"  Part="1" 
+AR Path="/63845A3E" Ref="#PWR075"  Part="1" 
 AR Path="/62175536/63845A3E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11300 7075 50  0001 C CNN
+F 0 "#PWR075" H 11300 7075 50  0001 C CNN
 F 1 "GND" H 11300 7175 50  0000 C CNN
 F 2 "" H 11300 7325 50  0001 C CNN
 F 3 "" H 11300 7325 50  0001 C CNN
@@ -1280,12 +1280,12 @@ F 3 "" H 11300 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R32
 U 1 1 63845A44
 P 11300 6825
-AR Path="/63845A44" Ref="R?"  Part="1" 
+AR Path="/63845A44" Ref="R32"  Part="1" 
 AR Path="/62175536/63845A44" Ref="R?"  Part="1" 
-F 0 "R?" H 11425 6850 50  0000 C CNN
+F 0 "R32" H 11425 6850 50  0000 C CNN
 F 1 "43" H 11425 6775 50  0000 C CNN
 F 2 "" H 11300 6825 50  0001 C CNN
 F 3 "~" H 11300 6825 50  0001 C CNN
@@ -1295,12 +1295,12 @@ $EndComp
 Wire Wire Line
 	11300 6225 11300 6275
 $Comp
-L Device:LED D?
+L Device:LED D30
 U 1 1 63845A4B
 P 11300 7125
-AR Path="/63845A4B" Ref="D?"  Part="1" 
+AR Path="/63845A4B" Ref="D30"  Part="1" 
 AR Path="/62175536/63845A4B" Ref="D?"  Part="1" 
-F 0 "D?" V 11375 7000 50  0000 C CNN
+F 0 "D30" V 11375 7000 50  0000 C CNN
 F 1 "Red" V 11300 6975 50  0000 C CNN
 F 2 "" H 11300 7125 50  0001 C CNN
 F 3 "~" H 11300 7125 50  0001 C CNN
@@ -1320,12 +1320,12 @@ Wire Wire Line
 Text GLabel 10225 6375 1    50   Input ~ 0
 ENa_6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR065
 U 1 1 63845A57
 P 10575 7325
-AR Path="/63845A57" Ref="#PWR?"  Part="1" 
+AR Path="/63845A57" Ref="#PWR065"  Part="1" 
 AR Path="/62175536/63845A57" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10575 7075 50  0001 C CNN
+F 0 "#PWR065" H 10575 7075 50  0001 C CNN
 F 1 "GND" H 10575 7175 50  0000 C CNN
 F 2 "" H 10575 7325 50  0001 C CNN
 F 3 "" H 10575 7325 50  0001 C CNN
@@ -1333,12 +1333,12 @@ F 3 "" H 10575 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R28
 U 1 1 63845A5D
 P 10575 6825
-AR Path="/63845A5D" Ref="R?"  Part="1" 
+AR Path="/63845A5D" Ref="R28"  Part="1" 
 AR Path="/62175536/63845A5D" Ref="R?"  Part="1" 
-F 0 "R?" H 10700 6850 50  0000 C CNN
+F 0 "R28" H 10700 6850 50  0000 C CNN
 F 1 "43" H 10700 6775 50  0000 C CNN
 F 2 "" H 10575 6825 50  0001 C CNN
 F 3 "~" H 10575 6825 50  0001 C CNN
@@ -1348,12 +1348,12 @@ $EndComp
 Wire Wire Line
 	10575 6225 10575 6275
 $Comp
-L Device:LED D?
+L Device:LED D26
 U 1 1 63845A64
 P 10575 7125
-AR Path="/63845A64" Ref="D?"  Part="1" 
+AR Path="/63845A64" Ref="D26"  Part="1" 
 AR Path="/62175536/63845A64" Ref="D?"  Part="1" 
-F 0 "D?" V 10650 7000 50  0000 C CNN
+F 0 "D26" V 10650 7000 50  0000 C CNN
 F 1 "Red" V 10575 6975 50  0000 C CNN
 F 2 "" H 10575 7125 50  0001 C CNN
 F 3 "~" H 10575 7125 50  0001 C CNN
@@ -1373,12 +1373,12 @@ Wire Wire Line
 Text GLabel 9475 6375 1    50   Input ~ 0
 ENa_5
 $Comp
-L power:GND #PWR?
+L power:GND #PWR058
 U 1 1 63845A70
 P 9825 7325
-AR Path="/63845A70" Ref="#PWR?"  Part="1" 
+AR Path="/63845A70" Ref="#PWR058"  Part="1" 
 AR Path="/62175536/63845A70" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9825 7075 50  0001 C CNN
+F 0 "#PWR058" H 9825 7075 50  0001 C CNN
 F 1 "GND" H 9825 7175 50  0000 C CNN
 F 2 "" H 9825 7325 50  0001 C CNN
 F 3 "" H 9825 7325 50  0001 C CNN
@@ -1386,12 +1386,12 @@ F 3 "" H 9825 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R25
 U 1 1 63845A76
 P 9825 6825
-AR Path="/63845A76" Ref="R?"  Part="1" 
+AR Path="/63845A76" Ref="R25"  Part="1" 
 AR Path="/62175536/63845A76" Ref="R?"  Part="1" 
-F 0 "R?" H 9950 6850 50  0000 C CNN
+F 0 "R25" H 9950 6850 50  0000 C CNN
 F 1 "43" H 9950 6775 50  0000 C CNN
 F 2 "" H 9825 6825 50  0001 C CNN
 F 3 "~" H 9825 6825 50  0001 C CNN
@@ -1401,12 +1401,12 @@ $EndComp
 Wire Wire Line
 	9825 6225 9825 6275
 $Comp
-L Device:LED D?
+L Device:LED D23
 U 1 1 63845A7D
 P 9825 7125
-AR Path="/63845A7D" Ref="D?"  Part="1" 
+AR Path="/63845A7D" Ref="D23"  Part="1" 
 AR Path="/62175536/63845A7D" Ref="D?"  Part="1" 
-F 0 "D?" V 9900 7000 50  0000 C CNN
+F 0 "D23" V 9900 7000 50  0000 C CNN
 F 1 "Red" V 9825 6975 50  0000 C CNN
 F 2 "" H 9825 7125 50  0001 C CNN
 F 3 "~" H 9825 7125 50  0001 C CNN
@@ -1424,12 +1424,12 @@ Wire Wire Line
 Wire Wire Line
 	8725 6475 8775 6475
 $Comp
-L power:GND #PWR?
+L power:GND #PWR053
 U 1 1 63845A88
 P 9075 7325
-AR Path="/63845A88" Ref="#PWR?"  Part="1" 
+AR Path="/63845A88" Ref="#PWR053"  Part="1" 
 AR Path="/62175536/63845A88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9075 7075 50  0001 C CNN
+F 0 "#PWR053" H 9075 7075 50  0001 C CNN
 F 1 "GND" H 9075 7175 50  0000 C CNN
 F 2 "" H 9075 7325 50  0001 C CNN
 F 3 "" H 9075 7325 50  0001 C CNN
@@ -1437,12 +1437,12 @@ F 3 "" H 9075 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R23
 U 1 1 63845A8E
 P 9075 6825
-AR Path="/63845A8E" Ref="R?"  Part="1" 
+AR Path="/63845A8E" Ref="R23"  Part="1" 
 AR Path="/62175536/63845A8E" Ref="R?"  Part="1" 
-F 0 "R?" H 9200 6850 50  0000 C CNN
+F 0 "R23" H 9200 6850 50  0000 C CNN
 F 1 "43" H 9200 6775 50  0000 C CNN
 F 2 "" H 9075 6825 50  0001 C CNN
 F 3 "~" H 9075 6825 50  0001 C CNN
@@ -1452,12 +1452,12 @@ $EndComp
 Wire Wire Line
 	9075 6225 9075 6275
 $Comp
-L Device:LED D?
+L Device:LED D21
 U 1 1 63845A95
 P 9075 7125
-AR Path="/63845A95" Ref="D?"  Part="1" 
+AR Path="/63845A95" Ref="D21"  Part="1" 
 AR Path="/62175536/63845A95" Ref="D?"  Part="1" 
-F 0 "D?" V 9150 7000 50  0000 C CNN
+F 0 "D21" V 9150 7000 50  0000 C CNN
 F 1 "Red" V 9075 6975 50  0000 C CNN
 F 2 "" H 9075 7125 50  0001 C CNN
 F 3 "~" H 9075 7125 50  0001 C CNN
@@ -1477,12 +1477,12 @@ Wire Wire Line
 Text GLabel 7925 6375 1    50   Input ~ 0
 ENa_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 63845AA1
 P 8275 7325
-AR Path="/63845AA1" Ref="#PWR?"  Part="1" 
+AR Path="/63845AA1" Ref="#PWR047"  Part="1" 
 AR Path="/62175536/63845AA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8275 7075 50  0001 C CNN
+F 0 "#PWR047" H 8275 7075 50  0001 C CNN
 F 1 "GND" H 8275 7175 50  0000 C CNN
 F 2 "" H 8275 7325 50  0001 C CNN
 F 3 "" H 8275 7325 50  0001 C CNN
@@ -1490,12 +1490,12 @@ F 3 "" H 8275 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R21
 U 1 1 63845AA7
 P 8275 6825
-AR Path="/63845AA7" Ref="R?"  Part="1" 
+AR Path="/63845AA7" Ref="R21"  Part="1" 
 AR Path="/62175536/63845AA7" Ref="R?"  Part="1" 
-F 0 "R?" H 8400 6850 50  0000 C CNN
+F 0 "R21" H 8400 6850 50  0000 C CNN
 F 1 "43" H 8400 6775 50  0000 C CNN
 F 2 "" H 8275 6825 50  0001 C CNN
 F 3 "~" H 8275 6825 50  0001 C CNN
@@ -1505,12 +1505,12 @@ $EndComp
 Wire Wire Line
 	8275 6225 8275 6275
 $Comp
-L Device:LED D?
+L Device:LED D19
 U 1 1 63845AAE
 P 8275 7125
-AR Path="/63845AAE" Ref="D?"  Part="1" 
+AR Path="/63845AAE" Ref="D19"  Part="1" 
 AR Path="/62175536/63845AAE" Ref="D?"  Part="1" 
-F 0 "D?" V 8350 7000 50  0000 C CNN
+F 0 "D19" V 8350 7000 50  0000 C CNN
 F 1 "Red" V 8275 6975 50  0000 C CNN
 F 2 "" H 8275 7125 50  0001 C CNN
 F 3 "~" H 8275 7125 50  0001 C CNN
@@ -1530,12 +1530,12 @@ Wire Wire Line
 Text GLabel 7175 6375 1    50   Input ~ 0
 ENa_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR043
 U 1 1 63845ABA
 P 7525 7325
-AR Path="/63845ABA" Ref="#PWR?"  Part="1" 
+AR Path="/63845ABA" Ref="#PWR043"  Part="1" 
 AR Path="/62175536/63845ABA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7525 7075 50  0001 C CNN
+F 0 "#PWR043" H 7525 7075 50  0001 C CNN
 F 1 "GND" H 7525 7175 50  0000 C CNN
 F 2 "" H 7525 7325 50  0001 C CNN
 F 3 "" H 7525 7325 50  0001 C CNN
@@ -1543,12 +1543,12 @@ F 3 "" H 7525 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R19
 U 1 1 63845AC0
 P 7525 6825
-AR Path="/63845AC0" Ref="R?"  Part="1" 
+AR Path="/63845AC0" Ref="R19"  Part="1" 
 AR Path="/62175536/63845AC0" Ref="R?"  Part="1" 
-F 0 "R?" H 7650 6850 50  0000 C CNN
+F 0 "R19" H 7650 6850 50  0000 C CNN
 F 1 "43" H 7650 6775 50  0000 C CNN
 F 2 "" H 7525 6825 50  0001 C CNN
 F 3 "~" H 7525 6825 50  0001 C CNN
@@ -1558,12 +1558,12 @@ $EndComp
 Wire Wire Line
 	7525 6225 7525 6275
 $Comp
-L Device:LED D?
+L Device:LED D17
 U 1 1 63845AC7
 P 7525 7125
-AR Path="/63845AC7" Ref="D?"  Part="1" 
+AR Path="/63845AC7" Ref="D17"  Part="1" 
 AR Path="/62175536/63845AC7" Ref="D?"  Part="1" 
-F 0 "D?" V 7600 7000 50  0000 C CNN
+F 0 "D17" V 7600 7000 50  0000 C CNN
 F 1 "Red" V 7525 6975 50  0000 C CNN
 F 2 "" H 7525 7125 50  0001 C CNN
 F 3 "~" H 7525 7125 50  0001 C CNN
@@ -1583,12 +1583,12 @@ Wire Wire Line
 Text GLabel 6375 6375 1    50   Input ~ 0
 ENa_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR039
 U 1 1 63845AD3
 P 6725 7325
-AR Path="/63845AD3" Ref="#PWR?"  Part="1" 
+AR Path="/63845AD3" Ref="#PWR039"  Part="1" 
 AR Path="/62175536/63845AD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6725 7075 50  0001 C CNN
+F 0 "#PWR039" H 6725 7075 50  0001 C CNN
 F 1 "GND" H 6725 7175 50  0000 C CNN
 F 2 "" H 6725 7325 50  0001 C CNN
 F 3 "" H 6725 7325 50  0001 C CNN
@@ -1596,12 +1596,12 @@ F 3 "" H 6725 7325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R17
 U 1 1 63845AD9
 P 6725 6825
-AR Path="/63845AD9" Ref="R?"  Part="1" 
+AR Path="/63845AD9" Ref="R17"  Part="1" 
 AR Path="/62175536/63845AD9" Ref="R?"  Part="1" 
-F 0 "R?" H 6850 6850 50  0000 C CNN
+F 0 "R17" H 6850 6850 50  0000 C CNN
 F 1 "43" H 6850 6775 50  0000 C CNN
 F 2 "" H 6725 6825 50  0001 C CNN
 F 3 "~" H 6725 6825 50  0001 C CNN
@@ -1611,12 +1611,12 @@ $EndComp
 Wire Wire Line
 	6725 6225 6725 6275
 $Comp
-L Device:LED D?
+L Device:LED D15
 U 1 1 63845AE0
 P 6725 7125
-AR Path="/63845AE0" Ref="D?"  Part="1" 
+AR Path="/63845AE0" Ref="D15"  Part="1" 
 AR Path="/62175536/63845AE0" Ref="D?"  Part="1" 
-F 0 "D?" V 6800 7000 50  0000 C CNN
+F 0 "D15" V 6800 7000 50  0000 C CNN
 F 1 "Red" V 6725 6975 50  0000 C CNN
 F 2 "" H 6725 7125 50  0001 C CNN
 F 3 "~" H 6725 7125 50  0001 C CNN
@@ -1638,12 +1638,12 @@ Wire Wire Line
 Text GLabel 10950 7925 1    50   Input ~ 0
 ENb_7
 $Comp
-L power:GND #PWR?
+L power:GND #PWR077
 U 1 1 63845AED
 P 11300 8875
-AR Path="/63845AED" Ref="#PWR?"  Part="1" 
+AR Path="/63845AED" Ref="#PWR077"  Part="1" 
 AR Path="/62175536/63845AED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11300 8625 50  0001 C CNN
+F 0 "#PWR077" H 11300 8625 50  0001 C CNN
 F 1 "GND" H 11300 8725 50  0000 C CNN
 F 2 "" H 11300 8875 50  0001 C CNN
 F 3 "" H 11300 8875 50  0001 C CNN
@@ -1651,12 +1651,12 @@ F 3 "" H 11300 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R33
 U 1 1 63845AF3
 P 11300 8375
-AR Path="/63845AF3" Ref="R?"  Part="1" 
+AR Path="/63845AF3" Ref="R33"  Part="1" 
 AR Path="/62175536/63845AF3" Ref="R?"  Part="1" 
-F 0 "R?" H 11425 8400 50  0000 C CNN
+F 0 "R33" H 11425 8400 50  0000 C CNN
 F 1 "43" H 11425 8325 50  0000 C CNN
 F 2 "" H 11300 8375 50  0001 C CNN
 F 3 "~" H 11300 8375 50  0001 C CNN
@@ -1666,12 +1666,12 @@ $EndComp
 Wire Wire Line
 	11300 7775 11300 7825
 $Comp
-L Device:LED D?
+L Device:LED D31
 U 1 1 63845AFA
 P 11300 8675
-AR Path="/63845AFA" Ref="D?"  Part="1" 
+AR Path="/63845AFA" Ref="D31"  Part="1" 
 AR Path="/62175536/63845AFA" Ref="D?"  Part="1" 
-F 0 "D?" V 11375 8525 50  0000 C CNN
+F 0 "D31" V 11375 8525 50  0000 C CNN
 F 1 "Red" V 11300 8500 50  0000 C CNN
 F 2 "" H 11300 8675 50  0001 C CNN
 F 3 "~" H 11300 8675 50  0001 C CNN
@@ -1691,12 +1691,12 @@ Wire Wire Line
 Text GLabel 10225 7925 1    50   Input ~ 0
 ENb_6
 $Comp
-L power:GND #PWR?
+L power:GND #PWR067
 U 1 1 63845B06
 P 10575 8875
-AR Path="/63845B06" Ref="#PWR?"  Part="1" 
+AR Path="/63845B06" Ref="#PWR067"  Part="1" 
 AR Path="/62175536/63845B06" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10575 8625 50  0001 C CNN
+F 0 "#PWR067" H 10575 8625 50  0001 C CNN
 F 1 "GND" H 10575 8725 50  0000 C CNN
 F 2 "" H 10575 8875 50  0001 C CNN
 F 3 "" H 10575 8875 50  0001 C CNN
@@ -1704,12 +1704,12 @@ F 3 "" H 10575 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R29
 U 1 1 63845B0C
 P 10575 8375
-AR Path="/63845B0C" Ref="R?"  Part="1" 
+AR Path="/63845B0C" Ref="R29"  Part="1" 
 AR Path="/62175536/63845B0C" Ref="R?"  Part="1" 
-F 0 "R?" H 10700 8400 50  0000 C CNN
+F 0 "R29" H 10700 8400 50  0000 C CNN
 F 1 "43" H 10700 8325 50  0000 C CNN
 F 2 "" H 10575 8375 50  0001 C CNN
 F 3 "~" H 10575 8375 50  0001 C CNN
@@ -1719,12 +1719,12 @@ $EndComp
 Wire Wire Line
 	10575 7775 10575 7825
 $Comp
-L Device:LED D?
+L Device:LED D27
 U 1 1 63845B13
 P 10575 8675
-AR Path="/63845B13" Ref="D?"  Part="1" 
+AR Path="/63845B13" Ref="D27"  Part="1" 
 AR Path="/62175536/63845B13" Ref="D?"  Part="1" 
-F 0 "D?" V 10650 8525 50  0000 C CNN
+F 0 "D27" V 10650 8525 50  0000 C CNN
 F 1 "Red" V 10575 8500 50  0000 C CNN
 F 2 "" H 10575 8675 50  0001 C CNN
 F 3 "~" H 10575 8675 50  0001 C CNN
@@ -1744,12 +1744,12 @@ Wire Wire Line
 Text GLabel 9475 7925 1    50   Input ~ 0
 ENb_5
 $Comp
-L power:GND #PWR?
+L power:GND #PWR060
 U 1 1 63845B1F
 P 9825 8875
-AR Path="/63845B1F" Ref="#PWR?"  Part="1" 
+AR Path="/63845B1F" Ref="#PWR060"  Part="1" 
 AR Path="/62175536/63845B1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9825 8625 50  0001 C CNN
+F 0 "#PWR060" H 9825 8625 50  0001 C CNN
 F 1 "GND" H 9825 8725 50  0000 C CNN
 F 2 "" H 9825 8875 50  0001 C CNN
 F 3 "" H 9825 8875 50  0001 C CNN
@@ -1757,12 +1757,12 @@ F 3 "" H 9825 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R26
 U 1 1 63845B25
 P 9825 8375
-AR Path="/63845B25" Ref="R?"  Part="1" 
+AR Path="/63845B25" Ref="R26"  Part="1" 
 AR Path="/62175536/63845B25" Ref="R?"  Part="1" 
-F 0 "R?" H 9950 8400 50  0000 C CNN
+F 0 "R26" H 9950 8400 50  0000 C CNN
 F 1 "43" H 9950 8325 50  0000 C CNN
 F 2 "" H 9825 8375 50  0001 C CNN
 F 3 "~" H 9825 8375 50  0001 C CNN
@@ -1772,12 +1772,12 @@ $EndComp
 Wire Wire Line
 	9825 7775 9825 7825
 $Comp
-L Device:LED D?
+L Device:LED D24
 U 1 1 63845B2C
 P 9825 8675
-AR Path="/63845B2C" Ref="D?"  Part="1" 
+AR Path="/63845B2C" Ref="D24"  Part="1" 
 AR Path="/62175536/63845B2C" Ref="D?"  Part="1" 
-F 0 "D?" V 9900 8525 50  0000 C CNN
+F 0 "D24" V 9900 8525 50  0000 C CNN
 F 1 "Red" V 9825 8500 50  0000 C CNN
 F 2 "" H 9825 8675 50  0001 C CNN
 F 3 "~" H 9825 8675 50  0001 C CNN
@@ -1795,12 +1795,12 @@ Wire Wire Line
 Wire Wire Line
 	8725 8025 8775 8025
 $Comp
-L power:GND #PWR?
+L power:GND #PWR055
 U 1 1 63845B37
 P 9075 8875
-AR Path="/63845B37" Ref="#PWR?"  Part="1" 
+AR Path="/63845B37" Ref="#PWR055"  Part="1" 
 AR Path="/62175536/63845B37" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9075 8625 50  0001 C CNN
+F 0 "#PWR055" H 9075 8625 50  0001 C CNN
 F 1 "GND" H 9075 8725 50  0000 C CNN
 F 2 "" H 9075 8875 50  0001 C CNN
 F 3 "" H 9075 8875 50  0001 C CNN
@@ -1808,12 +1808,12 @@ F 3 "" H 9075 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R24
 U 1 1 63845B3D
 P 9075 8375
-AR Path="/63845B3D" Ref="R?"  Part="1" 
+AR Path="/63845B3D" Ref="R24"  Part="1" 
 AR Path="/62175536/63845B3D" Ref="R?"  Part="1" 
-F 0 "R?" H 9200 8400 50  0000 C CNN
+F 0 "R24" H 9200 8400 50  0000 C CNN
 F 1 "43" H 9200 8325 50  0000 C CNN
 F 2 "" H 9075 8375 50  0001 C CNN
 F 3 "~" H 9075 8375 50  0001 C CNN
@@ -1823,12 +1823,12 @@ $EndComp
 Wire Wire Line
 	9075 7775 9075 7825
 $Comp
-L Device:LED D?
+L Device:LED D22
 U 1 1 63845B44
 P 9075 8675
-AR Path="/63845B44" Ref="D?"  Part="1" 
+AR Path="/63845B44" Ref="D22"  Part="1" 
 AR Path="/62175536/63845B44" Ref="D?"  Part="1" 
-F 0 "D?" V 9150 8525 50  0000 C CNN
+F 0 "D22" V 9150 8525 50  0000 C CNN
 F 1 "Red" V 9075 8500 50  0000 C CNN
 F 2 "" H 9075 8675 50  0001 C CNN
 F 3 "~" H 9075 8675 50  0001 C CNN
@@ -1848,12 +1848,12 @@ Wire Wire Line
 Text GLabel 7925 7925 1    50   Input ~ 0
 ENb_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR049
 U 1 1 63845B50
 P 8275 8875
-AR Path="/63845B50" Ref="#PWR?"  Part="1" 
+AR Path="/63845B50" Ref="#PWR049"  Part="1" 
 AR Path="/62175536/63845B50" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8275 8625 50  0001 C CNN
+F 0 "#PWR049" H 8275 8625 50  0001 C CNN
 F 1 "GND" H 8275 8725 50  0000 C CNN
 F 2 "" H 8275 8875 50  0001 C CNN
 F 3 "" H 8275 8875 50  0001 C CNN
@@ -1861,12 +1861,12 @@ F 3 "" H 8275 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R22
 U 1 1 63845B56
 P 8275 8375
-AR Path="/63845B56" Ref="R?"  Part="1" 
+AR Path="/63845B56" Ref="R22"  Part="1" 
 AR Path="/62175536/63845B56" Ref="R?"  Part="1" 
-F 0 "R?" H 8400 8400 50  0000 C CNN
+F 0 "R22" H 8400 8400 50  0000 C CNN
 F 1 "43" H 8400 8325 50  0000 C CNN
 F 2 "" H 8275 8375 50  0001 C CNN
 F 3 "~" H 8275 8375 50  0001 C CNN
@@ -1876,12 +1876,12 @@ $EndComp
 Wire Wire Line
 	8275 7775 8275 7825
 $Comp
-L Device:LED D?
+L Device:LED D20
 U 1 1 63845B5D
 P 8275 8675
-AR Path="/63845B5D" Ref="D?"  Part="1" 
+AR Path="/63845B5D" Ref="D20"  Part="1" 
 AR Path="/62175536/63845B5D" Ref="D?"  Part="1" 
-F 0 "D?" V 8350 8525 50  0000 C CNN
+F 0 "D20" V 8350 8525 50  0000 C CNN
 F 1 "Red" V 8275 8500 50  0000 C CNN
 F 2 "" H 8275 8675 50  0001 C CNN
 F 3 "~" H 8275 8675 50  0001 C CNN
@@ -1901,12 +1901,12 @@ Wire Wire Line
 Text GLabel 7175 7925 1    50   Input ~ 0
 ENb_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR045
 U 1 1 63845B69
 P 7525 8875
-AR Path="/63845B69" Ref="#PWR?"  Part="1" 
+AR Path="/63845B69" Ref="#PWR045"  Part="1" 
 AR Path="/62175536/63845B69" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7525 8625 50  0001 C CNN
+F 0 "#PWR045" H 7525 8625 50  0001 C CNN
 F 1 "GND" H 7525 8725 50  0000 C CNN
 F 2 "" H 7525 8875 50  0001 C CNN
 F 3 "" H 7525 8875 50  0001 C CNN
@@ -1914,12 +1914,12 @@ F 3 "" H 7525 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R20
 U 1 1 63845B6F
 P 7525 8375
-AR Path="/63845B6F" Ref="R?"  Part="1" 
+AR Path="/63845B6F" Ref="R20"  Part="1" 
 AR Path="/62175536/63845B6F" Ref="R?"  Part="1" 
-F 0 "R?" H 7650 8400 50  0000 C CNN
+F 0 "R20" H 7650 8400 50  0000 C CNN
 F 1 "43" H 7650 8325 50  0000 C CNN
 F 2 "" H 7525 8375 50  0001 C CNN
 F 3 "~" H 7525 8375 50  0001 C CNN
@@ -1929,12 +1929,12 @@ $EndComp
 Wire Wire Line
 	7525 7775 7525 7825
 $Comp
-L Device:LED D?
+L Device:LED D18
 U 1 1 63845B76
 P 7525 8675
-AR Path="/63845B76" Ref="D?"  Part="1" 
+AR Path="/63845B76" Ref="D18"  Part="1" 
 AR Path="/62175536/63845B76" Ref="D?"  Part="1" 
-F 0 "D?" V 7600 8550 50  0000 C CNN
+F 0 "D18" V 7600 8550 50  0000 C CNN
 F 1 "Red" V 7525 8525 50  0000 C CNN
 F 2 "" H 7525 8675 50  0001 C CNN
 F 3 "~" H 7525 8675 50  0001 C CNN
@@ -1954,12 +1954,12 @@ Wire Wire Line
 Text GLabel 6375 7925 1    50   Input ~ 0
 ENb_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR041
 U 1 1 63845B82
 P 6725 8875
-AR Path="/63845B82" Ref="#PWR?"  Part="1" 
+AR Path="/63845B82" Ref="#PWR041"  Part="1" 
 AR Path="/62175536/63845B82" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6725 8625 50  0001 C CNN
+F 0 "#PWR041" H 6725 8625 50  0001 C CNN
 F 1 "GND" H 6725 8725 50  0000 C CNN
 F 2 "" H 6725 8875 50  0001 C CNN
 F 3 "" H 6725 8875 50  0001 C CNN
@@ -1967,12 +1967,12 @@ F 3 "" H 6725 8875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R18
 U 1 1 63845B88
 P 6725 8375
-AR Path="/63845B88" Ref="R?"  Part="1" 
+AR Path="/63845B88" Ref="R18"  Part="1" 
 AR Path="/62175536/63845B88" Ref="R?"  Part="1" 
-F 0 "R?" H 6850 8400 50  0000 C CNN
+F 0 "R18" H 6850 8400 50  0000 C CNN
 F 1 "43" H 6850 8325 50  0000 C CNN
 F 2 "" H 6725 8375 50  0001 C CNN
 F 3 "~" H 6725 8375 50  0001 C CNN
@@ -1982,12 +1982,12 @@ $EndComp
 Wire Wire Line
 	6725 7775 6725 7825
 $Comp
-L Device:LED D?
+L Device:LED D16
 U 1 1 63845B8F
 P 6725 8675
-AR Path="/63845B8F" Ref="D?"  Part="1" 
+AR Path="/63845B8F" Ref="D16"  Part="1" 
 AR Path="/62175536/63845B8F" Ref="D?"  Part="1" 
-F 0 "D?" V 6800 8550 50  0000 C CNN
+F 0 "D16" V 6800 8550 50  0000 C CNN
 F 1 "Red" V 6725 8525 50  0000 C CNN
 F 2 "" H 6725 8675 50  0001 C CNN
 F 3 "~" H 6725 8675 50  0001 C CNN
@@ -1999,12 +1999,12 @@ Motor Output Fault Indicator\n
 Text Notes 9075 9275 0    50   ~ 0
 LED On: Fault Detected on OUTx_#\nLED Off: Normal Operation of OUTx_#
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q15
 U 1 1 63845B97
 P 5725 6475
-AR Path="/63845B97" Ref="Q?"  Part="1" 
+AR Path="/63845B97" Ref="Q15"  Part="1" 
 AR Path="/62175536/63845B97" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5929 6521 50  0000 L CNN
+F 0 "Q15" H 5929 6521 50  0000 L CNN
 F 1 "BSS138" H 5929 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5925 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5725 6475 50  0001 L CNN
@@ -2012,12 +2012,12 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5725 6475 50  0001 L 
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q17
 U 1 1 63845BA5
 P 6625 6475
-AR Path="/63845BA5" Ref="Q?"  Part="1" 
+AR Path="/63845BA5" Ref="Q17"  Part="1" 
 AR Path="/62175536/63845BA5" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6830 6475 50  0000 L CNN
+F 0 "Q17" H 6830 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 6835 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 6850 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 6850 6225 50  0001 L CNN
@@ -2033,12 +2033,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q18
 U 1 1 63845BB3
 P 6625 8025
-AR Path="/63845BB3" Ref="Q?"  Part="1" 
+AR Path="/63845BB3" Ref="Q18"  Part="1" 
 AR Path="/62175536/63845BB3" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6830 8025 50  0000 L CNN
+F 0 "Q18" H 6830 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 6835 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 6850 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 6850 7775 50  0001 L CNN
@@ -2054,12 +2054,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q20
 U 1 1 63845BC1
 P 7425 8025
-AR Path="/63845BC1" Ref="Q?"  Part="1" 
+AR Path="/63845BC1" Ref="Q20"  Part="1" 
 AR Path="/62175536/63845BC1" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7630 8025 50  0000 L CNN
+F 0 "Q20" H 7630 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 7635 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 7650 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 7650 7775 50  0001 L CNN
@@ -2075,12 +2075,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q19
 U 1 1 63845BCF
 P 7425 6475
-AR Path="/63845BCF" Ref="Q?"  Part="1" 
+AR Path="/63845BCF" Ref="Q19"  Part="1" 
 AR Path="/62175536/63845BCF" Ref="Q?"  Part="1" 
-F 0 "Q?" H 7630 6475 50  0000 L CNN
+F 0 "Q19" H 7630 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 7635 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 7650 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 7650 6225 50  0001 L CNN
@@ -2096,12 +2096,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q21
 U 1 1 63845BDD
 P 8175 6475
-AR Path="/63845BDD" Ref="Q?"  Part="1" 
+AR Path="/63845BDD" Ref="Q21"  Part="1" 
 AR Path="/62175536/63845BDD" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8380 6475 50  0000 L CNN
+F 0 "Q21" H 8380 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 8385 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 8400 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 8400 6225 50  0001 L CNN
@@ -2117,12 +2117,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q22
 U 1 1 63845BEB
 P 8175 8025
-AR Path="/63845BEB" Ref="Q?"  Part="1" 
+AR Path="/63845BEB" Ref="Q22"  Part="1" 
 AR Path="/62175536/63845BEB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 8380 8025 50  0000 L CNN
+F 0 "Q22" H 8380 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 8385 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 8400 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 8400 7775 50  0001 L CNN
@@ -2138,12 +2138,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q24
 U 1 1 63845BF9
 P 8975 8025
-AR Path="/63845BF9" Ref="Q?"  Part="1" 
+AR Path="/63845BF9" Ref="Q24"  Part="1" 
 AR Path="/62175536/63845BF9" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9180 8025 50  0000 L CNN
+F 0 "Q24" H 9180 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 9185 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 9200 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9200 7775 50  0001 L CNN
@@ -2159,12 +2159,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q26
 U 1 1 63845C07
 P 9725 8025
-AR Path="/63845C07" Ref="Q?"  Part="1" 
+AR Path="/63845C07" Ref="Q26"  Part="1" 
 AR Path="/62175536/63845C07" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9930 8025 50  0000 L CNN
+F 0 "Q26" H 9930 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 9935 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 9950 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9950 7775 50  0001 L CNN
@@ -2180,12 +2180,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q28
 U 1 1 63845C15
 P 10475 8025
-AR Path="/63845C15" Ref="Q?"  Part="1" 
+AR Path="/63845C15" Ref="Q28"  Part="1" 
 AR Path="/62175536/63845C15" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10680 8025 50  0000 L CNN
+F 0 "Q28" H 10680 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 10685 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 10700 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 10700 7775 50  0001 L CNN
@@ -2201,12 +2201,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q30
 U 1 1 63845C23
 P 11200 8025
-AR Path="/63845C23" Ref="Q?"  Part="1" 
+AR Path="/63845C23" Ref="Q30"  Part="1" 
 AR Path="/62175536/63845C23" Ref="Q?"  Part="1" 
-F 0 "Q?" H 11405 8025 50  0000 L CNN
+F 0 "Q30" H 11405 8025 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 11410 8070 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 11425 7875 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 11425 7775 50  0001 L CNN
@@ -2222,12 +2222,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q23
 U 1 1 63845C31
 P 8975 6475
-AR Path="/63845C31" Ref="Q?"  Part="1" 
+AR Path="/63845C31" Ref="Q23"  Part="1" 
 AR Path="/62175536/63845C31" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9180 6475 50  0000 L CNN
+F 0 "Q23" H 9180 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 9185 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 9200 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9200 6225 50  0001 L CNN
@@ -2243,12 +2243,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q25
 U 1 1 63845C3F
 P 9725 6475
-AR Path="/63845C3F" Ref="Q?"  Part="1" 
+AR Path="/63845C3F" Ref="Q25"  Part="1" 
 AR Path="/62175536/63845C3F" Ref="Q?"  Part="1" 
-F 0 "Q?" H 9930 6475 50  0000 L CNN
+F 0 "Q25" H 9930 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 9935 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 9950 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9950 6225 50  0001 L CNN
@@ -2264,12 +2264,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q27
 U 1 1 63845C4D
 P 10475 6475
-AR Path="/63845C4D" Ref="Q?"  Part="1" 
+AR Path="/63845C4D" Ref="Q27"  Part="1" 
 AR Path="/62175536/63845C4D" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10680 6475 50  0000 L CNN
+F 0 "Q27" H 10680 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 10685 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 10700 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 10700 6225 50  0001 L CNN
@@ -2285,12 +2285,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q29
 U 1 1 63845C5B
 P 11200 6475
-AR Path="/63845C5B" Ref="Q?"  Part="1" 
+AR Path="/63845C5B" Ref="Q29"  Part="1" 
 AR Path="/62175536/63845C5B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 11405 6475 50  0000 L CNN
+F 0 "Q29" H 11405 6475 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 11410 6520 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 11425 6325 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 11425 6225 50  0001 L CNN
@@ -2306,12 +2306,12 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR02
 U 1 1 63845C61
 P 975 6225
-AR Path="/63845C61" Ref="#PWR?"  Part="1" 
+AR Path="/63845C61" Ref="#PWR02"  Part="1" 
 AR Path="/62175536/63845C61" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 975 6075 50  0001 C CNN
+F 0 "#PWR02" H 975 6075 50  0001 C CNN
 F 1 "+3.3V" H 825 6325 50  0000 C CNN
 F 2 "" H 975 6225 50  0001 C CNN
 F 3 "" H 975 6225 50  0001 C CNN
@@ -2319,12 +2319,12 @@ F 3 "" H 975 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR08
 U 1 1 63845C67
 P 1825 6225
-AR Path="/63845C67" Ref="#PWR?"  Part="1" 
+AR Path="/63845C67" Ref="#PWR08"  Part="1" 
 AR Path="/62175536/63845C67" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1825 6075 50  0001 C CNN
+F 0 "#PWR08" H 1825 6075 50  0001 C CNN
 F 1 "+3.3V" H 1675 6325 50  0000 C CNN
 F 2 "" H 1825 6225 50  0001 C CNN
 F 3 "" H 1825 6225 50  0001 C CNN
@@ -2332,12 +2332,12 @@ F 3 "" H 1825 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR015
 U 1 1 63845C6D
 P 2625 6225
-AR Path="/63845C6D" Ref="#PWR?"  Part="1" 
+AR Path="/63845C6D" Ref="#PWR015"  Part="1" 
 AR Path="/62175536/63845C6D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 6075 50  0001 C CNN
+F 0 "#PWR015" H 2625 6075 50  0001 C CNN
 F 1 "+3.3V" H 2475 6325 50  0000 C CNN
 F 2 "" H 2625 6225 50  0001 C CNN
 F 3 "" H 2625 6225 50  0001 C CNN
@@ -2345,12 +2345,12 @@ F 3 "" H 2625 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR017
 U 1 1 63845C73
 P 2625 7775
-AR Path="/63845C73" Ref="#PWR?"  Part="1" 
+AR Path="/63845C73" Ref="#PWR017"  Part="1" 
 AR Path="/62175536/63845C73" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2625 7625 50  0001 C CNN
+F 0 "#PWR017" H 2625 7625 50  0001 C CNN
 F 1 "+3.3V" H 2475 7875 50  0000 C CNN
 F 2 "" H 2625 7775 50  0001 C CNN
 F 3 "" H 2625 7775 50  0001 C CNN
@@ -2358,12 +2358,12 @@ F 3 "" H 2625 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR010
 U 1 1 63845C79
 P 1825 7775
-AR Path="/63845C79" Ref="#PWR?"  Part="1" 
+AR Path="/63845C79" Ref="#PWR010"  Part="1" 
 AR Path="/62175536/63845C79" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1825 7625 50  0001 C CNN
+F 0 "#PWR010" H 1825 7625 50  0001 C CNN
 F 1 "+3.3V" H 1675 7875 50  0000 C CNN
 F 2 "" H 1825 7775 50  0001 C CNN
 F 3 "" H 1825 7775 50  0001 C CNN
@@ -2371,12 +2371,12 @@ F 3 "" H 1825 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR04
 U 1 1 63845C7F
 P 975 7775
-AR Path="/63845C7F" Ref="#PWR?"  Part="1" 
+AR Path="/63845C7F" Ref="#PWR04"  Part="1" 
 AR Path="/62175536/63845C7F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 975 7625 50  0001 C CNN
+F 0 "#PWR04" H 975 7625 50  0001 C CNN
 F 1 "+3.3V" H 825 7875 50  0000 C CNN
 F 2 "" H 975 7775 50  0001 C CNN
 F 3 "" H 975 7775 50  0001 C CNN
@@ -2384,12 +2384,12 @@ F 3 "" H 975 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR022
 U 1 1 63845C85
 P 3425 7775
-AR Path="/63845C85" Ref="#PWR?"  Part="1" 
+AR Path="/63845C85" Ref="#PWR022"  Part="1" 
 AR Path="/62175536/63845C85" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3425 7625 50  0001 C CNN
+F 0 "#PWR022" H 3425 7625 50  0001 C CNN
 F 1 "+3.3V" H 3275 7875 50  0000 C CNN
 F 2 "" H 3425 7775 50  0001 C CNN
 F 3 "" H 3425 7775 50  0001 C CNN
@@ -2397,12 +2397,12 @@ F 3 "" H 3425 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR026
 U 1 1 63845C8B
 P 4225 7775
-AR Path="/63845C8B" Ref="#PWR?"  Part="1" 
+AR Path="/63845C8B" Ref="#PWR026"  Part="1" 
 AR Path="/62175536/63845C8B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4225 7625 50  0001 C CNN
+F 0 "#PWR026" H 4225 7625 50  0001 C CNN
 F 1 "+3.3V" H 4075 7875 50  0000 C CNN
 F 2 "" H 4225 7775 50  0001 C CNN
 F 3 "" H 4225 7775 50  0001 C CNN
@@ -2410,12 +2410,12 @@ F 3 "" H 4225 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR031
 U 1 1 63845C91
 P 5025 7775
-AR Path="/63845C91" Ref="#PWR?"  Part="1" 
+AR Path="/63845C91" Ref="#PWR031"  Part="1" 
 AR Path="/62175536/63845C91" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5025 7625 50  0001 C CNN
+F 0 "#PWR031" H 5025 7625 50  0001 C CNN
 F 1 "+3.3V" H 4875 7875 50  0000 C CNN
 F 2 "" H 5025 7775 50  0001 C CNN
 F 3 "" H 5025 7775 50  0001 C CNN
@@ -2423,12 +2423,12 @@ F 3 "" H 5025 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR029
 U 1 1 63845C97
 P 5025 6225
-AR Path="/63845C97" Ref="#PWR?"  Part="1" 
+AR Path="/63845C97" Ref="#PWR029"  Part="1" 
 AR Path="/62175536/63845C97" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5025 6075 50  0001 C CNN
+F 0 "#PWR029" H 5025 6075 50  0001 C CNN
 F 1 "+3.3V" H 4875 6325 50  0000 C CNN
 F 2 "" H 5025 6225 50  0001 C CNN
 F 3 "" H 5025 6225 50  0001 C CNN
@@ -2436,12 +2436,12 @@ F 3 "" H 5025 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR020
 U 1 1 63845C9D
 P 3425 6225
-AR Path="/63845C9D" Ref="#PWR?"  Part="1" 
+AR Path="/63845C9D" Ref="#PWR020"  Part="1" 
 AR Path="/62175536/63845C9D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3425 6075 50  0001 C CNN
+F 0 "#PWR020" H 3425 6075 50  0001 C CNN
 F 1 "+3.3V" H 3275 6325 50  0000 C CNN
 F 2 "" H 3425 6225 50  0001 C CNN
 F 3 "" H 3425 6225 50  0001 C CNN
@@ -2449,12 +2449,12 @@ F 3 "" H 3425 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR024
 U 1 1 63845CA3
 P 4225 6225
-AR Path="/63845CA3" Ref="#PWR?"  Part="1" 
+AR Path="/63845CA3" Ref="#PWR024"  Part="1" 
 AR Path="/62175536/63845CA3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4225 6075 50  0001 C CNN
+F 0 "#PWR024" H 4225 6075 50  0001 C CNN
 F 1 "+3.3V" H 4075 6325 50  0000 C CNN
 F 2 "" H 4225 6225 50  0001 C CNN
 F 3 "" H 4225 6225 50  0001 C CNN
@@ -2462,12 +2462,12 @@ F 3 "" H 4225 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR034
 U 1 1 63845CA9
 P 5825 6225
-AR Path="/63845CA9" Ref="#PWR?"  Part="1" 
+AR Path="/63845CA9" Ref="#PWR034"  Part="1" 
 AR Path="/62175536/63845CA9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5825 6075 50  0001 C CNN
+F 0 "#PWR034" H 5825 6075 50  0001 C CNN
 F 1 "+3.3V" H 5675 6325 50  0000 C CNN
 F 2 "" H 5825 6225 50  0001 C CNN
 F 3 "" H 5825 6225 50  0001 C CNN
@@ -2475,12 +2475,12 @@ F 3 "" H 5825 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR036
 U 1 1 63845CAF
 P 5825 7775
-AR Path="/63845CAF" Ref="#PWR?"  Part="1" 
+AR Path="/63845CAF" Ref="#PWR036"  Part="1" 
 AR Path="/62175536/63845CAF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5825 7625 50  0001 C CNN
+F 0 "#PWR036" H 5825 7625 50  0001 C CNN
 F 1 "+3.3V" H 5675 7875 50  0000 C CNN
 F 2 "" H 5825 7775 50  0001 C CNN
 F 3 "" H 5825 7775 50  0001 C CNN
@@ -2488,12 +2488,12 @@ F 3 "" H 5825 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR040
 U 1 1 63845CB5
 P 6725 7775
-AR Path="/63845CB5" Ref="#PWR?"  Part="1" 
+AR Path="/63845CB5" Ref="#PWR040"  Part="1" 
 AR Path="/62175536/63845CB5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6725 7625 50  0001 C CNN
+F 0 "#PWR040" H 6725 7625 50  0001 C CNN
 F 1 "+3.3V" H 6575 7875 50  0000 C CNN
 F 2 "" H 6725 7775 50  0001 C CNN
 F 3 "" H 6725 7775 50  0001 C CNN
@@ -2501,12 +2501,12 @@ F 3 "" H 6725 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR038
 U 1 1 63845CBB
 P 6725 6225
-AR Path="/63845CBB" Ref="#PWR?"  Part="1" 
+AR Path="/63845CBB" Ref="#PWR038"  Part="1" 
 AR Path="/62175536/63845CBB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6725 6075 50  0001 C CNN
+F 0 "#PWR038" H 6725 6075 50  0001 C CNN
 F 1 "+3.3V" H 6575 6325 50  0000 C CNN
 F 2 "" H 6725 6225 50  0001 C CNN
 F 3 "" H 6725 6225 50  0001 C CNN
@@ -2514,12 +2514,12 @@ F 3 "" H 6725 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR042
 U 1 1 63845CC1
 P 7525 6225
-AR Path="/63845CC1" Ref="#PWR?"  Part="1" 
+AR Path="/63845CC1" Ref="#PWR042"  Part="1" 
 AR Path="/62175536/63845CC1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7525 6075 50  0001 C CNN
+F 0 "#PWR042" H 7525 6075 50  0001 C CNN
 F 1 "+3.3V" H 7375 6325 50  0000 C CNN
 F 2 "" H 7525 6225 50  0001 C CNN
 F 3 "" H 7525 6225 50  0001 C CNN
@@ -2527,12 +2527,12 @@ F 3 "" H 7525 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR044
 U 1 1 63845CC7
 P 7525 7775
-AR Path="/63845CC7" Ref="#PWR?"  Part="1" 
+AR Path="/63845CC7" Ref="#PWR044"  Part="1" 
 AR Path="/62175536/63845CC7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7525 7625 50  0001 C CNN
+F 0 "#PWR044" H 7525 7625 50  0001 C CNN
 F 1 "+3.3V" H 7375 7875 50  0000 C CNN
 F 2 "" H 7525 7775 50  0001 C CNN
 F 3 "" H 7525 7775 50  0001 C CNN
@@ -2540,12 +2540,12 @@ F 3 "" H 7525 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR048
 U 1 1 63845CCD
 P 8275 7775
-AR Path="/63845CCD" Ref="#PWR?"  Part="1" 
+AR Path="/63845CCD" Ref="#PWR048"  Part="1" 
 AR Path="/62175536/63845CCD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8275 7625 50  0001 C CNN
+F 0 "#PWR048" H 8275 7625 50  0001 C CNN
 F 1 "+3.3V" H 8125 7875 50  0000 C CNN
 F 2 "" H 8275 7775 50  0001 C CNN
 F 3 "" H 8275 7775 50  0001 C CNN
@@ -2553,12 +2553,12 @@ F 3 "" H 8275 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR046
 U 1 1 63845CD3
 P 8275 6225
-AR Path="/63845CD3" Ref="#PWR?"  Part="1" 
+AR Path="/63845CD3" Ref="#PWR046"  Part="1" 
 AR Path="/62175536/63845CD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8275 6075 50  0001 C CNN
+F 0 "#PWR046" H 8275 6075 50  0001 C CNN
 F 1 "+3.3V" H 8125 6325 50  0000 C CNN
 F 2 "" H 8275 6225 50  0001 C CNN
 F 3 "" H 8275 6225 50  0001 C CNN
@@ -2566,12 +2566,12 @@ F 3 "" H 8275 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR052
 U 1 1 63845CD9
 P 9075 6225
-AR Path="/63845CD9" Ref="#PWR?"  Part="1" 
+AR Path="/63845CD9" Ref="#PWR052"  Part="1" 
 AR Path="/62175536/63845CD9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9075 6075 50  0001 C CNN
+F 0 "#PWR052" H 9075 6075 50  0001 C CNN
 F 1 "+3.3V" H 8925 6325 50  0000 C CNN
 F 2 "" H 9075 6225 50  0001 C CNN
 F 3 "" H 9075 6225 50  0001 C CNN
@@ -2579,12 +2579,12 @@ F 3 "" H 9075 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR054
 U 1 1 63845CDF
 P 9075 7775
-AR Path="/63845CDF" Ref="#PWR?"  Part="1" 
+AR Path="/63845CDF" Ref="#PWR054"  Part="1" 
 AR Path="/62175536/63845CDF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9075 7625 50  0001 C CNN
+F 0 "#PWR054" H 9075 7625 50  0001 C CNN
 F 1 "+3.3V" H 8925 7875 50  0000 C CNN
 F 2 "" H 9075 7775 50  0001 C CNN
 F 3 "" H 9075 7775 50  0001 C CNN
@@ -2592,12 +2592,12 @@ F 3 "" H 9075 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR059
 U 1 1 63845CE5
 P 9825 7775
-AR Path="/63845CE5" Ref="#PWR?"  Part="1" 
+AR Path="/63845CE5" Ref="#PWR059"  Part="1" 
 AR Path="/62175536/63845CE5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9825 7625 50  0001 C CNN
+F 0 "#PWR059" H 9825 7625 50  0001 C CNN
 F 1 "+3.3V" H 9675 7875 50  0000 C CNN
 F 2 "" H 9825 7775 50  0001 C CNN
 F 3 "" H 9825 7775 50  0001 C CNN
@@ -2605,12 +2605,12 @@ F 3 "" H 9825 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR057
 U 1 1 63845CEB
 P 9825 6225
-AR Path="/63845CEB" Ref="#PWR?"  Part="1" 
+AR Path="/63845CEB" Ref="#PWR057"  Part="1" 
 AR Path="/62175536/63845CEB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9825 6075 50  0001 C CNN
+F 0 "#PWR057" H 9825 6075 50  0001 C CNN
 F 1 "+3.3V" H 9675 6325 50  0000 C CNN
 F 2 "" H 9825 6225 50  0001 C CNN
 F 3 "" H 9825 6225 50  0001 C CNN
@@ -2618,12 +2618,12 @@ F 3 "" H 9825 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR064
 U 1 1 63845CF1
 P 10575 6225
-AR Path="/63845CF1" Ref="#PWR?"  Part="1" 
+AR Path="/63845CF1" Ref="#PWR064"  Part="1" 
 AR Path="/62175536/63845CF1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10575 6075 50  0001 C CNN
+F 0 "#PWR064" H 10575 6075 50  0001 C CNN
 F 1 "+3.3V" H 10425 6325 50  0000 C CNN
 F 2 "" H 10575 6225 50  0001 C CNN
 F 3 "" H 10575 6225 50  0001 C CNN
@@ -2631,12 +2631,12 @@ F 3 "" H 10575 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR066
 U 1 1 63845CF7
 P 10575 7775
-AR Path="/63845CF7" Ref="#PWR?"  Part="1" 
+AR Path="/63845CF7" Ref="#PWR066"  Part="1" 
 AR Path="/62175536/63845CF7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10575 7625 50  0001 C CNN
+F 0 "#PWR066" H 10575 7625 50  0001 C CNN
 F 1 "+3.3V" H 10425 7875 50  0000 C CNN
 F 2 "" H 10575 7775 50  0001 C CNN
 F 3 "" H 10575 7775 50  0001 C CNN
@@ -2644,12 +2644,12 @@ F 3 "" H 10575 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR076
 U 1 1 63845CFD
 P 11300 7775
-AR Path="/63845CFD" Ref="#PWR?"  Part="1" 
+AR Path="/63845CFD" Ref="#PWR076"  Part="1" 
 AR Path="/62175536/63845CFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11300 7625 50  0001 C CNN
+F 0 "#PWR076" H 11300 7625 50  0001 C CNN
 F 1 "+3.3V" H 11150 7875 50  0000 C CNN
 F 2 "" H 11300 7775 50  0001 C CNN
 F 3 "" H 11300 7775 50  0001 C CNN
@@ -2657,12 +2657,12 @@ F 3 "" H 11300 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR074
 U 1 1 63845D03
 P 11300 6225
-AR Path="/63845D03" Ref="#PWR?"  Part="1" 
+AR Path="/63845D03" Ref="#PWR074"  Part="1" 
 AR Path="/62175536/63845D03" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11300 6075 50  0001 C CNN
+F 0 "#PWR074" H 11300 6075 50  0001 C CNN
 F 1 "+3.3V" H 11150 6325 50  0000 C CNN
 F 2 "" H 11300 6225 50  0001 C CNN
 F 3 "" H 11300 6225 50  0001 C CNN
@@ -2678,12 +2678,12 @@ Wire Notes Line
 Wire Notes Line
 	525  9075 11575 9075
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
 U 2 1 63845D0D
 P 2925 5075
-AR Path="/63845D0D" Ref="Conn?"  Part="2" 
+AR Path="/63845D0D" Ref="Conn4"  Part="2" 
 AR Path="/62175536/63845D0D" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 3133 5462 60  0000 C CNN
+F 0 "Conn4" H 3133 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5356 60  0000 C CNN
 F 2 "" H 2775 4525 60  0001 C CNN
 F 3 "" H 2775 4525 60  0001 C CNN
@@ -2691,12 +2691,12 @@ F 3 "" H 2775 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
 U 2 1 63845D13
 P 3775 5075
-AR Path="/63845D13" Ref="Conn?"  Part="2" 
+AR Path="/63845D13" Ref="Conn5"  Part="2" 
 AR Path="/62175536/63845D13" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 3983 5462 60  0000 C CNN
+F 0 "Conn5" H 3983 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5356 60  0000 C CNN
 F 2 "" H 3625 4525 60  0001 C CNN
 F 3 "" H 3625 4525 60  0001 C CNN
@@ -2706,12 +2706,12 @@ $EndComp
 Text GLabel 3325 4975 2    50   Input ~ 0
 OUTa_1
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
 U 1 1 63845D1A
 P 2925 5525
-AR Path="/63845D1A" Ref="Conn?"  Part="1" 
+AR Path="/63845D1A" Ref="Conn4"  Part="1" 
 AR Path="/62175536/63845D1A" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 3133 5912 60  0000 C CNN
+F 0 "Conn4" H 3133 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5806 60  0000 C CNN
 F 2 "" H 2775 4975 60  0001 C CNN
 F 3 "" H 2775 4975 60  0001 C CNN
@@ -2723,12 +2723,12 @@ OUTb_1
 Text GLabel 4175 4975 2    50   Input ~ 0
 OUTa_2
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
 U 1 1 63845D22
 P 3775 5525
-AR Path="/63845D22" Ref="Conn?"  Part="1" 
+AR Path="/63845D22" Ref="Conn5"  Part="1" 
 AR Path="/62175536/63845D22" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 3983 5912 60  0000 C CNN
+F 0 "Conn5" H 3983 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5806 60  0000 C CNN
 F 2 "" H 3625 4975 60  0001 C CNN
 F 3 "" H 3625 4975 60  0001 C CNN
@@ -2738,12 +2738,12 @@ $EndComp
 Text GLabel 4175 5425 2    50   Input ~ 0
 OUTb_2
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
 U 2 1 63845D29
 P 4625 5075
-AR Path="/63845D29" Ref="Conn?"  Part="2" 
+AR Path="/63845D29" Ref="Conn6"  Part="2" 
 AR Path="/62175536/63845D29" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 4833 5462 60  0000 C CNN
+F 0 "Conn6" H 4833 5462 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5356 60  0000 C CNN
 F 2 "" H 4475 4525 60  0001 C CNN
 F 3 "" H 4475 4525 60  0001 C CNN
@@ -2753,12 +2753,12 @@ $EndComp
 Text GLabel 5025 4975 2    50   Input ~ 0
 OUTa_3
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
 U 1 1 63845D30
 P 4625 5525
-AR Path="/63845D30" Ref="Conn?"  Part="1" 
+AR Path="/63845D30" Ref="Conn6"  Part="1" 
 AR Path="/62175536/63845D30" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 4833 5912 60  0000 C CNN
+F 0 "Conn6" H 4833 5912 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5806 60  0000 C CNN
 F 2 "" H 4475 4975 60  0001 C CNN
 F 3 "" H 4475 4975 60  0001 C CNN
@@ -2768,12 +2768,12 @@ $EndComp
 Text GLabel 5025 5425 2    50   Input ~ 0
 OUTb_3
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
 U 2 1 63845D37
 P 5475 5075
-AR Path="/63845D37" Ref="Conn?"  Part="2" 
+AR Path="/63845D37" Ref="Conn7"  Part="2" 
 AR Path="/62175536/63845D37" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 5683 5462 60  0000 C CNN
+F 0 "Conn7" H 5683 5462 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5356 60  0000 C CNN
 F 2 "" H 5325 4525 60  0001 C CNN
 F 3 "" H 5325 4525 60  0001 C CNN
@@ -2783,12 +2783,12 @@ $EndComp
 Text GLabel 5875 4975 2    50   Input ~ 0
 OUTa_4
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
 U 1 1 63845D3E
 P 5475 5525
-AR Path="/63845D3E" Ref="Conn?"  Part="1" 
+AR Path="/63845D3E" Ref="Conn7"  Part="1" 
 AR Path="/62175536/63845D3E" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 5683 5912 60  0000 C CNN
+F 0 "Conn7" H 5683 5912 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5806 60  0000 C CNN
 F 2 "" H 5325 4975 60  0001 C CNN
 F 3 "" H 5325 4975 60  0001 C CNN
@@ -2796,12 +2796,12 @@ F 3 "" H 5325 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn8
 U 2 1 63845D45
 P 6325 5075
-AR Path="/63845D45" Ref="Conn?"  Part="2" 
+AR Path="/63845D45" Ref="Conn8"  Part="2" 
 AR Path="/62175536/63845D45" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 6533 5462 60  0000 C CNN
+F 0 "Conn8" H 6533 5462 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5356 60  0000 C CNN
 F 2 "" H 6175 4525 60  0001 C CNN
 F 3 "" H 6175 4525 60  0001 C CNN
@@ -2809,12 +2809,12 @@ F 3 "" H 6175 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn8
 U 1 1 63845D4C
 P 6325 5525
-AR Path="/63845D4C" Ref="Conn?"  Part="1" 
+AR Path="/63845D4C" Ref="Conn8"  Part="1" 
 AR Path="/62175536/63845D4C" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 6533 5912 60  0000 C CNN
+F 0 "Conn8" H 6533 5912 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5806 60  0000 C CNN
 F 2 "" H 6175 4975 60  0001 C CNN
 F 3 "" H 6175 4975 60  0001 C CNN
@@ -2822,12 +2822,12 @@ F 3 "" H 6175 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn9
 U 2 1 63845D53
 P 7175 5075
-AR Path="/63845D53" Ref="Conn?"  Part="2" 
+AR Path="/63845D53" Ref="Conn9"  Part="2" 
 AR Path="/62175536/63845D53" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 7383 5462 60  0000 C CNN
+F 0 "Conn9" H 7383 5462 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5356 60  0000 C CNN
 F 2 "" H 7025 4525 60  0001 C CNN
 F 3 "" H 7025 4525 60  0001 C CNN
@@ -2835,12 +2835,12 @@ F 3 "" H 7025 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn9
 U 1 1 63845D5A
 P 7175 5525
-AR Path="/63845D5A" Ref="Conn?"  Part="1" 
+AR Path="/63845D5A" Ref="Conn9"  Part="1" 
 AR Path="/62175536/63845D5A" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 7383 5912 60  0000 C CNN
+F 0 "Conn9" H 7383 5912 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5806 60  0000 C CNN
 F 2 "" H 7025 4975 60  0001 C CNN
 F 3 "" H 7025 4975 60  0001 C CNN
@@ -2848,12 +2848,12 @@ F 3 "" H 7025 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn10
 U 2 1 63845D61
 P 8025 5075
-AR Path="/63845D61" Ref="Conn?"  Part="2" 
+AR Path="/63845D61" Ref="Conn10"  Part="2" 
 AR Path="/62175536/63845D61" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 8233 5462 60  0000 C CNN
+F 0 "Conn10" H 8233 5462 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5356 60  0000 C CNN
 F 2 "" H 7875 4525 60  0001 C CNN
 F 3 "" H 7875 4525 60  0001 C CNN
@@ -2861,12 +2861,12 @@ F 3 "" H 7875 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn10
 U 1 1 63845D68
 P 8025 5525
-AR Path="/63845D68" Ref="Conn?"  Part="1" 
+AR Path="/63845D68" Ref="Conn10"  Part="1" 
 AR Path="/62175536/63845D68" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 8233 5912 60  0000 C CNN
+F 0 "Conn10" H 8233 5912 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5806 60  0000 C CNN
 F 2 "" H 7875 4975 60  0001 C CNN
 F 3 "" H 7875 4975 60  0001 C CNN
@@ -2874,12 +2874,12 @@ F 3 "" H 7875 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:OKI-MRDT_Devices U?
+L ArmBoard_Hardware-rescue:OKI-MRDT_Devices U2
 U 1 1 63845D6F
 P 9250 5000
-AR Path="/63845D6F" Ref="U?"  Part="1" 
+AR Path="/63845D6F" Ref="U2"  Part="1" 
 AR Path="/62175536/63845D6F" Ref="U?"  Part="1" 
-F 0 "U?" H 9300 4950 60  0001 C CNN
+F 0 "U2" H 9300 4950 60  0001 C CNN
 F 1 "OKI" H 9450 5281 60  0000 C CNN
 F 2 "" H 9050 4900 60  0001 C CNN
 F 3 "" H 9050 4900 60  0001 C CNN
@@ -2887,12 +2887,12 @@ F 3 "" H 9050 4900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR061
 U 1 1 63845D75
 P 9925 4750
-AR Path="/63845D75" Ref="#PWR?"  Part="1" 
+AR Path="/63845D75" Ref="#PWR061"  Part="1" 
 AR Path="/62175536/63845D75" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9925 4600 50  0001 C CNN
+F 0 "#PWR061" H 9925 4600 50  0001 C CNN
 F 1 "+3.3V" H 9775 4800 50  0000 C CNN
 F 2 "" H 9925 4750 50  0001 C CNN
 F 3 "" H 9925 4750 50  0001 C CNN
@@ -2903,12 +2903,12 @@ Wire Wire Line
 	9450 5250 9450 5200
 Connection ~ 9450 5250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 63845D7D
 P 8975 5100
-AR Path="/63845D7D" Ref="C?"  Part="1" 
+AR Path="/63845D7D" Ref="C1"  Part="1" 
 AR Path="/62175536/63845D7D" Ref="C?"  Part="1" 
-F 0 "C?" H 9067 5146 50  0000 L CNN
+F 0 "C1" H 9067 5146 50  0000 L CNN
 F 1 "10uF" H 9067 5055 50  0000 L CNN
 F 2 "" H 8975 5100 50  0001 C CNN
 F 3 "~" H 8975 5100 50  0001 C CNN
@@ -2918,12 +2918,12 @@ $EndComp
 Wire Wire Line
 	8975 5200 8975 5250
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 63845D84
 P 9925 5100
-AR Path="/63845D84" Ref="C?"  Part="1" 
+AR Path="/63845D84" Ref="C2"  Part="1" 
 AR Path="/62175536/63845D84" Ref="C?"  Part="1" 
-F 0 "C?" H 9700 5150 50  0000 L CNN
+F 0 "C2" H 9700 5150 50  0000 L CNN
 F 1 "10uF" H 9650 5050 50  0000 L CNN
 F 2 "" H 9925 5100 50  0001 C CNN
 F 3 "~" H 9925 5100 50  0001 C CNN
@@ -2931,12 +2931,12 @@ F 3 "~" H 9925 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR051
 U 1 1 63845D8A
 P 8975 4750
-AR Path="/63845D8A" Ref="#PWR?"  Part="1" 
+AR Path="/63845D8A" Ref="#PWR051"  Part="1" 
 AR Path="/62175536/63845D8A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8975 4600 50  0001 C CNN
+F 0 "#PWR051" H 8975 4600 50  0001 C CNN
 F 1 "+12V" H 9100 4800 50  0000 C CNN
 F 2 "" H 8975 4750 50  0001 C CNN
 F 3 "" H 8975 4750 50  0001 C CNN
@@ -2944,12 +2944,12 @@ F 3 "" H 8975 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR056
 U 1 1 63845D90
 P 9450 5300
-AR Path="/63845D90" Ref="#PWR?"  Part="1" 
+AR Path="/63845D90" Ref="#PWR056"  Part="1" 
 AR Path="/62175536/63845D90" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9450 5050 50  0001 C CNN
+F 0 "#PWR056" H 9450 5050 50  0001 C CNN
 F 1 "GND" H 9455 5127 50  0000 C CNN
 F 2 "" H 9450 5300 50  0001 C CNN
 F 3 "" H 9450 5300 50  0001 C CNN
@@ -2975,12 +2975,12 @@ Connection ~ 8975 4900
 Wire Wire Line
 	8975 4900 8975 5000
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR062
 U 1 1 63845DA2
 P 10200 4725
-AR Path="/63845DA2" Ref="#PWR?"  Part="1" 
+AR Path="/63845DA2" Ref="#PWR062"  Part="1" 
 AR Path="/62175536/63845DA2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10200 4575 50  0001 C CNN
+F 0 "#PWR062" H 10200 4575 50  0001 C CNN
 F 1 "+3.3V" H 10350 4825 50  0000 C CNN
 F 2 "" H 10200 4725 50  0001 C CNN
 F 3 "" H 10200 4725 50  0001 C CNN
@@ -2988,12 +2988,12 @@ F 3 "" H 10200 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R27
 U 1 1 63845DA8
 P 10200 4875
-AR Path="/63845DA8" Ref="R?"  Part="1" 
+AR Path="/63845DA8" Ref="R27"  Part="1" 
 AR Path="/62175536/63845DA8" Ref="R?"  Part="1" 
-F 0 "R?" H 10259 4921 50  0000 L CNN
+F 0 "R27" H 10259 4921 50  0000 L CNN
 F 1 "43" H 10259 4830 50  0000 L CNN
 F 2 "" H 10200 4875 50  0001 C CNN
 F 3 "~" H 10200 4875 50  0001 C CNN
@@ -3001,12 +3001,12 @@ F 3 "~" H 10200 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D25
 U 1 1 63845DAE
 P 10200 5175
-AR Path="/63845DAE" Ref="D?"  Part="1" 
+AR Path="/63845DAE" Ref="D25"  Part="1" 
 AR Path="/62175536/63845DAE" Ref="D?"  Part="1" 
-F 0 "D?" V 10239 5057 50  0000 R CNN
+F 0 "D25" V 10239 5057 50  0000 R CNN
 F 1 "Green" V 10148 5057 50  0000 R CNN
 F 2 "" H 10200 5175 50  0001 C CNN
 F 3 "~" H 10200 5175 50  0001 C CNN
@@ -3014,12 +3014,12 @@ F 3 "~" H 10200 5175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR063
 U 1 1 63845DB4
 P 10200 5375
-AR Path="/63845DB4" Ref="#PWR?"  Part="1" 
+AR Path="/63845DB4" Ref="#PWR063"  Part="1" 
 AR Path="/62175536/63845DB4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10200 5125 50  0001 C CNN
+F 0 "#PWR063" H 10200 5125 50  0001 C CNN
 F 1 "GND" H 10205 5202 50  0000 C CNN
 F 2 "" H 10200 5375 50  0001 C CNN
 F 3 "" H 10200 5375 50  0001 C CNN
@@ -3033,12 +3033,12 @@ Wire Wire Line
 Wire Wire Line
 	10200 5325 10200 5375
 $Comp
-L power:+12VA #PWR?
+L power:+12VA #PWR068
 U 1 1 63845DBD
 P 10650 4725
-AR Path="/63845DBD" Ref="#PWR?"  Part="1" 
+AR Path="/63845DBD" Ref="#PWR068"  Part="1" 
 AR Path="/62175536/63845DBD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10650 4575 50  0001 C CNN
+F 0 "#PWR068" H 10650 4575 50  0001 C CNN
 F 1 "+12VA" H 10800 4825 50  0000 C CNN
 F 2 "" H 10650 4725 50  0001 C CNN
 F 3 "" H 10650 4725 50  0001 C CNN
@@ -3046,12 +3046,12 @@ F 3 "" H 10650 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R30
 U 1 1 63845DC3
 P 10650 4875
-AR Path="/63845DC3" Ref="R?"  Part="1" 
+AR Path="/63845DC3" Ref="R30"  Part="1" 
 AR Path="/62175536/63845DC3" Ref="R?"  Part="1" 
-F 0 "R?" H 10709 4921 50  0000 L CNN
+F 0 "R30" H 10709 4921 50  0000 L CNN
 F 1 "43" H 10709 4830 50  0000 L CNN
 F 2 "" H 10650 4875 50  0001 C CNN
 F 3 "~" H 10650 4875 50  0001 C CNN
@@ -3059,12 +3059,12 @@ F 3 "~" H 10650 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D28
 U 1 1 63845DC9
 P 10650 5175
-AR Path="/63845DC9" Ref="D?"  Part="1" 
+AR Path="/63845DC9" Ref="D28"  Part="1" 
 AR Path="/62175536/63845DC9" Ref="D?"  Part="1" 
-F 0 "D?" V 10689 5057 50  0000 R CNN
+F 0 "D28" V 10689 5057 50  0000 R CNN
 F 1 "Green" V 10598 5057 50  0000 R CNN
 F 2 "" H 10650 5175 50  0001 C CNN
 F 3 "~" H 10650 5175 50  0001 C CNN
@@ -3072,12 +3072,12 @@ F 3 "~" H 10650 5175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR069
 U 1 1 63845DCF
 P 10650 5375
-AR Path="/63845DCF" Ref="#PWR?"  Part="1" 
+AR Path="/63845DCF" Ref="#PWR069"  Part="1" 
 AR Path="/62175536/63845DCF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10650 5125 50  0001 C CNN
+F 0 "#PWR069" H 10650 5125 50  0001 C CNN
 F 1 "GND" H 10655 5202 50  0000 C CNN
 F 2 "" H 10650 5375 50  0001 C CNN
 F 3 "" H 10650 5375 50  0001 C CNN
@@ -3087,12 +3087,12 @@ $EndComp
 Wire Wire Line
 	10650 4725 10650 4775
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR072
 U 1 1 63845DD6
 P 11100 4725
-AR Path="/63845DD6" Ref="#PWR?"  Part="1" 
+AR Path="/63845DD6" Ref="#PWR072"  Part="1" 
 AR Path="/62175536/63845DD6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11100 4575 50  0001 C CNN
+F 0 "#PWR072" H 11100 4575 50  0001 C CNN
 F 1 "+12V" H 11225 4825 50  0000 C CNN
 F 2 "" H 11100 4725 50  0001 C CNN
 F 3 "" H 11100 4725 50  0001 C CNN
@@ -3100,12 +3100,12 @@ F 3 "" H 11100 4725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R31
 U 1 1 63845DDC
 P 11100 4875
-AR Path="/63845DDC" Ref="R?"  Part="1" 
+AR Path="/63845DDC" Ref="R31"  Part="1" 
 AR Path="/62175536/63845DDC" Ref="R?"  Part="1" 
-F 0 "R?" H 11159 4921 50  0000 L CNN
+F 0 "R31" H 11159 4921 50  0000 L CNN
 F 1 "43" H 11159 4830 50  0000 L CNN
 F 2 "" H 11100 4875 50  0001 C CNN
 F 3 "~" H 11100 4875 50  0001 C CNN
@@ -3113,12 +3113,12 @@ F 3 "~" H 11100 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D29
 U 1 1 63845DE2
 P 11100 5175
-AR Path="/63845DE2" Ref="D?"  Part="1" 
+AR Path="/63845DE2" Ref="D29"  Part="1" 
 AR Path="/62175536/63845DE2" Ref="D?"  Part="1" 
-F 0 "D?" V 11139 5057 50  0000 R CNN
+F 0 "D29" V 11139 5057 50  0000 R CNN
 F 1 "Green" V 11048 5057 50  0000 R CNN
 F 2 "" H 11100 5175 50  0001 C CNN
 F 3 "~" H 11100 5175 50  0001 C CNN
@@ -3126,12 +3126,12 @@ F 3 "~" H 11100 5175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR073
 U 1 1 63845DE8
 P 11100 5375
-AR Path="/63845DE8" Ref="#PWR?"  Part="1" 
+AR Path="/63845DE8" Ref="#PWR073"  Part="1" 
 AR Path="/62175536/63845DE8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11100 5125 50  0001 C CNN
+F 0 "#PWR073" H 11100 5125 50  0001 C CNN
 F 1 "GND" H 11105 5202 50  0000 C CNN
 F 2 "" H 11100 5375 50  0001 C CNN
 F 3 "" H 11100 5375 50  0001 C CNN
@@ -3156,12 +3156,12 @@ Wire Wire Line
 Text GLabel 13525 5025 0    50   Output ~ 0
 LIM_1
 $Comp
-L power:GND #PWR?
+L power:GND #PWR080
 U 1 1 63845DF7
 P 13625 5725
-AR Path="/63845DF7" Ref="#PWR?"  Part="1" 
+AR Path="/63845DF7" Ref="#PWR080"  Part="1" 
 AR Path="/62175536/63845DF7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13625 5475 50  0001 C CNN
+F 0 "#PWR080" H 13625 5475 50  0001 C CNN
 F 1 "GND" H 13525 5600 50  0000 C CNN
 F 2 "" H 13625 5725 50  0001 C CNN
 F 3 "" H 13625 5725 50  0001 C CNN
@@ -3169,12 +3169,12 @@ F 3 "" H 13625 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D32
 U 1 1 63845DFD
 P 13625 5525
-AR Path="/63845DFD" Ref="D?"  Part="1" 
+AR Path="/63845DFD" Ref="D32"  Part="1" 
 AR Path="/62175536/63845DFD" Ref="D?"  Part="1" 
-F 0 "D?" V 13700 5700 50  0000 C CNN
+F 0 "D32" V 13700 5700 50  0000 C CNN
 F 1 "Blue" V 13625 5700 50  0000 C CNN
 F 2 "" H 13625 5525 50  0001 C CNN
 F 3 "~" H 13625 5525 50  0001 C CNN
@@ -3182,12 +3182,12 @@ F 3 "~" H 13625 5525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R34
 U 1 1 63845E03
 P 13625 5225
-AR Path="/63845E03" Ref="R?"  Part="1" 
+AR Path="/63845E03" Ref="R34"  Part="1" 
 AR Path="/62175536/63845E03" Ref="R?"  Part="1" 
-F 0 "R?" H 13425 5250 50  0000 L CNN
+F 0 "R34" H 13425 5250 50  0000 L CNN
 F 1 "43" H 13425 5175 50  0000 L CNN
 F 2 "" H 13625 5225 50  0001 C CNN
 F 3 "~" H 13625 5225 50  0001 C CNN
@@ -3195,12 +3195,12 @@ F 3 "~" H 13625 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR083
 U 1 1 63845E09
 P 13900 4900
-AR Path="/63845E09" Ref="#PWR?"  Part="1" 
+AR Path="/63845E09" Ref="#PWR083"  Part="1" 
 AR Path="/62175536/63845E09" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 13900 4750 50  0001 C CNN
+F 0 "#PWR083" H 13900 4750 50  0001 C CNN
 F 1 "+3.3V" H 13750 5000 50  0000 C CNN
 F 2 "" H 13900 4900 50  0001 C CNN
 F 3 "" H 13900 4900 50  0001 C CNN
@@ -3225,12 +3225,12 @@ Wire Wire Line
 Text GLabel 14550 5025 0    50   Output ~ 0
 LIM_2
 $Comp
-L power:GND #PWR?
+L power:GND #PWR084
 U 1 1 63845E18
 P 14650 5725
-AR Path="/63845E18" Ref="#PWR?"  Part="1" 
+AR Path="/63845E18" Ref="#PWR084"  Part="1" 
 AR Path="/62175536/63845E18" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14650 5475 50  0001 C CNN
+F 0 "#PWR084" H 14650 5475 50  0001 C CNN
 F 1 "GND" H 14550 5600 50  0000 C CNN
 F 2 "" H 14650 5725 50  0001 C CNN
 F 3 "" H 14650 5725 50  0001 C CNN
@@ -3238,12 +3238,12 @@ F 3 "" H 14650 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D33
 U 1 1 63845E1E
 P 14650 5525
-AR Path="/63845E1E" Ref="D?"  Part="1" 
+AR Path="/63845E1E" Ref="D33"  Part="1" 
 AR Path="/62175536/63845E1E" Ref="D?"  Part="1" 
-F 0 "D?" V 14725 5700 50  0000 C CNN
+F 0 "D33" V 14725 5700 50  0000 C CNN
 F 1 "Blue" V 14650 5700 50  0000 C CNN
 F 2 "" H 14650 5525 50  0001 C CNN
 F 3 "~" H 14650 5525 50  0001 C CNN
@@ -3251,12 +3251,12 @@ F 3 "~" H 14650 5525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R35
 U 1 1 63845E24
 P 14650 5225
-AR Path="/63845E24" Ref="R?"  Part="1" 
+AR Path="/63845E24" Ref="R35"  Part="1" 
 AR Path="/62175536/63845E24" Ref="R?"  Part="1" 
-F 0 "R?" H 14450 5250 50  0000 L CNN
+F 0 "R35" H 14450 5250 50  0000 L CNN
 F 1 "43" H 14450 5175 50  0000 L CNN
 F 2 "" H 14650 5225 50  0001 C CNN
 F 3 "~" H 14650 5225 50  0001 C CNN
@@ -3264,12 +3264,12 @@ F 3 "~" H 14650 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn14
 U 1 1 63845E2A
 P 14775 5250
-AR Path="/63845E2A" Ref="Conn?"  Part="1" 
+AR Path="/63845E2A" Ref="Conn14"  Part="1" 
 AR Path="/62175536/63845E2A" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 14925 5250 60  0000 L CNN
+F 0 "Conn14" V 14925 5250 60  0000 L CNN
 F 1 "Molex_SL_02" V 15025 5250 60  0001 L CNN
 F 2 "" H 14775 5150 60  0001 C CNN
 F 3 "" H 14775 5150 60  0001 C CNN
@@ -3277,12 +3277,12 @@ F 3 "" H 14775 5150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR087
 U 1 1 63845E30
 P 14925 4900
-AR Path="/63845E30" Ref="#PWR?"  Part="1" 
+AR Path="/63845E30" Ref="#PWR087"  Part="1" 
 AR Path="/62175536/63845E30" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14925 4750 50  0001 C CNN
+F 0 "#PWR087" H 14925 4750 50  0001 C CNN
 F 1 "+3.3V" H 14775 5000 50  0000 C CNN
 F 2 "" H 14925 4900 50  0001 C CNN
 F 3 "" H 14925 4900 50  0001 C CNN
@@ -3307,12 +3307,12 @@ Wire Wire Line
 Text GLabel 15575 5025 0    50   Output ~ 0
 LIM_3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR093
 U 1 1 63845E3F
 P 15675 5725
-AR Path="/63845E3F" Ref="#PWR?"  Part="1" 
+AR Path="/63845E3F" Ref="#PWR093"  Part="1" 
 AR Path="/62175536/63845E3F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15675 5475 50  0001 C CNN
+F 0 "#PWR093" H 15675 5475 50  0001 C CNN
 F 1 "GND" H 15575 5600 50  0000 C CNN
 F 2 "" H 15675 5725 50  0001 C CNN
 F 3 "" H 15675 5725 50  0001 C CNN
@@ -3320,12 +3320,12 @@ F 3 "" H 15675 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D36
 U 1 1 63845E45
 P 15675 5525
-AR Path="/63845E45" Ref="D?"  Part="1" 
+AR Path="/63845E45" Ref="D36"  Part="1" 
 AR Path="/62175536/63845E45" Ref="D?"  Part="1" 
-F 0 "D?" V 15750 5700 50  0000 C CNN
+F 0 "D36" V 15750 5700 50  0000 C CNN
 F 1 "Blue" V 15675 5700 50  0000 C CNN
 F 2 "" H 15675 5525 50  0001 C CNN
 F 3 "~" H 15675 5525 50  0001 C CNN
@@ -3333,12 +3333,12 @@ F 3 "~" H 15675 5525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R38
 U 1 1 63845E4B
 P 15675 5225
-AR Path="/63845E4B" Ref="R?"  Part="1" 
+AR Path="/63845E4B" Ref="R38"  Part="1" 
 AR Path="/62175536/63845E4B" Ref="R?"  Part="1" 
-F 0 "R?" H 15475 5250 50  0000 L CNN
+F 0 "R38" H 15475 5250 50  0000 L CNN
 F 1 "43" H 15475 5175 50  0000 L CNN
 F 2 "" H 15675 5225 50  0001 C CNN
 F 3 "~" H 15675 5225 50  0001 C CNN
@@ -3346,12 +3346,12 @@ F 3 "~" H 15675 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn17
 U 1 1 63845E51
 P 15800 5250
-AR Path="/63845E51" Ref="Conn?"  Part="1" 
+AR Path="/63845E51" Ref="Conn17"  Part="1" 
 AR Path="/62175536/63845E51" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 15950 5250 60  0000 L CNN
+F 0 "Conn17" V 15950 5250 60  0000 L CNN
 F 1 "Molex_SL_02" V 16050 5250 60  0001 L CNN
 F 2 "" H 15800 5150 60  0001 C CNN
 F 3 "" H 15800 5150 60  0001 C CNN
@@ -3359,12 +3359,12 @@ F 3 "" H 15800 5150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR094
 U 1 1 63845E57
 P 15950 4900
-AR Path="/63845E57" Ref="#PWR?"  Part="1" 
+AR Path="/63845E57" Ref="#PWR094"  Part="1" 
 AR Path="/62175536/63845E57" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15950 4750 50  0001 C CNN
+F 0 "#PWR094" H 15950 4750 50  0001 C CNN
 F 1 "+3.3V" H 15800 5000 50  0000 C CNN
 F 2 "" H 15950 4900 50  0001 C CNN
 F 3 "" H 15950 4900 50  0001 C CNN
@@ -3389,12 +3389,12 @@ Wire Wire Line
 Text GLabel 16600 5025 0    50   Output ~ 0
 LIM_4
 $Comp
-L power:GND #PWR?
+L power:GND #PWR099
 U 1 1 63845E66
 P 16700 5725
-AR Path="/63845E66" Ref="#PWR?"  Part="1" 
+AR Path="/63845E66" Ref="#PWR099"  Part="1" 
 AR Path="/62175536/63845E66" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16700 5475 50  0001 C CNN
+F 0 "#PWR099" H 16700 5475 50  0001 C CNN
 F 1 "GND" H 16600 5600 50  0000 C CNN
 F 2 "" H 16700 5725 50  0001 C CNN
 F 3 "" H 16700 5725 50  0001 C CNN
@@ -3402,12 +3402,12 @@ F 3 "" H 16700 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D37
 U 1 1 63845E6C
 P 16700 5525
-AR Path="/63845E6C" Ref="D?"  Part="1" 
+AR Path="/63845E6C" Ref="D37"  Part="1" 
 AR Path="/62175536/63845E6C" Ref="D?"  Part="1" 
-F 0 "D?" V 16775 5700 50  0000 C CNN
+F 0 "D37" V 16775 5700 50  0000 C CNN
 F 1 "Blue" V 16700 5700 50  0000 C CNN
 F 2 "" H 16700 5525 50  0001 C CNN
 F 3 "~" H 16700 5525 50  0001 C CNN
@@ -3415,12 +3415,12 @@ F 3 "~" H 16700 5525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R39
 U 1 1 63845E72
 P 16700 5225
-AR Path="/63845E72" Ref="R?"  Part="1" 
+AR Path="/63845E72" Ref="R39"  Part="1" 
 AR Path="/62175536/63845E72" Ref="R?"  Part="1" 
-F 0 "R?" H 16500 5250 50  0000 L CNN
+F 0 "R39" H 16500 5250 50  0000 L CNN
 F 1 "43" H 16500 5175 50  0000 L CNN
 F 2 "" H 16700 5225 50  0001 C CNN
 F 3 "~" H 16700 5225 50  0001 C CNN
@@ -3428,12 +3428,12 @@ F 3 "~" H 16700 5225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn20
 U 1 1 63845E78
 P 16825 5250
-AR Path="/63845E78" Ref="Conn?"  Part="1" 
+AR Path="/63845E78" Ref="Conn20"  Part="1" 
 AR Path="/62175536/63845E78" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 16975 5250 60  0000 L CNN
+F 0 "Conn20" V 16975 5250 60  0000 L CNN
 F 1 "Molex_SL_02" V 17075 5250 60  0001 L CNN
 F 2 "" H 16825 5150 60  0001 C CNN
 F 3 "" H 16825 5150 60  0001 C CNN
@@ -3441,12 +3441,12 @@ F 3 "" H 16825 5150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0100
 U 1 1 63845E7E
 P 16975 4900
-AR Path="/63845E7E" Ref="#PWR?"  Part="1" 
+AR Path="/63845E7E" Ref="#PWR0100"  Part="1" 
 AR Path="/62175536/63845E7E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16975 4750 50  0001 C CNN
+F 0 "#PWR0100" H 16975 4750 50  0001 C CNN
 F 1 "+3.3V" H 16825 5000 50  0000 C CNN
 F 2 "" H 16975 4900 50  0001 C CNN
 F 3 "" H 16975 4900 50  0001 C CNN
@@ -3466,12 +3466,12 @@ Wire Wire Line
 Wire Wire Line
 	16700 5025 16700 5125
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn13
 U 1 1 63845E8A
 P 13750 5250
-AR Path="/63845E8A" Ref="Conn?"  Part="1" 
+AR Path="/63845E8A" Ref="Conn13"  Part="1" 
 AR Path="/62175536/63845E8A" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 13900 5250 60  0000 L CNN
+F 0 "Conn13" V 13900 5250 60  0000 L CNN
 F 1 "Molex_SL_02" V 14000 5250 60  0001 L CNN
 F 2 "" H 13750 5150 60  0001 C CNN
 F 3 "" H 13750 5150 60  0001 C CNN
@@ -3489,12 +3489,12 @@ Internal V+ Gen
 Wire Notes Line
 	8825 6025 8825 4525
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 1 1 63845E97
 P 625 5175
-AR Path="/63845E97" Ref="Conn?"  Part="1" 
+AR Path="/63845E97" Ref="Conn1"  Part="1" 
 AR Path="/62175536/63845E97" Ref="Conn?"  Part="1" 
-F 0 "Conn?" H 833 5562 60  0000 C CNN
+F 0 "Conn1" H 833 5562 60  0000 C CNN
 F 1 "AndersonPP" H 833 5456 60  0000 C CNN
 F 2 "" H 475 4625 60  0001 C CNN
 F 3 "" H 475 4625 60  0001 C CNN
@@ -3502,12 +3502,12 @@ F 3 "" H 475 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 3 1 63845EA3
 P 2175 5175
-AR Path="/63845EA3" Ref="Conn?"  Part="3" 
+AR Path="/63845EA3" Ref="Conn1"  Part="3" 
 AR Path="/62175536/63845EA3" Ref="Conn?"  Part="3" 
-F 0 "Conn?" H 2325 5525 60  0000 C CNN
+F 0 "Conn1" H 2325 5525 60  0000 C CNN
 F 1 "AndersonPP" H 2325 5425 60  0000 C CNN
 F 2 "" H 2025 4625 60  0001 C CNN
 F 3 "" H 2025 4625 60  0001 C CNN
@@ -3515,12 +3515,12 @@ F 3 "" H 2025 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 2 1 63845EAF
 P 1425 5175
-AR Path="/63845EAF" Ref="Conn?"  Part="2" 
+AR Path="/63845EAF" Ref="Conn1"  Part="2" 
 AR Path="/62175536/63845EAF" Ref="Conn?"  Part="2" 
-F 0 "Conn?" H 1525 5525 60  0000 C CNN
+F 0 "Conn1" H 1525 5525 60  0000 C CNN
 F 1 "AndersonPP" H 1525 5425 60  0000 C CNN
 F 2 "" H 1275 4625 60  0001 C CNN
 F 3 "" H 1275 4625 60  0001 C CNN
@@ -3530,12 +3530,12 @@ $EndComp
 Wire Wire Line
 	1025 5075 1125 5075
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 63845EBE
 P 1125 5175
-AR Path="/63845EBE" Ref="#PWR?"  Part="1" 
+AR Path="/63845EBE" Ref="#PWR06"  Part="1" 
 AR Path="/62175536/63845EBE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1125 4925 50  0001 C CNN
+F 0 "#PWR06" H 1125 4925 50  0001 C CNN
 F 1 "GND" H 1130 5002 50  0000 C CNN
 F 2 "" H 1125 5175 50  0001 C CNN
 F 3 "" H 1125 5175 50  0001 C CNN
@@ -3547,12 +3547,12 @@ Wire Wire Line
 Wire Wire Line
 	2575 5075 2675 5075
 $Comp
-L power:+12VA #PWR?
+L power:+12VA #PWR019
 U 1 1 63845ECC
 P 2675 4975
-AR Path="/63845ECC" Ref="#PWR?"  Part="1" 
+AR Path="/63845ECC" Ref="#PWR019"  Part="1" 
 AR Path="/62175536/63845ECC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2675 4825 50  0001 C CNN
+F 0 "#PWR019" H 2675 4825 50  0001 C CNN
 F 1 "+12VA" H 2690 5148 50  0000 C CNN
 F 2 "" H 2675 4975 50  0001 C CNN
 F 3 "" H 2675 4975 50  0001 C CNN
@@ -3562,12 +3562,12 @@ $EndComp
 Wire Wire Line
 	2675 5075 2675 4975
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR012
 U 1 1 63845ED4
 P 1925 4925
-AR Path="/63845ED4" Ref="#PWR?"  Part="1" 
+AR Path="/63845ED4" Ref="#PWR012"  Part="1" 
 AR Path="/62175536/63845ED4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1925 4775 50  0001 C CNN
+F 0 "#PWR012" H 1925 4775 50  0001 C CNN
 F 1 "+12V" H 1940 5098 50  0000 C CNN
 F 2 "" H 1925 4925 50  0001 C CNN
 F 3 "" H 1925 4925 50  0001 C CNN
@@ -3593,10 +3593,10 @@ Voltage Rail LEDs
 Wire Wire Line
 	1125 5075 1125 5175
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR07
 U 1 1 61882DDD
 P 1275 2900
-F 0 "#PWR?" H 1275 2750 50  0001 C CNN
+F 0 "#PWR07" H 1275 2750 50  0001 C CNN
 F 1 "+5V" H 1290 3073 50  0000 C CNN
 F 2 "" H 1275 2900 50  0001 C CNN
 F 3 "" H 1275 2900 50  0001 C CNN
@@ -3612,12 +3612,12 @@ Wire Wire Line
 Text GLabel 925  3050 1    50   Input ~ 0
 LASER
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 61A3CC02
 P 775 3975
-AR Path="/61A3CC02" Ref="#PWR?"  Part="1" 
+AR Path="/61A3CC02" Ref="#PWR01"  Part="1" 
 AR Path="/62175536/61A3CC02" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 775 3725 50  0001 C CNN
+F 0 "#PWR01" H 775 3725 50  0001 C CNN
 F 1 "GND" H 775 3825 50  0000 C CNN
 F 2 "" H 775 3975 50  0001 C CNN
 F 3 "" H 775 3975 50  0001 C CNN
@@ -3625,12 +3625,12 @@ F 3 "" H 775 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 61A3CC08
 P 1275 3500
-AR Path="/61A3CC08" Ref="R?"  Part="1" 
+AR Path="/61A3CC08" Ref="R3"  Part="1" 
 AR Path="/62175536/61A3CC08" Ref="R?"  Part="1" 
-F 0 "R?" H 1400 3525 50  0000 C CNN
+F 0 "R3" H 1400 3525 50  0000 C CNN
 F 1 "43" H 1400 3450 50  0000 C CNN
 F 2 "" H 1275 3500 50  0001 C CNN
 F 3 "~" H 1275 3500 50  0001 C CNN
@@ -3640,12 +3640,12 @@ $EndComp
 Wire Wire Line
 	1275 2900 1275 2950
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q3
 U 1 1 61A3CC1D
 P 1175 3150
-AR Path="/61A3CC1D" Ref="Q?"  Part="1" 
+AR Path="/61A3CC1D" Ref="Q3"  Part="1" 
 AR Path="/62175536/61A3CC1D" Ref="Q?"  Part="1" 
-F 0 "Q?" H 1380 3150 50  0000 L CNN
+F 0 "Q3" H 1380 3150 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 1385 3195 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 1400 3000 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 1400 2900 50  0001 L CNN
@@ -3663,12 +3663,12 @@ $EndComp
 Wire Notes Line
 	11575 4525 11575 9325
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn2
 U 1 1 625D6A97
 P 1125 3975
-AR Path="/625D6A97" Ref="Conn?"  Part="1" 
+AR Path="/625D6A97" Ref="Conn2"  Part="1" 
 AR Path="/62175536/625D6A97" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 1275 3975 60  0000 L CNN
+F 0 "Conn2" V 1275 3975 60  0000 L CNN
 F 1 "Molex_SL_02" V 1375 3975 60  0001 L CNN
 F 2 "" H 1125 3875 60  0001 C CNN
 F 3 "" H 1125 3875 60  0001 C CNN
@@ -3688,12 +3688,12 @@ SOL
 Wire Wire Line
 	2450 2900 2450 2950
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q?
+L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q6
 U 1 1 626C4DDE
 P 2350 3150
-AR Path="/626C4DDE" Ref="Q?"  Part="1" 
+AR Path="/626C4DDE" Ref="Q6"  Part="1" 
 AR Path="/62175536/626C4DDE" Ref="Q?"  Part="1" 
-F 0 "Q?" H 2555 3150 50  0000 L CNN
+F 0 "Q6" H 2555 3150 50  0000 L CNN
 F 1 "BSS139H6327XTSA1" H 2560 3195 50  0001 L CNN
 F 2 "SOT95P260X110-3N" H 2575 3000 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 2575 2900 50  0001 L CNN
@@ -3709,10 +3709,10 @@ F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-a
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR014
 U 1 1 626ED493
 P 2450 2900
-F 0 "#PWR?" H 2450 2750 50  0001 C CNN
+F 0 "#PWR014" H 2450 2750 50  0001 C CNN
 F 1 "+12V" H 2465 3073 50  0000 C CNN
 F 2 "" H 2450 2900 50  0001 C CNN
 F 3 "" H 2450 2900 50  0001 C CNN
@@ -3728,12 +3728,12 @@ Wire Wire Line
 Wire Wire Line
 	1950 3775 2350 3775
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn3
 U 1 1 626C4DE4
 P 2300 3975
-AR Path="/626C4DE4" Ref="Conn?"  Part="1" 
+AR Path="/626C4DE4" Ref="Conn3"  Part="1" 
 AR Path="/62175536/626C4DE4" Ref="Conn?"  Part="1" 
-F 0 "Conn?" V 2450 3975 60  0000 L CNN
+F 0 "Conn3" V 2450 3975 60  0000 L CNN
 F 1 "Molex_SL_02" V 2550 3975 60  0001 L CNN
 F 2 "" H 2300 3875 60  0001 C CNN
 F 3 "" H 2300 3875 60  0001 C CNN
@@ -3741,12 +3741,12 @@ F 3 "" H 2300 3875 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 626C4DC9
 P 1950 3975
-AR Path="/626C4DC9" Ref="#PWR?"  Part="1" 
+AR Path="/626C4DC9" Ref="#PWR013"  Part="1" 
 AR Path="/62175536/626C4DC9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1950 3725 50  0001 C CNN
+F 0 "#PWR013" H 1950 3725 50  0001 C CNN
 F 1 "GND" H 1950 3825 50  0000 C CNN
 F 2 "" H 1950 3975 50  0001 C CNN
 F 3 "" H 1950 3975 50  0001 C CNN
@@ -3754,12 +3754,12 @@ F 3 "" H 1950 3975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R6
 U 1 1 626C4DCF
 P 2450 3500
-AR Path="/626C4DCF" Ref="R?"  Part="1" 
+AR Path="/626C4DCF" Ref="R6"  Part="1" 
 AR Path="/62175536/626C4DCF" Ref="R?"  Part="1" 
-F 0 "R?" H 2575 3525 50  0000 C CNN
+F 0 "R6" H 2575 3525 50  0000 C CNN
 F 1 "43" H 2575 3450 50  0000 C CNN
 F 2 "" H 2450 3500 50  0001 C CNN
 F 3 "~" H 2450 3500 50  0001 C CNN
@@ -3799,144 +3799,210 @@ Text Notes 925  4425 0    98   ~ 20
 Laser
 Text Notes 1875 4425 0    98   ~ 20
 Solennoid
-Text GLabel 8700 4050 0    50   Output ~ 0
+Text GLabel 8700 4200 0    50   Output ~ 0
 SOL
 Wire Wire Line
-	8700 3550 8250 3550
-NoConn ~ 8700 1975
-NoConn ~ 8700 1875
-NoConn ~ 8700 1775
+	8700 3700 8250 3700
+NoConn ~ 8700 2125
+NoConn ~ 8700 2025
+NoConn ~ 8700 1925
 Wire Wire Line
-	8700 3750 8125 3750
+	8700 3900 8125 3900
 Wire Wire Line
-	7975 3850 8700 3850
-NoConn ~ 4600 3850
-NoConn ~ 4600 3950
-Text GLabel 8700 3950 0    50   Output ~ 0
+	7975 4000 8700 4000
+NoConn ~ 4600 4000
+NoConn ~ 4600 4100
+Text GLabel 8700 4100 0    50   Output ~ 0
 LASER
 Wire Wire Line
-	4600 2675 6050 2675
+	4600 2825 6050 2825
 Wire Wire Line
-	4600 2575 6150 2575
+	4600 2725 6150 2725
 Wire Wire Line
-	4600 2475 6050 2475
+	4600 2625 6050 2625
 Wire Wire Line
-	4600 2375 5950 2375
+	4600 2525 5950 2525
 Wire Wire Line
-	5450 2175 4600 2175
+	5450 2325 4600 2325
 Wire Wire Line
-	4600 2275 5550 2275
-NoConn ~ 4600 1875
-NoConn ~ 4600 1975
-NoConn ~ 4600 2075
-NoConn ~ 4600 3550
-NoConn ~ 4600 3750
-NoConn ~ 4600 4050
-NoConn ~ 4600 4150
+	4600 2425 5550 2425
+NoConn ~ 4600 2025
+NoConn ~ 4600 2125
+NoConn ~ 4600 2225
+NoConn ~ 4600 3700
+NoConn ~ 4600 3900
+NoConn ~ 4600 4200
+NoConn ~ 4600 4300
 $Comp
 L power:+3.3V #PWR?
 U 1 1 63845F32
-P 5150 1775
+P 5150 1925
 AR Path="/62175536/63845F32" Ref="#PWR?"  Part="1" 
-AR Path="/63845F32" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5150 1625 50  0001 C CNN
-F 1 "+3.3V" H 5165 1948 50  0000 C CNN
-F 2 "" H 5150 1775 50  0001 C CNN
-F 3 "" H 5150 1775 50  0001 C CNN
-	1    5150 1775
+AR Path="/63845F32" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 5150 1775 50  0001 C CNN
+F 1 "+3.3V" H 5165 2098 50  0000 C CNN
+F 2 "" H 5150 1925 50  0001 C CNN
+F 3 "" H 5150 1925 50  0001 C CNN
+	1    5150 1925
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 1775 5150 1775
-NoConn ~ 4600 3250
-NoConn ~ 4600 3450
-NoConn ~ 4600 3650
+	4600 1925 5150 1925
+NoConn ~ 4600 3400
+NoConn ~ 4600 3600
+NoConn ~ 4600 3800
 $Comp
 L power:GND #PWR?
 U 1 1 63845F28
-P 4900 3350
+P 4900 3500
 AR Path="/62175536/63845F28" Ref="#PWR?"  Part="1" 
-AR Path="/63845F28" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4900 3100 50  0001 C CNN
-F 1 "GND" H 4905 3177 50  0000 C CNN
-F 2 "" H 4900 3350 50  0001 C CNN
-F 3 "" H 4900 3350 50  0001 C CNN
-	1    4900 3350
+AR Path="/63845F28" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 4900 3250 50  0001 C CNN
+F 1 "GND" H 4905 3327 50  0000 C CNN
+F 2 "" H 4900 3500 50  0001 C CNN
+F 3 "" H 4900 3500 50  0001 C CNN
+	1    4900 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 3350 4900 3350
+	4600 3500 4900 3500
 Wire Wire Line
-	6150 2675 6450 2675
+	6150 2825 6450 2825
 $Sheet
-S 6450 1525 1000 1450
+S 6450 1675 1000 1450
 U 63845F20
 F0 "Motor_Controller1-3" 50
 F1 "Motor_Controller1-3.sch" 50
-F2 "PMW_1" I R 7450 1775 50 
-F3 "PMW_2" I R 7450 2225 50 
-F4 "PMW_3" I R 7450 2625 50 
-F5 "IN_A_1" I L 6450 1775 50 
-F6 "IN_B_1" I L 6450 1875 50 
-F7 "IN_A_2" I L 6450 2225 50 
-F8 "IN_B_2" I L 6450 2325 50 
-F9 "IN_A_3" I L 6450 2675 50 
-F10 "In_B_3" I L 6450 2775 50 
+F2 "PMW_1" I R 7450 1925 50 
+F3 "PMW_2" I R 7450 2375 50 
+F4 "PMW_3" I R 7450 2775 50 
+F5 "IN_A_1" I L 6450 1925 50 
+F6 "IN_B_1" I L 6450 2025 50 
+F7 "IN_A_2" I L 6450 2375 50 
+F8 "IN_B_2" I L 6450 2475 50 
+F9 "IN_A_3" I L 6450 2825 50 
+F10 "In_B_3" I L 6450 2925 50 
 $EndSheet
-NoConn ~ 8700 3450
-NoConn ~ 8700 3350
+NoConn ~ 8700 3600
+NoConn ~ 8700 3500
 Wire Wire Line
-	6050 2775 6450 2775
+	6050 2925 6450 2925
 Wire Wire Line
-	6050 2675 6050 2775
+	6050 2825 6050 2925
 Wire Wire Line
-	6150 2575 6150 2675
+	6150 2725 6150 2825
 Wire Wire Line
-	6050 2325 6450 2325
+	6050 2475 6450 2475
 Wire Wire Line
-	6050 2475 6050 2325
+	6050 2625 6050 2475
 Wire Wire Line
-	5950 2225 6450 2225
+	5950 2375 6450 2375
 Wire Wire Line
-	5950 2375 5950 2225
+	5950 2525 5950 2375
 Wire Wire Line
-	5550 1875 6450 1875
+	5550 2025 6450 2025
 Wire Wire Line
-	5550 2275 5550 1875
+	5550 2425 5550 2025
 Wire Wire Line
-	5450 1775 6450 1775
+	5450 1925 6450 1925
 Wire Wire Line
-	5450 2175 5450 1775
+	5450 2325 5450 1925
 Wire Wire Line
-	8450 3250 8450 3300
+	8450 3400 8450 3450
 Wire Wire Line
-	8700 3250 8450 3250
+	8700 3400 8450 3400
 $Comp
 L power:GND #PWR?
 U 1 1 63845EFE
-P 8450 3300
+P 8450 3450
 AR Path="/62175536/63845EFE" Ref="#PWR?"  Part="1" 
-AR Path="/63845EFE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8450 3050 50  0001 C CNN
-F 1 "GND" H 8455 3127 50  0000 C CNN
-F 2 "" H 8450 3300 50  0001 C CNN
-F 3 "" H 8450 3300 50  0001 C CNN
-	1    8450 3300
+AR Path="/63845EFE" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 8450 3200 50  0001 C CNN
+F 1 "GND" H 8455 3277 50  0000 C CNN
+F 2 "" H 8450 3450 50  0001 C CNN
+F 3 "" H 8450 3450 50  0001 C CNN
+	1    8450 3450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8700 2675
-NoConn ~ 8700 2575
-NoConn ~ 8700 2475
-NoConn ~ 8700 2375
-NoConn ~ 8700 2275
-NoConn ~ 8700 2175
-NoConn ~ 8700 2075
-NoConn ~ 8700 4150
-NoConn ~ 8700 3650
+NoConn ~ 8700 2825
+NoConn ~ 8700 2725
+NoConn ~ 8700 2625
+NoConn ~ 8700 2525
+NoConn ~ 8700 2425
+NoConn ~ 8700 2325
+NoConn ~ 8700 2225
+NoConn ~ 8700 4300
+NoConn ~ 8700 3800
 Wire Wire Line
 	9925 5250 9450 5250
 Wire Wire Line
 	8975 5250 9450 5250
+$Comp
+L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+U 4 1 63845EF2
+P 8900 4350
+AR Path="/62175536/63845EF2" Ref="U?"  Part="4" 
+AR Path="/63845EF2" Ref="U1"  Part="4" 
+F 0 "U1" H 8950 5600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 8550 5500 60  0000 L CNN
+F 2 "" H 8900 4350 60  0001 C CNN
+F 3 "" H 8900 4350 60  0001 C CNN
+	4    8900 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+U 2 1 63845F41
+P 4400 4350
+AR Path="/62175536/63845F41" Ref="U?"  Part="2" 
+AR Path="/63845F41" Ref="U1"  Part="2" 
+F 0 "U1" H 4475 5600 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4050 5500 60  0000 L CNN
+F 2 "" H 4400 4350 60  0001 C CNN
+F 3 "" H 4400 4350 60  0001 C CNN
+	2    4400 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+U 1 1 63845F47
+P 4400 2875
+AR Path="/62175536/63845F47" Ref="U?"  Part="1" 
+AR Path="/63845F47" Ref="U1"  Part="1" 
+F 0 "U1" H 4425 4175 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 4025 4050 60  0000 L CNN
+F 2 "" H 4400 2875 60  0001 C CNN
+F 3 "" H 4400 2875 60  0001 C CNN
+	1    4400 2875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+U 3 1 63845EF8
+P 8900 2875
+AR Path="/62175536/63845EF8" Ref="U?"  Part="3" 
+AR Path="/63845EF8" Ref="U1"  Part="3" 
+F 0 "U1" H 8950 4175 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 8550 4050 60  0000 L CNN
+F 2 "" H 8900 2875 60  0001 C CNN
+F 3 "" H 8900 2875 60  0001 C CNN
+	3    8900 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3700 8250 1925
+Wire Wire Line
+	7975 4000 7975 2775
+Wire Wire Line
+	7450 1925 8250 1925
+Wire Wire Line
+	7450 2375 8125 2375
+Wire Wire Line
+	8125 2375 8125 3900
+Wire Wire Line
+	7450 2775 7975 2775
+Wire Notes Line
+	13175 4700 17175 4700
 NoConn ~ 10775 3400
 $Sheet
 S 11925 700  950  950 
@@ -3952,8 +4018,8 @@ L power:+3.3V #PWR?
 U 1 1 63845F7E
 P 11075 1900
 AR Path="/62175536/63845F7E" Ref="#PWR?"  Part="1" 
-AR Path="/63845F7E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11075 1750 50  0001 C CNN
+AR Path="/63845F7E" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 11075 1750 50  0001 C CNN
 F 1 "+3.3V" H 11090 2073 50  0000 C CNN
 F 2 "" H 11075 1900 50  0001 C CNN
 F 3 "" H 11075 1900 50  0001 C CNN
@@ -3965,8 +4031,8 @@ L power:GND #PWR?
 U 1 1 63845F84
 P 11075 3500
 AR Path="/62175536/63845F84" Ref="#PWR?"  Part="1" 
-AR Path="/63845F84" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 11075 3250 50  0001 C CNN
+AR Path="/63845F84" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 11075 3250 50  0001 C CNN
 F 1 "GND" H 11080 3327 50  0000 C CNN
 F 2 "" H 11075 3500 50  0001 C CNN
 F 3 "" H 11075 3500 50  0001 C CNN
@@ -4018,8 +4084,8 @@ L power:GND #PWR?
 U 1 1 63845FA1
 P 15575 3225
 AR Path="/62175536/63845FA1" Ref="#PWR?"  Part="1" 
-AR Path="/63845FA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15575 2975 50  0001 C CNN
+AR Path="/63845FA1" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 15575 2975 50  0001 C CNN
 F 1 "GND" H 15580 3052 50  0000 C CNN
 F 2 "" H 15575 3225 50  0001 C CNN
 F 3 "" H 15575 3225 50  0001 C CNN
@@ -4095,8 +4161,6 @@ Wire Wire Line
 Wire Wire Line
 	10775 2000 11200 2000
 Wire Wire Line
-	11200 2000 11200 525 
-Wire Wire Line
 	14750 2100 14325 2100
 Wire Wire Line
 	14925 2550 14325 2550
@@ -4108,8 +4172,6 @@ NoConn ~ 15875 1900
 NoConn ~ 15875 2000
 NoConn ~ 15875 2100
 Wire Wire Line
-	11200 525  14750 525 
-Wire Wire Line
 	11375 950  11925 950 
 Wire Wire Line
 	12875 950  15125 950 
@@ -4118,8 +4180,8 @@ L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 8 1 63845F69
 P 16075 4350
 AR Path="/62175536/63845F69" Ref="U?"  Part="8" 
-AR Path="/63845F69" Ref="U?"  Part="8" 
-F 0 "U?" H 16125 5600 60  0000 L CNN
+AR Path="/63845F69" Ref="U1"  Part="8" 
+F 0 "U1" H 16125 5600 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 15725 5500 60  0000 L CNN
 F 2 "" H 16075 4350 60  0001 C CNN
 F 3 "" H 16075 4350 60  0001 C CNN
@@ -4131,8 +4193,8 @@ L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 7 1 63845F6F
 P 16075 2850
 AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
-AR Path="/63845F6F" Ref="U?"  Part="7" 
-F 0 "U?" H 16125 4100 60  0000 L CNN
+AR Path="/63845F6F" Ref="U1"  Part="7" 
+F 0 "U1" H 16125 4100 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 15725 4000 60  0000 L CNN
 F 2 "" H 16075 2850 60  0001 C CNN
 F 3 "" H 16075 2850 60  0001 C CNN
@@ -4144,8 +4206,8 @@ L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 6 1 63845F59
 P 10575 4350
 AR Path="/62175536/63845F59" Ref="U?"  Part="6" 
-AR Path="/63845F59" Ref="U?"  Part="6" 
-F 0 "U?" H 10625 5600 60  0000 L CNN
+AR Path="/63845F59" Ref="U1"  Part="6" 
+F 0 "U1" H 10625 5600 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 10200 5500 60  0000 L CNN
 F 2 "" H 10575 4350 60  0001 C CNN
 F 3 "" H 10575 4350 60  0001 C CNN
@@ -4157,78 +4219,14 @@ L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 5 1 63845F53
 P 10575 2850
 AR Path="/62175536/63845F53" Ref="U?"  Part="5" 
-AR Path="/63845F53" Ref="U?"  Part="5" 
-F 0 "U?" H 10625 4100 60  0000 L CNN
+AR Path="/63845F53" Ref="U1"  Part="5" 
+F 0 "U1" H 10625 4100 60  0000 L CNN
 F 1 "TM4C129E_Launchpad" H 10225 4000 60  0000 L CNN
 F 2 "" H 10575 2850 60  0001 C CNN
 F 3 "" H 10575 2850 60  0001 C CNN
 	5    10575 2850
 	-1   0    0    -1  
 $EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 4 1 63845EF2
-P 8900 4200
-AR Path="/62175536/63845EF2" Ref="U?"  Part="4" 
-AR Path="/63845EF2" Ref="U?"  Part="4" 
-F 0 "U?" H 8950 5450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 8550 5350 60  0000 L CNN
-F 2 "" H 8900 4200 60  0001 C CNN
-F 3 "" H 8900 4200 60  0001 C CNN
-	4    8900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 2 1 63845F41
-P 4400 4200
-AR Path="/62175536/63845F41" Ref="U?"  Part="2" 
-AR Path="/63845F41" Ref="U?"  Part="2" 
-F 0 "U?" H 4475 5450 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 4050 5350 60  0000 L CNN
-F 2 "" H 4400 4200 60  0001 C CNN
-F 3 "" H 4400 4200 60  0001 C CNN
-	2    4400 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 1 1 63845F47
-P 4400 2725
-AR Path="/62175536/63845F47" Ref="U?"  Part="1" 
-AR Path="/63845F47" Ref="U?"  Part="1" 
-F 0 "U?" H 4425 4025 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 4025 3900 60  0000 L CNN
-F 2 "" H 4400 2725 60  0001 C CNN
-F 3 "" H 4400 2725 60  0001 C CNN
-	1    4400 2725
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
-U 3 1 63845EF8
-P 8900 2725
-AR Path="/62175536/63845EF8" Ref="U?"  Part="3" 
-AR Path="/63845EF8" Ref="U?"  Part="3" 
-F 0 "U?" H 8950 4025 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 8550 3900 60  0000 L CNN
-F 2 "" H 8900 2725 60  0001 C CNN
-F 3 "" H 8900 2725 60  0001 C CNN
-	3    8900 2725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 3550 8250 1775
-Wire Wire Line
-	7975 3850 7975 2625
-Wire Wire Line
-	7450 1775 8250 1775
-Wire Wire Line
-	7450 2225 8125 2225
-Wire Wire Line
-	8125 2225 8125 3750
-Wire Wire Line
-	7450 2625 7975 2625
 Wire Wire Line
 	15675 4450 15525 4450
 $Comp
@@ -4236,8 +4234,8 @@ L power:GND #PWR?
 U 1 1 63845FB7
 P 14675 4100
 AR Path="/62175536/63845FB7" Ref="#PWR?"  Part="1" 
-AR Path="/63845FB7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14675 3850 50  0001 C CNN
+AR Path="/63845FB7" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 14675 3850 50  0001 C CNN
 F 1 "GND" H 14680 3927 50  0000 C CNN
 F 2 "" H 14675 4100 50  0001 C CNN
 F 3 "" H 14675 4100 50  0001 C CNN
@@ -4253,8 +4251,8 @@ L Device:R R?
 U 1 1 63845FBF
 P 15375 4450
 AR Path="/62175536/63845FBF" Ref="R?"  Part="1" 
-AR Path="/63845FBF" Ref="R?"  Part="1" 
-F 0 "R?" H 15445 4496 50  0000 L CNN
+AR Path="/63845FBF" Ref="R37"  Part="1" 
+F 0 "R37" H 15445 4496 50  0000 L CNN
 F 1 "43" H 15445 4405 50  0000 L CNN
 F 2 "" V 15305 4450 50  0001 C CNN
 F 3 "~" H 15375 4450 50  0001 C CNN
@@ -4266,8 +4264,8 @@ L power:GND #PWR?
 U 1 1 63845FC5
 P 14675 4450
 AR Path="/62175536/63845FC5" Ref="#PWR?"  Part="1" 
-AR Path="/63845FC5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14675 4200 50  0001 C CNN
+AR Path="/63845FC5" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 14675 4200 50  0001 C CNN
 F 1 "GND" H 14680 4277 50  0000 C CNN
 F 2 "" H 14675 4450 50  0001 C CNN
 F 3 "" H 14675 4450 50  0001 C CNN
@@ -4283,8 +4281,8 @@ L Device:LED D?
 U 1 1 63845FCE
 P 14975 4450
 AR Path="/62175536/63845FCE" Ref="D?"  Part="1" 
-AR Path="/63845FCE" Ref="D?"  Part="1" 
-F 0 "D?" V 15014 4332 50  0000 R CNN
+AR Path="/63845FCE" Ref="D35"  Part="1" 
+F 0 "D35" V 15014 4332 50  0000 R CNN
 F 1 "LED" V 14923 4332 50  0000 R CNN
 F 2 "" H 14975 4450 50  0001 C CNN
 F 3 "~" H 14975 4450 50  0001 C CNN
@@ -4296,8 +4294,8 @@ L Device:LED D?
 U 1 1 63845FD4
 P 14975 4100
 AR Path="/62175536/63845FD4" Ref="D?"  Part="1" 
-AR Path="/63845FD4" Ref="D?"  Part="1" 
-F 0 "D?" V 15014 3982 50  0000 R CNN
+AR Path="/63845FD4" Ref="D34"  Part="1" 
+F 0 "D34" V 15014 3982 50  0000 R CNN
 F 1 "LED" V 14923 3982 50  0000 R CNN
 F 2 "" H 14975 4100 50  0001 C CNN
 F 3 "~" H 14975 4100 50  0001 C CNN
@@ -4309,8 +4307,8 @@ L Device:R R?
 U 1 1 63845FDA
 P 15375 4100
 AR Path="/62175536/63845FDA" Ref="R?"  Part="1" 
-AR Path="/63845FDA" Ref="R?"  Part="1" 
-F 0 "R?" H 15445 4146 50  0000 L CNN
+AR Path="/63845FDA" Ref="R36"  Part="1" 
+F 0 "R36" H 15445 4146 50  0000 L CNN
 F 1 "43" H 15445 4055 50  0000 L CNN
 F 2 "" V 15305 4100 50  0001 C CNN
 F 3 "~" H 15375 4100 50  0001 C CNN
@@ -4319,8 +4317,6 @@ F 3 "~" H 15375 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15875 4100 15525 4100
-Wire Notes Line
-	13175 4700 17175 4700
 Wire Wire Line
 	15875 4300 15675 4300
 Wire Wire Line
@@ -4334,5 +4330,12 @@ Wire Wire Line
 Wire Wire Line
 	11725 4300 10775 4300
 Wire Wire Line
+	11200 525  14750 525 
+Wire Wire Line
+	11200 2000 11200 525 
+Wire Wire Line
 	14750 525  14750 2100
+Connection ~ 11200 525 
+Wire Wire Line
+	11200 525  11200 425 
 $EndSCHEMATC
