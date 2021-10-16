@@ -4335,7 +4335,4 @@ Wire Wire Line
 	11200 2000 11200 525 
 Wire Wire Line
 	14750 525  14750 2100
-Connection ~ 11200 525 
-Wire Wire Line
-	11200 525  11200 425 
 $EndSCHEMATC
