@@ -1782,7 +1782,7 @@ AR Path="/63845D0D" Ref="Conn2"  Part="2"
 AR Path="/62175536/63845D0D" Ref="Conn?"  Part="2" 
 F 0 "Conn2" H 3133 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2775 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2775 4525 60  0001 C CNN
 F 3 "" H 2775 4525 60  0001 C CNN
 	2    2925 5075
 	1    0    0    -1  
@@ -1795,7 +1795,7 @@ AR Path="/63845D13" Ref="Conn3"  Part="2"
 AR Path="/62175536/63845D13" Ref="Conn?"  Part="2" 
 F 0 "Conn3" H 3983 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 3625 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3625 4525 60  0001 C CNN
 F 3 "" H 3625 4525 60  0001 C CNN
 	2    3775 5075
 	1    0    0    -1  
@@ -1810,7 +1810,7 @@ AR Path="/63845D1A" Ref="Conn2"  Part="1"
 AR Path="/62175536/63845D1A" Ref="Conn?"  Part="1" 
 F 0 "Conn2" H 3133 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2775 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2775 4975 60  0001 C CNN
 F 3 "" H 2775 4975 60  0001 C CNN
 	1    2925 5525
 	1    0    0    -1  
@@ -1827,7 +1827,7 @@ AR Path="/63845D22" Ref="Conn3"  Part="1"
 AR Path="/62175536/63845D22" Ref="Conn?"  Part="1" 
 F 0 "Conn3" H 3983 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 3625 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3625 4975 60  0001 C CNN
 F 3 "" H 3625 4975 60  0001 C CNN
 	1    3775 5525
 	1    0    0    -1  
@@ -1842,7 +1842,7 @@ AR Path="/63845D29" Ref="Conn4"  Part="2"
 AR Path="/62175536/63845D29" Ref="Conn?"  Part="2" 
 F 0 "Conn4" H 4833 5462 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 4475 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4475 4525 60  0001 C CNN
 F 3 "" H 4475 4525 60  0001 C CNN
 	2    4625 5075
 	1    0    0    -1  
@@ -1857,7 +1857,7 @@ AR Path="/63845D30" Ref="Conn4"  Part="1"
 AR Path="/62175536/63845D30" Ref="Conn?"  Part="1" 
 F 0 "Conn4" H 4833 5912 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 4475 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4475 4975 60  0001 C CNN
 F 3 "" H 4475 4975 60  0001 C CNN
 	1    4625 5525
 	1    0    0    -1  
@@ -1872,7 +1872,7 @@ AR Path="/63845D37" Ref="Conn5"  Part="2"
 AR Path="/62175536/63845D37" Ref="Conn?"  Part="2" 
 F 0 "Conn5" H 5683 5462 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 5325 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5325 4525 60  0001 C CNN
 F 3 "" H 5325 4525 60  0001 C CNN
 	2    5475 5075
 	1    0    0    -1  
@@ -1887,7 +1887,7 @@ AR Path="/63845D3E" Ref="Conn5"  Part="1"
 AR Path="/62175536/63845D3E" Ref="Conn?"  Part="1" 
 F 0 "Conn5" H 5683 5912 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 5325 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5325 4975 60  0001 C CNN
 F 3 "" H 5325 4975 60  0001 C CNN
 	1    5475 5525
 	1    0    0    -1  
@@ -1900,7 +1900,7 @@ AR Path="/63845D45" Ref="Conn6"  Part="2"
 AR Path="/62175536/63845D45" Ref="Conn?"  Part="2" 
 F 0 "Conn6" H 6533 5462 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 6175 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6175 4525 60  0001 C CNN
 F 3 "" H 6175 4525 60  0001 C CNN
 	2    6325 5075
 	1    0    0    -1  
@@ -1913,7 +1913,7 @@ AR Path="/63845D4C" Ref="Conn6"  Part="1"
 AR Path="/62175536/63845D4C" Ref="Conn?"  Part="1" 
 F 0 "Conn6" H 6533 5912 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 6175 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6175 4975 60  0001 C CNN
 F 3 "" H 6175 4975 60  0001 C CNN
 	1    6325 5525
 	1    0    0    -1  
@@ -1926,7 +1926,7 @@ AR Path="/63845D53" Ref="Conn7"  Part="2"
 AR Path="/62175536/63845D53" Ref="Conn?"  Part="2" 
 F 0 "Conn7" H 7383 5462 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7025 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7025 4525 60  0001 C CNN
 F 3 "" H 7025 4525 60  0001 C CNN
 	2    7175 5075
 	1    0    0    -1  
@@ -1939,7 +1939,7 @@ AR Path="/63845D5A" Ref="Conn7"  Part="1"
 AR Path="/62175536/63845D5A" Ref="Conn?"  Part="1" 
 F 0 "Conn7" H 7383 5912 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7025 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7025 4975 60  0001 C CNN
 F 3 "" H 7025 4975 60  0001 C CNN
 	1    7175 5525
 	1    0    0    -1  
@@ -1952,7 +1952,7 @@ AR Path="/63845D61" Ref="Conn8"  Part="2"
 AR Path="/62175536/63845D61" Ref="Conn?"  Part="2" 
 F 0 "Conn8" H 8233 5462 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7875 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7875 4525 60  0001 C CNN
 F 3 "" H 7875 4525 60  0001 C CNN
 	2    8025 5075
 	1    0    0    -1  
@@ -1965,7 +1965,7 @@ AR Path="/63845D68" Ref="Conn8"  Part="1"
 AR Path="/62175536/63845D68" Ref="Conn?"  Part="1" 
 F 0 "Conn8" H 8233 5912 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7875 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7875 4975 60  0001 C CNN
 F 3 "" H 7875 4975 60  0001 C CNN
 	1    8025 5525
 	1    0    0    -1  
@@ -2591,7 +2591,7 @@ AR Path="/63845E97" Ref="Conn1"  Part="1"
 AR Path="/62175536/63845E97" Ref="Conn?"  Part="1" 
 F 0 "Conn1" H 833 5562 60  0000 C CNN
 F 1 "AndersonPP" H 833 5456 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 475 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 475 4625 60  0001 C CNN
 F 3 "" H 475 4625 60  0001 C CNN
 	1    625  5175
 	1    0    0    -1  
@@ -2604,7 +2604,7 @@ AR Path="/63845EA3" Ref="Conn1"  Part="3"
 AR Path="/62175536/63845EA3" Ref="Conn?"  Part="3" 
 F 0 "Conn1" H 2325 5525 60  0000 C CNN
 F 1 "AndersonPP" H 2325 5425 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2025 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2025 4625 60  0001 C CNN
 F 3 "" H 2025 4625 60  0001 C CNN
 	3    2175 5175
 	1    0    0    -1  
@@ -2617,7 +2617,7 @@ AR Path="/63845EAF" Ref="Conn1"  Part="2"
 AR Path="/62175536/63845EAF" Ref="Conn?"  Part="2" 
 F 0 "Conn1" H 1525 5525 60  0000 C CNN
 F 1 "AndersonPP" H 1525 5425 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 1275 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1275 4625 60  0001 C CNN
 F 3 "" H 1275 4625 60  0001 C CNN
 	2    1425 5175
 	1    0    0    -1  
@@ -3820,12 +3820,12 @@ Wire Wire Line
 Text GLabel 9050 7105 0    50   Input ~ 0
 ENa_4
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q15
 U 1 1 62295B3B
 P 14400 3375
-AR Path="/62295B3B" Ref="Q?"  Part="1" 
+AR Path="/62295B3B" Ref="Q15"  Part="1" 
 AR Path="/62175536/62295B3B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 14604 3421 50  0000 L CNN
+F 0 "Q15" H 14604 3421 50  0000 L CNN
 F 1 "BSS138" H 14604 3330 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14600 3300 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 14400 3375 50  0001 L CNN
@@ -3833,12 +3833,12 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 14400 3375 50  0001 L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q16
 U 1 1 622BDC38
 P 15575 3375
-AR Path="/622BDC38" Ref="Q?"  Part="1" 
+AR Path="/622BDC38" Ref="Q16"  Part="1" 
 AR Path="/62175536/622BDC38" Ref="Q?"  Part="1" 
-F 0 "Q?" H 15779 3421 50  0000 L CNN
+F 0 "Q16" H 15779 3421 50  0000 L CNN
 F 1 "BSS138" H 15779 3330 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 15775 3300 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 15575 3375 50  0001 L CNN
