@@ -21,40 +21,6 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# ArmBoard_Hardware-rescue_BSS139H6327XTSA1-SamacSys_Parts
-#
-DEF ArmBoard_Hardware-rescue_BSS139H6327XTSA1-SamacSys_Parts Q 0 30 Y Y 1 F N
-F0 "Q" 225 50 50 H V L CNN
-F1 "ArmBoard_Hardware-rescue_BSS139H6327XTSA1-SamacSys_Parts" 225 -50 50 H V L CNN
-F2 "SOT95P260X110-3N" 225 -150 50 H I L CNN
-F3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" 225 -250 50 H I L CNN
-F4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" 225 -350 50 H I L CNN "Description"
-F5 "1.1" 225 -450 50 H I L CNN "Height"
-F6 "Infineon" 225 -550 50 H I L CNN "Manufacturer_Name"
-F7 "BSS139H6327XTSA1" 225 -650 50 H I L CNN "Manufacturer_Part_Number"
-F8 "726-BSS139H6327XTSA" 225 -750 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" 225 -850 50 H I L CNN "Mouser Price/Stock"
-F10 "BSS139H6327XTSA1" 225 -950 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" 225 -1050 50 H I L CNN "Arrow Price/Stock"
-DRAW
-C 65 0 110 1 1 10 N
-C 100 -70 10 1 1 0 F
-C 100 70 10 1 1 0 F
-P 2 1 1 0 10 0 -100 0 N
-P 2 1 1 10 10 75 10 -75 N
-P 2 1 1 10 30 90 30 -90 N
-P 2 1 1 0 100 100 100 70 N
-P 3 1 1 0 100 -100 100 0 30 0 N
-P 4 1 1 0 30 -70 130 -70 130 70 30 70 N
-P 4 1 1 0 40 0 80 15 80 -15 40 0 F
-P 4 1 1 0 110 20 115 15 145 15 150 10 N
-P 4 1 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 100 R 50 0 1 1 I
-X S 2 100 -200 100 U 50 0 1 1 P
-X D 3 100 200 100 D 50 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # ArmBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors
 #
 DEF ArmBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors Conn 0 40 Y Y 1 F N

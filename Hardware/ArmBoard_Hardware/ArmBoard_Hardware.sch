@@ -456,7 +456,7 @@ F 1 "BSS138" H 5129 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5125 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4925 6475 50  0001 L CNN
 	1    4925 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4225 6925 4225 6975
@@ -522,7 +522,7 @@ F 1 "BSS138" H 4329 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4325 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4125 6475 50  0001 L CNN
 	1    4125 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3425 6925 3425 6975
@@ -586,7 +586,7 @@ F 1 "BSS138" H 3529 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3525 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 3325 6475 50  0001 L CNN
 	1    3325 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2625 6925 2625 6975
@@ -652,7 +652,7 @@ F 1 "BSS138" H 2729 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2725 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2525 6475 50  0001 L CNN
 	1    2525 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1825 6925 1825 6975
@@ -718,7 +718,7 @@ F 1 "BSS138" H 1929 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1925 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1725 6475 50  0001 L CNN
 	1    1725 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	975  6925 975  6975
@@ -784,7 +784,7 @@ F 1 "BSS138" H 1079 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1075 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 875 6475 50  0001 L CNN
 	1    875  6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Text GLabel 3075 7925 1    50   Input ~ 0
 OUTb_4
@@ -852,7 +852,7 @@ F 1 "BSS138" H 5929 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5925 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5725 8025 50  0001 L CNN
 	1    5725 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5025 8475 5025 8525
@@ -918,7 +918,7 @@ F 1 "BSS138" H 5129 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5125 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4925 8025 50  0001 L CNN
 	1    4925 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4225 8475 4225 8525
@@ -984,7 +984,7 @@ F 1 "BSS138" H 4329 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4325 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4125 8025 50  0001 L CNN
 	1    4125 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3425 8475 3425 8525
@@ -1048,7 +1048,7 @@ F 1 "BSS138" H 3529 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3525 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 3325 8025 50  0001 L CNN
 	1    3325 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2625 8475 2625 8525
@@ -1114,7 +1114,7 @@ F 1 "BSS138" H 2729 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2725 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 2525 8025 50  0001 L CNN
 	1    2525 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1825 8475 1825 8525
@@ -1180,7 +1180,7 @@ F 1 "BSS138" H 1929 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1925 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1725 8025 50  0001 L CNN
 	1    1725 8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	975  8475 975  8525
@@ -1246,474 +1246,61 @@ F 1 "BSS138" H 1079 7980 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1075 7950 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 875 8025 50  0001 L CNN
 	1    875  8025
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Notes 925  9275 0    98   ~ 20
 Motor Output Indicator LEDs\n
 Text Notes 3175 9275 0    50   ~ 0
 LED On: Voltage applied to OUTx_#\nLED Off: No voltage applied to OUTx_#
-Text GLabel 8725 6375 1    50   Input ~ 0
-ENa_4
-Wire Wire Line
-	11300 6925 11300 6975
-Wire Wire Line
-	11300 6675 11300 6725
-Wire Wire Line
-	11300 7275 11300 7325
-Wire Wire Line
-	10950 6375 10950 6475
-Wire Wire Line
-	10950 6475 11000 6475
-Text GLabel 10950 6375 1    50   Input ~ 0
-ENa_7
-$Comp
-L power:GND #PWR076
-U 1 1 63845A3E
-P 11300 7325
-AR Path="/63845A3E" Ref="#PWR076"  Part="1" 
-AR Path="/62175536/63845A3E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR076" H 11300 7075 50  0001 C CNN
-F 1 "GND" H 11300 7175 50  0000 C CNN
-F 2 "" H 11300 7325 50  0001 C CNN
-F 3 "" H 11300 7325 50  0001 C CNN
-	1    11300 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R32
-U 1 1 63845A44
-P 11300 6825
-AR Path="/63845A44" Ref="R32"  Part="1" 
-AR Path="/62175536/63845A44" Ref="R?"  Part="1" 
-F 0 "R32" H 11425 6850 50  0000 C CNN
-F 1 "43" H 11425 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11300 6825 50  0001 C CNN
-F 3 "~" H 11300 6825 50  0001 C CNN
-	1    11300 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11300 6225 11300 6275
-$Comp
-L Device:LED D32
-U 1 1 63845A4B
-P 11300 7125
-AR Path="/63845A4B" Ref="D32"  Part="1" 
-AR Path="/62175536/63845A4B" Ref="D?"  Part="1" 
-F 0 "D32" V 11375 7000 50  0000 C CNN
-F 1 "Red" V 11300 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11300 7125 50  0001 C CNN
-F 3 "~" H 11300 7125 50  0001 C CNN
-	1    11300 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10575 6925 10575 6975
-Wire Wire Line
-	10575 6675 10575 6725
-Wire Wire Line
-	10575 7275 10575 7325
-Wire Wire Line
-	10225 6375 10225 6475
-Wire Wire Line
-	10225 6475 10275 6475
-Text GLabel 10225 6375 1    50   Input ~ 0
-ENa_6
-$Comp
-L power:GND #PWR068
-U 1 1 63845A57
-P 10575 7325
-AR Path="/63845A57" Ref="#PWR068"  Part="1" 
-AR Path="/62175536/63845A57" Ref="#PWR?"  Part="1" 
-F 0 "#PWR068" H 10575 7075 50  0001 C CNN
-F 1 "GND" H 10575 7175 50  0000 C CNN
-F 2 "" H 10575 7325 50  0001 C CNN
-F 3 "" H 10575 7325 50  0001 C CNN
-	1    10575 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R28
-U 1 1 63845A5D
-P 10575 6825
-AR Path="/63845A5D" Ref="R28"  Part="1" 
-AR Path="/62175536/63845A5D" Ref="R?"  Part="1" 
-F 0 "R28" H 10700 6850 50  0000 C CNN
-F 1 "43" H 10700 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10575 6825 50  0001 C CNN
-F 3 "~" H 10575 6825 50  0001 C CNN
-	1    10575 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10575 6225 10575 6275
-$Comp
-L Device:LED D28
-U 1 1 63845A64
-P 10575 7125
-AR Path="/63845A64" Ref="D28"  Part="1" 
-AR Path="/62175536/63845A64" Ref="D?"  Part="1" 
-F 0 "D28" V 10650 7000 50  0000 C CNN
-F 1 "Red" V 10575 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 7125 50  0001 C CNN
-F 3 "~" H 10575 7125 50  0001 C CNN
-	1    10575 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9825 6925 9825 6975
-Wire Wire Line
-	9825 6675 9825 6725
-Wire Wire Line
-	9825 7275 9825 7325
-Wire Wire Line
-	9475 6375 9475 6475
-Wire Wire Line
-	9475 6475 9525 6475
-Text GLabel 9475 6375 1    50   Input ~ 0
-ENa_5
-$Comp
-L power:GND #PWR060
-U 1 1 63845A70
-P 9825 7325
-AR Path="/63845A70" Ref="#PWR060"  Part="1" 
-AR Path="/62175536/63845A70" Ref="#PWR?"  Part="1" 
-F 0 "#PWR060" H 9825 7075 50  0001 C CNN
-F 1 "GND" H 9825 7175 50  0000 C CNN
-F 2 "" H 9825 7325 50  0001 C CNN
-F 3 "" H 9825 7325 50  0001 C CNN
-	1    9825 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R23
-U 1 1 63845A76
-P 9825 6825
-AR Path="/63845A76" Ref="R23"  Part="1" 
-AR Path="/62175536/63845A76" Ref="R?"  Part="1" 
-F 0 "R23" H 9950 6850 50  0000 C CNN
-F 1 "43" H 9950 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9825 6825 50  0001 C CNN
-F 3 "~" H 9825 6825 50  0001 C CNN
-	1    9825 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9825 6225 9825 6275
-$Comp
-L Device:LED D25
-U 1 1 63845A7D
-P 9825 7125
-AR Path="/63845A7D" Ref="D25"  Part="1" 
-AR Path="/62175536/63845A7D" Ref="D?"  Part="1" 
-F 0 "D25" V 9900 7000 50  0000 C CNN
-F 1 "Red" V 9825 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9825 7125 50  0001 C CNN
-F 3 "~" H 9825 7125 50  0001 C CNN
-	1    9825 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9075 6925 9075 6975
-Wire Wire Line
-	9075 6675 9075 6725
-Wire Wire Line
-	9075 7275 9075 7325
-Wire Wire Line
-	8725 6375 8725 6475
-Wire Wire Line
-	8725 6475 8775 6475
-$Comp
-L power:GND #PWR053
-U 1 1 63845A88
-P 9075 7325
-AR Path="/63845A88" Ref="#PWR053"  Part="1" 
-AR Path="/62175536/63845A88" Ref="#PWR?"  Part="1" 
-F 0 "#PWR053" H 9075 7075 50  0001 C CNN
-F 1 "GND" H 9075 7175 50  0000 C CNN
-F 2 "" H 9075 7325 50  0001 C CNN
-F 3 "" H 9075 7325 50  0001 C CNN
-	1    9075 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R21
-U 1 1 63845A8E
-P 9075 6825
-AR Path="/63845A8E" Ref="R21"  Part="1" 
-AR Path="/62175536/63845A8E" Ref="R?"  Part="1" 
-F 0 "R21" H 9200 6850 50  0000 C CNN
-F 1 "43" H 9200 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9075 6825 50  0001 C CNN
-F 3 "~" H 9075 6825 50  0001 C CNN
-	1    9075 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9075 6225 9075 6275
-$Comp
-L Device:LED D21
-U 1 1 63845A95
-P 9075 7125
-AR Path="/63845A95" Ref="D21"  Part="1" 
-AR Path="/62175536/63845A95" Ref="D?"  Part="1" 
-F 0 "D21" V 9150 7000 50  0000 C CNN
-F 1 "Red" V 9075 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9075 7125 50  0001 C CNN
-F 3 "~" H 9075 7125 50  0001 C CNN
-	1    9075 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8275 6925 8275 6975
-Wire Wire Line
-	8275 6675 8275 6725
-Wire Wire Line
-	8275 7275 8275 7325
-Wire Wire Line
-	7925 6375 7925 6475
-Wire Wire Line
-	7925 6475 7975 6475
-Text GLabel 7925 6375 1    50   Input ~ 0
-ENa_3
-$Comp
-L power:GND #PWR048
-U 1 1 63845AA1
-P 8275 7325
-AR Path="/63845AA1" Ref="#PWR048"  Part="1" 
-AR Path="/62175536/63845AA1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR048" H 8275 7075 50  0001 C CNN
-F 1 "GND" H 8275 7175 50  0000 C CNN
-F 2 "" H 8275 7325 50  0001 C CNN
-F 3 "" H 8275 7325 50  0001 C CNN
-	1    8275 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R19
-U 1 1 63845AA7
-P 8275 6825
-AR Path="/63845AA7" Ref="R19"  Part="1" 
-AR Path="/62175536/63845AA7" Ref="R?"  Part="1" 
-F 0 "R19" H 8400 6850 50  0000 C CNN
-F 1 "43" H 8400 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8275 6825 50  0001 C CNN
-F 3 "~" H 8275 6825 50  0001 C CNN
-	1    8275 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8275 6225 8275 6275
-$Comp
-L Device:LED D19
-U 1 1 63845AAE
-P 8275 7125
-AR Path="/63845AAE" Ref="D19"  Part="1" 
-AR Path="/62175536/63845AAE" Ref="D?"  Part="1" 
-F 0 "D19" V 8350 7000 50  0000 C CNN
-F 1 "Red" V 8275 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8275 7125 50  0001 C CNN
-F 3 "~" H 8275 7125 50  0001 C CNN
-	1    8275 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7525 6925 7525 6975
-Wire Wire Line
-	7525 6675 7525 6725
-Wire Wire Line
-	7525 7275 7525 7325
-Wire Wire Line
-	7175 6375 7175 6475
-Wire Wire Line
-	7175 6475 7225 6475
-Text GLabel 7175 6375 1    50   Input ~ 0
-ENa_2
-$Comp
-L power:GND #PWR044
-U 1 1 63845ABA
-P 7525 7325
-AR Path="/63845ABA" Ref="#PWR044"  Part="1" 
-AR Path="/62175536/63845ABA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR044" H 7525 7075 50  0001 C CNN
-F 1 "GND" H 7525 7175 50  0000 C CNN
-F 2 "" H 7525 7325 50  0001 C CNN
-F 3 "" H 7525 7325 50  0001 C CNN
-	1    7525 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R17
-U 1 1 63845AC0
-P 7525 6825
-AR Path="/63845AC0" Ref="R17"  Part="1" 
-AR Path="/62175536/63845AC0" Ref="R?"  Part="1" 
-F 0 "R17" H 7650 6850 50  0000 C CNN
-F 1 "43" H 7650 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7525 6825 50  0001 C CNN
-F 3 "~" H 7525 6825 50  0001 C CNN
-	1    7525 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7525 6225 7525 6275
-$Comp
-L Device:LED D17
-U 1 1 63845AC7
-P 7525 7125
-AR Path="/63845AC7" Ref="D17"  Part="1" 
-AR Path="/62175536/63845AC7" Ref="D?"  Part="1" 
-F 0 "D17" V 7600 7000 50  0000 C CNN
-F 1 "Red" V 7525 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7525 7125 50  0001 C CNN
-F 3 "~" H 7525 7125 50  0001 C CNN
-	1    7525 7125
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6725 6925 6725 6975
-Wire Wire Line
-	6725 6675 6725 6725
-Wire Wire Line
-	6725 7275 6725 7325
-Wire Wire Line
-	6375 6375 6375 6475
-Wire Wire Line
-	6375 6475 6425 6475
-Text GLabel 6375 6375 1    50   Input ~ 0
-ENa_1
-$Comp
-L power:GND #PWR038
-U 1 1 63845AD3
-P 6725 7325
-AR Path="/63845AD3" Ref="#PWR038"  Part="1" 
-AR Path="/62175536/63845AD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR038" H 6725 7075 50  0001 C CNN
-F 1 "GND" H 6725 7175 50  0000 C CNN
-F 2 "" H 6725 7325 50  0001 C CNN
-F 3 "" H 6725 7325 50  0001 C CNN
-	1    6725 7325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R15
-U 1 1 63845AD9
-P 6725 6825
-AR Path="/63845AD9" Ref="R15"  Part="1" 
-AR Path="/62175536/63845AD9" Ref="R?"  Part="1" 
-F 0 "R15" H 6850 6850 50  0000 C CNN
-F 1 "43" H 6850 6775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6725 6825 50  0001 C CNN
-F 3 "~" H 6725 6825 50  0001 C CNN
-	1    6725 6825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6725 6225 6725 6275
-$Comp
-L Device:LED D15
-U 1 1 63845AE0
-P 6725 7125
-AR Path="/63845AE0" Ref="D15"  Part="1" 
-AR Path="/62175536/63845AE0" Ref="D?"  Part="1" 
-F 0 "D15" V 6800 7000 50  0000 C CNN
-F 1 "Red" V 6725 6975 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 7125 50  0001 C CNN
-F 3 "~" H 6725 7125 50  0001 C CNN
-	1    6725 7125
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8725 7925 1    50   Input ~ 0
+Text GLabel 9050 8550 0    50   Input ~ 0
 ENb_4
 Wire Wire Line
-	11300 8475 11300 8525
-Wire Wire Line
-	11300 8225 11300 8275
-Wire Wire Line
-	11300 8825 11300 8875
-Wire Wire Line
-	10950 7925 10950 8025
-Wire Wire Line
-	10950 8025 11000 8025
-Text GLabel 10950 7925 1    50   Input ~ 0
+	11275 8025 11275 8075
+Text GLabel 11250 8550 0    50   Input ~ 0
 ENb_7
-$Comp
-L power:GND #PWR078
-U 1 1 63845AED
-P 11300 8875
-AR Path="/63845AED" Ref="#PWR078"  Part="1" 
-AR Path="/62175536/63845AED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR078" H 11300 8625 50  0001 C CNN
-F 1 "GND" H 11300 8725 50  0000 C CNN
-F 2 "" H 11300 8875 50  0001 C CNN
-F 3 "" H 11300 8875 50  0001 C CNN
-	1    11300 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R33
 U 1 1 63845AF3
-P 11300 8375
+P 11275 7925
 AR Path="/63845AF3" Ref="R33"  Part="1" 
 AR Path="/62175536/63845AF3" Ref="R?"  Part="1" 
-F 0 "R33" H 11425 8400 50  0000 C CNN
-F 1 "43" H 11425 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11300 8375 50  0001 C CNN
-F 3 "~" H 11300 8375 50  0001 C CNN
-	1    11300 8375
+F 0 "R33" H 11400 7950 50  0000 C CNN
+F 1 "43" H 11400 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11275 7925 50  0001 C CNN
+F 3 "~" H 11275 7925 50  0001 C CNN
+	1    11275 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11300 7775 11300 7825
+	11275 7775 11275 7825
 $Comp
 L Device:LED D33
 U 1 1 63845AFA
-P 11300 8675
+P 11275 8225
 AR Path="/63845AFA" Ref="D33"  Part="1" 
 AR Path="/62175536/63845AFA" Ref="D?"  Part="1" 
-F 0 "D33" V 11375 8525 50  0000 C CNN
-F 1 "Red" V 11300 8500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11300 8675 50  0001 C CNN
-F 3 "~" H 11300 8675 50  0001 C CNN
-	1    11300 8675
+F 0 "D33" V 11350 8075 50  0000 C CNN
+F 1 "Red" V 11275 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11275 8225 50  0001 C CNN
+F 3 "~" H 11275 8225 50  0001 C CNN
+	1    11275 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10575 8475 10575 8525
-Wire Wire Line
-	10575 8225 10575 8275
-Wire Wire Line
-	10575 8825 10575 8875
-Wire Wire Line
-	10225 7925 10225 8025
-Wire Wire Line
-	10225 8025 10275 8025
-Text GLabel 10225 7925 1    50   Input ~ 0
+	10575 8025 10575 8075
+Text GLabel 10550 8550 0    50   Input ~ 0
 ENb_6
-$Comp
-L power:GND #PWR070
-U 1 1 63845B06
-P 10575 8875
-AR Path="/63845B06" Ref="#PWR070"  Part="1" 
-AR Path="/62175536/63845B06" Ref="#PWR?"  Part="1" 
-F 0 "#PWR070" H 10575 8625 50  0001 C CNN
-F 1 "GND" H 10575 8725 50  0000 C CNN
-F 2 "" H 10575 8875 50  0001 C CNN
-F 3 "" H 10575 8875 50  0001 C CNN
-	1    10575 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R29
 U 1 1 63845B0C
-P 10575 8375
+P 10575 7925
 AR Path="/63845B0C" Ref="R29"  Part="1" 
 AR Path="/62175536/63845B0C" Ref="R?"  Part="1" 
-F 0 "R29" H 10700 8400 50  0000 C CNN
-F 1 "43" H 10700 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10575 8375 50  0001 C CNN
-F 3 "~" H 10575 8375 50  0001 C CNN
-	1    10575 8375
+F 0 "R29" H 10700 7950 50  0000 C CNN
+F 1 "43" H 10700 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10575 7925 50  0001 C CNN
+F 3 "~" H 10575 7925 50  0001 C CNN
+	1    10575 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1721,52 +1308,31 @@ Wire Wire Line
 $Comp
 L Device:LED D29
 U 1 1 63845B13
-P 10575 8675
+P 10575 8225
 AR Path="/63845B13" Ref="D29"  Part="1" 
 AR Path="/62175536/63845B13" Ref="D?"  Part="1" 
-F 0 "D29" V 10650 8525 50  0000 C CNN
-F 1 "Red" V 10575 8500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 8675 50  0001 C CNN
-F 3 "~" H 10575 8675 50  0001 C CNN
-	1    10575 8675
+F 0 "D29" V 10650 8075 50  0000 C CNN
+F 1 "Red" V 10575 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 8225 50  0001 C CNN
+F 3 "~" H 10575 8225 50  0001 C CNN
+	1    10575 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9825 8475 9825 8525
-Wire Wire Line
-	9825 8225 9825 8275
-Wire Wire Line
-	9825 8825 9825 8875
-Wire Wire Line
-	9475 7925 9475 8025
-Wire Wire Line
-	9475 8025 9525 8025
-Text GLabel 9475 7925 1    50   Input ~ 0
+	9825 8025 9825 8075
+Text GLabel 9800 8550 0    50   Input ~ 0
 ENb_5
-$Comp
-L power:GND #PWR062
-U 1 1 63845B1F
-P 9825 8875
-AR Path="/63845B1F" Ref="#PWR062"  Part="1" 
-AR Path="/62175536/63845B1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR062" H 9825 8625 50  0001 C CNN
-F 1 "GND" H 9825 8725 50  0000 C CNN
-F 2 "" H 9825 8875 50  0001 C CNN
-F 3 "" H 9825 8875 50  0001 C CNN
-	1    9825 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R24
 U 1 1 63845B25
-P 9825 8375
+P 9825 7925
 AR Path="/63845B25" Ref="R24"  Part="1" 
 AR Path="/62175536/63845B25" Ref="R?"  Part="1" 
-F 0 "R24" H 9950 8400 50  0000 C CNN
-F 1 "43" H 9950 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9825 8375 50  0001 C CNN
-F 3 "~" H 9825 8375 50  0001 C CNN
-	1    9825 8375
+F 0 "R24" H 9950 7950 50  0000 C CNN
+F 1 "43" H 9950 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9825 7925 50  0001 C CNN
+F 3 "~" H 9825 7925 50  0001 C CNN
+	1    9825 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1774,50 +1340,29 @@ Wire Wire Line
 $Comp
 L Device:LED D26
 U 1 1 63845B2C
-P 9825 8675
+P 9825 8225
 AR Path="/63845B2C" Ref="D26"  Part="1" 
 AR Path="/62175536/63845B2C" Ref="D?"  Part="1" 
-F 0 "D26" V 9900 8525 50  0000 C CNN
-F 1 "Red" V 9825 8500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9825 8675 50  0001 C CNN
-F 3 "~" H 9825 8675 50  0001 C CNN
-	1    9825 8675
+F 0 "D26" V 9900 8075 50  0000 C CNN
+F 1 "Red" V 9825 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9825 8225 50  0001 C CNN
+F 3 "~" H 9825 8225 50  0001 C CNN
+	1    9825 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9075 8475 9075 8525
-Wire Wire Line
-	9075 8225 9075 8275
-Wire Wire Line
-	9075 8825 9075 8875
-Wire Wire Line
-	8725 7925 8725 8025
-Wire Wire Line
-	8725 8025 8775 8025
-$Comp
-L power:GND #PWR055
-U 1 1 63845B37
-P 9075 8875
-AR Path="/63845B37" Ref="#PWR055"  Part="1" 
-AR Path="/62175536/63845B37" Ref="#PWR?"  Part="1" 
-F 0 "#PWR055" H 9075 8625 50  0001 C CNN
-F 1 "GND" H 9075 8725 50  0000 C CNN
-F 2 "" H 9075 8875 50  0001 C CNN
-F 3 "" H 9075 8875 50  0001 C CNN
-	1    9075 8875
-	1    0    0    -1  
-$EndComp
+	9075 8025 9075 8075
 $Comp
 L Device:R_Small R22
 U 1 1 63845B3D
-P 9075 8375
+P 9075 7925
 AR Path="/63845B3D" Ref="R22"  Part="1" 
 AR Path="/62175536/63845B3D" Ref="R?"  Part="1" 
-F 0 "R22" H 9200 8400 50  0000 C CNN
-F 1 "43" H 9200 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9075 8375 50  0001 C CNN
-F 3 "~" H 9075 8375 50  0001 C CNN
-	1    9075 8375
+F 0 "R22" H 9200 7950 50  0000 C CNN
+F 1 "43" H 9200 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9075 7925 50  0001 C CNN
+F 3 "~" H 9075 7925 50  0001 C CNN
+	1    9075 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1825,52 +1370,31 @@ Wire Wire Line
 $Comp
 L Device:LED D22
 U 1 1 63845B44
-P 9075 8675
+P 9075 8225
 AR Path="/63845B44" Ref="D22"  Part="1" 
 AR Path="/62175536/63845B44" Ref="D?"  Part="1" 
-F 0 "D22" V 9150 8525 50  0000 C CNN
-F 1 "Red" V 9075 8500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9075 8675 50  0001 C CNN
-F 3 "~" H 9075 8675 50  0001 C CNN
-	1    9075 8675
+F 0 "D22" V 9150 8075 50  0000 C CNN
+F 1 "Red" V 9075 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9075 8225 50  0001 C CNN
+F 3 "~" H 9075 8225 50  0001 C CNN
+	1    9075 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8275 8475 8275 8525
-Wire Wire Line
-	8275 8225 8275 8275
-Wire Wire Line
-	8275 8825 8275 8875
-Wire Wire Line
-	7925 7925 7925 8025
-Wire Wire Line
-	7925 8025 7975 8025
-Text GLabel 7925 7925 1    50   Input ~ 0
+	8275 8025 8275 8075
+Text GLabel 8250 8550 0    50   Input ~ 0
 ENb_3
-$Comp
-L power:GND #PWR050
-U 1 1 63845B50
-P 8275 8875
-AR Path="/63845B50" Ref="#PWR050"  Part="1" 
-AR Path="/62175536/63845B50" Ref="#PWR?"  Part="1" 
-F 0 "#PWR050" H 8275 8625 50  0001 C CNN
-F 1 "GND" H 8275 8725 50  0000 C CNN
-F 2 "" H 8275 8875 50  0001 C CNN
-F 3 "" H 8275 8875 50  0001 C CNN
-	1    8275 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R20
 U 1 1 63845B56
-P 8275 8375
+P 8275 7925
 AR Path="/63845B56" Ref="R20"  Part="1" 
 AR Path="/62175536/63845B56" Ref="R?"  Part="1" 
-F 0 "R20" H 8400 8400 50  0000 C CNN
-F 1 "43" H 8400 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8275 8375 50  0001 C CNN
-F 3 "~" H 8275 8375 50  0001 C CNN
-	1    8275 8375
+F 0 "R20" H 8400 7950 50  0000 C CNN
+F 1 "43" H 8400 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8275 7925 50  0001 C CNN
+F 3 "~" H 8275 7925 50  0001 C CNN
+	1    8275 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1878,52 +1402,31 @@ Wire Wire Line
 $Comp
 L Device:LED D20
 U 1 1 63845B5D
-P 8275 8675
+P 8275 8225
 AR Path="/63845B5D" Ref="D20"  Part="1" 
 AR Path="/62175536/63845B5D" Ref="D?"  Part="1" 
-F 0 "D20" V 8350 8525 50  0000 C CNN
-F 1 "Red" V 8275 8500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8275 8675 50  0001 C CNN
-F 3 "~" H 8275 8675 50  0001 C CNN
-	1    8275 8675
+F 0 "D20" V 8350 8075 50  0000 C CNN
+F 1 "Red" V 8275 8050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8275 8225 50  0001 C CNN
+F 3 "~" H 8275 8225 50  0001 C CNN
+	1    8275 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7525 8475 7525 8525
-Wire Wire Line
-	7525 8225 7525 8275
-Wire Wire Line
-	7525 8825 7525 8875
-Wire Wire Line
-	7175 7925 7175 8025
-Wire Wire Line
-	7175 8025 7225 8025
-Text GLabel 7175 7925 1    50   Input ~ 0
+	7525 8025 7525 8075
+Text GLabel 7500 8550 0    50   Input ~ 0
 ENb_2
-$Comp
-L power:GND #PWR046
-U 1 1 63845B69
-P 7525 8875
-AR Path="/63845B69" Ref="#PWR046"  Part="1" 
-AR Path="/62175536/63845B69" Ref="#PWR?"  Part="1" 
-F 0 "#PWR046" H 7525 8625 50  0001 C CNN
-F 1 "GND" H 7525 8725 50  0000 C CNN
-F 2 "" H 7525 8875 50  0001 C CNN
-F 3 "" H 7525 8875 50  0001 C CNN
-	1    7525 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R18
 U 1 1 63845B6F
-P 7525 8375
+P 7525 7925
 AR Path="/63845B6F" Ref="R18"  Part="1" 
 AR Path="/62175536/63845B6F" Ref="R?"  Part="1" 
-F 0 "R18" H 7650 8400 50  0000 C CNN
-F 1 "43" H 7650 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7525 8375 50  0001 C CNN
-F 3 "~" H 7525 8375 50  0001 C CNN
-	1    7525 8375
+F 0 "R18" H 7650 7950 50  0000 C CNN
+F 1 "43" H 7650 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7525 7925 50  0001 C CNN
+F 3 "~" H 7525 7925 50  0001 C CNN
+	1    7525 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1931,52 +1434,31 @@ Wire Wire Line
 $Comp
 L Device:LED D18
 U 1 1 63845B76
-P 7525 8675
+P 7525 8225
 AR Path="/63845B76" Ref="D18"  Part="1" 
 AR Path="/62175536/63845B76" Ref="D?"  Part="1" 
-F 0 "D18" V 7600 8550 50  0000 C CNN
-F 1 "Red" V 7525 8525 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7525 8675 50  0001 C CNN
-F 3 "~" H 7525 8675 50  0001 C CNN
-	1    7525 8675
+F 0 "D18" V 7600 8100 50  0000 C CNN
+F 1 "Red" V 7525 8075 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7525 8225 50  0001 C CNN
+F 3 "~" H 7525 8225 50  0001 C CNN
+	1    7525 8225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6725 8475 6725 8525
-Wire Wire Line
-	6725 8225 6725 8275
-Wire Wire Line
-	6725 8825 6725 8875
-Wire Wire Line
-	6375 7925 6375 8025
-Wire Wire Line
-	6375 8025 6425 8025
-Text GLabel 6375 7925 1    50   Input ~ 0
+	6725 8025 6725 8075
+Text GLabel 6700 8550 0    50   Input ~ 0
 ENb_1
-$Comp
-L power:GND #PWR040
-U 1 1 63845B82
-P 6725 8875
-AR Path="/63845B82" Ref="#PWR040"  Part="1" 
-AR Path="/62175536/63845B82" Ref="#PWR?"  Part="1" 
-F 0 "#PWR040" H 6725 8625 50  0001 C CNN
-F 1 "GND" H 6725 8725 50  0000 C CNN
-F 2 "" H 6725 8875 50  0001 C CNN
-F 3 "" H 6725 8875 50  0001 C CNN
-	1    6725 8875
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R16
 U 1 1 63845B88
-P 6725 8375
+P 6725 7925
 AR Path="/63845B88" Ref="R16"  Part="1" 
 AR Path="/62175536/63845B88" Ref="R?"  Part="1" 
-F 0 "R16" H 6850 8400 50  0000 C CNN
-F 1 "43" H 6850 8325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6725 8375 50  0001 C CNN
-F 3 "~" H 6725 8375 50  0001 C CNN
-	1    6725 8375
+F 0 "R16" H 6850 7950 50  0000 C CNN
+F 1 "43" H 6850 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6725 7925 50  0001 C CNN
+F 3 "~" H 6725 7925 50  0001 C CNN
+	1    6725 7925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1984,14 +1466,14 @@ Wire Wire Line
 $Comp
 L Device:LED D16
 U 1 1 63845B8F
-P 6725 8675
+P 6725 8225
 AR Path="/63845B8F" Ref="D16"  Part="1" 
 AR Path="/62175536/63845B8F" Ref="D?"  Part="1" 
-F 0 "D16" V 6800 8550 50  0000 C CNN
-F 1 "Red" V 6725 8525 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 8675 50  0001 C CNN
-F 3 "~" H 6725 8675 50  0001 C CNN
-	1    6725 8675
+F 0 "D16" V 6800 8100 50  0000 C CNN
+F 1 "Red" V 6725 8075 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 8225 50  0001 C CNN
+F 3 "~" H 6725 8225 50  0001 C CNN
+	1    6725 8225
 	0    -1   -1   0   
 $EndComp
 Text Notes 6875 9275 0    98   ~ 20
@@ -2009,301 +1491,7 @@ F 1 "BSS138" H 5929 6430 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5925 6400 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 5725 6475 50  0001 L CNN
 	1    5725 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q15
-U 1 1 63845BA5
-P 6625 6475
-AR Path="/63845BA5" Ref="Q15"  Part="1" 
-AR Path="/62175536/63845BA5" Ref="Q?"  Part="1" 
-F 0 "Q15" H 6830 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 6835 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 6850 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 6850 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 6850 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 6850 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 6850 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 6850 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 6850 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 6850 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 6850 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 6850 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    6625 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q16
-U 1 1 63845BB3
-P 6625 8025
-AR Path="/63845BB3" Ref="Q16"  Part="1" 
-AR Path="/62175536/63845BB3" Ref="Q?"  Part="1" 
-F 0 "Q16" H 6830 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 6835 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 6850 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 6850 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 6850 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 6850 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 6850 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 6850 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 6850 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 6850 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 6850 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 6850 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    6625 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q18
-U 1 1 63845BC1
-P 7425 8025
-AR Path="/63845BC1" Ref="Q18"  Part="1" 
-AR Path="/62175536/63845BC1" Ref="Q?"  Part="1" 
-F 0 "Q18" H 7630 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 7635 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 7650 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 7650 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 7650 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 7650 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 7650 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 7650 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 7650 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 7650 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 7650 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 7650 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    7425 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q17
-U 1 1 63845BCF
-P 7425 6475
-AR Path="/63845BCF" Ref="Q17"  Part="1" 
-AR Path="/62175536/63845BCF" Ref="Q?"  Part="1" 
-F 0 "Q17" H 7630 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 7635 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 7650 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 7650 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 7650 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 7650 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 7650 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 7650 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 7650 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 7650 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 7650 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 7650 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    7425 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q19
-U 1 1 63845BDD
-P 8175 6475
-AR Path="/63845BDD" Ref="Q19"  Part="1" 
-AR Path="/62175536/63845BDD" Ref="Q?"  Part="1" 
-F 0 "Q19" H 8380 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 8385 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 8400 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 8400 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 8400 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 8400 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 8400 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 8400 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 8400 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 8400 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 8400 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 8400 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    8175 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q20
-U 1 1 63845BEB
-P 8175 8025
-AR Path="/63845BEB" Ref="Q20"  Part="1" 
-AR Path="/62175536/63845BEB" Ref="Q?"  Part="1" 
-F 0 "Q20" H 8380 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 8385 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 8400 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 8400 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 8400 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 8400 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 8400 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 8400 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 8400 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 8400 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 8400 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 8400 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    8175 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q22
-U 1 1 63845BF9
-P 8975 8025
-AR Path="/63845BF9" Ref="Q22"  Part="1" 
-AR Path="/62175536/63845BF9" Ref="Q?"  Part="1" 
-F 0 "Q22" H 9180 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 9185 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 9200 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9200 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 9200 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 9200 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 9200 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 9200 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 9200 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 9200 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 9200 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 9200 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    8975 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q24
-U 1 1 63845C07
-P 9725 8025
-AR Path="/63845C07" Ref="Q24"  Part="1" 
-AR Path="/62175536/63845C07" Ref="Q?"  Part="1" 
-F 0 "Q24" H 9930 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 9935 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 9950 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9950 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 9950 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 9950 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 9950 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 9950 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 9950 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 9950 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 9950 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 9950 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    9725 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q26
-U 1 1 63845C15
-P 10475 8025
-AR Path="/63845C15" Ref="Q26"  Part="1" 
-AR Path="/62175536/63845C15" Ref="Q?"  Part="1" 
-F 0 "Q26" H 10680 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 10685 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 10700 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 10700 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 10700 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 10700 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 10700 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 10700 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 10700 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 10700 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 10700 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 10700 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    10475 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q28
-U 1 1 63845C23
-P 11200 8025
-AR Path="/63845C23" Ref="Q28"  Part="1" 
-AR Path="/62175536/63845C23" Ref="Q?"  Part="1" 
-F 0 "Q28" H 11405 8025 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 11410 8070 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 11425 7875 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 11425 7775 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 11425 7675 50  0001 L CNN "Description"
-F 5 "1.1" H 11425 7575 50  0001 L CNN "Height"
-F 6 "Infineon" H 11425 7475 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 11425 7375 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 11425 7275 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 11425 7175 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 11425 7075 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 11425 6975 50  0001 L CNN "Arrow Price/Stock"
-	1    11200 8025
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q21
-U 1 1 63845C31
-P 8975 6475
-AR Path="/63845C31" Ref="Q21"  Part="1" 
-AR Path="/62175536/63845C31" Ref="Q?"  Part="1" 
-F 0 "Q21" H 9180 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 9185 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 9200 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9200 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 9200 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 9200 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 9200 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 9200 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 9200 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 9200 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 9200 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 9200 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    8975 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q23
-U 1 1 63845C3F
-P 9725 6475
-AR Path="/63845C3F" Ref="Q23"  Part="1" 
-AR Path="/62175536/63845C3F" Ref="Q?"  Part="1" 
-F 0 "Q23" H 9930 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 9935 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 9950 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 9950 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 9950 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 9950 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 9950 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 9950 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 9950 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 9950 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 9950 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 9950 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    9725 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q25
-U 1 1 63845C4D
-P 10475 6475
-AR Path="/63845C4D" Ref="Q25"  Part="1" 
-AR Path="/62175536/63845C4D" Ref="Q?"  Part="1" 
-F 0 "Q25" H 10680 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 10685 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 10700 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 10700 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 10700 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 10700 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 10700 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 10700 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 10700 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 10700 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 10700 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 10700 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    10475 6475
-	1    0    0    1   
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q27
-U 1 1 63845C5B
-P 11200 6475
-AR Path="/63845C5B" Ref="Q27"  Part="1" 
-AR Path="/62175536/63845C5B" Ref="Q?"  Part="1" 
-F 0 "Q27" H 11405 6475 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 11410 6520 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 11425 6325 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 11425 6225 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 11425 6125 50  0001 L CNN "Description"
-F 5 "1.1" H 11425 6025 50  0001 L CNN "Height"
-F 6 "Infineon" H 11425 5925 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 11425 5825 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 11425 5725 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 11425 5625 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 11425 5525 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 11425 5425 50  0001 L CNN "Arrow Price/Stock"
-	1    11200 6475
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR01
@@ -2501,32 +1689,6 @@ F 3 "" H 6725 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR037
-U 1 1 63845CBB
-P 6725 6225
-AR Path="/63845CBB" Ref="#PWR037"  Part="1" 
-AR Path="/62175536/63845CBB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR037" H 6725 6075 50  0001 C CNN
-F 1 "+3.3V" H 6575 6325 50  0000 C CNN
-F 2 "" H 6725 6225 50  0001 C CNN
-F 3 "" H 6725 6225 50  0001 C CNN
-	1    6725 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR043
-U 1 1 63845CC1
-P 7525 6225
-AR Path="/63845CC1" Ref="#PWR043"  Part="1" 
-AR Path="/62175536/63845CC1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR043" H 7525 6075 50  0001 C CNN
-F 1 "+3.3V" H 7375 6325 50  0000 C CNN
-F 2 "" H 7525 6225 50  0001 C CNN
-F 3 "" H 7525 6225 50  0001 C CNN
-	1    7525 6225
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR045
 U 1 1 63845CC7
 P 7525 7775
@@ -2550,32 +1712,6 @@ F 1 "+3.3V" H 8125 7875 50  0000 C CNN
 F 2 "" H 8275 7775 50  0001 C CNN
 F 3 "" H 8275 7775 50  0001 C CNN
 	1    8275 7775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR047
-U 1 1 63845CD3
-P 8275 6225
-AR Path="/63845CD3" Ref="#PWR047"  Part="1" 
-AR Path="/62175536/63845CD3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR047" H 8275 6075 50  0001 C CNN
-F 1 "+3.3V" H 8125 6325 50  0000 C CNN
-F 2 "" H 8275 6225 50  0001 C CNN
-F 3 "" H 8275 6225 50  0001 C CNN
-	1    8275 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR052
-U 1 1 63845CD9
-P 9075 6225
-AR Path="/63845CD9" Ref="#PWR052"  Part="1" 
-AR Path="/62175536/63845CD9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR052" H 9075 6075 50  0001 C CNN
-F 1 "+3.3V" H 8925 6325 50  0000 C CNN
-F 2 "" H 9075 6225 50  0001 C CNN
-F 3 "" H 9075 6225 50  0001 C CNN
-	1    9075 6225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2605,32 +1741,6 @@ F 3 "" H 9825 7775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR059
-U 1 1 63845CEB
-P 9825 6225
-AR Path="/63845CEB" Ref="#PWR059"  Part="1" 
-AR Path="/62175536/63845CEB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR059" H 9825 6075 50  0001 C CNN
-F 1 "+3.3V" H 9675 6325 50  0000 C CNN
-F 2 "" H 9825 6225 50  0001 C CNN
-F 3 "" H 9825 6225 50  0001 C CNN
-	1    9825 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR067
-U 1 1 63845CF1
-P 10575 6225
-AR Path="/63845CF1" Ref="#PWR067"  Part="1" 
-AR Path="/62175536/63845CF1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR067" H 10575 6075 50  0001 C CNN
-F 1 "+3.3V" H 10425 6325 50  0000 C CNN
-F 2 "" H 10575 6225 50  0001 C CNN
-F 3 "" H 10575 6225 50  0001 C CNN
-	1    10575 6225
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR069
 U 1 1 63845CF7
 P 10575 7775
@@ -2646,27 +1756,14 @@ $EndComp
 $Comp
 L power:+3.3V #PWR077
 U 1 1 63845CFD
-P 11300 7775
+P 11275 7775
 AR Path="/63845CFD" Ref="#PWR077"  Part="1" 
 AR Path="/62175536/63845CFD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR077" H 11300 7625 50  0001 C CNN
-F 1 "+3.3V" H 11150 7875 50  0000 C CNN
-F 2 "" H 11300 7775 50  0001 C CNN
-F 3 "" H 11300 7775 50  0001 C CNN
-	1    11300 7775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR075
-U 1 1 63845D03
-P 11300 6225
-AR Path="/63845D03" Ref="#PWR075"  Part="1" 
-AR Path="/62175536/63845D03" Ref="#PWR?"  Part="1" 
-F 0 "#PWR075" H 11300 6075 50  0001 C CNN
-F 1 "+3.3V" H 11150 6325 50  0000 C CNN
-F 2 "" H 11300 6225 50  0001 C CNN
-F 3 "" H 11300 6225 50  0001 C CNN
-	1    11300 6225
+F 0 "#PWR077" H 11275 7625 50  0001 C CNN
+F 1 "+3.3V" H 11125 7875 50  0000 C CNN
+F 2 "" H 11275 7775 50  0001 C CNN
+F 3 "" H 11275 7775 50  0001 C CNN
+	1    11275 7775
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3636,27 +2733,6 @@ $EndComp
 Wire Wire Line
 	14500 3125 14500 3175
 $Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q29
-U 1 1 61A3CC1D
-P 14400 3375
-AR Path="/61A3CC1D" Ref="Q29"  Part="1" 
-AR Path="/62175536/61A3CC1D" Ref="Q?"  Part="1" 
-F 0 "Q29" H 14605 3375 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 14610 3420 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 14625 3225 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 14625 3125 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 14625 3025 50  0001 L CNN "Description"
-F 5 "1.1" H 14625 2925 50  0001 L CNN "Height"
-F 6 "Infineon" H 14625 2825 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 14625 2725 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 14625 2625 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 14625 2525 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 14625 2425 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 14625 2325 50  0001 L CNN "Arrow Price/Stock"
-	1    14400 3375
-	1    0    0    1   
-$EndComp
-$Comp
 L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn15
 U 1 1 625D6A97
 P 14350 4200
@@ -3681,27 +2757,6 @@ Text GLabel 15325 3275 1    50   Input ~ 0
 SOL
 Wire Wire Line
 	15675 3125 15675 3175
-$Comp
-L ArmBoard_Hardware-rescue:BSS139H6327XTSA1-SamacSys_Parts Q30
-U 1 1 626C4DDE
-P 15575 3375
-AR Path="/626C4DDE" Ref="Q30"  Part="1" 
-AR Path="/62175536/626C4DDE" Ref="Q?"  Part="1" 
-F 0 "Q30" H 15780 3375 50  0000 L CNN
-F 1 "BSS139H6327XTSA1" H 15785 3420 50  0001 L CNN
-F 2 "SamacSys_Parts:SOT95P260X110-3N" H 15800 3225 50  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/Infineon-BSS139-DS-v01_08-en.pdf?fileId=db3a304333b8a7ca0133eed3136c61f2" H 15800 3125 50  0001 L CNN
-F 4 "Infineon BSS139H6327XTSA1 N-channel MOSFET, 100 mA, 250 V Depletion SIPMOS, 3-Pin SOT-23" H 15800 3025 50  0001 L CNN "Description"
-F 5 "1.1" H 15800 2925 50  0001 L CNN "Height"
-F 6 "Infineon" H 15800 2825 50  0001 L CNN "Manufacturer_Name"
-F 7 "BSS139H6327XTSA1" H 15800 2725 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "726-BSS139H6327XTSA" H 15800 2625 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BSS139H6327XTSA1?qs=OwbwYO03UsLhx48vHF8Zjg%3D%3D" H 15800 2525 50  0001 L CNN "Mouser Price/Stock"
-F 10 "BSS139H6327XTSA1" H 15800 2425 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/bss139h6327xtsa1/infineon-technologies-ag" H 15800 2325 50  0001 L CNN "Arrow Price/Stock"
-	1    15575 3375
-	1    0    0    1   
-$EndComp
 $Comp
 L power:+12V #PWR0101
 U 1 1 626ED493
@@ -4393,4 +3448,401 @@ Wire Notes Line
 	525  500  525  9325
 Text Notes 5475 4475 0    98   ~ 20
 Tiva Headers
+Wire Wire Line
+	6725 8550 6700 8550
+Wire Wire Line
+	6725 8375 6725 8550
+Wire Wire Line
+	7500 8550 7525 8550
+Wire Wire Line
+	7525 8375 7525 8550
+Wire Wire Line
+	8275 8375 8275 8550
+Wire Wire Line
+	8250 8550 8275 8550
+Wire Wire Line
+	9050 8550 9075 8550
+Wire Wire Line
+	9075 8375 9075 8550
+Wire Wire Line
+	9800 8550 9825 8550
+Wire Wire Line
+	9825 8375 9825 8550
+Wire Wire Line
+	10550 8550 10575 8550
+Wire Wire Line
+	10575 8375 10575 8550
+Wire Wire Line
+	11275 8375 11275 8550
+Wire Wire Line
+	11275 8550 11250 8550
+Wire Wire Line
+	11275 6975 11275 7100
+Wire Wire Line
+	11275 7100 11250 7100
+Wire Wire Line
+	10575 6975 10575 7105
+Wire Wire Line
+	10550 7105 10575 7105
+Wire Wire Line
+	9825 6975 9825 7100
+Wire Wire Line
+	9800 7100 9825 7100
+Wire Wire Line
+	9075 6975 9075 7105
+Wire Wire Line
+	9050 7105 9075 7105
+Wire Wire Line
+	8275 6975 8275 7100
+Wire Wire Line
+	8250 7100 8275 7100
+Wire Wire Line
+	7525 6975 7525 7100
+Wire Wire Line
+	7500 7100 7525 7100
+Wire Wire Line
+	6725 7100 6725 6975
+Wire Wire Line
+	6700 7100 6725 7100
+Text GLabel 6700 7100 0    50   Input ~ 0
+ENa_1
+Wire Wire Line
+	6725 6625 6725 6675
+$Comp
+L Device:R_Small R15
+U 1 1 63845AD9
+P 6725 6525
+AR Path="/63845AD9" Ref="R15"  Part="1" 
+AR Path="/62175536/63845AD9" Ref="R?"  Part="1" 
+F 0 "R15" H 6850 6550 50  0000 C CNN
+F 1 "43" H 6850 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6725 6525 50  0001 C CNN
+F 3 "~" H 6725 6525 50  0001 C CNN
+	1    6725 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 63845AE0
+P 6725 6825
+AR Path="/63845AE0" Ref="D15"  Part="1" 
+AR Path="/62175536/63845AE0" Ref="D?"  Part="1" 
+F 0 "D15" V 6800 6700 50  0000 C CNN
+F 1 "Red" V 6725 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 6825 50  0001 C CNN
+F 3 "~" H 6725 6825 50  0001 C CNN
+	1    6725 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6725 6375 6725 6425
+$Comp
+L power:+3.3V #PWR075
+U 1 1 63845D03
+P 11275 6375
+AR Path="/63845D03" Ref="#PWR075"  Part="1" 
+AR Path="/62175536/63845D03" Ref="#PWR?"  Part="1" 
+F 0 "#PWR075" H 11275 6225 50  0001 C CNN
+F 1 "+3.3V" H 11125 6475 50  0000 C CNN
+F 2 "" H 11275 6375 50  0001 C CNN
+F 3 "" H 11275 6375 50  0001 C CNN
+	1    11275 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR067
+U 1 1 63845CF1
+P 10575 6375
+AR Path="/63845CF1" Ref="#PWR067"  Part="1" 
+AR Path="/62175536/63845CF1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR067" H 10575 6225 50  0001 C CNN
+F 1 "+3.3V" H 10425 6475 50  0000 C CNN
+F 2 "" H 10575 6375 50  0001 C CNN
+F 3 "" H 10575 6375 50  0001 C CNN
+	1    10575 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR059
+U 1 1 63845CEB
+P 9825 6375
+AR Path="/63845CEB" Ref="#PWR059"  Part="1" 
+AR Path="/62175536/63845CEB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR059" H 9825 6225 50  0001 C CNN
+F 1 "+3.3V" H 9675 6475 50  0000 C CNN
+F 2 "" H 9825 6375 50  0001 C CNN
+F 3 "" H 9825 6375 50  0001 C CNN
+	1    9825 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR052
+U 1 1 63845CD9
+P 9075 6375
+AR Path="/63845CD9" Ref="#PWR052"  Part="1" 
+AR Path="/62175536/63845CD9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR052" H 9075 6225 50  0001 C CNN
+F 1 "+3.3V" H 8925 6475 50  0000 C CNN
+F 2 "" H 9075 6375 50  0001 C CNN
+F 3 "" H 9075 6375 50  0001 C CNN
+	1    9075 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR047
+U 1 1 63845CD3
+P 8275 6375
+AR Path="/63845CD3" Ref="#PWR047"  Part="1" 
+AR Path="/62175536/63845CD3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR047" H 8275 6225 50  0001 C CNN
+F 1 "+3.3V" H 8125 6475 50  0000 C CNN
+F 2 "" H 8275 6375 50  0001 C CNN
+F 3 "" H 8275 6375 50  0001 C CNN
+	1    8275 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR043
+U 1 1 63845CC1
+P 7525 6375
+AR Path="/63845CC1" Ref="#PWR043"  Part="1" 
+AR Path="/62175536/63845CC1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR043" H 7525 6225 50  0001 C CNN
+F 1 "+3.3V" H 7375 6475 50  0000 C CNN
+F 2 "" H 7525 6375 50  0001 C CNN
+F 3 "" H 7525 6375 50  0001 C CNN
+	1    7525 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR037
+U 1 1 63845CBB
+P 6725 6375
+AR Path="/63845CBB" Ref="#PWR037"  Part="1" 
+AR Path="/62175536/63845CBB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR037" H 6725 6225 50  0001 C CNN
+F 1 "+3.3V" H 6575 6475 50  0000 C CNN
+F 2 "" H 6725 6375 50  0001 C CNN
+F 3 "" H 6725 6375 50  0001 C CNN
+	1    6725 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 63845AC7
+P 7525 6825
+AR Path="/63845AC7" Ref="D17"  Part="1" 
+AR Path="/62175536/63845AC7" Ref="D?"  Part="1" 
+F 0 "D17" V 7600 6700 50  0000 C CNN
+F 1 "Red" V 7525 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7525 6825 50  0001 C CNN
+F 3 "~" H 7525 6825 50  0001 C CNN
+	1    7525 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7525 6375 7525 6425
+$Comp
+L Device:R_Small R17
+U 1 1 63845AC0
+P 7525 6525
+AR Path="/63845AC0" Ref="R17"  Part="1" 
+AR Path="/62175536/63845AC0" Ref="R?"  Part="1" 
+F 0 "R17" H 7650 6550 50  0000 C CNN
+F 1 "43" H 7650 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7525 6525 50  0001 C CNN
+F 3 "~" H 7525 6525 50  0001 C CNN
+	1    7525 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 7100 0    50   Input ~ 0
+ENa_2
+Wire Wire Line
+	7525 6625 7525 6675
+$Comp
+L Device:LED D19
+U 1 1 63845AAE
+P 8275 6825
+AR Path="/63845AAE" Ref="D19"  Part="1" 
+AR Path="/62175536/63845AAE" Ref="D?"  Part="1" 
+F 0 "D19" V 8350 6700 50  0000 C CNN
+F 1 "Red" V 8275 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8275 6825 50  0001 C CNN
+F 3 "~" H 8275 6825 50  0001 C CNN
+	1    8275 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8275 6375 8275 6425
+$Comp
+L Device:R_Small R19
+U 1 1 63845AA7
+P 8275 6525
+AR Path="/63845AA7" Ref="R19"  Part="1" 
+AR Path="/62175536/63845AA7" Ref="R?"  Part="1" 
+F 0 "R19" H 8400 6550 50  0000 C CNN
+F 1 "43" H 8400 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8275 6525 50  0001 C CNN
+F 3 "~" H 8275 6525 50  0001 C CNN
+	1    8275 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 8250 7100 0    50   Input ~ 0
+ENa_3
+Wire Wire Line
+	8275 6625 8275 6675
+$Comp
+L Device:LED D21
+U 1 1 63845A95
+P 9075 6825
+AR Path="/63845A95" Ref="D21"  Part="1" 
+AR Path="/62175536/63845A95" Ref="D?"  Part="1" 
+F 0 "D21" V 9150 6700 50  0000 C CNN
+F 1 "Red" V 9075 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9075 6825 50  0001 C CNN
+F 3 "~" H 9075 6825 50  0001 C CNN
+	1    9075 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9075 6375 9075 6425
+$Comp
+L Device:R_Small R21
+U 1 1 63845A8E
+P 9075 6525
+AR Path="/63845A8E" Ref="R21"  Part="1" 
+AR Path="/62175536/63845A8E" Ref="R?"  Part="1" 
+F 0 "R21" H 9200 6550 50  0000 C CNN
+F 1 "43" H 9200 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9075 6525 50  0001 C CNN
+F 3 "~" H 9075 6525 50  0001 C CNN
+	1    9075 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 6625 9075 6675
+$Comp
+L Device:LED D25
+U 1 1 63845A7D
+P 9825 6825
+AR Path="/63845A7D" Ref="D25"  Part="1" 
+AR Path="/62175536/63845A7D" Ref="D?"  Part="1" 
+F 0 "D25" V 9900 6700 50  0000 C CNN
+F 1 "Red" V 9825 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9825 6825 50  0001 C CNN
+F 3 "~" H 9825 6825 50  0001 C CNN
+	1    9825 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9825 6375 9825 6425
+$Comp
+L Device:R_Small R23
+U 1 1 63845A76
+P 9825 6525
+AR Path="/63845A76" Ref="R23"  Part="1" 
+AR Path="/62175536/63845A76" Ref="R?"  Part="1" 
+F 0 "R23" H 9950 6550 50  0000 C CNN
+F 1 "43" H 9950 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9825 6525 50  0001 C CNN
+F 3 "~" H 9825 6525 50  0001 C CNN
+	1    9825 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 7100 0    50   Input ~ 0
+ENa_5
+Wire Wire Line
+	9825 6625 9825 6675
+$Comp
+L Device:LED D28
+U 1 1 63845A64
+P 10575 6825
+AR Path="/63845A64" Ref="D28"  Part="1" 
+AR Path="/62175536/63845A64" Ref="D?"  Part="1" 
+F 0 "D28" V 10650 6700 50  0000 C CNN
+F 1 "Red" V 10575 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 6825 50  0001 C CNN
+F 3 "~" H 10575 6825 50  0001 C CNN
+	1    10575 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10575 6375 10575 6425
+$Comp
+L Device:R_Small R28
+U 1 1 63845A5D
+P 10575 6525
+AR Path="/63845A5D" Ref="R28"  Part="1" 
+AR Path="/62175536/63845A5D" Ref="R?"  Part="1" 
+F 0 "R28" H 10700 6550 50  0000 C CNN
+F 1 "43" H 10700 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 10575 6525 50  0001 C CNN
+F 3 "~" H 10575 6525 50  0001 C CNN
+	1    10575 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 10550 7105 0    50   Input ~ 0
+ENa_6
+Wire Wire Line
+	10575 6625 10575 6675
+$Comp
+L Device:LED D32
+U 1 1 63845A4B
+P 11275 6825
+AR Path="/63845A4B" Ref="D32"  Part="1" 
+AR Path="/62175536/63845A4B" Ref="D?"  Part="1" 
+F 0 "D32" V 11350 6700 50  0000 C CNN
+F 1 "Red" V 11275 6675 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11275 6825 50  0001 C CNN
+F 3 "~" H 11275 6825 50  0001 C CNN
+	1    11275 6825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11275 6375 11275 6425
+$Comp
+L Device:R_Small R32
+U 1 1 63845A44
+P 11275 6525
+AR Path="/63845A44" Ref="R32"  Part="1" 
+AR Path="/62175536/63845A44" Ref="R?"  Part="1" 
+F 0 "R32" H 11400 6550 50  0000 C CNN
+F 1 "43" H 11400 6475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 11275 6525 50  0001 C CNN
+F 3 "~" H 11275 6525 50  0001 C CNN
+	1    11275 6525
+	1    0    0    -1  
+$EndComp
+Text GLabel 11250 7100 0    50   Input ~ 0
+ENa_7
+Wire Wire Line
+	11275 6625 11275 6675
+Text GLabel 9050 7105 0    50   Input ~ 0
+ENa_4
+$Comp
+L Transistor_FET:BSS138 Q15
+U 1 1 62295B3B
+P 14400 3375
+AR Path="/62295B3B" Ref="Q15"  Part="1" 
+AR Path="/62175536/62295B3B" Ref="Q?"  Part="1" 
+F 0 "Q15" H 14604 3421 50  0000 L CNN
+F 1 "BSS138" H 14604 3330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14600 3300 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 14400 3375 50  0001 L CNN
+	1    14400 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q16
+U 1 1 622BDC38
+P 15575 3375
+AR Path="/622BDC38" Ref="Q16"  Part="1" 
+AR Path="/62175536/622BDC38" Ref="Q?"  Part="1" 
+F 0 "Q16" H 15779 3421 50  0000 L CNN
+F 1 "BSS138" H 15779 3330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15775 3300 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 15575 3375 50  0001 L CNN
+	1    15575 3375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
