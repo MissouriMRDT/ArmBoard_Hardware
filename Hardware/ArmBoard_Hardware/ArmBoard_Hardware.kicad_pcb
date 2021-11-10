@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -9663,11 +9663,11 @@
   (gr_line (start 99.06 38.1) (end 125.73 38.1) (layer Dwgs.User) (width 0.15))
   (gr_line (start 64.135 28.575) (end 64.135 121.92) (layer Edge.Cuts) (width 0.05) (tstamp 618BBAA3))
   (gr_line (start 262.255 23.495) (end 69.215 23.495) (layer Edge.Cuts) (width 0.05) (tstamp 618C5E92))
-  (gr_line (start 266.065 121.92) (end 266.065 28.575) (layer Edge.Cuts) (width 0.05) (tstamp 618BBAA1))
+  (gr_line (start 267.335 121.92) (end 267.335 28.575) (layer Edge.Cuts) (width 0.05) (tstamp 618BBAA1))
   (gr_line (start 69.215 127) (end 262.255 127) (layer Edge.Cuts) (width 0.05) (tstamp 618BBAA0))
   (gr_arc (start 69.215 121.92) (end 64.135 121.92) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 69.215 28.575) (end 69.215 23.495) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 260.985 28.575) (end 266.065 28.575) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 262.255 28.575) (end 267.335 28.575) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 262.255 121.92) (end 262.255 127) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
