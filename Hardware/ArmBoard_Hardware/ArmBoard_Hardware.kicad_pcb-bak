@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -2412,7 +2412,7 @@
   )
 
   (module MRDT_Devices:OKI_Horizontal (layer F.Cu) (tedit 5DD8981C) (tstamp 618B334A)
-    (at 234.95 48.26 180)
+    (at 236.855 52.07 180)
     (tags OKI)
     (path /63845D6F)
     (fp_text reference U2 (at 0 -2.54) (layer F.SilkS) hide
@@ -5502,7 +5502,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 618B2D6E)
-    (at 234.95 53.34 270)
+    (at 236.855 57.15 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /63845DDC)
@@ -5934,7 +5934,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 618B2CA2)
-    (at 222.885 26.67)
+    (at 209.55 31.75)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /63845AA7)
@@ -7204,7 +7204,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 618B2A2B)
-    (at 244.215001 47.585001)
+    (at 244.215001 51.395001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /63845976)
@@ -7286,7 +7286,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 618B2A01)
-    (at 218.44 26.67)
+    (at 205.105 31.75)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /63845995)
@@ -7655,7 +7655,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 618B2944)
-    (at 244.215001 43.035001)
+    (at 244.215001 46.845001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /63845937)
@@ -7696,7 +7696,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 618B292F)
-    (at 244.215001 38.485001)
+    (at 244.215001 42.295001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /63845A2F)
@@ -9184,7 +9184,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B2646)
-    (at 227.584 116.332 270)
+    (at 226.949 117.475 270)
     (path /63845E78)
     (fp_text reference Conn20 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9213,7 +9213,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B2637)
-    (at 210.486999 49.130001 270)
+    (at 212.391999 52.305001 270)
     (path /626C4DE4)
     (fp_text reference Conn19 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9242,7 +9242,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B2628)
-    (at 251.251999 35.915001 270)
+    (at 253.791999 37.820001 270)
     (path /6384586B)
     (fp_text reference Conn18 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9279,7 +9279,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B2612)
-    (at 251.46 75.565 270)
+    (at 253.791999 78.917499 270)
     (path /63845852)
     (fp_text reference Conn17 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9316,7 +9316,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B25FC)
-    (at 251.079 104.267 270)
+    (at 253.791999 106.315831 270)
     (path /63845E51)
     (fp_text reference Conn16 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9345,7 +9345,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B25ED)
-    (at 251.079 116.84 270)
+    (at 253.791999 117.475 270)
     (path /625D6A97)
     (fp_text reference Conn15 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9374,7 +9374,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B25DE)
-    (at 251.251999 61.075001 270)
+    (at 253.791999 65.218333 270)
     (path /63845839)
     (fp_text reference Conn14 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9411,7 +9411,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B25C8)
-    (at 251.251999 48.495001 270)
+    (at 253.791999 51.519167 270)
     (path /63845820)
     (fp_text reference Conn13 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9448,7 +9448,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B25B2)
-    (at 227.33 104.14 270)
+    (at 226.949 105.791 270)
     (path /63845E2A)
     (fp_text reference Conn12 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9477,7 +9477,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 618B25A3)
-    (at 227.584 91.567 270)
+    (at 226.949 94.107 270)
     (path /63845E8A)
     (fp_text reference Conn11 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9506,7 +9506,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B2594)
-    (at 251.46 90.17 270)
+    (at 253.791999 92.616665 270)
     (path /63845807)
     (fp_text reference Conn10 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9543,7 +9543,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 618B257E)
-    (at 210.486999 36.550001 270)
+    (at 212.391999 39.725001 270)
     (path /638457EE)
     (fp_text reference Conn9 (at 1.27 2.54 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
