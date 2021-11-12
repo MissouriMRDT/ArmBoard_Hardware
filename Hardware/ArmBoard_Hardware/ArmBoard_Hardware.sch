@@ -2844,8 +2844,6 @@ Text Notes 14150 4650 0    98   ~ 20
 Laser
 Text Notes 15100 4650 0    98   ~ 20
 Solennoid
-Text GLabel 5050 3950 0    50   Output ~ 0
-SOL
 Wire Wire Line
 	5050 3450 4600 3450
 NoConn ~ 5050 1875
@@ -2853,8 +2851,6 @@ NoConn ~ 5050 1775
 NoConn ~ 5050 1675
 Wire Wire Line
 	5050 3650 4475 3650
-Text GLabel 5050 3850 0    50   Output ~ 0
-LASER
 Wire Wire Line
 	1400 2575 2775 2575
 Wire Wire Line
@@ -3845,4 +3841,8 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 15575 3375 50  0001 L
 	1    15575 3375
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 3850 0    50   Output ~ 0
+LASER
+Text GLabel 5050 3950 0    50   Output ~ 0
+SOL
 $EndSCHEMATC

@@ -21,7 +21,7 @@ AR Path="/638457EE" Ref="Conn9"  Part="1"
 AR Path="/62175536/638457EE" Ref="Conn?"  Part="1" 
 F 0 "Conn9" V 12625 6675 60  0000 L CNN
 F 1 "Molex_SL_03" V 12700 6675 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 12475 6675 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 12475 6675 60  0001 C CNN
 F 3 "" H 12475 6675 60  0001 C CNN
 	1    12475 6675
 	0    1    1    0   
@@ -2368,7 +2368,7 @@ AR Path="/63845E2A" Ref="Conn12"  Part="1"
 AR Path="/62175536/63845E2A" Ref="Conn?"  Part="1" 
 F 0 "Conn12" V 13800 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 13900 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 13650 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 13650 5200 60  0001 C CNN
 F 3 "" H 13650 5200 60  0001 C CNN
 	1    13650 5300
 	0    1    1    0   
@@ -2532,7 +2532,7 @@ AR Path="/63845E78" Ref="Conn20"  Part="1"
 AR Path="/62175536/63845E78" Ref="Conn?"  Part="1" 
 F 0 "Conn20" V 15850 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 15950 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15700 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 15700 5200 60  0001 C CNN
 F 3 "" H 15700 5200 60  0001 C CNN
 	1    15700 5300
 	0    1    1    0   
@@ -2570,7 +2570,7 @@ AR Path="/63845E8A" Ref="Conn11"  Part="1"
 AR Path="/62175536/63845E8A" Ref="Conn?"  Part="1" 
 F 0 "Conn11" V 12775 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 12875 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 12625 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 12625 5200 60  0001 C CNN
 F 3 "" H 12625 5200 60  0001 C CNN
 	1    12625 5300
 	0    1    1    0   
@@ -2784,7 +2784,7 @@ AR Path="/626C4DE4" Ref="Conn19"  Part="1"
 AR Path="/62175536/626C4DE4" Ref="Conn?"  Part="1" 
 F 0 "Conn19" V 15675 4200 60  0000 L CNN
 F 1 "Molex_SL_02" V 15775 4200 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15525 4100 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 15525 4100 60  0001 C CNN
 F 3 "" H 15525 4100 60  0001 C CNN
 	1    15525 4200
 	0    1    1    0   
