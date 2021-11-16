@@ -1815,8 +1815,6 @@ F 3 "" H 2775 4975 60  0001 C CNN
 	1    2925 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 5375 2    50   Input ~ 0
-OUTb_1
 Text GLabel 4175 4975 2    50   Input ~ 0
 OUTa_2
 $Comp
@@ -1832,8 +1830,6 @@ F 3 "" H 3625 4975 60  0001 C CNN
 	1    3775 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 4175 5375 2    50   Input ~ 0
-OUTb_2
 $Comp
 L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
 U 2 1 63845D29
@@ -1862,8 +1858,6 @@ F 3 "" H 4475 4975 60  0001 C CNN
 	1    4625 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 5025 5375 2    50   Input ~ 0
-OUTb_3
 $Comp
 L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
 U 2 1 63845D37
@@ -2815,14 +2809,6 @@ F 3 "~" H 15675 3725 50  0001 C CNN
 	1    15675 3725
 	1    0    0    -1  
 $EndComp
-Text GLabel 5875 5375 2    50   Input ~ 0
-OUTb_4
-Text GLabel 6725 5375 2    50   Input ~ 0
-OUTb_5
-Text GLabel 7575 5375 2    50   Input ~ 0
-OUTb_6
-Text GLabel 8425 5375 2    50   Input ~ 0
-OUTb_7
 Text GLabel 8425 4975 2    50   Input ~ 0
 OUTa_7
 Text GLabel 7575 4975 2    50   Input ~ 0
@@ -3845,118 +3831,18 @@ Text GLabel 5050 3850 0    50   Output ~ 0
 LASER
 Text GLabel 5050 3950 0    50   Output ~ 0
 SOL
-$Comp
-L power:GND #PWR0145
-U 1 1 61BF66CA
-P 3350 5500
-F 0 "#PWR0145" H 3350 5250 50  0001 C CNN
-F 1 "GND" H 3355 5327 50  0000 C CNN
-F 2 "" H 3350 5500 50  0001 C CNN
-F 3 "" H 3350 5500 50  0001 C CNN
-	1    3350 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3325 5425 3350 5425
-Wire Wire Line
-	3350 5425 3350 5500
-$Comp
-L power:GND #PWR0146
-U 1 1 61DBE1EA
-P 4175 5475
-F 0 "#PWR0146" H 4175 5225 50  0001 C CNN
-F 1 "GND" H 4180 5302 50  0000 C CNN
-F 2 "" H 4175 5475 50  0001 C CNN
-F 3 "" H 4175 5475 50  0001 C CNN
-	1    4175 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0147
-U 1 1 61DE0909
-P 5025 5475
-F 0 "#PWR0147" H 5025 5225 50  0001 C CNN
-F 1 "GND" H 5030 5302 50  0000 C CNN
-F 2 "" H 5025 5475 50  0001 C CNN
-F 3 "" H 5025 5475 50  0001 C CNN
-	1    5025 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0148
-U 1 1 61E02E99
-P 5875 5475
-F 0 "#PWR0148" H 5875 5225 50  0001 C CNN
-F 1 "GND" H 5880 5302 50  0000 C CNN
-F 2 "" H 5875 5475 50  0001 C CNN
-F 3 "" H 5875 5475 50  0001 C CNN
-	1    5875 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0149
-U 1 1 61E253D9
-P 6725 5475
-F 0 "#PWR0149" H 6725 5225 50  0001 C CNN
-F 1 "GND" H 6730 5302 50  0000 C CNN
-F 2 "" H 6725 5475 50  0001 C CNN
-F 3 "" H 6725 5475 50  0001 C CNN
-	1    6725 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0150
-U 1 1 61E47964
-P 7575 5475
-F 0 "#PWR0150" H 7575 5225 50  0001 C CNN
-F 1 "GND" H 7580 5302 50  0000 C CNN
-F 2 "" H 7575 5475 50  0001 C CNN
-F 3 "" H 7575 5475 50  0001 C CNN
-	1    7575 5475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0151
-U 1 1 61E69E99
-P 8425 5475
-F 0 "#PWR0151" H 8425 5225 50  0001 C CNN
-F 1 "GND" H 8430 5302 50  0000 C CNN
-F 2 "" H 8425 5475 50  0001 C CNN
-F 3 "" H 8425 5475 50  0001 C CNN
-	1    8425 5475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 5475 8425 5425
-Wire Wire Line
-	8425 5375 8425 5425
-Connection ~ 8425 5425
-Wire Wire Line
-	7575 5375 7575 5425
-Wire Wire Line
-	7575 5475 7575 5425
-Connection ~ 7575 5425
-Wire Wire Line
-	6725 5475 6725 5425
-Wire Wire Line
-	6725 5425 6725 5375
-Connection ~ 6725 5425
-Wire Wire Line
-	5875 5425 5875 5375
-Wire Wire Line
-	5875 5475 5875 5425
-Connection ~ 5875 5425
-Wire Wire Line
-	5025 5425 5025 5375
-Wire Wire Line
-	5025 5475 5025 5425
-Connection ~ 5025 5425
-Wire Wire Line
-	4175 5475 4175 5425
-Wire Wire Line
-	4175 5425 4175 5375
-Connection ~ 4175 5425
-Wire Wire Line
-	3350 5425 3350 5375
-Connection ~ 3350 5425
+Text GLabel 8425 5425 2    50   Input ~ 0
+OUTb_7
+Text GLabel 7575 5425 2    50   Input ~ 0
+OUTb_6
+Text GLabel 6725 5425 2    50   Input ~ 0
+OUTb_5
+Text GLabel 5875 5425 2    50   Input ~ 0
+OUTb_4
+Text GLabel 5025 5425 2    50   Input ~ 0
+OUTb_3
+Text GLabel 4175 5425 2    50   Input ~ 0
+OUTb_2
+Text GLabel 3325 5425 2    50   Input ~ 0
+OUTb_1
 $EndSCHEMATC

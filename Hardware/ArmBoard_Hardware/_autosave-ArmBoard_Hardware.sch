@@ -2362,7 +2362,7 @@ AR Path="/63845E2A" Ref="Conn12"  Part="1"
 AR Path="/62175536/63845E2A" Ref="Conn?"  Part="1" 
 F 0 "Conn12" V 13800 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 13900 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 13650 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 13650 5200 60  0001 C CNN
 F 3 "" H 13650 5200 60  0001 C CNN
 	1    13650 5300
 	0    1    1    0   
@@ -2526,7 +2526,7 @@ AR Path="/63845E78" Ref="Conn20"  Part="1"
 AR Path="/62175536/63845E78" Ref="Conn?"  Part="1" 
 F 0 "Conn20" V 15850 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 15950 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 15700 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15700 5200 60  0001 C CNN
 F 3 "" H 15700 5200 60  0001 C CNN
 	1    15700 5300
 	0    1    1    0   
@@ -2564,7 +2564,7 @@ AR Path="/63845E8A" Ref="Conn11"  Part="1"
 AR Path="/62175536/63845E8A" Ref="Conn?"  Part="1" 
 F 0 "Conn11" V 12775 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 12875 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 12625 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 12625 5200 60  0001 C CNN
 F 3 "" H 12625 5200 60  0001 C CNN
 	1    12625 5300
 	0    1    1    0   
@@ -2778,7 +2778,7 @@ AR Path="/626C4DE4" Ref="Conn19"  Part="1"
 AR Path="/62175536/626C4DE4" Ref="Conn?"  Part="1" 
 F 0 "Conn19" V 15675 4200 60  0000 L CNN
 F 1 "Molex_SL_02" V 15775 4200 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 15525 4100 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15525 4100 60  0001 C CNN
 F 3 "" H 15525 4100 60  0001 C CNN
 	1    15525 4200
 	0    1    1    0   
@@ -3183,36 +3183,6 @@ F 1 "GND" H 9430 4027 50  0000 C CNN
 F 2 "" H 9425 4200 50  0001 C CNN
 F 3 "" H 9425 4200 50  0001 C CNN
 	1    9425 4200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9425 4200 9575 4200
-Wire Wire Line
-	9875 4200 9975 4200
-$Comp
-L Device:LED D?
-U 1 1 63845FCE
-P 9725 4200
-AR Path="/62175536/63845FCE" Ref="D?"  Part="1" 
-AR Path="/63845FCE" Ref="D24"  Part="1" 
-F 0 "D24" H 9875 4050 50  0000 R CNN
-F 1 "LED" H 9700 4050 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
-F 3 "~" H 9725 4200 50  0001 C CNN
-	1    9725 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 63845FD4
-P 9725 3850
-AR Path="/62175536/63845FD4" Ref="D?"  Part="1" 
-AR Path="/63845FD4" Ref="D23"  Part="1" 
-F 0 "D23" H 9875 3700 50  0000 R CNN
-F 1 "LED" H 9700 3700 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
-F 3 "~" H 9725 3850 50  0001 C CNN
-	1    9725 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3845,4 +3815,34 @@ Text GLabel 4175 5425 2    50   Input ~ 0
 OUTb_2
 Text GLabel 3325 5425 2    50   Input ~ 0
 OUTb_1
+$Comp
+L Device:LED D23
+U 1 1 61EF32C8
+P 9725 3850
+AR Path="/61EF32C8" Ref="D23"  Part="1" 
+AR Path="/62175536/61EF32C8" Ref="D?"  Part="1" 
+F 0 "D23" V 9764 3732 50  0000 R CNN
+F 1 "Green" V 9673 3732 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
+F 3 "~" H 9725 3850 50  0001 C CNN
+	1    9725 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 61F14F94
+P 9725 4200
+AR Path="/61F14F94" Ref="D24"  Part="1" 
+AR Path="/62175536/61F14F94" Ref="D?"  Part="1" 
+F 0 "D24" V 9764 4082 50  0000 R CNN
+F 1 "Green" V 9673 4082 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
+F 3 "~" H 9725 4200 50  0001 C CNN
+	1    9725 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9875 4200 9975 4200
+Wire Wire Line
+	9425 4200 9575 4200
 $EndSCHEMATC
