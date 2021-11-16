@@ -1782,7 +1782,7 @@ AR Path="/63845D0D" Ref="Conn2"  Part="2"
 AR Path="/62175536/63845D0D" Ref="Conn?"  Part="2" 
 F 0 "Conn2" H 3133 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2775 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2775 4525 60  0001 C CNN
 F 3 "" H 2775 4525 60  0001 C CNN
 	2    2925 5075
 	1    0    0    -1  
@@ -1795,7 +1795,7 @@ AR Path="/63845D13" Ref="Conn3"  Part="2"
 AR Path="/62175536/63845D13" Ref="Conn?"  Part="2" 
 F 0 "Conn3" H 3983 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 3625 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3625 4525 60  0001 C CNN
 F 3 "" H 3625 4525 60  0001 C CNN
 	2    3775 5075
 	1    0    0    -1  
@@ -1810,13 +1810,11 @@ AR Path="/63845D1A" Ref="Conn2"  Part="1"
 AR Path="/62175536/63845D1A" Ref="Conn?"  Part="1" 
 F 0 "Conn2" H 3133 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2775 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2775 4975 60  0001 C CNN
 F 3 "" H 2775 4975 60  0001 C CNN
 	1    2925 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 3325 5425 2    50   Input ~ 0
-OUTb_1
 Text GLabel 4175 4975 2    50   Input ~ 0
 OUTa_2
 $Comp
@@ -1827,13 +1825,11 @@ AR Path="/63845D22" Ref="Conn3"  Part="1"
 AR Path="/62175536/63845D22" Ref="Conn?"  Part="1" 
 F 0 "Conn3" H 3983 5912 60  0000 C CNN
 F 1 "AndersonPP" H 3983 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 3625 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3625 4975 60  0001 C CNN
 F 3 "" H 3625 4975 60  0001 C CNN
 	1    3775 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 4175 5425 2    50   Input ~ 0
-OUTb_2
 $Comp
 L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
 U 2 1 63845D29
@@ -1842,7 +1838,7 @@ AR Path="/63845D29" Ref="Conn4"  Part="2"
 AR Path="/62175536/63845D29" Ref="Conn?"  Part="2" 
 F 0 "Conn4" H 4833 5462 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 4475 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4475 4525 60  0001 C CNN
 F 3 "" H 4475 4525 60  0001 C CNN
 	2    4625 5075
 	1    0    0    -1  
@@ -1857,13 +1853,11 @@ AR Path="/63845D30" Ref="Conn4"  Part="1"
 AR Path="/62175536/63845D30" Ref="Conn?"  Part="1" 
 F 0 "Conn4" H 4833 5912 60  0000 C CNN
 F 1 "AndersonPP" H 4833 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 4475 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 4475 4975 60  0001 C CNN
 F 3 "" H 4475 4975 60  0001 C CNN
 	1    4625 5525
 	1    0    0    -1  
 $EndComp
-Text GLabel 5025 5425 2    50   Input ~ 0
-OUTb_3
 $Comp
 L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
 U 2 1 63845D37
@@ -1872,7 +1866,7 @@ AR Path="/63845D37" Ref="Conn5"  Part="2"
 AR Path="/62175536/63845D37" Ref="Conn?"  Part="2" 
 F 0 "Conn5" H 5683 5462 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 5325 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5325 4525 60  0001 C CNN
 F 3 "" H 5325 4525 60  0001 C CNN
 	2    5475 5075
 	1    0    0    -1  
@@ -1887,7 +1881,7 @@ AR Path="/63845D3E" Ref="Conn5"  Part="1"
 AR Path="/62175536/63845D3E" Ref="Conn?"  Part="1" 
 F 0 "Conn5" H 5683 5912 60  0000 C CNN
 F 1 "AndersonPP" H 5683 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 5325 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5325 4975 60  0001 C CNN
 F 3 "" H 5325 4975 60  0001 C CNN
 	1    5475 5525
 	1    0    0    -1  
@@ -1900,7 +1894,7 @@ AR Path="/63845D45" Ref="Conn6"  Part="2"
 AR Path="/62175536/63845D45" Ref="Conn?"  Part="2" 
 F 0 "Conn6" H 6533 5462 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 6175 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6175 4525 60  0001 C CNN
 F 3 "" H 6175 4525 60  0001 C CNN
 	2    6325 5075
 	1    0    0    -1  
@@ -1913,7 +1907,7 @@ AR Path="/63845D4C" Ref="Conn6"  Part="1"
 AR Path="/62175536/63845D4C" Ref="Conn?"  Part="1" 
 F 0 "Conn6" H 6533 5912 60  0000 C CNN
 F 1 "AndersonPP" H 6533 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 6175 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6175 4975 60  0001 C CNN
 F 3 "" H 6175 4975 60  0001 C CNN
 	1    6325 5525
 	1    0    0    -1  
@@ -1926,7 +1920,7 @@ AR Path="/63845D53" Ref="Conn7"  Part="2"
 AR Path="/62175536/63845D53" Ref="Conn?"  Part="2" 
 F 0 "Conn7" H 7383 5462 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7025 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7025 4525 60  0001 C CNN
 F 3 "" H 7025 4525 60  0001 C CNN
 	2    7175 5075
 	1    0    0    -1  
@@ -1939,7 +1933,7 @@ AR Path="/63845D5A" Ref="Conn7"  Part="1"
 AR Path="/62175536/63845D5A" Ref="Conn?"  Part="1" 
 F 0 "Conn7" H 7383 5912 60  0000 C CNN
 F 1 "AndersonPP" H 7383 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7025 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7025 4975 60  0001 C CNN
 F 3 "" H 7025 4975 60  0001 C CNN
 	1    7175 5525
 	1    0    0    -1  
@@ -1952,7 +1946,7 @@ AR Path="/63845D61" Ref="Conn8"  Part="2"
 AR Path="/62175536/63845D61" Ref="Conn?"  Part="2" 
 F 0 "Conn8" H 8233 5462 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7875 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7875 4525 60  0001 C CNN
 F 3 "" H 7875 4525 60  0001 C CNN
 	2    8025 5075
 	1    0    0    -1  
@@ -1965,7 +1959,7 @@ AR Path="/63845D68" Ref="Conn8"  Part="1"
 AR Path="/62175536/63845D68" Ref="Conn?"  Part="1" 
 F 0 "Conn8" H 8233 5912 60  0000 C CNN
 F 1 "AndersonPP" H 8233 5806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 7875 4975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7875 4975 60  0001 C CNN
 F 3 "" H 7875 4975 60  0001 C CNN
 	1    8025 5525
 	1    0    0    -1  
@@ -2591,7 +2585,7 @@ AR Path="/63845E97" Ref="Conn1"  Part="1"
 AR Path="/62175536/63845E97" Ref="Conn?"  Part="1" 
 F 0 "Conn1" H 833 5562 60  0000 C CNN
 F 1 "AndersonPP" H 833 5456 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 475 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 475 4625 60  0001 C CNN
 F 3 "" H 475 4625 60  0001 C CNN
 	1    625  5175
 	1    0    0    -1  
@@ -2604,7 +2598,7 @@ AR Path="/63845EA3" Ref="Conn1"  Part="3"
 AR Path="/62175536/63845EA3" Ref="Conn?"  Part="3" 
 F 0 "Conn1" H 2325 5525 60  0000 C CNN
 F 1 "AndersonPP" H 2325 5425 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 2025 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2025 4625 60  0001 C CNN
 F 3 "" H 2025 4625 60  0001 C CNN
 	3    2175 5175
 	1    0    0    -1  
@@ -2617,7 +2611,7 @@ AR Path="/63845EAF" Ref="Conn1"  Part="2"
 AR Path="/62175536/63845EAF" Ref="Conn?"  Part="2" 
 F 0 "Conn1" H 1525 5525 60  0000 C CNN
 F 1 "AndersonPP" H 1525 5425 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_1_Horizontal" H 1275 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1275 4625 60  0001 C CNN
 F 3 "" H 1275 4625 60  0001 C CNN
 	2    1425 5175
 	1    0    0    -1  
@@ -2815,14 +2809,6 @@ F 3 "~" H 15675 3725 50  0001 C CNN
 	1    15675 3725
 	1    0    0    -1  
 $EndComp
-Text GLabel 5875 5425 2    50   Input ~ 0
-OUTb_4
-Text GLabel 6725 5425 2    50   Input ~ 0
-OUTb_5
-Text GLabel 7575 5425 2    50   Input ~ 0
-OUTb_6
-Text GLabel 8425 5425 2    50   Input ~ 0
-OUTb_7
 Text GLabel 8425 4975 2    50   Input ~ 0
 OUTa_7
 Text GLabel 7575 4975 2    50   Input ~ 0
@@ -3845,4 +3831,18 @@ Text GLabel 5050 3850 0    50   Output ~ 0
 LASER
 Text GLabel 5050 3950 0    50   Output ~ 0
 SOL
+Text GLabel 8425 5425 2    50   Input ~ 0
+OUTb_7
+Text GLabel 7575 5425 2    50   Input ~ 0
+OUTb_6
+Text GLabel 6725 5425 2    50   Input ~ 0
+OUTb_5
+Text GLabel 5875 5425 2    50   Input ~ 0
+OUTb_4
+Text GLabel 5025 5425 2    50   Input ~ 0
+OUTb_3
+Text GLabel 4175 5425 2    50   Input ~ 0
+OUTb_2
+Text GLabel 3325 5425 2    50   Input ~ 0
+OUTb_1
 $EndSCHEMATC
