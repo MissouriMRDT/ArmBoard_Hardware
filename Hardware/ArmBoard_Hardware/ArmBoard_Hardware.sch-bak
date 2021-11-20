@@ -1798,7 +1798,7 @@ Wire Notes Line
 Text Notes 675  5925 0    98   ~ 20
 Input Power Connectors\n
 Text Notes 8825 5925 0    98   ~ 20
-Internal V+ Gen
+3.3V+ Gen
 Wire Notes Line
 	8825 6025 8825 4525
 $Comp
@@ -2382,14 +2382,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63845FC5
-P 9160 4250
+P 9425 4200
 AR Path="/62175536/63845FC5" Ref="#PWR?"  Part="1" 
 AR Path="/63845FC5" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 9160 4000 50  0001 C CNN
-F 1 "GND" H 9165 4077 50  0000 C CNN
-F 2 "" H 9160 4250 50  0001 C CNN
-F 3 "" H 9160 4250 50  0001 C CNN
-	1    9160 4250
+F 0 "#PWR027" H 9425 3950 50  0001 C CNN
+F 1 "GND" H 9430 4027 50  0000 C CNN
+F 2 "" H 9425 4200 50  0001 C CNN
+F 3 "" H 9425 4200 50  0001 C CNN
+	1    9425 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

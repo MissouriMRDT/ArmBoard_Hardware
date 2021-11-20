@@ -1798,7 +1798,7 @@ Wire Notes Line
 Text Notes 675  5925 0    98   ~ 20
 Input Power Connectors\n
 Text Notes 8825 5925 0    98   ~ 20
-Internal V+ Gen
+3.3V+ Gen
 Wire Notes Line
 	8825 6025 8825 4525
 $Comp

@@ -38,7 +38,7 @@ Connection ~ 1035 775
 Wire Wire Line
 	1035 775  1035 740 
 Wire Wire Line
-	825  775  1035 775 
+	705  775  880  775 
 Wire Wire Line
 	1210 775  1210 925 
 $Comp
@@ -53,35 +53,20 @@ F 3 "" H 1035 740 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	825  1125 830  1125
-Wire Wire Line
-	825  975  825  1125
+	880  1125 890  1125
 $Comp
 L Device:C_Small C6
 U 1 1 61CA53E2
-P 825 875
-F 0 "C6" H 917 921 50  0000 L CNN
-F 1 "C_Small" H 917 830 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 825 875 50  0001 C CNN
-F 3 "~" H 825 875 50  0001 C CNN
-	1    825  875 
+P 705 875
+F 0 "C6" H 510 935 50  0000 L CNN
+F 1 ".1uF" H 470 875 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 705 875 50  0001 C CNN
+F 3 "~" H 705 875 50  0001 C CNN
+	1    705  875 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1130 1125 1210 1125
-$Comp
-L Device:R R27
-U 1 1 61AA62F2
-P 980 1125
-F 0 "R27" V 1187 1125 50  0000 C CNN
-F 1 "20k" V 1096 1125 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 910 1125 50  0001 C CNN
-F 3 "~" H 980 1125 50  0001 C CNN
-	1    980  1125
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	705  1025 1210 1025
+	1190 1125 1210 1125
 NoConn ~ 1210 1225
 $Comp
 L power:GND #PWR?
@@ -116,9 +101,11 @@ $EndComp
 Wire Wire Line
 	1850 1025 2390 1025
 $Comp
-L MRDT_Devices:LTC6900 U5
+L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U5
 U 1 1 6198744B
 P 1460 985
+AR Path="/6198744B" Ref="U5"  Part="1" 
+AR Path="/63845F20/6198744B" Ref="U5"  Part="1" 
 F 0 "U5" H 1530 1270 50  0000 C CNN
 F 1 "LTC6900" H 1530 1179 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 1460 985 50  0001 C CNN
@@ -385,7 +372,7 @@ $EndComp
 Text HLabel 7580 1235 0    50   Input ~ 0
 IN_A_2
 $Comp
-L MRDT_ICs:TB67H400AFNG,EL U9
+L ArmBoard_Hardware-rescue:TB67H400AFNG,EL-MRDT_ICs U9
 U 1 1 620C9E6A
 P 8605 2385
 F 0 "U9" H 8605 4000 50  0000 C CNN
@@ -566,9 +553,11 @@ Wire Wire Line
 Wire Wire Line
 	7580 1435 7805 1435
 $Comp
-L MRDT_Devices:LTC6900 U8
+L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U8
 U 1 1 620C9E19
 P 6875 995
+AR Path="/620C9E19" Ref="U8"  Part="1" 
+AR Path="/63845F20/620C9E19" Ref="U8"  Part="1" 
 F 0 "U8" H 6945 1280 50  0000 C CNN
 F 1 "LTC6900" H 6945 1189 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 6875 995 50  0001 C CNN
@@ -627,16 +616,14 @@ Wire Wire Line
 $Comp
 L Device:C_Small C7
 U 1 1 620C9DFD
-P 6240 885
-F 0 "C7" H 6332 931 50  0000 L CNN
-F 1 "C_Small" H 6332 840 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6240 885 50  0001 C CNN
-F 3 "~" H 6240 885 50  0001 C CNN
-	1    6240 885 
+P 6120 895
+F 0 "C7" H 6212 941 50  0000 L CNN
+F 1 ".1uF" H 6212 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6120 895 50  0001 C CNN
+F 3 "~" H 6120 895 50  0001 C CNN
+	1    6120 895 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6240 985  6240 1135
 Wire Wire Line
 	6240 1135 6245 1135
 $Comp
@@ -652,8 +639,6 @@ F 3 "" H 6450 750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6625 785  6625 935 
-Wire Wire Line
-	6240 785  6450 785 
 Wire Wire Line
 	6450 785  6450 750 
 Connection ~ 6450 785 
@@ -719,17 +704,15 @@ F 3 "" H 1025 4340 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	815  4725 820  4725
-Wire Wire Line
-	815  4575 815  4725
 $Comp
 L Device:C_Small C5
 U 1 1 621A2B7A
-P 815 4475
-F 0 "C5" H 907 4521 50  0000 L CNN
-F 1 "C_Small" H 907 4430 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 815 4475 50  0001 C CNN
-F 3 "~" H 815 4475 50  0001 C CNN
-	1    815  4475
+P 695 4480
+F 0 "C5" H 787 4526 50  0000 L CNN
+F 1 ".1uF" H 787 4435 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 695 4480 50  0001 C CNN
+F 3 "~" H 695 4480 50  0001 C CNN
+	1    695  4480
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -781,9 +764,11 @@ $EndComp
 Wire Wire Line
 	1840 4625 2380 4625
 $Comp
-L MRDT_Devices:LTC6900 U4
+L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U4
 U 1 1 621A2B96
 P 1450 4585
+AR Path="/621A2B96" Ref="U4"  Part="1" 
+AR Path="/63845F20/621A2B96" Ref="U4"  Part="1" 
 F 0 "U4" H 1520 4870 50  0000 C CNN
 F 1 "LTC6900" H 1520 4779 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 1450 4585 50  0001 C CNN
@@ -962,7 +947,7 @@ Wire Wire Line
 Wire Wire Line
 	3180 7525 3180 7400
 $Comp
-L MRDT_ICs:TB67H400AFNG,EL U6
+L ArmBoard_Hardware-rescue:TB67H400AFNG,EL-MRDT_ICs U6
 U 1 1 621A2BE7
 P 3180 5975
 F 0 "U6" H 3180 7590 50  0000 C CNN
@@ -1017,7 +1002,7 @@ OUTb_3
 Text GLabel 2230 6820 0    50   Output ~ 0
 OUTa_3
 $Comp
-L MRDT_ICs:TB67H400AFNG,EL U7
+L ArmBoard_Hardware-rescue:TB67H400AFNG,EL-MRDT_ICs U7
 U 1 1 61982ADA
 P 3190 2375
 F 0 "U7" H 3190 3990 50  0000 C CNN
@@ -1027,4 +1012,47 @@ F 3 "" H 3190 2375 50  0001 C CNN
 	1    3190 2375
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R27
+U 1 1 61AA62F2
+P 1040 1125
+F 0 "R27" V 1247 1125 50  0000 C CNN
+F 1 "20k" V 1156 1125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 970 1125 50  0001 C CNN
+F 3 "~" H 1040 1125 50  0001 C CNN
+	1    1040 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	705  1025 1210 1025
+Wire Wire Line
+	705  975  705  1025
+Connection ~ 705  1025
+Wire Wire Line
+	880  1125 880  775 
+Connection ~ 880  775 
+Wire Wire Line
+	880  775  1035 775 
+Wire Wire Line
+	695  4580 695  4625
+Connection ~ 695  4625
+Wire Wire Line
+	815  4375 815  4725
+Wire Wire Line
+	815  4375 695  4375
+Wire Wire Line
+	695  4375 695  4380
+Connection ~ 815  4375
+Wire Wire Line
+	6120 795  6120 785 
+Wire Wire Line
+	6120 785  6240 785 
+Connection ~ 6240 785 
+Wire Wire Line
+	6240 785  6450 785 
+Wire Wire Line
+	6240 785  6240 1135
+Wire Wire Line
+	6120 995  6120 1035
+Connection ~ 6120 1035
 $EndSCHEMATC
