@@ -1929,7 +1929,7 @@ P 14500 3725
 AR Path="/61A3CC08" Ref="R22"  Part="1" 
 AR Path="/62175536/61A3CC08" Ref="R?"  Part="1" 
 F 0 "R22" H 14625 3750 50  0000 C CNN
-F 1 "330" H 14625 3675 50  0000 C CNN
+F 1 "43" H 14625 3675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 14500 3725 50  0001 C CNN
 F 3 "~" H 14500 3725 50  0001 C CNN
 	1    14500 3725
@@ -2014,7 +2014,7 @@ P 15675 3725
 AR Path="/626C4DCF" Ref="R25"  Part="1" 
 AR Path="/62175536/626C4DCF" Ref="R?"  Part="1" 
 F 0 "R25" H 15800 3750 50  0000 C CNN
-F 1 "330" H 15800 3675 50  0000 C CNN
+F 1 "43" H 15800 3675 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 15675 3725 50  0001 C CNN
 F 3 "~" H 15675 3725 50  0001 C CNN
 	1    15675 3725
@@ -2867,4 +2867,8 @@ F 3 "" H 10540 4670 50  0001 C CNN
 	1    10540 4670
 	1    0    0    -1  
 $EndComp
+Text Notes 13795 3800 0    50   ~ 0
+279 mA current \nlimiting resisors
+Text Notes 14965 3795 0    50   ~ 0
+279 mA current \nlimiting resisors
 $EndSCHEMATC
