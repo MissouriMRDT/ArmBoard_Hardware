@@ -32,81 +32,6 @@ Wire Wire Line
 	5560 1625 5560 2725
 Wire Wire Line
 	2235 2425 2235 2725
-Wire Wire Line
-	1605 1175 1780 1175
-Connection ~ 1605 1175
-Wire Wire Line
-	1605 1175 1605 1140
-Wire Wire Line
-	1395 1175 1605 1175
-Wire Wire Line
-	1780 1175 1780 1325
-$Comp
-L power:+5V #PWR?
-U 1 1 62489523
-P 1605 1140
-AR Path="/63845F20/62489523" Ref="#PWR?"  Part="1" 
-AR Path="/63845F62/62489523" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 1605 990 50  0001 C CNN
-F 1 "+5V" H 1620 1313 50  0000 C CNN
-F 2 "" H 1605 1140 50  0001 C CNN
-F 3 "" H 1605 1140 50  0001 C CNN
-	1    1605 1140
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1395 1525 1400 1525
-$Comp
-L Device:C_Small C?
-U 1 1 6248952B
-P 1275 1275
-AR Path="/63845F20/6248952B" Ref="C?"  Part="1" 
-AR Path="/63845F62/6248952B" Ref="C11"  Part="1" 
-F 0 "C11" H 1367 1321 50  0000 L CNN
-F 1 ".1uF" H 1367 1230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1275 1275 50  0001 C CNN
-F 3 "~" H 1275 1275 50  0001 C CNN
-	1    1275 1275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 1525 1780 1525
-$Comp
-L Device:R R?
-U 1 1 62489532
-P 1550 1525
-AR Path="/63845F20/62489532" Ref="R?"  Part="1" 
-AR Path="/63845F62/62489532" Ref="R58"  Part="1" 
-F 0 "R58" V 1757 1525 50  0000 C CNN
-F 1 "20k" V 1666 1525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1480 1525 50  0001 C CNN
-F 3 "~" H 1550 1525 50  0001 C CNN
-	1    1550 1525
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1275 1425 1780 1425
-NoConn ~ 1780 1625
-$Comp
-L power:GND #PWR?
-U 1 1 6248953A
-P 1275 1425
-AR Path="/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/62175536/61C88AE8/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/62175536/619EC506/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/6352A127/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/6352A1A0/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/635FA3DE/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/635FA457/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/63845F20/6248953A" Ref="#PWR?"  Part="1" 
-AR Path="/63845F62/6248953A" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 1275 1175 50  0001 C CNN
-F 1 "GND" H 1150 1460 50  0000 C CNN
-F 2 "" H 1275 1425 50  0001 C CNN
-F 3 "" H 1275 1425 50  0001 C CNN
-	1    1275 1425
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 62489540
@@ -122,20 +47,6 @@ F 3 "" H 4985 1425 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2420 1425 2960 1425
-$Comp
-L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U?
-U 1 1 62489547
-P 2030 1385
-AR Path="/63845F20/62489547" Ref="U?"  Part="1" 
-AR Path="/63845F62/62489547" Ref="U16"  Part="1" 
-AR Path="/62489547" Ref="U16"  Part="1" 
-F 0 "U16" H 2100 1670 50  0000 C CNN
-F 1 "LTC6900" H 2100 1579 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2030 1385 50  0001 C CNN
-F 3 "" H 2030 1385 50  0001 C CNN
-	1    2030 1385
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2735 1825 2960 1825
 Wire Wire Line
@@ -369,12 +280,6 @@ Text GLabel 4785 3625 2    50   Output ~ 0
 OUTb_7
 Text GLabel 2810 3620 0    50   Output ~ 0
 OUTa_7
-Wire Wire Line
-	1275 1375 1275 1425
-Connection ~ 1275 1425
-Wire Wire Line
-	1395 1175 1275 1175
-Wire Wire Line
-	1395 1175 1395 1525
-Connection ~ 1395 1175
+Text GLabel 2420 1425 0    50   Input ~ 0
+OSC
 $EndSCHEMATC

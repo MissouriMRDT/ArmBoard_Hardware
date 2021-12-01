@@ -999,10 +999,8 @@ Text Notes 925  9275 0    98   ~ 20
 Motor Output Indicator LEDs\n
 Text Notes 3175 9275 0    50   ~ 0
 LED On: Voltage applied to OUTx_#\nLED Off: No voltage applied to OUTx_#
-Text Notes 6875 9275 0    98   ~ 20
-Motor Output Fault Indicator\n
-Text Notes 9075 9275 0    50   ~ 0
-LED On: Fault Detected on OUTx_#\nLED Off: Normal Operation of OUTx_#
+Text Notes 8525 9265 0    98   ~ 20
+OSCILLATOR
 Wire Notes Line
 	6275 6025 6275 9325
 Wire Notes Line
@@ -2871,4 +2869,103 @@ Text Notes 13795 3800 0    50   ~ 0
 279 mA current \nlimiting resisors
 Text Notes 14965 3795 0    50   ~ 0
 279 mA current \nlimiting resisors
+Wire Wire Line
+	8560 7235 8735 7235
+Connection ~ 8560 7235
+Wire Wire Line
+	8560 7235 8560 7200
+Wire Wire Line
+	8230 7235 8405 7235
+Wire Wire Line
+	8735 7235 8735 7385
+$Comp
+L power:+5V #PWR?
+U 1 1 61AAE03E
+P 8560 7200
+AR Path="/63845F20/61AAE03E" Ref="#PWR?"  Part="1" 
+AR Path="/61AAE03E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8560 7050 50  0001 C CNN
+F 1 "+5V" H 8575 7373 50  0000 C CNN
+F 2 "" H 8560 7200 50  0001 C CNN
+F 3 "" H 8560 7200 50  0001 C CNN
+	1    8560 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8405 7585 8415 7585
+$Comp
+L Device:C_Small C?
+U 1 1 61AAE045
+P 8230 7335
+AR Path="/63845F20/61AAE045" Ref="C?"  Part="1" 
+AR Path="/61AAE045" Ref="C?"  Part="1" 
+F 0 "C?" H 8035 7395 50  0000 L CNN
+F 1 ".1uF" H 7995 7335 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8230 7335 50  0001 C CNN
+F 3 "~" H 8230 7335 50  0001 C CNN
+	1    8230 7335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8715 7585 8735 7585
+NoConn ~ 8735 7685
+$Comp
+L power:GND #PWR?
+U 1 1 61AAE04D
+P 8230 7485
+AR Path="/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/62175536/61C88AE8/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/62175536/619EC506/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/6352A127/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/6352A1A0/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/635FA3DE/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/635FA457/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/63845F20/61AAE04D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8230 7235 50  0001 C CNN
+F 1 "GND" H 8105 7520 50  0000 C CNN
+F 2 "" H 8230 7485 50  0001 C CNN
+F 3 "" H 8230 7485 50  0001 C CNN
+	1    8230 7485
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U?
+U 1 1 61AAE053
+P 8985 7445
+AR Path="/61AAE053" Ref="U?"  Part="1" 
+AR Path="/63845F20/61AAE053" Ref="U?"  Part="1" 
+F 0 "U?" H 9055 7730 50  0000 C CNN
+F 1 "LTC6900" H 9055 7639 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8985 7445 50  0001 C CNN
+F 3 "" H 8985 7445 50  0001 C CNN
+	1    8985 7445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61AAE059
+P 8565 7585
+AR Path="/63845F20/61AAE059" Ref="R?"  Part="1" 
+AR Path="/61AAE059" Ref="R?"  Part="1" 
+F 0 "R?" V 8772 7585 50  0000 C CNN
+F 1 "20k" V 8681 7585 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8495 7585 50  0001 C CNN
+F 3 "~" H 8565 7585 50  0001 C CNN
+	1    8565 7585
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8230 7485 8735 7485
+Wire Wire Line
+	8230 7435 8230 7485
+Connection ~ 8230 7485
+Wire Wire Line
+	8405 7585 8405 7235
+Connection ~ 8405 7235
+Wire Wire Line
+	8405 7235 8560 7235
+Text GLabel 9655 7485 2    50   Input ~ 0
+OSC
+Wire Wire Line
+	9375 7485 9655 7485
 $EndSCHEMATC
