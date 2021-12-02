@@ -1017,7 +1017,7 @@ AR Path="/63845D0D" Ref="Conn2"  Part="2"
 AR Path="/62175536/63845D0D" Ref="Conn?"  Part="2" 
 F 0 "Conn2" H 3133 5462 60  0000 C CNN
 F 1 "AndersonPP" H 3133 5356 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2775 4525 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2775 4525 60  0001 C CNN
 F 3 "" H 2775 4525 60  0001 C CNN
 	2    2925 5075
 	1    0    0    -1  
@@ -1584,7 +1584,7 @@ AR Path="/63845E2A" Ref="Conn12"  Part="1"
 AR Path="/62175536/63845E2A" Ref="Conn?"  Part="1" 
 F 0 "Conn12" V 13800 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 13900 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 13650 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 13650 5200 60  0001 C CNN
 F 3 "" H 13650 5200 60  0001 C CNN
 	1    13650 5300
 	0    1    1    0   
@@ -1748,7 +1748,7 @@ AR Path="/63845E78" Ref="Conn20"  Part="1"
 AR Path="/62175536/63845E78" Ref="Conn?"  Part="1" 
 F 0 "Conn20" V 15850 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 15950 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 15700 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15700 5200 60  0001 C CNN
 F 3 "" H 15700 5200 60  0001 C CNN
 	1    15700 5300
 	0    1    1    0   
@@ -1786,7 +1786,7 @@ AR Path="/63845E8A" Ref="Conn11"  Part="1"
 AR Path="/62175536/63845E8A" Ref="Conn?"  Part="1" 
 F 0 "Conn11" V 12775 5300 60  0000 L CNN
 F 1 "Molex_SL_02" V 12875 5300 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 12625 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 12625 5200 60  0001 C CNN
 F 3 "" H 12625 5200 60  0001 C CNN
 	1    12625 5300
 	0    1    1    0   
@@ -1833,7 +1833,7 @@ AR Path="/63845EAF" Ref="Conn1"  Part="2"
 AR Path="/62175536/63845EAF" Ref="Conn?"  Part="2" 
 F 0 "Conn1" H 1525 5525 60  0000 C CNN
 F 1 "AndersonPP" H 1525 5425 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1275 4625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1275 4625 60  0001 C CNN
 F 3 "" H 1275 4625 60  0001 C CNN
 	2    1425 5175
 	1    0    0    -1  
@@ -1987,7 +1987,7 @@ AR Path="/626C4DE4" Ref="Conn19"  Part="1"
 AR Path="/62175536/626C4DE4" Ref="Conn?"  Part="1" 
 F 0 "Conn19" V 15675 4200 60  0000 L CNN
 F 1 "Molex_SL_02" V 15775 4200 60  0001 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 15525 4100 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 15525 4100 60  0001 C CNN
 F 3 "" H 15525 4100 60  0001 C CNN
 	1    15525 4200
 	0    1    1    0   
@@ -2883,8 +2883,8 @@ L power:+5V #PWR?
 U 1 1 61AAE03E
 P 8560 7200
 AR Path="/63845F20/61AAE03E" Ref="#PWR?"  Part="1" 
-AR Path="/61AAE03E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8560 7050 50  0001 C CNN
+AR Path="/61AAE03E" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 8560 7050 50  0001 C CNN
 F 1 "+5V" H 8575 7373 50  0000 C CNN
 F 2 "" H 8560 7200 50  0001 C CNN
 F 3 "" H 8560 7200 50  0001 C CNN
@@ -2898,8 +2898,8 @@ L Device:C_Small C?
 U 1 1 61AAE045
 P 8230 7335
 AR Path="/63845F20/61AAE045" Ref="C?"  Part="1" 
-AR Path="/61AAE045" Ref="C?"  Part="1" 
-F 0 "C?" H 8035 7395 50  0000 L CNN
+AR Path="/61AAE045" Ref="C5"  Part="1" 
+F 0 "C5" H 8035 7395 50  0000 L CNN
 F 1 ".1uF" H 7995 7335 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8230 7335 50  0001 C CNN
 F 3 "~" H 8230 7335 50  0001 C CNN
@@ -2910,10 +2910,10 @@ Wire Wire Line
 	8715 7585 8735 7585
 NoConn ~ 8735 7685
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 61AAE04D
 P 8230 7485
-AR Path="/61AAE04D" Ref="#PWR?"  Part="1" 
+AR Path="/61AAE04D" Ref="#PWR0107"  Part="1" 
 AR Path="/62175536/61C88AE8/61AAE04D" Ref="#PWR?"  Part="1" 
 AR Path="/62175536/619EC506/61AAE04D" Ref="#PWR?"  Part="1" 
 AR Path="/6352A127/61AAE04D" Ref="#PWR?"  Part="1" 
@@ -2921,7 +2921,7 @@ AR Path="/6352A1A0/61AAE04D" Ref="#PWR?"  Part="1"
 AR Path="/635FA3DE/61AAE04D" Ref="#PWR?"  Part="1" 
 AR Path="/635FA457/61AAE04D" Ref="#PWR?"  Part="1" 
 AR Path="/63845F20/61AAE04D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8230 7235 50  0001 C CNN
+F 0 "#PWR0107" H 8230 7235 50  0001 C CNN
 F 1 "GND" H 8105 7520 50  0000 C CNN
 F 2 "" H 8230 7485 50  0001 C CNN
 F 3 "" H 8230 7485 50  0001 C CNN
@@ -2929,12 +2929,12 @@ F 3 "" H 8230 7485 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U?
+L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U4
 U 1 1 61AAE053
 P 8985 7445
-AR Path="/61AAE053" Ref="U?"  Part="1" 
+AR Path="/61AAE053" Ref="U4"  Part="1" 
 AR Path="/63845F20/61AAE053" Ref="U?"  Part="1" 
-F 0 "U?" H 9055 7730 50  0000 C CNN
+F 0 "U4" H 9055 7730 50  0000 C CNN
 F 1 "LTC6900" H 9055 7639 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8985 7445 50  0001 C CNN
 F 3 "" H 8985 7445 50  0001 C CNN
@@ -2946,8 +2946,8 @@ L Device:R R?
 U 1 1 61AAE059
 P 8565 7585
 AR Path="/63845F20/61AAE059" Ref="R?"  Part="1" 
-AR Path="/61AAE059" Ref="R?"  Part="1" 
-F 0 "R?" V 8772 7585 50  0000 C CNN
+AR Path="/61AAE059" Ref="R26"  Part="1" 
+F 0 "R26" V 8772 7585 50  0000 C CNN
 F 1 "20k" V 8681 7585 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8495 7585 50  0001 C CNN
 F 3 "~" H 8565 7585 50  0001 C CNN
