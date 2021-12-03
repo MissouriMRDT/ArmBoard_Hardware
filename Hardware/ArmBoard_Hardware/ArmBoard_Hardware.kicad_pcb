@@ -2018,7 +2018,7 @@
   (module MRDT_Connectors:MOLEX_SL_02_Horizontal (layer F.Cu) (tedit 5DD894FE) (tstamp 619F1A1C)
     (at 234.7722 26.035)
     (path /625D6A97)
-    (fp_text reference Conn15 (at -0.381 -3.2385) (layer F.SilkS) hide
+    (fp_text reference Conn15 (at 0.9652 2.4384) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Molex_SL_02 (at 1.524 -1.9685) (layer F.Fab)
