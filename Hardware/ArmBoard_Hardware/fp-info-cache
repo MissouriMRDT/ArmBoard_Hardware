@@ -1,4 +1,11 @@
-19543505738494303
+19430236279102314
+ArmBoard_Hardware
+yeetsilk
+
+
+0
+0
+0
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -77706,6 +77713,83 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+DIPS1524W76P254L3556H457Q28N
+4-1571552-9
+Integrated Circuit
+0
+28
+28
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+PSC0811SRWA
+PSC08-11SRWA-4
+Display
+0
+18
+18
+SamacSys_Parts
+SIRA18ADPT1GE3
+PowerPAKSO-8
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+SON50P300X300X100-11N-D
+MCP73833-FCI/MF-1
+Integrated Circuit
+0
+11
+11
+SamacSys_Parts
+SOP64P600X175-24N
+QSOP-24
+Integrated Circuit
+0
+24
+24
+SamacSys_Parts
+SOP65P490X110-8N
+8-Lead Plastic MSOP_1
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP80P1030X264-36N
+MAX 36 SSOP
+Integrated Circuit
+0
+36
+36
+SamacSys_Parts
+SOT95P260X110-3N
+SOT23_6
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+TEENSY32
+TEENSY3.2-3
+Integrated Circuit
+0
+37
+37
+SamacSys_Parts
+TO127P500X2020X2210-15P
+Multiwatt15 V
+Integrated Circuit
+0
+15
+15
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
