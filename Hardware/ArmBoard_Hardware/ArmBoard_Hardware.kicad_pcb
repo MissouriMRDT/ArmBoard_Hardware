@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 174)
+    (drawings 175)
     (tracks 1617)
     (zones 0)
     (modules 130)
@@ -329,7 +329,7 @@
   )
 
   (module "ArmBoard_Hardware2:signature tyler 450" (layer F.Cu) (tedit 0) (tstamp 61AA7233)
-    (at 104.0638 63.627)
+    (at 147.955 65.3542)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -715,7 +715,7 @@
   )
 
   (module "ArmBoard_Hardware2:signature patrick 450" (layer F.Cu) (tedit 0) (tstamp 61AA71B8)
-    (at 106.7562 41.021)
+    (at 148.2598 44.6786)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -6757,6 +6757,9 @@
     )
   )
 
+  (gr_text "ARM MANIPULATOR BOARD 2021" (at 67.7418 85.6742 90) (layer F.SilkS)
+    (effects (font (size 2.54 2.54) (thickness 0.508)))
+  )
   (gr_text "12v\nPWR" (at 248.1834 114.3266) (layer F.SilkS) (tstamp 61AA724E)
     (effects (font (size 2.54 2.54) (thickness 0.15)))
   )
