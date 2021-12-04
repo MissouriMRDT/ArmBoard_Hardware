@@ -1903,8 +1903,6 @@ Wire Wire Line
 	14500 3575 14500 3625
 Wire Wire Line
 	14150 3275 14150 3375
-Wire Wire Line
-	14150 3375 14200 3375
 Text GLabel 14150 3275 1    50   Input ~ 0
 LASER
 $Comp
@@ -1933,8 +1931,6 @@ F 3 "~" H 14500 3725 50  0001 C CNN
 	1    14500 3725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14500 3125 14500 3175
 $Comp
 L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn15
 U 1 1 625D6A97
@@ -1954,12 +1950,8 @@ Wire Wire Line
 	14500 3825 14500 4000
 Wire Wire Line
 	15325 3275 15325 3375
-Wire Wire Line
-	15325 3375 15375 3375
 Text GLabel 15325 3275 1    50   Input ~ 0
 SOL
-Wire Wire Line
-	15675 3125 15675 3175
 $Comp
 L power:+12V #PWR062
 U 1 1 626ED493
@@ -1971,8 +1963,6 @@ F 3 "" H 15675 3125 50  0001 C CNN
 	1    15675 3125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15675 3575 15675 3625
 Wire Wire Line
 	15675 3825 15675 4000
 Wire Wire Line
@@ -2591,8 +2581,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2550 8050 3050
 Wire Notes Line
-	16050 2900 16050 4750
-Wire Notes Line
 	13750 2900 13750 4750
 Wire Notes Line
 	2825 4525 2825 6025
@@ -2606,32 +2594,6 @@ Wire Notes Line
 	525  500  525  9325
 Text Notes 5475 4475 0    98   ~ 20
 Tiva Headers
-$Comp
-L Transistor_FET:BSS138 Q1
-U 1 1 62295B3B
-P 14400 3375
-AR Path="/62295B3B" Ref="Q1"  Part="1" 
-AR Path="/62175536/62295B3B" Ref="Q?"  Part="1" 
-F 0 "Q1" H 14604 3421 50  0000 L CNN
-F 1 "BSS138" H 14604 3330 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14600 3300 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 14400 3375 50  0001 L CNN
-	1    14400 3375
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSS138 Q2
-U 1 1 622BDC38
-P 15575 3375
-AR Path="/622BDC38" Ref="Q2"  Part="1" 
-AR Path="/62175536/622BDC38" Ref="Q?"  Part="1" 
-F 0 "Q2" H 15779 3421 50  0000 L CNN
-F 1 "BSS138" H 15779 3330 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 15775 3300 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 15575 3375 50  0001 L CNN
-	1    15575 3375
-	1    0    0    -1  
-$EndComp
 Text GLabel 5050 3850 0    50   Output ~ 0
 LASER
 Text GLabel 5050 3950 0    50   Output ~ 0
@@ -2943,12 +2905,12 @@ OSC
 Wire Wire Line
 	9375 7485 9655 7485
 $Comp
-L Device:LED D?
+L Device:LED D16
 U 1 1 61B89D3A
 P 9725 4200
-AR Path="/61B89D3A" Ref="D?"  Part="1" 
+AR Path="/61B89D3A" Ref="D16"  Part="1" 
 AR Path="/62175536/61B89D3A" Ref="D?"  Part="1" 
-F 0 "D?" V 9800 4075 50  0000 C CNN
+F 0 "D16" V 9800 4075 50  0000 C CNN
 F 1 "Blue" V 9725 4050 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
 F 3 "~" H 9725 4200 50  0001 C CNN
@@ -2956,16 +2918,48 @@ F 3 "~" H 9725 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D15
 U 1 1 61B89D40
 P 9725 3850
-AR Path="/61B89D40" Ref="D?"  Part="1" 
+AR Path="/61B89D40" Ref="D15"  Part="1" 
 AR Path="/62175536/61B89D40" Ref="D?"  Part="1" 
-F 0 "D?" V 9800 3725 50  0000 C CNN
+F 0 "D15" V 9800 3725 50  0000 C CNN
 F 1 "Blue" V 9725 3700 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
 F 3 "~" H 9725 3850 50  0001 C CNN
 	1    9725 3850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	14150 3375 14200 3375
+Wire Wire Line
+	14500 3125 14500 3175
+$Comp
+L Transistor_FET:2N7002H Q1
+U 1 1 61BC061C
+P 14400 3375
+F 0 "Q1" H 14605 3421 50  0000 L CNN
+F 1 "SI3420A-TP" H 14605 3330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14600 3300 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 14400 3375 50  0001 L CNN
+	1    14400 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15675 3575 15675 3625
+Wire Wire Line
+	15675 3125 15675 3175
+$Comp
+L Transistor_FET:2N7002H Q2
+U 1 1 61C60398
+P 15575 3375
+F 0 "Q2" H 15780 3421 50  0000 L CNN
+F 1 "SI3420A-TP" H 15780 3330 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15775 3300 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 15575 3375 50  0001 L CNN
+	1    15575 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15325 3375 15375 3375
 $EndSCHEMATC
