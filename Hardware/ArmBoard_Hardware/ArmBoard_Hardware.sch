@@ -2392,32 +2392,6 @@ Wire Wire Line
 Wire Wire Line
 	9875 4200 9975 4200
 $Comp
-L Device:LED D?
-U 1 1 63845FCE
-P 9725 4200
-AR Path="/62175536/63845FCE" Ref="D?"  Part="1" 
-AR Path="/63845FCE" Ref="D16"  Part="1" 
-F 0 "D16" H 9875 4050 50  0000 R CNN
-F 1 "LED" H 9700 4050 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
-F 3 "~" H 9725 4200 50  0001 C CNN
-	1    9725 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 63845FD4
-P 9725 3850
-AR Path="/62175536/63845FD4" Ref="D?"  Part="1" 
-AR Path="/63845FD4" Ref="D15"  Part="1" 
-F 0 "D15" H 9875 3700 50  0000 R CNN
-F 1 "LED" H 9700 3700 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
-F 3 "~" H 9725 3850 50  0001 C CNN
-	1    9725 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 63845FDA
 P 10125 3850
@@ -2968,4 +2942,30 @@ Text GLabel 9655 7485 2    50   Input ~ 0
 OSC
 Wire Wire Line
 	9375 7485 9655 7485
+$Comp
+L Device:LED D?
+U 1 1 61B89D3A
+P 9725 4200
+AR Path="/61B89D3A" Ref="D?"  Part="1" 
+AR Path="/62175536/61B89D3A" Ref="D?"  Part="1" 
+F 0 "D?" V 9800 4075 50  0000 C CNN
+F 1 "Blue" V 9725 4050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
+F 3 "~" H 9725 4200 50  0001 C CNN
+	1    9725 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61B89D40
+P 9725 3850
+AR Path="/61B89D40" Ref="D?"  Part="1" 
+AR Path="/62175536/61B89D40" Ref="D?"  Part="1" 
+F 0 "D?" V 9800 3725 50  0000 C CNN
+F 1 "Blue" V 9725 3700 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
+F 3 "~" H 9725 3850 50  0001 C CNN
+	1    9725 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
