@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name ArmBoard_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/ArmBoard_Hardware-rescue.lib)(options "")(descr ""))
   (lib (name MRDT_Actives)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Actives.lib)(options "")(descr ""))
   (lib (name MRDT_Connectors)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Connectors.lib)(options "")(descr ""))
   (lib (name MRDT_Devices)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Devices.lib)(options "")(descr ""))
@@ -11,4 +10,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri ${MRDT_KICAD_LIBRARIES}/Symbols/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name ArmBoard_Hardware-rescue)(type Legacy)(uri ${KIPRJMOD}/ArmBoard_Hardware-rescue.lib)(options "")(descr ""))
 )

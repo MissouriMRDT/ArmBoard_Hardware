@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn9
+L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 638457EE
 P 12475 6675
 AR Path="/638457EE" Ref="Conn9"  Part="1" 
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	12375 6450 12525 6450
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn10
+L MRDT_Connectors:Molex_SL_03 Conn10
 U 1 1 63845807
 P 12475 7400
 AR Path="/63845807" Ref="Conn10"  Part="1" 
@@ -120,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	12375 7175 12525 7175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn13
+L MRDT_Connectors:Molex_SL_03 Conn13
 U 1 1 63845820
 P 13925 6650
 AR Path="/63845820" Ref="Conn13"  Part="1" 
@@ -173,7 +173,7 @@ Wire Wire Line
 Wire Wire Line
 	13825 6425 13975 6425
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn14
+L MRDT_Connectors:Molex_SL_03 Conn14
 U 1 1 63845839
 P 13925 7400
 AR Path="/63845839" Ref="Conn14"  Part="1" 
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	13825 7175 13975 7175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn17
+L MRDT_Connectors:Molex_SL_03 Conn17
 U 1 1 63845852
 P 15375 6700
 AR Path="/63845852" Ref="Conn17"  Part="1" 
@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	15275 6475 15425 6475
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn18
+L MRDT_Connectors:Molex_SL_03 Conn18
 U 1 1 6384586B
 P 15375 7400
 AR Path="/6384586B" Ref="Conn18"  Part="1" 
@@ -1010,7 +1010,7 @@ Wire Notes Line
 Wire Notes Line
 	525  9075 11575 9075
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn2
+L MRDT_Connectors:AndersonPP Conn2
 U 2 1 63845D0D
 P 2925 5075
 AR Path="/63845D0D" Ref="Conn2"  Part="2" 
@@ -1023,7 +1023,7 @@ F 3 "" H 2775 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn3
+L MRDT_Connectors:AndersonPP Conn3
 U 2 1 63845D13
 P 3775 5075
 AR Path="/63845D13" Ref="Conn3"  Part="2" 
@@ -1038,7 +1038,7 @@ $EndComp
 Text GLabel 3325 4975 2    50   Input ~ 0
 OUTa_1
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn2
+L MRDT_Connectors:AndersonPP Conn2
 U 1 1 63845D1A
 P 2925 5525
 AR Path="/63845D1A" Ref="Conn2"  Part="1" 
@@ -1053,7 +1053,7 @@ $EndComp
 Text GLabel 4175 4975 2    50   Input ~ 0
 OUTa_2
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn3
+L MRDT_Connectors:AndersonPP Conn3
 U 1 1 63845D22
 P 3775 5525
 AR Path="/63845D22" Ref="Conn3"  Part="1" 
@@ -1066,7 +1066,7 @@ F 3 "" H 3625 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
+L MRDT_Connectors:AndersonPP Conn4
 U 2 1 63845D29
 P 4625 5075
 AR Path="/63845D29" Ref="Conn4"  Part="2" 
@@ -1081,7 +1081,7 @@ $EndComp
 Text GLabel 5025 4975 2    50   Input ~ 0
 OUTa_3
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
+L MRDT_Connectors:AndersonPP Conn4
 U 1 1 63845D30
 P 4625 5525
 AR Path="/63845D30" Ref="Conn4"  Part="1" 
@@ -1094,7 +1094,7 @@ F 3 "" H 4475 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
+L MRDT_Connectors:AndersonPP Conn5
 U 2 1 63845D37
 P 5475 5075
 AR Path="/63845D37" Ref="Conn5"  Part="2" 
@@ -1109,7 +1109,7 @@ $EndComp
 Text GLabel 5875 4975 2    50   Input ~ 0
 OUTa_4
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
+L MRDT_Connectors:AndersonPP Conn5
 U 1 1 63845D3E
 P 5475 5525
 AR Path="/63845D3E" Ref="Conn5"  Part="1" 
@@ -1122,7 +1122,7 @@ F 3 "" H 5325 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
+L MRDT_Connectors:AndersonPP Conn6
 U 2 1 63845D45
 P 6325 5075
 AR Path="/63845D45" Ref="Conn6"  Part="2" 
@@ -1135,7 +1135,7 @@ F 3 "" H 6175 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
+L MRDT_Connectors:AndersonPP Conn6
 U 1 1 63845D4C
 P 6325 5525
 AR Path="/63845D4C" Ref="Conn6"  Part="1" 
@@ -1148,7 +1148,7 @@ F 3 "" H 6175 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
+L MRDT_Connectors:AndersonPP Conn7
 U 2 1 63845D53
 P 7175 5075
 AR Path="/63845D53" Ref="Conn7"  Part="2" 
@@ -1161,7 +1161,7 @@ F 3 "" H 7025 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
+L MRDT_Connectors:AndersonPP Conn7
 U 1 1 63845D5A
 P 7175 5525
 AR Path="/63845D5A" Ref="Conn7"  Part="1" 
@@ -1174,7 +1174,7 @@ F 3 "" H 7025 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn8
+L MRDT_Connectors:AndersonPP Conn8
 U 2 1 63845D61
 P 8025 5075
 AR Path="/63845D61" Ref="Conn8"  Part="2" 
@@ -1187,7 +1187,7 @@ F 3 "" H 7875 4525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn8
+L MRDT_Connectors:AndersonPP Conn8
 U 1 1 63845D68
 P 8025 5525
 AR Path="/63845D68" Ref="Conn8"  Part="1" 
@@ -1200,7 +1200,7 @@ F 3 "" H 7875 4975 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:OKI-MRDT_Devices U2
+L MRDT_Devices:OKI U2
 U 1 1 63845D6F
 P 9250 5000
 AR Path="/63845D6F" Ref="U2"  Part="1" 
@@ -1577,7 +1577,7 @@ F 3 "~" H 13525 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn12
+L MRDT_Connectors:Molex_SL_02 Conn12
 U 1 1 63845E2A
 P 13650 5300
 AR Path="/63845E2A" Ref="Conn12"  Part="1" 
@@ -1659,7 +1659,7 @@ F 3 "~" H 14550 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn16
+L MRDT_Connectors:Molex_SL_02 Conn16
 U 1 1 63845E51
 P 14675 5300
 AR Path="/63845E51" Ref="Conn16"  Part="1" 
@@ -1741,7 +1741,7 @@ F 3 "~" H 15575 5275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn20
+L MRDT_Connectors:Molex_SL_02 Conn20
 U 1 1 63845E78
 P 15700 5300
 AR Path="/63845E78" Ref="Conn20"  Part="1" 
@@ -1779,7 +1779,7 @@ Wire Wire Line
 Wire Wire Line
 	15575 5075 15575 5175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn11
+L MRDT_Connectors:Molex_SL_02 Conn11
 U 1 1 63845E8A
 P 12625 5300
 AR Path="/63845E8A" Ref="Conn11"  Part="1" 
@@ -1800,7 +1800,7 @@ Text Notes 8825 5925 0    98   ~ 20
 Wire Notes Line
 	8825 6025 8825 4525
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 1 1 63845E97
 P 625 5175
 AR Path="/63845E97" Ref="Conn1"  Part="1" 
@@ -1813,7 +1813,7 @@ F 3 "" H 475 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 3 1 63845EA3
 P 2175 5175
 AR Path="/63845EA3" Ref="Conn1"  Part="3" 
@@ -1826,7 +1826,7 @@ F 3 "" H 2025 4625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 2 1 63845EAF
 P 1425 5175
 AR Path="/63845EAF" Ref="Conn1"  Part="2" 
@@ -1936,7 +1936,7 @@ $EndComp
 Wire Wire Line
 	14500 3125 14500 3175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn15
+L MRDT_Connectors:Molex_SL_02 Conn15
 U 1 1 625D6A97
 P 14350 4200
 AR Path="/625D6A97" Ref="Conn15"  Part="1" 
@@ -1980,7 +1980,7 @@ Wire Wire Line
 Wire Wire Line
 	15175 4000 15575 4000
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn19
+L MRDT_Connectors:Molex_SL_02 Conn19
 U 1 1 626C4DE4
 P 15525 4200
 AR Path="/626C4DE4" Ref="Conn19"  Part="1" 
@@ -2158,7 +2158,7 @@ Wire Wire Line
 Wire Wire Line
 	8975 5250 9450 5250
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 4 1 63845EF2
 P 5250 4100
 AR Path="/62175536/63845EF2" Ref="U?"  Part="4" 
@@ -2171,7 +2171,7 @@ F 3 "" H 5250 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 1 1 63845F47
 P 1200 2625
 AR Path="/62175536/63845F47" Ref="U?"  Part="1" 
@@ -2184,7 +2184,7 @@ F 3 "" H 1200 2625 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 3 1 63845EF8
 P 5250 2625
 AR Path="/62175536/63845EF8" Ref="U?"  Part="3" 
@@ -2304,7 +2304,7 @@ Wire Wire Line
 Wire Wire Line
 	8825 875  9750 875 
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 8 1 63845F69
 P 10825 4100
 AR Path="/62175536/63845F69" Ref="U?"  Part="8" 
@@ -2317,7 +2317,7 @@ F 3 "" H 10825 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 7 1 63845F6F
 P 10825 2600
 AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
@@ -2330,7 +2330,7 @@ F 3 "" H 10825 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 5 1 63845F53
 P 6575 2600
 AR Path="/62175536/63845F53" Ref="U?"  Part="5" 
@@ -2392,32 +2392,6 @@ Wire Wire Line
 Wire Wire Line
 	9875 4200 9975 4200
 $Comp
-L Device:LED D?
-U 1 1 63845FCE
-P 9725 4200
-AR Path="/62175536/63845FCE" Ref="D?"  Part="1" 
-AR Path="/63845FCE" Ref="D16"  Part="1" 
-F 0 "D16" H 9875 4050 50  0000 R CNN
-F 1 "LED" H 9700 4050 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
-F 3 "~" H 9725 4200 50  0001 C CNN
-	1    9725 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 63845FD4
-P 9725 3850
-AR Path="/62175536/63845FD4" Ref="D?"  Part="1" 
-AR Path="/63845FD4" Ref="D15"  Part="1" 
-F 0 "D15" H 9875 3700 50  0000 R CNN
-F 1 "LED" H 9700 3700 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
-F 3 "~" H 9725 3850 50  0001 C CNN
-	1    9725 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 63845FDA
 P 10125 3850
@@ -2456,7 +2430,7 @@ F9 "3.3v" I R 2975 3350 50
 F10 "GND" I R 2975 3450 50 
 $EndSheet
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 2 1 63845F41
 P 1200 4100
 AR Path="/62175536/63845F41" Ref="U?"  Part="2" 
@@ -2548,7 +2522,7 @@ Wire Wire Line
 	6775 3250 7025 3250
 NoConn ~ 6775 3150
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 6 1 63845F59
 P 6575 4100
 AR Path="/62175536/63845F59" Ref="U?"  Part="6" 
@@ -2929,7 +2903,7 @@ F 3 "" H 8230 7485 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:LTC6900-MRDT_Devices U4
+L MRDT_Devices:LTC6900 U4
 U 1 1 61AAE053
 P 8985 7445
 AR Path="/61AAE053" Ref="U4"  Part="1" 
@@ -2968,4 +2942,30 @@ Text GLabel 9655 7485 2    50   Input ~ 0
 OSC
 Wire Wire Line
 	9375 7485 9655 7485
+$Comp
+L Device:LED D16
+U 1 1 61B89D3A
+P 9725 4200
+AR Path="/61B89D3A" Ref="D16"  Part="1" 
+AR Path="/62175536/61B89D3A" Ref="D?"  Part="1" 
+F 0 "D16" V 9800 4075 50  0000 C CNN
+F 1 "Blue" V 9725 4050 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
+F 3 "~" H 9725 4200 50  0001 C CNN
+	1    9725 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 61B89D40
+P 9725 3850
+AR Path="/61B89D40" Ref="D15"  Part="1" 
+AR Path="/62175536/61B89D40" Ref="D?"  Part="1" 
+F 0 "D15" V 9800 3725 50  0000 C CNN
+F 1 "Blue" V 9725 3700 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
+F 3 "~" H 9725 3850 50  0001 C CNN
+	1    9725 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

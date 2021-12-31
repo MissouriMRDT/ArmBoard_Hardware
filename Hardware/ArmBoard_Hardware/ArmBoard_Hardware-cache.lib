@@ -1,11 +1,105 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ArmBoard_Hardware-rescue_AndersonPP-MRDT_Connectors
+# Converter_DCDC_OKI-78SR-5_1.5-W36H-C
 #
-DEF ArmBoard_Hardware-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF Converter_DCDC_OKI-78SR-5_1.5-W36H-C U 0 20 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Converter_DCDC_OKI-78SR-5_1.5-W36H-C" 0 125 50 H V L CNN
+F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" 50 -250 50 H I L CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS OKI-78SR-12_1.0-W36H-C OKI-78SR-5_1.5-W36H-C
+$FPLIST
+ Converter*DCDC*muRata*OKI*78SR*Horizontal*
+$ENDFPLIST
+DRAW
+S -200 75 200 -200 0 1 10 f
+X IN 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X OUT 3 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_AndersonPP
+#
+DEF MRDT_Connectors_AndersonPP Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "ArmBoard_Hardware-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "MRDT_Connectors_AndersonPP" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -21,11 +115,40 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# ArmBoard_Hardware-rescue_LTC6900-MRDT_Devices
+# MRDT_Connectors_Molex_SL_02
 #
-DEF ArmBoard_Hardware-rescue_LTC6900-MRDT_Devices U 0 40 Y Y 1 F N
+DEF MRDT_Connectors_Molex_SL_02 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_02" 50 250 60 H V C CNN
+F2 "" 0 -100 60 H I C CNN
+F3 "" 0 -100 60 H I C CNN
+DRAW
+S 0 200 100 0 0 1 0 N
+X ~ 1 -200 150 200 R 50 50 1 1 I
+X ~ 2 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_SL_03
+#
+DEF MRDT_Connectors_Molex_SL_03 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_03" 50 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Devices_LTC6900
+#
+DEF MRDT_Devices_LTC6900 U 0 40 Y Y 1 F N
 F0 "U" 0 220 50 H V C CNN
-F1 "ArmBoard_Hardware-rescue_LTC6900-MRDT_Devices" 0 150 50 H V C CNN
+F1 "MRDT_Devices_LTC6900" 0 150 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -38,40 +161,11 @@ X OUT 5 390 -40 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ArmBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors
+# MRDT_Devices_OKI
 #
-DEF ArmBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "ArmBoard_Hardware-rescue_Molex_SL_02-MRDT_Connectors" 50 250 60 H V C CNN
-F2 "" 0 -100 60 H I C CNN
-F3 "" 0 -100 60 H I C CNN
-DRAW
-S 0 200 100 0 0 1 0 N
-X ~ 1 -200 150 200 R 50 50 1 1 I
-X ~ 2 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# ArmBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors
-#
-DEF ArmBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors Conn 0 40 Y Y 1 F N
-F0 "Conn" 150 -50 60 H V C CNN
-F1 "ArmBoard_Hardware-rescue_Molex_SL_03-MRDT_Connectors" 50 350 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S 0 300 100 0 0 1 0 N
-X ~ 1 -200 250 200 R 50 50 1 1 I
-X ~ 2 -200 150 200 R 50 50 1 1 I
-X ~ 3 -200 50 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# ArmBoard_Hardware-rescue_OKI-MRDT_Devices
-#
-DEF ArmBoard_Hardware-rescue_OKI-MRDT_Devices U 0 40 Y Y 1 F N
+DEF MRDT_Devices_OKI U 0 40 Y Y 1 F N
 F0 "U" 50 -50 60 H I C CNN
-F1 "ArmBoard_Hardware-rescue_OKI-MRDT_Devices" 200 250 60 H V C CNN
+F1 "MRDT_Devices_OKI" 200 250 60 H V C CNN
 F2 "" -200 -100 60 H I C CNN
 F3 "" -200 -100 60 H I C CNN
 DRAW
@@ -82,11 +176,11 @@ X Vo 3 600 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# ArmBoard_Hardware-rescue_TB67H400AFNG,EL-MRDT_ICs
+# MRDT_ICs_TB67H400AFNG,EL
 #
-DEF ArmBoard_Hardware-rescue_TB67H400AFNG,EL-MRDT_ICs U 0 40 Y Y 1 F N
+DEF MRDT_ICs_TB67H400AFNG,EL U 0 40 Y Y 1 F N
 F0 "U" 0 1600 50 H V C CNN
-F1 "ArmBoard_Hardware-rescue_TB67H400AFNG,EL-MRDT_ICs" 0 1500 50 H V C CNN
+F1 "MRDT_ICs_TB67H400AFNG,EL" 0 1500 50 H V C CNN
 F2 "MRDT_ICs:TB67H400AFNG,EL" 1550 -700 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -143,11 +237,11 @@ X INB2 9 -800 550 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ArmBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields
+# MRDT_Shields_TM4C129E_Launchpad
 #
-DEF ArmBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
+DEF MRDT_Shields_TM4C129E_Launchpad U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "ArmBoard_Hardware-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
+F1 "MRDT_Shields_TM4C129E_Launchpad" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -240,100 +334,6 @@ X D2_9 PQ1 -200 150 200 R 50 50 8 1 I
 X D2_6 PQ2 -200 450 200 R 50 50 8 1 I
 X D2_7 PQ3 -200 350 200 R 50 50 8 1 I
 X D2_5 Rese' -200 550 200 R 50 50 8 1 I
-ENDDRAW
-ENDDEF
-#
-# Converter_DCDC_OKI-78SR-5_1.5-W36H-C
-#
-DEF Converter_DCDC_OKI-78SR-5_1.5-W36H-C U 0 20 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Converter_DCDC_OKI-78SR-5_1.5-W36H-C" 0 125 50 H V L CNN
-F2 "Converter_DCDC:Converter_DCDC_muRata_OKI-78SR_Horizontal" 50 -250 50 H I L CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS OKI-78SR-12_1.0-W36H-C OKI-78SR-5_1.5-W36H-C
-$FPLIST
- Converter*DCDC*muRata*OKI*78SR*Horizontal*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 300 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Device_C_Small
-#
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
