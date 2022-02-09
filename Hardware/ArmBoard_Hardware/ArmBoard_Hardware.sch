@@ -935,28 +935,28 @@ Text Notes 9125 7775 0    98   ~ 20
 3.3V+ Gen
 $Comp
 L MRDT_Connectors:AndersonPP PowerConn1
-U 3 1 63845E97
+U 1 1 63845E97
 P 6725 7000
-AR Path="/63845E97" Ref="PowerConn1"  Part="3" 
+AR Path="/63845E97" Ref="PowerConn1"  Part="1" 
 AR Path="/62175536/63845E97" Ref="Conn?"  Part="1" 
 F 0 "PowerConn1" H 6933 7387 60  0000 C CNN
 F 1 "AndersonPP" H 6933 7281 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 6575 6450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 6575 6450 60  0001 C CNN
 F 3 "" H 6575 6450 60  0001 C CNN
-	3    6725 7000
+	1    6725 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP PowerConn1
-U 1 1 63845EA3
+U 3 1 63845EA3
 P 8275 7000
-AR Path="/63845EA3" Ref="PowerConn1"  Part="1" 
+AR Path="/63845EA3" Ref="PowerConn1"  Part="3" 
 AR Path="/62175536/63845EA3" Ref="Conn?"  Part="3" 
 F 0 "PowerConn1" H 8425 7350 60  0000 C CNN
 F 1 "AndersonPP" H 8425 7250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 8125 6450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 8125 6450 60  0001 C CNN
 F 3 "" H 8125 6450 60  0001 C CNN
-	1    8275 7000
+	3    8275 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -967,7 +967,7 @@ AR Path="/63845EAF" Ref="PowerConn1"  Part="2"
 AR Path="/62175536/63845EAF" Ref="Conn?"  Part="2" 
 F 0 "PowerConn1" H 7625 7350 60  0000 C CNN
 F 1 "AndersonPP" H 7625 7250 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 7375 6450 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 7375 6450 60  0001 C CNN
 F 3 "" H 7375 6450 60  0001 C CNN
 	2    7525 7000
 	1    0    0    -1  
@@ -1163,7 +1163,6 @@ Wire Wire Line
 NoConn ~ 5050 1875
 NoConn ~ 5050 1775
 NoConn ~ 5050 1675
-NoConn ~ 1400 1775
 NoConn ~ 1400 1875
 NoConn ~ 1400 1975
 NoConn ~ 1400 4050
@@ -1444,42 +1443,8 @@ F 3 "" H 1200 4100 60  0001 C CNN
 	2    1200 4100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 63845F84
-P 7025 3250
-AR Path="/62175536/63845F84" Ref="#PWR?"  Part="1" 
-AR Path="/63845F84" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 7025 3000 50  0001 C CNN
-F 1 "GND" H 7030 3077 50  0000 C CNN
-F 2 "" H 7025 3250 50  0001 C CNN
-F 3 "" H 7025 3250 50  0001 C CNN
-	1    7025 3250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6775 3850
-NoConn ~ 6775 3750
-NoConn ~ 6775 3650
-NoConn ~ 6775 3550
-NoConn ~ 6775 3450
-NoConn ~ 6775 3350
 NoConn ~ 6775 3950
-Wire Wire Line
-	6775 3250 7025 3250
 NoConn ~ 6775 3150
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
-U 6 1 63845F59
-P 6575 4100
-AR Path="/62175536/63845F59" Ref="U?"  Part="6" 
-AR Path="/63845F59" Ref="U1"  Part="6" 
-F 0 "U1" H 6625 5350 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 6200 5250 60  0000 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 6575 4100 60  0001 C CNN
-F 3 "" H 6575 4100 60  0001 C CNN
-	6    6575 4100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9750 1950 10625 1950
 Wire Notes Line
@@ -1877,7 +1842,7 @@ AR Path="/62BD3BB0" Ref="Conn2"  Part="2"
 AR Path="/62175536/62BD3BB0" Ref="Conn?"  Part="1" 
 F 0 "Conn2" H 4308 2912 60  0000 C CNN
 F 1 "AndersonPP" H 4308 2806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 1975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 1975 60  0001 C CNN
 F 3 "" H 3950 1975 60  0001 C CNN
 	2    4100 2525
 	-1   0    0    -1  
@@ -1896,7 +1861,7 @@ AR Path="/62BD3BB9" Ref="Conn2"  Part="1"
 AR Path="/62175536/62BD3BB9" Ref="Conn?"  Part="2" 
 F 0 "Conn2" H 4308 2637 60  0000 C CNN
 F 1 "AndersonPP" H 4308 2531 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 1700 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 1700 60  0001 C CNN
 F 3 "" H 3950 1700 60  0001 C CNN
 	1    4100 2250
 	-1   0    0    -1  
@@ -1913,7 +1878,7 @@ AR Path="/62BE37AF" Ref="Conn3"  Part="1"
 AR Path="/62175536/62BE37AF" Ref="Conn?"  Part="2" 
 F 0 "Conn3" H 4308 3287 60  0000 C CNN
 F 1 "AndersonPP" H 4308 3181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 2350 60  0001 C CNN
 F 3 "" H 3950 2350 60  0001 C CNN
 	1    4100 2900
 	-1   0    0    -1  
@@ -1959,7 +1924,7 @@ AR Path="/62C19155" Ref="Conn7"  Part="2"
 AR Path="/62175536/62C19155" Ref="Conn3B?"  Part="1" 
 F 0 "Conn7" H 9683 1862 60  0000 C CNN
 F 1 "AndersonPP" H 9683 1756 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9325 925 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9325 925 60  0001 C CNN
 F 3 "" H 9325 925 60  0001 C CNN
 	2    9475 1475
 	-1   0    0    -1  
@@ -1988,7 +1953,7 @@ AR Path="/62C1915E" Ref="Conn7"  Part="1"
 AR Path="/62175536/62C1915E" Ref="Conn3A?"  Part="2" 
 F 0 "Conn7" H 9683 1587 60  0000 C CNN
 F 1 "AndersonPP" H 9683 1481 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9325 650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9325 650 60  0001 C CNN
 F 3 "" H 9325 650 60  0001 C CNN
 	1    9475 1200
 	-1   0    0    -1  
@@ -2001,7 +1966,7 @@ AR Path="/62D2CE0B" Ref="Conn4"  Part="2"
 AR Path="/62175536/62D2CE0B" Ref="Conn3B?"  Part="1" 
 F 0 "Conn4" H 9383 2787 60  0000 C CNN
 F 1 "AndersonPP" H 9383 2681 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 1850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9025 1850 60  0001 C CNN
 F 3 "" H 9025 1850 60  0001 C CNN
 	2    9175 2400
 	-1   0    0    -1  
@@ -2020,7 +1985,7 @@ AR Path="/62D2CE14" Ref="Conn4"  Part="1"
 AR Path="/62175536/62D2CE14" Ref="Conn3A?"  Part="2" 
 F 0 "Conn4" H 9383 2512 60  0000 C CNN
 F 1 "AndersonPP" H 9383 2406 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 1575 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9025 1575 60  0001 C CNN
 F 3 "" H 9025 1575 60  0001 C CNN
 	1    9175 2125
 	-1   0    0    -1  
@@ -2033,7 +1998,7 @@ AR Path="/62D3BCA9" Ref="Conn5"  Part="2"
 AR Path="/62175536/62D3BCA9" Ref="Conn3B?"  Part="1" 
 F 0 "Conn5" H 9383 3487 60  0000 C CNN
 F 1 "AndersonPP" H 9383 3381 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 2550 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9025 2550 60  0001 C CNN
 F 3 "" H 9025 2550 60  0001 C CNN
 	2    9175 3100
 	-1   0    0    -1  
@@ -2052,7 +2017,7 @@ AR Path="/62D3BCB2" Ref="Conn5"  Part="1"
 AR Path="/62175536/62D3BCB2" Ref="Conn3A?"  Part="2" 
 F 0 "Conn5" H 9383 3212 60  0000 C CNN
 F 1 "AndersonPP" H 9383 3106 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9025 2275 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9025 2275 60  0001 C CNN
 F 3 "" H 9025 2275 60  0001 C CNN
 	1    9175 2825
 	-1   0    0    -1  
@@ -2065,7 +2030,7 @@ AR Path="/62D4BA91" Ref="Conn6"  Part="2"
 AR Path="/62175536/62D4BA91" Ref="Conn3B?"  Part="1" 
 F 0 "Conn6" H 9408 4187 60  0000 C CNN
 F 1 "AndersonPP" H 9408 4081 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9050 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9050 3250 60  0001 C CNN
 F 3 "" H 9050 3250 60  0001 C CNN
 	2    9200 3800
 	-1   0    0    -1  
@@ -2084,7 +2049,7 @@ AR Path="/62D4BA9A" Ref="Conn6"  Part="1"
 AR Path="/62175536/62D4BA9A" Ref="Conn3A?"  Part="2" 
 F 0 "Conn6" H 9408 3912 60  0000 C CNN
 F 1 "AndersonPP" H 9408 3806 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9050 2975 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 9050 2975 60  0001 C CNN
 F 3 "" H 9050 2975 60  0001 C CNN
 	1    9200 3525
 	-1   0    0    -1  
@@ -2199,7 +2164,7 @@ AR Path="/62BE37A6" Ref="Conn3"  Part="2"
 AR Path="/62175536/62BE37A6" Ref="Conn?"  Part="1" 
 F 0 "Conn3" H 4308 3562 60  0000 C CNN
 F 1 "AndersonPP" H 4308 3456 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 2625 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 2625 60  0001 C CNN
 F 3 "" H 3950 2625 60  0001 C CNN
 	2    4100 3175
 	-1   0    0    -1  
@@ -2235,7 +2200,7 @@ U 1 1 6323984B
 P 4100 1400
 F 0 "Conn1" H 4072 1447 60  0000 R CNN
 F 1 "AndersonPP" H 4072 1553 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 850 60  0001 C CNN
 F 3 "" H 3950 850 60  0001 C CNN
 	1    4100 1400
 	-1   0    0    1   
@@ -2246,9 +2211,87 @@ U 2 1 6323B733
 P 4100 1675
 F 0 "Conn1" H 4072 1722 60  0000 R CNN
 F 1 "AndersonPP" H 4072 1828 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 3950 1125 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 3950 1125 60  0001 C CNN
 F 3 "" H 3950 1125 60  0001 C CNN
 	2    4100 1675
 	-1   0    0    1   
 $EndComp
+Text GLabel 1400 1775 2    50   Input ~ 0
+Current_Sense1
+Wire Wire Line
+	6775 3250 7025 3125
+$Comp
+L power:GND #PWR?
+U 1 1 63845F84
+P 7025 3125
+AR Path="/62175536/63845F84" Ref="#PWR?"  Part="1" 
+AR Path="/63845F84" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 7025 2875 50  0001 C CNN
+F 1 "GND" H 7030 2952 50  0000 C CNN
+F 2 "" H 7025 3125 50  0001 C CNN
+F 3 "" H 7025 3125 50  0001 C CNN
+	1    7025 3125
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 5125 2    50   Input ~ 0
+Current_Sense7
+Text GLabel 7150 5025 2    50   Input ~ 0
+Current_Sense6
+Text GLabel 7150 4925 2    50   Input ~ 0
+Current_Sense5
+Text GLabel 7150 4825 2    50   Input ~ 0
+Current_Sense4
+Text GLabel 7150 4725 2    50   Input ~ 0
+Current_Sense3
+Text GLabel 7150 4625 2    50   Input ~ 0
+Current_Sense2
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 63845F59
+P 6575 4100
+AR Path="/62175536/63845F59" Ref="U?"  Part="6" 
+AR Path="/63845F59" Ref="U1"  Part="6" 
+F 0 "U1" H 6625 5350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 6200 5250 60  0000 L CNN
+F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 6575 4100 60  0001 C CNN
+F 3 "" H 6575 4100 60  0001 C CNN
+	6    6575 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 5125 6850 5125
+Wire Wire Line
+	6850 5125 6850 3850
+Wire Wire Line
+	6850 3850 6775 3850
+Wire Wire Line
+	6775 3750 6900 3750
+Wire Wire Line
+	6900 3750 6900 5025
+Wire Wire Line
+	6900 5025 7150 5025
+Wire Wire Line
+	7150 4925 6950 4925
+Wire Wire Line
+	6950 4925 6950 3650
+Wire Wire Line
+	6950 3650 6775 3650
+Wire Wire Line
+	6775 3550 7000 3550
+Wire Wire Line
+	7000 3550 7000 4825
+Wire Wire Line
+	7000 4825 7150 4825
+Wire Wire Line
+	7150 4725 7050 4725
+Wire Wire Line
+	7050 4725 7050 3450
+Wire Wire Line
+	7050 3450 6775 3450
+Wire Wire Line
+	6775 3350 7100 3350
+Wire Wire Line
+	7100 3350 7100 4625
+Wire Wire Line
+	7100 4625 7150 4625
 $EndSCHEMATC

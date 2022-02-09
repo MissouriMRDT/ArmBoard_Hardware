@@ -42,7 +42,7 @@ AR Path="/62D3BCB9/62E6C738" Ref="U?"  Part="1"
 AR Path="/62D4BAA1/62E6C738" Ref="U?"  Part="1" 
 F 0 "MC7" H 5525 6287 60  0000 C CNN
 F 1 "VNH5019A_E" H 5525 6181 60  0000 C CNN
-F 2 "Project Library:STMicroelectronics-MultiPowerSO-30-0-0-0" H 4925 5900 60  0001 C CNN
+F 2 "MRDT_ICs:MultiPowerSO_30" H 4925 5900 60  0001 C CNN
 F 3 "" H 4925 5900 60  0001 C CNN
 	1    4925 4600
 	1    0    0    -1  
