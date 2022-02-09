@@ -222,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	3760 4325 3760 4200
 $Comp
-L ArmBoard_Hardware-rescue:TB67H400AFNG,EL-MRDT_ICs-ArmBoard_Hardware-rescue U?
+L MRDT_ICs:TB67H400AFNG,EL U?
 U 1 1 62489598
 P 3760 2775
 AR Path="/63845F20/62489598" Ref="U?"  Part="1" 
