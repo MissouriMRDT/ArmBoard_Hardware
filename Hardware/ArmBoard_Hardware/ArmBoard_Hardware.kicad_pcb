@@ -1609,7 +1609,7 @@
   )
 
   (module "Project Library:signature patrick 450" (layer F.Cu) (tedit 0) (tstamp 6207EF32)
-    (at 134.366 170.18)
+    (at 134.3279 168.6941)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -2030,7 +2030,7 @@
   )
 
   (module "Project Library:signature tyler 450" (layer F.Cu) (tedit 0) (tstamp 6207EEF3)
-    (at 82.8802 181.991)
+    (at 85.0646 180.4416)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
