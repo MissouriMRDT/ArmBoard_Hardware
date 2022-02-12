@@ -505,7 +505,7 @@ F 3 "~" H 7350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_ICs:VNH5019A_E MC1
+L ArmBoard_Hardware-rescue:VNH5019A_E-MRDT_ICs MC1
 U 1 1 628AD5AB
 P 4925 4600
 AR Path="/63845F20/628AD5AB" Ref="MC1"  Part="1" 
