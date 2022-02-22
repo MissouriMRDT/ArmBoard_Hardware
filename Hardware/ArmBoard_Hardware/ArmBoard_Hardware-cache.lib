@@ -213,6 +213,19 @@ X EN_B/DIAG_B 9 -200 250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# ArmBoard_Hardware-rescue_Via-MRDT_Drill_Holes
+#
+DEF ArmBoard_Hardware-rescue_Via-MRDT_Drill_Holes V 0 40 Y Y 1 F N
+F0 "V" 0 -100 60 H V C CNN
+F1 "ArmBoard_Hardware-rescue_Via-MRDT_Drill_Holes" 0 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+X ~ 1 0 0 200 R 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -307,19 +320,6 @@ DRAW
 S -30 70 30 -70 0 1 8 N
 X ~ 1 0 100 30 D 50 50 1 1 P
 X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MRDT_Drill_Holes_Via
-#
-DEF MRDT_Drill_Holes_Via V 0 40 Y Y 1 F N
-F0 "V" 0 -100 60 H V C CNN
-F1 "MRDT_Drill_Holes_Via" 0 100 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 50 0 1 0 N
-X ~ 1 0 0 200 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #

@@ -1029,10 +1029,8 @@ Wire Wire Line
 	5050 3450 4600 3450
 NoConn ~ 5050 1875
 NoConn ~ 5050 1775
-NoConn ~ 5050 1675
 NoConn ~ 1400 1875
 NoConn ~ 1400 1975
-NoConn ~ 1400 4050
 $Comp
 L power:+3.3V #PWR?
 U 1 1 63845F32
@@ -1050,30 +1048,23 @@ Wire Wire Line
 	1400 1675 1875 1675
 NoConn ~ 1400 3150
 NoConn ~ 5050 3350
-NoConn ~ 5050 3250
-Wire Wire Line
-	4800 3200 4800 3150
-Wire Wire Line
-	5050 3150 4800 3150
 $Comp
 L power:GND #PWR?
 U 1 1 63845EFE
-P 4800 3200
+P 4685 3150
 AR Path="/62175536/63845EFE" Ref="#PWR?"  Part="1" 
 AR Path="/63845EFE" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 4800 2950 50  0001 C CNN
-F 1 "GND" H 4805 3027 50  0000 C CNN
-F 2 "" H 4800 3200 50  0001 C CNN
-F 3 "" H 4800 3200 50  0001 C CNN
-	1    4800 3200
+F 0 "#PWR018" H 4685 2900 50  0001 C CNN
+F 1 "GND" H 4690 2977 50  0000 C CNN
+F 2 "" H 4685 3150 50  0001 C CNN
+F 3 "" H 4685 3150 50  0001 C CNN
+	1    4685 3150
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5050 2575
 NoConn ~ 5050 2475
 NoConn ~ 5050 2375
 NoConn ~ 5050 2275
-NoConn ~ 5050 2175
-NoConn ~ 5050 2075
 NoConn ~ 5050 1975
 NoConn ~ 5050 4050
 NoConn ~ 5050 3550
@@ -1148,18 +1139,6 @@ F 3 "" H 10325 2975 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7325 1950 6775 1950
-Text GLabel 10575 2050 0    50   Input ~ 0
-ENC_1
-Text GLabel 10575 2150 0    50   Input ~ 0
-ENC_2
-Text GLabel 10575 2250 0    50   Input ~ 0
-ENC_3
-Text GLabel 10575 2350 0    50   Input ~ 0
-ENC_4
-Text GLabel 10575 2450 0    50   Input ~ 0
-ENC_5
-Text GLabel 10575 2550 0    50   Input ~ 0
-ENC_6
 Text GLabel 10575 3350 0    50   Input ~ 0
 LIM_1
 Text GLabel 10575 3450 0    50   Input ~ 0
@@ -1168,7 +1147,6 @@ Text GLabel 10575 3650 0    50   Input ~ 0
 LIM_3
 Text GLabel 10575 3750 0    50   Input ~ 0
 LIM_4
-NoConn ~ 10625 3950
 Wire Wire Line
 	6775 1650 7025 1650
 Wire Wire Line
@@ -1225,74 +1203,66 @@ F 3 "" H 6575 2600 60  0001 C CNN
 	5    6575 2600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10425 4200 10275 4200
 $Comp
 L power:GND #PWR?
 U 1 1 63845FB7
-P 9425 3850
+P 9400 3785
 AR Path="/62175536/63845FB7" Ref="#PWR?"  Part="1" 
 AR Path="/63845FB7" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 9425 3600 50  0001 C CNN
-F 1 "GND" H 9430 3677 50  0000 C CNN
-F 2 "" H 9425 3850 50  0001 C CNN
-F 3 "" H 9425 3850 50  0001 C CNN
-	1    9425 3850
+F 0 "#PWR026" H 9400 3535 50  0001 C CNN
+F 1 "GND" H 9405 3612 50  0000 C CNN
+F 2 "" H 9400 3785 50  0001 C CNN
+F 3 "" H 9400 3785 50  0001 C CNN
+	1    9400 3785
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9425 3850 9575 3850
+	9400 3785 9550 3785
 Wire Wire Line
-	9875 3850 9975 3850
+	9850 3785 9950 3785
 $Comp
 L Device:R R?
 U 1 1 63845FBF
-P 10125 4200
+P 10100 4030
 AR Path="/62175536/63845FBF" Ref="R?"  Part="1" 
 AR Path="/63845FBF" Ref="R16"  Part="1" 
-F 0 "R16" V 10250 4225 50  0000 L CNN
-F 1 "120" V 10250 4100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10055 4200 50  0001 C CNN
-F 3 "~" H 10125 4200 50  0001 C CNN
-	1    10125 4200
+F 0 "R16" V 10225 4055 50  0000 L CNN
+F 1 "120" V 10225 3930 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10030 4030 50  0001 C CNN
+F 3 "~" H 10100 4030 50  0001 C CNN
+	1    10100 4030
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63845FC5
-P 9425 4200
+P 9400 4030
 AR Path="/62175536/63845FC5" Ref="#PWR?"  Part="1" 
 AR Path="/63845FC5" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 9425 3950 50  0001 C CNN
-F 1 "GND" H 9430 4027 50  0000 C CNN
-F 2 "" H 9425 4200 50  0001 C CNN
-F 3 "" H 9425 4200 50  0001 C CNN
-	1    9425 4200
+F 0 "#PWR027" H 9400 3780 50  0001 C CNN
+F 1 "GND" H 9405 3857 50  0000 C CNN
+F 2 "" H 9400 4030 50  0001 C CNN
+F 3 "" H 9400 4030 50  0001 C CNN
+	1    9400 4030
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9425 4200 9575 4200
+	9400 4030 9550 4030
 Wire Wire Line
-	9875 4200 9975 4200
+	9850 4030 9950 4030
 $Comp
 L Device:R R?
 U 1 1 63845FDA
-P 10125 3850
+P 10100 3785
 AR Path="/62175536/63845FDA" Ref="R?"  Part="1" 
 AR Path="/63845FDA" Ref="R15"  Part="1" 
-F 0 "R15" V 10225 3875 50  0000 L CNN
-F 1 "120" V 10225 3750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10055 3850 50  0001 C CNN
-F 3 "~" H 10125 3850 50  0001 C CNN
-	1    10125 3850
+F 0 "R15" V 10200 3810 50  0000 L CNN
+F 1 "120" V 10200 3685 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10030 3785 50  0001 C CNN
+F 3 "~" H 10100 3785 50  0001 C CNN
+	1    10100 3785
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10625 3850 10275 3850
-Wire Wire Line
-	10625 4050 10425 4050
-Wire Wire Line
-	10425 4050 10425 4200
 $Comp
 L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
 U 2 1 63845F41
@@ -1306,7 +1276,6 @@ F 3 "" H 1200 4100 60  0001 C CNN
 	2    1200 4100
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6775 3950
 NoConn ~ 6775 3150
 Wire Wire Line
 	9750 1950 10625 1950
@@ -1332,27 +1301,27 @@ $EndComp
 $Comp
 L Device:LED D15
 U 1 1 61B89D40
-P 9725 3850
+P 9700 3785
 AR Path="/61B89D40" Ref="D15"  Part="1" 
 AR Path="/62175536/61B89D40" Ref="D?"  Part="1" 
-F 0 "D15" V 9800 3725 50  0000 C CNN
-F 1 "Blue" V 9725 3700 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 3850 50  0001 C CNN
-F 3 "~" H 9725 3850 50  0001 C CNN
-	1    9725 3850
+F 0 "D15" V 9775 3660 50  0000 C CNN
+F 1 "Blue" V 9700 3635 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 3785 50  0001 C CNN
+F 3 "~" H 9700 3785 50  0001 C CNN
+	1    9700 3785
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D16
 U 1 1 61B89D3A
-P 9725 4200
+P 9700 4030
 AR Path="/61B89D3A" Ref="D16"  Part="1" 
 AR Path="/62175536/61B89D3A" Ref="D?"  Part="1" 
-F 0 "D16" V 9800 4075 50  0000 C CNN
-F 1 "Blue" V 9725 4050 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9725 4200 50  0001 C CNN
-F 3 "~" H 9725 4200 50  0001 C CNN
-	1    9725 4200
+F 0 "D16" V 9775 3905 50  0000 C CNN
+F 1 "Blue" V 9700 3880 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 4030 50  0001 C CNN
+F 3 "~" H 9700 4030 50  0001 C CNN
+	1    9700 4030
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1404,19 +1373,17 @@ F8 "M7_toggle" O L 1825 3950 50
 F9 "3.3v" I R 2575 3350 50 
 F10 "GND" I R 2575 3450 50 
 $EndSheet
-Wire Wire Line
-	1400 3250 1625 3250
 $Comp
 L power:GND #PWR?
 U 1 1 63845F28
-P 1625 3250
+P 1620 3195
 AR Path="/62175536/63845F28" Ref="#PWR?"  Part="1" 
 AR Path="/63845F28" Ref="#PWR04"  Part="1" 
-F 0 "#PWR04" H 1625 3000 50  0001 C CNN
-F 1 "GND" H 1725 3150 50  0000 C CNN
-F 2 "" H 1625 3250 50  0001 C CNN
-F 3 "" H 1625 3250 50  0001 C CNN
-	1    1625 3250
+F 0 "#PWR04" H 1620 2945 50  0001 C CNN
+F 1 "GND" H 1720 3095 50  0000 C CNN
+F 2 "" H 1620 3195 50  0001 C CNN
+F 3 "" H 1620 3195 50  0001 C CNN
+	1    1620 3195
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1833,18 +1800,6 @@ Wire Wire Line
 Wire Wire Line
 	10625 3750 10575 3750
 NoConn ~ 10625 3550
-Wire Wire Line
-	10625 2050 10575 2050
-Wire Wire Line
-	10625 2150 10575 2150
-Wire Wire Line
-	10625 2250 10575 2250
-Wire Wire Line
-	10625 2350 10575 2350
-Wire Wire Line
-	10625 2450 10575 2450
-Wire Wire Line
-	10625 2550 10575 2550
 $Comp
 L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
 U 2 1 6323984B
@@ -1869,8 +1824,6 @@ F 3 "" H 3950 1125 60  0001 C CNN
 $EndComp
 Text GLabel 1400 1775 2    50   Input ~ 0
 Current_Sense1
-Wire Wire Line
-	6775 3250 7025 3125
 $Comp
 L power:GND #PWR?
 U 1 1 63845F84
@@ -1884,17 +1837,17 @@ F 3 "" H 7025 3125 50  0001 C CNN
 	1    7025 3125
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 5125 2    50   Input ~ 0
+Text GLabel 7555 5130 2    50   Input ~ 0
 Current_Sense7
-Text GLabel 7150 5025 2    50   Input ~ 0
+Text GLabel 7555 5030 2    50   Input ~ 0
 Current_Sense6
-Text GLabel 7150 4925 2    50   Input ~ 0
+Text GLabel 7555 4930 2    50   Input ~ 0
 Current_Sense5
-Text GLabel 7150 4825 2    50   Input ~ 0
+Text GLabel 7555 4830 2    50   Input ~ 0
 Current_Sense4
-Text GLabel 7150 4725 2    50   Input ~ 0
+Text GLabel 7555 4730 2    50   Input ~ 0
 Current_Sense3
-Text GLabel 7150 4625 2    50   Input ~ 0
+Text GLabel 7555 4630 2    50   Input ~ 0
 Current_Sense2
 $Comp
 L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields U?
@@ -1910,41 +1863,17 @@ F 3 "" H 6575 4100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 5125 6850 5125
+	7555 5130 7255 5130
 Wire Wire Line
-	6850 5125 6850 3850
+	7305 5030 7555 5030
 Wire Wire Line
-	6850 3850 6775 3850
+	7555 4930 7355 4930
 Wire Wire Line
-	6775 3750 6900 3750
+	7405 4830 7555 4830
 Wire Wire Line
-	6900 3750 6900 5025
+	7555 4730 7455 4730
 Wire Wire Line
-	6900 5025 7150 5025
-Wire Wire Line
-	7150 4925 6950 4925
-Wire Wire Line
-	6950 4925 6950 3650
-Wire Wire Line
-	6950 3650 6775 3650
-Wire Wire Line
-	6775 3550 7000 3550
-Wire Wire Line
-	7000 3550 7000 4825
-Wire Wire Line
-	7000 4825 7150 4825
-Wire Wire Line
-	7150 4725 7050 4725
-Wire Wire Line
-	7050 4725 7050 3450
-Wire Wire Line
-	7050 3450 6775 3450
-Wire Wire Line
-	6775 3350 7100 3350
-Wire Wire Line
-	7100 3350 7100 4625
-Wire Wire Line
-	7100 4625 7150 4625
+	7505 4630 7555 4630
 $Comp
 L power:+12VA #PWR0145
 U 1 1 623BA5D9
@@ -2144,7 +2073,7 @@ Wire Wire Line
 Connection ~ 13390 5295
 Connection ~ 13565 4680
 $Comp
-L MRDT_Drill_Holes:Via V1
+L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V1
 U 1 1 6208D948
 P 11825 625
 F 0 "V1" H 12053 683 60  0000 L CNN
@@ -2155,7 +2084,7 @@ F 3 "" H 11825 625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:Via V2
+L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V2
 U 1 1 6208E45C
 P 11825 875
 F 0 "V2" H 12053 933 60  0000 L CNN
@@ -2166,7 +2095,7 @@ F 3 "" H 11825 875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:Via V3
+L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V3
 U 1 1 620A09C1
 P 11825 1125
 F 0 "V3" H 12053 1183 60  0000 L CNN
@@ -2177,7 +2106,7 @@ F 3 "" H 11825 1125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Drill_Holes:Via V4
+L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V4
 U 1 1 620B30D1
 P 11825 1375
 F 0 "V4" H 12053 1433 60  0000 L CNN
@@ -2970,4 +2899,69 @@ Wire Wire Line
 	11250 6825 11425 6825
 Wire Wire Line
 	11250 6825 11250 6925
+Text GLabel 10625 4050 0    50   Input ~ 0
+ENC_6
+Text GLabel 1400 4050 2    50   Input ~ 0
+ENC_5
+Text GLabel 5050 3250 0    50   Input ~ 0
+ENC_4
+Text GLabel 6775 3950 2    50   Input ~ 0
+ENC_3
+Text GLabel 5050 2175 0    50   Input ~ 0
+ENC_2
+Text GLabel 5050 2075 0    50   Input ~ 0
+ENC_1
+NoConn ~ 10625 2050
+NoConn ~ 10625 2150
+NoConn ~ 10625 2250
+NoConn ~ 10625 2350
+NoConn ~ 10625 2450
+NoConn ~ 10625 2550
+NoConn ~ 5050 1675
+Wire Wire Line
+	4685 3150 5050 3150
+Wire Wire Line
+	6775 3250 6865 3250
+Wire Wire Line
+	6865 3250 6865 3125
+Wire Wire Line
+	6865 3125 7025 3125
+Wire Wire Line
+	7255 3850 7255 5130
+Wire Wire Line
+	6775 3850 7255 3850
+Wire Wire Line
+	7305 3750 7305 5030
+Wire Wire Line
+	6775 3750 7305 3750
+Wire Wire Line
+	7355 4930 7355 3650
+Wire Wire Line
+	6775 3650 7355 3650
+Wire Wire Line
+	7405 4830 7405 3550
+Wire Wire Line
+	6775 3550 7405 3550
+Wire Wire Line
+	7455 4730 7455 3450
+Wire Wire Line
+	6775 3450 7455 3450
+Wire Wire Line
+	7505 3350 7505 4630
+Wire Wire Line
+	6775 3350 7505 3350
+Wire Wire Line
+	1400 3250 1515 3250
+Wire Wire Line
+	1515 3250 1515 3195
+Wire Wire Line
+	1515 3195 1620 3195
+Wire Wire Line
+	10250 3785 10250 3850
+Wire Wire Line
+	10250 3850 10625 3850
+Wire Wire Line
+	10625 3950 10250 3950
+Wire Wire Line
+	10250 3950 10250 4030
 $EndSCHEMATC

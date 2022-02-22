@@ -305,16 +305,9 @@ Wire Wire Line
 	4375 4150 4725 4150
 Wire Wire Line
 	4175 4150 4050 4150
-Wire Wire Line
-	4725 4050 3650 4050
-Wire Wire Line
-	3650 4050 3650 3950
 Connection ~ 3650 3950
 Wire Wire Line
 	4725 4350 3650 4350
-Wire Wire Line
-	3650 4350 3650 4050
-Connection ~ 3650 4050
 Wire Wire Line
 	4725 4250 3475 4250
 Wire Wire Line
@@ -527,4 +520,60 @@ Text HLabel 6600 3200 2    50   Output ~ 0
 OUTa_2
 Text HLabel 6600 3600 2    50   Output ~ 0
 OUTb_2
+Wire Wire Line
+	3650 3950 3650 4350
+$Comp
+L power:GND #PWR?
+U 1 1 62922784
+P 4440 4050
+AR Path="/63845F20/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/628CE14B/62922784" Ref="#PWR02"  Part="1" 
+AR Path="/6297969A/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/629F46F6/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/629F46FD/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/62A5CC3B/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/62A5CC46/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/62AF9C52/62922784" Ref="#PWR?"  Part="1" 
+AR Path="/62D2CE1B/62922784" Ref="#PWR?"  Part="1" 
+F 0 "#PWR02" H 4440 3800 50  0001 C CNN
+F 1 "GND" H 4445 3877 50  0000 C CNN
+F 2 "" H 4440 4050 50  0001 C CNN
+F 3 "" H 4440 4050 50  0001 C CNN
+	1    4440 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small 1k?
+U 1 1 6292278A
+P 4590 4050
+AR Path="/63845F20/6292278A" Ref="1k?"  Part="1" 
+AR Path="/628CE14B/6292278A" Ref="1k37"  Part="1" 
+AR Path="/6297969A/6292278A" Ref="1k?"  Part="1" 
+AR Path="/629F46F6/6292278A" Ref="1k?"  Part="1" 
+AR Path="/629F46FD/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62A5CC3B/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62A5CC46/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62AF9C52/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62C19165/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62CA8FD7/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62CBA1AC/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62CCE879/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62CE0B38/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62CF1227/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62D0C672/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62D1BEB1/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62D2CE1B/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62D3BCB9/6292278A" Ref="1k?"  Part="1" 
+AR Path="/62D4BAA1/6292278A" Ref="1k?"  Part="1" 
+F 0 "1k37" V 4486 4050 50  0000 C CNN
+F 1 "R_Small" V 4485 4050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4590 4050 50  0001 C CNN
+F 3 "~" H 4590 4050 50  0001 C CNN
+	1    4590 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4440 4050 4490 4050
+Wire Wire Line
+	4690 4050 4725 4050
 $EndSCHEMATC
