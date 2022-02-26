@@ -1,6 +1,6 @@
-update=2/10/2022 9:50:42 PM
+update=2/26/2022 3:03:53 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=ArmBoard_Hardware.net
+LastNetListRead=ArmBoard_Hardware2.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -243,7 +243,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.254
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
