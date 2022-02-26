@@ -745,7 +745,8 @@ AR Path="/62A5CC46/621FCE8E" Ref="#PWR?"  Part="1"
 AR Path="/62AF9C52/621FCE8E" Ref="#PWR?"  Part="1" 
 AR Path="/62D2CE1B/621FCE8E" Ref="#PWR?"  Part="1" 
 AR Path="/62D4BAA1/621FCE8E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4440 3800 50  0001 C CNN
+AR Path="/62C19165/621FCE8E" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 4440 3800 50  0001 C CNN
 F 1 "GND" H 4445 3877 50  0000 C CNN
 F 2 "" H 4440 4050 50  0001 C CNN
 F 3 "" H 4440 4050 50  0001 C CNN
@@ -764,7 +765,7 @@ AR Path="/629F46FD/621FCE94" Ref="1k?"  Part="1"
 AR Path="/62A5CC3B/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62A5CC46/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62AF9C52/621FCE94" Ref="1k?"  Part="1" 
-AR Path="/62C19165/621FCE94" Ref="1k?"  Part="1" 
+AR Path="/62C19165/621FCE94" Ref="1k42"  Part="1" 
 AR Path="/62CA8FD7/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62CBA1AC/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62CCE879/621FCE94" Ref="1k?"  Part="1" 
@@ -775,7 +776,7 @@ AR Path="/62D1BEB1/621FCE94" Ref="1k?"  Part="1"
 AR Path="/62D2CE1B/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62D3BCB9/621FCE94" Ref="1k?"  Part="1" 
 AR Path="/62D4BAA1/621FCE94" Ref="1k?"  Part="1" 
-F 0 "1k?" V 4486 4050 50  0000 C CNN
+F 0 "1k42" V 4486 4050 50  0000 C CNN
 F 1 "R_Small" V 4485 4050 50  0001 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4590 4050 50  0001 C CNN
 F 3 "~" H 4590 4050 50  0001 C CNN
