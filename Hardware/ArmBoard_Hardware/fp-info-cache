@@ -1,4 +1,4 @@
-19754346611455062
+19774114980047728
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56245,6 +56245,13 @@ NX5032GA_Crystal
 2
 2
 MRDT_Actives
+PMN280ENEAX
+
+
+0
+6
+6
+MRDT_Actives
 Q36SR12020NRFA
 
 
@@ -56614,7 +56621,7 @@ RJ45_Teensy
 
 0
 16
-16
+15
 MRDT_Connectors
 RP-SMA_Jack_Tru-Hole_Right-Angle
 
@@ -56636,6 +56643,69 @@ Solder Pad
 0
 1
 1
+MRDT_Connectors
+Square_Anderson_1_H
+
+
+0
+1
+1
+MRDT_Connectors
+Square_Anderson_2_H_Side_By_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Side_By_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Stacked
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_H_Stacked_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_V_Side_By_Side
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_2_V_Side_By_Side_PV
+
+
+0
+2
+2
+MRDT_Connectors
+Square_Anderson_3_H_Side_By_Side
+
+
+0
+3
+3
+MRDT_Connectors
+Square_Anderson_3_V_Side_By_Side
+
+
+0
+3
+3
 MRDT_Connectors
 USB-UX60R-MB-5ST
 
@@ -57323,6 +57393,13 @@ MRDT_Silkscreens
 0
 0
 MRDT_Silkscreens
+2_100_silkscreen
+
+
+0
+0
+0
+MRDT_Silkscreens
 2_Dahlbot_2.0
 
 
@@ -57352,6 +57429,13 @@ MRDT_Silkscreens
 0
 MRDT_Silkscreens
 2_Shimble
+
+
+0
+0
+0
+MRDT_Silkscreens
+2_fire_silkscreen
 
 
 0
