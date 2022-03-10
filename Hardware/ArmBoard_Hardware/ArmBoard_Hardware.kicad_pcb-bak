@@ -1292,7 +1292,7 @@
   )
 
   (module "Project Library:signature patrick 450" (layer B.Cu) (tedit 0) (tstamp 6223206C)
-    (at 140.8557 179.5018 180)
+    (at 145.923 179.2605 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
