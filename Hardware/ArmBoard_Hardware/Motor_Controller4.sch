@@ -18,7 +18,7 @@ PMW_4
 Text HLabel 4050 3850 0    50   Input ~ 0
 IN_A_4
 $Comp
-L ArmBoard_Hardware-rescue:VNH5019A_E-MRDT_ICs U?
+L MRDT_ICs:VNH5019A_E U?
 U 1 1 62E6C81F
 P 4925 4600
 AR Path="/63845F20/62E6C81F" Ref="U?"  Part="1" 

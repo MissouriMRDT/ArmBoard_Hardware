@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn9
+L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 638457EE
 P 12475 6675
 AR Path="/638457EE" Ref="Conn9"  Part="1" 
@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	12375 6450 12525 6450
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn10
+L MRDT_Connectors:Molex_SL_03 Conn10
 U 1 1 63845807
 P 12475 7400
 AR Path="/63845807" Ref="Conn10"  Part="1" 
@@ -120,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	12375 7175 12525 7175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn13
+L MRDT_Connectors:Molex_SL_03 Conn13
 U 1 1 63845820
 P 13925 6650
 AR Path="/63845820" Ref="Conn13"  Part="1" 
@@ -173,7 +173,7 @@ Wire Wire Line
 Wire Wire Line
 	13825 6425 13975 6425
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn14
+L MRDT_Connectors:Molex_SL_03 Conn14
 U 1 1 63845839
 P 13925 7400
 AR Path="/63845839" Ref="Conn14"  Part="1" 
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	13825 7175 13975 7175
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn17
+L MRDT_Connectors:Molex_SL_03 Conn17
 U 1 1 63845852
 P 15375 6700
 AR Path="/63845852" Ref="Conn17"  Part="1" 
@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	15275 6475 15425 6475
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_03-MRDT_Connectors Conn18
+L MRDT_Connectors:Molex_SL_03 Conn18
 U 1 1 6384586B
 P 15375 7400
 AR Path="/6384586B" Ref="Conn18"  Part="1" 
@@ -334,7 +334,7 @@ Wire Wire Line
 Text Notes 13400 8000 0    98   ~ 20
 Encoder Connectors
 $Comp
-L ArmBoard_Hardware-rescue:OKI-MRDT_Devices OKI1
+L MRDT_Devices:OKI OKI1
 U 1 1 63845D6F
 P 3350 8050
 AR Path="/63845D6F" Ref="OKI1"  Part="1" 
@@ -709,7 +709,7 @@ F 3 "~" H 7275 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn12
+L MRDT_Connectors:Molex_SL_02 Conn12
 U 1 1 63845E2A
 P 7400 6100
 AR Path="/63845E2A" Ref="Conn12"  Part="1" 
@@ -791,7 +791,7 @@ F 3 "~" H 8300 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn16
+L MRDT_Connectors:Molex_SL_02 Conn16
 U 1 1 63845E51
 P 8425 6100
 AR Path="/63845E51" Ref="Conn16"  Part="1" 
@@ -873,7 +873,7 @@ F 3 "~" H 9325 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn20
+L MRDT_Connectors:Molex_SL_02 Conn20
 U 1 1 63845E78
 P 9450 6100
 AR Path="/63845E78" Ref="Conn20"  Part="1" 
@@ -911,7 +911,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 5875 9325 5975
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn11
+L MRDT_Connectors:Molex_SL_02 Conn11
 U 1 1 63845E8A
 P 6375 6100
 AR Path="/63845E8A" Ref="Conn11"  Part="1" 
@@ -928,7 +928,7 @@ Input Power Connectors\n
 Text Notes 3125 8975 0    98   ~ 20
 3.3V+ Gen
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors PowerConn1
+L MRDT_Connectors:AndersonPP PowerConn1
 U 3 1 63845E97
 P 6625 8550
 AR Path="/63845E97" Ref="PowerConn1"  Part="3" 
@@ -941,7 +941,7 @@ F 3 "" H 6475 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors PowerConn1
+L MRDT_Connectors:AndersonPP PowerConn1
 U 1 1 63845EA3
 P 8175 8550
 AR Path="/63845EA3" Ref="PowerConn1"  Part="1" 
@@ -954,7 +954,7 @@ F 3 "" H 8025 8000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors PowerConn1
+L MRDT_Connectors:AndersonPP PowerConn1
 U 2 1 63845EAF
 P 7425 8550
 AR Path="/63845EAF" Ref="PowerConn1"  Part="2" 
@@ -983,8 +983,6 @@ F 3 "" H 7125 8550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7825 8450 7925 8450
-Wire Wire Line
-	8575 8450 8675 8450
 $Comp
 L power:+12VA #PWR011
 U 1 1 63845ECC
@@ -998,8 +996,6 @@ F 3 "" H 8675 8350 50  0001 C CNN
 	1    8675 8350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8675 8450 8675 8350
 $Comp
 L power:+12V #PWR08
 U 1 1 63845ED4
@@ -1073,7 +1069,7 @@ Wire Wire Line
 Wire Wire Line
 	3075 8300 3550 8300
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 4 1 63845EF2
 P 5250 4100
 AR Path="/62175536/63845EF2" Ref="U?"  Part="4" 
@@ -1086,7 +1082,7 @@ F 3 "" H 5250 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 1 1 63845F47
 P 1200 2625
 AR Path="/62175536/63845F47" Ref="U?"  Part="1" 
@@ -1099,7 +1095,7 @@ F 3 "" H 1200 2625 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 3 1 63845EF8
 P 5250 2625
 AR Path="/62175536/63845EF8" Ref="U?"  Part="3" 
@@ -1165,33 +1161,7 @@ Wire Wire Line
 	6775 1750 7150 1750
 NoConn ~ 10625 1850
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
-U 8 1 63845F69
-P 10825 4100
-AR Path="/62175536/63845F69" Ref="U?"  Part="8" 
-AR Path="/63845F69" Ref="U1"  Part="8" 
-F 0 "U1" H 10875 5350 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10475 5250 60  0000 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 4100 60  0001 C CNN
-F 3 "" H 10825 4100 60  0001 C CNN
-	8    10825 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
-U 7 1 63845F6F
-P 10825 2600
-AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
-AR Path="/63845F6F" Ref="U1"  Part="7" 
-F 0 "U1" H 10875 3850 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10475 3750 60  0000 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 2600 60  0001 C CNN
-F 3 "" H 10825 2600 60  0001 C CNN
-	7    10825 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 5 1 63845F53
 P 6575 2600
 AR Path="/62175536/63845F53" Ref="U?"  Part="5" 
@@ -1264,7 +1234,7 @@ F 3 "~" H 10100 3785 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 2 1 63845F41
 P 1200 4100
 AR Path="/62175536/63845F41" Ref="U?"  Part="2" 
@@ -1455,7 +1425,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 1500 3700 1500
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn2
+L MRDT_Connectors:AndersonPP Conn2
 U 1 1 62BD3BB0
 P 4100 2525
 AR Path="/62BD3BB0" Ref="Conn2"  Part="1" 
@@ -1474,7 +1444,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 2150 3700 2150
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn2
+L MRDT_Connectors:AndersonPP Conn2
 U 2 1 62BD3BB9
 P 4100 2250
 AR Path="/62BD3BB9" Ref="Conn2"  Part="2" 
@@ -1491,7 +1461,7 @@ Wire Wire Line
 Wire Wire Line
 	3525 2800 3700 2800
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn3
+L MRDT_Connectors:AndersonPP Conn3
 U 2 1 62BE37AF
 P 4100 2900
 AR Path="/62BE37AF" Ref="Conn3"  Part="2" 
@@ -1537,7 +1507,7 @@ F5 "OUTa_1" O R 3525 1500 50
 F6 "OUTb_1" O R 3525 1600 50 
 $EndSheet
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
+L MRDT_Connectors:AndersonPP Conn7
 U 1 1 62C19155
 P 9475 1475
 AR Path="/62C19155" Ref="Conn7"  Part="1" 
@@ -1566,7 +1536,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 1950 9750 900 
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn7
+L MRDT_Connectors:AndersonPP Conn7
 U 2 1 62C1915E
 P 9475 1200
 AR Path="/62C1915E" Ref="Conn7"  Part="2" 
@@ -1579,7 +1549,7 @@ F 3 "" H 9325 650 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
+L MRDT_Connectors:AndersonPP Conn4
 U 1 1 62D2CE0B
 P 9175 2400
 AR Path="/62D2CE0B" Ref="Conn4"  Part="1" 
@@ -1598,7 +1568,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2025 8775 2025
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn4
+L MRDT_Connectors:AndersonPP Conn4
 U 2 1 62D2CE14
 P 9175 2125
 AR Path="/62D2CE14" Ref="Conn4"  Part="2" 
@@ -1611,7 +1581,7 @@ F 3 "" H 9025 1575 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
+L MRDT_Connectors:AndersonPP Conn5
 U 1 1 62D3BCA9
 P 9175 3100
 AR Path="/62D3BCA9" Ref="Conn5"  Part="1" 
@@ -1630,7 +1600,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2725 8775 2725
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn5
+L MRDT_Connectors:AndersonPP Conn5
 U 2 1 62D3BCB2
 P 9175 2825
 AR Path="/62D3BCB2" Ref="Conn5"  Part="2" 
@@ -1643,7 +1613,7 @@ F 3 "" H 9025 2275 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
+L MRDT_Connectors:AndersonPP Conn6
 U 1 1 62D4BA91
 P 9200 3800
 AR Path="/62D4BA91" Ref="Conn6"  Part="1" 
@@ -1662,7 +1632,7 @@ Wire Wire Line
 Wire Wire Line
 	8625 3425 8800 3425
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn6
+L MRDT_Connectors:AndersonPP Conn6
 U 2 1 62D4BA9A
 P 9200 3525
 AR Path="/62D4BA9A" Ref="Conn6"  Part="2" 
@@ -1775,7 +1745,7 @@ $EndSheet
 Wire Wire Line
 	3700 2900 3700 3075
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn3
+L MRDT_Connectors:AndersonPP Conn3
 U 1 1 62BE37A6
 P 4100 3175
 AR Path="/62BE37A6" Ref="Conn3"  Part="1" 
@@ -1790,8 +1760,6 @@ $EndComp
 Wire Wire Line
 	5050 3850 5000 3850
 Wire Wire Line
-	5050 3950 5000 3950
-Wire Wire Line
 	10625 3350 10575 3350
 Wire Wire Line
 	10625 3450 10575 3450
@@ -1801,7 +1769,7 @@ Wire Wire Line
 	10625 3750 10575 3750
 NoConn ~ 10625 3550
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 2 1 6323984B
 P 4100 1400
 F 0 "Conn1" H 4072 1447 60  0000 R CNN
@@ -1812,7 +1780,7 @@ F 3 "" H 3950 850 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:AndersonPP-MRDT_Connectors Conn1
+L MRDT_Connectors:AndersonPP Conn1
 U 1 1 6323B733
 P 4100 1675
 F 0 "Conn1" H 4072 1722 60  0000 R CNN
@@ -1850,7 +1818,7 @@ Current_Sense3
 Text GLabel 7555 4630 2    50   Input ~ 0
 Current_Sense2
 $Comp
-L ArmBoard_Hardware-rescue:TM4C129E_Launchpad-MRDT_Shields-ArmBoard_Hardware-rescue U?
+L MRDT_Shields:TM4C129E_Launchpad U?
 U 6 1 63845F59
 P 6575 4100
 AR Path="/62175536/63845F59" Ref="U?"  Part="6" 
@@ -1926,7 +1894,7 @@ F 3 "" H 15460 5295 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15460 5245 15460 5295
-Text GLabel 14845 5050 1    50   Input ~ 0
+Text GLabel 14845 5035 1    50   Input ~ 0
 SOL
 $Comp
 L Device:LED D33
@@ -1942,15 +1910,13 @@ F 3 "~" H 15635 4690 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14845 5050 15160 5045
-Wire Wire Line
 	15635 4515 15635 4540
 Wire Wire Line
 	15635 4315 15635 4225
 Wire Wire Line
 	15460 4840 15460 4845
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn19
+L MRDT_Connectors:Molex_SL_02 Conn19
 U 1 1 626C4DE4
 P 15250 4460
 AR Path="/626C4DE4" Ref="Conn19"  Part="1" 
@@ -2040,15 +2006,13 @@ F 3 "~" H 13515 4695 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12745 5055 13040 5050
-Wire Wire Line
 	13515 4520 13515 4545
 Wire Wire Line
 	13515 4320 13515 4230
 Wire Wire Line
 	13340 4845 13340 4850
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn15
+L MRDT_Connectors:Molex_SL_02 Conn15
 U 1 1 62433885
 P 13130 4465
 AR Path="/62433885" Ref="Conn15"  Part="1" 
@@ -2073,7 +2037,7 @@ Wire Wire Line
 Connection ~ 13340 4845
 Connection ~ 13515 4230
 $Comp
-L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V1
+L MRDT_Drill_Holes:Via V1
 U 1 1 6208D948
 P 11825 625
 F 0 "V1" H 12053 683 60  0000 L CNN
@@ -2084,7 +2048,7 @@ F 3 "" H 11825 625 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V2
+L MRDT_Drill_Holes:Via V2
 U 1 1 6208E45C
 P 11825 875
 F 0 "V2" H 12053 933 60  0000 L CNN
@@ -2095,7 +2059,7 @@ F 3 "" H 11825 875 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V3
+L MRDT_Drill_Holes:Via V3
 U 1 1 620A09C1
 P 11825 1125
 F 0 "V3" H 12053 1183 60  0000 L CNN
@@ -2106,7 +2070,7 @@ F 3 "" H 11825 1125 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Via-MRDT_Drill_Holes V4
+L MRDT_Drill_Holes:Via V4
 U 1 1 620B30D1
 P 11825 1375
 F 0 "V4" H 12053 1433 60  0000 L CNN
@@ -2118,10 +2082,6 @@ F 3 "" H 11825 1375 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	650  8400 975  8400
-Wire Wire Line
-	975  8400 975  8525
-Wire Wire Line
-	975  8725 850  8725
 Wire Wire Line
 	700  8475 750  8475
 Wire Wire Line
@@ -2200,12 +2160,6 @@ Wire Wire Line
 	1050 8775 850  8775
 Wire Wire Line
 	850  8775 850  8725
-Connection ~ 800  8725
-Wire Wire Line
-	800  8725 650  8725
-Connection ~ 850  8725
-Wire Wire Line
-	850  8725 800  8725
 Wire Wire Line
 	650  8450 600  8450
 Wire Wire Line
@@ -2237,17 +2191,9 @@ Wire Wire Line
 Wire Wire Line
 	1000 8525 975  8525
 Wire Wire Line
-	650  8400 650  8450
-Wire Wire Line
 	625  8275 775  8275
 Wire Wire Line
 	900  8350 1000 8350
-Connection ~ 650  8450
-Wire Wire Line
-	650  8450 650  8725
-Connection ~ 975  8525
-Wire Wire Line
-	975  8525 975  8725
 Wire Wire Line
 	700  8525 750  8525
 Wire Wire Line
@@ -2561,64 +2507,31 @@ Wire Wire Line
 Wire Wire Line
 	1600 9025 1600 9125
 Wire Wire Line
-	1600 9125 1625 9125
-Wire Wire Line
 	1300 9075 1350 9075
 Wire Wire Line
 	1350 8900 1350 9075
-Wire Wire Line
-	1300 9175 1400 9175
-Connection ~ 1625 9175
-Wire Wire Line
-	1625 9175 1625 9275
 Wire Wire Line
 	1400 9175 1400 9250
 Wire Wire Line
 	1400 9250 1350 9250
 Wire Wire Line
 	1350 9250 1350 9275
-Connection ~ 1400 9175
-Wire Wire Line
-	1400 9175 1450 9175
-Connection ~ 1450 9175
-Wire Wire Line
-	1450 9175 1500 9175
-Wire Wire Line
-	1550 9175 1550 9275
-Connection ~ 1550 9175
-Wire Wire Line
-	1550 9175 1625 9175
 Wire Wire Line
 	1500 9175 1500 9250
 Wire Wire Line
 	1500 9250 1450 9250
-Connection ~ 1500 9175
-Wire Wire Line
-	1500 9175 1550 9175
 Wire Wire Line
 	1525 8850 1525 8900
 Wire Wire Line
 	1325 8900 1350 8900
 Wire Wire Line
-	1300 8850 1300 9075
-Wire Wire Line
-	1625 9000 1625 9125
-Wire Wire Line
 	1450 9175 1450 9250
-Wire Wire Line
-	1300 9275 1350 9275
 Wire Wire Line
 	600  8050 675  8050
 Wire Wire Line
 	600  8100 675  8100
 Wire Wire Line
-	675  8050 675  8100
-Wire Wire Line
-	600  8050 600  8100
-Wire Wire Line
 	900  8050 900  8175
-Wire Wire Line
-	825  8050 900  8050
 Wire Wire Line
 	1300 8375 1375 8375
 Wire Wire Line
@@ -2631,10 +2544,6 @@ Wire Wire Line
 	1350 8500 1375 8500
 Wire Wire Line
 	1325 8425 1325 8450
-Wire Wire Line
-	1300 8375 1300 8425
-Wire Wire Line
-	1300 8425 1325 8425
 Wire Wire Line
 	1425 8450 1425 8500
 Wire Wire Line
@@ -2656,8 +2565,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 8475 1575 8475
 Wire Wire Line
-	1575 8375 1575 8475
-Wire Wire Line
 	700  8175 700  8050
 Wire Wire Line
 	700  8050 725  8050
@@ -2674,8 +2581,6 @@ Wire Wire Line
 Wire Wire Line
 	775  8150 800  8150
 Wire Wire Line
-	800  8050 800  8150
-Wire Wire Line
 	1825 7925 1825 9350
 Wire Wire Line
 	1825 9350 500  9350
@@ -2683,54 +2588,12 @@ Wire Wire Line
 	500  9350 500  7925
 Wire Wire Line
 	500  7925 1825 7925
-Connection ~ 600  8100
-Wire Wire Line
-	600  8100 600  8175
-Connection ~ 675  8100
-Wire Wire Line
-	675  8100 675  8175
-Connection ~ 800  8150
-Wire Wire Line
-	800  8150 800  8175
-Connection ~ 900  8050
-Wire Wire Line
-	900  8050 975  8050
-Connection ~ 1300 8425
-Wire Wire Line
-	1300 8425 1300 8500
-Connection ~ 1300 9075
-Wire Wire Line
-	1300 9075 1300 9175
-Connection ~ 1300 9175
-Wire Wire Line
-	1300 9175 1300 9275
-Connection ~ 1325 8425
-Wire Wire Line
-	1325 8425 1375 8425
 Connection ~ 1350 8900
 Wire Wire Line
 	1350 8900 1400 8900
-Connection ~ 1350 9275
-Wire Wire Line
-	1350 9275 1450 9275
-Connection ~ 1450 9250
-Wire Wire Line
-	1450 9250 1450 9275
-Connection ~ 1450 9275
-Wire Wire Line
-	1450 9275 1550 9275
 Connection ~ 1525 8900
 Wire Wire Line
 	1525 8900 1525 8950
-Connection ~ 1550 9275
-Wire Wire Line
-	1550 9275 1625 9275
-Connection ~ 1575 8475
-Wire Wire Line
-	1575 8475 1575 8500
-Connection ~ 1625 9125
-Wire Wire Line
-	1625 9125 1625 9175
 Text GLabel 10625 1650 0    50   Input ~ 0
 LIM_5
 Text GLabel 10625 1750 0    50   Input ~ 0
@@ -2780,7 +2643,7 @@ F 3 "~" H 10275 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn8
+L MRDT_Connectors:Molex_SL_02 Conn8
 U 1 1 62293134
 P 10400 6100
 AR Path="/62293134" Ref="Conn8"  Part="1" 
@@ -2862,7 +2725,7 @@ F 3 "~" H 11300 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmBoard_Hardware-rescue:Molex_SL_02-MRDT_Connectors Conn21
+L MRDT_Connectors:Molex_SL_02 Conn21
 U 1 1 6229315B
 P 11425 6100
 AR Path="/6229315B" Ref="Conn21"  Part="1" 
@@ -2899,7 +2762,7 @@ Wire Wire Line
 	11300 5875 11475 5875
 Wire Wire Line
 	11300 5875 11300 5975
-Text GLabel 10625 4050 0    50   Input ~ 0
+Text GLabel 10605 4050 0    50   Input ~ 0
 ENC_6
 Text GLabel 1400 4050 2    50   Input ~ 0
 ENC_5
@@ -2964,4 +2827,76 @@ Wire Wire Line
 	10625 3950 10250 3950
 Wire Wire Line
 	10250 3950 10250 4030
+Wire Wire Line
+	15160 5045 14845 5045
+Wire Wire Line
+	14845 5045 14845 5035
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 63845F69
+P 10825 4100
+AR Path="/62175536/63845F69" Ref="U?"  Part="8" 
+AR Path="/63845F69" Ref="U1"  Part="8" 
+F 0 "U1" H 10875 5350 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10475 5250 60  0000 L CNN
+F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 4100 60  0001 C CNN
+F 3 "" H 10825 4100 60  0001 C CNN
+	8    10825 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 63845F6F
+P 10825 2600
+AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
+AR Path="/63845F6F" Ref="U1"  Part="7" 
+F 0 "U1" H 10875 3850 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10475 3750 60  0000 L CNN
+F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 2600 60  0001 C CNN
+F 3 "" H 10825 2600 60  0001 C CNN
+	7    10825 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10625 4050 10605 4050
+Wire Wire Line
+	12745 5055 13040 5055
+Wire Wire Line
+	13040 5055 13040 5050
+Wire Wire Line
+	5050 3950 5000 3950
+Wire Wire Line
+	8575 8450 8675 8450
+Wire Wire Line
+	8675 8450 8675 8350
+Wire Wire Line
+	600  8050 600  8175
+Wire Wire Line
+	675  8050 675  8175
+Wire Wire Line
+	800  8050 800  8175
+Wire Wire Line
+	825  8050 975  8050
+Wire Wire Line
+	650  8725 975  8725
+Wire Wire Line
+	975  8400 975  8725
+Wire Wire Line
+	650  8400 650  8725
+Wire Wire Line
+	1300 8850 1300 9275
+Wire Wire Line
+	1300 9175 1550 9175
+Wire Wire Line
+	1550 9175 1550 9275
+Wire Wire Line
+	1300 9275 1625 9275
+Wire Wire Line
+	1625 9000 1625 9275
+Wire Wire Line
+	1300 8375 1300 8500
+Wire Wire Line
+	1300 8425 1375 8425
+Wire Wire Line
+	1575 8375 1575 8500
 $EndSCHEMATC
