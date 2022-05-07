@@ -1021,8 +1021,6 @@ Text Notes 13095 5730 0    98   ~ 20
 Laser
 Text Notes 15050 5725 0    98   ~ 20
 Solennoid
-Wire Wire Line
-	5050 3450 4600 3450
 NoConn ~ 5050 1875
 NoConn ~ 5050 1775
 NoConn ~ 1400 1875
@@ -1247,8 +1245,6 @@ F 3 "" H 1200 4100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 6775 3150
-Wire Wire Line
-	9750 1950 10625 1950
 Text Notes 5475 4475 0    98   ~ 20
 Tiva Headers
 Text GLabel 5000 3850 0    50   Output ~ 0
@@ -1408,10 +1404,6 @@ Wire Wire Line
 	2050 2700 2050 2575
 Wire Wire Line
 	2050 2575 1400 2575
-Wire Wire Line
-	4600 3450 4600 1300
-Wire Wire Line
-	3525 1300 4600 1300
 Wire Wire Line
 	4375 1950 4375 3650
 Wire Wire Line
@@ -2775,7 +2767,6 @@ ENC_2
 Text GLabel 5050 2075 0    50   Input ~ 0
 ENC_1
 NoConn ~ 10625 2050
-NoConn ~ 10625 2150
 NoConn ~ 10625 2250
 NoConn ~ 10625 2350
 NoConn ~ 10625 2450
@@ -2844,19 +2835,6 @@ F 3 "" H 10825 4100 60  0001 C CNN
 	8    10825 4100
 	1    0    0    -1  
 $EndComp
-$Comp
-L MRDT_Shields:TM4C129E_Launchpad U?
-U 7 1 63845F6F
-P 10825 2600
-AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
-AR Path="/63845F6F" Ref="U1"  Part="7" 
-F 0 "U1" H 10875 3850 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 10475 3750 60  0000 L CNN
-F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 2600 60  0001 C CNN
-F 3 "" H 10825 2600 60  0001 C CNN
-	7    10825 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10625 4050 10605 4050
 Wire Wire Line
@@ -2899,4 +2877,34 @@ Wire Wire Line
 	1300 8425 1375 8425
 Wire Wire Line
 	1575 8375 1575 8500
+Wire Wire Line
+	9750 1950 10625 1950
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 63845F6F
+P 10825 2600
+AR Path="/62175536/63845F6F" Ref="U?"  Part="7" 
+AR Path="/63845F6F" Ref="U1"  Part="7" 
+F 0 "U1" H 10875 3850 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 10475 3750 60  0000 L CNN
+F 2 "Project Library:TM4C129E_Launchpad_FULL_THT_TOP-MOUNTLESS" H 10825 2600 60  0001 C CNN
+F 3 "" H 10825 2600 60  0001 C CNN
+	7    10825 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10625 2150 9455 2150
+Wire Wire Line
+	9455 2150 9455 1520
+Wire Wire Line
+	9455 1520 7600 1520
+Wire Wire Line
+	7600 1520 7600 1185
+Wire Wire Line
+	7600 1185 3645 1185
+Wire Wire Line
+	3645 1185 3645 1300
+Wire Wire Line
+	3645 1300 3525 1300
+NoConn ~ 5050 3450
 $EndSCHEMATC
