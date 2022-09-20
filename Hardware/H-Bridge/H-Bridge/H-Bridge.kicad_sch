@@ -1774,10 +1774,10 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 46.99 30.48 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 2d27070a-ca54-46dd-a251-e023e94f9d5c)
-    (property "Reference" "D3" (id 0) (at 46.99 24.13 0))
-    (property "Value" "D_Small" (id 1) (at 46.99 26.67 0))
+    (property "Reference" "D3" (id 0) (at 46.99 25.4 0))
+    (property "Value" "SD0603S040S0R2" (id 1) (at 53.34 27.94 0))
     (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 46.99 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2384,10 +2384,10 @@
   )
 
   (symbol (lib_id "Device:D_Small") (at 148.59 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid bca38134-a7c7-4ccd-b656-010951ee0c96)
-    (property "Reference" "D4" (id 0) (at 148.59 24.13 0))
-    (property "Value" "D_Small" (id 1) (at 148.59 26.67 0))
+    (property "Reference" "D4" (id 0) (at 148.59 25.4 0))
+    (property "Value" "SD0603S040S0R2" (id 1) (at 142.24 27.94 0))
     (property "Footprint" "Diode_SMD:D_0603_1608Metric" (id 2) (at 148.59 30.48 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2598,10 +2598,10 @@
       (reference "D2") (unit 1) (value "Pink") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/2d27070a-ca54-46dd-a251-e023e94f9d5c"
-      (reference "D3") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D3") (unit 1) (value "SD0603S040S0R2") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/bca38134-a7c7-4ccd-b656-010951ee0c96"
-      (reference "D4") (unit 1) (value "D_Small") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D4") (unit 1) (value "SD0603S040S0R2") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/5cb734dd-61ab-4990-9f46-66096a355963"
       (reference "Q1") (unit 1) (value "SI4156DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
