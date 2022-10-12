@@ -121,7 +121,8 @@
       "track_widths": [
         0.0,
         0.249936,
-        0.508
+        0.508,
+        6.35
       ],
       "via_dimensions": [
         {
@@ -388,10 +389,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "high_power",
-        "nets": [
-          "/M+",
-          "/M-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
