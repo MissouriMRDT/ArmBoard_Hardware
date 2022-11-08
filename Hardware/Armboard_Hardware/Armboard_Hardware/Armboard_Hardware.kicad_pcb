@@ -8091,7 +8091,7 @@
 
   (footprint "MRDT_Silkscreens:0_MRDT_Logo_7.5mm" (layer "F.Cu")
     (tedit 5AA4CF2C) (tstamp b27e2871-8f33-40c5-b5bf-f5b72786ff50)
-    (at 158.9532 170.8404 -90)
+    (at 158.877 174.371 -90)
     (tags "Logo, MRDT")
     (attr through_hole)
     (fp_text reference "G***" (at -1.0922 4.2418 90) (layer "Dwgs.User") hide
@@ -19332,7 +19332,6 @@
   (gr_rect (start 227.8634 181.7878) (end 235.331 168.8592) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 37549be2-3b1b-4278-a3a0-f4996d103d8e))
   (gr_line (start 164.4018 244.69981) (end 161.925 244.2464) (layer "F.SilkS") (width 0.15) (tstamp 3a862e08-61ce-4077-b54d-ed7c0a587cfd))
   (gr_line (start 161.925 277.2664) (end 164.4018 283.81581) (layer "F.SilkS") (width 0.15) (tstamp 3e4be7b8-459f-4bc0-a080-0ffa67f5b7b9))
-  (gr_rect (start 154.4574 137.3759) (end 161.7218 171.2341) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 45adac25-a43d-4403-9e03-428d5e6915f2))
   (gr_rect (start 154.1526 260.7564) (end 161.925 267.3604) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 6bb1099c-f2a0-419b-9ac4-522d04382491))
   (gr_rect (start 154.1526 247.5484) (end 161.925 254.1524) (layer "F.SilkS") (width 0.15) (fill none) (tstamp 74d7ead1-eea0-4576-8ef4-b38edf82a507))
   (gr_line (start 164.4018 275.99261) (end 161.925 270.6624) (layer "F.SilkS") (width 0.15) (tstamp 8256c7dc-b0bd-409e-bc4f-c388d2f26bfb))
@@ -19417,8 +19416,8 @@
   (gr_text "LS5" (at 158.0623 269.1003) (layer "F.SilkS") (tstamp 7beb70b1-acbd-439a-b319-6ed1e0ce126b)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
   )
-  (gr_text "Arm Board, 2023, rev 1" (at 160.1216 150.751142 270) (layer "F.SilkS") (tstamp 7ed888b3-76ea-476a-ac17-5e071bacbaf3)
-    (effects (font (size 1.397 1.397) (thickness 0.2032)))
+  (gr_text "Arm Board, Rev1\nMars Rover Design Team\nMissorui S&T, 2023\nEzekiel Allen, Malacki Ehlers, Faye Squires\n" (at 157.607 136.525 270) (layer "F.SilkS") (tstamp 7ed888b3-76ea-476a-ac17-5e071bacbaf3)
+    (effects (font (size 0.9652 0.9652) (thickness 0.2032)) (justify left))
   )
   (gr_text "3V3" (at 274.2819 158.9532) (layer "F.SilkS") (tstamp 82f5cfe1-b368-49b4-9aa0-b444ad35043c)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
@@ -19483,9 +19482,6 @@
   (gr_text "LS3" (at 175.641 260.97484) (layer "F.SilkS") (tstamp c25bdd1b-cda4-44fa-b551-8874a8ac6ca3)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
   )
-  (gr_text "Ezekiel Allen, Faye Squires, Malacki Ehlers" (at 155.702 154.305 270) (layer "F.SilkS") (tstamp c56b600f-56aa-4378-bbb7-05fa08948da3)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
   (gr_text "J1" (at 215.0377 175.3616) (layer "F.SilkS") (tstamp d2be06a9-8163-4c48-af40-d1a7ebaeac73)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
   )
@@ -19500,9 +19496,6 @@
   )
   (gr_text "J4" (at 237.4405 175.3616) (layer "F.SilkS") (tstamp e69557fe-80b0-420d-81ae-7b1b6f969639)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
-  )
-  (gr_text "Mars Rover Design Team" (at 157.7086 147.4089 270) (layer "F.SilkS") (tstamp f05b3edf-49ea-432e-92c4-91fecb7bc271)
-    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "LS6" (at 158.0623 275.7043) (layer "F.SilkS") (tstamp f3aa7226-7c21-47f8-adb1-f8f712aab0a9)
     (effects (font (size 1.905 1.905) (thickness 0.3556)))
@@ -56248,10 +56241,7 @@
   )
   (group "" (id 0f9af27b-b7e3-4f4d-973e-cde1f116c5e8)
     (members
-      45adac25-a43d-4403-9e03-428d5e6915f2
       7ed888b3-76ea-476a-ac17-5e071bacbaf3
-      c56b600f-56aa-4378-bbb7-05fa08948da3
-      f05b3edf-49ea-432e-92c4-91fecb7bc271
     )
   )
 )
