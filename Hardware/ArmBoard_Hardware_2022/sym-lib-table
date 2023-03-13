@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "ArmBoard_Hardware-rescue")(type "Legacy")(uri "${KIPRJMOD}/ArmBoard_Hardware-rescue.lib")(options "")(descr ""))
-)
