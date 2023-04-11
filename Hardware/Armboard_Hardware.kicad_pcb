@@ -13256,7 +13256,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9921ff15-5411-4675-9b37-2ee431d0f14d)
     )
-    (fp_text value "110uF" (at 1.25 0 90) (layer "F.Fab")
+    (fp_text value "100uF" (at 1.25 0 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3aae466-cf8e-45f8-ad0b-4bba218fd092)
     )
