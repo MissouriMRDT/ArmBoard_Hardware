@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\mrawesome819\Documents\GitHub\ArmBoard_Hardware\Hardware\ArmBoard_Hardware_2024\Armboard_Hardware.kicad_sch</source>
-    <date>9/23/2023 11:09:34 PM</date>
+    <date>9/28/2023 4:58:21 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -86,7 +86,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Armboard_Hardware.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e7a7ef2e-2658-4e26-88c2-edc8890f29e7 abf995c6-5c38-4a9d-a893-3e20d57a521b</tstamps>
+      <tstamps>f33ca06d-578b-4a1e-bb59-1fea5e7e9502 e7a7ef2e-2658-4e26-88c2-edc8890f29e7</tstamps>
     </comp>
     <comp ref="Conn2">
       <value>Molex_SL_02</value>
@@ -1144,7 +1144,7 @@
       <property name="ki_description" value="quad 2-input NAND gate"/>
       <property name="ki_keywords" value="HCMOS nand 2-input"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bf88b394-017c-46a9-9a9b-da396e9d44a6 5774d141-3d02-4b3d-8432-a3bec61a9403 e190e44c-501c-41e3-92d6-07bc6a325341 27f5f52e-981c-4d92-8932-9035bacf37b8 00835777-73c9-4984-9ee4-ecfb4a4a538b</tstamps>
+      <tstamps>e190e44c-501c-41e3-92d6-07bc6a325341 5774d141-3d02-4b3d-8432-a3bec61a9403 bf88b394-017c-46a9-9a9b-da396e9d44a6 27f5f52e-981c-4d92-8932-9035bacf37b8 00835777-73c9-4984-9ee4-ecfb4a4a538b</tstamps>
     </comp>
     <comp ref="U6">
       <value>OKI</value>
@@ -1654,7 +1654,7 @@
     <net code="3" name="+12V">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="Conn1" pin="4" pinfunction="PV+" pintype="input"/>
+      <node ref="Conn1" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn10" pin="1" pintype="input"/>
       <node ref="Conn11" pin="1" pintype="input"/>
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>

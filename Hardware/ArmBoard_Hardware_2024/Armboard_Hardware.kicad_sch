@@ -9330,40 +9330,6 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 27.94 27.94 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid abf995c6-5c38-4a9d-a893-3e20d57a521b)
-    (property "Reference" "Conn1" (at 30.48 17.78 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "AndersonPP" (at 30.48 20.32 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV" (at 24.13 41.91 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (at 24.13 41.91 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (pin "1" (uuid cddc4959-90ff-48f8-8e57-c1cd14f4773d))
-    (pin "2" (uuid d07ed217-53c9-418d-8364-e2489bb8746e))
-    (pin "3" (uuid 6e8c61d8-4e77-4bcf-ab8a-eea09e8df1ec))
-    (pin "4" (uuid 12f1c2f4-a5cc-4d3d-aa54-6097cd57e810))
-    (pin "1" (uuid cddc4959-90ff-48f8-8e57-c1cd14f4773d))
-    (instances
-      (project "Armboard_Hardware"
-        (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
-          (reference "Conn1") (unit 4)
-        )
-      )
-      (project "Ethan_Daly"
-        (path "/fae4b32c-b8f2-4caa-8bb4-00877803f589"
-          (reference "Conn1") (unit 4)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:LED_Small") (at 26.67 236.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac3b6c7f-9158-42db-b252-02594af16f90)
@@ -10826,11 +10792,11 @@
     (property "Datasheet" "" (at 24.13 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0a))
+    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0b))
     (pin "2" (uuid 53f5b0d9-3fb8-4cba-ade5-a67696bc24c5))
     (pin "3" (uuid 2619c501-9b8b-45c3-bad0-ace2af54c15f))
     (pin "4" (uuid a21b5c77-989f-4857-9d15-bae4cf3317ff))
-    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0a))
+    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0b))
     (instances
       (project "Armboard_Hardware"
         (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
@@ -11156,6 +11122,35 @@
       (project "Armboard_Hardware"
         (path "/bac7748c-30df-4d2c-bf90-90bc7b9f8a10"
           (reference "Conn8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 27.94 27.94 0) (unit 2)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f33ca06d-578b-4a1e-bb59-1fea5e7e9502)
+    (property "Reference" "Conn1" (at 30.48 17.78 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "AndersonPP" (at 30.48 20.32 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "" (at 24.13 41.91 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 24.13 41.91 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 500bd8c8-3dfc-44df-81f5-95c79e568a1c))
+    (pin "2" (uuid e4ed78b4-4f79-48bc-af33-dbf862361369))
+    (pin "3" (uuid 8a7ca7d8-0264-4d89-9a2a-f08df2c9435b))
+    (pin "4" (uuid 22da00ae-6723-4a57-a5f7-cee9368809a7))
+    (pin "1" (uuid 5a045962-f170-47dc-8f08-29507fe979fb))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
+          (reference "Conn1") (unit 2)
         )
       )
     )
