@@ -8926,6 +8926,31 @@
     )
   )
 
+  (symbol (lib_name "+5V_3") (lib_id "power:+5V") (at 158.75 21.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a172ffd6-28fe-42ec-8edf-df9ccafe6f3d)
+    (property "Reference" "#PWR063" (at 158.75 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 158.75 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 158.75 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 158.75 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3ef935b6-5b00-44d7-8f59-d5a759afba35))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MRDT_Shields:Teensy4.1_DEV-16771") (at 370.84 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4122a5a-3c08-47a6-802f-994129028268)
@@ -9816,36 +9841,6 @@
     )
   )
 
-  (symbol (lib_id "power:+12V") (at 158.75 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c5f25bc4-df1e-47c5-b4be-a0176c19dd1a)
-    (property "Reference" "#PWR063" (at 158.75 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 158.75 16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 158.75 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 158.75 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 20fb1b8d-31eb-40cf-8f78-c9655d0b8874))
-    (instances
-      (project "Armboard_Hardware"
-        (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
-          (reference "#PWR063") (unit 1)
-        )
-      )
-      (project "Armboard_Hardware"
-        (path "/bac7748c-30df-4d2c-bf90-90bc7b9f8a10"
-          (reference "#PWR0104") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 270.51 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c890c16d-e321-4423-8043-0ef22d52b904)
@@ -10512,11 +10507,11 @@
     (property "Datasheet" "" (at 24.13 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0e))
+    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0f))
     (pin "2" (uuid 53f5b0d9-3fb8-4cba-ade5-a67696bc24c5))
     (pin "3" (uuid 2619c501-9b8b-45c3-bad0-ace2af54c15f))
     (pin "4" (uuid a21b5c77-989f-4857-9d15-bae4cf3317ff))
-    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0e))
+    (pin "1" (uuid 77728c37-9ab4-48e6-a4f7-f0940e454d0f))
     (instances
       (project "Armboard_Hardware"
         (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
@@ -10862,11 +10857,11 @@
     (property "Datasheet" "" (at 24.13 41.91 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 5a045962-f170-47dc-8f08-29507fe979fd))
+    (pin "1" (uuid 5a045962-f170-47dc-8f08-29507fe979fe))
     (pin "2" (uuid e4ed78b4-4f79-48bc-af33-dbf862361369))
     (pin "3" (uuid 8a7ca7d8-0264-4d89-9a2a-f08df2c9435b))
     (pin "4" (uuid 22da00ae-6723-4a57-a5f7-cee9368809a7))
-    (pin "1" (uuid 5a045962-f170-47dc-8f08-29507fe979fd))
+    (pin "1" (uuid 5a045962-f170-47dc-8f08-29507fe979fe))
     (instances
       (project "Armboard_Hardware"
         (path "/0313b944-1194-481e-8200-b9ebb32d70a5"
