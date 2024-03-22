@@ -2486,6 +2486,9 @@
   (junction (at 53.34 716.28) (diameter 0) (color 0 0 0 0)
     (uuid 1681f77a-d4d7-405f-9420-fa7a289fe330)
   )
+  (junction (at 90.17 27.94) (diameter 0) (color 0 0 0 0)
+    (uuid 17b8871e-d8bc-44f3-a6e1-6b1b5c5f2a6c)
+  )
   (junction (at 133.35 494.03) (diameter 0) (color 0 0 0 0)
     (uuid 188ccb02-adbe-4aaa-ae23-db1330d39c05)
   )
@@ -2801,6 +2804,9 @@
   (junction (at 186.69 546.1) (diameter 0) (color 0 0 0 0)
     (uuid b1a66a2b-2663-478c-8560-61976be23359)
   )
+  (junction (at 342.9 129.54) (diameter 0) (color 0 0 0 0)
+    (uuid b27cc288-80e6-48d5-8a2e-81679584e504)
+  )
   (junction (at 111.76 497.84) (diameter 0) (color 0 0 0 0)
     (uuid b4274145-5eea-4952-84f1-06a49c90c7ab)
   )
@@ -2942,6 +2948,12 @@
   (junction (at 134.62 334.01) (diameter 0) (color 0 0 0 0)
     (uuid f159346f-f126-4fd7-80d4-340ee3c4b1f0)
   )
+  (junction (at 104.14 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid f18a1fe9-adb4-42a0-b2a7-3bb0c000ed38)
+  )
+  (junction (at 118.11 27.94) (diameter 0) (color 0 0 0 0)
+    (uuid f21718eb-9f86-43f0-9ee6-6985046a52e5)
+  )
   (junction (at 113.03 560.07) (diameter 0) (color 0 0 0 0)
     (uuid f21a08fc-2e1a-43ab-a6f3-cd0337c7f22b)
   )
@@ -2982,11 +2994,20 @@
     (uuid fdd69dd3-c03a-402b-b448-6d6d3a0f72ef)
   )
 
+  (no_connect (at 341.63 33.02) (uuid 06fb7331-7841-4b54-8fb0-32ca7aef585a))
+  (no_connect (at 300.99 55.88) (uuid 24e60d67-7efb-4708-b8bb-ae24173a07ef))
   (no_connect (at 433.07 350.52) (uuid 25a084a9-bf17-4223-a5b3-d6068f2eb8f2))
   (no_connect (at 393.7 327.66) (uuid 263a0b0a-3a2b-48d0-8ed3-b0c70690d73c))
+  (no_connect (at 300.99 93.98) (uuid 2855edca-facb-4383-bca5-bb27c3963a59))
   (no_connect (at 189.23 80.01) (uuid 45e92011-caa3-453e-9edf-d5740c834cab))
+  (no_connect (at 341.63 40.64) (uuid 581c680c-625e-400d-82bb-bfb67b9dd381))
   (no_connect (at 176.53 59.69) (uuid 634fbf85-3532-419a-b5d5-e367fe154499))
+  (no_connect (at 341.63 60.96) (uuid 96e18e59-95a5-40ad-beeb-53d91430f619))
+  (no_connect (at 341.63 63.5) (uuid ca1aa0e0-d77e-44e7-b173-ca8fc8500e74))
+  (no_connect (at 300.99 53.34) (uuid e929a179-7b73-49de-b956-0540c7dc5cd9))
   (no_connect (at 173.99 59.69) (uuid f741b4dc-8d1a-4751-adfe-127cb2263c99))
+  (no_connect (at 341.63 38.1) (uuid f9e6e4bb-a8c6-4f03-9400-94bc29ad1e96))
+  (no_connect (at 341.63 35.56) (uuid fdbdc056-713f-4391-adef-078ee0a6dc98))
 
   (wire (pts (xy 383.54 327.66) (xy 383.54 331.47))
     (stroke (width 0) (type default))
@@ -3543,6 +3564,10 @@
   (wire (pts (xy 100.33 595.63) (xy 102.87 595.63))
     (stroke (width 0) (type default))
     (uuid 27ab8a03-9cba-47fa-8a48-caf7ce17cb05)
+  )
+  (wire (pts (xy 104.14 38.1) (xy 118.11 38.1))
+    (stroke (width 0) (type default))
+    (uuid 27b16af5-07c3-4820-9e53-d716c87d63ff)
   )
   (wire (pts (xy 64.77 394.97) (xy 66.04 394.97))
     (stroke (width 0) (type default))
@@ -4432,6 +4457,10 @@
     (stroke (width 0) (type default))
     (uuid 620bf486-b638-4e5a-adf7-066deaad078a)
   )
+  (wire (pts (xy 118.11 27.94) (xy 118.11 30.48))
+    (stroke (width 0) (type default))
+    (uuid 623419de-46a2-433b-b574-1c396e8c733d)
+  )
   (wire (pts (xy 340.36 227.33) (xy 345.44 227.33))
     (stroke (width 0) (type default))
     (uuid 624219d8-3f9b-4f34-ac9e-c8a37a3b6f32)
@@ -4684,6 +4713,10 @@
     (stroke (width 0) (type default))
     (uuid 6fba2f8a-7df0-4831-a7c8-fedc4eb96652)
   )
+  (wire (pts (xy 104.14 38.1) (xy 104.14 35.56))
+    (stroke (width 0) (type default))
+    (uuid 6fc0c9e5-b327-4b19-a2d7-dc98a74bb245)
+  )
   (wire (pts (xy 102.87 320.04) (xy 102.87 314.96))
     (stroke (width 0) (type default))
     (uuid 6ffa1d88-caf5-439e-8524-0d5d1634eeb3)
@@ -4815,6 +4848,10 @@
   (wire (pts (xy 433.07 215.9) (xy 433.07 205.74))
     (stroke (width 0) (type default))
     (uuid 76827a0c-25bd-42f2-bd8f-a9669b65c4a3)
+  )
+  (wire (pts (xy 90.17 27.94) (xy 93.98 27.94))
+    (stroke (width 0) (type default))
+    (uuid 768e4c21-6338-4a13-a2a3-7d435b176b06)
   )
   (wire (pts (xy 115.57 654.05) (xy 116.84 654.05))
     (stroke (width 0) (type default))
@@ -4952,6 +4989,10 @@
     (stroke (width 0) (type default))
     (uuid 835ddb05-b1ee-4e6c-87bf-61b596142f60)
   )
+  (wire (pts (xy 104.14 39.37) (xy 104.14 38.1))
+    (stroke (width 0) (type default))
+    (uuid 83728c23-4de3-4f99-984e-63e78a43c3c3)
+  )
   (wire (pts (xy 111.76 226.06) (xy 119.38 226.06))
     (stroke (width 0) (type default))
     (uuid 83cfd1fd-ad82-4cc7-b634-39fb9dff3357)
@@ -5028,6 +5069,10 @@
     (stroke (width 0) (type default))
     (uuid 8967a51d-70ff-467b-8da3-106dee052d89)
   )
+  (wire (pts (xy 342.9 129.54) (xy 342.9 132.08))
+    (stroke (width 0) (type default))
+    (uuid 89c83c82-b41b-4479-a34b-39f92d3c7125)
+  )
   (wire (pts (xy 674.37 72.39) (xy 674.37 74.93))
     (stroke (width 0) (type default))
     (uuid 8a32a1b1-3203-49a9-8f5b-3e192905ab91)
@@ -5052,6 +5097,10 @@
     (stroke (width 0) (type default))
     (uuid 8bfceb9c-619e-47dd-a11b-503053d863e2)
   )
+  (wire (pts (xy 342.9 127) (xy 342.9 129.54))
+    (stroke (width 0) (type default))
+    (uuid 8c2b6222-9a38-4bbc-b436-c8fd9df14bca)
+  )
   (wire (pts (xy 391.16 300.99) (xy 391.16 302.26))
     (stroke (width 0) (type default))
     (uuid 8c3929ad-0ed5-4d2e-910f-aef30d7f81c8)
@@ -5067,6 +5116,10 @@
   (wire (pts (xy 213.36 497.84) (xy 207.01 497.84))
     (stroke (width 0) (type default))
     (uuid 8d242613-15e7-49c9-bfd4-6c477459824e)
+  )
+  (wire (pts (xy 90.17 38.1) (xy 104.14 38.1))
+    (stroke (width 0) (type default))
+    (uuid 8d560b7f-f26a-4162-aa18-ae40d9410d3c)
   )
   (wire (pts (xy 204.47 651.51) (xy 204.47 655.32))
     (stroke (width 0) (type default))
@@ -5272,6 +5325,10 @@
     (stroke (width 0) (type default))
     (uuid 993f713e-cd9e-4f33-b140-bea4a1258795)
   )
+  (wire (pts (xy 114.3 27.94) (xy 118.11 27.94))
+    (stroke (width 0) (type default))
+    (uuid 9967b3c2-143e-465c-a618-6839700dfedf)
+  )
   (wire (pts (xy 63.5 382.27) (xy 64.77 382.27))
     (stroke (width 0) (type default))
     (uuid 998975b2-b15c-41db-8542-fa8ac06ac100)
@@ -5400,6 +5457,10 @@
     (stroke (width 0) (type default))
     (uuid 9fa9d17b-13d1-46c4-bacc-f9eaa7369228)
   )
+  (wire (pts (xy 90.17 27.94) (xy 90.17 30.48))
+    (stroke (width 0) (type default))
+    (uuid a044b1f9-2bee-4a67-9149-e5830e36122b)
+  )
   (wire (pts (xy 118.11 508) (xy 118.11 509.27))
     (stroke (width 0) (type default))
     (uuid a090a6b4-3bd8-49c7-91d4-2ea6d2b72013)
@@ -5463,6 +5524,10 @@
   (wire (pts (xy 422.91 300.99) (xy 422.91 302.26))
     (stroke (width 0) (type default))
     (uuid a5b7fb86-9e98-44a6-9c57-49d40e61a4aa)
+  )
+  (wire (pts (xy 341.63 127) (xy 342.9 127))
+    (stroke (width 0) (type default))
+    (uuid a5f58a5a-7267-4c35-bcdd-454a15e6d211)
   )
   (wire (pts (xy 113.03 443.23) (xy 113.03 444.5))
     (stroke (width 0) (type default))
@@ -6200,6 +6265,10 @@
     (stroke (width 0) (type default))
     (uuid d6dfc818-726d-450b-9fe0-1570bdf45011)
   )
+  (wire (pts (xy 90.17 25.4) (xy 90.17 27.94))
+    (stroke (width 0) (type default))
+    (uuid d78cdebb-939a-4563-b672-eeaf503d611f)
+  )
   (wire (pts (xy 215.9 364.49) (xy 215.9 365.76))
     (stroke (width 0) (type default))
     (uuid d7edd17d-3d49-429b-a360-1b78e4ca41cb)
@@ -6407,6 +6476,10 @@
   (wire (pts (xy 233.68 384.81) (xy 234.95 384.81))
     (stroke (width 0) (type default))
     (uuid e6b4f0e1-84a7-43c4-a9a1-15529929bd6d)
+  )
+  (wire (pts (xy 118.11 25.4) (xy 118.11 27.94))
+    (stroke (width 0) (type default))
+    (uuid e6c3f809-a4e3-41b2-a853-ade77341b21e)
   )
   (wire (pts (xy 254 716.28) (xy 254 728.98))
     (stroke (width 0) (type default))
@@ -6767,6 +6840,10 @@
   (wire (pts (xy 191.77 482.6) (xy 191.77 474.98))
     (stroke (width 0) (type default))
     (uuid fa839b2c-974f-4c04-928a-e4f01979d4c0)
+  )
+  (wire (pts (xy 341.63 129.54) (xy 342.9 129.54))
+    (stroke (width 0) (type default))
+    (uuid fac975cc-fb9c-4297-bdb2-853dd230a7d9)
   )
   (wire (pts (xy 433.07 227.33) (xy 433.07 228.6))
     (stroke (width 0) (type default))
@@ -8487,6 +8564,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 118.11 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0e5c98aa-5833-4f95-97e6-b0cf0656e5da)
+    (property "Reference" "C25" (at 121.92 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (at 121.92 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 119.0752 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 118.11 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e6fc0bd8-082b-4641-8d59-2b6d524cb96d))
+    (pin "2" (uuid 5ab49b5f-8a02-43f7-93e9-06944070b273))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "C25") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 361.95 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ec5c06e-ad10-482d-8aaf-6c0cd4a55c11)
@@ -8853,6 +8956,36 @@
     )
   )
 
+  (symbol (lib_id "power:+12V") (at 90.17 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 15485d5d-2290-46db-bd2c-9157872e7134)
+    (property "Reference" "#PWR05" (at 90.17 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 90.17 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 90.17 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 90.17 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b495492-6127-451b-8714-a0e1417ce3a7))
+    (instances
+      (project "BrushedMOCO_Breakout"
+        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 551.18 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15f3bc94-2cf4-4380-a522-1e9e8187cc70)
@@ -9006,11 +9139,11 @@
     (property "Datasheet" "" (at 156.21 676.91 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea84))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea85))
     (pin "2" (uuid 7187d65e-5691-40ea-92b6-8ebbae5296f3))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e189))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b30fe))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea84))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea85))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -9541,11 +9674,11 @@
     (property "Datasheet" "" (at 160.02 562.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea86))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea87))
     (pin "2" (uuid 240b2b58-0a24-451f-811a-468441e5dfa2))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18a))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b30ff))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea86))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea87))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -10077,11 +10210,11 @@
     (property "Datasheet" "" (at 167.64 248.92 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea82))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea83))
     (pin "2" (uuid 1831c1b0-66fd-49c4-96e2-5a2d72bea2d2))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18b))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3100))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea82))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea83))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -10147,6 +10280,31 @@
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
           (reference "D43") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 118.11 25.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 35f5599a-96d5-4b40-a99e-5d053278f2e3)
+    (property "Reference" "#PWR0112" (at 118.11 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 118.11 20.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 118.11 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 118.11 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 63d74a54-7b98-4014-a292-25a5e2c33b8f))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -10746,6 +10904,33 @@
     )
   )
 
+  (symbol (lib_id "MRDT_Devices:OKI") (at 99.06 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47dd5703-2e03-45ff-b584-46afa0cb8a9b)
+    (property "Reference" "U36" (at 100.33 31.75 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Value" "OKI" (at 104.14 22.86 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "" (at 93.98 33.02 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (property "Datasheet" "" (at 93.98 33.02 0)
+      (effects (font (size 1.524 1.524)) hide)
+    )
+    (pin "1" (uuid 25ad10df-da0b-4332-a931-368e089dcf2b))
+    (pin "2" (uuid 87eee308-ed2b-4ee2-a141-eb18c7fb17ec))
+    (pin "3" (uuid b40be7ae-b9ee-47d6-9d84-a18ccb62d244))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "U36") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+12V") (at 34.29 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4816c3d9-2ba4-414c-a219-608be9dbb4cd)
@@ -11304,11 +11489,11 @@
     (property "Datasheet" "" (at 162.56 215.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c39))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3a))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb98))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b876))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735a))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c39))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3a))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -11529,11 +11714,11 @@
     (property "Datasheet" "" (at 166.37 457.2 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea88))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea89))
     (pin "2" (uuid 4fe86903-14af-4735-87cf-f4d4c59c1226))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18c))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3101))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea88))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea89))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -11649,11 +11834,11 @@
     (property "Datasheet" "" (at 166.37 350.52 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8a))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8b))
     (pin "2" (uuid 00d9ff7e-9f74-412d-9b88-6306a8d9379a))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18d))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3102))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8a))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8b))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -13119,11 +13304,11 @@
     (property "Datasheet" "" (at 162.56 267.97 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3b))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3c))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb99))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b877))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735b))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3b))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3c))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -13465,11 +13650,11 @@
     (property "Datasheet" "" (at 160.02 477.52 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3d))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3e))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9a))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b878))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735c))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3d))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3e))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -14129,6 +14314,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 342.9 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8c963bb2-353d-4787-8f0a-8b61d465d6b6)
+    (property "Reference" "#PWR0113" (at 342.9 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 342.9 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 342.9 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 342.9 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4a7f59c5-f475-4c02-abcd-60e7185cbe86))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "#PWR0113") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 147.32 657.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cf54aa5-5826-4a31-a75e-94fcf22e0fb5)
@@ -14144,11 +14354,11 @@
     (property "Datasheet" "" (at 151.13 643.89 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3f))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c40))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9b))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b879))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735d))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c3f))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c40))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -14385,11 +14595,11 @@
     (property "Datasheet" "" (at 161.29 424.18 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c41))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c42))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9c))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87a))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735e))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c41))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c42))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -14779,11 +14989,11 @@
     (property "Datasheet" "" (at 165.1 510.54 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8c))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8d))
     (pin "2" (uuid fe2597ee-7ed8-463c-a8ac-b87289a27dcb))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18e))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3103))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8c))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8d))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -15897,7 +16107,7 @@
     (property "Reference" "C3" (at 77.47 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 77.47 35.56 0)
+    (property "Value" "10uF" (at 77.47 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 74.6252 38.1 0)
@@ -16106,6 +16316,36 @@
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
           (reference "R61") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 104.14 39.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid acf00fb2-1fc9-4bcf-a131-4b741f7c6a09)
+    (property "Reference" "#PWR01" (at 104.14 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 104.14 43.815 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 104.14 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 104.14 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ed3a7ee1-c7ea-4abb-85ac-d36d8dd53dbb))
+    (instances
+      (project "BrushedMOCO_Breakout"
+        (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -16710,7 +16950,7 @@
     (property "Reference" "C4" (at 49.53 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C" (at 49.53 35.56 0)
+    (property "Value" "10uF" (at 49.53 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 46.6852 38.1 0)
@@ -16819,11 +17059,11 @@
     (property "Datasheet" "" (at 167.64 400.05 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8e))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8f))
     (pin "2" (uuid 0225c282-d21c-4849-b69b-f042c64f4855))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18f))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3104))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8e))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea8f))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -17503,11 +17743,11 @@
     (property "Datasheet" "" (at 156.21 621.03 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea90))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea91))
     (pin "2" (uuid 45109c96-d39f-4d30-895c-faafd13e7316))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e190))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3105))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea90))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea91))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -17537,11 +17777,11 @@
     (property "Datasheet" "" (at 17.78 41.91 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bc1))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bc2))
     (pin "2" (uuid e79bd7d5-7661-4a1f-bf3e-d6785eebbaee))
     (pin "3" (uuid 583e2259-5f56-4856-a2fc-b74ff0797926))
     (pin "4" (uuid fac9b39d-3faf-4dd4-bdd0-317f4542c4d3))
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bc1))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bc2))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17603,11 +17843,11 @@
     (property "Datasheet" "" (at 151.13 701.04 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c43))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c44))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9d))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87b))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735f))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c43))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c44))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -17652,6 +17892,32 @@
       (project "Ethan_Daly"
         (path "/fae4b32c-b8f2-4caa-8bb4-00877803f589"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 90.17 34.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d27f0764-ba38-465a-99e2-d05461fae4dd)
+    (property "Reference" "C6" (at 93.98 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (at 93.98 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 91.1352 38.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 90.17 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd603255-a030-44a6-a33a-4a87dfdae3bd))
+    (pin "2" (uuid fc93afa6-3050-41c3-90f3-fbc4e4e8f123))
+    (instances
+      (project "Armboard_Hardware"
+        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -17959,11 +18225,11 @@
     (property "Datasheet" "" (at 151.13 588.01 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c45))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c46))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9e))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87c))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e7360))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c45))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c46))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -18376,11 +18642,11 @@
     (property "Datasheet" "" (at 162.56 367.03 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c47))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c48))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9f))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87d))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e7361))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c47))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c48))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -18720,11 +18986,11 @@
     (property "Datasheet" "" (at 167.64 300.99 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea92))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea93))
     (pin "2" (uuid 31076748-fd0d-446e-b522-4d0377720439))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e191))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3106))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea92))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea93))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -19199,11 +19465,11 @@
     (property "Datasheet" "" (at 17.78 54.61 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a421f))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4220))
     (pin "2" (uuid f1ce5a43-f04e-43d5-9bf8-16d6301138b3))
     (pin "3" (uuid 4e3083c9-5d74-4feb-8f97-a346bb3f12ae))
     (pin "4" (uuid 962f7d0e-fd99-430a-989f-d29f071759cb))
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a421f))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4220))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -19410,11 +19676,11 @@
     (property "Datasheet" "" (at 156.21 734.06 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea94))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea95))
     (pin "2" (uuid efb7f6f3-da69-49b7-8bdd-f677ea41a8bb))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e192))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3107))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea94))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea95))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -19553,11 +19819,11 @@
     (property "Datasheet" "" (at 154.94 529.59 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c49))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4a))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdba0))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87e))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e7362))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c49))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4a))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
@@ -19649,11 +19915,11 @@
     (property "Datasheet" "" (at 161.29 317.5 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4b))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4c))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdba1))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b87f))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e7363))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4b))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c4c))
     (instances
       (project "BrushedMOCO_Breakout"
         (path "/09f10023-b6cf-44c5-8847-9c4a76610e70"
