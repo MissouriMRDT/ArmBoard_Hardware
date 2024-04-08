@@ -2594,6 +2594,9 @@
   (junction (at 260.985 445.135) (diameter 0) (color 0 0 0 0)
     (uuid 23312b21-7aa0-4a2d-be99-8b69213f4f42)
   )
+  (junction (at 152.4 528.955) (diameter 0) (color 0 0 0 0)
+    (uuid 23740a84-5634-4e66-9061-0e2e66565dff)
+  )
   (junction (at 161.925 713.105) (diameter 0) (color 0 0 0 0)
     (uuid 255405ba-793d-4681-9883-1c2ee7a26566)
   )
@@ -4891,7 +4894,7 @@
     (stroke (width 0) (type default))
     (uuid a8c6d607-7f76-41d0-91f9-c6a18583b811)
   )
-  (wire (pts (xy 152.4 516.89) (xy 152.4 516.255))
+  (wire (pts (xy 152.4 516.255) (xy 152.4 528.955))
     (stroke (width 0) (type default))
     (uuid a8c806f0-6c55-4a8f-a4c2-35d270511142)
   )
@@ -7605,11 +7608,11 @@
     (property "Datasheet" "" (at 188.595 527.05 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c81))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c83))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e4f))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c51))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17b))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c81))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c83))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8390,11 +8393,11 @@
     (property "Datasheet" "" (at 292.1 709.93 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c83))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e51))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c53))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17d))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c83))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8471,11 +8474,11 @@
     (property "Datasheet" "" (at 290.195 526.415 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e52))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c54))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17e))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8706,7 +8709,7 @@
     (property "Value" "Molex_SL_04" (at 546.1 71.12 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 542.29 74.93 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 542.29 74.93 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 542.29 74.93 0)
@@ -9106,11 +9109,11 @@
     (property "Datasheet" "" (at 1050.29 114.935 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90ee6))
+    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90ee8))
     (pin "2" (uuid 658be1d6-bb22-4a05-9db2-869a7b86875c))
     (pin "3" (uuid 72da08de-3e29-4f7e-9062-1d6f582cf3a5))
     (pin "4" (uuid c154d153-63ba-4ded-b8b7-6e415a8f2452))
-    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90ee6))
+    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90ee8))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -9521,7 +9524,7 @@
     (property "Reference" "C34" (at 155.575 440.6011 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 155.575 442.5221 90)
+    (property "Value" "10uF" (at 155.575 442.5221 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 159.385 444.8048 0)
@@ -9845,11 +9848,11 @@
     (property "Datasheet" "" (at 290.83 363.855 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c89))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e50))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c52))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17c))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c89))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -10112,7 +10115,7 @@
     (property "Value" "Molex_SL_02" (at 803.91 90.805 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 800.1 94.615 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 800.1 94.615 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 800.1 94.615 0)
@@ -10303,7 +10306,7 @@
     (property "Reference" "C32" (at 156.845 358.6861 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 156.845 360.6071 90)
+    (property "Value" "10uF" (at 156.845 360.6071 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 160.655 362.8898 0)
@@ -10497,31 +10500,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 152.4 516.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 44d93812-4ab4-48c1-aaa1-aa2824f2d780)
-    (property "Reference" "#PWR027" (at 152.4 523.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 152.4 521.0255 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 152.4 516.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 152.4 516.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c8278505-4fca-444a-99e2-805408cc5df9))
-    (instances
-      (project "Armboard_Hardware"
-        (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
-          (reference "#PWR027") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 521.335 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 455eaf02-2cce-47b5-952b-eb38e4c7a2e7)
@@ -10562,11 +10540,11 @@
     (property "Datasheet" "" (at 187.96 438.15 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff70))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff72))
     (pin "2" (uuid 0957fa53-8a5e-4a99-9d11-dc9ff8fc8e3f))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bd9))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092256))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff70))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff72))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -10821,7 +10799,7 @@
     (property "Value" "Molex_SL_03" (at 605.155 100.33 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal" (at 601.345 102.87 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical" (at 601.345 102.87 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 601.345 102.87 0)
@@ -10898,7 +10876,7 @@
     (property "Value" "Molex_SL_02" (at 804.545 136.525 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 800.735 140.335 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 800.735 140.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 800.735 140.335 0)
@@ -11056,7 +11034,7 @@
     (property "Value" "Molex_SL_03" (at 605.155 123.825 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal" (at 601.345 126.365 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical" (at 601.345 126.365 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 601.345 126.365 0)
@@ -11733,7 +11711,7 @@
     (property "Reference" "C35" (at 257.175 439.9661 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 257.175 441.8871 90)
+    (property "Value" "10uF" (at 257.175 441.8871 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 260.985 444.1698 0)
@@ -12037,7 +12015,7 @@
     (property "Value" "Molex_SL_04" (at 545.465 134.62 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 541.655 138.43 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 541.655 138.43 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 541.655 138.43 0)
@@ -12091,7 +12069,7 @@
     (property "Value" "Molex_SL_02" (at 763.27 90.805 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 759.46 94.615 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 759.46 94.615 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 759.46 94.615 0)
@@ -12123,11 +12101,11 @@
     (property "Datasheet" "" (at 189.23 358.775 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff72))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff74))
     (pin "2" (uuid 4be896da-b55b-4f7a-97b5-6c6d2bf5625e))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bda))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092257))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff72))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff74))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12203,11 +12181,11 @@
     (property "Datasheet" "" (at 289.56 437.515 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff74))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
     (pin "2" (uuid 2b086861-8db9-4270-9b76-39c6e7d34ec6))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdb))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092258))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff74))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12333,11 +12311,11 @@
     (property "Datasheet" "" (at 190.5 710.565 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c89))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8b))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e53))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c55))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17f))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c89))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8b))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12387,11 +12365,11 @@
     (property "Datasheet" "" (at 290.195 520.7 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
     (pin "2" (uuid 54d6c6dd-8172-4fc2-a586-3866c8cea836))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdc))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092259))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12935,7 +12913,7 @@
     (property "Reference" "C33" (at 258.445 358.6861 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 258.445 360.6071 90)
+    (property "Value" "100uF" (at 258.445 360.6071 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 262.255 362.8898 0)
@@ -13074,11 +13052,11 @@
     (property "Datasheet" "" (at 189.23 364.49 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8b))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e54))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c56))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b180))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8b))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -13128,11 +13106,11 @@
     (property "Datasheet" "" (at 187.96 443.865 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e55))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c57))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b181))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -13245,7 +13223,7 @@
     (property "Value" "Molex_SL_02" (at 763.27 107.315 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 759.46 111.125 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 759.46 111.125 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 759.46 111.125 0)
@@ -13327,7 +13305,7 @@
     (property "Value" "Molex_SL_02" (at 947.42 124.46 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 943.61 128.27 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 943.61 128.27 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 943.61 128.27 0)
@@ -13593,7 +13571,7 @@
     (property "Value" "Molex_SL_02" (at 763.27 121.92 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 759.46 125.73 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 759.46 125.73 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 759.46 125.73 0)
@@ -13641,7 +13619,7 @@
     (property "Reference" "C37" (at 156.21 523.7861 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 156.21 525.7071 90)
+    (property "Value" "10uF" (at 156.21 525.7071 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 160.02 527.9898 0)
@@ -14275,7 +14253,7 @@
     (property "Value" "Molex_SL_02" (at 803.91 107.315 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 800.1 111.125 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 800.1 111.125 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 800.1 111.125 0)
@@ -14378,7 +14356,7 @@
     (property "Value" "Molex_SL_02" (at 763.905 151.13 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 760.095 154.94 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 760.095 154.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 760.095 154.94 0)
@@ -14583,11 +14561,11 @@
     (property "Datasheet" "" (at 1052.83 88.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc3))
+    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc5))
     (pin "2" (uuid fda9c8a3-decf-4246-ace4-e88e111fb421))
     (pin "3" (uuid f8e1ab02-917b-4297-b761-8e0c70e0e655))
     (pin "4" (uuid 4f95e72d-8d52-48fc-9880-c36bd09288b2))
-    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc3))
+    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc5))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -15161,11 +15139,11 @@
     (property "Datasheet" "" (at 292.735 603.25 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7a))
     (pin "2" (uuid fd95d7cf-2eb7-46fc-a640-97ecaf0c9f04))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdd))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225a))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7a))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -15237,7 +15215,7 @@
     (property "Reference" "C39" (at 158.75 606.3361 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 158.75 608.2571 90)
+    (property "Value" "10uF" (at 158.75 608.2571 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 162.56 610.5398 0)
@@ -15317,7 +15295,7 @@
     (property "Value" "Molex_SL_02" (at 803.91 121.92 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 800.1 125.73 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 800.1 125.73 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 800.1 125.73 0)
@@ -15394,7 +15372,7 @@
     (property "Value" "Molex_SL_03" (at 604.52 145.415 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal" (at 600.71 147.955 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical" (at 600.71 147.955 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 600.71 147.955 0)
@@ -15468,7 +15446,7 @@
     (property "Reference" "C36" (at 257.81 522.5161 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 257.81 524.4371 90)
+    (property "Value" "10uF" (at 257.81 524.4371 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 261.62 526.7198 0)
@@ -15650,7 +15628,7 @@
     (property "Value" "Molex_SL_02" (at 804.545 151.13 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 800.735 154.94 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 800.735 154.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 800.735 154.94 0)
@@ -15734,11 +15712,11 @@
     (property "Datasheet" "" (at 290.83 358.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7a))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
     (pin "2" (uuid 052e87ff-8ce6-41b1-8db2-a96962ec4ccb))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bde))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225b))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7a))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -15807,7 +15785,7 @@
     (property "Value" "Molex_SL_04" (at 545.465 173.99 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 541.655 177.8 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 541.655 177.8 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 541.655 177.8 0)
@@ -16529,11 +16507,11 @@
     (property "Datasheet" "" (at 190.5 704.85 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7e))
     (pin "2" (uuid 4f0c934b-7801-4bd5-9aaf-8e8306a94c6a))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdf))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225c))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7e))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16737,11 +16715,11 @@
     (property "Datasheet" "" (at 127 120.015 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd4))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd6))
     (pin "2" (uuid e79bd7d5-7661-4a1f-bf3e-d6785eebbaee))
     (pin "3" (uuid 583e2259-5f56-4856-a2fc-b74ff0797926))
     (pin "4" (uuid fac9b39d-3faf-4dd4-bdd0-317f4542c4d3))
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd4))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd6))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16811,7 +16789,7 @@
     (property "Value" "Molex_SL_04" (at 545.465 154.94 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 541.655 158.75 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 541.655 158.75 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 541.655 158.75 0)
@@ -16960,11 +16938,11 @@
     (property "Datasheet" "" (at 292.735 608.965 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c91))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e56))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c58))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b182))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c91))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17018,7 +16996,7 @@
     (property "Value" "Molex_SL_02" (at 763.905 136.525 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 760.095 140.335 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 760.095 140.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 760.095 140.335 0)
@@ -17076,11 +17054,11 @@
     (property "Datasheet" "" (at 191.135 603.885 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7e))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
     (pin "2" (uuid 5a698c29-b7f3-4353-bc18-a5d8a963f7ae))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be0))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225d))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7e))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17131,11 +17109,11 @@
     (property "Datasheet" "" (at 191.135 609.6 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c91))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c93))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e57))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c59))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b183))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c91))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c93))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17154,7 +17132,7 @@
     (property "Value" "Molex_SL_04" (at 546.1 111.76 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 542.29 115.57 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 542.29 115.57 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 542.29 115.57 0)
@@ -17204,7 +17182,7 @@
     (property "Reference" "C38" (at 260.35 606.3361 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 260.35 608.2571 90)
+    (property "Value" "10uF" (at 260.35 608.2571 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 264.16 610.5398 0)
@@ -17518,11 +17496,11 @@
     (property "Datasheet" "" (at 188.595 521.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
     (pin "2" (uuid a6ddc786-1d7a-4766-8507-14aebe73bbd0))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be1))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225e))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17717,7 +17695,7 @@
     (property "Reference" "C40" (at 158.115 707.9361 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 158.115 709.8571 90)
+    (property "Value" "10uF" (at 158.115 709.8571 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 161.925 712.1398 0)
@@ -17743,7 +17721,7 @@
     (property "Reference" "C41" (at 259.715 707.3011 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "270uF" (at 259.715 709.2221 90)
+    (property "Value" "10uF" (at 259.715 709.2221 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 263.525 711.5048 0)
@@ -17772,7 +17750,7 @@
     (property "Value" "Molex_SL_02" (at 947.42 115.57 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Horizontal" (at 943.61 119.38 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical" (at 943.61 119.38 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 943.61 119.38 0)
@@ -18181,7 +18159,7 @@
     (property "Value" "Molex_SL_04" (at 546.1 92.71 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal" (at 542.29 96.52 0)
+    (property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical" (at 542.29 96.52 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 542.29 96.52 0)
@@ -18241,11 +18219,11 @@
     (property "Datasheet" "" (at 292.1 704.215 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff84))
     (pin "2" (uuid 62c883b2-00b0-42fd-8f9f-9e71ccb0beb9))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be2))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225f))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff84))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -18296,11 +18274,11 @@
     (property "Datasheet" "" (at 127 132.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4232))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4234))
     (pin "2" (uuid f1ce5a43-f04e-43d5-9bf8-16d6301138b3))
     (pin "3" (uuid 4e3083c9-5d74-4feb-8f97-a346bb3f12ae))
     (pin "4" (uuid 962f7d0e-fd99-430a-989f-d29f071759cb))
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4232))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4234))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -18761,11 +18739,11 @@
     (property "Datasheet" "" (at 289.56 443.23 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c93))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c95))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e58))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c5a))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b184))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c93))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c95))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
