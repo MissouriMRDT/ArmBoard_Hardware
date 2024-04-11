@@ -7372,11 +7372,11 @@
     (property "Datasheet" "" (at 191.77 527.685 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c86))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e4f))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c51))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17b))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c85))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c86))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8132,11 +8132,11 @@
     (property "Datasheet" "" (at 294.64 710.565 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c88))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e51))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c53))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17d))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c87))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c88))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8213,11 +8213,11 @@
     (property "Datasheet" "" (at 293.37 527.05 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 772162d8-ba72-4b89-a9b6-01062c97ee57))
+    (pin "1" (uuid 772162d8-ba72-4b89-a9b6-01062c97ee58))
     (pin "2" (uuid 625d5a0c-c4d4-4f07-8781-667f1cb4b145))
     (pin "3" (uuid 87e32b3f-aa66-4ee1-908a-e9f739afa3e8))
     (pin "4" (uuid 6fbbe3c2-303a-4be9-b4e5-ad6f0470352e))
-    (pin "1" (uuid 772162d8-ba72-4b89-a9b6-01062c97ee57))
+    (pin "1" (uuid 772162d8-ba72-4b89-a9b6-01062c97ee58))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -8873,11 +8873,11 @@
     (property "Datasheet" "" (at 1050.29 114.935 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90eea))
+    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90eeb))
     (pin "2" (uuid 658be1d6-bb22-4a05-9db2-869a7b86875c))
     (pin "3" (uuid 72da08de-3e29-4f7e-9062-1d6f582cf3a5))
     (pin "4" (uuid c154d153-63ba-4ded-b8b7-6e415a8f2452))
-    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90eea))
+    (pin "1" (uuid 67f95fd5-09e5-4f6c-ba69-235015a90eeb))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -9586,11 +9586,11 @@
     (property "Datasheet" "" (at 294.005 364.49 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid e75abedc-3bfc-4d93-8dd8-5e33438108e2))
+    (pin "1" (uuid e75abedc-3bfc-4d93-8dd8-5e33438108e3))
     (pin "2" (uuid 06fbc046-061e-419d-82fc-4e7e2b19a8aa))
     (pin "3" (uuid 48d3668c-2f48-458d-8987-0483ed5fc6c5))
     (pin "4" (uuid baf5caae-5418-413b-aab8-98c6ad84db1a))
-    (pin "1" (uuid e75abedc-3bfc-4d93-8dd8-5e33438108e2))
+    (pin "1" (uuid e75abedc-3bfc-4d93-8dd8-5e33438108e3))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -10178,11 +10178,11 @@
     (property "Datasheet" "" (at 191.135 438.15 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a353fae5-3db9-4315-9641-d78e62de9624))
+    (pin "1" (uuid a353fae5-3db9-4315-9641-d78e62de9625))
     (pin "2" (uuid 0350ad47-f6f5-42a8-8708-f4f0939bcb9b))
     (pin "3" (uuid 5af21307-970c-490a-ac43-a225d186434f))
     (pin "4" (uuid da3cfeb5-f999-441d-835b-bea743e1ce6a))
-    (pin "1" (uuid a353fae5-3db9-4315-9641-d78e62de9624))
+    (pin "1" (uuid a353fae5-3db9-4315-9641-d78e62de9625))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -11658,11 +11658,11 @@
     (property "Datasheet" "" (at 192.405 358.775 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff77))
     (pin "2" (uuid 4be896da-b55b-4f7a-97b5-6c6d2bf5625e))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bda))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092257))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff76))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff77))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -11738,11 +11738,11 @@
     (property "Datasheet" "" (at 292.1 437.515 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff79))
     (pin "2" (uuid 2b086861-8db9-4270-9b76-39c6e7d34ec6))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdb))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc092258))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff78))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff79))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -11843,11 +11843,11 @@
     (property "Datasheet" "" (at 193.04 711.2 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8e))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e53))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c55))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b17f))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8d))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8e))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -11897,11 +11897,11 @@
     (property "Datasheet" "" (at 293.37 520.7 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 8fdff292-cb90-490c-8e6b-25dbaee18ded))
+    (pin "1" (uuid 8fdff292-cb90-490c-8e6b-25dbaee18dee))
     (pin "2" (uuid ce98084d-5903-4e6f-8645-38d2dba4c215))
     (pin "3" (uuid 409b6746-dcf5-4089-9be9-ef0dc23ff0ac))
     (pin "4" (uuid 2369a728-554c-4cf0-ab5c-cb8b577c198f))
-    (pin "1" (uuid 8fdff292-cb90-490c-8e6b-25dbaee18ded))
+    (pin "1" (uuid 8fdff292-cb90-490c-8e6b-25dbaee18dee))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12583,11 +12583,11 @@
     (property "Datasheet" "" (at 192.405 364.49 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c90))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e54))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c56))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b180))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c8f))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c90))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -12637,11 +12637,11 @@
     (property "Datasheet" "" (at 191.135 444.5 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 65ac7907-35a2-416a-8b62-ca15155e916a))
+    (pin "1" (uuid 65ac7907-35a2-416a-8b62-ca15155e916b))
     (pin "2" (uuid afa6ad19-8f17-44c2-aded-caa8188ec942))
     (pin "3" (uuid 1df9ed34-3bc8-41c2-ae57-60b9745b1d79))
     (pin "4" (uuid 66bbd3aa-8293-42ca-acf9-82829f4e968f))
-    (pin "1" (uuid 65ac7907-35a2-416a-8b62-ca15155e916a))
+    (pin "1" (uuid 65ac7907-35a2-416a-8b62-ca15155e916b))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -14066,11 +14066,11 @@
     (property "Datasheet" "" (at 1052.83 88.9 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc7))
+    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc8))
     (pin "2" (uuid fda9c8a3-decf-4246-ace4-e88e111fb421))
     (pin "3" (uuid f8e1ab02-917b-4297-b761-8e0c70e0e655))
     (pin "4" (uuid 4f95e72d-8d52-48fc-9880-c36bd09288b2))
-    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc7))
+    (pin "1" (uuid 6552fce4-f3c1-4cc0-9585-598ba677cfc8))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -14618,11 +14618,11 @@
     (property "Datasheet" "" (at 295.275 603.25 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7d))
     (pin "2" (uuid fd95d7cf-2eb7-46fc-a640-97ecaf0c9f04))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdd))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225a))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7c))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff7d))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -15114,11 +15114,11 @@
     (property "Datasheet" "" (at 294.005 358.14 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 3a8fe788-2414-4bfa-b816-bd2ac7ceb931))
+    (pin "1" (uuid 3a8fe788-2414-4bfa-b816-bd2ac7ceb932))
     (pin "2" (uuid 4b185bfe-7183-47d4-a627-bde2b2de388c))
     (pin "3" (uuid 962047a3-5503-48b8-9849-d9017ded1ea3))
     (pin "4" (uuid fca8d236-dc67-453e-a431-cbba79414173))
-    (pin "1" (uuid 3a8fe788-2414-4bfa-b816-bd2ac7ceb931))
+    (pin "1" (uuid 3a8fe788-2414-4bfa-b816-bd2ac7ceb932))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -15911,11 +15911,11 @@
     (property "Datasheet" "" (at 193.04 704.85 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff81))
     (pin "2" (uuid 4f0c934b-7801-4bd5-9aaf-8e8306a94c6a))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14bdf))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225c))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff80))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff81))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16119,11 +16119,11 @@
     (property "Datasheet" "" (at 127 120.015 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd8))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd9))
     (pin "2" (uuid e79bd7d5-7661-4a1f-bf3e-d6785eebbaee))
     (pin "3" (uuid 583e2259-5f56-4856-a2fc-b74ff0797926))
     (pin "4" (uuid fac9b39d-3faf-4dd4-bdd0-317f4542c4d3))
-    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd8))
+    (pin "1" (uuid dd115b06-8fcf-4269-ab0e-cf5792e36bd9))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16276,11 +16276,11 @@
     (property "Datasheet" "" (at 295.275 609.6 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 88acdc39-3ee5-4011-b254-34221e089080))
+    (pin "1" (uuid 88acdc39-3ee5-4011-b254-34221e089081))
     (pin "2" (uuid 6a85829f-03c6-4be5-bb58-dbc5bb54c8ea))
     (pin "3" (uuid 98e5c112-c050-47b1-82b0-dca46ddf5d6c))
     (pin "4" (uuid a05628bf-cfa4-4233-ab91-c842c6eda726))
-    (pin "1" (uuid 88acdc39-3ee5-4011-b254-34221e089080))
+    (pin "1" (uuid 88acdc39-3ee5-4011-b254-34221e089081))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16392,11 +16392,11 @@
     (property "Datasheet" "" (at 193.675 603.885 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff83))
     (pin "2" (uuid 5a698c29-b7f3-4353-bc18-a5d8a963f7ae))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be0))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225d))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff82))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff83))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16447,11 +16447,11 @@
     (property "Datasheet" "" (at 193.675 610.235 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c95))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c96))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e57))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c59))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b183))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c95))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c96))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -16809,11 +16809,11 @@
     (property "Datasheet" "" (at 191.77 521.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff84))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff85))
     (pin "2" (uuid a6ddc786-1d7a-4766-8507-14aebe73bbd0))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be1))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225e))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff84))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff85))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17481,11 +17481,11 @@
     (property "Datasheet" "" (at 294.64 704.215 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff86))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff87))
     (pin "2" (uuid 62c883b2-00b0-42fd-8f9f-9e71ccb0beb9))
     (pin "3" (uuid e0332ef8-5cf3-4bf0-a3e5-b59236e14be2))
     (pin "4" (uuid 9102286d-c3a9-4ef2-b59d-bdbebc09225f))
-    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff86))
+    (pin "1" (uuid 0b39722e-b806-46a9-b87a-af1572eeff87))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17536,11 +17536,11 @@
     (property "Datasheet" "" (at 127 132.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4236))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4237))
     (pin "2" (uuid f1ce5a43-f04e-43d5-9bf8-16d6301138b3))
     (pin "3" (uuid 4e3083c9-5d74-4feb-8f97-a346bb3f12ae))
     (pin "4" (uuid 962f7d0e-fd99-430a-989f-d29f071759cb))
-    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4236))
+    (pin "1" (uuid aa2313f8-8209-4720-bcbe-01c5bd7a4237))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
@@ -17975,11 +17975,11 @@
     (property "Datasheet" "" (at 292.1 443.865 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c97))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c98))
     (pin "2" (uuid d6a0411e-51ff-498e-9338-c89ae3832e58))
     (pin "3" (uuid 2bbccdd5-5cca-4884-a6fb-7e484ef75c5a))
     (pin "4" (uuid db0c3852-e979-43f9-ac09-680a3fe1b184))
-    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c97))
+    (pin "1" (uuid 0afef549-f128-44cc-ad10-533b6eab7c98))
     (instances
       (project "Armboard_Hardware"
         (path "/4c7436f6-5ce4-4a98-b30c-5b440118f8cf"
