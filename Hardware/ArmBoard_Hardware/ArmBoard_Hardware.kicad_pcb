@@ -30900,7 +30900,7 @@
   (gr_text "X Axis" (at 162.433 141.351) (layer "F.SilkS") (tstamp 3be674f0-c9e8-4c7d-a954-7ba10756a934)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
   )
-  (gr_text "Spare" (at 164.465 47.498) (layer "F.SilkS") (tstamp 3d96bf51-2cd7-4a9c-8a1e-7ebccf6adc2e)
+  (gr_text "Wrist" (at 164.465 47.498) (layer "F.SilkS") (tstamp 3d96bf51-2cd7-4a9c-8a1e-7ebccf6adc2e)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify bottom))
   )
   (gr_text "X" (at 69.342 123.19) (layer "F.SilkS") (tstamp 3e45311d-10c8-44fe-89f8-67e13cec70b7)
