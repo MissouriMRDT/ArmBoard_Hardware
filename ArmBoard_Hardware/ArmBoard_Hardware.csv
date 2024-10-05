@@ -1,36 +1,35 @@
-"Reference","Value","Datasheet","Footprint","Qty","DNP"
-"C1,C3,C4,C5","10uF","~","","4",""
-"C2",".1uF","~","","1",""
-"C6","10nF","~","","1",""
-"C7","100nF","~","","1",""
-"C8","4.7nF","~","","1",""
-"C9","100uF","~","","1",""
-"Conn1,Conn2","AndersonPP","","-- mixed values --","2",""
-"Conn3,Conn23","Molex_SL_04","","","2",""
-"Conn4,Conn5,Conn6,Conn7,Conn8,Conn9,Conn10,Conn11,Conn12,Conn14,Conn21,Conn24,Conn28","Molex_SL_02","","-- mixed values --","13",""
-"Conn13,Conn15,Conn16,Conn17,Conn18,Conn19,Conn20,Conn29","Molex_SL_05","","","8",""
-"Conn22,Conn25,Conn26,Conn27","Molex_SL_03","","","4",""
-"D1,D2,D3","LED","~","","3",""
-"D4,D7,D8,D9,D10,D11,D12,D13","Blue","~","","8",""
-"D5,D6","Orange","~","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","2",""
-"J1","RJ45_LED_Shielded","~","","1",""
-"Q1,Q5,Q6,Q7,Q8,Q9,Q10,Q11","T2N7002AK,LM","http://toshiba.semicon-storage.com/info/docget.jsp?did=29712&prodName=T2N7002AK","Package_TO_SOT_SMD:SOT-23-3","8",""
-"Q2,Q3","BSS138","https://www.onsemi.com/pub/Collateral/BSS138-D.PDF","Package_TO_SOT_SMD:SOT-23","2",""
-"Q4","AO3401A","http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf","Package_TO_SOT_SMD:SOT-23","1",""
-"R1,R33","2.2k","~","-- mixed values --","2",""
-"R2","330","~","","1",""
-"R3,R29","620","~","-- mixed values --","2",""
-"R4,R5,R6,R7,R8,R9,R10,R11,R12,R13","R","~","","10",""
-"R14,R15","60","~","","2",""
-"R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R30","4.7k","~","-- mixed values --","14",""
-"R31,R32","10k","~","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","2",""
-"R34,R35,R36,R37,R38,R39,R40,R41","220","~","","8",""
-"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10","SW_Push","~","","10",""
-"SW12","SW_SPDT","~","","1",""
-"U1,U9,U10","PCF8574","http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf","","3",""
-"U2,U3","OKI","","","2",""
-"U4","ATA6561","https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","1",""
-"U5","Teensy4.1_DEV-16771","","MODULE_DEV-16771","1",""
-"U6","74HC00","http://www.ti.com/lit/gpn/sn74hc00","Package_SO:SO-14_3.9x8.65mm_P1.27mm","1",""
-"U7,U8","74LS148","http://www.ti.com/lit/gpn/sn74LS148","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","2",""
-"V1,V2,V3,V4","Via","","MRDT_Drill_Holes:4_40_Hole","4",""
+Reference,Value,Datasheet,Footprint,Qty,DNP
+"C1,C3,C4,C5",10uF,~,,4,
+C2,.1uF,~,,1,
+C6,10nF,~,,1,
+C7,100nF,~,,1,
+C8,4.7nF,~,,1,
+C9,100uF,~,,1,
+"Conn1,Conn2",AndersonPP,,-- mixed values --,2,
+"Conn3,Conn23",Molex_SL_04,,,2,
+"Conn4,Conn5,Conn6,Conn7,Conn8,Conn9,Conn10,Conn11,Conn12,Conn14,Conn21,Conn24,Conn28",Molex_SL_02,,-- mixed values --,13,
+"Conn13,Conn15,Conn16,Conn17,Conn18,Conn19,Conn20,Conn29",Molex_SL_05,,,8,
+"Conn22,Conn25,Conn26,Conn27",Molex_SL_03,,,4,
+"D1,D2,D3",Green,~,,3,
+"D4,D7,D8,D9,D10,D11,D12,D13",Blue,~,,8,
+"D5,D6",Orange,~,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,
+J1,RJ45_LED_Shielded,~,,1,
+"Q1,Q5,Q6,Q7,Q8,Q9,Q10,Q11","T2N7002AK,LM",http://toshiba.semicon-storage.com/info/docget.jsp?did=29712&prodName=T2N7002AK,Package_TO_SOT_SMD:SOT-23-3,8,
+"Q2,Q3",BSS138,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,Package_TO_SOT_SMD:SOT-23,2,
+Q4,AO3401A,http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf,Package_TO_SOT_SMD:SOT-23,1,
+"R1,R33",2.2k,~,-- mixed values --,2,
+R2,330,~,,1,
+"R3,R29",620,~,-- mixed values --,2,
+"R14,R15",60,~,,2,
+"R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R30,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13",4.7k,~,-- mixed values --,24,
+"R31,R32",10k,~,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,
+"R34,R35,R36,R37,R38,R39,R40,R41",220,~,,8,
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10",SW_Push,~,,10,
+SW12,SW_SPDT,~,,1,
+"U1,U9,U10",PCF8574,http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf,,3,
+"U2,U3",OKI,,,2,
+U4,ATA6561,https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,
+U5,Teensy4.1_DEV-16771,,MODULE_DEV-16771,1,
+U6,74HC00,http://www.ti.com/lit/gpn/sn74hc00,Package_SO:SO-14_3.9x8.65mm_P1.27mm,1,
+"U7,U8",74LS148,http://www.ti.com/lit/gpn/sn74LS148,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,2,
+"V1,V2,V3,V4",Via,,MRDT_Drill_Holes:4_40_Hole,4,
