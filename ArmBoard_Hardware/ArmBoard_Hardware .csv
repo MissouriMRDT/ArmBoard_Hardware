@@ -1,0 +1,40 @@
+Designator,Value,Package,Item Name,Manufacturer Number,Part Number,Vendor,Quantity,Cost Per Item,Cost,URL
+"C1,C4",10uF,CL10A106MA8NRNC,Capacitor,CL10A106MA8NRNC,1276-1869-1-ND,Digikey,2,$0.26,,https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MA8NRNC/3887527
+"C3,C5",10uF,C0603C106M8PAC7411,Capacitor,C0603C106M8PAC7411,82AC9339,Newark,2,$0.265,,https://www.newark.com/samsung-electro-mechanics/cl10b106mq8nrnc/cap-10uf-6-3v-mlcc-0603/dp/82AC9339
+C2,.1uF,CL10B104KO8NNNC,Capacitor,CL10B104KO8NNNC,82AC9325,Newark,3,$0.104,,https://www.newark.com/samsung-electro-mechanics/cl10b104ko8nnnc/cap-0-1uf-16v-mlcc-0603/dp/82AC9325?st=CL10B104KO8NNNC
+C6,10nF,YAGEO CC0603KRX7R6BB103,Capacitor,CC0603KRX7R6BB103,26AK1887,Newark,3,$0.0029,,https://www.newark.com/yageo/cc0603krx7r6bb103/cap-0-01uf-10v-mlcc-0603-rohs/dp/26AK1887
+C7,100nF,"MULTICOMP PRO MCSH18B104K100CTSMD Multilayer Ceramic Capacitor, 0.1 µF, 10 V, 0603 [1608 Metric], ± 10%, X7R",Capacitor,MCSH18B104K100CT,23T7300,Newark,3,$0.004,,https://www.newark.com/multicomp-pro/mcsh18b104k100ct/cap-mlcc-x7r-0-1uf-10v-0603/dp/23T7300
+C8,4.7nF,TAIYO YUDEN LMF107B7473KAHT,Capacitor,LMF107B7473KAHT,41AH7063,Newark,3,$0.016,,https://www.newark.com/taiyo-yuden/lmf107b7473kaht/cap-aec-q200-0-047uf-10v-mlcc/dp/41AH7063
+C9,100uF,ESK107M025AE3EA,Capacitor,ESK107M025AE3EA,399-6650-1-ND,Newark,3,,,https://www.newark.com/kemet/esk107m025ae3ea/cap-100-f-25v-20/dp/48AC1674
+"Conn1,Conn2",AndersonPP,,,,,,4,,,
+"Conn3,Conn23",Molex_SL_04,"Molex SL	04-PCB Horizontal",SL Connectors,705530003,38C9957,Newark,4,$0.802,,https://www.newark.com/molex/70553-0003/connector-header-4pos-1row-2-54mm/dp/38C9957?ost=WM4902-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+"Conn4,Conn5,Conn6,Conn7,Conn8,Conn9,Conn10,Conn11,Conn12,Conn14,Conn21,Conn24,Conn28",Molex_SL_02,"Molex SL	02-PCB Horizontal",SL Connectors,705530001,59H2870,Newark,15,"	$0.492",,https://www.newark.com/molex/70553-0001/connector-header-2pos-1row-2-54mm/dp/59H2870?ost=WM4900-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+"Conn13,Conn15,Conn16,Conn17,Conn18,Conn19,Conn20,Conn29",Molex_SL_05,"Molex SL	05-PCB Horizontal",SL Connectors,705530004,24W9126,Newark,10,$0.661,,https://www.newark.com/molex/70553-0004/connector-header-5pos-1row-2-54mm/dp/24W9126?ost=WM4903-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+"Conn22,Conn25,Conn26,Conn27",Molex_SL_03,"Molex SL	03-PCB Horizontal",SL Connectors,705530002,59H2871,Newark,6,$0.922,,https://www.newark.com/molex/70553-0002/connector-header-3pos-1row-2-54mm/dp/59H2871?ost=WM4901-ND&iscrfnonsku=true&ddkey=https%3Aen-US%2FElement14_US%2Fsearch
+"D1,D2,D0",,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,,,5,,,
+"D1,D2,D1",,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,,,5,,,
+"D1,D2,D2",,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,,,5,,,
+,LED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,,,,5,,,
+"D4,D7,D8,D9,D10,D11,D12,D13",Blue,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,LTST-C191TBKT,160-1647-1-ND,Digikey,10,$0.26500,$2.65,https://www.digikey.com/en/products/detail/lite-on-inc/LTST-C191TBKT/388530
+"D5,D6",Orange,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,LED,LTST-C191KFKT,160-1445-1-ND,Digikey,4,$0.21000,,https://www.digikey.com/en/products/detail/liteon/LTST-C191KFKT/386833
+J1,RJ45_LED_Shielded,AMPHENOL COMMUNICATIONS SOLUTIONS RJE7318800440,Ethernet Port,RJE7318800440,93AH0352,Newark,3,$1.23,,https://www.newark.com/amphenol-icc/rje7318800440/rj45-connector-jack-8p8c-1-port/dp/93AH0352
+"Q1,Q5,Q6,Q7,Q8,Q9,Q10,Q11","T2N7002AK,LM",BSS138BK,N-CH MOSFET,"BSS138BK,215",61T7486,Newark,10,$0.374,,https://www.newark.com/nexperia/bss138bk/mosfet-n-channel-60v-0-36a-sot23/dp/61T7486?CMP=AFC-ECIA
+"Q2,Q3",BSS138,BSS138BK,N-CH MOSFET,"BSS138BK,216",61T7487,Newark,4,$0.374,,https://www.newark.com/nexperia/bss138bk/mosfet-n-channel-60v-0-36a-sot23/dp/61T7486?CMP=AFC-ECIA
+Q4,AO3401A,Package_TO_SOT_SMD:SOT-23,,,,,3,,,
+"R1,R33",2.2k,-- mixed values --,,,,,4,,,
+R2,330,,,,,,3,,,
+"R3,R29",620,-- mixed values --,,,,,4,,,
+"R4,R5,R6,R7,R8,R9,R10,R11,R12,R13",R,,,,,,12,,,
+"R14,R15",60,,,,,,4,,,
+"R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R30",4.7k,-- mixed values --,,,,,16,,,
+"R31,R32",10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,,,,4,,,
+"R34,R35,R36,R37,R38,R39,R40,R41",220,,,,,,10,,,
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10",SW_Push,,,,,,12,,,
+SW12,SW_SPDT,,,,,,3,,,
+"U1,U9,U10",PCF8574,,,,,,5,,,
+"U2,U3",OKI,,,,,,4,,,
+U4,ATA6561,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,,,3,,,
+U5,Teensy4.1_DEV-16771,MODULE_DEV-16771,,,,,3,,,
+U6,74HC00,Package_SO:SO-14_3.9x8.65mm_P1.27mm,,,,,3,,,
+"U7,U8",74LS148,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,,,,,4,,,
+"V1,V2,V3,V4",Via,MRDT_Drill_Holes:4_40_Hole,,,,,6,,,
