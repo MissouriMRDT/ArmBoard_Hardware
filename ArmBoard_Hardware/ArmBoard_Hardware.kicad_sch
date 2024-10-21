@@ -17016,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 173.99 125.73 0)
 			(effects
 				(font
@@ -19274,7 +19274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -19860,7 +19860,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:1P2T_Angled_Slide_GPI-152-3013"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 49.53 142.24 0)
 			(effects
 				(font
@@ -20739,7 +20739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 201.93 157.48 0)
 			(effects
 				(font
@@ -21210,7 +21210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -21551,7 +21551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -22084,7 +22084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -25219,7 +25219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 54.3052 64.77 0)
 			(effects
 				(font
@@ -25287,7 +25287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 173.99 157.48 0)
 			(effects
 				(font
@@ -27758,7 +27758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 459.74 283.21 0)
 			(effects
 				(font
@@ -29003,7 +29003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 91.44 157.48 0)
 			(effects
 				(font
@@ -29429,7 +29429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 100.33 228.6 0)
 			(effects
 				(font
@@ -30216,7 +30216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 459.74 226.06 0)
 			(effects
 				(font
@@ -31137,7 +31137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -31272,7 +31272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 459.74 162.56 0)
 			(effects
 				(font
@@ -34009,7 +34009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 55.88 228.6 0)
 			(effects
 				(font
@@ -34341,7 +34341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Switches:3P1T_Switch"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 120.65 125.73 0)
 			(effects
 				(font
