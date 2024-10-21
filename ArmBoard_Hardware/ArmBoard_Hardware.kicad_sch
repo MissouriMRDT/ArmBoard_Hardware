@@ -16882,7 +16882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 211.582 54.61 90)
 			(effects
 				(font
@@ -17016,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 173.99 125.73 0)
 			(effects
 				(font
@@ -17224,7 +17224,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 224.79 63.5 0)
 			(effects
 				(font
@@ -17555,7 +17555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 35.56 83.82 0)
 			(effects
 				(font
@@ -17698,7 +17698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 154.178 90)
 			(effects
 				(font
@@ -18029,7 +18029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 475.742 181.61 90)
 			(effects
 				(font
@@ -18098,7 +18098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 437.642 147.32 90)
 			(effects
 				(font
@@ -18430,7 +18430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 154.178 90)
 			(effects
 				(font
@@ -18566,7 +18566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 518.16 85.09 0)
 			(effects
 				(font
@@ -18766,7 +18766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 441.452 147.32 90)
 			(effects
 				(font
@@ -18901,7 +18901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 379.095 68.58 90)
 			(effects
 				(font
@@ -19002,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 147.32 122.428 90)
 			(effects
 				(font
@@ -19140,7 +19140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 122.428 90)
 			(effects
 				(font
@@ -19274,7 +19274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 120.65 157.48 0)
 			(effects
 				(font
@@ -19486,7 +19486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 344.17 262.89 0)
 			(effects
 				(font
@@ -19860,7 +19860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:1P2T_Angled_Slide_GPI-152-3013"
 			(at 49.53 142.24 0)
 			(effects
 				(font
@@ -20135,7 +20135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 82.55 388.62 0)
 			(effects
 				(font
@@ -20601,7 +20601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 122.428 90)
 			(effects
 				(font
@@ -20671,7 +20671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 213.36 63.5 0)
 			(effects
 				(font
@@ -20739,7 +20739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 201.93 157.48 0)
 			(effects
 				(font
@@ -20874,7 +20874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 270.51 318.77 0)
 			(effects
 				(font
@@ -21076,7 +21076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 44.45 359.41 0)
 			(effects
 				(font
@@ -21210,7 +21210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -21278,7 +21278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 120.65 154.178 90)
 			(effects
 				(font
@@ -21348,7 +21348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 311.912 307.34 90)
 			(effects
 				(font
@@ -21483,7 +21483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 488.442 181.61 90)
 			(effects
 				(font
@@ -21551,7 +21551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 91.44 125.73 0)
 			(effects
 				(font
@@ -21818,7 +21818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 492.252 224.79 90)
 			(effects
 				(font
@@ -22084,7 +22084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 201.93 125.73 0)
 			(effects
 				(font
@@ -22154,7 +22154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 215.9 394.97 0)
 			(effects
 				(font
@@ -22233,7 +22233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 168.91 377.19 0)
 			(effects
 				(font
@@ -22577,7 +22577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.99 122.428 90)
 			(effects
 				(font
@@ -22647,7 +22647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 44.45 373.38 0)
 			(effects
 				(font
@@ -22717,7 +22717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 82.55 359.41 0)
 			(effects
 				(font
@@ -22787,7 +22787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 44.45 388.62 0)
 			(effects
 				(font
@@ -22856,7 +22856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Devices:OKI_Horizontal"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -22995,7 +22995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 313.69 381 0)
 			(effects
 				(font
@@ -23197,7 +23197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 168.91 358.14 0)
 			(effects
 				(font
@@ -23340,7 +23340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 173.99 154.178 90)
 			(effects
 				(font
@@ -23540,7 +23540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1"
 			(at 358.14 115.57 0)
 			(effects
 				(font
@@ -23976,7 +23976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 215.9 358.14 0)
 			(effects
 				(font
@@ -24161,7 +24161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 344.17 241.3 0)
 			(effects
 				(font
@@ -24303,7 +24303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 353.822 369.57 90)
 			(effects
 				(font
@@ -24580,7 +24580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 82.55 403.86 0)
 			(effects
 				(font
@@ -24782,7 +24782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 82.55 373.38 0)
 			(effects
 				(font
@@ -24852,7 +24852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 44.45 345.44 0)
 			(effects
 				(font
@@ -25219,7 +25219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x9.9"
 			(at 54.3052 64.77 0)
 			(effects
 				(font
@@ -25287,7 +25287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 173.99 157.48 0)
 			(effects
 				(font
@@ -25355,7 +25355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 			(at 35.56 71.12 0)
 			(effects
 				(font
@@ -25701,7 +25701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 396.24 318.77 0)
 			(effects
 				(font
@@ -26047,7 +26047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 44.45 403.86 0)
 			(effects
 				(font
@@ -26183,7 +26183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 389.89 262.89 0)
 			(effects
 				(font
@@ -26322,7 +26322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 483.362 86.36 90)
 			(effects
 				(font
@@ -26524,7 +26524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 313.69 318.77 0)
 			(effects
 				(font
@@ -26726,7 +26726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 236.22 63.5 0)
 			(effects
 				(font
@@ -26939,7 +26939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 389.89 214.63 0)
 			(effects
 				(font
@@ -27143,7 +27143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 396.24 381 0)
 			(effects
 				(font
@@ -27211,7 +27211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.93 154.178 90)
 			(effects
 				(font
@@ -27482,7 +27482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 478.282 181.61 90)
 			(effects
 				(font
@@ -27552,7 +27552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 394.462 307.34 90)
 			(effects
 				(font
@@ -27622,7 +27622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 82.55 345.44 0)
 			(effects
 				(font
@@ -27758,7 +27758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
 			(at 459.74 283.21 0)
 			(effects
 				(font
@@ -27936,7 +27936,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 270.51 381 0)
 			(effects
 				(font
@@ -28213,7 +28213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 268.732 369.57 90)
 			(effects
 				(font
@@ -28417,7 +28417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 480.822 181.61 90)
 			(effects
 				(font
@@ -28485,7 +28485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.93 122.428 90)
 			(effects
 				(font
@@ -28691,7 +28691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 389.89 240.03 0)
 			(effects
 				(font
@@ -28869,7 +28869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 485.902 181.61 90)
 			(effects
 				(font
@@ -29003,7 +29003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 91.44 157.48 0)
 			(effects
 				(font
@@ -29072,7 +29072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 488.442 224.79 90)
 			(effects
 				(font
@@ -29295,7 +29295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 353.822 307.34 90)
 			(effects
 				(font
@@ -29738,7 +29738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.442 54.61 90)
 			(effects
 				(font
@@ -29808,7 +29808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 168.91 337.82 0)
 			(effects
 				(font
@@ -30216,7 +30216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
 			(at 459.74 226.06 0)
 			(effects
 				(font
@@ -30605,7 +30605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 493.522 181.61 90)
 			(effects
 				(font
@@ -31137,7 +31137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -31272,7 +31272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_ICs:SOIC_16_3.9x9.9mm_Pitch1.27mm"
 			(at 459.74 162.56 0)
 			(effects
 				(font
@@ -31952,7 +31952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 268.732 307.34 90)
 			(effects
 				(font
@@ -32022,7 +32022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
 			(at 344.17 217.17 0)
 			(effects
 				(font
@@ -32098,7 +32098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 311.912 369.57 90)
 			(effects
 				(font
@@ -32168,7 +32168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 215.9 377.19 0)
 			(effects
 				(font
@@ -32311,7 +32311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Devices:OKI_Horizontal"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -32450,7 +32450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 483.362 74.93 90)
 			(effects
 				(font
@@ -32873,7 +32873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 168.91 394.97 0)
 			(effects
 				(font
@@ -33083,7 +33083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.012 54.61 90)
 			(effects
 				(font
@@ -33153,7 +33153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 394.462 369.57 90)
 			(effects
 				(font
@@ -33288,7 +33288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 483.362 181.61 90)
 			(effects
 				(font
@@ -33489,7 +33489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 490.982 181.61 90)
 			(effects
 				(font
@@ -33624,7 +33624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_05_Vertical"
 			(at 214.63 337.82 0)
 			(effects
 				(font
@@ -33875,7 +33875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 355.6 381 0)
 			(effects
 				(font
@@ -34273,7 +34273,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 355.6 318.77 0)
 			(effects
 				(font
@@ -34341,7 +34341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Switches:3P1T_Switch"
 			(at 120.65 125.73 0)
 			(effects
 				(font
