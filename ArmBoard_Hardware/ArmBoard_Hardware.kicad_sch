@@ -23540,7 +23540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Shields:Teensy_4_1"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 358.14 115.57 0)
 			(effects
 				(font
