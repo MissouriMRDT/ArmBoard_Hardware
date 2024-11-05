@@ -1,4 +1,4 @@
-24252224871811557
+24274376647471317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65254,6 +65254,13 @@ OKI
 3
 3
 MRDT_Devices
+PKE3311PI_Through_Hole
+
+
+0
+6
+6
+MRDT_Devices
 PKE3316ZPI
 
 
@@ -66373,6 +66380,13 @@ MRDT_Switches
 0
 6
 6
+MRDT_Switches
+SW_Switch_03_STSSS9121_Through_Hole
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -82117,6 +82131,13 @@ ST PowerSSO-36 1EP 7.5x10.3mm Pitch 0.8mm
 36
 36
 Package_SO
+ST_PowerSSO-36_TP
+
+
+0
+39
+39
+Package_SO
 TI_SO-PowerPAD-8
 8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)
 SSOP 0.50 exposed pad
@@ -91202,6 +91223,62 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+Signatures
+ChamberUlt
+
+
+0
+0
+0
+Signatures
+FireInTheHole
+
+
+0
+0
+0
+Signatures
+Jumpscare
+
+
+0
+0
+0
+Signatures
+WillFace
+
+
+0
+0
+0
+Signatures
+WillGroveFaceTiny
+
+
+0
+0
+0
+Signatures
+WillGroveSignature
+
+
+0
+0
+0
+Signatures
+WillGroveSignatureMedium
+
+
+0
+0
+0
+Signatures
+WillGroveSignatureTiny
+
+
+0
+0
+0
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
