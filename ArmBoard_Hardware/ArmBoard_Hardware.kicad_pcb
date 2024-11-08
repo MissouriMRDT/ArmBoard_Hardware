@@ -783,7 +783,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "03972b00-586b-4676-a8cf-114bf23384b6")
-		(at 116.2755 61.976)
+		(at 109.1965 50.734)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R36"
@@ -996,7 +996,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "08f1c87e-9b64-4609-9f47-c3c82089f52b")
-		(at 75.648 61.952)
+		(at 64.218 71.858)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW5"
@@ -3218,7 +3218,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0cf731ae-00ca-4cd1-810d-f170ab5d539c")
-		(at 68.79 70.31 -90)
+		(at 57.36 80.216 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -3431,7 +3431,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "0d4c7c62-0df1-4627-b211-029dfabf845f")
-		(at 116.451 48.3635)
+		(at 109.372 37.1215)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q12"
@@ -4411,7 +4411,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "14ad8d6f-6fec-4046-9785-78ce8e41af88")
-		(at 109.3955 65.786 180)
+		(at 102.3165 54.544 180)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q9"
@@ -5675,7 +5675,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "15715f82-dcf9-4418-87b2-767fe2d85628")
-		(at 109.2925 189.738)
+		(at 112.3113 155.3718)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
@@ -5977,7 +5977,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "18088964-5e8a-4703-b4ef-dcb40c4accd5")
-		(at 117.0921 192.913 180)
+		(at 120.1109 158.5468 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
@@ -6670,7 +6670,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "20cb85d5-0802-467b-92fb-b5f3c0ad7938")
-		(at 109.579 70.932 180)
+		(at 102.5 59.69 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
@@ -6883,7 +6883,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "239c6e2e-7901-4284-9294-56cf4d89e81c")
-		(at 120.5605 57.009 90)
+		(at 113.4815 45.767 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D7"
@@ -7317,7 +7317,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "265c882d-16cb-48fa-8f08-dca3c04a8acc")
-		(at 116.481 53.086)
+		(at 109.402 41.844)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R35"
@@ -7530,7 +7530,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2a08944f-04c4-4af4-a0c1-9733c6dffbc4")
-		(at 105.9195 65.899 90)
+		(at 98.8405 54.657 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D12"
@@ -7765,7 +7765,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "2c873a58-8b0f-47be-86da-eec860b97356")
-		(at 108.966 116.586 90)
+		(at 101.346 101.6 90)
 		(property "Reference" "Conn7"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -8436,7 +8436,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "34da416c-68de-4317-adf0-dc45f9f5696d")
-		(at 85.896 53.618)
+		(at 74.466 63.524)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW4"
@@ -9110,7 +9110,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3b116c34-52c9-41fb-9713-ce8e2c153ebd")
-		(at 120.515 65.899 90)
+		(at 113.436 54.657 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D8"
@@ -9581,7 +9581,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole"
 		(layer "F.Cu")
 		(uuid "4190797e-18c5-4c41-8d30-9b394c55ab1b")
-		(at 125.73 193.294)
+		(at 124.46 194.564)
 		(property "Reference" "V3"
 			(at -0.00508 0.50508 0)
 			(layer "F.SilkS")
@@ -9883,7 +9883,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "426a1e7d-25a9-4ecc-a2d7-cb9b74c21d95")
-		(at 116.2755 70.866)
+		(at 109.1965 59.624)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R37"
@@ -10096,7 +10096,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "44f9d777-17ce-4191-9d70-d91d6bcdc7ed")
-		(at 114.046 167.386)
+		(at 98.376 150.495)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
@@ -10959,7 +10959,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "47e76007-1a2b-47fc-b26d-b91337e4802d")
-		(at 117.0921 189.865 180)
+		(at 120.1109 155.4988 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
@@ -11172,7 +11172,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "4c3ac600-fb24-45e8-b497-ba290d0bb522")
-		(at 116.354 74.9115)
+		(at 109.275 63.6695)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q6"
@@ -11439,7 +11439,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "4c9647a2-966e-4eb5-8648-2bdb5ea424e4")
-		(at 109.3955 48.26 180)
+		(at 102.3165 37.018 180)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q7"
@@ -12568,7 +12568,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5f67f029-fd6b-42ca-999c-3fe988cf6501")
-		(at 109.579 61.976 180)
+		(at 102.5 50.734 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R40"
@@ -12781,7 +12781,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "61a18065-3636-4e39-97f6-3940b1c6963c")
-		(at 117.1213 184.0484)
+		(at 120.1401 149.6822)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
@@ -12994,7 +12994,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "61e3e96b-9ba9-42b9-814b-721b2313e811")
-		(at 91.694 78.74 -90)
+		(at 80.264 88.646 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
@@ -13207,7 +13207,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "62e0044c-2e2e-4ed6-a9f4-8e0fa691f72a")
-		(at 109.3235 184.15)
+		(at 112.3423 149.7838)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R24"
@@ -14214,7 +14214,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "696d5bb7-e0a1-4044-bc6b-01bed2e362dd")
-		(at 92.5 53.872 -90)
+		(at 81.07 63.778 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -14596,7 +14596,7 @@
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 		(layer "F.Cu")
 		(uuid "6c818f3b-fb61-4dbb-8a7d-d6f2b71fee92")
-		(at 59.436 72.708 -90)
+		(at 48.006 82.614 -90)
 		(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
 		(property "Reference" "SW12"
@@ -15114,7 +15114,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "6df2bef7-f932-4963-9728-169ff724d994")
-		(at 75.648 46.204)
+		(at 64.218 56.11)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW1"
@@ -15575,7 +15575,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "6e0204bb-4a77-44d2-89ec-a6a8805f509a")
-		(at 117.856 97.3455 -90)
+		(at 110.236 82.3595 -90)
 		(property "Reference" "Conn8"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -16011,7 +16011,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "70ccaf41-dab0-4f13-81ab-63bbd8e7d11b")
-		(at 117.0921 195.961 180)
+		(at 120.1109 161.5948 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
@@ -16938,7 +16938,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "76adb774-2242-44b3-ad05-b6afc922a2b3")
-		(at 117.602 114.1095 -90)
+		(at 109.982 99.1235 -90)
 		(property "Reference" "Conn4"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -17107,7 +17107,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "779eeb98-4a1c-4a69-a64a-1cc5859d4ecd")
-		(at 117.2737 181.1782)
+		(at 120.2925 146.812)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
@@ -17945,7 +17945,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "865c9d23-aa47-49c4-b283-e7b4e5bb0b43")
-		(at 75.394 78.208)
+		(at 63.964 88.114)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW9"
@@ -18406,7 +18406,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "867c85a0-8092-419d-a736-ae8359ef7021")
-		(at 92.456 46.5855 -90)
+		(at 81.026 56.4915 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -18619,7 +18619,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "874eb21f-92ec-4ccb-bafd-4ebbf956c554")
-		(at 120.515 75.0245 90)
+		(at 113.436 63.7825 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D9"
@@ -18854,7 +18854,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8a5c38c5-bd69-48da-ae06-972080212581")
-		(at 109.396 181.229)
+		(at 112.4148 146.8628)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R25"
@@ -19465,7 +19465,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8f69c4a5-90ce-4ef6-81ba-29887e4e9796")
-		(at 109.579 44.196 180)
+		(at 102.5 32.954 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R38"
@@ -19678,7 +19678,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "91f91c41-206a-479e-b951-9946e87ff684")
-		(at 117.0921 186.817 180)
+		(at 120.1109 152.4508 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
@@ -19891,7 +19891,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "952ced68-7e98-4276-be94-54036a67326f")
-		(at 92.5 70.358 -90)
+		(at 81.07 80.264 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -20104,7 +20104,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "9c743535-d338-403f-862b-c980bde84511")
-		(at 114.046 140.716)
+		(at 98.376 123.825)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U10"
@@ -20541,7 +20541,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "9e6912a9-3840-4d87-943f-2cde3d9a1a96")
-		(at 85.852 78.232)
+		(at 74.422 88.138)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW10"
@@ -21002,7 +21002,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "a3350ccc-76bb-4f4f-bbe1-f82ce02924ce")
-		(at 116.3995 56.8775)
+		(at 109.3205 45.6355)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
@@ -21468,7 +21468,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "a383c943-f213-44b9-bd7d-d773cc576ff9")
-		(at 108.966 99.822 90)
+		(at 101.346 84.836 90)
 		(property "Reference" "Conn9"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -21637,7 +21637,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "a43a7f98-5751-4d45-9de8-91c3a60c44b6")
-		(at 109.3955 56.896 180)
+		(at 102.3165 45.654 180)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q8"
@@ -22117,7 +22117,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a8a3f027-9023-47fe-89ce-c76a389a3741")
-		(at 106.015 48.119 90)
+		(at 98.936 36.877 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D10"
@@ -22352,7 +22352,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "aaa66452-77ad-4290-8561-dcaf24f5642c")
-		(at 75.648 53.57)
+		(at 64.218 63.476)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW3"
@@ -22813,7 +22813,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "ab7cfc41-33ec-49cd-ad80-a615c29ee910")
-		(at 108.966 108.204 90)
+		(at 101.346 93.218 90)
 		(property "Reference" "Conn5"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -22982,7 +22982,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ab94673a-ebb4-4a33-a758-897e8dd54a58")
-		(at 68.79 62.206 -90)
+		(at 57.36 72.112 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -23195,7 +23195,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "ac6a4020-a7e8-481f-a9c7-662d9b764d72")
-		(at 108.966 124.968 90)
+		(at 101.346 109.982 90)
 		(property "Reference" "Conn10"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -23364,7 +23364,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b07480f4-2029-48ea-ac69-3b9555c0cee2")
-		(at 106.015 57.103 90)
+		(at 98.936 45.861 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D11"
@@ -23599,7 +23599,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "b0e22c6e-9d30-4bf3-b53a-e51448216bfa")
-		(at 114.046 154.051)
+		(at 98.376 137.16)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U9"
@@ -24036,7 +24036,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b2a403de-2e8d-4f1e-8a12-8f9cbb8162b3")
-		(at 92.5 62.3335 -90)
+		(at 81.07 72.2395 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -24249,7 +24249,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b2d5da88-837a-4476-9504-7ac5e168c2a2")
-		(at 105.9365 74.855 90)
+		(at 98.8575 63.613 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D13"
@@ -25114,7 +25114,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "b93242b9-6d8f-4de7-9eb9-c26038c6bcf4")
-		(at 108.966 91.44 90)
+		(at 101.346 76.454 90)
 		(property "Reference" "Conn14"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -25283,7 +25283,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "bb9d944d-baaa-4e02-860f-eb171b1d7c83")
-		(at 117.602 122.4915 -90)
+		(at 109.982 107.5055 -90)
 		(property "Reference" "Conn12"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -25452,7 +25452,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "be1a32a5-c5c0-4f5c-a8ef-073e6bc4c06c")
-		(at 105.586 156.337 90)
+		(at 89.916 139.446 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
@@ -25665,7 +25665,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c34d18f6-88a3-40c6-bd16-519a2c2a3106")
-		(at 68.79 78.5415 -90)
+		(at 57.36 88.4475 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -26091,7 +26091,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cb52d9aa-e58f-4b43-b840-46d777203555")
-		(at 120.5935 48.2505 90)
+		(at 113.5145 37.0085 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
@@ -26326,7 +26326,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cfd17b6b-25a6-4230-a99a-5979297f469b")
-		(at 68.79 53.824 -90)
+		(at 57.36 63.73 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -26752,7 +26752,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "d283b21c-fec7-4dae-92b1-1d4d38c824dd")
-		(at 85.852 70.104)
+		(at 74.422 80.01)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW8"
@@ -27213,7 +27213,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "d89d9d8b-d687-4324-942f-1901a1b64a09")
-		(at 117.729 88.9635 -90)
+		(at 110.109 73.9775 -90)
 		(property "Reference" "Conn11"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -27581,7 +27581,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "db5ae1c3-f0c4-49ef-9450-85bb0fca235f")
-		(at 85.896 62)
+		(at 74.466 71.906)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW6"
@@ -28042,7 +28042,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dd19fbb1-7a01-4f08-a5ab-f5aa5407dfa8")
-		(at 109.3235 186.944)
+		(at 112.3423 152.5778)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
@@ -28647,7 +28647,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dfecad87-8763-492a-af2e-4674d7c1d5b3")
-		(at 116.4825 44.196)
+		(at 109.4035 32.954)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R34"
@@ -28860,7 +28860,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e5d398e6-8d88-4434-8560-ef184d424c5a")
-		(at 105.586 152.781 90)
+		(at 89.916 135.89 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R27"
@@ -29073,7 +29073,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole"
 		(layer "F.Cu")
 		(uuid "e9868c4b-e74b-484a-ba99-39d2c568f877")
-		(at 129.794 4.318)
+		(at 124.968 5.08)
 		(property "Reference" "V1"
 			(at -0.00508 0.50508 0)
 			(layer "F.SilkS")
@@ -29361,7 +29361,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "eac7d20e-b26f-4f0a-a514-8df875f89707")
-		(at 109.579 53.152 180)
+		(at 102.5 41.91 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R39"
@@ -29574,7 +29574,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "eb215fbf-42b9-4e2a-88d0-32a0c6ae670d")
-		(at 85.896 46.252)
+		(at 74.466 56.158)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW2"
@@ -30035,7 +30035,7 @@
 	(footprint "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "ec78365e-da02-4104-9266-ff8b801609a5")
-		(at 35.687 83.234 90)
+		(at 21.844 51.816 90)
 		(descr "SO, 14 Pin (https://www.st.com/resource/en/datasheet/l6491.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SO SO")
 		(property "Reference" "U6"
@@ -30400,7 +30400,7 @@
 	(footprint "MRDT_Connectors:MOLEX_SL_02_Vertical"
 		(layer "F.Cu")
 		(uuid "f1976e87-49ec-4a71-9956-6eb767a4cbf3")
-		(at 117.602 105.7275 -90)
+		(at 109.982 90.7415 -90)
 		(property "Reference" "Conn6"
 			(at -0.635 3.429 90)
 			(layer "F.SilkS")
@@ -30569,7 +30569,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "f1b01421-389c-4e17-93a0-d273cacf47bf")
-		(at 36.449 71.804 90)
+		(at 22.606 40.386 90)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U8"
@@ -31185,7 +31185,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "f6620c81-bd00-4aab-9451-7fc158b76da0")
-		(at 109.5525 74.742 180)
+		(at 102.4735 63.5 180)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q10"
@@ -31452,7 +31452,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "f9981dae-3528-406f-b966-67688204db62")
-		(at 116.354 65.72)
+		(at 109.275 54.478)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
@@ -31719,7 +31719,7 @@
 	(footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "fb07e832-60c8-4435-aba4-86152eb77512")
-		(at 35.941 94.918 90)
+		(at 22.098 63.5 90)
 		(descr "SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U7"
@@ -32156,7 +32156,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_TL3305A"
 		(layer "F.Cu")
 		(uuid "fbe36418-07ec-4c82-94ab-57df883c45bf")
-		(at 75.648 70.056)
+		(at 64.218 79.962)
 		(descr "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf")
 		(tags "TL3305 Series Tact Switch")
 		(property "Reference" "SW7"
@@ -32816,7 +32816,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ff3c86fc-920d-4eb5-b528-5e01fd6f68b8")
-		(at 68.79 46.458 -90)
+		(at 57.36 56.364 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
@@ -33029,7 +33029,7 @@
 	(footprint "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
 		(layer "B.Cu")
 		(uuid "5418ecf0-e4ce-4f44-a64a-10de9e3f9552")
-		(at 38.269 179.2682 90)
+		(at 38.777 179.2682 90)
 		(property "Reference" "Conn2"
 			(at -5.9 -13.4 90)
 			(layer "B.SilkS")
@@ -33425,40 +33425,40 @@
 		(uuid "cd180eb3-c644-4c5f-8d8e-b746aea0ce21")
 	)
 	(segment
-		(start 70.9015 50.8)
-		(end 90.3405 50.8)
+		(start 59.4715 60.706)
+		(end 78.9105 60.706)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "022a03d9-cb7a-4864-bd08-e5f22baec59c")
 	)
 	(segment
-		(start 90.3405 50.8)
-		(end 92.5 52.9595)
+		(start 78.9105 60.706)
+		(end 81.07 62.8655)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "0c1c710e-74b0-4879-8cc4-e0cb15a7a23b")
 	)
 	(segment
-		(start 89.963 43.18)
-		(end 92.456 45.673)
+		(start 78.533 53.086)
+		(end 81.026 55.579)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "1111db8b-d069-4e63-9f1e-973f7aac56fd")
 	)
 	(segment
-		(start 68.79 61.2935)
-		(end 70.9015 59.182)
+		(start 57.36 71.1995)
+		(end 59.4715 69.088)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "1408bfb5-e003-4cee-8f00-e989cef6efb1")
 	)
 	(segment
-		(start 110.4915 61.976)
-		(end 115.363 61.976)
+		(start 103.4125 50.734)
+		(end 108.284 50.734)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33473,8 +33473,8 @@
 		(uuid "28efacaf-aaf6-4cdb-b8bd-8677e963b4ac")
 	)
 	(segment
-		(start 68.79 52.9115)
-		(end 70.9015 50.8)
+		(start 57.36 62.8175)
+		(end 59.4715 60.706)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33489,8 +33489,8 @@
 		(uuid "4118155b-b92b-4411-89c8-e2022cdadfe4")
 	)
 	(segment
-		(start 108.371001 137.541)
-		(end 102.935401 142.9766)
+		(start 92.701001 120.65)
+		(end 87.265401 126.0856)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33505,16 +33505,16 @@
 		(uuid "5165b45b-3216-42e2-aa00-d25a1fb356a5")
 	)
 	(segment
-		(start 71.1555 43.18)
-		(end 89.963 43.18)
+		(start 59.7255 53.086)
+		(end 78.533 53.086)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "647b5952-6c07-41ff-84fd-97b3c98db9e6")
 	)
 	(segment
-		(start 110.4915 44.196)
-		(end 115.57 44.196)
+		(start 103.4125 32.954)
+		(end 108.491 32.954)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33529,16 +33529,16 @@
 		(uuid "6b09f931-2612-4f43-a2d0-c76c4f011fa6")
 	)
 	(segment
-		(start 68.79 45.5455)
-		(end 71.1555 43.18)
+		(start 57.36 55.4515)
+		(end 59.7255 53.086)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "6c565f5d-13ae-4ce8-9824-ea226dad7b86")
 	)
 	(segment
-		(start 35.814 67.154)
-		(end 35.814 66.597)
+		(start 21.971 35.736)
+		(end 21.971 35.179)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33553,64 +33553,64 @@
 		(uuid "79bc71e3-5d2d-4279-a381-291652f3b5bb")
 	)
 	(segment
-		(start 109.396 137.541)
-		(end 108.371001 137.541)
+		(start 93.726 120.65)
+		(end 92.701001 120.65)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "8978485e-b8b7-4581-85fc-6d4399ac5888")
 	)
 	(segment
-		(start 92.594 52.9595)
-		(end 95.09 55.4555)
+		(start 81.164 62.8655)
+		(end 83.66 65.3615)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "8ae745f0-e091-439d-ac17-3cc68cabcf69")
 	)
 	(segment
-		(start 92.757 61.421)
-		(end 95.09 63.754)
+		(start 81.327 71.327)
+		(end 83.66 73.66)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "a512034f-11e3-415e-8dbc-137b9313bf5e")
 	)
 	(segment
-		(start 92.55 45.673)
-		(end 95.09 48.213)
+		(start 81.12 55.579)
+		(end 83.66 58.119)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "ae12277d-0495-478d-bdfa-4434d99a04b9")
 	)
 	(segment
-		(start 108.966 116.586)
-		(end 113.538 121.158)
+		(start 101.346 101.6)
+		(end 105.918 106.172)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "b3b8b969-c018-4acd-aef6-ca91f1491ed5")
 	)
 	(segment
-		(start 70.9015 59.182)
-		(end 90.261 59.182)
+		(start 59.4715 69.088)
+		(end 78.831 69.088)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "bbec698a-2a05-4b20-9866-0cc963b58d93")
 	)
 	(segment
-		(start 110.4915 53.152)
-		(end 115.5025 53.152)
+		(start 103.4125 41.91)
+		(end 108.4235 41.91)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "c375e6a5-6bf6-4945-833b-f3b84c3f7c31")
 	)
 	(segment
-		(start 115.5025 53.152)
-		(end 115.5685 53.086)
+		(start 108.4235 41.91)
+		(end 108.4895 41.844)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33625,16 +33625,16 @@
 		(uuid "e6e1077f-b625-46ce-b798-3f6b6ba4bdd2")
 	)
 	(segment
-		(start 90.261 59.182)
-		(end 92.5 61.421)
+		(start 78.831 69.088)
+		(end 81.07 71.327)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "e8bed87f-f7e8-41d9-bf2a-90e5d0bf2bc8")
 	)
 	(segment
-		(start 92.594 61.421)
-		(end 92.757 61.421)
+		(start 81.164 71.327)
+		(end 81.327 71.327)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
@@ -33673,55 +33673,55 @@
 		(uuid "7f915a58-e581-4cac-9975-a273c93c32e9")
 	)
 	(segment
-		(start 105.8635 153.416)
-		(end 105.586 153.6935)
+		(start 90.1935 136.525)
+		(end 89.916 136.8025)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 17)
 		(uuid "18ab4ff1-e551-474b-942f-71bfcef12a5a")
 	)
 	(segment
-		(start 109.396 153.416)
-		(end 105.8635 153.416)
+		(start 93.726 136.525)
+		(end 90.1935 136.525)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 17)
 		(uuid "bb21ec86-ab99-46ec-be20-39531d7d9a27")
 	)
 	(segment
-		(start 108.1495 154.686)
-		(end 105.586 157.2495)
+		(start 92.4795 137.795)
+		(end 89.916 140.3585)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 23)
 		(uuid "7d2d748f-dc68-4276-b371-64372c51fb22")
 	)
 	(segment
-		(start 109.396 154.686)
-		(end 108.1495 154.686)
+		(start 93.726 137.795)
+		(end 92.4795 137.795)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 23)
 		(uuid "f4de23de-2900-428c-a627-5e55ab82da6e")
 	)
 	(segment
-		(start 118.696 157.226)
-		(end 119.888 157.226)
+		(start 103.026 140.335)
+		(end 104.218 140.335)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 25)
 		(uuid "1015a8a5-5a0f-493f-ab54-32f363b3d996")
 	)
 	(segment
-		(start 119.888 157.226)
-		(end 120.396 156.718)
+		(start 104.218 140.335)
+		(end 104.726 139.827)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 25)
 		(uuid "40889c04-0e1f-4072-bccd-04e8a711f7c8")
 	)
 	(via
-		(at 120.396 156.718)
+		(at 104.726 139.827)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -33801,32 +33801,32 @@
 		(uuid "81465007-5e8a-4988-bea4-27c47371bd4e")
 	)
 	(segment
-		(start 117.3885 48.3635)
-		(end 119.8315 48.3635)
+		(start 110.3095 37.1215)
+		(end 112.7525 37.1215)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 64)
 		(uuid "f315a4d1-0737-4c6a-bae6-2798651e2a16")
 	)
 	(segment
-		(start 119.8315 48.3635)
-		(end 120.5935 49.1255)
+		(start 112.7525 37.1215)
+		(end 113.5145 37.8835)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 64)
 		(uuid "f8d46fa6-2c78-42f5-8f4a-d0e09e525493")
 	)
 	(segment
-		(start 120.5935 47.3755)
-		(end 117.414 44.196)
+		(start 113.5145 36.1335)
+		(end 110.335 32.954)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 65)
 		(uuid "83e50ac3-d3cb-47a6-859b-bf28f36db02e")
 	)
 	(segment
-		(start 117.414 44.196)
-		(end 117.395 44.196)
+		(start 110.335 32.954)
+		(end 110.316 32.954)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 65)
@@ -33873,224 +33873,224 @@
 		(uuid "b5a9abf2-551c-438f-9314-1326e57ae795")
 	)
 	(segment
-		(start 119.554 56.8775)
-		(end 120.5605 57.884)
+		(start 112.475 45.6355)
+		(end 113.4815 46.642)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "0c0c78e0-a2a5-46f4-882d-19103020f6bb")
 	)
 	(segment
-		(start 117.337 56.8775)
-		(end 119.554 56.8775)
+		(start 110.258 45.6355)
+		(end 112.475 45.6355)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 68)
 		(uuid "fe1907c2-a9c4-4720-abc2-29019e5222ab")
 	)
 	(segment
-		(start 117.3935 53.086)
-		(end 117.5125 53.086)
+		(start 110.3145 41.844)
+		(end 110.4335 41.844)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 69)
 		(uuid "6075e5cf-49b5-481c-a6a4-3c44ea34ce9b")
 	)
 	(segment
-		(start 117.5125 53.086)
-		(end 120.5605 56.134)
+		(start 110.4335 41.844)
+		(end 113.4815 44.892)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 69)
 		(uuid "7026a879-c272-431b-95f3-d5801e4f46ec")
 	)
 	(segment
-		(start 117.2915 65.72)
-		(end 119.461 65.72)
+		(start 110.2125 54.478)
+		(end 112.382 54.478)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 70)
 		(uuid "554d7938-5023-4c3f-b352-1ea3e4c12210")
 	)
 	(segment
-		(start 119.461 65.72)
-		(end 120.515 66.774)
+		(start 112.382 54.478)
+		(end 113.436 55.532)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 70)
 		(uuid "85a21d48-9d5b-400d-b0ce-8ebc8182c913")
 	)
 	(segment
-		(start 117.467 61.976)
-		(end 120.515 65.024)
+		(start 110.388 50.734)
+		(end 113.436 53.782)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "0be7fd85-20d0-4aa8-990d-6b50fe5c3e46")
 	)
 	(segment
-		(start 117.188 61.976)
-		(end 117.467 61.976)
+		(start 110.109 50.734)
+		(end 110.388 50.734)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 71)
 		(uuid "c6fbbfd3-fab0-42be-a38c-d314674764f7")
 	)
 	(segment
-		(start 119.527 74.9115)
-		(end 120.515 75.8995)
+		(start 112.448 63.6695)
+		(end 113.436 64.6575)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "c6a8998c-5ccd-4f90-b071-fc93d8b6dc44")
 	)
 	(segment
-		(start 117.2915 74.9115)
-		(end 119.527 74.9115)
+		(start 110.2125 63.6695)
+		(end 112.448 63.6695)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 72)
 		(uuid "f1c1926e-7131-4a13-9caa-027e520ce635")
 	)
 	(segment
-		(start 117.2315 70.866)
-		(end 120.515 74.1495)
+		(start 110.1525 59.624)
+		(end 113.436 62.9075)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 73)
 		(uuid "98c5e7c1-73cb-4767-b692-fdb8e3ac1b23")
 	)
 	(segment
-		(start 117.188 70.866)
-		(end 117.2315 70.866)
+		(start 110.109 59.624)
+		(end 110.1525 59.624)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 73)
 		(uuid "c7f5edba-249b-446b-a6f1-b24d4a20a425")
 	)
 	(segment
-		(start 106.749 48.26)
-		(end 106.015 48.994)
+		(start 99.67 37.018)
+		(end 98.936 37.752)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 74)
 		(uuid "29affa57-9b2d-44c3-9036-befaa487c789")
 	)
 	(segment
-		(start 108.458 48.26)
-		(end 106.749 48.26)
+		(start 101.379 37.018)
+		(end 99.67 37.018)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 74)
 		(uuid "993ab30c-dc38-4067-a59d-156c5020d01c")
 	)
 	(segment
-		(start 108.6665 44.5925)
-		(end 108.6665 44.196)
+		(start 101.5875 33.3505)
+		(end 101.5875 32.954)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 75)
 		(uuid "25a874b6-a5f4-4ee7-aa06-732b67990a85")
 	)
 	(segment
-		(start 106.015 47.244)
-		(end 108.6665 44.5925)
+		(start 98.936 36.002)
+		(end 101.5875 33.3505)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 75)
 		(uuid "ec73080b-caa3-45ac-ad2c-19567a6a03ed")
 	)
 	(segment
-		(start 108.6665 53.5765)
-		(end 108.6665 53.152)
+		(start 101.5875 42.3345)
+		(end 101.5875 41.91)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "42d4810a-e502-461f-8d08-8d3714a3c773")
 	)
 	(segment
-		(start 106.015 56.228)
-		(end 108.6665 53.5765)
+		(start 98.936 44.986)
+		(end 101.5875 42.3345)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 76)
 		(uuid "89831568-c476-4e90-a276-c70efe1575dc")
 	)
 	(segment
-		(start 108.458 56.896)
-		(end 107.097 56.896)
+		(start 101.379 45.654)
+		(end 100.018 45.654)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "407b3056-79f5-427d-85fc-7016728536dc")
 	)
 	(segment
-		(start 107.097 56.896)
-		(end 106.015 57.978)
+		(start 100.018 45.654)
+		(end 98.936 46.736)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 77)
 		(uuid "6a171320-f945-4a38-93c9-25cce9ac5488")
 	)
 	(segment
-		(start 108.6665 62.277)
-		(end 108.6665 61.976)
+		(start 101.5875 51.035)
+		(end 101.5875 50.734)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 78)
 		(uuid "33734498-5fc5-4f60-b46a-bfd8b5d080a3")
 	)
 	(segment
-		(start 105.9195 65.024)
-		(end 108.6665 62.277)
+		(start 98.8405 53.782)
+		(end 101.5875 51.035)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 78)
 		(uuid "ad8cca87-a8ba-4f45-923f-2b2285e323fd")
 	)
 	(segment
-		(start 108.458 65.786)
-		(end 106.9075 65.786)
+		(start 101.379 54.544)
+		(end 99.8285 54.544)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 79)
 		(uuid "4ac69204-03f6-4770-a1d5-e8863e374362")
 	)
 	(segment
-		(start 106.9075 65.786)
-		(end 105.9195 66.774)
+		(start 99.8285 54.544)
+		(end 98.8405 55.532)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 79)
 		(uuid "9b67fe32-212c-40a5-abce-f381af0cbba2")
 	)
 	(segment
-		(start 106.9245 74.742)
-		(end 105.9365 75.73)
+		(start 99.8455 63.5)
+		(end 98.8575 64.488)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 80)
 		(uuid "53577373-c113-4fdf-aa65-d5a3f9310c23")
 	)
 	(segment
-		(start 108.615 74.742)
-		(end 106.9245 74.742)
+		(start 101.536 63.5)
+		(end 99.8455 63.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 80)
 		(uuid "b97c0746-1400-4738-9bec-be83e7a158c6")
 	)
 	(segment
-		(start 105.9365 73.98)
-		(end 105.9365 73.662)
+		(start 98.8575 62.738)
+		(end 98.8575 62.42)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 81)
 		(uuid "26397c51-44f5-4eb9-95a3-04ff0389ae32")
 	)
 	(segment
-		(start 105.9365 73.662)
-		(end 108.6665 70.932)
+		(start 98.8575 62.42)
+		(end 101.5875 59.69)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 81)
@@ -34137,144 +34137,144 @@
 		(uuid "892fcc24-f910-4ed1-bc7e-b5311f2b9860")
 	)
 	(segment
-		(start 69.1235 47.704)
-		(end 68.79 47.3705)
+		(start 57.6935 57.61)
+		(end 57.36 57.2765)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 94)
 		(uuid "6a55db8d-2521-4a44-9ea4-25a81f02d4f5")
 	)
 	(segment
-		(start 79.248 47.704)
-		(end 69.1235 47.704)
+		(start 67.818 57.61)
+		(end 57.6935 57.61)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 94)
 		(uuid "da80ecc6-a236-49e2-940b-9c4363a8e5c6")
 	)
 	(segment
-		(start 92.202 47.752)
-		(end 92.456 47.498)
+		(start 80.772 57.658)
+		(end 81.026 57.404)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 95)
 		(uuid "30bbb053-4004-4974-90e5-6b9ece0227f4")
 	)
 	(segment
-		(start 82.296 47.752)
-		(end 92.202 47.752)
+		(start 70.866 57.658)
+		(end 80.772 57.658)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 95)
 		(uuid "77deb236-132f-4d84-8c3a-59c36c54e87c")
 	)
 	(segment
-		(start 69.1235 55.07)
-		(end 68.79 54.7365)
+		(start 57.6935 64.976)
+		(end 57.36 64.6425)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 96)
 		(uuid "56d1f775-28d0-48dc-965c-3fb1cd5b294c")
 	)
 	(segment
-		(start 79.248 55.07)
-		(end 69.1235 55.07)
+		(start 67.818 64.976)
+		(end 57.6935 64.976)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 96)
 		(uuid "ca9c59b0-77b9-432c-b0e4-33f3d167977d")
 	)
 	(segment
-		(start 82.296 55.118)
-		(end 92.1665 55.118)
+		(start 70.866 65.024)
+		(end 80.7365 65.024)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 97)
 		(uuid "6af90b03-adc2-431c-a393-e3aa9bf1c396")
 	)
 	(segment
-		(start 92.1665 55.118)
-		(end 92.5 54.7845)
+		(start 80.7365 65.024)
+		(end 81.07 64.6905)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 97)
 		(uuid "c9b8ec8d-df0b-44cd-9014-880af6b04d11")
 	)
 	(segment
-		(start 79.248 63.452)
-		(end 69.1235 63.452)
+		(start 67.818 73.358)
+		(end 57.6935 73.358)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 98)
 		(uuid "a89e1b34-69a7-4cb1-8138-c2a837743abb")
 	)
 	(segment
-		(start 69.1235 63.452)
-		(end 68.79 63.1185)
+		(start 57.6935 73.358)
+		(end 57.36 73.0245)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 98)
 		(uuid "d62c3417-83f0-4bfa-9b84-7daf0166a7a4")
 	)
 	(segment
-		(start 82.296 63.5)
-		(end 92.246 63.5)
+		(start 70.866 73.406)
+		(end 80.816 73.406)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 99)
 		(uuid "279cb1b8-ac8f-4c45-8a7e-df2b91c172cc")
 	)
 	(segment
-		(start 92.246 63.5)
-		(end 92.5 63.246)
+		(start 80.816 73.406)
+		(end 81.07 73.152)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 99)
 		(uuid "b61eddc5-a6e7-4afa-97b0-1eb03d1c9892")
 	)
 	(segment
-		(start 69.1235 71.556)
-		(end 68.79 71.2225)
+		(start 57.6935 81.462)
+		(end 57.36 81.1285)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 100)
 		(uuid "eb003721-7686-4864-a737-822a9d40b865")
 	)
 	(segment
-		(start 79.248 71.556)
-		(end 69.1235 71.556)
+		(start 67.818 81.462)
+		(end 57.6935 81.462)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 100)
 		(uuid "ef3029f2-d959-40e7-a5ef-ee269dd498eb")
 	)
 	(segment
-		(start 82.252 71.604)
-		(end 92.1665 71.604)
+		(start 70.822 81.51)
+		(end 80.7365 81.51)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 101)
 		(uuid "3a08f1b1-550a-44ef-b31e-62d8137d40bf")
 	)
 	(segment
-		(start 92.1665 71.604)
-		(end 92.5 71.2705)
+		(start 80.7365 81.51)
+		(end 81.07 81.1765)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 101)
 		(uuid "85c2d7a1-6391-4af5-940b-769c2205c421")
 	)
 	(segment
-		(start 82.252 79.732)
-		(end 91.6145 79.732)
+		(start 70.822 89.638)
+		(end 80.1845 89.638)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 103)
 		(uuid "511ac9dc-0f51-4ee2-8f09-7947af65bd61")
 	)
 	(segment
-		(start 91.6145 79.732)
-		(end 91.694 79.6525)
+		(start 80.1845 89.638)
+		(end 80.264 89.5585)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 103)
