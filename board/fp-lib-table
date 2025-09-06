@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ArmBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/ArmBoard.pretty")(options "")(descr ""))
+)
