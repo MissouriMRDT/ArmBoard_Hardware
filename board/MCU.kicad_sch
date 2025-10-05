@@ -1368,7 +1368,7 @@
 		(uuid "25a15888-b891-4a61-94bb-52bf00271827")
 	)
 	(hierarchical_label "CANRX1"
-		(shape output)
+		(shape input)
 		(at 60.96 73.66 180)
 		(effects
 			(font
@@ -1376,21 +1376,10 @@
 			)
 			(justify right)
 		)
-		(uuid "4a6f81e7-1031-4024-b706-ec9b503f14fe")
-	)
-	(hierarchical_label "CANRX7"
-		(shape output)
-		(at 60.96 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e61adfb-49bf-4b83-8701-c2de2b0bcc74")
+		(uuid "626e9ca4-1af3-4bf0-adab-b0530cec88e0")
 	)
 	(hierarchical_label "CANRX2"
-		(shape output)
+		(shape input)
 		(at 60.96 78.74 180)
 		(effects
 			(font
@@ -1398,7 +1387,18 @@
 			)
 			(justify right)
 		)
-		(uuid "c1f56d75-549d-4906-bc90-39671f2ef3bf")
+		(uuid "6c5be89b-e414-440a-8771-eb6ca0938994")
+	)
+	(hierarchical_label "CANRX7"
+		(shape input)
+		(at 60.96 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bffb1413-9573-4985-a5f3-8314b717209d")
 	)
 	(hierarchical_label "CANTX7"
 		(shape output)
