@@ -5,8 +5,11 @@
 	(uuid "e470b6c6-755b-4529-9873-444c4c1dfd11")
 	(paper "A4")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	(lib_symbols)
 =======
+=======
+>>>>>>> Stashed changes
 	(lib_symbols
 		(symbol "Device:R_US"
 			(pin_numbers
@@ -5828,5 +5831,8 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 )
