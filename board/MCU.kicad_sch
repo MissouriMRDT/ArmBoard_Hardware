@@ -2234,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 83.82) (xy 66.04 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015cd1a1-3b22-4758-90ad-704ea0d39dfc")
-	)
-	(wire
-		(pts
 			(xy 175.26 66.04) (xy 175.26 71.12)
 		)
 		(stroke
@@ -2264,23 +2254,33 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 66.04 81.28)
+			(xy 60.96 96.52) (xy 66.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "376bf54c-51fe-4278-b07e-5c609e410aa3")
+		(uuid "33721d04-91e2-40f2-b98c-91ed4835423c")
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 66.04 76.2)
+			(xy 106.68 133.35) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40868c9e-1111-4004-aa1c-7c5f26e6afc5")
+		(uuid "354b3e68-6a26-4836-ab3b-e61c36236d24")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 66.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367ff435-3f5c-44ca-80ee-7c09c07582b8")
 	)
 	(wire
 		(pts
@@ -2291,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "41831a81-95f5-45f9-a12d-580fac62de3f")
+	)
+	(wire
+		(pts
+			(xy 60.96 134.62) (xy 66.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5ac00f-3e94-458a-8319-82e9c2f61e65")
 	)
 	(wire
 		(pts
@@ -2311,26 +2321,6 @@
 			(type default)
 		)
 		(uuid "524e17fd-e5c1-4222-881c-770cde9ebd6a")
-	)
-	(wire
-		(pts
-			(xy 60.96 86.36) (xy 66.04 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b42e3b1-6442-492c-9c62-80e6c94bd9ab")
-	)
-	(wire
-		(pts
-			(xy 60.96 78.74) (xy 66.04 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c861ad5-5443-4e07-91a9-8c59708def53")
 	)
 	(wire
 		(pts
@@ -2394,6 +2384,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867ec9f2-fc28-4a53-b716-84768069a939")
+	)
+	(wire
+		(pts
 			(xy 177.8 77.47) (xy 198.12 77.47)
 		)
 		(stroke
@@ -2401,6 +2401,16 @@
 			(type default)
 		)
 		(uuid "98fa34d5-3c42-416c-a25e-5a0546ad4dbc")
+	)
+	(wire
+		(pts
+			(xy 119.38 133.35) (xy 106.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4ed03e-0067-438b-b597-7b93b02f70c7")
 	)
 	(wire
 		(pts
@@ -2474,16 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 73.66) (xy 66.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ef6571-b057-432f-97a5-ad2e3729420c")
-	)
-	(wire
-		(pts
 			(xy 198.12 77.47) (xy 198.12 66.04)
 		)
 		(stroke
@@ -2504,6 +2504,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 134.62) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba82d629-8bf2-4359-84c1-7386e53b5d19")
+	)
+	(wire
+		(pts
 			(xy 106.68 60.96) (xy 114.3 60.96)
 		)
 		(stroke
@@ -2511,6 +2521,16 @@
 			(type default)
 		)
 		(uuid "e7058e56-4768-42b6-bcb3-247854d0ef78")
+	)
+	(wire
+		(pts
+			(xy 60.96 93.98) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f976e-08cf-4063-9af5-fd0628107392")
 	)
 	(wire
 		(pts
@@ -2624,7 +2644,7 @@
 	)
 	(hierarchical_label "CANTX2"
 		(shape output)
-		(at 60.96 81.28 180)
+		(at 60.96 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2635,7 +2655,7 @@
 	)
 	(hierarchical_label "CANTX1"
 		(shape output)
-		(at 60.96 76.2 180)
+		(at 60.96 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2646,7 +2666,7 @@
 	)
 	(hierarchical_label "CANRX1"
 		(shape input)
-		(at 60.96 73.66 180)
+		(at 119.38 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2657,7 +2677,7 @@
 	)
 	(hierarchical_label "CANRX2"
 		(shape input)
-		(at 60.96 78.74 180)
+		(at 60.96 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2666,9 +2686,9 @@
 		)
 		(uuid "6c5be89b-e414-440a-8771-eb6ca0938994")
 	)
-	(hierarchical_label "CANRX7"
+	(hierarchical_label "CANRX3"
 		(shape input)
-		(at 60.96 83.82 180)
+		(at 60.96 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,9 +2697,9 @@
 		)
 		(uuid "bffb1413-9573-4985-a5f3-8314b717209d")
 	)
-	(hierarchical_label "CANTX7"
+	(hierarchical_label "CANTX3"
 		(shape output)
-		(at 60.96 86.36 180)
+		(at 60.96 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -365,7 +365,7 @@
 				(justify right)
 			)
 		)
-		(pin "CANTX7" output
+		(pin "CANTX3" output
 			(at 48.26 157.48 0)
 			(uuid "e93a39fe-be69-4c28-8421-9d2910deaa79")
 			(effects
@@ -395,7 +395,7 @@
 				(justify right)
 			)
 		)
-		(pin "CANRX7" input
+		(pin "CANRX3" input
 			(at 48.26 154.94 0)
 			(uuid "528da664-d4c7-498d-99c7-08cdc2ff9923")
 			(effects
@@ -551,7 +551,7 @@
 				(justify right)
 			)
 		)
-		(pin "CANTX7" input
+		(pin "CANTX3" input
 			(at 48.26 105.41 0)
 			(uuid "98c913d8-c6a2-46b4-96e9-bb01c33fdc72")
 			(effects
@@ -581,7 +581,7 @@
 				(justify right)
 			)
 		)
-		(pin "CANRX7" output
+		(pin "CANRX3" output
 			(at 48.26 102.87 0)
 			(uuid "92bc44fd-ca30-4b23-97e1-bb1398f46e39")
 			(effects

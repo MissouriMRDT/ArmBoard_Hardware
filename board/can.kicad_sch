@@ -2048,7 +2048,7 @@
 		)
 		(uuid "37d79a98-65e0-462c-816b-33298af6b0ec")
 	)
-	(hierarchical_label "CANTX7"
+	(hierarchical_label "CANTX3"
 		(shape input)
 		(at 81.28 172.72 180)
 		(effects
@@ -2070,7 +2070,7 @@
 		)
 		(uuid "7678e59a-27bb-4a9b-a158-be957ad72c4d")
 	)
-	(hierarchical_label "CANRX7"
+	(hierarchical_label "CANRX3"
 		(shape output)
 		(at 81.28 175.26 180)
 		(effects
