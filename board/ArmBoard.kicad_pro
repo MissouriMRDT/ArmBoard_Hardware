@@ -444,6 +444,10 @@
     [
       "ba488f88-06cc-40b0-9120-7e1472e6da99",
       "Laser"
+    ],
+    [
+      "011567e9-54ee-4ffd-accb-94b1abac7e0b",
+      "Encoder"
     ]
   ],
   "text_variables": {}

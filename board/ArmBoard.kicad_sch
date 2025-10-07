@@ -7,37 +7,17 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 48.26 147.32) (xy 50.8 147.32)
+			(xy 278.13 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0474f4c6-8495-41f8-b2d0-d1637affdbb7")
+		(uuid "0e5d690c-608d-4fa7-9c15-ee3dc067781b")
 	)
 	(wire
 		(pts
-			(xy 55.88 105.41) (xy 55.88 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1198d3be-2a37-4477-85ea-183f96087a04")
-	)
-	(wire
-		(pts
-			(xy 53.34 100.33) (xy 53.34 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134fe08d-c915-4be9-b6ab-d8d19fbbefdf")
-	)
-	(wire
-		(pts
-			(xy 48.26 100.33) (xy 53.34 100.33)
+			(xy 280.67 99.06) (xy 275.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -47,37 +27,57 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 97.79) (xy 52.07 149.86)
+			(xy 271.78 91.44) (xy 271.78 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "335abcb3-477c-45ab-8948-611fcd6dfde8")
+		(uuid "1fbe6473-8ad1-4192-8a17-e70ea32617a9")
 	)
 	(wire
 		(pts
-			(xy 49.53 92.71) (xy 49.53 144.78)
+			(xy 274.32 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3938ce30-6428-4aa2-a915-0c98fcb17d6d")
+		(uuid "2b5caf50-de0d-4bf1-af05-4d040058d02b")
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 50.8 95.25)
+			(xy 276.86 101.6) (xy 276.86 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42c8ae76-7d79-4552-b96d-995e4d7995b9")
+		(uuid "2d125d5b-e669-45fa-93d7-73daa9384402")
 	)
 	(wire
 		(pts
-			(xy 48.26 102.87) (xy 54.61 102.87)
+			(xy 271.78 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdf22e0-b0d9-42d8-8791-0ad44d005e28")
+	)
+	(wire
+		(pts
+			(xy 273.05 93.98) (xy 273.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47afabca-29c5-4182-9eda-5397ae11512c")
+	)
+	(wire
+		(pts
+			(xy 280.67 101.6) (xy 276.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -87,17 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 154.94) (xy 54.61 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73dcae75-2f71-4a36-9bff-779273c58ed3")
-	)
-	(wire
-		(pts
-			(xy 48.26 105.41) (xy 55.88 105.41)
+			(xy 280.67 104.14) (xy 278.13 104.14)
 		)
 		(stroke
 			(width 0)
@@ -107,17 +97,27 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 48.26 157.48)
+			(xy 274.32 96.52) (xy 274.32 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97703942-eb0f-47a6-9e89-88299f492948")
+		(uuid "8744d563-2bb4-4e9e-9815-85abd08d75a7")
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 52.07 97.79)
+			(xy 273.05 95.25) (xy 181.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9418e017-135a-43ec-8d70-6d454b79c343")
+	)
+	(wire
+		(pts
+			(xy 280.67 96.52) (xy 274.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -127,17 +127,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 48.26 152.4)
+			(xy 275.59 99.06) (xy 275.59 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc442f80-eafb-4dc3-8b23-e70c8cf3ce2c")
+		(uuid "cd3f5e92-6b71-4b7c-966e-253f27fbf6e5")
 	)
 	(wire
 		(pts
-			(xy 48.26 92.71) (xy 49.53 92.71)
+			(xy 278.13 104.14) (xy 278.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f8f8ea-27e0-40ca-a948-ec48f9a79a0c")
+	)
+	(wire
+		(pts
+			(xy 280.67 91.44) (xy 271.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +157,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 48.26 95.25)
+			(xy 276.86 102.87) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57d3ea1-dc1f-48b0-95cd-b4616b2ea9ed")
+	)
+	(wire
+		(pts
+			(xy 280.67 93.98) (xy 273.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -157,36 +177,58 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 54.61 154.94)
+			(xy 275.59 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2809ea4-4598-4ebe-bb9e-b240befe4e3e")
-	)
-	(wire
-		(pts
-			(xy 52.07 149.86) (xy 48.26 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa509bf4-e88d-4c3e-b5c6-4874480ae992")
-	)
-	(wire
-		(pts
-			(xy 48.26 144.78) (xy 49.53 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf08d45-4de3-4abe-bfd4-a8e7dcb9d205")
+		(uuid "f0afb0e4-68f5-41d5-8151-8f2a34b65cc7")
 	)
 	(sheet
-		(at 20.32 115.57)
+		(at 232.41 22.86)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "011567e9-54ee-4ffd-accb-94b1abac7e0b")
+		(property "Sheetname" "Encoder"
+			(at 232.41 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 232.41 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ArmBoard"
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 166.37)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -202,7 +244,7 @@
 		)
 		(uuid "077a8f28-7dc9-47b5-a7bd-2032c9ecdf2a")
 		(property "Sheetname" "Servos"
-			(at 20.32 114.8584 0)
+			(at 128.27 165.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,7 +253,7 @@
 			)
 		)
 		(property "Sheetfile" "servos.kicad_sch"
-			(at 20.32 133.9346 0)
+			(at 128.27 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,7 +270,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 64.77)
+		(at 24.13 91.44)
 		(size 27.94 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -244,7 +286,7 @@
 		)
 		(uuid "0dcdd27b-0855-4059-9887-410ec0cde503")
 		(property "Sheetname" "LED"
-			(at 20.32 64.0584 0)
+			(at 24.13 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +295,7 @@
 			)
 		)
 		(property "Sheetfile" "led.kicad_sch"
-			(at 20.32 81.8646 0)
+			(at 24.13 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,8 +354,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 142.24)
-		(size 27.94 15.24)
+		(at 116.84 64.77)
+		(size 64.77 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -328,7 +370,7 @@
 		)
 		(uuid "288a157d-b3ae-473c-9edc-77c2d2f56fa4")
 		(property "Sheetname" "MCU"
-			(at 20.32 141.5284 0)
+			(at 116.84 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +379,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 20.32 158.0646 0)
+			(at 116.84 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +388,7 @@
 			)
 		)
 		(pin "CANTX1" output
-			(at 48.26 147.32 0)
+			(at 181.61 95.25 0)
 			(uuid "1258b090-6953-4533-8576-472e1e8bf815")
 			(effects
 				(font
@@ -356,7 +398,7 @@
 			)
 		)
 		(pin "CANTX2" output
-			(at 48.26 152.4 0)
+			(at 181.61 100.33 0)
 			(uuid "7cccda83-8b68-4cc2-b462-dd36b5663b0d")
 			(effects
 				(font
@@ -366,7 +408,7 @@
 			)
 		)
 		(pin "CANTX3" output
-			(at 48.26 157.48 0)
+			(at 181.61 105.41 0)
 			(uuid "e93a39fe-be69-4c28-8421-9d2910deaa79")
 			(effects
 				(font
@@ -376,7 +418,7 @@
 			)
 		)
 		(pin "CANRX1" input
-			(at 48.26 144.78 0)
+			(at 181.61 92.71 0)
 			(uuid "888a442f-e5f0-46b8-b6dd-d4743ae345bd")
 			(effects
 				(font
@@ -386,7 +428,7 @@
 			)
 		)
 		(pin "CANRX2" input
-			(at 48.26 149.86 0)
+			(at 181.61 97.79 0)
 			(uuid "7c46f0ec-4f94-421b-8f29-a3556626357a")
 			(effects
 				(font
@@ -396,7 +438,7 @@
 			)
 		)
 		(pin "CANRX3" input
-			(at 48.26 154.94 0)
+			(at 181.61 102.87 0)
 			(uuid "528da664-d4c7-498d-99c7-08cdc2ff9923")
 			(effects
 				(font
@@ -414,7 +456,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 44.45)
+		(at 127 24.13)
 		(size 27.94 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -430,7 +472,7 @@
 		)
 		(uuid "9db6d312-3fb3-42f9-991d-5a1281e06b68")
 		(property "Sheetname" "Buttons"
-			(at 20.32 43.7384 0)
+			(at 127 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +481,7 @@
 			)
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
-			(at 20.32 59.0046 0)
+			(at 127 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -498,7 +540,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 91.44)
+		(at 252.73 90.17)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -514,7 +556,7 @@
 		)
 		(uuid "fdae78b8-59ee-4f48-8030-f758a031c24d")
 		(property "Sheetname" "CAN"
-			(at 20.32 90.7284 0)
+			(at 252.73 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +565,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 20.32 109.8046 0)
+			(at 252.73 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +574,7 @@
 			)
 		)
 		(pin "CANTX1" input
-			(at 48.26 95.25 0)
+			(at 280.67 93.98 0)
 			(uuid "44d3d4b1-5cda-4dae-b739-fc3c9ce00327")
 			(effects
 				(font
@@ -542,7 +584,7 @@
 			)
 		)
 		(pin "CANTX2" input
-			(at 48.26 100.33 0)
+			(at 280.67 99.06 0)
 			(uuid "1d2806ae-4e20-4f11-a903-0558ca0a7f03")
 			(effects
 				(font
@@ -552,7 +594,7 @@
 			)
 		)
 		(pin "CANTX3" input
-			(at 48.26 105.41 0)
+			(at 280.67 104.14 0)
 			(uuid "98c913d8-c6a2-46b4-96e9-bb01c33fdc72")
 			(effects
 				(font
@@ -562,7 +604,7 @@
 			)
 		)
 		(pin "CANRX1" output
-			(at 48.26 92.71 0)
+			(at 280.67 91.44 0)
 			(uuid "d076cb8b-a91b-4715-b28c-a894857a9984")
 			(effects
 				(font
@@ -572,7 +614,7 @@
 			)
 		)
 		(pin "CANRX2" output
-			(at 48.26 97.79 0)
+			(at 280.67 96.52 0)
 			(uuid "67aa7432-8381-48af-aa36-5582e0760348")
 			(effects
 				(font
@@ -582,7 +624,7 @@
 			)
 		)
 		(pin "CANRX3" output
-			(at 48.26 102.87 0)
+			(at 280.67 101.6 0)
 			(uuid "92bc44fd-ca30-4b23-97e1-bb1398f46e39")
 			(effects
 				(font
