@@ -426,10 +426,6 @@
       "Buttons"
     ],
     [
-      "0dcdd27b-0855-4059-9887-410ec0cde503",
-      "LED"
-    ],
-    [
       "fdae78b8-59ee-4f48-8030-f758a031c24d",
       "CAN"
     ],
@@ -444,10 +440,6 @@
     [
       "ba488f88-06cc-40b0-9120-7e1472e6da99",
       "Laser"
-    ],
-    [
-      "011567e9-54ee-4ffd-accb-94b1abac7e0b",
-      "Encoder"
     ]
   ],
   "text_variables": {}
