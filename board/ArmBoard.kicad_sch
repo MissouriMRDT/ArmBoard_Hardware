@@ -261,6 +261,56 @@
 				(justify left top)
 			)
 		)
+		(pin "Serv_pwm_1" input
+			(at 151.13 166.37 90)
+			(uuid "03c4a30d-5535-47b5-a0e2-3cdc30aabef0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serv_pwm_2" input
+			(at 147.32 166.37 90)
+			(uuid "31888b29-03e5-4c97-be82-cd9b702fa024")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serv_pwm_3" input
+			(at 142.24 166.37 90)
+			(uuid "8e45e265-8da1-4d2f-82bd-d6708ddf2e56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serv_pwm_4" input
+			(at 135.89 166.37 90)
+			(uuid "4b0f3de4-1180-4fd9-8b9d-49c30c9baede")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Serv_pwm_lin" input
+			(at 130.81 166.37 90)
+			(uuid "c893260d-1961-4c93-8550-f12e3b0e59b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
@@ -487,6 +537,156 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "B_1" output
+			(at 154.94 26.67 0)
+			(uuid "376d4a4d-5ddc-484d-ad2a-eee0788e8283")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_2" output
+			(at 154.94 29.21 0)
+			(uuid "cabbeee5-23b3-4b42-83a4-c6ff8bfde152")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_3" output
+			(at 154.94 31.75 0)
+			(uuid "76d342ae-6cb2-4a82-9034-7fb265a02d5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_4" output
+			(at 154.94 34.29 0)
+			(uuid "aeb086a2-f55f-43e8-b8a7-4f6757ffbb0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_5" output
+			(at 154.94 36.83 0)
+			(uuid "d0c26f31-b06c-40df-bbd8-d66d1c2e61d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B_6" output
+			(at 129.54 38.1 270)
+			(uuid "78ddf96f-61c2-41ac-bbfe-1c3e2bda6440")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B_7" output
+			(at 132.08 38.1 270)
+			(uuid "581d0b60-861f-462f-b5c9-eab48a8c8abc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B_8" output
+			(at 134.62 38.1 270)
+			(uuid "6f13e0ae-fb5e-4327-9a46-4485f829e7ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Dirc_swt" output
+			(at 137.16 38.1 270)
+			(uuid "24337ea6-df46-420f-a34f-382da55a8897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Laser" output
+			(at 139.7 38.1 270)
+			(uuid "962bfe8b-0d50-48e7-b8d3-42411cf7cd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Lin_serv" output
+			(at 142.24 38.1 270)
+			(uuid "2bbaa140-2018-4dd1-8105-6e768145919b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serv_1" output
+			(at 144.78 38.1 270)
+			(uuid "e32dec2c-a772-4dd9-a71e-0d48c197445b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serv_2" output
+			(at 147.32 38.1 270)
+			(uuid "7e8592a5-c102-4cdc-9f90-7d9d8bb9f374")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serv_3" output
+			(at 127 27.94 180)
+			(uuid "833bbabb-575c-4ecc-9e99-73b5392edfcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Serv_4" output
+			(at 127 30.48 180)
+			(uuid "3103884a-a6b9-4f4a-8ba0-88dcbddc9be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
