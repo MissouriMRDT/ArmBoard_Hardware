@@ -3084,7 +3084,7 @@
 		)
 		(uuid "09988cf5-cf15-4faf-b7c5-d4bcc56a75b5")
 	)
-	(hierarchical_label "Serv_4"
+	(hierarchical_label "Servo_B4"
 		(shape input)
 		(at 110.49 127 0)
 		(effects
@@ -3117,7 +3117,7 @@
 		)
 		(uuid "1d0e0657-658e-42e5-9a4c-fbd728d991b0")
 	)
-	(hierarchical_label "Lin_serv"
+	(hierarchical_label "Lin_servo_B"
 		(shape input)
 		(at 59.69 132.08 180)
 		(effects
@@ -3161,7 +3161,7 @@
 		)
 		(uuid "497576cd-b72a-4a22-a7bb-b80abdae9f46")
 	)
-	(hierarchical_label "Serv_pwm_2"
+	(hierarchical_label "Servo_pwm_2"
 		(shape output)
 		(at 62.23 101.6 180)
 		(effects
@@ -3172,7 +3172,7 @@
 		)
 		(uuid "5782db96-7e83-4d4a-bbf7-7b570af7558e")
 	)
-	(hierarchical_label "Serv_pwm_1"
+	(hierarchical_label "Servo_pwm_1"
 		(shape output)
 		(at 109.22 81.28 0)
 		(effects
@@ -3238,7 +3238,7 @@
 		)
 		(uuid "6d3706e3-735b-4ef2-8f95-209f95df0fc7")
 	)
-	(hierarchical_label "Serv_2"
+	(hierarchical_label "Servo_B2"
 		(shape input)
 		(at 59.69 129.54 180)
 		(effects
@@ -3249,7 +3249,7 @@
 		)
 		(uuid "6dff800c-3032-4f18-b79a-781cb9db50ac")
 	)
-	(hierarchical_label "Serv_3"
+	(hierarchical_label "Servo_B3"
 		(shape input)
 		(at 110.49 119.38 0)
 		(effects
@@ -3271,7 +3271,7 @@
 		)
 		(uuid "9cb49b6d-5f54-4874-983b-d72f79b30ddc")
 	)
-	(hierarchical_label "Serv_pwm_lin"
+	(hierarchical_label "Servo_pwm_lin"
 		(shape output)
 		(at 109.22 83.82 0)
 		(effects
@@ -3282,7 +3282,7 @@
 		)
 		(uuid "a3ffd8d9-bfc8-4fa6-a2b9-2d9df0b61d3d")
 	)
-	(hierarchical_label "Serv_1"
+	(hierarchical_label "Servo_B1"
 		(shape input)
 		(at 59.69 119.38 180)
 		(effects
@@ -3293,7 +3293,7 @@
 		)
 		(uuid "a95de609-643d-4dd0-86e2-17a3847f5abd")
 	)
-	(hierarchical_label "LAS"
+	(hierarchical_label "LASER"
 		(shape output)
 		(at 60.96 78.74 180)
 		(effects
@@ -3337,7 +3337,7 @@
 		)
 		(uuid "e57970fd-a4fd-4a24-a28b-2d36b47f3e1b")
 	)
-	(hierarchical_label "Laser"
+	(hierarchical_label "Laser_B"
 		(shape input)
 		(at 59.69 121.92 180)
 		(effects
@@ -3348,7 +3348,7 @@
 		)
 		(uuid "eabdac7e-8d2e-4431-8bef-2c9485c6b4aa")
 	)
-	(hierarchical_label "Serv_pwm_4"
+	(hierarchical_label "Servo_pwm_4"
 		(shape output)
 		(at 60.96 60.96 180)
 		(effects
@@ -3359,7 +3359,7 @@
 		)
 		(uuid "ef7e589f-7693-468b-993d-1f7f26475d59")
 	)
-	(hierarchical_label "Serv_pwm_3"
+	(hierarchical_label "Servo_pwm_3"
 		(shape output)
 		(at 62.23 104.14 180)
 		(effects

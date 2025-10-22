@@ -910,7 +910,7 @@
 		)
 		(uuid "402ba63b-4cde-4616-88bf-7bd87348b6f0")
 	)
-	(hierarchical_label "Serv_3"
+	(hierarchical_label "Servo_B3"
 		(shape output)
 		(at 200.66 83.82 0)
 		(effects
@@ -943,7 +943,7 @@
 		)
 		(uuid "56040530-b64d-4ae2-b7c3-da8cd8b9a3bc")
 	)
-	(hierarchical_label "Serv_1"
+	(hierarchical_label "Servo_B1"
 		(shape output)
 		(at 128.27 87.63 0)
 		(effects
@@ -954,7 +954,7 @@
 		)
 		(uuid "65c5bd7a-64ac-4279-9b6a-716b9316de6d")
 	)
-	(hierarchical_label "Serv_2"
+	(hierarchical_label "Servo_B2"
 		(shape output)
 		(at 165.1 85.09 0)
 		(effects
@@ -965,7 +965,7 @@
 		)
 		(uuid "6f71189b-8e95-4120-b334-e7858c98a895")
 	)
-	(hierarchical_label "Laser"
+	(hierarchical_label "Laser_B"
 		(shape output)
 		(at 125.73 102.87 0)
 		(effects
@@ -976,7 +976,7 @@
 		)
 		(uuid "8f956fc5-6806-4186-b2d4-475378182ba6")
 	)
-	(hierarchical_label "Lin_serv"
+	(hierarchical_label "Lin_servo_B"
 		(shape output)
 		(at 162.56 100.33 0)
 		(effects
@@ -1042,7 +1042,7 @@
 		)
 		(uuid "ea663eae-2d7b-4457-bad8-7dd624d0eeab")
 	)
-	(hierarchical_label "Serv_4"
+	(hierarchical_label "Servo_B4"
 		(shape output)
 		(at 237.49 81.28 0)
 		(effects

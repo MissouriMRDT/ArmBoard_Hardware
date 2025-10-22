@@ -660,7 +660,7 @@
 		)
 		(uuid "fd47d792-461f-4744-a5f2-7e543a16078b")
 	)
-	(hierarchical_label "Serv_pwm_1"
+	(hierarchical_label "Servo_pwm_1"
 		(shape input)
 		(at 54.61 48.26 180)
 		(effects
@@ -671,7 +671,7 @@
 		)
 		(uuid "07ff0efb-cfad-4134-a5b0-98d56020fb94")
 	)
-	(hierarchical_label "Serv_pwm_2"
+	(hierarchical_label "Servo_pwm_2"
 		(shape input)
 		(at 54.61 59.69 180)
 		(effects
@@ -682,7 +682,7 @@
 		)
 		(uuid "153d608d-1562-4db6-abbd-aa441a6efab7")
 	)
-	(hierarchical_label "Serv_pwm_3"
+	(hierarchical_label "Servo_pwm_3"
 		(shape input)
 		(at 54.61 69.85 180)
 		(effects
@@ -693,7 +693,7 @@
 		)
 		(uuid "2b54369f-d2ff-4342-8aa2-9eb867c0a72d")
 	)
-	(hierarchical_label "Serv_pwm_4"
+	(hierarchical_label "Servo_pwm_4"
 		(shape input)
 		(at 53.34 81.28 180)
 		(effects
@@ -704,7 +704,7 @@
 		)
 		(uuid "72815fa9-317f-4993-b93a-48c4caf2b641")
 	)
-	(hierarchical_label "Serv_pwm_lin"
+	(hierarchical_label "Servo_pwm_lin"
 		(shape input)
 		(at 53.34 93.98 180)
 		(effects
@@ -734,7 +734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Serv_1"
+		(property "Value" "Servo_1"
 			(at 86.36 49.5299 0)
 			(effects
 				(font
@@ -939,7 +939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Serv_4"
+		(property "Value" "Servo_4"
 			(at 86.36 82.5499 0)
 			(effects
 				(font
@@ -1012,7 +1012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Lin_serv"
+		(property "Value" "Lin_servo"
 			(at 86.36 95.2499 0)
 			(effects
 				(font
@@ -1085,7 +1085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Serv_2"
+		(property "Value" "Servo_2"
 			(at 86.36 60.9599 0)
 			(effects
 				(font
@@ -1158,7 +1158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Serv_3"
+		(property "Value" "Servo_3"
 			(at 86.36 71.1199 0)
 			(effects
 				(font

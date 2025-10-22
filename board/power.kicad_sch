@@ -2002,7 +2002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "775"
+		(property "Value" "820"
 			(at 171.45 58.4199 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2525"
+		(property "Value" "2k2"
 			(at 160.02 58.4199 0)
 			(effects
 				(font
@@ -3806,7 +3806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "100"
 			(at 181.61 58.4199 0)
 			(effects
 				(font

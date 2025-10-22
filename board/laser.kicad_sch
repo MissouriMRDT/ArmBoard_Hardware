@@ -1157,7 +1157,7 @@
 		)
 		(uuid "fff6d5fb-8068-4574-8dfc-f07858c7f62a")
 	)
-	(hierarchical_label "LAS"
+	(hierarchical_label "LASER"
 		(shape input)
 		(at 68.58 106.68 180)
 		(effects

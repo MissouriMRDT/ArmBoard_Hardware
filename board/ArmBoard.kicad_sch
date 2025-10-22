@@ -4,7 +4,101 @@
 	(generator_version "9.0")
 	(uuid "dc5110f0-fe48-48cb-9429-81f6eb467763")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Penis"
+		(exclude_from_sim no)
+		(at 44.196 163.83 0)
+		(effects
+			(font
+				(size 0.01 0.01)
+			)
+		)
+		(uuid "e446399b-543f-4af6-9d18-5a9c97d5fd3d")
+	)
 	(wire
 		(pts
 			(xy 148.59 54.61) (xy 143.51 54.61)
@@ -605,6 +699,262 @@
 		)
 		(uuid "ed0f5307-0a32-4704-a837-ef6eaffc6506")
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1822dbad-f83c-443c-ab5b-d118cfec44eb")
+		(property "Reference" "H1"
+			(at 29.21 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512d7e92-5fb3-4d14-8778-ddc2e2d2b1d0")
+		(property "Reference" "H4"
+			(at 52.07 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ArmBoard"
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 26.67 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e654e2-a848-4c12-8842-849d143607b7")
+		(property "Reference" "H2"
+			(at 29.21 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 29.21 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 49.53 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5f4498c-156d-4737-84d9-f2056db9626c")
+		(property "Reference" "H3"
+			(at 52.07 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 52.07 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ArmBoard"
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 128.27 166.37)
 		(size 27.94 17.78)
@@ -639,7 +989,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Serv_pwm_1" input
+		(pin "Servo_pwm_1" input
 			(at 151.13 166.37 90)
 			(uuid "03c4a30d-5535-47b5-a0e2-3cdc30aabef0")
 			(effects
@@ -649,7 +999,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_pwm_2" input
+		(pin "Servo_pwm_2" input
 			(at 147.32 166.37 90)
 			(uuid "31888b29-03e5-4c97-be82-cd9b702fa024")
 			(effects
@@ -659,7 +1009,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_pwm_3" input
+		(pin "Servo_pwm_3" input
 			(at 142.24 166.37 90)
 			(uuid "8e45e265-8da1-4d2f-82bd-d6708ddf2e56")
 			(effects
@@ -669,7 +1019,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_pwm_4" input
+		(pin "Servo_pwm_4" input
 			(at 135.89 166.37 90)
 			(uuid "4b0f3de4-1180-4fd9-8b9d-49c30c9baede")
 			(effects
@@ -679,7 +1029,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_pwm_lin" input
+		(pin "Servo_pwm_lin" input
 			(at 130.81 166.37 90)
 			(uuid "c893260d-1961-4c93-8550-f12e3b0e59b5")
 			(effects
@@ -913,7 +1263,7 @@
 				(justify right)
 			)
 		)
-		(pin "Laser" input
+		(pin "Laser_B" input
 			(at 140.97 64.77 90)
 			(uuid "d01d77fe-b59a-4817-b269-0c1a2eb836da")
 			(effects
@@ -923,7 +1273,7 @@
 				(justify right)
 			)
 		)
-		(pin "Lin_serv" input
+		(pin "Lin_servo_B" input
 			(at 143.51 64.77 90)
 			(uuid "891208eb-19aa-4008-8311-bd437c3d466a")
 			(effects
@@ -933,7 +1283,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_1" input
+		(pin "Servo_B1" input
 			(at 147.32 64.77 90)
 			(uuid "0e3e2899-003e-408f-8784-cd4404ff5cf3")
 			(effects
@@ -943,7 +1293,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_2" input
+		(pin "Servo_B2" input
 			(at 149.86 64.77 90)
 			(uuid "cd89df36-ac40-45b8-8f7e-80483e909db6")
 			(effects
@@ -953,7 +1303,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_3" input
+		(pin "Servo_B3" input
 			(at 152.4 64.77 90)
 			(uuid "5187892c-ac01-4d02-afaa-0d187913bb6e")
 			(effects
@@ -963,7 +1313,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_4" input
+		(pin "Servo_B4" input
 			(at 154.94 64.77 90)
 			(uuid "d930ea83-5e97-481e-9c5f-65ce935abd2e")
 			(effects
@@ -973,7 +1323,7 @@
 				(justify right)
 			)
 		)
-		(pin "Serv_pwm_1" output
+		(pin "Servo_pwm_1" output
 			(at 161.29 105.41 270)
 			(uuid "e38ca4e8-da13-4c35-b873-8c89d0c4c763")
 			(effects
@@ -983,7 +1333,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_pwm_2" output
+		(pin "Servo_pwm_2" output
 			(at 157.48 105.41 270)
 			(uuid "bbb25200-e9b6-4a57-8330-d178f5726dac")
 			(effects
@@ -993,7 +1343,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_pwm_3" output
+		(pin "Servo_pwm_3" output
 			(at 152.4 105.41 270)
 			(uuid "48741b54-7b0b-4cb7-83fb-f72efa7d2183")
 			(effects
@@ -1003,7 +1353,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_pwm_4" output
+		(pin "Servo_pwm_4" output
 			(at 147.32 105.41 270)
 			(uuid "8048a1ea-04ff-40c7-95ec-c21cf77db7f6")
 			(effects
@@ -1013,7 +1363,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_pwm_lin" output
+		(pin "Servo_pwm_lin" output
 			(at 142.24 105.41 270)
 			(uuid "ee371fea-f9f5-478b-b176-8e362167caa2")
 			(effects
@@ -1033,7 +1383,7 @@
 				(justify right)
 			)
 		)
-		(pin "LAS" output
+		(pin "LASER" output
 			(at 116.84 88.9 180)
 			(uuid "cca4d9eb-5cc5-4966-b50f-e2388e8aec82")
 			(effects
@@ -1175,7 +1525,7 @@
 				(justify right)
 			)
 		)
-		(pin "Laser" output
+		(pin "Laser_B" output
 			(at 146.05 46.99 270)
 			(uuid "962bfe8b-0d50-48e7-b8d3-42411cf7cd1a")
 			(effects
@@ -1185,7 +1535,7 @@
 				(justify left)
 			)
 		)
-		(pin "Lin_serv" output
+		(pin "Lin_servo_B" output
 			(at 148.59 46.99 270)
 			(uuid "2bbaa140-2018-4dd1-8105-6e768145919b")
 			(effects
@@ -1195,7 +1545,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_1" output
+		(pin "Servo_B1" output
 			(at 163.83 46.99 270)
 			(uuid "e32dec2c-a772-4dd9-a71e-0d48c197445b")
 			(effects
@@ -1205,7 +1555,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_2" output
+		(pin "Servo_B2" output
 			(at 166.37 46.99 270)
 			(uuid "7e8592a5-c102-4cdc-9f90-7d9d8bb9f374")
 			(effects
@@ -1215,7 +1565,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_3" output
+		(pin "Servo_B3" output
 			(at 168.91 46.99 270)
 			(uuid "833bbabb-575c-4ecc-9e99-73b5392edfcb")
 			(effects
@@ -1225,7 +1575,7 @@
 				(justify left)
 			)
 		)
-		(pin "Serv_4" output
+		(pin "Servo_B4" output
 			(at 171.45 46.99 270)
 			(uuid "3103884a-a6b9-4f4a-8ba0-88dcbddc9be9")
 			(effects
@@ -1277,7 +1627,7 @@
 				(justify left top)
 			)
 		)
-		(pin "LAS" input
+		(pin "LASER" input
 			(at 71.12 88.9 0)
 			(uuid "e1030fe2-9271-455f-a18f-0f31ed7cce4e")
 			(effects
