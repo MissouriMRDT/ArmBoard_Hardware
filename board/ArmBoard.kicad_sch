@@ -177,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 95.25) (xy 252.73 95.25)
+			(xy 181.61 87.63) (xy 252.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 252.73 92.71)
+			(xy 181.61 85.09) (xy 252.73 85.09)
 		)
 		(stroke
 			(width 0)
@@ -367,7 +367,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 97.79) (xy 252.73 97.79)
+			(xy 181.61 90.17) (xy 252.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -497,7 +497,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 252.73 102.87)
+			(xy 181.61 95.25) (xy 252.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -557,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 100.33) (xy 181.61 100.33)
+			(xy 252.73 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -597,7 +597,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 252.73 105.41)
+			(xy 181.61 97.79) (xy 252.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -774,7 +774,7 @@
 			)
 		)
 		(pin "CANTX1" output
-			(at 181.61 95.25 0)
+			(at 181.61 87.63 0)
 			(uuid "1258b090-6953-4533-8576-472e1e8bf815")
 			(effects
 				(font
@@ -784,7 +784,7 @@
 			)
 		)
 		(pin "CANTX2" output
-			(at 181.61 100.33 0)
+			(at 181.61 92.71 0)
 			(uuid "7cccda83-8b68-4cc2-b462-dd36b5663b0d")
 			(effects
 				(font
@@ -794,7 +794,7 @@
 			)
 		)
 		(pin "CANTX3" output
-			(at 181.61 105.41 0)
+			(at 181.61 97.79 0)
 			(uuid "e93a39fe-be69-4c28-8421-9d2910deaa79")
 			(effects
 				(font
@@ -804,7 +804,7 @@
 			)
 		)
 		(pin "CANRX1" input
-			(at 181.61 92.71 0)
+			(at 181.61 85.09 0)
 			(uuid "888a442f-e5f0-46b8-b6dd-d4743ae345bd")
 			(effects
 				(font
@@ -814,7 +814,7 @@
 			)
 		)
 		(pin "CANRX2" input
-			(at 181.61 97.79 0)
+			(at 181.61 90.17 0)
 			(uuid "7c46f0ec-4f94-421b-8f29-a3556626357a")
 			(effects
 				(font
@@ -824,7 +824,7 @@
 			)
 		)
 		(pin "CANRX3" input
-			(at 181.61 102.87 0)
+			(at 181.61 95.25 0)
 			(uuid "528da664-d4c7-498d-99c7-08cdc2ff9923")
 			(effects
 				(font
@@ -1296,7 +1296,7 @@
 		)
 	)
 	(sheet
-		(at 252.73 90.17)
+		(at 252.73 82.55)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1312,7 +1312,7 @@
 		)
 		(uuid "fdae78b8-59ee-4f48-8030-f758a031c24d")
 		(property "Sheetname" "CAN"
-			(at 252.73 89.4584 0)
+			(at 252.73 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1321,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 252.73 108.5346 0)
+			(at 252.73 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1330,7 @@
 			)
 		)
 		(pin "CANTX1" input
-			(at 252.73 95.25 180)
+			(at 252.73 87.63 180)
 			(uuid "44d3d4b1-5cda-4dae-b739-fc3c9ce00327")
 			(effects
 				(font
@@ -1340,7 +1340,7 @@
 			)
 		)
 		(pin "CANTX2" input
-			(at 252.73 100.33 180)
+			(at 252.73 92.71 180)
 			(uuid "1d2806ae-4e20-4f11-a903-0558ca0a7f03")
 			(effects
 				(font
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(pin "CANTX3" input
-			(at 252.73 105.41 180)
+			(at 252.73 97.79 180)
 			(uuid "98c913d8-c6a2-46b4-96e9-bb01c33fdc72")
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(pin "CANRX1" output
-			(at 252.73 92.71 180)
+			(at 252.73 85.09 180)
 			(uuid "d076cb8b-a91b-4715-b28c-a894857a9984")
 			(effects
 				(font
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(pin "CANRX2" output
-			(at 252.73 97.79 180)
+			(at 252.73 90.17 180)
 			(uuid "67aa7432-8381-48af-aa36-5582e0760348")
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(pin "CANRX3" output
-			(at 252.73 102.87 180)
+			(at 252.73 95.25 180)
 			(uuid "92bc44fd-ca30-4b23-97e1-bb1398f46e39")
 			(effects
 				(font
