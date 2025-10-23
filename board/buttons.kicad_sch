@@ -1145,7 +1145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 156.21 80.01 0)
 			(effects
 				(font
@@ -1213,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 119.38 82.55 0)
 			(effects
 				(font
@@ -1347,7 +1347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 60.96 77.47 0)
 			(effects
 				(font
@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 228.6 76.2 0)
 			(effects
 				(font
@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 190.5 40.64 0)
 			(effects
 				(font
@@ -1620,7 +1620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -1754,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 231.14 38.1 0)
 			(effects
 				(font
@@ -1822,7 +1822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -2088,7 +2088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 154.94 41.91 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 118.11 97.79 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 193.04 78.74 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -2690,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 190.5 60.96 0)
 			(effects
 				(font
@@ -2958,7 +2958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 154.94 62.23 0)
 			(effects
 				(font

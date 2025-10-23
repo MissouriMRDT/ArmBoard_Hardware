@@ -743,7 +743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -948,7 +948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -1021,7 +1021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 82.55 97.79 0)
 			(effects
 				(font
@@ -1094,7 +1094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 82.55 63.5 0)
 			(effects
 				(font
@@ -1167,7 +1167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Vertical"
 			(at 82.55 73.66 0)
 			(effects
 				(font

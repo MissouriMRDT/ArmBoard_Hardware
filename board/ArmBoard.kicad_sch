@@ -727,7 +727,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 26.67 149.86 0)
 			(effects
 				(font
@@ -791,7 +791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 49.53 157.48 0)
 			(effects
 				(font
@@ -855,7 +855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 26.67 157.48 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 49.53 149.86 0)
 			(effects
 				(font
