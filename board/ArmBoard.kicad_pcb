@@ -16870,12 +16870,12 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "c9c7fa0e-86ef-4b33-9d24-3e36b3a559de")
-		(at 139.192 77.47 180)
+		(at 136.8044 77.5716 180)
 		(property "Reference" "H2"
 			(at 4.00812 -3.50812 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4095fe57-fba1-4534-b844-4b36f230d382")
+			(uuid "69a10f7c-24c3-4d98-85f7-e50fe02fd2f6")
 			(effects
 				(font
 					(size 1 1)
@@ -16887,7 +16887,7 @@
 			(at 4.00812 -4.50812 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c280805-e1c8-45d6-9fd1-ccd632e8cf1e")
+			(uuid "7400bb83-5c92-4d7a-99a8-837553853bf7")
 			(effects
 				(font
 					(size 1 1)
@@ -16899,7 +16899,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ef74c2f9-e30e-492e-a342-f9932009b509")
+			(uuid "eea9d4a4-d4c4-4d99-a37f-315c5cf88319")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16911,7 +16911,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff849915-3c45-4f3c-b8f4-ecb1dbf46d3d")
+			(uuid "eecf3a4a-12bb-4cf9-9746-239cab780e73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17004,7 +17004,7 @@
 			(at 4.00812 -3.50812 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8493339b-9c2b-4ec4-ac51-ee8a8020915a")
+			(uuid "5cc987a2-4aa0-4526-ac89-8bf43c56cf9a")
 			(effects
 				(font
 					(size 1 1)
@@ -17016,7 +17016,7 @@
 			(at 4.00812 -4.50812 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4e66030-d2d8-4dd3-b911-c6856ccd6d6c")
+			(uuid "13aa0964-335c-4e2f-8bda-1a0547d1d963")
 			(effects
 				(font
 					(size 1 1)
@@ -17028,7 +17028,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09b4f4fd-f394-4a29-a593-d2fd029bb9e9")
+			(uuid "dc49259e-c8f5-4962-98b1-f72f6d5b819e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17040,7 +17040,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8df31b2-25b3-4721-b6f6-a20002770a5a")
+			(uuid "502bc5b0-4575-4c50-a976-fbddeee9dae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +19653,7 @@
 			(at 4.00812 -3.50812 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "55ab39e1-bca3-4032-991c-88d6a3e59f70")
+			(uuid "25ca783b-1300-46f7-aaf6-ee1c2f02fe52")
 			(effects
 				(font
 					(size 1 1)
@@ -19665,7 +19665,7 @@
 			(at 4.00812 -4.50812 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7c8f3ad-e3d3-4989-9a38-0bc6f93f9b77")
+			(uuid "217c6e7a-738d-4bad-ad74-5f9f05f187da")
 			(effects
 				(font
 					(size 1 1)
@@ -19677,7 +19677,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eda25f4c-7ce0-47c9-8a2e-6669788dd95c")
+			(uuid "84dab692-90b3-4098-b91e-0bcdf35d430b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +19689,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f937f899-fa15-4276-b9bd-88af0897db44")
+			(uuid "7243808c-06f8-4508-8028-fce986f2b3ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19777,7 @@
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 		(layer "F.Cu")
 		(uuid "f93de9cc-df94-48ce-a25e-ce685dcbc0cb")
-		(at 131.604 141.446 90)
+		(at 126.778 141.192 90)
 		(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
 		(property "Reference" "SW1"
@@ -20048,12 +20048,12 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "fd55feca-00bc-4123-b8a1-85b0abac7104")
-		(at 139.192 174.498 90)
+		(at 136.8044 174.498 90)
 		(property "Reference" "H3"
 			(at 4.00812 -3.50812 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3156d179-cc1f-414d-b946-18dd3b6af29e")
+			(uuid "30ee9444-b8fe-4089-9463-bb9829201cf0")
 			(effects
 				(font
 					(size 1 1)
@@ -20065,7 +20065,7 @@
 			(at 4.00812 -4.50812 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28d9149c-f7ca-4021-a117-8ded2c79d300")
+			(uuid "23b75bdf-bc4f-4e6c-b682-c79ce5d82f39")
 			(effects
 				(font
 					(size 1 1)
@@ -20077,7 +20077,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e57c1895-c29c-4beb-8adf-f021cc57f950")
+			(uuid "05bdcfcd-c7cb-464c-bea1-57efba745f43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20089,7 +20089,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30691235-94fe-4307-9cfb-344c2a3c7784")
+			(uuid "d6a00b34-955f-4ec5-8f94-9af9ca9bf6ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20175,19 +20175,19 @@
 		(embedded_fonts no)
 	)
 	(gr_arc
-		(start 56.5037 174.498)
-		(mid 53.727811 173.348189)
-		(end 52.578 170.5723)
+		(start 56.5912 174.498)
+		(mid 53.753439 173.322561)
+		(end 52.578 170.4848)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(layer "F.Cu")
-		(uuid "1981a04f-3a9c-4efd-88bc-a12b52e92c08")
+		(uuid "5a190fb7-2fa1-46fb-8fff-b3ec4ac566ca")
 	)
 	(gr_rect
-		(start 52.578 77.47)
-		(end 139.192 174.498)
+		(start 52.578 77.5716)
+		(end 136.8044 174.498)
 		(stroke
 			(width 0.2)
 			(type default)
