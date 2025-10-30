@@ -1493,12 +1493,6 @@
 		(uuid "53403284-2b13-4bdb-8bfd-585f26c2a4c9")
 	)
 	(junction
-		(at 45.72 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57c05a3f-2004-41e7-9d75-e8b4794d6954")
-	)
-	(junction
 		(at 109.22 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1509,6 +1503,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68f6e1fd-93b6-4a22-a5ad-daa49382997e")
+	)
+	(junction
+		(at 44.45 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c75aebc-855b-41ca-940b-0460c2324e9c")
 	)
 	(junction
 		(at 91.44 59.69)
@@ -1570,16 +1570,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 40.64 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342ebbf8-eab2-494d-95e5-31aeb960a999")
-	)
-	(wire
-		(pts
 			(xy 45.72 54.61) (xy 45.72 58.42)
 		)
 		(stroke
@@ -1630,6 +1620,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eeeea24-fe4f-48ec-9f13-22c2ab7a7825")
+	)
+	(wire
+		(pts
 			(xy 78.74 73.66) (xy 91.44 73.66)
 		)
 		(stroke
@@ -1650,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 54.61) (xy 45.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2c408c-055d-4a9e-ab43-49097703af8f")
+	)
+	(wire
+		(pts
 			(xy 64.77 59.69) (xy 64.77 52.07)
 		)
 		(stroke
@@ -1667,6 +1677,16 @@
 			(type default)
 		)
 		(uuid "87fb4d12-22a5-4fa7-932f-98ac38199984")
+	)
+	(wire
+		(pts
+			(xy 44.45 50.8) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f40a1ca-ecc7-4aac-950f-a37affc8cc2f")
 	)
 	(wire
 		(pts
@@ -1740,16 +1760,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 54.61) (xy 45.72 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4fdc880-db27-454d-951f-56d4d3c6f8b9")
-	)
-	(wire
-		(pts
 			(xy 157.48 50.8) (xy 157.48 53.34)
 		)
 		(stroke
@@ -1807,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "dd827a06-179b-442c-b7aa-17d632c57836")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e096cff5-98a1-4648-84bf-b4bade2c2304")
 	)
 	(wire
 		(pts
@@ -2115,6 +2135,83 @@
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/27f1c3cb-3072-4ada-892b-01df59320a38"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 26.67 57.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be5327e-e90d-4779-81e9-8ebc230b761f")
+		(property "Reference" "Conn1"
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ce4501d-be40-41b5-89c7-fd869b45c0de")
+		)
+		(pin "3"
+			(uuid "8cc4965d-adb5-49df-b2a8-75fee34ee88b")
+		)
+		(pin "4"
+			(uuid "9be74c8f-5a92-4f0e-b370-7aefb90e6546")
+		)
+		(pin "1"
+			(uuid "9d6b7b09-ab94-4478-a256-76d31db03096")
+		)
+		(pin "1"
+			(uuid "fd57dc64-3724-4280-9e32-75945579e3ba")
+		)
+		(instances
+			(project ""
+				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/27f1c3cb-3072-4ada-892b-01df59320a38"
+					(reference "Conn1")
+					(unit 2)
 				)
 			)
 		)
@@ -3222,7 +3319,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 45.72 54.61 0)
+		(at 44.45 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3231,7 +3328,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5160748-32e9-4cc1-8937-29fb1b182cfd")
 		(property "Reference" "#PWR01"
-			(at 45.72 58.42 0)
+			(at 44.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3337,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 45.72 49.53 0)
+			(at 44.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 54.61 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 54.61 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 45.72 54.61 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,16 +3385,16 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 30.48 57.15 0)
-		(unit 3)
+		(at 27.94 72.39 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d579e249-344f-4c43-b18b-051022ce3e37")
+		(uuid "ef3be2fd-dcda-4532-abf4-c689fbab1eb1")
 		(property "Reference" "Conn1"
-			(at 33.02 46.99 0)
+			(at 30.48 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3305,15 +3402,15 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 33.02 49.53 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
-			(at 26.67 71.12 0)
+		(property "Footprint" ""
+			(at 24.13 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3322,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 71.12 0)
+			(at 24.13 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3331,7 +3428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 57.15 0)
+			(at 27.94 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,25 +3437,25 @@
 			)
 		)
 		(pin "2"
-			(uuid "a77fe47d-dfc9-413d-8b36-e0a10103b74f")
-		)
-		(pin "4"
-			(uuid "ea6c78d4-0fe0-4903-a899-56437a07fcd9")
-		)
-		(pin "1"
-			(uuid "56e6991e-958c-4fc3-a3dc-bb62db45b262")
-		)
-		(pin "1"
-			(uuid "c288875f-e9a7-406f-8625-7215474442ad")
+			(uuid "8ce4501d-be40-41b5-89c7-fd869b45c0df")
 		)
 		(pin "3"
-			(uuid "e29147a3-11fc-4663-962a-5d4b1dee22c7")
+			(uuid "8cc4965d-adb5-49df-b2a8-75fee34ee88c")
+		)
+		(pin "4"
+			(uuid "9be74c8f-5a92-4f0e-b370-7aefb90e6547")
+		)
+		(pin "1"
+			(uuid "9d6b7b09-ab94-4478-a256-76d31db03097")
+		)
+		(pin "1"
+			(uuid "fd57dc64-3724-4280-9e32-75945579e3bb")
 		)
 		(instances
 			(project ""
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/27f1c3cb-3072-4ada-892b-01df59320a38"
 					(reference "Conn1")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -3424,83 +3521,6 @@
 			(project ""
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/27f1c3cb-3072-4ada-892b-01df59320a38"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 30.48 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ab3001-c8a4-4c33-b2a3-87c6311e47eb")
-		(property "Reference" "Conn1"
-			(at 33.02 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 33.02 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side"
-			(at 26.67 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 86.36 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9018a8b0-3e04-4d5c-8599-5bebea140e81")
-		)
-		(pin "3"
-			(uuid "ffb66939-cbc8-4a4f-a43e-48b6d8e883a8")
-		)
-		(pin "1"
-			(uuid "d5aeecc6-1948-4004-8ee4-2449243aa8ff")
-		)
-		(pin "2"
-			(uuid "3e93e2b1-5c5c-4601-a58a-290bbae04863")
-		)
-		(pin "1"
-			(uuid "baae65e2-19cf-43d1-b3fd-90b9f43390ce")
-		)
-		(instances
-			(project ""
-				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/27f1c3cb-3072-4ada-892b-01df59320a38"
-					(reference "Conn1")
 					(unit 1)
 				)
 			)

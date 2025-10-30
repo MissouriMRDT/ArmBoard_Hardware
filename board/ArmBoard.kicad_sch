@@ -141,7 +141,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 152.4 160.02)
+			(xy 153.67 160.02) (xy 152.4 160.02)
 		)
 		(stroke
 			(width 0)
@@ -161,7 +161,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 166.37) (xy 161.29 105.41)
+			(xy 161.29 168.91) (xy 161.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -201,7 +201,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 166.37) (xy 142.24 160.02)
+			(xy 153.67 168.91) (xy 153.67 160.02)
 		)
 		(stroke
 			(width 0)
@@ -291,16 +291,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 166.37) (xy 130.81 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e26f446-43a1-4ceb-9e66-abf798d0f49b")
-	)
-	(wire
-		(pts
 			(xy 130.81 64.77) (xy 130.81 25.4)
 		)
 		(stroke
@@ -381,33 +371,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 153.67) (xy 142.24 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "773af3b3-75a5-454f-a28d-2c71f2bc795d")
-	)
-	(wire
-		(pts
-			(xy 147.32 162.56) (xy 147.32 166.37)
+			(xy 158.75 162.56) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a25c27a-7074-424b-a38b-c8e611681cfa")
-	)
-	(wire
-		(pts
-			(xy 147.32 157.48) (xy 147.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7afb3592-4e2a-494f-8039-a566eb4e5491")
 	)
 	(wire
 		(pts
@@ -431,23 +401,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 166.37) (xy 161.29 166.37)
+			(xy 162.56 168.91) (xy 161.29 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "84e37df6-d17f-4709-9810-67a7a945a324")
-	)
-	(wire
-		(pts
-			(xy 135.89 157.48) (xy 147.32 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ffee45-684e-4963-a14e-054021cdf35e")
 	)
 	(wire
 		(pts
@@ -601,7 +561,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 153.67) (xy 142.24 105.41)
+			(xy 142.24 105.41) (xy 142.24 168.91)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +601,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 166.37) (xy 135.89 157.48)
+			(xy 147.32 105.41) (xy 147.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 162.56) (xy 147.32 162.56)
+			(xy 158.75 162.56) (xy 157.48 162.56)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +916,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 166.37)
+		(at 139.7 168.91)
 		(size 27.94 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -972,7 +932,7 @@
 		)
 		(uuid "077a8f28-7dc9-47b5-a7bd-2032c9ecdf2a")
 		(property "Sheetname" "Servos"
-			(at 128.27 165.6584 0)
+			(at 139.7 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +941,7 @@
 			)
 		)
 		(property "Sheetfile" "servos.kicad_sch"
-			(at 128.27 184.7346 0)
+			(at 139.7 187.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +950,7 @@
 			)
 		)
 		(pin "Servo_pwm_1" input
-			(at 151.13 166.37 90)
+			(at 162.56 168.91 90)
 			(uuid "03c4a30d-5535-47b5-a0e2-3cdc30aabef0")
 			(effects
 				(font
@@ -1000,7 +960,7 @@
 			)
 		)
 		(pin "Servo_pwm_2" input
-			(at 147.32 166.37 90)
+			(at 158.75 168.91 90)
 			(uuid "31888b29-03e5-4c97-be82-cd9b702fa024")
 			(effects
 				(font
@@ -1010,7 +970,7 @@
 			)
 		)
 		(pin "Servo_pwm_3" input
-			(at 142.24 166.37 90)
+			(at 153.67 168.91 90)
 			(uuid "8e45e265-8da1-4d2f-82bd-d6708ddf2e56")
 			(effects
 				(font
@@ -1020,7 +980,7 @@
 			)
 		)
 		(pin "Servo_pwm_4" input
-			(at 135.89 166.37 90)
+			(at 147.32 168.91 90)
 			(uuid "4b0f3de4-1180-4fd9-8b9d-49c30c9baede")
 			(effects
 				(font
@@ -1030,7 +990,7 @@
 			)
 		)
 		(pin "Servo_pwm_lin" input
-			(at 130.81 166.37 90)
+			(at 142.24 168.91 90)
 			(uuid "c893260d-1961-4c93-8550-f12e3b0e59b5")
 			(effects
 				(font
