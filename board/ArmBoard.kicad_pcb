@@ -29219,6 +29219,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LASER_LED"
+		(at 102.2096 149.9108 0)
+		(layer "F.SilkS")
+		(uuid "85cc3527-d959-4c9c-9b16-155fc26ffe06")
+		(effects
+			(font
+				(size 0.9906 0.9906)
+				(thickness 0.14986)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "12V"
 		(at 83.693 162.877 90)
 		(layer "F.SilkS")
