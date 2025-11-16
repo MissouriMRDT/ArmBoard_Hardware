@@ -840,7 +840,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MODULE_DEV-16771"
+			(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 				(at 53.34 -7.62 0)
 				(effects
 					(font
@@ -1623,24 +1623,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 20.32 17.78 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 20.32 12.7 180)
 					(length 5.08)
@@ -2084,6 +2066,26 @@
 						)
 					)
 					(number "USB_GND2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Teensy4.1_DEV-16771_1_0"
+				(pin bidirectional line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D-"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3400,14 +3402,13 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Shields:Teensy_4_1"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -3562,7 +3563,7 @@
 		(pin "T-"
 			(uuid "25c60aa9-4396-4348-8503-726923ad91f9")
 		)
-		(pin "D"
+		(pin "D-"
 			(uuid "b3ea12cc-03f0-4c7a-8150-42d2963d2569")
 		)
 		(pin "T+"
