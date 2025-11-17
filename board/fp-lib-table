@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ArmBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/ArmBoard.pretty")(options "")(descr ""))
   (lib (name "FootPrint")(type "KiCad")(uri "C:/Users/dfund/Downloads/FootPrint")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/dfund/Downloads/new/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
