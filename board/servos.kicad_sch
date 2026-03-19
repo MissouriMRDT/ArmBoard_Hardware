@@ -363,6 +363,12 @@
 		)
 	)
 	(junction
+		(at 58.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e10e672-f6c4-47fe-9823-da3216f1f6c1")
+	)
+	(junction
 		(at 64.77 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -375,10 +381,10 @@
 		(uuid "54e2d56c-e944-47d7-9d75-9b0130d64c0b")
 	)
 	(junction
-		(at 58.42 78.74)
+		(at 58.42 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54fea729-8e31-4fc7-9c86-1e98baebeb45")
+		(uuid "5cdfb69a-0f61-47bb-a53f-b2049cacc451")
 	)
 	(junction
 		(at 64.77 96.52)
@@ -387,10 +393,10 @@
 		(uuid "8a27ba6e-f001-4189-9766-3efc112c4cd6")
 	)
 	(junction
-		(at 58.42 67.31)
+		(at 58.42 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "973bf292-a3e9-4cb6-9c60-3029965ae334")
+		(uuid "b153a68d-d649-4d69-a8b8-342ba929b267")
 	)
 	(junction
 		(at 64.77 62.23)
@@ -399,46 +405,60 @@
 		(uuid "baf94e1f-26ce-4b21-b5b9-6ab5a5faef25")
 	)
 	(junction
-		(at 58.42 45.72)
+		(at 58.42 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c37f2155-c984-4768-bbe8-7a93ab22ade8")
-	)
-	(junction
-		(at 58.42 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3093b45-3f93-42be-ad44-7ec37ce3402a")
+		(uuid "ce6e8ed8-1a09-4fc0-8a66-7ce88a6a268f")
 	)
 	(wire
 		(pts
-			(xy 77.47 78.74) (xy 58.42 78.74)
+			(xy 58.42 48.26) (xy 77.47 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "136e4ecc-c77f-4329-9968-6d295fa32378")
+		(uuid "1a0f7a8e-b8bb-46e0-8a04-f9b4aa15f75e")
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 58.42 67.31)
+			(xy 53.34 91.44) (xy 77.47 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24e75fcc-da59-4ab0-91c2-e77a96ea6b5b")
+		(uuid "1bdf2021-4a7d-4ef0-b74c-53ab0260a662")
 	)
 	(wire
 		(pts
-			(xy 54.61 69.85) (xy 77.47 69.85)
+			(xy 58.42 59.69) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "335437fc-cff9-4026-91ba-21fdd853b50b")
+		(uuid "2021984c-de61-47cd-b293-884490e0316d")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2355f459-c3dc-4f14-98d8-509d3b0e3e61")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 77.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254e4a69-6879-41d2-91f6-83a5dd60caa2")
 	)
 	(wire
 		(pts
@@ -452,13 +472,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 59.69) (xy 77.47 59.69)
+			(xy 54.61 57.15) (xy 77.47 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bca7956-1fc5-47e9-bfc9-d37238870798")
+		(uuid "3f3a4463-2522-4983-88c8-7f9e610142b3")
 	)
 	(wire
 		(pts
@@ -472,6 +492,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 93.98) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66cc5c00-a836-4085-a6c7-7ca980bc9d1f")
+	)
+	(wire
+		(pts
 			(xy 64.77 83.82) (xy 64.77 96.52)
 		)
 		(stroke
@@ -482,7 +512,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 58.42 67.31)
+			(xy 58.42 41.91) (xy 58.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -492,13 +522,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 77.47 81.28)
+			(xy 53.34 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eb5331d-783d-4c8d-8f23-9484d681fa42")
+		(uuid "690e58ab-2479-4768-8f0a-b5f8484dc9ce")
 	)
 	(wire
 		(pts
@@ -512,43 +542,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 48.26) (xy 77.47 48.26)
+			(xy 58.42 48.26) (xy 58.42 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73affbd2-7223-442d-b922-ec60d37de7bb")
+		(uuid "93466a88-84ac-4097-8237-022aeccafc45")
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 58.42 45.72)
+			(xy 58.42 59.69) (xy 58.42 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eb5da87-c19f-4da3-a5ee-2a4e71981d44")
-	)
-	(wire
-		(pts
-			(xy 58.42 78.74) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927d27a1-9bf1-42d7-bef1-e40f24d3975f")
-	)
-	(wire
-		(pts
-			(xy 58.42 57.15) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9765b0e5-02b8-44fa-9945-3adfd2e63872")
+		(uuid "9d1c0d5e-cdd1-4622-8166-8d9d45225ddc")
 	)
 	(wire
 		(pts
@@ -562,23 +572,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 58.42 78.74)
+			(xy 54.61 67.31) (xy 77.47 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a84cf205-6220-4224-894d-cde9c3090c4a")
+		(uuid "a899fa8a-45c4-463f-858c-b2cce96157d6")
 	)
 	(wire
 		(pts
-			(xy 53.34 93.98) (xy 77.47 93.98)
+			(xy 58.42 69.85) (xy 77.47 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b78bc72e-8065-465a-b18b-e6e52eb501f3")
+		(uuid "b729c7f1-f05d-469d-824c-73058e49f9be")
 	)
 	(wire
 		(pts
@@ -589,16 +599,6 @@
 			(type default)
 		)
 		(uuid "bb8086af-a583-4a50-871d-cc34461203ba")
-	)
-	(wire
-		(pts
-			(xy 58.42 45.72) (xy 77.47 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9b31c6-229a-4131-b542-dca84e3a3fc2")
 	)
 	(wire
 		(pts
@@ -642,27 +642,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 91.44) (xy 58.42 91.44)
+			(xy 58.42 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eac4014d-875d-4d5f-9115-5f3f16a6727f")
+		(uuid "e3cde992-4651-458b-960d-ae3ba4ffcd39")
 	)
 	(wire
 		(pts
-			(xy 58.42 45.72) (xy 58.42 57.15)
+			(xy 58.42 69.85) (xy 58.42 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd47d792-461f-4744-a5f2-7e543a16078b")
+		(uuid "fe0bc6b6-41c1-4eea-8f52-0446fcad9517")
 	)
 	(hierarchical_label "Servo_pwm_1"
 		(shape input)
-		(at 54.61 48.26 180)
+		(at 54.61 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -673,7 +673,7 @@
 	)
 	(hierarchical_label "Servo_pwm_2"
 		(shape input)
-		(at 54.61 59.69 180)
+		(at 54.61 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -684,7 +684,7 @@
 	)
 	(hierarchical_label "Servo_pwm_3"
 		(shape input)
-		(at 54.61 69.85 180)
+		(at 54.61 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -695,7 +695,7 @@
 	)
 	(hierarchical_label "Servo_pwm_4"
 		(shape input)
-		(at 53.34 81.28 180)
+		(at 53.34 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -706,7 +706,7 @@
 	)
 	(hierarchical_label "Servo_pwm_lin"
 		(shape input)
-		(at 53.34 93.98 180)
+		(at 53.34 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
