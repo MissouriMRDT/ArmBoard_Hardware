@@ -3732,7 +3732,7 @@
 			(uuid "c0808938-9743-44fd-bfaf-db6e6ec0ad0f")
 		)
 		(instances
-			(project ""
+			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/288a157d-b3ae-473c-9edc-77c2d2f56fa4"
 					(reference "#PWR036")
 					(unit 1)
@@ -3798,7 +3798,7 @@
 			(uuid "8f12b7dd-541e-4935-a436-db1af919501f")
 		)
 		(instances
-			(project ""
+			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/288a157d-b3ae-473c-9edc-77c2d2f56fa4"
 					(reference "#PWR074")
 					(unit 1)
@@ -3901,7 +3901,7 @@
 			(uuid "24b3d0a3-d062-4c16-95b8-62dac6f857f9")
 		)
 		(instances
-			(project ""
+			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/288a157d-b3ae-473c-9edc-77c2d2f56fa4"
 					(reference "J1")
 					(unit 1)
@@ -3967,7 +3967,7 @@
 			(uuid "5acfd967-15dc-4c77-82cc-6d19284e1529")
 		)
 		(instances
-			(project ""
+			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/288a157d-b3ae-473c-9edc-77c2d2f56fa4"
 					(reference "#PWR077")
 					(unit 1)
@@ -4037,7 +4037,7 @@
 			(uuid "ca1c7ec6-774b-4a80-b450-d794b1c70024")
 		)
 		(instances
-			(project ""
+			(project "ArmBoard"
 				(path "/dc5110f0-fe48-48cb-9429-81f6eb467763/288a157d-b3ae-473c-9edc-77c2d2f56fa4"
 					(reference "C15")
 					(unit 1)
