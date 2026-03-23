@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "ArmBoard_Gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../../Downloads/ArmBoard.step",
