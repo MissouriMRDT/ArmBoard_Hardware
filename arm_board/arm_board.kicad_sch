@@ -4126,16 +4126,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 167.64) (xy 71.12 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a5e31fe-042a-4909-a2ec-eca15fb74101")
-	)
-	(wire
-		(pts
 			(xy 255.27 110.49) (xy 254 110.49)
 		)
 		(stroke
@@ -4323,16 +4313,6 @@
 			(type default)
 		)
 		(uuid "60a212e1-f9f0-41f1-9f88-defb865598aa")
-	)
-	(wire
-		(pts
-			(xy 67.31 170.18) (xy 71.12 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6126f62d-9472-4a6c-9b3e-279082f69776")
 	)
 	(wire
 		(pts
@@ -4586,6 +4566,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 170.18) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25c35d0-5204-4ff3-8046-4f3f3a30729e")
+	)
+	(wire
+		(pts
 			(xy 33.02 168.91) (xy 43.18 168.91)
 		)
 		(stroke
@@ -4663,6 +4653,16 @@
 			(type default)
 		)
 		(uuid "ac198f3b-a6c3-4a99-a2ed-af6cd49a0955")
+	)
+	(wire
+		(pts
+			(xy 71.12 167.64) (xy 67.31 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbcae69-c494-4543-a994-419534023927")
 	)
 	(wire
 		(pts
@@ -5495,7 +5495,7 @@
 		(uuid "c9ec2bdd-510a-4bfc-8dfe-9fabadf927f1")
 	)
 	(label "RX-"
-		(at 71.12 167.64 0)
+		(at 71.12 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5505,7 +5505,7 @@
 		(uuid "cde38556-5c1a-4f57-bf44-0a8e320b0446")
 	)
 	(label "RX+"
-		(at 71.12 170.18 0)
+		(at 71.12 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
