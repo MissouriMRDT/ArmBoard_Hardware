@@ -429,25 +429,13 @@
         "uuid": "e05f0fda-5136-4f92-92b6-924779ff6aac"
       }
     ],
-    "used_designators": "D1-4,#PWR1,#PWR5-21,#PWR32-45,#PWR64-75,C1-6,SW1-8,H1-4,Conn2,Conn4,Conn8-12,J3-4,J9,U1,U4,Q2,R1-3,R6,R8-9,L1,MOSFET1",
+    "used_designators": "D1-6,#PWR1,#PWR5-29,#PWR32-59,#PWR64-87,C1-7,SW1-16,H1-8,Conn2-5,Conn8-17,J3-4,J9-10,U1-2,U4,Q2-3,R1-3,R6-11,L1,MOSFET1",
     "variants": []
   },
   "sheets": [
     [
       "e05f0fda-5136-4f92-92b6-924779ff6aac",
       "arm_board"
-    ],
-    [
-      "57438e95-1e94-4f41-aac0-6f1e20755d1b",
-      "MCU"
-    ],
-    [
-      "17645dd8-9735-4c59-81b4-d2fe892167f8",
-      "Buttons"
-    ],
-    [
-      "fa0f6ba5-7f53-4c73-9d5e-e257f3c6bb42",
-      "Connectors"
     ],
     [
       "3fbb3617-3825-4a16-8a63-88c4e2ead9d7",
