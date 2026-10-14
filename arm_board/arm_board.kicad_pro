@@ -429,7 +429,7 @@
         "uuid": "e05f0fda-5136-4f92-92b6-924779ff6aac"
       }
     ],
-    "used_designators": "D1-6,#PWR1-29,#PWR32-59,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-11,U1-2,U4,Q2-3,R1-3,R6-11,L1,MOSFET1",
+    "used_designators": "D1-6,#PWR1-29,#PWR32-60,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-14,U1-4,Q1-3,R1-11,L1,MOSFET1,TP1-2,MK1",
     "variants": []
   },
   "sheets": [
