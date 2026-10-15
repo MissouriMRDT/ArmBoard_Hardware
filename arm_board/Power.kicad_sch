@@ -3017,6 +3017,10 @@
 		(at 54.61 149.86)
 		(uuid "3c86b616-1636-44f7-afbf-f6a0d161cc63")
 	)
+	(no_connect
+		(at 54.61 113.03)
+		(uuid "d29c2aef-f54f-4aa7-b4f9-937a2d29c59f")
+	)
 	(wire
 		(pts
 			(xy 54.61 137.16) (xy 63.5 137.16)
@@ -4831,7 +4835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 118.11 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5735,7 +5739,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5761,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 29.21 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6254,7 +6258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.726 164.084 90)
 			(hide yes)
 			(show_name no)

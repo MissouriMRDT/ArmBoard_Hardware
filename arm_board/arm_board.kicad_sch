@@ -4773,6 +4773,10 @@
 		(uuid "d7b4283b-c853-4d95-a1c8-733ababd4365")
 	)
 	(no_connect
+		(at 63.5 135.89)
+		(uuid "ead315df-3f54-400e-bff1-8a3c7185f272")
+	)
+	(no_connect
 		(at 39.37 142.24)
 		(uuid "fe5c2810-eadd-46e4-be71-ba00069846f6")
 	)
@@ -4805,16 +4809,6 @@
 			(type default)
 		)
 		(uuid "0c1a120a-dee0-48a2-8b28-9f93fe161b9e")
-	)
-	(wire
-		(pts
-			(xy 123.19 119.38) (xy 118.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b98473-408e-4a2e-af9a-5cb341eecdd1")
 	)
 	(wire
 		(pts
@@ -5158,6 +5152,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 118.11) (xy 123.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52146dac-3f5f-4227-b8f9-5550deec78a8")
+	)
+	(wire
+		(pts
 			(xy 143.51 31.75) (xy 149.86 31.75)
 		)
 		(stroke
@@ -5285,16 +5289,6 @@
 			(type default)
 		)
 		(uuid "68d454a1-0016-4518-8778-cbdc87c627b2")
-	)
-	(wire
-		(pts
-			(xy 100.33 119.38) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a053362-a04d-456f-a2b8-f62eb3f2e101")
 	)
 	(wire
 		(pts
@@ -5428,6 +5422,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 120.65) (xy 95.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc726b7-6d97-4fc4-8b4d-163f1aea2f48")
+	)
+	(wire
+		(pts
 			(xy 156.21 99.06) (xy 156.21 96.52)
 		)
 		(stroke
@@ -5448,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 175.26) (xy 156.21 175.26)
+			(xy 153.67 175.26) (xy 157.48 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5615,6 +5619,16 @@
 			(type default)
 		)
 		(uuid "a542f7fa-39b8-4bbf-b631-33d894152925")
+	)
+	(wire
+		(pts
+			(xy 95.25 119.38) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7830707-5fe9-45af-9f6f-6457d93a2cf0")
 	)
 	(wire
 		(pts
@@ -5795,6 +5809,16 @@
 			(type default)
 		)
 		(uuid "be84731a-f749-4a79-95f4-78da9f652032")
+	)
+	(wire
+		(pts
+			(xy 123.19 119.38) (xy 118.11 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c77d91-2ed2-455c-9871-a091bb76d1f5")
 	)
 	(wire
 		(pts
@@ -6005,6 +6029,16 @@
 			(type default)
 		)
 		(uuid "e802f44b-5c06-4a11-92ea-5630c445d33f")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca25374-600c-4a32-8736-f3a292e20189")
 	)
 	(wire
 		(pts
@@ -6497,7 +6531,7 @@
 		(uuid "96c57439-2916-4164-997f-f88e1ff8c863")
 	)
 	(label "Servo_1"
-		(at 153.67 104.14 0)
+		(at 157.48 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6527,7 +6561,7 @@
 		(uuid "a971a687-82b3-41ef-8efd-1aa65e99d41c")
 	)
 	(label "Servo_5"
-		(at 156.21 175.26 0)
+		(at 157.48 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7334,7 +7368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_OCXO_ConnorWinfield_OH300"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 107.95 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8426,7 +8460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 119.38 0)
+		(at 95.25 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8437,7 +8471,7 @@
 		(fields_autoplaced yes)
 		(uuid "3588a294-c35b-48ef-96a1-edab45668275")
 		(property "Reference" "#PWR03"
-			(at 95.25 125.73 0)
+			(at 95.25 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8448,7 +8482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 124.46 0)
+			(at 95.25 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8458,7 +8492,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 95.25 119.38 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 119.38 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 119.38 0)
+			(at 95.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9085,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 223.52 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9407,7 +9441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 275.336 142.494 90)
 			(hide yes)
 			(show_name no)
@@ -9486,7 +9520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 223.52 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10370,7 +10404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 191.77 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11219,7 +11253,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 123.19 119.38 0)
+		(at 123.19 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11230,7 +11264,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb2b2c06-5a81-41e1-bf1a-a14f43a64fab")
 		(property "Reference" "#PWR09"
-			(at 123.19 123.19 0)
+			(at 123.19 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,7 +11275,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 123.19 114.3 0)
+			(at 123.19 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11251,7 +11285,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,7 +11296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11273,7 +11307,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 123.19 119.38 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,7 +11363,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 274.32 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11654,7 +11688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.966 145.796 90)
 			(hide yes)
 			(show_name no)
@@ -12054,7 +12088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 191.77 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12374,7 +12408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3305A"
 			(at 191.77 107.95 0)
 			(hide yes)
 			(show_name no)
