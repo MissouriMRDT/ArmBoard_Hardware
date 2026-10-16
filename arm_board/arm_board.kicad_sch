@@ -4761,12 +4761,12 @@
 		(uuid "b301cfa1-bb56-4ca7-8f3a-edc5974dd100")
 	)
 	(no_connect
-		(at 63.5 130.81)
-		(uuid "b921bf70-d179-4123-ad90-199a6dc0fe1b")
+		(at 63.5 138.43)
+		(uuid "b45325c6-1fe1-4245-bae5-1e7ea8529974")
 	)
 	(no_connect
-		(at 63.5 156.21)
-		(uuid "be4e7239-337b-4f09-b7e2-2f3fbe1ad440")
+		(at 63.5 130.81)
+		(uuid "b921bf70-d179-4123-ad90-199a6dc0fe1b")
 	)
 	(no_connect
 		(at 39.37 135.89)
@@ -5682,16 +5682,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.43) (xy 63.5 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0fd0a54-7feb-4261-93a4-3be91c1091a9")
-	)
-	(wire
-		(pts
 			(xy 115.57 134.62) (xy 115.57 151.13)
 		)
 		(stroke
@@ -5729,6 +5719,16 @@
 			(type default)
 		)
 		(uuid "b78aeaf0-a4c6-42c2-ace8-c4f41d404adb")
+	)
+	(wire
+		(pts
+			(xy 68.58 156.21) (xy 63.5 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9490642-80e7-4365-bcd5-bc2cc1730f6d")
 	)
 	(wire
 		(pts
@@ -6280,16 +6280,6 @@
 		)
 		(uuid "018e93f1-1253-489e-9e90-0cc4b5ea4a8e")
 	)
-	(label "button_6"
-		(at 68.58 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03e91309-133c-4fcb-aac3-4e2d77743a15")
-	)
 	(label "RX+"
 		(at 133.35 55.88 270)
 		(effects
@@ -6699,6 +6689,16 @@
 			(justify left bottom)
 		)
 		(uuid "da7bb1ce-3966-4ed8-a25f-7042aab8e940")
+	)
+	(label "button_6"
+		(at 68.58 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dce7a5de-7ab7-409c-9f74-cf9f4a905dc2")
 	)
 	(label "LED1"
 		(at 125.73 29.21 90)
