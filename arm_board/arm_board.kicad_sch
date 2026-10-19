@@ -4677,12 +4677,6 @@
 		(uuid "37517c56-bbb9-4d2a-ad2a-2911de6c4316")
 	)
 	(junction
-		(at 260.35 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7610b388-e924-4359-911e-8a418f8e9c3f")
-	)
-	(junction
 		(at 128.27 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4889,16 +4883,6 @@
 			(type default)
 		)
 		(uuid "22e29d0e-ca9b-4aee-b242-942f5bd19cf6")
-	)
-	(wire
-		(pts
-			(xy 260.35 137.16) (xy 261.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e67f88-020a-4416-bb4c-b1826e6ef8b8")
 	)
 	(wire
 		(pts
@@ -6270,7 +6254,7 @@
 		)
 		(uuid "00565f87-fe8f-4223-964d-136435fedbaf")
 	)
-	(label "Laser_1"
+	(label "Laser"
 		(at 251.46 43.18 0)
 		(effects
 			(font
@@ -6500,7 +6484,7 @@
 		)
 		(uuid "8332b8fc-274e-4c7f-b5c1-aa472c5c25dc")
 	)
-	(label "Laser_1"
+	(label "Laser"
 		(at 68.58 133.35 0)
 		(effects
 			(font
