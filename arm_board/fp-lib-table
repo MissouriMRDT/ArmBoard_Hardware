@@ -1,3 +1,4 @@
 (fp_lib_table
 	(version 7)
+	(lib (name "footprints") (type "KiCad") (uri "C:/Users/palme/OneDrive/Documents/GitHub/ArmBoard_Hardware/lib/Footprints/footprints.pretty") (options "") (descr ""))
 )

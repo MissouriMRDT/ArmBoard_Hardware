@@ -6294,16 +6294,6 @@
 		)
 		(uuid "23bf015b-f886-4570-bf90-0ec1a3ad78fa")
 	)
-	(label "I2C_SCL"
-		(at 36.83 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "252f63e8-0bb5-432c-a199-47e33addeb71")
-	)
 	(label "Servo_3"
 		(at 157.48 139.7 0)
 		(effects
@@ -6444,16 +6434,6 @@
 		)
 		(uuid "5b982fba-7919-47f6-b4e9-eb4696c6a9ec")
 	)
-	(label "I2C_SDA"
-		(at 36.83 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "698ab791-a704-4bd7-9940-484e8b35fde9")
-	)
 	(label "Servo_2"
 		(at 29.21 158.75 180)
 		(effects
@@ -6473,6 +6453,26 @@
 			(justify right bottom)
 		)
 		(uuid "6f708748-2cc4-42b6-b9fe-4e9e42abbc64")
+	)
+	(label "connector+"
+		(at 27.9085 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "721c78a7-81c9-49ce-ad19-98e290b5b7d4")
+	)
+	(label "connector-"
+		(at 27.9085 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73216b07-e830-460c-bebc-41ed59bcffe6")
 	)
 	(label "button_3"
 		(at 68.58 146.05 0)
@@ -6644,6 +6644,16 @@
 		)
 		(uuid "c68a04d2-1c51-45da-af78-6e9ed5989fe6")
 	)
+	(label "I2C_SCL"
+		(at 36.83 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd8fe8df-d628-4c17-b20a-d89a0911d63c")
+	)
 	(label "RX-"
 		(at 67.31 167.64 0)
 		(effects
@@ -6653,6 +6663,16 @@
 			(justify left bottom)
 		)
 		(uuid "cde38556-5c1a-4f57-bf44-0a8e320b0446")
+	)
+	(label "I2C_SDA"
+		(at 36.83 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d72617e3-ff09-4d6f-9307-f0f4f1328856")
 	)
 	(label "RX+"
 		(at 67.31 165.1 0)
@@ -10055,7 +10075,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d85eac8-a3e1-4e4f-b713-865bf53b050c")
 		(property "Reference" "#PWR04"
 			(at 101.6 182.88 0)
@@ -10068,14 +10087,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 101.6 173.99 0)
+		(property "Value" "+3V3"
+			(at 99.06 174.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
