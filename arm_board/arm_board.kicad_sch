@@ -4677,6 +4677,12 @@
 		(uuid "37517c56-bbb9-4d2a-ad2a-2911de6c4316")
 	)
 	(junction
+		(at 260.35 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed07807-514f-4b18-866a-ad011dc74e59")
+	)
+	(junction
 		(at 128.27 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4783,6 +4789,16 @@
 			(type default)
 		)
 		(uuid "00c835ca-2b77-44a1-82c2-f1aad86869b4")
+	)
+	(wire
+		(pts
+			(xy 214.63 38.1) (xy 227.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d773b4-e48d-4e56-bbde-367be8d0afce")
 	)
 	(wire
 		(pts
@@ -5236,6 +5252,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 137.16) (xy 261.62 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "612172fa-10d8-4a6d-8e1c-f7bfec8d87cc")
+	)
+	(wire
+		(pts
 			(xy 63.5 153.67) (xy 68.58 153.67)
 		)
 		(stroke
@@ -5323,16 +5349,6 @@
 			(type default)
 		)
 		(uuid "83c0726a-f95c-4055-8614-243755666406")
-	)
-	(wire
-		(pts
-			(xy 214.63 38.1) (xy 227.33 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8411a40f-a8e8-45c8-8acd-b18e7c9ec5f5")
 	)
 	(wire
 		(pts
@@ -10010,14 +10026,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 125.73 130.81 0)
+		(property "Value" "+3V3"
+			(at 128.27 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11278,14 +11295,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 123.19 113.03 0)
+		(property "Value" "+3V3"
+			(at 125.73 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
