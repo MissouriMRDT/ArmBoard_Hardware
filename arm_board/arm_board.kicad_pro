@@ -61,9 +61,9 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -661,7 +661,7 @@
         "uuid": "e05f0fda-5136-4f92-92b6-924779ff6aac"
       }
     ],
-    "used_designators": "D1-6,#PWR1-29,#PWR32-60,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-14,U1-4,Q1-3,R1-11,L1,MOSFET1,TP1-2,MK1",
+    "used_designators": "D1-6,#PWR1-29,#PWR32-60,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-15,U1-4,Q1-3,R1-11,L1,MOSFET1,TP1-2,MK1",
     "variants": []
   },
   "sheets": [
