@@ -603,12 +603,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -661,7 +685,7 @@
         "uuid": "e05f0fda-5136-4f92-92b6-924779ff6aac"
       }
     ],
-    "used_designators": "D1-6,#PWR1-29,#PWR32-60,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-15,U1-4,Q1-3,R1-11,L1,MOSFET1,TP1-2,MK1",
+    "used_designators": "D1-6,#PWR1-29,#PWR32-60,#PWR64-87,C1-7,SW1-16,H1-8,Conn1-5,Conn8-17,J1-16,U1-4,Q1-3,R1-11,L1,MOSFET1,TP1-2,MK1",
     "variants": []
   },
   "sheets": [
