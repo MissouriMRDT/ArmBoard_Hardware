@@ -5424,7 +5424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IND_DFE322520FD-4R7M=P2_MUR"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 80.01 43.18 0)
 			(hide yes)
 			(show_name no)
