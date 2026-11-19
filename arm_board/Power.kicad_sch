@@ -4903,7 +4903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DF2S6.8FS,L3M"
+		(property "Value" "SZMM3Z5V6ST1G"
 			(at 120.65 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +4925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/DF2S6.8FS_datasheet_en_20211216.pdf?did=22219&prodName=DF2S6.8FS"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SZMM3Z5V6ST1G/3063165"
 			(at 118.11 54.61 0)
 			(hide yes)
 			(show_name no)
