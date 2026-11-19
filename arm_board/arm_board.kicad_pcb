@@ -695,7 +695,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 0 -1.5 0)
+			(at 2.918 -0.116 0)
 			(layer "F.SilkS")
 			(uuid "1626937f-16ac-453d-b411-f9e56c210c42")
 			(effects
@@ -2138,7 +2138,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 4.9 -4.6 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "574eba73-34f3-4330-be65-943436edaf02")
 			(effects
@@ -5090,7 +5090,7 @@
 		(at 143.5 117 -90)
 		(tags "TPC8132_LQS ")
 		(property "Reference" "MOSFET1"
-			(at 0 0 270)
+			(at -1.938 -6.868 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6b6b51a0-59fd-44f9-97b8-c4002821608e")
@@ -17132,7 +17132,7 @@
 	(footprint "MRDT_Silkscreens:0_MRDT_Logo_10mm"
 		(layer "F.Cu")
 		(uuid "b85d6320-9d74-48cb-b8cf-e2a7e9745094")
-		(at 124.94 57.97)
+		(at 122.682 57.97)
 		(tags "Logo, MRDT")
 		(property "Reference" "G***"
 			(at -1.143 6.4008 0)
@@ -32049,32 +32049,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "+"
-		(at 148.463 128.397 0)
-		(layer "F.SilkS")
-		(uuid "19f065a8-ac98-43a4-9563-2a9ea62cfb2a")
-		(effects
-			(font
-				(size 0.508 0.508)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+"
-		(at 148.463 139.299648 0)
-		(layer "F.SilkS")
-		(uuid "9b688d02-2617-4f5d-a969-217107599a9e")
-		(effects
-			(font
-				(size 0.508 0.508)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "SDA"
 		(at 106.172 80.772 90)
 		(layer "F.SilkS")
@@ -32317,32 +32291,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "-"
-		(at 154.559 128.416352 90)
-		(layer "F.SilkS")
-		(uuid "514802ff-e4ec-4717-a725-dd31c09643cb")
-		(effects
-			(font
-				(size 0.508 0.508)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "-"
-		(at 154.559 139.319 90)
-		(layer "F.SilkS")
-		(uuid "f6427685-7e4e-47dc-bbe9-68d5ca300775")
-		(effects
-			(font
-				(size 0.508 0.508)
-				(thickness 0.127)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "L"
 		(at 111.506 147.32 180)
 		(layer "F.SilkS")
@@ -32380,22 +32328,43 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CAN A"
-		(at 110 61.214 0)
+	(gr_text "3V3"
+		(at 138.938 99.949 90)
 		(layer "F.SilkS")
-		(uuid "39aa3d67-7400-450d-b20e-80010bc68f3f")
+		(uuid "36b6332a-1679-4f24-bc82-53a1eb5a4be7")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
-	(gr_text "Arm Board 2027 rev_1 \nEthan Palmer, Aiden Brooks,\nMax Thering,"
-		(at 134.112 58.42 0)
+	(gr_text "5V"
+		(at 138.938 102.87 90)
 		(layer "F.SilkS")
-		(uuid "a8e82240-a2a2-4d91-9e8b-b4e138e8e6c9")
+		(uuid "439fedbf-bf8e-4481-a99e-e90fa1222a30")
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24V"
+		(at 138.938 106.426 90)
+		(layer "F.SilkS")
+		(uuid "e9d2e543-11eb-4b51-bdf5-bdb5120bcc09")
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAN A"
+		(at 110 61.214 0)
+		(layer "F.SilkS")
+		(uuid "39aa3d67-7400-450d-b20e-80010bc68f3f")
 		(effects
 			(font
 				(size 1 1)
@@ -32572,42 +32541,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "3V3"
-		(at 138.938 99.949 90)
-		(layer "F.SilkS")
-		(uuid "36b6332a-1679-4f24-bc82-53a1eb5a4be7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "5V"
-		(at 138.938 102.87 90)
-		(layer "F.SilkS")
-		(uuid "439fedbf-bf8e-4481-a99e-e90fa1222a30")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "24V"
-		(at 138.938 106.426 90)
-		(layer "F.SilkS")
-		(uuid "e9d2e543-11eb-4b51-bdf5-bdb5120bcc09")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "24V"
 		(at 158.623 112.522 90)
 		(layer "F.SilkS" knockout)
@@ -32680,6 +32613,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Arm Board 2027 rev_1 \nEthan Palmer, Aiden Brooks,\nMax Thering,"
+		(at 129.286 60.198 0)
+		(layer "F.SilkS")
+		(uuid "a8e82240-a2a2-4d91-9e8b-b4e138e8e6c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SERVO"
 		(at 141 95 0)
 		(layer "F.SilkS")
@@ -32727,6 +32671,54 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 146.812 128.016 0)
+		(layer "F.SilkS")
+		(uuid "19f065a8-ac98-43a4-9563-2a9ea62cfb2a")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 147.066 139.192 0)
+		(layer "F.SilkS")
+		(uuid "9b688d02-2617-4f5d-a969-217107599a9e")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 154.559 128.416352 90)
+		(layer "F.SilkS")
+		(uuid "514802ff-e4ec-4717-a725-dd31c09643cb")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 155.448 139.7 90)
+		(layer "F.SilkS")
+		(uuid "f6427685-7e4e-47dc-bbe9-68d5ca300775")
+		(effects
+			(font
+				(size 2.54 2.54)
 				(bold yes)
 			)
 			(justify left bottom)
