@@ -3121,8 +3121,8 @@
 				)
 			)
 		)
-		(property "Value" "DF2S6.8FS,L3M"
-			(at 0 0 0)
+		(property "Value" "SZMM3Z5V6ST1G"
+			(at 2.1844 -1.4732 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e0ca743b-daeb-4076-903e-d0703435ad38")
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/DF2S6.8FS_datasheet_en_20211216.pdf?did=22219&prodName=DF2S6.8FS"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SZMM3Z5V6ST1G/3063165"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
